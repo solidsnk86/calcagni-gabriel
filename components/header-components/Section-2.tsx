@@ -20,7 +20,7 @@ export const Section_2 = ({ visits }: { visits: number | string }) => {
         },
         {
           name: "Visitas",
-          quantity: visits,
+          quantity: !visits ? (visits = 0) : visits,
           icon: <Eye className="inline w-4 h-5 mr-1 text-violet-400" />,
         },
         {

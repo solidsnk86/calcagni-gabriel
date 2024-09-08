@@ -11,31 +11,23 @@ import { supabase } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
 import { GetLocation } from "./GetLocation";
 
-export default function Main({
-  city,
-  country,
-  flag,
-  latitude,
-  longitude,
-}: {
-  city?: string;
-  country?: string;
-  flag?: string;
-  longitude?: string | number;
-  latitude?: string | number;
-}) {
+export default function Main() {
   const mobile = useMatchMedia("(max-width: 700px)", false);
   const isClient = useIsClient();
   const [comments, setComments] = useState<any>([]);
   const [location, setLocation] = useState<any>({});
 
   const fetchComments = async () => {
-    const { data, error } = await supabase.from("comments").select("*");
+    try {
+      const { data, error } = await supabase.from("comments").select("*");
 
-    if (error) {
-      console.error("Error to get data from database", error.message);
+      if (error) {
+        console.error("Error to get data from database", error.message);
+      }
+      setComments(data);
+    } catch (error) {
+      console.error("Error", error);
     }
-    setComments(data);
   };
 
   const getLocation = async () => {
@@ -44,10 +36,12 @@ export default function Main({
       city: await GetLocation.city(),
       country: await GetLocation.country(),
       flag: await GetLocation.flag(),
+      latitude: await GetLocation.latitude(),
+      longitude: await GetLocation.longitude(),
     };
     setLocation(dataLocation);
   };
-  console.log(location);
+
   useEffect(() => {
     fetchComments();
     getLocation();
@@ -70,11 +64,11 @@ export default function Main({
                 className={mobile ? "w-[100%]" : "w-[70%]"}
               />
               <Section_4
-                city={city}
-                country={country}
-                flag={flag}
-                latitude={latitude}
-                longitude={longitude}
+                city={location.city}
+                country={location.country}
+                flag={location.flag}
+                latitude={location.latitude}
+                longitude={location.longitude}
                 className={mobile ? "w-[100%]" : "w-[30%]"}
               />
             </div>

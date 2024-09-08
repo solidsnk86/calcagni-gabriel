@@ -273,6 +273,7 @@
   .footer-menu {
     position: fixed;
     backdrop-filter: blur(5px);
+    color: white;
     padding: 4px 10px;
     border-radius: 50px;
     top: 24px;
