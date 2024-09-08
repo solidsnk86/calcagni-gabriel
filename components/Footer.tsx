@@ -13,7 +13,7 @@ export const Footer = ({ className }: { className?: string }) => {
       >
         SolidSnk86 &copy; 2024
       </a>
-      <aside className="flex gap-3 font-medium bg-violet-400/40 fixed top-6 rounded-full px-2 py-1">
+      <aside className="flex gap-3 font-medium footer-menu">
         {[
           { name: "Inicio", link: "/" },
           { name: "Trabajos", link: "/works" },
