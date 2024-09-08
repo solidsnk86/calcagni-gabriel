@@ -1,44 +1,47 @@
-import NextLogo from "./NextLogo";
-import SupabaseLogo from "./SupabaseLogo";
+"use client";
 
-export default function Header() {
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import { useIsClient } from "@/app/hooks/useIsClient";
+import useMatchMedia from "@/app/hooks/useMatchMedia";
+import { Section_4 } from "./header-components/Section-4";
+import { Section_3 } from "./header-components/Section-3";
+import { Section_2 } from "./header-components/Section-2";
+import { Section_1 } from "./header-components/Section-1";
+
+export default function Header({ visits }: { visits: number | string }) {
+  const isClient = useIsClient();
+  const mobile = useMatchMedia("(max-width: 700px)", false);
+
   return (
-    <div className="flex flex-col gap-16 items-center">
-      <div className="flex gap-8 justify-center items-center">
-        <a
-          href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
-          target="_blank"
-          rel="noreferrer"
+    <>
+      {isClient && (
+        <ResponsiveMasonry
+          columnsCountBreakPoints={{ 400: 1, 700: 1, 900: 2 }}
+          className="my-4"
         >
-          <SupabaseLogo />
-        </a>
-        <span className="border-l rotate-45 h-6" />
-        <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-          <NextLogo />
-        </a>
-      </div>
-      <h1 className="sr-only">Supabase and Next.js Starter Template</h1>
-      <p className="text-3xl lg:text-4xl !leading-tight mx-auto max-w-xl text-center">
-        The fastest way to build apps with{" "}
-        <a
-          href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
-          target="_blank"
-          className="font-bold hover:underline"
-          rel="noreferrer"
-        >
-          Supabase
-        </a>{" "}
-        and{" "}
-        <a
-          href="https://nextjs.org/"
-          target="_blank"
-          className="font-bold hover:underline"
-          rel="noreferrer"
-        >
-          Next.js
-        </a>
-      </p>
-      <div className="w-full p-[1px] bg-gradient-to-r from-transparent via-foreground/10 to-transparent my-8" />
-    </div>
+          {mobile ? (
+            <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>
+              <Section_4 />
+
+              <Section_2 visits={visits} />
+
+              <Section_3 />
+
+              <Section_1 />
+            </Masonry>
+          ) : (
+            <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>
+              <Section_1 />
+
+              <Section_2 visits={visits} />
+
+              <Section_3 />
+
+              <Section_4 />
+            </Masonry>
+          )}
+        </ResponsiveMasonry>
+      )}
+    </>
   );
 }

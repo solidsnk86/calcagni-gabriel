@@ -4,10 +4,11 @@
 
 @layer base {
   :root {
-    --background: 200 20% 98%;
+    --background: 200 20% 20%;
     --btn-background: 200 10% 91%;
     --btn-background-hover: 200 10% 89%;
     --foreground: 200 50% 3%;
+    --card-background: 200 10% 12%;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -16,8 +17,252 @@
       --btn-background: 200 10% 9%;
       --btn-background-hover: 200 10% 12%;
       --foreground: 200 20% 96%;
+      --card-background: 200 10% 12%;
     }
   }
+}
+
+/*
+* HEADER / SECTION_1
+*/
+
+.stack {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+.arrow-right {
+  opacity: 0;
+}
+
+.section-1-btn:hover .arrow-right {
+  opacity: 1;
+  animation: arrow-rotate 0.6s both;
+  transition: opacity 1s all;
+}
+
+@keyframes arrow-rotate {
+  to {
+    transform: rotate(-45deg);
+  }
+}
+
+.avaliable-dot {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 4px;
+  width: 5px;
+  height: 5px;
+  background-color: limegreen;
+  border-radius: 100%;
+}
+
+.avaliable-dot::before {
+  content: "";
+  position: absolute;
+  left: calc(1px - 1px);
+  top: calc(1px - 1px);
+  padding: 4px;
+  width: 5px;
+  height: 5px;
+  background-color: limegreen;
+  border-radius: 100%;
+  filter: drop-shadow(0 0 10px limegreen);
+  animation: ping 5s infinite;
+}
+
+/*
+* HEADER / SECTION_3
+*/
+
+.shadow-left {
+  position: absolute;
+  background: linear-gradient(
+    to right,
+    rgba(12, 12, 12, 0.85),
+    rgba(12, 12, 12, 0.5),
+    transparent
+  );
+  width: 25px;
+  height: 100%;
+  top: 0px;
+  left: 0;
+  filter: drop-shadow(0 0 10px #101112);
+}
+
+.shadow-right {
+  position: absolute;
+  background: linear-gradient(
+    to left,
+    rgba(12, 12, 12, 0.85),
+    rgba(12, 12, 12, 0.5),
+    transparent
+  );
+  width: 25px;
+  height: 100%;
+  top: 0px;
+  right: 0;
+  filter: drop-shadow(0 0 10px #101112);
+}
+
+/*
+* SECTION_3 / MAIN
+*/
+
+.shadow-top {
+  position: absolute;
+  background: linear-gradient(
+    to bottom,
+    rgba(12, 12, 12, 0.85),
+    rgba(12, 12, 12, 0.5),
+    transparent
+  );
+  width: 100%;
+  height: 25px;
+  top: 0;
+  left: 0;
+  filter: drop-shadow(0 0 10px #101112);
+}
+
+.shadow-bottom {
+  position: absolute;
+  background: linear-gradient(
+    to top,
+    rgba(12, 12, 12, 0.85),
+    rgba(12, 12, 12, 0.5),
+    transparent
+  );
+  width: 100%;
+  height: 25px;
+  bottom: 0;
+  left: 0;
+  filter: drop-shadow(0 0 10px #101112);
+}
+
+.work-arrow-icon-1,
+.work-arrow-icon-2 {
+  transform: translate(0, 0) rotate(-45deg);
+  transition: transform 0.5s ease;
+}
+
+.work-arrow-icon-2 {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+}
+
+.work-icon-hover:hover .work-arrow-icon-1 {
+  transform: translate(20px, -25px) rotate(-45deg);
+}
+
+.work-icon-hover:hover .work-arrow-icon-2 {
+  transform: translate(18px, -18px) rotate(-45deg);
+}
+
+/*
+* HEADER / SECTION_4
+*/
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.fancy-button {
+  --color: #131315;
+  --radius: 10px;
+  --rotate: 90deg;
+  --animation-duration: 0s;
+  --inset: 1px;
+  border-radius: var(--radius);
+  background: var(--color);
+  color: white;
+  font-weight: 500;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s all;
+}
+
+.fancy-button:hover {
+  filter: brightness(125%);
+}
+
+.fancy-button .fancy {
+  position: absolute;
+  inset: 0;
+}
+
+.fancy-button:hover .fancy:before {
+  content: "";
+  background: conic-gradient(
+    from var(--rotate),
+    transparent 0%,
+    #747474 15%,
+    transparent 10%
+  );
+  position: absolute;
+  inset: 0;
+  animation: rotate var(--animation-duration) infinite;
+  animation-timing-function: cubic-bezier(0, 0, 0.75, 0.55);
+}
+
+.fancy-button .fancy:after {
+  content: "";
+  background-color: var(--color);
+  position: absolute;
+  inset: var(--inset);
+  border-radius: calc(var(--radius) - 2px);
+}
+
+.fancy-button .text {
+  position: relative;
+}
+
+@keyframes rotate {
+  to {
+    --rotate: 360deg;
+  }
+}
+
+.proyects-hover {
+  filter: grayscale(80%);
+  transition: all 0.3s;
+}
+.proyects-hover:hover {
+  filter: grayscale(20%);
+}
+
+/*
+* PAGE 404 
+*/
+
+.text-404 {
+  background-image: linear-gradient(to top, transparent, #757575, #b0b0b0);
+  background-clip: text;
+  color: transparent;
+}
+
+.b-404 {
+  outline: 4px solid #3939399e;
+  backdrop-filter: blur(5px);
+}
+.b-404:hover {
+  background-color: #9b9b9b20;
+}
+
+.effect-1 {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(225, 188, 95);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 100px violet) blur(35px);
+  z-index: -1;
 }
 
 @layer base {
