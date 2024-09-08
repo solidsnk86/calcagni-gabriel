@@ -9,6 +9,7 @@ import { Section_3 } from "./main-section/Section-3";
 import { Section_4 } from "./main-section/Section-4";
 import { supabase } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
+import { GetLocation } from "./GetLocation";
 
 export default function Main({
   city,
@@ -26,6 +27,7 @@ export default function Main({
   const mobile = useMatchMedia("(max-width: 700px)", false);
   const isClient = useIsClient();
   const [comments, setComments] = useState<any>([]);
+  const [location, setLocation] = useState<any>({});
 
   const fetchComments = async () => {
     const { data, error } = await supabase.from("comments").select("*");
@@ -36,8 +38,19 @@ export default function Main({
     setComments(data);
   };
 
+  const getLocation = async () => {
+    const dataLocation = {
+      ip: await GetLocation.ip(),
+      city: await GetLocation.city(),
+      country: await GetLocation.country(),
+      flag: await GetLocation.flag(),
+    };
+    setLocation(dataLocation);
+  };
+  console.log(location);
   useEffect(() => {
     fetchComments();
+    getLocation();
   }, []);
 
   return (

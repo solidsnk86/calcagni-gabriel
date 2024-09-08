@@ -3,19 +3,16 @@ import { api } from "./constants";
 export class GetLocation {
   static async fetchData() {
     try {
-      const res = await fetch(api.url, {
-        headers: api.headers,
-        method: api.method,
-      });
+      const res = await fetch(api.url);
       const data = await res.json();
 
       if (!res.ok) {
-        console.error("Error to fetch data location", res.statusText);
+        console.error("Error to get data from api:", res.statusText);
       }
 
       return data;
     } catch (error) {
-      console.error("Error to get data:", error);
+      console.error("Error:", error);
     }
   }
 
