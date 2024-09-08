@@ -272,7 +272,6 @@
 @media (width < 700px) {
   .footer-menu {
     position: fixed;
-    background-color: rgba(238, 130, 238, 0.318);
     backdrop-filter: blur(5px);
     padding: 4px 10px;
     border-radius: 50px;
