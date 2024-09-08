@@ -1,6 +1,6 @@
 export const api = {
   url: "https://geolocation.microlink.io",
-  header: {
+  headers: {
     "Content-Type": "application/json",
   },
   method: "GET",

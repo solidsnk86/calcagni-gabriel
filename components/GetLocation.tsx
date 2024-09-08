@@ -1,7 +1,12 @@
+import { api } from "./constants";
+
 export class GetLocation {
   static async fetchData() {
     try {
-      const res = await fetch("https://geolocation.microlink.io");
+      const res = await fetch(api.url, {
+        headers: api.headers,
+        method: api.method,
+      });
       const data = await res.json();
 
       if (!res.ok) {
