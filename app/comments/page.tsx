@@ -70,9 +70,11 @@ export default async function Comments() {
           fullName={user.user_metadata.full_name}
           avatar={user.user_metadata.avatar_url}
         />
-        <h1 className="text-center text-xl font-semibold my-4">
-          Últimos comentario
-        </h1>
+        {data && data.length > 0 ? (
+          <h1 className="text-center text-xl font-semibold my-4">
+            Últimos comentario
+          </h1>
+        ) : null}
         <div className="flex flex-col justify-center mx-auto">
           {data &&
             data.map((comment) => (
