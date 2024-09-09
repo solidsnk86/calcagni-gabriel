@@ -34,17 +34,6 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
     resolver: zodResolver(formSchema),
   });
 
-  const getData = async () => {
-    const { data, error } = await supabase
-      .from("comments")
-      .select("*")
-      .eq("user_name", userName);
-    if (error) {
-      console.error("Error to get data", error.message);
-    }
-    return data;
-  };
-
   const formSubmit = async (formData: FormData) => {
     const { error } = await supabase.from("comments").insert([
       {
@@ -62,7 +51,6 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
       console.error("Failed to submit comment:", error);
     }
 
-    await getData();
     reset();
   };
 
