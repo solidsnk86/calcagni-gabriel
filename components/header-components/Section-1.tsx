@@ -7,7 +7,7 @@ import Link from "next/link";
 import useMatchMedia from "@/app/hooks/useMatchMedia";
 
 export const Section_1 = () => {
-  const mobile = useMatchMedia("(max-width: 375px)", false);
+  const mobile = useMatchMedia("(max-width: 700px)", false);
   return (
     <section className="border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl h-[50%]">
       <header className="text-center">

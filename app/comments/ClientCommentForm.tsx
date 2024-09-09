@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import React, { useState } from "react";
 import { GetLocation } from "@/components/GetLocation";
+import { ClientFormTypes } from "@/app/types/types";
 
 const formSchema = z.object({
   comment: z
@@ -18,14 +19,11 @@ const formSchema = z.object({
 
 type FormData = z.infer<typeof formSchema>;
 
-export const ClientCommentForm = ({
+export const ClientCommentForm: React.FC<ClientFormTypes> = ({
   userName,
   fullName,
   avatar,
-}: {
-  userName: string;
-  fullName: string;
-  avatar: string;
+  onRefresh,
 }) => {
   const {
     reset,
@@ -35,6 +33,17 @@ export const ClientCommentForm = ({
   } = useForm<FormData>({
     resolver: zodResolver(formSchema),
   });
+
+  const getData = async () => {
+    const { data, error } = await supabase
+      .from("comments")
+      .select("*")
+      .eq("user_name", userName);
+    if (error) {
+      console.error("Error to get data", error.message);
+    }
+    return data;
+  };
 
   const formSubmit = async (formData: FormData) => {
     const { error } = await supabase.from("comments").insert([
@@ -53,6 +62,7 @@ export const ClientCommentForm = ({
       console.error("Failed to submit comment:", error);
     }
 
+    await getData();
     reset();
   };
 

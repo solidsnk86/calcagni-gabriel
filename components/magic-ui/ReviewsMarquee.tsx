@@ -1,9 +1,9 @@
 import { Marquee } from "@/components/magic-ui/Marquee";
 import { Format } from "../Format";
 import Link from "next/link";
-import { supabase } from "@/utils/supabase/client";
 import React from "react";
 import { ReviewsMarqueeTypes } from "@/app/types/types";
+import { DeleteButton } from "../DeleteBtn";
 
 export const ReviewCard: React.FC<ReviewsMarqueeTypes> = ({
   id,
@@ -13,20 +13,13 @@ export const ReviewCard: React.FC<ReviewsMarqueeTypes> = ({
   country,
   createdAt,
   comment,
+  trash,
+  onDelete,
 }) => {
-  async function handleDelete(id: string | number) {
-    const { error } = await supabase.from("comments").delete().eq("id", id);
-
-    if (error) {
-      console.error("Error at delete gossip from database:", error.message);
-      return;
-    }
-  }
-
   return (
     <div
       id={`comment-${id}`}
-      className="flex flex-col md:max-w-lg max-w-xs space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative mt-4"
+      className="flex flex-col md:max-w-lg max-w-xs w-[320px] md:w-[512px] space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative mt-4"
     >
       <header className="flex gap-[10px] items-center border-b border-foreground/10 dark:border-zinc-800 p-3">
         <img
@@ -43,6 +36,9 @@ export const ReviewCard: React.FC<ReviewsMarqueeTypes> = ({
           </small>
         </aside>
         <small className="flex absolute right-3 text-zinc-400">
+          {trash ? (
+            <DeleteButton id={id} onDelete={() => onDelete && onDelete(id)} />
+          ) : null}
           {createdAt as number}
         </small>
       </header>

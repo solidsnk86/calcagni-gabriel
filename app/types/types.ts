@@ -45,10 +45,11 @@ export type Setcion_4Props = {
 };
 
 /**
- * Reviews Comp Types
+ * Reviews Component Types
  */
 
 export type ReviewsMarqueeTypes = {
+  data?: string | Promise<void>;
   id: string | number;
   avatarUrl: string;
   fullName: string;
@@ -57,4 +58,25 @@ export type ReviewsMarqueeTypes = {
   createdAt: string | number | Date;
   comment: string;
   trash?: boolean;
+  onDelete?: (id: string | number) => void;
+};
+
+/**
+ * Reviews Client Component
+ */
+
+export type ReviewsClientTypes = {
+  data: any | Promise<any>;
+  onDelete?: (id: string | number) => void;
+};
+
+/**
+ * Form Client Types
+ */
+
+export type ClientFormTypes = {
+  userName: string;
+  fullName: string;
+  avatar: string;
+  onRefresh?: () => Promise<any>;
 };

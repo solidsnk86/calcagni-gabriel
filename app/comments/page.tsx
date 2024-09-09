@@ -3,8 +3,7 @@ import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
 import { ClientCommentForm } from "./ClientCommentForm";
 import Link from "next/link";
-import { ReviewCard } from "@/components/magic-ui/ReviewsMarquee";
-import { Format } from "@/components/Format";
+import { ReviewClientCard } from "./ReviewClientCard";
 
 export default async function Comments() {
   const supabase = createClient();
@@ -30,7 +29,13 @@ export default async function Comments() {
       <div className="w-full">
         <nav className="w-full flex h-16">
           <div className="w-full flex justify-between items-center p-3 text-sm">
-            <img src="/logo.png" alt="Logo" width={45} height={45} />
+            <img
+              src="/logo.png"
+              alt="Logo"
+              width={45}
+              height={45}
+              className="mb-2"
+            />
             <AuthButton />
           </div>
         </nav>
@@ -72,24 +77,11 @@ export default async function Comments() {
         />
         {data && data.length > 0 ? (
           <h1 className="text-center text-xl font-semibold my-4">
-            Últimos comentario
+            Últimos comentarios
           </h1>
         ) : null}
         <div className="flex flex-col justify-center mx-auto">
-          {data &&
-            data.map((comment) => (
-              <ReviewCard
-                id={comment.id}
-                key={comment.id}
-                avatarUrl={comment.avatar_url}
-                fullName={comment.full_name}
-                city={comment.city}
-                country={comment.country}
-                createdAt={Format.formatDate(comment.created_at)}
-                comment={comment.message}
-                trash
-              />
-            ))}
+          <ReviewClientCard data={data} />
         </div>
       </main>
 
