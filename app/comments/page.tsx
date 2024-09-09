@@ -3,6 +3,8 @@ import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
 import { ClientCommentForm } from "./ClientCommentForm";
 import Link from "next/link";
+import { ReviewCard } from "@/components/magic-ui/ReviewsMarquee";
+import { Format } from "@/components/Format";
 
 export default async function Comments() {
   const supabase = createClient();
@@ -15,11 +17,17 @@ export default async function Comments() {
     return redirect("/login");
   }
 
+  const { data, error } = await supabase.from("comments").select("*");
+  if (error) {
+    console.error("Error to get data", error.message);
+  }
+
   return (
     <div className="flex-1 w-full flex flex-col gap-20 items-center">
       <div className="w-full">
         <nav className="w-full flex h-16">
-          <div className="w-full flex justify-start items-center p-3 text-sm">
+          <div className="w-full flex justify-between items-center p-3 text-sm">
+            <img src="/logo.png" alt="Logo" width={45} height={45} />
             <AuthButton />
           </div>
         </nav>
@@ -59,6 +67,23 @@ export default async function Comments() {
           fullName={user.user_metadata.full_name}
           avatar={user.user_metadata.avatar_url}
         />
+        <h1 className="text-center text-xl font-semibold my-4">
+          Últimos comentario
+        </h1>
+        {data &&
+          data.map((comment) => (
+            <ReviewCard
+              id={comment.id}
+              key={comment.id}
+              avatarUrl={comment.avatar_url}
+              fullName={comment.full_name}
+              city={comment.city}
+              country={comment.country}
+              createdAt={Format.formatDate(comment.created_at)}
+              comment={comment.message}
+              trash
+            />
+          ))}
       </main>
 
       <footer className="w-full p-8 justify-between text-center text-base text-zinc-400 flex">

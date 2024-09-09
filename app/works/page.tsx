@@ -13,7 +13,7 @@ export default function Works() {
   const mobile = useMatchMedia("(max-width: 700px)", false);
   return (
     isClient && (
-      <main className="w-full">
+      <main className="w-full md:pt-0 pt-20">
         <section className="flex flex-col flex-1 max-w-4xl justify-center mx-auto px-3">
           <div className="px-3 py-3 bg-zinc-900/50 border-foreground/5 border rounded-xl mt-5">
             <header className="text-center p-6">

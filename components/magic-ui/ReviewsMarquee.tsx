@@ -1,8 +1,11 @@
 import { Marquee } from "@/components/magic-ui/Marquee";
 import { Format } from "../Format";
 import Link from "next/link";
+import { Trash2 } from "lucide-react";
+import { supabase } from "@/utils/supabase/client";
 
-const ReviewCard = ({
+export const ReviewCard = ({
+  id,
   avatarUrl,
   fullName,
   city,
@@ -10,15 +13,29 @@ const ReviewCard = ({
   createdAt,
   comment,
 }: {
+  id: string | number;
   avatarUrl: string;
   fullName: string;
   city: string | any;
   country: string | any;
   createdAt: string | number | Date;
   comment: string;
+  trash?: boolean;
 }) => {
+  async function handleDelete(id: string | number) {
+    const { error } = await supabase.from("comments").delete().eq("id", id);
+
+    if (error) {
+      console.error("Error at delete gossip from database:", error.message);
+      return;
+    }
+  }
+
   return (
-    <div className="flex flex-col md:max-w-lg max-w-xs space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative mt-4">
+    <div
+      id={`comment-${id}`}
+      className="flex flex-col md:max-w-lg max-w-xs space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative mt-4"
+    >
       <header className="flex gap-[10px] items-center border-b border-foreground/10 dark:border-zinc-800 p-3">
         <img
           src={avatarUrl}
@@ -59,6 +76,7 @@ export const ReviewsMarquee = ({ data }: { data: any | Promise<void> }) => {
         <Marquee className="[--duration:20s]" animateY slice>
           {reviews.map((review) => (
             <ReviewCard
+              id={review.id}
               key={review.id}
               avatarUrl={review.avatar_url}
               fullName={review.full_name}
