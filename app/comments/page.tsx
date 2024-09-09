@@ -3,7 +3,6 @@ import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
 import { Footer } from "@/components/Footer";
 import { ClientCommentForm } from "./ClientCommentForm";
-import { GetLocation } from "@/components/GetLocation";
 
 export default async function Comments() {
   const supabase = createClient();
@@ -15,10 +14,6 @@ export default async function Comments() {
   if (!user) {
     return redirect("/login");
   }
-
-  const ip = await GetLocation.ip();
-  const city = await GetLocation.city();
-  const country = await GetLocation.country();
 
   return (
     <div className="flex-1 w-full flex flex-col gap-20 items-center">
@@ -55,14 +50,11 @@ export default async function Comments() {
           que, al hacerlo, uses un lenguaje respetuoso y profesional. Tus
           opiniones ayudan a mejorar mis servicios, así que te invito a
           compartirlas de manera clara y constructiva. ¡Muchas gracias por
-          tomarte el tiempo para evaluar mi trabajo desde! Saludos.-
+          tomarte el tiempo para evaluar mi trabajo! Saludos.-
           <p className="text-right">Gabriel Calcagni ツ</p>
         </div>
         <h2 className="font-bold text-2xl text-center mb-4">Comentarios</h2>
         <ClientCommentForm
-          ip={ip as string}
-          city={city as string}
-          country={country as string}
           userName={user.user_metadata.user_name}
           fullName={user.user_metadata.full_name}
           avatar={user.user_metadata.avatar_url}

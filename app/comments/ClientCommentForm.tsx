@@ -4,7 +4,8 @@ import { supabase } from "@/utils/supabase/client";
 import z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { GetLocation } from "@/components/GetLocation";
 
 const formSchema = z.object({
   comment: z
@@ -18,16 +19,10 @@ const formSchema = z.object({
 type FormData = z.infer<typeof formSchema>;
 
 export const ClientCommentForm = ({
-  ip,
-  city,
-  country,
   userName,
   fullName,
   avatar,
 }: {
-  ip: string | number;
-  city: string;
-  country: string;
   userName: string;
   fullName: string;
   avatar: string;
@@ -44,9 +39,9 @@ export const ClientCommentForm = ({
   const handleFormSubmit = async (formData: FormData) => {
     const { error } = await supabase.from("comments").insert([
       {
-        ip: ip,
-        city: city,
-        country: country,
+        ip: await GetLocation.ip(),
+        city: await GetLocation.city(),
+        country: await GetLocation.country(),
         message: formData.comment,
         user_name: userName,
         full_name: fullName,
@@ -59,6 +54,10 @@ export const ClientCommentForm = ({
     }
 
     reset();
+  };
+
+  const getLocation = async () => {
+    const dataLocation = {};
   };
 
   const MAX_CHAR = 260;
