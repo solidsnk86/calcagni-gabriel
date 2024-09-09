@@ -1,13 +1,21 @@
 import { Eye, Flag, Sparkles } from "lucide-react";
 import Masonry from "react-responsive-masonry";
 
-export const Section_2 = ({ visits }: { visits: number | string }) => {
+export const Section_2 = ({ visits }: { visits: number | string | any }) => {
   const getExperienceYears = (currentDate: Date = new Date()): number => {
     const startDate = new Date(2023, 1, 26);
     const diffTime = currentDate.getTime() - startDate.getTime();
     const diffYears = diffTime / (1000 * 60 * 60 * 24 * 365.25);
 
     return Math.max(0, Number(diffYears.toFixed(1)));
+  };
+
+  const handleVisitsNumber = (num: number | string | any) => {
+    if (visits >= 1000) {
+      const formatVisits = (visits / 1000).toFixed(1);
+      return formatVisits.replace(/.0/, "") + "K";
+    }
+    return visits;
   };
 
   return (
@@ -20,7 +28,9 @@ export const Section_2 = ({ visits }: { visits: number | string }) => {
         },
         {
           name: "Visitas",
-          quantity: !visits ? (visits = 0) : visits,
+          quantity: !visits
+            ? (visits = 0)
+            : handleVisitsNumber(visits as string),
           icon: <Eye className="inline w-4 h-5 mr-1 text-violet-400" />,
         },
         {
