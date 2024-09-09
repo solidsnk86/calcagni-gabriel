@@ -9,7 +9,7 @@ export const Footer = ({ className }: { className?: string }) => {
         href="https://github.com/solidsnk86"
         target="_blank"
         rel="noreferrer"
-        className="md:flex hidden hover:brightness-150 transition-all duration-300"
+        className="md:flex hover:brightness-150 transition-all duration-300"
       >
         SolidSnk86 &copy; 2024
       </a>
@@ -19,8 +19,9 @@ export const Footer = ({ className }: { className?: string }) => {
           { name: "Trabajos", link: "/works" },
           { name: "Comentar", link: "/comments" },
           { name: "404", link: "/404" },
-        ].map((link) => (
+        ].map((link, index) => (
           <Link
+            key={index}
             href={link.link}
             className="hover:opacity-60 transition-all duration-300"
           >

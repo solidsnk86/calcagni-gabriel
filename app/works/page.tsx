@@ -33,31 +33,37 @@ export default function Works() {
                   {
                     name: "ChismeApp",
                     url: "https://gossip-app.vercel.app/",
+                    image: "/Portada-ChismeApp.png",
                     type: "Social",
                   },
                   {
                     name: "SolidSnk86",
                     url: "https://portfolio-mgc.vercel.app/",
+                    image: "/Portada-Portfolio-Solid.png",
                     type: "Portfolio",
                   },
                   {
                     name: "NeoTecs",
                     url: "https://neotecs.vercel.app/",
+                    image: "/Portada-NeoTecs.png",
                     type: "Documentación Web",
                   },
                   {
                     name: "Web LLM IA",
                     url: "https://solidsnk86.github.io/web-Llm-local/",
+                    image: "/Portada-Web-LLM-AI.png",
                     type: "GPT Chat",
                   },
                   {
                     name: "Gerardo",
                     url: "https://cv-gec.vercel.app/",
+                    image: "/Portada-CV-Gerardo.png",
                     type: "Portfolio",
                   },
                   {
                     name: "Facturador Web",
                     url: "https://solidsnk86.github.io/formularioWeb/",
+                    image: "/Portada-Formulario-Web.png",
                     type: "Facturación",
                   },
                 ].map((proyect, index) => (
@@ -68,7 +74,7 @@ export default function Works() {
                     className="relative p-3 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl text-left border border-foreground/5 work-icon-hover"
                   >
                     <img
-                      src={proyect.url}
+                      src={proyect.image}
                       className="rounded-xl aspect-auto grayscale hover:grayscale-0 transition-all duration-500"
                       width="100%"
                       height={100}
