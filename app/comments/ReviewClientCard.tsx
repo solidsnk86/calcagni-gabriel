@@ -1,11 +1,11 @@
 "use client";
 
 import { ReviewCard } from "@/components/magic-ui/ReviewsMarquee";
-import { ReviewsClientTypes } from "../types/types";
+import { ReviewsClientProps } from "../types/types";
 import React from "react";
 import { Format } from "@/components/Format";
 
-export const ReviewClientCard: React.FC<ReviewsClientTypes> = ({
+export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
   data,
   onDelete,
 }) => {

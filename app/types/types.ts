@@ -1,6 +1,15 @@
 import { CSSProperties, ReactNode } from "react";
 
 /**
+ * AuthButton Props
+ */
+
+export type AuthButtonProps = {
+  user: string | any;
+  signOut: () => Promise<void>;
+};
+
+/**
  * UI Elements Interface
  */
 
@@ -26,7 +35,7 @@ export interface FancyButtonProps {
 }
 
 /**
- * Main Section Types
+ * Main Section Props
  */
 
 export type Section_3Props = {
@@ -48,7 +57,7 @@ export type Setcion_4Props = {
  * Reviews Component Types
  */
 
-export type ReviewsMarqueeTypes = {
+export type ReviewsMarqueeProps = {
   data?: string | Promise<void>;
   id: string | number;
   avatarUrl: string;
@@ -62,10 +71,10 @@ export type ReviewsMarqueeTypes = {
 };
 
 /**
- * Reviews Client Component
+ * Reviews Client Component Types
  */
 
-export type ReviewsClientTypes = {
+export type ReviewsClientProps = {
   data: any | Promise<any>;
   onDelete?: (id: string | number) => void;
 };
@@ -74,9 +83,18 @@ export type ReviewsClientTypes = {
  * Form Client Types
  */
 
-export type ClientFormTypes = {
+export type ClientFormProps = {
   userName: string;
   fullName: string;
   avatar: string;
   onRefresh?: () => Promise<any>;
+};
+
+/**
+ * Delete Button Types
+ */
+
+export type DeleteButtonProps = {
+  id: string | number;
+  onDelete: () => void;
 };

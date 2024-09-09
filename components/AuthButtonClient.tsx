@@ -2,11 +2,7 @@
 
 import { LogOut } from "lucide-react";
 import React from "react";
-
-type AuthButtonProps = {
-  user: string | any;
-  signOut: () => Promise<void>;
-};
+import { AuthButtonProps } from "@/app/types/types";
 
 export const AuthButtonClient: React.FC<AuthButtonProps> = ({
   signOut,

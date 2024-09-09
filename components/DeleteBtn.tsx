@@ -3,11 +3,7 @@
 import React from "react";
 import { Trash } from "lucide-react";
 import { supabase } from "@/utils/supabase/client";
-
-type DeleteButtonProps = {
-  id: string | number;
-  onDelete: () => void;
-};
+import { DeleteButtonProps } from "@/app/types/types";
 
 export const DeleteButton: React.FC<DeleteButtonProps> = ({ id, onDelete }) => {
   async function handleDelete(id: string | number) {

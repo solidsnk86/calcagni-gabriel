@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import React, { useState } from "react";
 import { GetLocation } from "@/components/GetLocation";
-import { ClientFormTypes } from "@/app/types/types";
+import { ClientFormProps } from "@/app/types/types";
 
 const formSchema = z.object({
   comment: z
@@ -19,7 +19,7 @@ const formSchema = z.object({
 
 type FormData = z.infer<typeof formSchema>;
 
-export const ClientCommentForm: React.FC<ClientFormTypes> = ({
+export const ClientCommentForm: React.FC<ClientFormProps> = ({
   userName,
   fullName,
   avatar,
