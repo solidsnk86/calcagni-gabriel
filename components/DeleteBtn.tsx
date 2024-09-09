@@ -2,7 +2,6 @@
 
 import React from "react";
 import { Trash } from "lucide-react";
-import { supabase } from "@/utils/supabase/client";
 import { DeleteButtonProps } from "@/app/types/types";
 import { handleDelete } from "@/app/lib/actions";
 
