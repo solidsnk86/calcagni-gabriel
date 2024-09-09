@@ -36,7 +36,7 @@ export const ClientCommentForm = ({
     resolver: zodResolver(formSchema),
   });
 
-  const handleFormSubmit = async (formData: FormData) => {
+  const formSubmit = async (formData: FormData) => {
     const { error } = await supabase.from("comments").insert([
       {
         ip: await GetLocation.ip(),
@@ -56,10 +56,6 @@ export const ClientCommentForm = ({
     reset();
   };
 
-  const getLocation = async () => {
-    const dataLocation = {};
-  };
-
   const MAX_CHAR = 260;
   let [char, setChar] = useState(MAX_CHAR);
   const [wordsCount, setWordsCount] = useState(0);
@@ -71,7 +67,7 @@ export const ClientCommentForm = ({
   };
 
   return (
-    <form onSubmit={handleSubmit(handleFormSubmit)} className="grid w-full">
+    <form onSubmit={handleSubmit(formSubmit)} className="grid w-full">
       <textarea
         id="textarea"
         className="bg-zinc-900/50 rounded-md p-2 w-full border border-foreground/5 my-4 resize-none focus:outline-violet-400"
@@ -86,9 +82,6 @@ export const ClientCommentForm = ({
               textarea.style.height = "auto";
               textarea.style.height = textarea.scrollHeight + "px";
             });
-            if (textarea.textContent === "") {
-              char = 0;
-            }
           }
         }}
       ></textarea>
@@ -104,12 +97,12 @@ export const ClientCommentForm = ({
         <p>Cantidad de palabras: {wordsCount}</p>
       </aside>
       {errors.comment && (
-        <small className="text-red-400 text-xs mb-3">
+        <small className="text-red-400 text-xs ml-1 mb-3">
           {errors.comment.message}
         </small>
       )}
       <button
-        className="px-3 py-2 bg-btn-background hover:bg-btn-background-hover rounded-lg border border-foreground/10 w-fit cursor-pointer disabled:cursor-not-allowed"
+        className="px-3 py-2 mt-3 bg-btn-background hover:bg-btn-background-hover rounded-lg border border-foreground/10 w-fit cursor-pointer disabled:cursor-not-allowed"
         type="submit"
         disabled={isSubmitting}
       >

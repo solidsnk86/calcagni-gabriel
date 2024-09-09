@@ -1,8 +1,8 @@
 import AuthButton from "@/components/AuthButton";
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
-import { Footer } from "@/components/Footer";
 import { ClientCommentForm } from "./ClientCommentForm";
+import Link from "next/link";
 
 export default async function Comments() {
   const supabase = createClient();
@@ -18,14 +18,14 @@ export default async function Comments() {
   return (
     <div className="flex-1 w-full flex flex-col gap-20 items-center">
       <div className="w-full">
-        <nav className="w-full flex h-16 border-t">
-          <div className="w-full flex justify-end items-center p-3 text-sm">
+        <nav className="w-full flex h-16">
+          <div className="w-full flex justify-start items-center p-3 text-sm">
             <AuthButton />
           </div>
         </nav>
       </div>
 
-      <main className="flex flex-col gap-6 max-w-xl">
+      <main className="flex flex-col gap-6 max-w-xl px-3">
         <div className="p-6 italic bg-violet-400/20 text-white text-balance rounded-xl relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,30 @@ export default async function Comments() {
         />
       </main>
 
-      <Footer className="border-t border-foreground/5" />
+      <footer className="w-full p-8 justify-between text-center text-base text-zinc-400 flex">
+        <a
+          href="https://github.com/solidsnk86"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:brightness-150 transition-all duration-300"
+        >
+          &copy;SolidSnk86
+        </a>
+        <aside className="flex gap-3 font-medium">
+          {[
+            { name: "Inicio", link: "/" },
+            { name: "Trabajos", link: "/works" },
+            { name: "404", link: "/404" },
+          ].map((link) => (
+            <Link
+              href={link.link}
+              className="hover:opacity-60 transition-all duration-300"
+            >
+              {link.name}
+            </Link>
+          ))}
+        </aside>
+      </footer>
     </div>
   );
 }
