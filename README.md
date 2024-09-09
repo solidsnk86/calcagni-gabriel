@@ -1,14 +1,12 @@
 <div align="center">
 
-| solidsnk86 / portfolio |
+| Portfolio Personal MGC |
 | ---------------------- |
 
 </div>
 
-`This is my web portfolio made with React and NextJs 14`
+`Este es mi portfolio personal hecho con Next.js y Supabase`
 
-Welcome to my portfolio, a space where I showcase my diverse range of projects. Leveraging the `GitHub Stats API`, you can explore the star count of each project, providing insight into their popularity and community engagement. The dynamic and personalized features are powered by `Google Sheets CSV` integration, enabling seamless updates and a tailored experience.
+A medida que navegues por mi portafolio, notarás sus elementos interactivos, enriquecidos con cookies para el seguimiento de los usuarios que ingresan a la sección de comentarios y feedbak que puedan darme. Esto no solo mejora la experiencia del usuario, sino que también me permite conectarme con visitantes de todo el mundo. La información sobre el recuento de visitantes y su geolocalización agrega otra capa de dinamismo, destacando la naturaleza colaborativa y evolutiva de esta plataforma.
 
-As you navigate through my portfolio, you'll notice its interactive elements, enriched by cookies for location tracking. This not only enhances the user experience but also allows me to connect with visitors globally. The visitor count information adds another layer of dynamism, highlighting the collaborative and evolving nature of this platform.
-
-I invite you to explore my work, get to know the projects, and witness the fusion of technology and creativity that defines my journey. <span style="color:yellow">Thank you for visiting!</span>
+Te invito a explorar mi trabajo, conocer los proyectos y presenciar la fusión de tecnología y creatividad. <span style="color:yellow">¡Gracias por tu visita!</span>
