@@ -1,10 +1,11 @@
 import { Marquee } from "@/components/magic-ui/Marquee";
 import { Format } from "../Format";
 import Link from "next/link";
-import { Trash2 } from "lucide-react";
 import { supabase } from "@/utils/supabase/client";
+import React from "react";
+import { ReviewsMarqueeTypes } from "@/app/types/types";
 
-export const ReviewCard = ({
+export const ReviewCard: React.FC<ReviewsMarqueeTypes> = ({
   id,
   avatarUrl,
   fullName,
@@ -12,15 +13,6 @@ export const ReviewCard = ({
   country,
   createdAt,
   comment,
-}: {
-  id: string | number;
-  avatarUrl: string;
-  fullName: string;
-  city: string | any;
-  country: string | any;
-  createdAt: string | number | Date;
-  comment: string;
-  trash?: boolean;
 }) => {
   async function handleDelete(id: string | number) {
     const { error } = await supabase.from("comments").delete().eq("id", id);

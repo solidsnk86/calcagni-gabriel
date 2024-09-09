@@ -1,3 +1,5 @@
+import { wap } from "../constants";
+
 import useMatchMedia from "@/app/hooks/useMatchMedia";
 import {
   GraduationCap,
@@ -10,13 +12,6 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { FancyButton } from "../magic-ui/FancyButton";
-
-const wap = {
-  number: "+5492665290020",
-  message: encodeURIComponent(
-    "Hola estoy interesado en tus servicios Gabriel!"
-  ),
-};
 
 export const Section_4 = () => {
   const mobile = useMatchMedia("(max-width: 700px)", false);

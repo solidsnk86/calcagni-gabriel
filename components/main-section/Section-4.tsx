@@ -1,14 +1,6 @@
 import { MapPin } from "lucide-react";
 import React from "react";
-
-type Setcion_4Props = {
-  city?: string | Promise<void>;
-  country?: string | Promise<void>;
-  flag?: string | Promise<void>;
-  longitude?: string | number | Promise<void>;
-  latitude?: string | number | Promise<void>;
-  className?: string;
-};
+import { Setcion_4Props } from "@/app/types/types";
 
 export const Section_4: React.FC<Setcion_4Props> = ({
   city,

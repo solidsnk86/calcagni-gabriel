@@ -1,14 +1,4 @@
-import React, { CSSProperties, ReactNode } from "react";
-
-interface FancyButtonProps {
-  children: ReactNode;
-  className?: string;
-  style?: CSSProperties;
-  duration?: string | number;
-  radius?: string | number;
-  inset?: string | number;
-  [key: string]: unknown;
-}
+import { FancyButtonProps } from "@/app/types/types";
 
 export const FancyButton: React.FC<FancyButtonProps> = ({
   children,

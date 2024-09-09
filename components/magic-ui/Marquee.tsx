@@ -1,18 +1,8 @@
 import React, { Children, cloneElement } from "react";
 import { cn } from "@/utils/cn";
+import { MarqueeProps } from "@/app/types/types";
 
-interface MarqueeProps {
-  className?: string;
-  reverse?: boolean;
-  pauseOnHover?: boolean;
-  [key: string]: unknown;
-  slice?: boolean;
-  animateX?: boolean;
-  animateY?: boolean;
-  flex?: boolean;
-}
-
-export const Marquee = ({
+export const Marquee: React.FC<MarqueeProps> = ({
   className,
   reverse,
   pauseOnHover = false,
@@ -22,7 +12,7 @@ export const Marquee = ({
   animateY,
   flex,
   ...props
-}: MarqueeProps) => {
+}) => {
   return (
     <div
       {...props}

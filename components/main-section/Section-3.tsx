@@ -1,14 +1,12 @@
 import { Drama } from "lucide-react";
 import { ReviewsMarquee } from "../magic-ui/ReviewsMarquee";
+import React from "react";
+import { Section_3Props } from "@/app/types/types";
 
-export const Section_3 = ({
+export const Section_3: React.FC<Section_3Props> = ({
   data,
   id,
   className,
-}: {
-  id?: string | number;
-  data: any | Promise<void>;
-  className?: string;
 }) => {
   return (
     <section

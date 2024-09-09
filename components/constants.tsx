@@ -5,3 +5,10 @@ export const api = {
   },
   method: "GET",
 };
+
+export const wap = {
+  number: "+5492665290020",
+  message: encodeURIComponent(
+    "Hola estoy interesado en tus servicios Gabriel!"
+  ),
+};
