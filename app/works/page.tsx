@@ -32,32 +32,32 @@ export default function Works() {
                 {[
                   {
                     name: "ChismeApp",
-                    url: "/Portada-ChismeApp.png",
+                    url: "https://gossip-app.vercel.app/",
                     type: "Social",
                   },
                   {
                     name: "SolidSnk86",
-                    url: "/Portada-Portfolio-Solid.png",
+                    url: "https://portfolio-mgc.vercel.app/",
                     type: "Portfolio",
                   },
                   {
                     name: "NeoTecs",
-                    url: "/Portada-NeoTecs.png",
+                    url: "https://neotecs.vercel.app/",
                     type: "Documentación Web",
                   },
                   {
                     name: "Web LLM IA",
-                    url: "/Portada-Web-LLM-AI.png",
+                    url: "https://solidsnk86.github.io/web-Llm-local/",
                     type: "GPT Chat",
                   },
                   {
                     name: "Gerardo",
-                    url: "/Portada-CV-Gerardo.png",
+                    url: "https://cv-gec.vercel.app/",
                     type: "Portfolio",
                   },
                   {
                     name: "Facturador Web",
-                    url: "/Portada-Formulario-Web.png",
+                    url: "https://solidsnk86.github.io/formularioWeb/",
                     type: "Facturación",
                   },
                 ].map((proyect, index) => (
