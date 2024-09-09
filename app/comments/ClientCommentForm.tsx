@@ -61,7 +61,7 @@ export const ClientCommentForm = ({
   };
 
   const MAX_CHAR = 260;
-  const [char, setChar] = useState(MAX_CHAR);
+  let [char, setChar] = useState(MAX_CHAR);
   const [wordsCount, setWordsCount] = useState(0);
 
   const handleInput = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
@@ -86,6 +86,9 @@ export const ClientCommentForm = ({
               textarea.style.height = "auto";
               textarea.style.height = textarea.scrollHeight + "px";
             });
+            if (textarea.textContent === "") {
+              char = 0;
+            }
           }
         }}
       ></textarea>
