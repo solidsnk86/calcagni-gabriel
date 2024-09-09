@@ -17,7 +17,10 @@ export default async function Comments() {
     return redirect("/login");
   }
 
-  const { data, error } = await supabase.from("comments").select("*");
+  const { data, error } = await supabase
+    .from("comments")
+    .select("*")
+    .eq("user_name", user.user_metadata.user_name);
   if (error) {
     console.error("Error to get data", error.message);
   }
