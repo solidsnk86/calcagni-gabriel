@@ -73,20 +73,22 @@ export default async function Comments() {
         <h1 className="text-center text-xl font-semibold my-4">
           Últimos comentario
         </h1>
-        {data &&
-          data.map((comment) => (
-            <ReviewCard
-              id={comment.id}
-              key={comment.id}
-              avatarUrl={comment.avatar_url}
-              fullName={comment.full_name}
-              city={comment.city}
-              country={comment.country}
-              createdAt={Format.formatDate(comment.created_at)}
-              comment={comment.message}
-              trash
-            />
-          ))}
+        <div className="flex flex-col justify-center mx-auto">
+          {data &&
+            data.map((comment) => (
+              <ReviewCard
+                id={comment.id}
+                key={comment.id}
+                avatarUrl={comment.avatar_url}
+                fullName={comment.full_name}
+                city={comment.city}
+                country={comment.country}
+                createdAt={Format.formatDate(comment.created_at)}
+                comment={comment.message}
+                trash
+              />
+            ))}
+        </div>
       </main>
 
       <footer className="w-full p-8 justify-between text-center text-base text-zinc-400 flex">
