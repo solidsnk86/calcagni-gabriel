@@ -28,3 +28,17 @@ export async function handleDelete(id: string | number, onDelete: () => void) {
 
   onDelete();
 }
+
+export async function getLastVisit() {
+  const { data, error } = await supabase
+    .from("profile_visits")
+    .select("city, country, created_at")
+    .order("created_at", { ascending: false })
+    .limit(1);
+
+  if (error) {
+    throw new Error(`Error to get data from profile_visits ${error.message}`);
+  }
+
+  return data;
+}

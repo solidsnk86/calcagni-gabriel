@@ -53,6 +53,13 @@ export type Setcion_4Props = {
   className?: string;
 };
 
+export type Section_5Props = {
+  city?: string | Promise<void>;
+  country?: string | Promise<void>;
+  className?: string;
+  createdAt?: string | number | Date;
+};
+
 /**
  * Reviews Component Types
  */

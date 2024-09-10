@@ -13,11 +13,13 @@ import {
 import Link from "next/link";
 import { FancyButton } from "../magic-ui/FancyButton";
 
-export const Section_4 = () => {
+export const Section_4 = ({ className }: { className?: string }) => {
   const mobile = useMatchMedia("(max-width: 700px)", false);
 
   return (
-    <section className="border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl relative">
+    <section
+      className={`border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl relative ${className}`}
+    >
       <header className="flex gap-4">
         <img
           src="https://avatars.githubusercontent.com/u/93176365?v=4"
@@ -60,6 +62,10 @@ export const Section_4 = () => {
             icon: <GraduationCap className="w-4 h-4 mr-1 text-violet-400" />,
           },
           {
+            name: "English",
+            icon: <Globe className="w-4 h-4 mr-1 text-violet-400" />,
+          },
+          {
             name: "UTN-FRSR",
             icon: (
               <University className="w-4 h-4 mr-1 text-violet-400 -translate-y-[1px]" />
@@ -68,10 +74,6 @@ export const Section_4 = () => {
           {
             name: "Estudiando",
             icon: <BookMarked className="w-4 h-4 mr-1 text-violet-400" />,
-          },
-          {
-            name: "English",
-            icon: <Globe className="w-4 h-4 mr-1 text-violet-400" />,
           },
           {
             name: "Buen Chico",

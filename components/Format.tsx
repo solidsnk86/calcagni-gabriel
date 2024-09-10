@@ -26,4 +26,15 @@ export class Format {
     });
     return time;
   }
+
+  static formatLongDateAndTime(snd: string | number | Date) {
+    const date = new Date(snd).toLocaleDateString("es-ES", {
+      year: "numeric",
+      month: "long",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+    return date;
+  }
 }

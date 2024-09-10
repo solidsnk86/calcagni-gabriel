@@ -10,12 +10,15 @@ import { Section_4 } from "./main-section/Section-4";
 import { supabase } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
 import { GetLocation } from "./GetLocation";
+import { Section_5 } from "./main-section/Section-5";
+import { getLastVisit } from "@/app/lib/actions";
 
 export default function Main() {
   const mobile = useMatchMedia("(max-width: 700px)", false);
   const isClient = useIsClient();
   const [comments, setComments] = useState<any>([]);
   const [location, setLocation] = useState<any>({});
+  const [lastVisit, setLastVisit] = useState<any>([]);
 
   const fetchComments = async () => {
     try {
@@ -24,10 +27,14 @@ export default function Main() {
       if (error) {
         console.error("Error to get data from database", error.message);
       }
+
       setComments(data);
     } catch (error) {
       console.error("Error", error);
     }
+
+    const visitsData = await getLastVisit();
+    setLastVisit(visitsData[0]);
   };
 
   const getLocation = async () => {
@@ -72,6 +79,12 @@ export default function Main() {
                 className={mobile ? "w-[100%]" : "w-[30%]"}
               />
             </div>
+            <Section_5
+              city={lastVisit.city}
+              country={lastVisit.country}
+              createdAt={lastVisit.created_at}
+              className={mobile ? "mt-2" : "mt-4"}
+            />
           </Masonry>
         </ResponsiveMasonry>
       </>

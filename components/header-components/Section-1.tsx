@@ -6,10 +6,12 @@ import { ArrowRight, Layers } from "lucide-react";
 import Link from "next/link";
 import useMatchMedia from "@/app/hooks/useMatchMedia";
 
-export const Section_1 = () => {
+export const Section_1 = ({ className }: { className?: string }) => {
   const mobile = useMatchMedia("(max-width: 700px)", false);
   return (
-    <section className="border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl h-[50%]">
+    <section
+      className={`border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl h-[50%] ${className}`}
+    >
       <header className="text-center">
         <p className="text-gray-400">
           <Layers className="inline mr-1 -translate-y-[2px] text-violet-400 w-5 h-[18px]" />

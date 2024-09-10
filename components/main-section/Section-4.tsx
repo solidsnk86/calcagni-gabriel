@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react";
+import { MapPinnedIcon } from "lucide-react";
 import React from "react";
 import { Setcion_4Props } from "@/app/types/types";
 
@@ -16,7 +16,7 @@ export const Section_4: React.FC<Setcion_4Props> = ({
     >
       <header className="text-center p-6">
         <p className="text-gray-400">
-          <MapPin className="inline mr-1 -translate-y-[2px] text-violet-400 w-5 h-[18px]" />
+          <MapPinnedIcon className="inline mr-1 -translate-y-[2px] text-violet-400 w-5 h-[18px]" />
           Me Complace
         </p>
         <h3 className="text-white text-lg font-bold">Recibirte Desde</h3>
