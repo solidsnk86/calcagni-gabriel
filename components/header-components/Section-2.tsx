@@ -1,5 +1,6 @@
 import { Eye, Flag, Sparkles } from "lucide-react";
 import Masonry from "react-responsive-masonry";
+import { Loader } from "../Loader";
 
 export const Section_2 = ({ visits }: { visits: number | string | any }) => {
   const getExperienceYears = (currentDate: Date = new Date()): number => {
@@ -29,7 +30,7 @@ export const Section_2 = ({ visits }: { visits: number | string | any }) => {
         {
           name: "Visitas",
           quantity: !visits
-            ? (visits = 0)
+            ? (visits = <Loader />)
             : handleVisitsNumber(visits as string),
           icon: <Eye className="inline w-4 h-5 mr-1 text-violet-400" />,
         },
