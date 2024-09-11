@@ -13,7 +13,7 @@ La siguiente tabla describe las versiones de nuestro proyecto que actualmente cu
 
 Si descubre una vulnerabilidad en este proyecto, siga estos pasos para informarla:
 
-1. **Contáctenos**: Envíe un correo electrónico a [calcagni.gabriel86.com] con los detalles de la vulnerabilidad. Incluya la siguiente información:
+1. **Contáctenos**: Envíe un correo electrónico a <a href="mailto:calcagni.gabriel86@gmail.com">calcagni.gabriel86@gmail.com</a> con los detalles de la vulnerabilidad. Incluya la siguiente información:
 
 - Una descripción detallada de la vulnerabilidad.
 - Pasos para reproducir la vulnerabilidad.
