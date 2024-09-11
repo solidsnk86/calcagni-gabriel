@@ -6,6 +6,7 @@ import { ReviewsMarqueeProps } from "@/app/types/types";
 import { DeleteButton } from "../DeleteBtn";
 
 export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
+  user,
   id,
   avatarUrl,
   fullName,
@@ -37,7 +38,11 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
         </aside>
         <small className="flex absolute right-3 text-zinc-400">
           {trash ? (
-            <DeleteButton id={id} onDelete={() => onDelete && onDelete(id)} />
+            <DeleteButton
+              id={id}
+              onDelete={() => onDelete && onDelete(id)}
+              userName={user}
+            />
           ) : null}
           {createdAt as number}
         </small>

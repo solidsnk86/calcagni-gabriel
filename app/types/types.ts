@@ -67,6 +67,7 @@ export type Section_5Props = {
 export type ReviewsMarqueeProps = {
   data?: string | Promise<void>;
   id: string | number;
+  user?: string;
   avatarUrl: string;
   fullName: string;
   city: string | any;
@@ -83,6 +84,7 @@ export type ReviewsMarqueeProps = {
 
 export type ReviewsClientProps = {
   data: any | Promise<any>;
+  user: string;
   onDelete?: (id: string | number) => void;
 };
 
@@ -104,4 +106,5 @@ export type ClientFormProps = {
 export type DeleteButtonProps = {
   id: string | number;
   onDelete: () => void;
+  userName: string | any;
 };

@@ -81,7 +81,7 @@ export default async function Comments() {
           </h1>
         ) : null}
         <div className="flex flex-col justify-center mx-auto">
-          <ReviewClientCard data={data} />
+          <ReviewClientCard data={data} user={user.user_metadata.user_name} />
         </div>
       </main>
 
