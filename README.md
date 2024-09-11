@@ -10,12 +10,15 @@ Este portafolio está desarrollado con **Next.js**, **Supabase** y **TypeScript*
 ## Autenticación y Comentarios
 
 - **Inicio de sesión con GitHub**: Los usuarios pueden autenticarse con su cuenta de GitHub.
+
 - **Sistema de comentarios**: Una vez autenticados, los usuarios pueden dejar comentarios en mi portafolio. Los comentarios se almacenan y reflejan automáticamente en la base de datos.
 
 ## Cookies y Geolocalización
 
 - **Cookies**: Se almacenan cookies para recordar información del usuario y mejorar la experiencia de navegación.
+
 - **Geolocalización**: Utilizo geolocalización para registrar la ubicación de los usuarios. Los datos se guardan en la base de datos de Supabase mediante SQL.
+
 - **Registro de visitas**: Almaceno la cantidad de veces que un perfil es visitado, identificando a los usuarios por su dirección IP. Si la IP se repite, no se incrementa el contador.
 
 ## Navegación Fluida
@@ -25,6 +28,7 @@ Este portafolio está desarrollado con **Next.js**, **Supabase** y **TypeScript*
 ## Componentes UI y Tipado
 
 - **Componentes interactivos**: La interfaz cuenta con botones animados y movimientos personalizados, diseñados específicamente para mejorar la interacción del usuario.
+
 - **Tipado con TypeScript**: Cada componente está fuertemente tipado con **TypeScript**, y las definiciones de props están separadas, garantizando una estructura clara y mantenible.
 
 ## Sección Privada del Usuario
