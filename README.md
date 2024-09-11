@@ -96,3 +96,11 @@ npm install next@14.2.6
 ```
 
 ¡Y eso es todo! Ahora puedes explorar y personalizar el proyecto a tu gusto.
+
+---
+
+<div align="center">
+
+  <p>solidsnk 2024</p>
+  
+</div>
