@@ -78,6 +78,10 @@ yarn install
 
 ```bash
 npm run dev
+
+o
+
+pnpm run dev
 ```
 
 4. Configuración de Supabase
