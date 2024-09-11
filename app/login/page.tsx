@@ -19,7 +19,7 @@ export default function Login({
     const { data, error } = await supabase.auth.signInWithOAuth({
       provider: "github",
       options: {
-        redirectTo: "https://personal-portfolio-mgc.vercel.app/auth/callback",
+        redirectTo: "http://localhost:3000/auth/callback",
       },
     });
 

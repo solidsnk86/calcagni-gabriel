@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import { ClientCommentForm } from "./ClientCommentForm";
 import Link from "next/link";
 import { ReviewClientCard } from "./ReviewClientCard";
+import { CLientCommentsPage } from "./ClientCommentsPage";
 
 export default async function Comments() {
   const supabase = createClient();
@@ -70,20 +71,7 @@ export default async function Comments() {
           <p className="text-right">Gabriel Calcagni ツ</p>
         </div>
         <h2 className="font-bold text-2xl text-center mb-4">Comentarios</h2>
-        <ClientCommentForm
-          userName={user.user_metadata.user_name}
-          fullName={user.user_metadata.full_name}
-          avatar={user.user_metadata.avatar_url}
-          onRefresh={() => data as any}
-        />
-        {data && data.length > 0 ? (
-          <h1 className="text-center text-xl font-semibold my-4">
-            Últimos comentarios
-          </h1>
-        ) : null}
-        <div className="flex flex-col justify-center mx-auto">
-          <ReviewClientCard data={data} user={user.user_metadata.user_name} />
-        </div>
+        <CLientCommentsPage user={user} initialData={data} />
       </main>
 
       <footer className="w-full p-8 justify-between text-center text-base text-zinc-400 flex">

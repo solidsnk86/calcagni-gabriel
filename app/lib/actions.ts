@@ -4,34 +4,17 @@ import { supabase } from "@/utils/supabase/client";
  * Supabase actions
  */
 
-export async function getData(userName: string | any) {
-  const { data, error } = await supabase
-    .from("comments")
-    .select("*")
-    .eq("user_name", userName);
-  if (error) {
-    console.error("Error to get data", error.message);
-  }
-  return data;
-}
-
-export async function handleDelete(
-  id: string | number,
-  onDelete: () => void,
-  userName: string
-) {
+export async function handleDelete(id: string | number, onDelete: () => void) {
   try {
-    const { error: deleteError } = await supabase
+    const { data: updatedData, error: deleteError } = await supabase
       .from("comments")
       .delete()
       .eq("id", id)
-      .select();
+      .select("*");
 
     if (deleteError) {
       throw new Error(`Error al eliminar comentario: ${deleteError.message}`);
     }
-
-    const updatedData = await getData(userName);
 
     onDelete();
 

@@ -7,7 +7,6 @@ import { Format } from "@/components/Format";
 
 export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
   data,
-  user,
   onDelete,
 }) => {
   return (
@@ -16,7 +15,6 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
         data.map((comment: any) => (
           <ReviewCard
             data={data}
-            user={user}
             id={comment.id}
             key={comment.id}
             avatarUrl={comment.avatar_url}
