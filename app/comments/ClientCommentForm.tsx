@@ -51,6 +51,9 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
       console.error("Failed to submit comment:", error);
     }
 
+    if (onRefresh) {
+      onRefresh();
+    }
     reset();
   };
 

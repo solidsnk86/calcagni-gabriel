@@ -73,7 +73,7 @@ export type ReviewsMarqueeProps = {
   city: string | any;
   country: string | any;
   createdAt: string | number | Date;
-  comment: string;
+  comment: string | [];
   trash?: boolean;
   onDelete?: (id: string | number) => void;
 };

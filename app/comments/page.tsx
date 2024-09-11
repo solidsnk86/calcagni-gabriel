@@ -74,6 +74,7 @@ export default async function Comments() {
           userName={user.user_metadata.user_name}
           fullName={user.user_metadata.full_name}
           avatar={user.user_metadata.avatar_url}
+          onRefresh={() => data as any}
         />
         {data && data.length > 0 ? (
           <h1 className="text-center text-xl font-semibold my-4">
