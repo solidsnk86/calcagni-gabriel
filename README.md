@@ -35,3 +35,58 @@ Este portafolio está desarrollado con **Next.js**, **Supabase** y **TypeScript*
 ## Base de Datos
 
 - **Gestión de datos**: Toda la lógica de backend está desarrollada con SQL en **Supabase**, asegurando un manejo eficiente y escalable de los datos del usuario y visitas.
+
+## Clonar y Usar este Proyecto
+
+Si te gusta este template y quieres utilizarlo como base para tu propio proyecto, ¡puedes clonarlo y empezar en minutos! Sigue estos pasos:
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/solidsnk86/personal-portfolio-mgc.git
+```
+
+2. Instalar dependencias
+   Dependiendo del gestor de paquetes que prefieras, puedes usar uno de los siguientes comandos:
+
+npm:
+
+```bash
+npm install
+```
+
+pnpm:
+
+```bash
+pnpm install
+```
+
+yarn:
+
+```bash
+yarn install
+```
+
+3. Ejecutar el servidor de desarrollo
+   Una vez instaladas las dependencias, puedes iniciar el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+4. Configuración de Supabase
+   Asegúrate de configurar tus credenciales de Supabase en un archivo .env.local como se muestra a continuación:
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=tu-supabase-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=tu-supabase-anon-key
+```
+
+5. Versión de Next.js
+   Este proyecto utiliza Next.js 14.2.6, por lo que si quieres mantener la compatibilidad, asegúrate de estar utilizando esta versión o superior.
+
+```bash
+npm install next@14.2.6
+```
+
+¡Y eso es todo! Ahora puedes explorar y personalizar el proyecto a tu gusto.
