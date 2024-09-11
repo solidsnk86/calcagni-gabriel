@@ -98,25 +98,32 @@ export default function Login({
             </filter>
             <rect width="100%" height="100%" filter="url(#noiseFilter)" />
           </svg>
-          <h2 className="text-2xl font-bold mb-4">
+          <h2 className="text-2xl font-bold mb-4 z-30">
             ¡Bienvenido a la sección de comentarios!
           </h2>
-          <p className="text-foreground mb-4">
+          <p className="text-foreground mb-4 z-30">
             Me alegra que estés aquí. Este es un espacio dedicado para que
             puedas dejar tus opiniones, sugerencias y cualquier feedback sobre
             el trabajo que presento en mi portfolio. Al iniciar sesión con tu
             cuenta de GitHub, podrás unirte a la conversación y compartir tus
             pensamientos con otros visitantes.
           </p>
-          <p className="text-foreground mb-4">
+          <p className="text-foreground mb-4 z-30">
             Ya sea que tengas preguntas, recomendaciones o solo quieras saludar,
             este espacio está diseñado para facilitar una comunicación abierta y
             directa. ¡Estoy emocionado de leer tus comentarios!
           </p>
-          <p className="text-foreground">
-            Si aún no tienes una cuenta de GitHub, te recomiendo crear una para
-            aprovechar todas las funciones de esta plataforma. ¡Nos vemos en los
-            comentarios!
+          <p className="text-foreground z-30">
+            Si aún no tienes una cuenta de GitHub, te recomiendo{" "}
+            <Link
+              href="https://github.com/"
+              className="underline text-violet-400"
+              target="_blank"
+            >
+              crear una
+            </Link>{" "}
+            para aprovechar todas las funciones de esta plataforma. ¡Nos vemos
+            en los comentarios!
           </p>
         </div>
       </main>
