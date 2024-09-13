@@ -7,7 +7,7 @@
 
 </div>
 
-Este portafolio está desarrollado con **Next.js**, **Supabase** y **TypeScript**. Aquí presento las principales características que lo hacen único:
+Este portafolio está desarrollado con **Next.js**, **Supabase** y **TypeScript**. Aquí presento las principales características:
 
 ## Autenticación y Comentarios
 
