@@ -1,6 +1,10 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export const Footer = ({ className }: { className?: string }) => {
+  const pathname = usePathname();
   return (
     <footer
       className={`w-full p-8 justify-around text-center text-base text-zinc-400 flex ${className}`}
@@ -13,7 +17,7 @@ export const Footer = ({ className }: { className?: string }) => {
       >
         SolidSnk86 &copy; 2024
       </a>
-      <aside className="flex gap-3 font-medium footer-menu bg-violet-400/60 md:bg-transparent">
+      <aside className="flex px-2 py-[6px] gap-3 font-medium footer-menu bg-violet-400/60 md:bg-transparent items-center">
         {[
           { name: "Inicio", link: "/" },
           { name: "Trabajos", link: "/works" },
@@ -23,7 +27,11 @@ export const Footer = ({ className }: { className?: string }) => {
           <Link
             key={index}
             href={link.link}
-            className="hover:opacity-60 transition-all duration-300"
+            className={`hover:opacity-60 transition-all duration-300 h-full ${
+              pathname === link.link
+                ? "bg-violet-400/60 rounded-full px-2 py-1 md:py-0 md:px-0 md:bg-transparent md:text-violet-400 text-foreground"
+                : ""
+            }`}
           >
             {link.name}
           </Link>
