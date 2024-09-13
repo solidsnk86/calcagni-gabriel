@@ -36,7 +36,7 @@ const ProyectCard = ({ name, img }: { name: string; img: string }) => {
       width="200px"
       height="auto"
       alt={`Imagen proyecto ${name}`}
-      className="rounded-xl "
+      className="rounded-xl aspect-auto"
     />
   );
 };

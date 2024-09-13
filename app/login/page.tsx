@@ -111,7 +111,7 @@ export default function Login({
           <p className="text-foreground mb-4 z-30">
             Ya sea que tengas preguntas, recomendaciones o solo quieras saludar,
             este espacio está diseñado para facilitar una comunicación abierta y
-            directa. ¡Estoy emocionado de leer tus comentarios!
+            directa.
           </p>
           <p className="text-foreground z-30">
             Si aún no tienes una cuenta de GitHub, te recomiendo{" "}
