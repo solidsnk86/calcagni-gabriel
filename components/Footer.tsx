@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 export const Footer = ({ className }: { className?: string }) => {
   const pathname = usePathname();
+
   return (
     <footer
       className={`w-full p-8 justify-around text-center text-base text-zinc-400 flex ${className}`}
