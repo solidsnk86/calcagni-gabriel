@@ -1,10 +1,11 @@
+import { GetLocation } from "@/components/GetLocation";
 import { supabase } from "@/utils/supabase/client";
 
 /**
  * Supabase actions
  */
 
-export async function handleDelete(id: any, onDelete: () => void) {
+async function handleDelete(id: any, onDelete: () => void) {
   try {
     const { data: updatedData, error: deleteError } = await supabase
       .from("comments")
@@ -25,7 +26,7 @@ export async function handleDelete(id: any, onDelete: () => void) {
   }
 }
 
-export async function getLastVisit() {
+async function getLastVisit() {
   const { data, error } = await supabase
     .from("profile_visits")
     .select("city, country, created_at")
@@ -38,3 +39,5 @@ export async function getLastVisit() {
 
   return data;
 }
+
+export { handleDelete, getLastVisit };
