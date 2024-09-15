@@ -4,7 +4,7 @@ import { supabase } from "@/utils/supabase/client";
  * Supabase actions
  */
 
-export async function handleDelete(id: string | number, onDelete: () => void) {
+export async function handleDelete(id: any, onDelete: () => void) {
   try {
     const { data: updatedData, error: deleteError } = await supabase
       .from("comments")

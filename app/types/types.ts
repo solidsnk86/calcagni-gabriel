@@ -61,7 +61,7 @@ export type Section_5Props = {
 };
 
 /**
- * Reviews Component Types
+ * Reviews Component Props
  */
 
 export type ReviewsMarqueeProps = {
@@ -78,7 +78,7 @@ export type ReviewsMarqueeProps = {
 };
 
 /**
- * Reviews Client Component Types
+ * Reviews Client Component Props
  */
 
 export type ReviewsClientProps = {
@@ -87,7 +87,7 @@ export type ReviewsClientProps = {
 };
 
 /**
- * Form Client Types
+ * Form Client Props
  */
 
 export type ClientFormProps = {
@@ -98,7 +98,7 @@ export type ClientFormProps = {
 };
 
 /**
- * Delete Button Types
+ * Delete Button Props
  */
 
 export type DeleteButtonProps = {
