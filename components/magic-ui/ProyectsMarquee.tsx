@@ -30,7 +30,7 @@ const proyects = [
 ];
 
 const ProyectCard = ({ name, img }: { name: string; img: string }) => {
-  return (
+  return img && img ? (
     <img
       src={img}
       width="200px"
@@ -38,6 +38,10 @@ const ProyectCard = ({ name, img }: { name: string; img: string }) => {
       alt={`Imagen proyecto ${name}`}
       className="rounded-xl aspect-auto"
     />
+  ) : (
+    <div className="w-[200px] py-8 h-auto">
+      <h1 className="text-xl">CARGANDO...</h1>
+    </div>
   );
 };
 

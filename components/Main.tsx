@@ -19,6 +19,7 @@ export default function Main() {
   const [comments, setComments] = useState<any>([]);
   const [location, setLocation] = useState<any>({});
   const [lastVisit, setLastVisit] = useState<any>([]);
+  const [navLocation, setNavLocation] = useState<any>({});
 
   const fetchComments = async () => {
     try {
@@ -43,13 +44,21 @@ export default function Main() {
       city: await GetLocation.city(),
       country: await GetLocation.country(),
       flag: await GetLocation.flag(),
-      latitude: await GetLocation.latitude(),
-      longitude: await GetLocation.longitude(),
     };
     setLocation(dataLocation);
   };
 
   useEffect(() => {
+    const navigatorLocation = () => {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+          const longitude = position.coords.longitude;
+          const latitude = position.coords.latitude;
+          setNavLocation({ longitude, latitude });
+        });
+      }
+    };
+    navigatorLocation();
     fetchComments();
     getLocation();
   }, []);
@@ -74,8 +83,8 @@ export default function Main() {
                 city={location.city}
                 country={location.country}
                 flag={location.flag}
-                latitude={location.latitude}
-                longitude={location.longitude}
+                latitude={navLocation.latitude}
+                longitude={navLocation.longitude}
                 className={mobile ? "w-[100%]" : "w-[30%]"}
               />
             </div>

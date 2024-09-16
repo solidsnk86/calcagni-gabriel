@@ -22,9 +22,13 @@ export const Section_4: React.FC<Setcion_4Props> = ({
         <h3 className="text-white text-lg font-bold">Recibirte Desde</h3>
       </header>
       <aside className="w-[100%] relative text-center">
-        <h1 className="text-zinc-400 text-lg">
-          {city as string}, {country as string} {flag as string}
-        </h1>
+        {city && city ? (
+          <h1 className="text-zinc-400 text-lg">
+            {city as string}, {country as string} {flag as string}
+          </h1>
+        ) : (
+          <h1 className="text-zinc-400 text-lg">Cargando...</h1>
+        )}
         <iframe
           src={`https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3362.721134731404!2d${longitude}!3d${latitude}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzLCsDMzJzM3LjAiUyA2NcKwMTQnMDYuNSJX!5e0!3m2!1ses-419!2sar!4v1716605671110!5m2!1ses-419!2sar`}
           width="600"
