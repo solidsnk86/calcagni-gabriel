@@ -83,8 +83,16 @@ export default function Main() {
                 city={location.city}
                 country={location.country}
                 flag={location.flag}
-                latitude={navLocation.latitude}
-                longitude={navLocation.longitude}
+                latitude={
+                  navLocation.latitude
+                    ? navLocation.latitude
+                    : location.latitude
+                }
+                longitude={
+                  navLocation.longitude
+                    ? navLocation.longitude
+                    : location.longitude
+                }
                 className={mobile ? "w-[100%]" : "w-[30%]"}
               />
             </div>
