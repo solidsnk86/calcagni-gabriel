@@ -2,7 +2,7 @@ import { Marquee } from "@/components/magic-ui/Marquee";
 import { Format } from "../Format";
 import Link from "next/link";
 import React from "react";
-import { ReviewsMarqueeProps } from "@/app/types/types";
+import { ReviewsMarqueeProps } from "@/app/types/definitions";
 import { DeleteButton } from "../DeleteBtn";
 
 export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({

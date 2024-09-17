@@ -1,6 +1,6 @@
 import { MapPinnedIcon } from "lucide-react";
 import React from "react";
-import { Setcion_4Props } from "@/app/types/types";
+import { Setcion_4Props } from "@/app/types/definitions";
 
 export const Section_4: React.FC<Setcion_4Props> = ({
   city,

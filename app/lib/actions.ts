@@ -1,4 +1,3 @@
-import { GetLocation } from "@/components/GetLocation";
 import { supabase } from "@/utils/supabase/client";
 
 /**

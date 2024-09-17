@@ -22,8 +22,7 @@ export const CLientCommentsPage = ({
       .order("created_at", { ascending: false });
 
     if (error) {
-      console.error("Error fetching data:", error.message);
-      return;
+      throw new Error(`Error to get data from supabase: ${error.message}`);
     }
 
     setData(refreshedData);

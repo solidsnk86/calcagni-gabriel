@@ -1,6 +1,6 @@
 import React, { Children, cloneElement } from "react";
 import { cn } from "@/utils/cn";
-import { MarqueeProps } from "@/app/types/types";
+import { MarqueeProps } from "@/app/types/definitions";
 
 export const Marquee: React.FC<MarqueeProps> = ({
   className,

@@ -1,17 +1,10 @@
-import { wap } from "../constants";
+import { itemsSection4, wap } from "@/components/constants";
 
 import useMatchMedia from "@/app/hooks/useMatchMedia";
-import {
-  GraduationCap,
-  MapPin,
-  Globe,
-  BookMarked,
-  SmileIcon,
-  DownloadIcon,
-  University,
-} from "lucide-react";
+
 import Link from "next/link";
-import { FancyButton } from "../magic-ui/FancyButton";
+import { FancyButton } from "@/components/magic-ui/FancyButton";
+import { DownloadIcon } from "lucide-react";
 
 export const Section_4 = ({ className }: { className?: string }) => {
   const mobile = useMatchMedia("(max-width: 700px)", false);
@@ -52,34 +45,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
         </Link>
       </header>
       <aside className="text-zinc-400 bg-zinc-900/30 flex flex-wrap items-center p-4 rounded-xl border border-foreground/5 mt-4">
-        {[
-          {
-            name: "San Luis",
-            icon: <MapPin className="w-4 h-4 mr-1 text-violet-400" />,
-          },
-          {
-            name: "Front End Dev",
-            icon: <GraduationCap className="w-4 h-4 mr-1 text-violet-400" />,
-          },
-          {
-            name: "English",
-            icon: <Globe className="w-4 h-4 mr-1 text-violet-400" />,
-          },
-          {
-            name: "UTN-FRSR",
-            icon: (
-              <University className="w-4 h-4 mr-1 text-violet-400 -translate-y-[1px]" />
-            ),
-          },
-          {
-            name: "Estudiando",
-            icon: <BookMarked className="w-4 h-4 mr-1 text-violet-400" />,
-          },
-          {
-            name: "Buen Chico",
-            icon: <SmileIcon className="w-4 h-4 mr-1 text-violet-400" />,
-          },
-        ].map((item, index) => (
+        {itemsSection4.map((item, index) => (
           <header key={index} className="flex text-left items-center mb-1 mr-2">
             <p className="flex items-center text-xs pr-2 pl-1 py-[2px] bg-zinc-800/50 border border-foreground/5 shadow-md rounded-full">
               {item.icon}

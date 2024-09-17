@@ -18,7 +18,7 @@ export const createClient = () => {
               cookieStore.set(name, value, options);
             });
           } catch (error) {
-            console.error("Error:", error);
+            throw new Error(`Error to set cookies: ${error}`);
           }
         },
       },

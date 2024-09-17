@@ -7,6 +7,7 @@ import Link from "next/link";
 import { ArrowRight, BriefcaseBusiness } from "lucide-react";
 import { useIsClient } from "../hooks/useIsClient";
 import AnimatedLayout from "@/components/AnimatedLayouts";
+import { worksProyects } from "@/components/constants";
 
 export default function Works() {
   const isClient = useIsClient();
@@ -31,44 +32,7 @@ export default function Works() {
                 columnsCountBreakPoints={{ 400: 1, 700: 1, 900: 3 }}
               >
                 <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>
-                  {[
-                    {
-                      name: "ChismeApp",
-                      url: "https://gossip-app.vercel.app/",
-                      image: "/Portada-ChismeApp.png",
-                      type: "Social",
-                    },
-                    {
-                      name: "SolidSnk86",
-                      url: "https://portfolio-mgc.vercel.app/",
-                      image: "/Portada-Portfolio-Solid.png",
-                      type: "Portfolio",
-                    },
-                    {
-                      name: "NeoTecs",
-                      url: "https://neotecs.vercel.app/",
-                      image: "/Portada-NeoTecs.png",
-                      type: "Documentación Web",
-                    },
-                    {
-                      name: "Web LLM IA",
-                      url: "https://solidsnk86.github.io/web-Llm-local/",
-                      image: "/Portada-Web-LLM-AI.png",
-                      type: "GPT Chat",
-                    },
-                    {
-                      name: "Gerardo",
-                      url: "https://cv-gec.vercel.app/",
-                      image: "/Portada-CV-Gerardo.png",
-                      type: "Portfolio",
-                    },
-                    {
-                      name: "Facturador Web",
-                      url: "https://solidsnk86.github.io/formularioWeb/",
-                      image: "/Portada-Formulario-Web.png",
-                      type: "Facturación",
-                    },
-                  ].map((proyect, index) => (
+                  {worksProyects.map((proyect, index) => (
                     <Link
                       key={index}
                       href={proyect.url}

@@ -1,10 +1,9 @@
 import AuthButton from "@/components/AuthButton";
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
-import { ClientCommentForm } from "./ClientCommentForm";
 import Link from "next/link";
-import { ReviewClientCard } from "./ReviewClientCard";
 import { CLientCommentsPage } from "./ClientCommentsPage";
+import { footerRoutes } from "@/components/constants";
 
 export default async function Comments() {
   const supabase = createClient();
@@ -22,7 +21,7 @@ export default async function Comments() {
     .select("*")
     .eq("user_name", user.user_metadata.user_name);
   if (error) {
-    console.error("Error to get data", error.message);
+    throw new Error(`Error to get comments: ${error.message}`);
   }
 
   return (
@@ -61,13 +60,10 @@ export default async function Comments() {
             </filter>
             <rect width="100%" height="100%" filter="url(#noiseFilter)" />
           </svg>
-          Hola 👋 {user.user_metadata.full_name}!! Puedes dejar tus comentarios
-          sobre los proyectos de desarrollo de software que he realizado o si te
-          ha gustado éste espacio. Aprecio mucho tu retroalimentación y te pido
-          que, al hacerlo, uses un lenguaje respetuoso y profesional. Tus
-          opiniones ayudan a mejorar mis servicios, así que te invito a
-          compartirlas de manera clara y constructiva. ¡Muchas gracias por
-          tomarte el tiempo para evaluar mi trabajo! Saludos.-
+          Hola 👋 {user.user_metadata.full_name}! Agradezco mucho tu
+          retroalimentación sobre mis proyectos de software. Te invito a
+          compartir tus comentarios de manera respetuosa y profesional para
+          ayudarme a mejorar. ¡Gracias por tu tiempo!
           <p className="text-right">Gabriel Calcagni ツ</p>
         </div>
         <h2 className="font-bold text-2xl text-center mb-4">Comentarios</h2>
@@ -84,18 +80,17 @@ export default async function Comments() {
           &copy;SolidSnk86
         </a>
         <aside className="flex gap-3 font-medium">
-          {[
-            { name: "Inicio", link: "/" },
-            { name: "Trabajos", link: "/works" },
-            { name: "404", link: "/404" },
-          ].map((link) => (
-            <Link
-              href={link.link}
-              className="hover:opacity-60 transition-all duration-300"
-            >
-              {link.name}
-            </Link>
-          ))}
+          {footerRoutes
+            .filter((route) => route.name !== "Comentar")
+            .map((link, index) => (
+              <Link
+                key={index}
+                href={link.link}
+                className="hover:opacity-60 transition-all duration-300"
+              >
+                {link.name}
+              </Link>
+            ))}
         </aside>
       </footer>
     </div>

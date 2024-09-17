@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { footerRoutes } from "./constants";
 
 export const Footer = ({ className }: { className?: string }) => {
   const pathname = usePathname();
@@ -19,12 +20,7 @@ export const Footer = ({ className }: { className?: string }) => {
         SolidSnk86 &copy; 2024
       </a>
       <aside className="flex px-2 py-[6px] gap-3 font-medium footer-menu bg-violet-400/60 md:bg-transparent items-center">
-        {[
-          { name: "Inicio", link: "/" },
-          { name: "Trabajos", link: "/works" },
-          { name: "Comentar", link: "/comments" },
-          { name: "404", link: "/404" },
-        ].map((link, index) => (
+        {footerRoutes.map((link, index) => (
           <Link
             key={index}
             href={link.link}

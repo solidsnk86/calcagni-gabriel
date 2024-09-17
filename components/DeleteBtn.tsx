@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Trash } from "lucide-react";
-import { DeleteButtonProps } from "@/app/types/types";
+import { DeleteButtonProps } from "@/app/types/definitions";
 import { handleDelete } from "@/app/lib/actions";
 
 export const DeleteButton: React.FC<DeleteButtonProps> = ({ id, onDelete }) => {

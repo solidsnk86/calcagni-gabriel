@@ -1,4 +1,4 @@
-import { FancyButtonProps } from "@/app/types/types";
+import { FancyButtonProps } from "@/app/types/definitions";
 
 export const FancyButton: React.FC<FancyButtonProps> = ({
   children,

@@ -1,5 +1,5 @@
 import React from "react";
-import { Section_5Props } from "@/app/types/types";
+import { Section_5Props } from "@/app/types/definitions";
 import { MapPin } from "lucide-react";
 import { Format } from "../Format";
 

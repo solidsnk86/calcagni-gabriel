@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import React, { useState } from "react";
 import { GetLocation } from "@/components/GetLocation";
-import { ClientFormProps } from "@/app/types/types";
+import { ClientFormProps } from "@/app/types/definitions";
 
 const formSchema = z.object({
   comment: z
