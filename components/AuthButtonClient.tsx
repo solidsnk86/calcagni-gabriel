@@ -25,7 +25,7 @@ export const AuthButtonClient: React.FC<AuthButtonProps> = ({
       <form>
         {mobile ? (
           <button
-            className="py-2 px-4 rounded-md no-underline bg-btn-background hover:bg-btn-background-hover border border-foreground/5"
+            className="py-2 px-2 rounded-md no-underline bg-btn-background hover:bg-btn-background-hover border border-foreground/5"
             title="Cerrar Sesión"
             onClick={async (e) => {
               e.preventDefault();
