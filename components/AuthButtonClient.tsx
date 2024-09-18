@@ -32,7 +32,7 @@ export const AuthButtonClient: React.FC<AuthButtonProps> = ({
               await signOut();
             }}
           >
-            <LogOut className="w-5 h-5 inline ml-2" />
+            <LogOut className="w-5 h-5 inline" />
           </button>
         ) : (
           <button
