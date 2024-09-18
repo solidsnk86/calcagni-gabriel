@@ -61,9 +61,9 @@ export default async function Comments() {
             <rect width="100%" height="100%" filter="url(#noiseFilter)" />
           </svg>
           Hola 👋 {user.user_metadata.full_name}! Agradezco mucho tu
-          retroalimentación sobre mis proyectos de software. Te invito a
-          compartir tus comentarios de manera respetuosa y profesional para
-          ayudarme a mejorar. ¡Gracias por tu tiempo!
+          retroalimentación sobre mis proyectos. Te invito a compartir tus
+          comentarios de manera respetuosa y profesional para ayudarme a
+          mejorar. ¡Gracias por tu tiempo!
           <p className="text-right">Gabriel Calcagni ツ</p>
         </div>
         <h2 className="font-bold text-2xl text-center mb-4">Comentarios</h2>
