@@ -31,6 +31,7 @@ export interface FancyButtonProps {
   duration?: string | number;
   radius?: string | number;
   inset?: string | number;
+  fancyColor?: string | number | CSSProperties;
   [key: string]: unknown;
 }
 

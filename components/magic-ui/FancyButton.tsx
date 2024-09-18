@@ -7,6 +7,7 @@ export const FancyButton: React.FC<FancyButtonProps> = ({
   duration,
   radius = 10,
   inset = 1,
+  fancyColor = "#757575",
   ...props
 }) => {
   return (
@@ -18,6 +19,7 @@ export const FancyButton: React.FC<FancyButtonProps> = ({
           "--animation-duration": `${duration}s`,
           "--radius": `${radius}px`,
           "--inset": `${inset}px`,
+          "--fancy-color": `${fancyColor}`,
         } as React.CSSProperties
       }
       {...props}

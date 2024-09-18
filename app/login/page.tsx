@@ -5,6 +5,7 @@ import { encodedRedirect } from "@/utils/utils";
 import { ArrowLeft } from "lucide-react";
 import { FancyButton } from "@/components/magic-ui/FancyButton";
 import AnimatedLayout from "@/components/AnimatedLayouts";
+import { DEFAULT_PATH } from "@/components/constants";
 
 export default function Login({
   searchParams,
@@ -19,7 +20,7 @@ export default function Login({
     const { data, error } = await supabase.auth.signInWithOAuth({
       provider: "github",
       options: {
-        redirectTo: "https://personal-portfolio-mgc.vercel.app/auth/callback",
+        redirectTo: DEFAULT_PATH,
       },
     });
 
@@ -32,14 +33,16 @@ export default function Login({
 
   return (
     <AnimatedLayout>
-      <main className="md:flex flex-1 w-full items-center">
-        <aside className="flex flex-col xl:justify-between mx-auto p-6 md:sticky top-0 left-0 max-w-xs md:border-r border-foreground/5 md:h-screen">
+      <main className="md:flex flex-1 w-full items-center overflow-hidden">
+        <div className="bg-effect-1"></div>
+        <aside className="flex flex-col xl:justify-between mx-auto p-6 md:sticky top-0 left-0 max-w-xs md:border-r border-foreground/5 md:h-screen overflow-hidden">
+          <div className="bg-effect-2"></div>
           <Link
             href="/"
             title="Volver"
-            className="py-2 px-4 absolute md:relative top-4 left-2 md:top-0 md:left-0 w-fit rounded-md text-foreground bg-btn-background hover:bg-btn-background-hover flex items-center group text-sm"
+            className="py-2 pl-1 pr-2 absolute md:relative top-4 left-2 md:top-0 md:left-0 w-fit rounded-md text-foreground bg-btn-background hover:bg-btn-background-hover flex items-center group text-sm"
           >
-            <ArrowLeft className="inline mr-2 w-5 h-5" />
+            <ArrowLeft className="inline mr-2 w-4 h-4" />
             Volver
           </Link>
           <form
@@ -53,8 +56,9 @@ export default function Login({
               className="bg-btn-background rounded-md py-2 px-4 text-foreground mb-2 flex items-center justify-center hover:bg-btn-background-hover transition-all duration-300 border border-foreground/20"
               type="submit"
               radius={6}
-              duration={2.3}
-              inset={2}
+              duration={2.5}
+              inset={1}
+              fancyColor="#A78BFA"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -69,7 +73,7 @@ export default function Login({
               </svg>
               Ingresa con GitHub
             </FancyButton>
-            <small className="text-center text-[10px] text-foreground dark:text-zinc-400 mt-2">
+            <small className="text-center text-[12px] text-foreground dark:text-zinc-400 mt-2">
               Inicia sesión para unirte a la conversación en mi portfolio y
               dejar tus comentarios.
             </small>
@@ -80,7 +84,7 @@ export default function Login({
             )}
           </form>
         </aside>
-        <div className="flex flex-col md:flex-1 text-center justify-around mx-auto text-balance relative py-4 bg-violet-400/20">
+        <div className="flex flex-col md:flex-1 text-center justify-around mx-auto text-balance relative py-4  px-2 border-t border-b border-foreground/10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
@@ -102,11 +106,8 @@ export default function Login({
             ¡Bienvenido a la sección de comentarios!
           </h2>
           <p className="text-foreground mb-4 z-30">
-            Me alegra que estés aquí. Este es un espacio dedicado para que
-            puedas dejar tus opiniones, sugerencias y cualquier feedback sobre
-            el trabajo que presento en mi portfolio. Al iniciar sesión con tu
-            cuenta de GitHub, podrás unirte a la conversación y compartir tus
-            pensamientos con otros visitantes.
+            Aquí puedes compartir opiniones, sugerencias o preguntas sobre mi
+            portfolio. Inicia sesión con tu cuenta de GitHub para participar.
           </p>
           <p className="text-foreground mb-4 z-30">
             Ya sea que tengas preguntas, recomendaciones o solo quieras saludar,

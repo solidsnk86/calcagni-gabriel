@@ -7,6 +7,10 @@ import {
   University,
 } from "lucide-react";
 
+export const DEFAULT_PATH =
+  "https://personal-portfolio-mgc.vercel.app/auth/callback" ??
+  "http://localhost:3000/auth/callback";
+
 export const api = {
   url: "https://geolocation.microlink.io",
   headers: {
