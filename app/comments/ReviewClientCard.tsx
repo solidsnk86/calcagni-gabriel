@@ -21,7 +21,7 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
             fullName={comment.full_name}
             city={comment.city}
             country={comment.country}
-            createdAt={Format.formatDate(comment.created_at)}
+            createdAt={Format.date(comment.created_at)}
             comment={comment.message}
             trash
             onDelete={() => onDelete && onDelete(comment.id)}

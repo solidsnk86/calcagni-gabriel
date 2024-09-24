@@ -1,5 +1,4 @@
 import { CSSProperties, ReactNode } from "react";
-
 /**
  * AuthButton Props
  */

@@ -4,9 +4,11 @@ import { supabase } from "@/utils/supabase/client";
 import z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import React, { useState } from "react";
+import React, { useState, ComponentProps } from "react";
 import { GetLocation } from "@/components/GetLocation";
 import { ClientFormProps } from "@/app/types/definitions";
+
+type TextAreaProps = ComponentProps<"textarea">;
 
 const formSchema = z.object({
   comment: z
@@ -65,7 +67,10 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
   };
 
   return (
-    <form onSubmit={handleSubmit(formSubmit)} className="grid w-full">
+    <form
+      onSubmit={handleSubmit(formSubmit)}
+      className="grid w-full p-4 border border-foreground/5 rounded-xl"
+    >
       <textarea
         id="textarea"
         className="bg-zinc-900/50 rounded-md p-2 w-full border border-foreground/5 my-4 resize-none focus:outline-violet-400"
@@ -99,13 +104,15 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
           {errors.comment.message}
         </small>
       )}
-      <button
-        className="px-3 py-2 mt-3 bg-btn-background hover:bg-btn-background-hover rounded-lg border border-foreground/10 w-fit cursor-pointer disabled:cursor-not-allowed"
-        type="submit"
-        disabled={isSubmitting}
-      >
-        {isSubmitting ? "Enviando" : "Enviar"}
-      </button>
+      <div className="flex place-content-end">
+        <button
+          className="px-3 py-2 mt-3 bg-btn-background hover:bg-btn-background-hover rounded-lg border border-foreground/10 w-fit cursor-pointer disabled:cursor-not-allowed"
+          type="submit"
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? "Enviando" : "Enviar"}
+        </button>
+      </div>
     </form>
   );
 };

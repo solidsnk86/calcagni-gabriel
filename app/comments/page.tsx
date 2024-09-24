@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import { CLientCommentsPage } from "./ClientCommentsPage";
 import { footerRoutes } from "@/components/constants";
+import ProfileClientAnalytics from "./ProfileClientAnalytics";
 
 export default async function Comments() {
   const supabase = createClient();
@@ -24,6 +25,15 @@ export default async function Comments() {
     throw new Error(`Error to get comments: ${error.message}`);
   }
 
+  const { data: profileData, error: profileError } = await supabase
+    .from("profile_visits")
+    .select("*")
+    .order("created_at", { ascending: false })
+    .limit(20);
+  if (profileError) {
+    throw new Error(`Error to get data from DB ${profileError.message}`);
+  }
+
   return (
     <div className="flex-1 w-full flex flex-col gap-20 items-center">
       <div className="w-full">
@@ -42,32 +52,37 @@ export default async function Comments() {
       </div>
 
       <main className="flex flex-col gap-6 max-w-xl px-3">
-        <div className="p-6 italic bg-violet-400/20 text-white text-balance rounded-xl relative">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            version="1.1"
-            width="100%"
-            height="100%"
-            className="absolute top-0 left-0 opacity-[0.2] rounded-xl"
-          >
-            <filter id="noiseFilter">
-              <feTurbulence
-                type="fractalNoise"
-                baseFrequency="9.5"
-                numOctaves="2"
-                stitchTiles="stitch"
-              />
-            </filter>
-            <rect width="100%" height="100%" filter="url(#noiseFilter)" />
-          </svg>
-          Hola 👋 {user.user_metadata.full_name}! Agradezco mucho tu
-          retroalimentación sobre mis proyectos. Te invito a compartir tus
-          comentarios de manera respetuosa y profesional para ayudarme a
-          mejorar. ¡Gracias por tu tiempo!
-          <p className="text-right">Gabriel Calcagni ツ</p>
-        </div>
-        <h2 className="font-bold text-2xl text-center mb-4">Comentarios</h2>
+        {user.user_metadata.user_name !== "solidsnk86" ? (
+          <div className="p-6 italic bg-violet-400/20 text-white text-balance rounded-xl relative">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="100%"
+              height="100%"
+              className="absolute top-0 left-0 opacity-[0.2] rounded-xl"
+            >
+              <filter id="noiseFilter">
+                <feTurbulence
+                  type="fractalNoise"
+                  baseFrequency="9.5"
+                  numOctaves="2"
+                  stitchTiles="stitch"
+                />
+              </filter>
+              <rect width="100%" height="100%" filter="url(#noiseFilter)" />
+            </svg>
+            Hola 👋 {user.user_metadata.full_name}! Agradezco mucho tu
+            retroalimentación sobre mis proyectos. Te invito a compartir tus
+            comentarios de manera respetuosa y profesional para ayudarme a
+            mejorar. ¡Gracias por tu tiempo!
+            <p className="text-right mt-4">Gabriel Calcagni ツ</p>
+          </div>
+        ) : null}
+        <h2 className="font-bold text-2xl text-center mb-4">Comentario</h2>
         <CLientCommentsPage user={user} initialData={data} />
+        {user.user_metadata.user_name === "solidsnk86" ? (
+          <ProfileClientAnalytics data={profileData} />
+        ) : null}
       </main>
 
       <footer className="w-full p-8 justify-between text-center text-base text-zinc-400 flex">

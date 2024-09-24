@@ -1,5 +1,5 @@
 export class Format {
-  static formatDateAndTime(snd: string | number | Date) {
+  static dateAndTime(snd: string | number | Date) {
     const dateAndTime = new Date(snd).toLocaleDateString("es-ES", {
       year: "numeric",
       month: "short",
@@ -10,7 +10,7 @@ export class Format {
     return dateAndTime;
   }
 
-  static formatDate(snd: string | number | Date) {
+  static date(snd: string | number | Date) {
     const date = new Date(snd).toLocaleDateString("es-ES", {
       year: "numeric",
       month: "short",
@@ -19,7 +19,7 @@ export class Format {
     return date;
   }
 
-  static formatTime(snd: string | number | Date) {
+  static time(snd: string | number | Date) {
     const time = new Date(snd).toLocaleTimeString("es-ES", {
       hour: "2-digit",
       minute: "2-digit",
@@ -27,7 +27,7 @@ export class Format {
     return time;
   }
 
-  static formatLongDateAndTime(snd: string | number | Date) {
+  static longDateAndTime(snd: string | number | Date) {
     const date = new Date(snd).toLocaleDateString("es-ES", {
       year: "numeric",
       month: "long",

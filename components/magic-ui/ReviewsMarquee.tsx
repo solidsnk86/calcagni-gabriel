@@ -70,7 +70,7 @@ export const ReviewsMarquee = ({ data }: { data: any | Promise<void> }) => {
               fullName={review.full_name}
               city={review.city}
               country={review.country}
-              createdAt={Format.formatDate(review.created_at)}
+              createdAt={Format.date(review.created_at)}
               comment={review.message}
             />
           ))}
