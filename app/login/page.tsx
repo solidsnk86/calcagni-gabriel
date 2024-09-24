@@ -35,12 +35,12 @@ export default function Login({
     <AnimatedLayout>
       <main className="md:flex flex-1 w-full items-center overflow-hidden">
         <div className="bg-effect-1"></div>
-        <aside className="flex flex-col xl:justify-between mx-auto p-6 md:sticky top-0 left-0 max-w-xs md:border-r border-foreground/5 md:h-screen overflow-hidden">
+        <aside className="flex flex-col xl:justify-center mx-auto p-6 md:sticky top-0 left-0 max-w-xs md:border-r border-foreground/5 md:h-screen overflow-hidden">
           <div className="bg-effect-2"></div>
           <Link
             href="/"
             title="Volver"
-            className="py-2 pl-1 pr-2 absolute md:relative top-4 left-2 md:top-0 md:left-0 w-fit rounded-md text-foreground bg-btn-background hover:bg-btn-background-hover flex items-center group text-sm"
+            className="py-2 pl-1 pr-2 absolute top-4 left-2 md:top-4 md:left-4 w-fit rounded-md text-foreground bg-btn-background hover:bg-btn-background-hover flex items-center group text-sm"
           >
             <ArrowLeft className="inline mr-2 w-4 h-4" />
             Volver
