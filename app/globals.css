@@ -295,7 +295,7 @@ body {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  animation: spinner 2s linear infinite;
+  animation: spinner 1s linear infinite;
 }
 @keyframes spinner {
   to {

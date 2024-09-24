@@ -38,7 +38,7 @@ export const CLientCommentsPage = ({
       />
       {data && data.length > 0 ? (
         <h1 className="text-center text-xl font-semibold my-4">
-          Últimos comentarios
+          {data.length === 1 ? "Último comentario" : "Últimos comentarios"}
         </h1>
       ) : null}
       <ReviewClientCard data={data} onDelete={handleRefresh} />
