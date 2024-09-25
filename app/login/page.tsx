@@ -34,8 +34,8 @@ export default function Login({
   return (
     <AnimatedLayout>
       <main className="md:flex flex-1 w-full items-center overflow-hidden">
-        <div className="bg-effect-1"></div>
-        <aside className="flex flex-col xl:justify-center mx-auto p-6 md:sticky top-0 left-0 max-w-xs md:border-r border-foreground/5 md:h-screen overflow-hidden">
+        <div className="bg-effect-1 hidden lg:flex"></div>
+        <aside className="flex flex-col xl:justify-center mx-auto p-6 md:sticky top-0 left-0 max-w-xs md:border-r border-foreground/5 md:h-screen overflow-hidden z-20 shadow-zinc-950 shadow-md">
           <div className="bg-effect-2"></div>
           <Link
             href="/"
@@ -84,7 +84,7 @@ export default function Login({
             )}
           </form>
         </aside>
-        <div className="flex flex-col md:flex-1 text-center justify-around mx-auto text-balance relative py-4  px-2 border-t border-b border-foreground/10">
+        <div className="flex flex-col md:flex-1 text-center justify-around mx-auto text-balance relative py-4  px-2 border-t border-b border-foreground/10 z-10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"

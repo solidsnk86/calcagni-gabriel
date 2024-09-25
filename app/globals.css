@@ -307,6 +307,17 @@ body {
 # LOGIN PAGE
 */
 
+.bg-effect-1 {
+  position: absolute;
+  top: calc(25%);
+  right: 0;
+  width: 76%;
+  height: 50%;
+  background-color: #a78bfa2c;
+  filter: blur(160px) drop-shadow(0 0 160px #a78bfa2c);
+  z-index: -1;
+}
+
 .bg-effect-2 {
   position: absolute;
   bottom: 0;

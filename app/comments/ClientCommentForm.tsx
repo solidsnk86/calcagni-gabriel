@@ -4,11 +4,9 @@ import { supabase } from "@/utils/supabase/client";
 import z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import React, { useState, ComponentProps } from "react";
+import React, { useState } from "react";
 import { GetLocation } from "@/components/GetLocation";
 import { ClientFormProps } from "@/app/types/definitions";
-
-type TextAreaProps = ComponentProps<"textarea">;
 
 const formSchema = z.object({
   comment: z
@@ -36,6 +34,11 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
     resolver: zodResolver(formSchema),
   });
 
+  const MAX_CHAR = 260;
+  let [char, setChar] = useState(MAX_CHAR);
+  let [charCount, setCharCount] = useState(0);
+  const [wordsCount, setWordsCount] = useState(0);
+
   const formSubmit = async (formData: FormData) => {
     const { error } = await supabase.from("comments").insert([
       {
@@ -52,23 +55,20 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
     if (error) {
       console.error("Failed to submit comment:", error);
     }
+    setCharCount(0);
+    setWordsCount(0);
     await onRefresh();
     reset();
   };
 
-  const MAX_CHAR = 260;
-  let [char, setChar] = useState(MAX_CHAR);
-  let [charCount, setCharCount] = useState(0);
-  const [wordsCount, setWordsCount] = useState(0);
-
   const handleInput = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const text = e.target.value;
-    setCharCount(text.length + 1);
+    setCharCount(text.length);
     setWordsCount(text.split(" ").length);
   };
 
   return (
-    <form onSubmit={handleSubmit(formSubmit)} className="grid w-full">
+    <form onSubmit={handleSubmit(formSubmit)} className="grid px-5">
       <textarea
         id="textarea"
         className="bg-zinc-900/50 rounded-t-md p-2 w-full border-x border-t border-foreground/5 mt-4 resize-none outline-none overflow-y-hidden"
@@ -87,16 +87,11 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
         }}
       ></textarea>
       <aside className="text-xs flex justify-between items-center border-x border-b border-foreground/5 bg-zinc-900/50 p-2  rounded-b-md">
-        <p>
-          Máximo de caracteres:{" "}
-          <span
-            className={`${
-              char <= 10 ? "text-red-400" : "text-violet-400"
-            } w-10`}
-          >
-            {charCount}/{MAX_CHAR}
-          </span>
-        </p>
+        <span
+          className={`${char <= 10 ? "text-red-400" : "text-violet-400"} w-10`}
+        >
+          {charCount}/{MAX_CHAR}
+        </span>
         <p>Cantidad de palabras: {wordsCount}</p>
         <button
           className="px-3 py-2 bg-btn-background hover:bg-btn-background-hover rounded-md border border-foreground/5 w-fit cursor-pointer disabled:cursor-not-allowed"
