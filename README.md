@@ -42,6 +42,77 @@ Este portafolio está desarrollado con **Next.js**, **Supabase** y **TypeScript*
 
 - **Gestión de datos**: Toda la lógica de backend está desarrollada con SQL en **Supabase**, asegurando un manejo eficiente y escalable de los datos del usuario y visitas.
 
+## Sección de analítica del perfil del portafolio
+
+- Creé una sección de analítica en mi dashboard privado para análisis de visitas del perfil, incluyendo, su IP, su ciudad, su país y la cantidad de veces que ese id ha entrado en perfil, he usado la librería de chart.js para representar los gráficos obtenidos de mi tabla de datos en supabase e inyectarlos a al gráfico mediante un bucle for iterando los key y los values dejo un ejemplo:
+
+```typescript
+export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
+  // Record en typescript se usa para poder definirlo como [key: string]: number; en este caso (key, value)
+  const visitsByCountry: Record<string, number> = {};
+
+  for (let i = 0; i < data.length; i++) {
+    const country = data[i].country;
+    if (visitsByCountry[country]) {
+      visitsByCountry[country]++;
+    } else {
+      visitsByCountry[country] = 1;
+    }
+  }
+
+  // Se pasan los valores obtenidos al chart
+  const chartData = {
+    labels: Object.keys(visitsByCountry), // Le pasamos la llave
+    datasets: [
+      {
+        data: Object.values(visitsByCountry), // Luego los valores
+        backgroundColor: [
+          "rgba(255, 99, 132, 0.6)",
+          "rgba(54, 162, 235, 0.6)",
+          "rgba(255, 206, 86, 0.6)",
+          "rgba(75, 192, 192, 0.6)",
+          "rgba(153, 102, 255, 0.6)",
+          "rgba(255, 159, 64, 0.6)",
+        ],
+        borderColor: [
+          "rgba(255, 99, 132, 1)",
+          "rgba(54, 162, 235, 1)",
+          "rgba(255, 206, 86, 1)",
+          "rgba(75, 192, 192, 1)",
+          "rgba(153, 102, 255, 1)",
+          "rgba(255, 159, 64, 1)",
+        ],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  // Y por último las opciones
+  const chartOptions = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "top" as const,
+      },
+      title: {
+        display: true,
+        text: "Visitas por País",
+      },
+    },
+  };
+
+  return (
+    <div className="my-10 w-full max-w-md mx-auto">
+      <Doughnut data={chartData} options={chartOptions} />
+    </div>
+  );
+}
+```
+
+<div>
+<img src="/captura-analitica-del-portfolio-mgc.png" width="100%" heigt="600" />
+</div>
+
 ## Clonar y Usar este Proyecto
 
 Si te gusta este template y quieres utilizarlo como base para tu propio proyecto, ¡puedes clonarlo y empezar en minutos! Sigue estos pasos:

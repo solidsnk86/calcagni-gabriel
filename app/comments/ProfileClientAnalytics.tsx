@@ -1,16 +1,7 @@
 "use client";
 
 import React from "react";
-import {
-  Line,
-  Bar,
-  Pie,
-  Doughnut,
-  Radar,
-  Scatter,
-  Bubble,
-  PolarArea,
-} from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { ComponentTitle } from "@/components/ComponentTitles";
 import { Format } from "@/components/Format";
@@ -19,6 +10,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   const visitsByCountry: Record<string, number> = {};
+
   for (let i = 0; i < data.length; i++) {
     const country = data[i].country;
     if (visitsByCountry[country]) {
