@@ -42,7 +42,7 @@ Este portafolio está desarrollado con **Next.js**, **Supabase** y **TypeScript*
 
 - **Gestión de datos**: Toda la lógica de backend está desarrollada con SQL en **Supabase**, asegurando un manejo eficiente y escalable de los datos del usuario y visitas.
 
-## Sección de analítica del perfil del portafolio
+## Sección de analítica para el perfíl del portafolio
 
 - Creé una sección de analítica en mi dashboard privado para análisis de visitas del perfil, incluyendo, su IP, su ciudad, su país y la cantidad de veces que ese id ha entrado en perfil, he usado la librería de chart.js para representar los gráficos obtenidos de mi tabla de datos en supabase e inyectarlos a al gráfico mediante un bucle for iterando los key y los values dejo un ejemplo:
 
@@ -110,7 +110,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
 ```
 
 <div>
-<img src="/captura-analitica-del-portfolio-mgc.png" width="100%" heigt="600" />
+<img src="public/captura-analitica-del-portfolio-mgc.png" width="100%" heigt="600" />
 </div>
 
 ## Clonar y Usar este Proyecto
