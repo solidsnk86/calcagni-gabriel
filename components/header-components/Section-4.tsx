@@ -1,4 +1,4 @@
-import { itemsSection4, wap } from "@/components/constants";
+import { itemsSection_4, wap } from "@/components/constants";
 
 import useMatchMedia from "@/app/hooks/useMatchMedia";
 
@@ -15,7 +15,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
     >
       <header className="flex gap-4">
         <img
-          src="https://avatars.githubusercontent.com/u/93176365?v=4"
+          src="/avatar-mgc.webp"
           width={100}
           height={100}
           className="rounded-lg bg-violet-400/60 aspect-square"
@@ -45,7 +45,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
         </Link>
       </header>
       <aside className="text-zinc-400 bg-zinc-900/30 flex flex-wrap items-center p-4 rounded-xl border border-foreground/5 mt-4">
-        {itemsSection4.map((item, index) => (
+        {itemsSection_4.map((item, index) => (
           <header key={index} className="flex text-left items-center mb-1 mr-2">
             <p className="flex items-center text-xs pr-2 pl-1 py-[2px] bg-zinc-800/50 border border-foreground/5 shadow-md rounded-full">
               {item.icon}

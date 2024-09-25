@@ -27,7 +27,7 @@ export const wap = {
   ),
 };
 
-export const itemsSection4 = [
+export const itemsSection_4 = [
   {
     name: "San Luis",
     icon: <MapPin className="w-4 h-4 mr-1 text-violet-400" />,

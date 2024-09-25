@@ -109,7 +109,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
 }
 ```
 
-### Ejemplo
+### Ejemplo:
 
 <div>
 <img src="public/captura-analitica-del-portfolio-mgc.png" width="100%" heigt="600" />
