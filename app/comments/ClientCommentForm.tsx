@@ -58,11 +58,12 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
 
   const MAX_CHAR = 260;
   let [char, setChar] = useState(MAX_CHAR);
+  let [charCount, setCharCount] = useState(0);
   const [wordsCount, setWordsCount] = useState(0);
 
   const handleInput = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const text = e.target.value;
-    setChar(MAX_CHAR - text.length);
+    setCharCount(text.length + 1);
     setWordsCount(text.split(" ").length);
   };
 
@@ -70,7 +71,7 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
     <form onSubmit={handleSubmit(formSubmit)} className="grid w-full">
       <textarea
         id="textarea"
-        className="bg-zinc-900/50 rounded-md p-2 w-full border border-foreground/5 my-4 resize-none focus:outline-violet-400"
+        className="bg-zinc-900/50 rounded-t-md p-2 w-full border-x border-t border-foreground/5 mt-4 resize-none outline-none overflow-y-hidden"
         placeholder="Tu comentario aquí...✍"
         {...register("comment")}
         maxLength={MAX_CHAR}
@@ -85,31 +86,31 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
           }
         }}
       ></textarea>
-      <aside className="mb-3 text-xs flex justify-around text-violet-400">
+      <aside className="text-xs flex justify-between items-center border-x border-b border-foreground/5 bg-zinc-900/50 p-2  rounded-b-md">
         <p>
           Máximo de caracteres:{" "}
           <span
-            className={`${char <= 10 ? "text-red-400" : "text-violet-400"}`}
+            className={`${
+              char <= 10 ? "text-red-400" : "text-violet-400"
+            } w-10`}
           >
-            {char}
+            {charCount}/{MAX_CHAR}
           </span>
         </p>
         <p>Cantidad de palabras: {wordsCount}</p>
+        <button
+          className="px-3 py-2 bg-btn-background hover:bg-btn-background-hover rounded-md border border-foreground/5 w-fit cursor-pointer disabled:cursor-not-allowed"
+          type="submit"
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? "Enviando" : "Enviar"}
+        </button>
       </aside>
       {errors.comment && (
         <small className="text-red-400 text-xs ml-1 mb-3">
           {errors.comment.message}
         </small>
       )}
-      <div className="flex place-content-end">
-        <button
-          className="px-3 py-2 mt-3 bg-btn-background hover:bg-btn-background-hover rounded-lg border border-foreground/10 w-fit cursor-pointer disabled:cursor-not-allowed"
-          type="submit"
-          disabled={isSubmitting}
-        >
-          {isSubmitting ? "Enviando" : "Enviar"}
-        </button>
-      </div>
     </form>
   );
 };
