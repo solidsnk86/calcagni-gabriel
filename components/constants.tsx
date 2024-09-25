@@ -6,6 +6,7 @@ import {
   SmileIcon,
   University,
 } from "lucide-react";
+import { GetLocation } from "./GetLocation";
 
 export const DEFAULT_PATH =
   process.env.NODE_ENV === "production"

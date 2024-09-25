@@ -1,5 +1,9 @@
 import { api } from "./constants";
 
+const env = process.env.NEXT_PUBLIC_WEATHER_API;
+let url: string = "";
+let hook: any = {};
+
 export class GetLocation {
   static async fetchData() {
     try {
@@ -16,6 +20,28 @@ export class GetLocation {
     }
   }
 
+  static async getCityFromWheaterAPI() {
+    return new Promise((resolve, reject) => {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(async (position) => {
+          const lat = position.coords.latitude;
+          const lon = position.coords.longitude;
+          url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${env}`;
+          console.log(url);
+          const res = await fetch(url);
+          const data = await res.json();
+          hook.city = data.name;
+          resolve(hook);
+        }),
+          (error: Error) => {
+            reject(error);
+          };
+      } else {
+        reject(new Error("Geolocalización no soportada por el navegador."));
+      }
+    });
+  }
+
   static async ip() {
     const data = await this.fetchData();
 
@@ -29,9 +55,9 @@ export class GetLocation {
   }
 
   static async city() {
-    const data = await this.fetchData();
-
-    return data.city.name;
+    const data: any | [] =
+      (await this.getCityFromWheaterAPI()) ?? (await this.fetchData());
+    return data.city ?? data.city.name;
   }
 
   static async latitude() {
