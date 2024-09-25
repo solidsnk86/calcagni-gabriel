@@ -100,7 +100,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
       },
     },
   };
-
+  // Renderizamos el componente, yo usé un Doughnut
   return (
     <div className="my-10 w-full max-w-md mx-auto">
       <Doughnut data={chartData} options={chartOptions} />
