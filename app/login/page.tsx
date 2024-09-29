@@ -35,7 +35,7 @@ export default function Login({
     <AnimatedLayout>
       <main className="md:flex flex-1 w-full items-center overflow-hidden">
         <div className="bg-effect-1 hidden lg:flex"></div>
-        <aside className="flex flex-col xl:justify-center mx-auto p-6 md:sticky top-0 left-0 max-w-xs md:border-r border-foreground/5 md:h-screen overflow-hidden z-20 shadow-zinc-950 shadow-md">
+        <aside className="flex flex-col xl:justify-center mx-auto p-6 md:sticky top-0 left-0 max-w-xs md:border-r border-foreground/5 md:h-screen overflow-hidden z-20 shadow-zinc-950 xl:shadow-md">
           <div className="bg-effect-2"></div>
           <Link
             href="/"
