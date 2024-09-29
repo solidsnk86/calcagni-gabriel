@@ -283,6 +283,7 @@ body {
     border-radius: 50px;
     gap: 12px;
     top: 30px;
+    z-index: 99;
   }
 }
 
