@@ -23,7 +23,7 @@ export const Section_5: React.FC<Section_5Props> = ({
       <aside className="w-[100%] relative text-center px-6">
         <p className="text-zinc-400 text-md mb-3">
           {city as string}, {country as string} el día{" "}
-          {Format.longDateAndTime(createdAt as string)}
+          {Format.longDateAndTime(createdAt as string).replace(/,/, " a las")}
         </p>
       </aside>
     </section>
