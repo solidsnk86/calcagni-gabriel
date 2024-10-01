@@ -44,7 +44,9 @@ Este portafolio está desarrollado con **Next.js**, **Supabase** y **TypeScript*
 
 ## Sección de analítica para el perfíl del portafolio
 
-- Creé una sección de analítica en mi dashboard privado para análisis de visitas del perfil, incluyendo, su IP, su ciudad, su país y la cantidad de veces que ese id ha entrado en perfil, he usado la librería de <a href="https://www.chartjs.org/docs/latest/getting-started/usage.html" target="_blank">chart.js</a> para representar los gráficos obtenidos de mi tabla de datos en supabase e inyectarlos a al gráfico mediante un bucle for iterando los key y los values dejo un ejemplo:
+He implementado una sección de analítica en mi dashboard privado para analizar las visitas a los perfiles. En esta sección, se recopila información sobre la IP del visitante, su ciudad, país, y la cantidad de veces que un usuario específico ha visitado el perfil.
+
+Para la visualización de los datos, utilicé la librería <a href="https://www.chartjs.org/docs/latest/getting-started/usage.html" target="_blank">Chart.js</a>, que me permitió representar los datos de forma gráfica. Los datos se obtienen de mi tabla en Supabase y se integran en los gráficos mediante un bucle for, que itera sobre las claves y valores de los datos recopilados. A continuación, dejo un ejemplo del código que utilicé para inyectar los datos en el gráfico:
 
 ```typescript
 export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
