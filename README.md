@@ -180,6 +180,6 @@ npm install next@14.2.6
 
 <div align="center">
 
-  <p>solidsnk 2024</p>
+  <p>solidSnk86 2024</p>
   
 </div>
