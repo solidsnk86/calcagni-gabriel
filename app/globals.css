@@ -331,6 +331,14 @@ body {
   z-index: -1;
 }
 
+.item {
+  view-transition-class: item;
+}
+::view-transition-group(*.item) {
+  animation-duration: 420ms;
+  animation-timing-function: cubic-bezier(1, -0.62, 0.61, 1.37);
+}
+
 @layer base {
   * {
     @apply border-foreground/20;

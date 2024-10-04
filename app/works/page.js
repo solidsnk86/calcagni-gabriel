@@ -11,14 +11,14 @@ import { worksProyects } from "@/components/constants";
 
 export default function Works() {
   const isClient = useIsClient();
-
   const mobile = useMatchMedia("(max-width: 700px)", false);
+
   return (
     isClient && (
       <AnimatedLayout>
         <main className="w-full md:pt-0 pt-20">
           <section className="flex flex-col flex-1 max-w-4xl justify-center mx-auto px-3">
-            <div className="px-3 py-3 bg-zinc-900/50 border-foreground/5 border rounded-xl mt-5">
+            <div className="px-3 py-3 bg-zinc-900/50 border-foreground/5 border rounded-xl mt-5 relative">
               <header className="text-center p-6">
                 <p className="text-gray-400">
                   <BriefcaseBusiness className="inline mr-2 -translate-y-[2px] text-violet-400" />
@@ -27,21 +27,49 @@ export default function Works() {
                 <h3 className="text-white text-lg font-bold">
                   Mi Top 6 de Proyectos
                 </h3>
+                {mobile ? null : (
+                  <button
+                    className="absolute top-4 left-4 ramdomize hover:opacity-80"
+                    onClick={() => {
+                      const grid = document.querySelector(".grid");
+
+                      const shuffledItems = shuffleItems(grid.children);
+                      if (document.startViewTransition) {
+                        document.startViewTransition(() => {
+                          grid.replaceChildren(...shuffledItems);
+                        });
+                      } else {
+                        grid.replaceChildren(...shuffledItems);
+                      }
+
+                      function shuffleItems(items) {
+                        return Array.from(items)
+                          .map((value) => ({ value, sort: Math.random() }))
+                          .sort((a, b) => a.sort - b.sort)
+                          .map(({ value }) => value);
+                      }
+                    }}
+                  >
+                    Mezclar
+                  </button>
+                )}
               </header>
               <ResponsiveMasonry
                 columnsCountBreakPoints={{ 400: 1, 700: 1, 900: 3 }}
               >
-                <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>
+                <Masonry gutter={mobile ? "0.5rem" : "0.8rem"} className="grid">
                   {worksProyects.map((proyect, index) => (
                     <Link
                       key={index}
                       href={proyect.url}
                       target="_blank"
-                      className="relative p-3 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl text-left border border-foreground/5 work-icon-hover"
+                      data-item={index}
+                      style={{ viewTransitionName: `item${index}` }}
+                      className={`item item${index} relative p-3 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl text-left border border-foreground/5 work-icon-hover grayscale hover:grayscale-0 transition-all duration-500`}
                     >
                       <img
                         src={proyect.image}
-                        className="rounded-xl aspect-auto grayscale hover:grayscale-0 transition-all duration-500"
+                        className="rounded-xl aspect-auto"
                         width="100%"
                         height={100}
                       />
