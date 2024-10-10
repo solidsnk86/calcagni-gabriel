@@ -9,7 +9,7 @@ export const metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Portfolio Gabriel Calcagni",
   description:
-    "Obtenga más información sobre el talentoso desarrollador y diseñador web que está detrás de este portafolio. Descubra sus habilidades, su experiencia y su enfoque creativo en el desarrollo web.",
+    "Obtenga más información sobre el desarrollador y diseñador web que está detrás de este portafolio. Descubra sus habilidades, su experiencia y su enfoque creativo en el desarrollo web.",
 };
 
 export default function RootLayout({
