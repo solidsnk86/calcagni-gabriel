@@ -34,13 +34,9 @@ export default function Works() {
                       const grid = document.querySelector(".grid");
 
                       const shuffledItems = shuffleItems(grid.children);
-                      if (document.startViewTransition) {
-                        document.startViewTransition(() => {
-                          grid.replaceChildren(...shuffledItems);
-                        });
-                      } else {
+                      document.startViewTransition(() => {
                         grid.replaceChildren(...shuffledItems);
-                      }
+                      });
 
                       function shuffleItems(items) {
                         return Array.from(items)
