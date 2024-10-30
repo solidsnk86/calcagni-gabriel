@@ -5,6 +5,7 @@ import { Setcion_4Props } from "@/app/types/definitions";
 export const Section_4: React.FC<Setcion_4Props> = ({
   city,
   country,
+  province,
   flag,
   longitude,
   latitude,
@@ -24,7 +25,7 @@ export const Section_4: React.FC<Setcion_4Props> = ({
       <aside className="w-[100%] relative text-center">
         {city && city ? (
           <h1 className="text-zinc-400 text-lg">
-            {city as string}, {country as string} {flag as string}
+            {city as string} {province}, {country as string} {flag as string}
           </h1>
         ) : (
           <h1 className="text-zinc-400 text-lg">Cargando...</h1>

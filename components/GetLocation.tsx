@@ -27,7 +27,7 @@ export class GetLocation {
           const lat = position.coords.latitude;
           const lon = position.coords.longitude;
           url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${env}`;
-          console.log(url);
+
           const res = await fetch(url);
           const data = await res.json();
           hook.city = data.name;
@@ -44,13 +44,11 @@ export class GetLocation {
 
   static async ip() {
     const data = await this.fetchData();
-
     return data.ip.address;
   }
 
   static async country() {
     const data = await this.fetchData();
-
     return data.country.name;
   }
 
@@ -62,19 +60,22 @@ export class GetLocation {
 
   static async latitude() {
     const data = await this.fetchData();
-
     return data.coordinates.latitude;
   }
 
   static async longitude() {
     const data = await this.fetchData();
-
     return data.coordinates.longitude;
+  }
+
+  static async province() {
+    let data = await this.fetchData();
+    data = data.timezone.replace(/.*\//, "");
+    return data.replace("_", " ");
   }
 
   static async flag() {
     const data = await this.fetchData();
-
     return data.country.flag;
   }
 }

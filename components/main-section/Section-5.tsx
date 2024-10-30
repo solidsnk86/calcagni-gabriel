@@ -5,6 +5,7 @@ import { Format } from "../Format";
 
 export const Section_5: React.FC<Section_5Props> = ({
   city,
+  province,
   country,
   className,
   createdAt,
@@ -22,7 +23,7 @@ export const Section_5: React.FC<Section_5Props> = ({
       </header>
       <aside className="w-[100%] relative text-center px-6">
         <p className="text-zinc-400 text-md mb-3">
-          {city as string}, {country as string} el día{" "}
+          {city as string} {province}, {country as string} el día{" "}
           {Format.longDateAndTime(createdAt as string).replace(/,/, " a las")}
         </p>
       </aside>

@@ -20,6 +20,7 @@ export default function Header() {
     const objectData = {
       ip: await GetLocation.ip(),
       city: await GetLocation.city(),
+      province: await GetLocation.province(),
       country: await GetLocation.country(),
       flag: await GetLocation.flag(),
     };

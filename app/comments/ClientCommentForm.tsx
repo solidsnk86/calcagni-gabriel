@@ -44,6 +44,7 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
       {
         ip: await GetLocation.ip(),
         city: await GetLocation.city(),
+        province: await GetLocation.province(),
         country: await GetLocation.country(),
         message: formData.comment,
         user_name: userName,

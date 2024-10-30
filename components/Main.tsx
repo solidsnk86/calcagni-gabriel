@@ -43,6 +43,7 @@ export default function Main() {
       ip: await GetLocation.ip(),
       city: await GetLocation.city(),
       country: await GetLocation.country(),
+      province: await GetLocation.province(),
       flag: await GetLocation.flag(),
     };
     setLocation(dataLocation);
@@ -82,6 +83,7 @@ export default function Main() {
               <Section_4
                 city={location.city}
                 country={location.country}
+                province={location.province}
                 flag={location.flag}
                 latitude={
                   navLocation.latitude
@@ -98,6 +100,7 @@ export default function Main() {
             </div>
             <Section_5
               city={lastVisit.city}
+              province={lastVisit.province}
               country={lastVisit.country}
               createdAt={lastVisit.created_at}
               className={mobile ? "mt-2" : "mt-4"}
