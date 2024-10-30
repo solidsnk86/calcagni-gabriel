@@ -28,7 +28,7 @@ async function handleDelete(id: any, onDelete: () => void) {
 async function getLastVisit() {
   const { data, error } = await supabase
     .from("profile_visits")
-    .select("city, country, created_at")
+    .select("city, province, country, created_at")
     .order("created_at", { ascending: false })
     .limit(1);
 

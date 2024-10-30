@@ -56,7 +56,7 @@ export type Setcion_4Props = {
 
 export type Section_5Props = {
   city?: string | Promise<void>;
-  province?: string;
+  province?: string | Promise<void>;
   country?: string | Promise<void>;
   className?: string;
   createdAt?: string | number | Date;
