@@ -65,28 +65,33 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
       <ComponentTitle.H2 className="text-center my-10">
         Analítica del Portfolio
       </ComponentTitle.H2>
-      <ComponentTitle.H4 className="border border-t border-l border-r border-foreground/5 p-2">
-        Visitas que se hicieron al Perfil:{" "}
+      <ComponentTitle.H4 className="text-center p-2">
+        Total de visitas al Perfil:{" "}
         <span className="text-violet-400">{data.length}</span>
       </ComponentTitle.H4>
 
       <div className="my-10 w-full max-w-md mx-auto">
         <Doughnut data={chartData} options={chartOptions} />
       </div>
-
-      {data.map((d: any, index: number) => (
-        <article
-          key={index}
-          className={`flex border-t border-l border-r py-2 border-foreground/5 text-wrap p-2 ${
-            index % 2 !== 0 ? "bg-zinc-800/50" : "bg-zinc-700/50"
-          }`}
-        >
-          <p className="text-pretty">
-            El IP: {d.ip}. Ha visitado el perfil el día{" "}
-            {Format.dateAndTime(d.created_at)}, desde {d.city}, {d.country}.
-          </p>
-        </article>
-      ))}
+      <ComponentTitle.H4 className="text-center py-2 border border-foreground/5 bg-violet-300/50">
+        Últimas 20 visitas
+      </ComponentTitle.H4>
+      {data.map((d: any, index: number) =>
+        index <= 19 ? (
+          <article
+            key={index}
+            className={`flex border-t border-l border-r py-2 border-foreground/5 text-wrap p-2 ${
+              index % 2 !== 0 ? "bg-zinc-800/50" : "bg-zinc-700/50"
+            }`}
+          >
+            <span className="pr-2">{index + 1}.</span>
+            <p className="text-pretty">
+              El IP: {d.ip}. Ha visitado el perfil el día{" "}
+              {Format.dateAndTime(d.created_at)}, desde {d.city}, {d.country}.
+            </p>
+          </article>
+        ) : null
+      )}
     </div>
   );
 }

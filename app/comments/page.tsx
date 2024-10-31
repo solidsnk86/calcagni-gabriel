@@ -29,8 +29,7 @@ export default async function Comments() {
   const { data: profileData, error: profileError } = await supabase
     .from("profile_visits")
     .select("*")
-    .order("created_at", { ascending: false })
-    .limit(20);
+    .order("created_at", { ascending: false });
   if (profileError) {
     throw new Error(`Error to get data from DB ${profileError.message}`);
   }
