@@ -10,8 +10,10 @@ import { DEFAULT_PATH } from "@/components/constants";
 export default function Login({
   searchParams,
 }: {
-  searchParams: { message: string | Promise<any> };
+  searchParams: { message?: string };
 }) {
+  const message = searchParams.message || "";
+
   const signInWithGitHub = async () => {
     "use server";
 
@@ -77,9 +79,9 @@ export default function Login({
               Inicia sesión para unirte a la conversación en mi portfolio y
               dejar tus comentarios.
             </small>
-            {searchParams.message && (
+            {message && (
               <small className="mt-4 p-4 bg-foreground/10 text-foreground text-center">
-                {searchParams.message}
+                {message}
               </small>
             )}
           </form>
