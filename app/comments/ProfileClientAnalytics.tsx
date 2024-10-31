@@ -8,13 +8,7 @@ import { Format } from "@/components/Format";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-export default function ProfileClientAnalytics({
-  data,
-  lastVisits,
-}: {
-  data: Array<any>;
-  lastVisits: string;
-}) {
+export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   // Construct a type with a set of properties K of type T
   const visitsByCountry: Record<string, number> = {};
 
