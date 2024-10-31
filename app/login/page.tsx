@@ -7,13 +7,13 @@ import { FancyButton } from "@/components/magic-ui/FancyButton";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import { DEFAULT_PATH } from "@/components/constants";
 
-export default function Login({
-  searchParams,
-}: {
-  searchParams: { message?: string };
-}) {
-  const message = searchParams.message || "";
+type LoginProps = {
+  searchParams?: Partial<{
+    message: string;
+  }>;
+};
 
+export default function Login({ searchParams = {} }: LoginProps) {
   const signInWithGitHub = async () => {
     "use server";
 
@@ -79,14 +79,14 @@ export default function Login({
               Inicia sesión para unirte a la conversación en mi portfolio y
               dejar tus comentarios.
             </small>
-            {message && (
+            {searchParams.message && (
               <small className="mt-4 p-4 bg-foreground/10 text-foreground text-center">
-                {message}
+                {searchParams.message}
               </small>
             )}
           </form>
         </aside>
-        <div className="flex flex-col md:flex-1 text-center justify-around mx-auto text-balance relative py-4  px-2 border-t border-b border-foreground/10 z-10">
+        <div className="flex flex-col md:flex-1 text-center justify-around mx-auto text-balance relative py-4 px-2 border-t border-b border-foreground/10 z-10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
