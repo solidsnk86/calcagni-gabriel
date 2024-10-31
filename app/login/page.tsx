@@ -10,7 +10,7 @@ import { DEFAULT_PATH } from "@/components/constants";
 export default function Login({
   searchParams,
 }: {
-  searchParams: { message: string };
+  searchParams: { message: string | Promise<any> };
 }) {
   const signInWithGitHub = async () => {
     "use server";
