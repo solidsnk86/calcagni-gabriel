@@ -8,9 +8,7 @@ import AnimatedLayout from "@/components/AnimatedLayouts";
 import { DEFAULT_PATH } from "@/components/constants";
 
 type LoginProps = {
-  searchParams?: Partial<{
-    message: string;
-  }>;
+  searchParams?: Record<string, string | undefined>;
 };
 
 export default function Login({ searchParams = {} }: LoginProps) {
