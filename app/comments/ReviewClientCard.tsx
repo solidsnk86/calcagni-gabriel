@@ -27,6 +27,7 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
             onDelete={() => onDelete && onDelete(comment.id)}
           />
         ))}
+      {console.log(typeof data)}
     </div>
   );
 };

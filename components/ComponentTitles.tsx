@@ -2,7 +2,7 @@ import { ComponentProps } from "react";
 
 type TitleProps = ComponentProps<"h2">;
 
-export class ComponentTitle {
+export class TitleComponent {
   public static H1({ children, className, style }: TitleProps) {
     return (
       <h1

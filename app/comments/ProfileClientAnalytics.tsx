@@ -3,7 +3,7 @@
 import React from "react";
 import { Doughnut } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import { ComponentTitle } from "@/components/ComponentTitles";
+import { TitleComponent } from "@/components/ComponentTitles";
 import { Format } from "@/components/Format";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -62,20 +62,20 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
 
   return (
     <div className="border-t border-foreground/5">
-      <ComponentTitle.H2 className="text-center my-10">
+      <TitleComponent.H2 className="text-center my-10">
         Analítica del Portfolio
-      </ComponentTitle.H2>
-      <ComponentTitle.H4 className="text-center p-2">
+      </TitleComponent.H2>
+      <TitleComponent.H4 className="text-center p-2">
         Total de visitas al Perfil:{" "}
         <span className="text-violet-400">{data.length}</span>
-      </ComponentTitle.H4>
+      </TitleComponent.H4>
 
       <div className="my-10 w-full max-w-md mx-auto">
         <Doughnut data={chartData} options={chartOptions} />
       </div>
-      <ComponentTitle.H4 className="text-center py-2 border border-foreground/5 bg-violet-300/50">
+      <TitleComponent.H4 className="text-center py-2 border border-foreground/5 bg-violet-300/50">
         Últimas 20 visitas
-      </ComponentTitle.H4>
+      </TitleComponent.H4>
       {data.map((d: any, index: number) =>
         index <= 19 ? (
           <article
