@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { ReviewsMarqueeProps } from "@/app/types/definitions";
 import { DeleteButton } from "../DeleteBtn";
+import { EditButton } from "../EditBtn";
 
 export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   id,
@@ -14,8 +15,10 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   flag,
   createdAt,
   comment,
+  content,
   trash,
   onDelete,
+  onEdit,
 }) => {
   return (
     <div
@@ -38,7 +41,9 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
         </aside>
         <small className="flex absolute right-3 text-zinc-400">
           {trash ? (
-            <DeleteButton id={id} onDelete={() => onDelete && onDelete(id)} />
+            <>
+              <DeleteButton id={id} onDelete={() => onDelete && onDelete(id)} />
+            </>
           ) : null}
           {createdAt as number}
         </small>

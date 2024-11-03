@@ -4,6 +4,29 @@ import { supabase } from "@/utils/supabase/client";
  * Supabase actions
  */
 
+export async function handleEdit(id: string | number, content: string) {
+  try {
+    const { error } = await supabase
+      .from("comments")
+      .update(content)
+      .match({ id });
+
+    if (error) {
+      throw new Error(`Error to update the comment ${error.message}`);
+    }
+
+    const { data, error: newError } = await supabase.from("comments").select();
+
+    if (newError) {
+      throw new Error(`Error `);
+    }
+
+    return data;
+  } catch (err) {
+    console.error("Server Error: ", err);
+  }
+}
+
 async function handleDelete(id: any, onDelete: () => void) {
   try {
     const { data: updatedData, error: deleteError } = await supabase

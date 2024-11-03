@@ -77,8 +77,10 @@ export type ReviewsMarqueeProps = {
   flag?: string;
   createdAt: string | number | Date;
   comment: string | [];
+  content?: string;
   trash?: boolean;
   onDelete?: (id: string | number) => void;
+  onEdit?: (id: string | number, content: string) => void;
 };
 
 /**
@@ -108,4 +110,13 @@ export type ClientFormProps = {
 export type DeleteButtonProps = {
   id: string | number;
   onDelete: () => void;
+};
+
+/**
+ * Edit Button Props
+ */
+export type EditButtonProps = {
+  id: string | number;
+  content: string;
+  onEdit: () => void;
 };
