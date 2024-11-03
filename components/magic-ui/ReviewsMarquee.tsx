@@ -10,6 +10,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   avatarUrl,
   fullName,
   city,
+  province,
   country,
   createdAt,
   comment,
@@ -32,7 +33,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
         <aside className="flex flex-col cursor-default">
           <small className="font-semibold">{fullName}</small>
           <small className="text-zinc-400 font-light">
-            {city}, {country}
+            {city} {province}, {country}
           </small>
         </aside>
         <small className="flex absolute right-3 text-zinc-400">
@@ -69,6 +70,7 @@ export const ReviewsMarquee = ({ data }: { data: any | Promise<void> }) => {
               avatarUrl={review.avatar_url}
               fullName={review.full_name}
               city={review.city}
+              province={review.province}
               country={review.country}
               createdAt={Format.date(review.created_at)}
               comment={review.message}

@@ -20,6 +20,7 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
             avatarUrl={comment.avatar_url}
             fullName={comment.full_name}
             city={comment.city}
+            province={comment.province}
             country={comment.country}
             createdAt={Format.date(comment.created_at)}
             comment={comment.message}
@@ -27,7 +28,6 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
             onDelete={() => onDelete && onDelete(comment.id)}
           />
         ))}
-      {console.log(typeof data)}
     </div>
   );
 };

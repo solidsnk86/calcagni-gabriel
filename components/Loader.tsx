@@ -1,4 +1,4 @@
-export const Loader = ({ className }: { className: string }) => {
+export const Loader = ({ className }: { className?: string }) => {
   return (
     <div className="flex w-[100%] h-[100%] p-[1.5px]">
       <span
