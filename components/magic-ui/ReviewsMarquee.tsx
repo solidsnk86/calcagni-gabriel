@@ -62,7 +62,7 @@ export const ReviewsMarquee = ({ data }: { data: any | Promise<void> }) => {
   return (
     <div className="flex flex-col">
       {reviews.length !== 0 ? (
-        <Marquee className="[--duration:20s]" animateY slice>
+        <Marquee className="[--duration:20s]" animateY slice pauseOnHover>
           {reviews.map((review) => (
             <ReviewCard
               id={review.id}
