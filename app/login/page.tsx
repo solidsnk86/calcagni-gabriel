@@ -4,6 +4,7 @@ import { Loader } from "@/components/Loader";
 import Link from "next/link";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import { ArrowLeft } from "lucide-react";
+import { SupabaseCard } from "@/components/magic-ui/SupabaseCard";
 
 export default function Login() {
   return (
@@ -24,6 +25,7 @@ export default function Login() {
             <LoginForm />
           </Suspense>
         </aside>
+
         <div className="flex flex-col md:flex-1 text-center justify-around mx-auto text-balance relative py-4 px-2 border-t border-b border-foreground/10 z-10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +60,7 @@ export default function Login() {
             Si aún no tienes una cuenta de GitHub, te recomiendo{" "}
             <Link
               href="https://github.com/"
-              className="underline text-violet-400"
+              className="underline text-violet-400 hover:opacity-70"
               target="_blank"
             >
               crear una
