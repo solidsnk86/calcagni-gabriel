@@ -5,11 +5,7 @@ import Link from "next/link";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import { ArrowLeft } from "lucide-react";
 
-type LoginProps = {
-  searchParams?: Record<string, string | undefined>;
-};
-
-export default function Login({ searchParams = {} }: LoginProps) {
+export default function Login() {
   return (
     <AnimatedLayout>
       <main className="md:flex flex-1 w-full items-center overflow-hidden">
@@ -25,7 +21,7 @@ export default function Login({ searchParams = {} }: LoginProps) {
             Volver
           </Link>
           <Suspense fallback={<Loader />}>
-            <LoginForm searchParams={searchParams} />
+            <LoginForm />
           </Suspense>
         </aside>
         <div className="flex flex-col md:flex-1 text-center justify-around mx-auto text-balance relative py-4 px-2 border-t border-b border-foreground/10 z-10">

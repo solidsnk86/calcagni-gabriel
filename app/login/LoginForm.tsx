@@ -4,11 +4,7 @@ import { encodedRedirect } from "@/utils/utils";
 import { FancyButton } from "@/components/magic-ui/FancyButton";
 import { DEFAULT_PATH } from "@/components/constants";
 
-export async function LoginForm({
-  searchParams = {},
-}: {
-  searchParams: Record<string, string | undefined>;
-}) {
+export async function LoginForm() {
   const signInWithGitHub = async () => {
     "use server";
 
@@ -54,11 +50,6 @@ export async function LoginForm({
         Inicia sesión para unirte a la conversación en mi portfolio y dejar tus
         comentarios.
       </small>
-      {searchParams.message && (
-        <small className="mt-4 p-4 bg-foreground/10 text-foreground text-center">
-          {searchParams.message}
-        </small>
-      )}
     </form>
   );
 }
