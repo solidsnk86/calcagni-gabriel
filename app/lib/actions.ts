@@ -18,7 +18,7 @@ export async function handleEdit(id: string | number, content: string) {
     const { data, error: newError } = await supabase.from("comments").select();
 
     if (newError) {
-      throw new Error(`Error `);
+      throw new Error(`Error ${newError.message}`);
     }
 
     return data;
