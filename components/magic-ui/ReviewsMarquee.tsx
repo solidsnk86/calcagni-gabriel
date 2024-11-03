@@ -72,6 +72,7 @@ export const ReviewsMarquee = ({ data }: { data: any | Promise<void> }) => {
               city={review.city}
               province={review.province}
               country={review.country}
+              flag={review.flag}
               createdAt={Format.date(review.created_at)}
               comment={review.message}
             />
