@@ -22,6 +22,7 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
             city={comment.city}
             province={comment.province}
             country={comment.country}
+            flag={comment.flag}
             createdAt={Format.date(comment.created_at)}
             comment={comment.message}
             trash

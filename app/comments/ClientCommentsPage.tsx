@@ -4,7 +4,6 @@ import { supabase } from "@/utils/supabase/client";
 import { ClientCommentForm } from "./ClientCommentForm";
 import { useState } from "react";
 import { ReviewClientCard } from "./ReviewClientCard";
-import { GetLocation } from "@/components/GetLocation";
 
 export const CLientCommentsPage = ({
   user,

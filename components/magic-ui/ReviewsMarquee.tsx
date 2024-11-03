@@ -11,7 +11,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   fullName,
   city,
   province,
-  country,
+  flag,
   createdAt,
   comment,
   trash,
@@ -32,8 +32,8 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
         />
         <aside className="flex flex-col cursor-default">
           <small className="font-semibold">{fullName}</small>
-          <small className="text-zinc-400 font-light">
-            {city} {province}, {country}
+          <small className="text-zinc-400 font-light line-clamp-1">
+            {city}, {province} {flag}
           </small>
         </aside>
         <small className="flex absolute right-3 text-zinc-400">

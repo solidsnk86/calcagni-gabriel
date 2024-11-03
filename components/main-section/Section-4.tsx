@@ -24,7 +24,7 @@ export const Section_4: React.FC<Setcion_4Props> = ({
       </header>
       <aside className="w-[100%] relative text-center">
         {city && city ? (
-          <h1 className="text-zinc-400 text-lg">
+          <h1 className="text-zinc-400 text-md line-clamp-1">
             {city as string} {province}, {country as string} {flag as string}
           </h1>
         ) : (
