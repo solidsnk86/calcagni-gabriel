@@ -4,7 +4,6 @@ import { Loader } from "@/components/Loader";
 import Link from "next/link";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import { ArrowLeft } from "lucide-react";
-import { SupabaseCard } from "@/components/magic-ui/SupabaseCard";
 
 export default function Login() {
   return (
