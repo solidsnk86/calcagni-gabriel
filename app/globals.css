@@ -339,6 +339,11 @@ body {
   animation-timing-function: cubic-bezier(1, -0.62, 0.61, 1.37);
 }
 
+.reflection-404 {
+  -webkit-box-reflect: below -12px linear-gradient(transparent, #00000009, rgb(0
+          0 0 / 14%));
+}
+
 @layer base {
   * {
     @apply border-foreground/20;

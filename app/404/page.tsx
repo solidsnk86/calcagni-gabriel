@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Page404() {
   return (
-    <div className="px-8 justify-center mx-auto mt-20">
+    <div className="px-8 justify-center mx-auto mt-20 reflection-404">
       <header>
         <img
           src="/grim-fandango.png"
