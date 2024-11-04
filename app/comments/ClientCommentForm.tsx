@@ -7,6 +7,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import React, { useState } from "react";
 import { GetLocation } from "@/components/GetLocation";
 import { ClientFormProps } from "@/app/types/definitions";
+import { DataModel } from "../lib/actions";
 
 const formSchema = z.object({
   comment: z
@@ -40,7 +41,8 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
   const [wordsCount, setWordsCount] = useState(0);
 
   const formSubmit = async (formData: FormData) => {
-    const { error } = await supabase.from("comments").insert([
+    DataModel.create(
+      "comments",
       {
         ip: await GetLocation.ip(),
         city: await GetLocation.city(),
@@ -52,14 +54,11 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
         full_name: fullName,
         avatar_url: avatar,
       },
-    ]);
-
-    if (error) {
-      console.error("Failed to submit comment:", error);
-    }
+      onRefresh
+    );
     setCharCount(0);
     setWordsCount(0);
-    await onRefresh();
+
     reset();
   };
 

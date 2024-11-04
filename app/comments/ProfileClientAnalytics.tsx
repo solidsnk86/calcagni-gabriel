@@ -87,7 +87,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
             <span className="pr-2">{index + 1}.</span>
             <p className="text-pretty">
               El IP: {d.ip}. Ha visitado el perfil el día{" "}
-              {Format.dateAndTime(d.created_at)}, desde {d.city}, {d.country}.
+              {Format.dateAndTime(d.created_at)}, desde {d.city} - {d.province}, {d.country}.
             </p>
           </article>
         ) : null

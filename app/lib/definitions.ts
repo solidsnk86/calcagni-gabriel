@@ -1,5 +1,12 @@
+export type GetProps = {
+  table: string;
+  column: string;
+};
+
 export type CreateProps = {
+  table: string;
   content: string;
+  onCreate: () => Promise<void>;
 };
 
 export type UpdateProps = {
@@ -8,5 +15,7 @@ export type UpdateProps = {
 };
 
 export type DeleteProps = {
+  table: string;
   id: string | number;
+  onDelete: () => Promise<void>;
 };

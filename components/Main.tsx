@@ -11,7 +11,7 @@ import { supabase } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
 import { GetLocation } from "./GetLocation";
 import { Section_5 } from "./main-section/Section-5";
-import { getLastVisit } from "@/app/lib/actions";
+import { DataModel } from "@/app/lib/actions";
 
 export default function Main() {
   const mobile = useMatchMedia("(max-width: 700px)", false);
@@ -23,18 +23,14 @@ export default function Main() {
 
   const fetchComments = async () => {
     try {
-      const { data, error } = await supabase.from("comments").select("*");
-
-      if (error) {
-        console.error("Error to get data from database", error.message);
-      }
+      const data = await DataModel.getData("comments", "*");
 
       setComments(data);
     } catch (error) {
       console.error("Error", error);
     }
 
-    const visitsData = await getLastVisit();
+    const visitsData = await DataModel.getLastVisit();
     setLastVisit(visitsData[0]);
   };
 

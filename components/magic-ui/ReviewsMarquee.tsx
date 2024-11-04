@@ -4,7 +4,6 @@ import Link from "next/link";
 import React from "react";
 import { ReviewsMarqueeProps } from "@/app/types/definitions";
 import { DeleteButton } from "../DeleteBtn";
-import { EditButton } from "../EditBtn";
 
 export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   id,
@@ -15,10 +14,8 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   flag,
   createdAt,
   comment,
-  content,
   trash,
   onDelete,
-  onEdit,
 }) => {
   return (
     <div
@@ -42,7 +39,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
         <small className="flex absolute right-3 text-zinc-400">
           {trash ? (
             <>
-              <DeleteButton id={id} onDelete={() => onDelete && onDelete(id)} />
+              <DeleteButton id={id} onDelete={() => onDelete} />
             </>
           ) : null}
           {createdAt as number}
@@ -58,11 +55,11 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
 };
 
 export const ReviewsMarquee = ({ data }: { data: any | Promise<void> }) => {
-  const reviews = [];
+  const reviews: any[] = [];
 
-  for (let i = 0; i < data.length; i++) {
-    reviews.push(data[i]);
-  }
+  data.forEach((review: any) => {
+    reviews.push(review);
+  });
 
   return (
     <div className="flex flex-col">
