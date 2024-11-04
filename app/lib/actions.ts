@@ -1,5 +1,4 @@
 import { supabase } from "@/utils/supabase/client";
-import { CreateProps, DeleteProps, GetProps, UpdateProps } from "./definitions";
 
 /**
  * Supabase actions
@@ -47,7 +46,7 @@ export class DataModel {
     }
   }
 
-  public static async update({ id, content }: UpdateProps) {
+  public static async update(id: string | number, content: object | any) {
     try {
       const { error } = await supabase
         .from("comments")
