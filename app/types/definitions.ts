@@ -79,8 +79,8 @@ export type ReviewsMarqueeProps = {
   comment: string | [];
   content?: string;
   trash?: boolean;
-  onDelete?: (id: string | number) => void;
-  onEdit?: (id: string | number, content: string) => void;
+  onDelete?: (id: string | number) => Promise<void>;
+  onEdit?: (id: string | number, content: string) => Promise<void>;
 };
 
 /**
