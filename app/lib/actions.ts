@@ -84,6 +84,7 @@ export class DataModel {
         throw new Error(`Cannot delete comment: ${error.message}`);
       }
 
+      onDelete();
       location.reload();
     } catch (err) {
       console.error("Server error, cannot delete data: ", err);
