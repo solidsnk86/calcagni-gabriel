@@ -58,7 +58,7 @@ export class DataModel {
       }
 
       const { data: newData, error: newError } = await supabase
-        .from("cooments")
+        .from("comments")
         .select()
         .order("created_at", { ascending: false });
 
@@ -75,7 +75,7 @@ export class DataModel {
   public static async delete(
     table: string,
     id: string | number,
-    onDelete: () => void | (() => Promise<void>)
+    onDelete: () => void
   ) {
     try {
       const { error } = await supabase.from(table).delete().match({ id });
@@ -84,7 +84,7 @@ export class DataModel {
         throw new Error(`Cannot delete comment: ${error.message}`);
       }
 
-      onDelete();
+      location.reload();
     } catch (err) {
       console.error("Server error, cannot delete data: ", err);
     }
