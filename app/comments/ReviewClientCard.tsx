@@ -26,7 +26,7 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
             createdAt={Format.date(comment.created_at)}
             comment={comment?.message}
             trash
-            onDelete={async () => onDelete?.(comment.id)}
+            onDelete={() => onDelete && onDelete(comment.id)}
           />
         ))}
     </div>
