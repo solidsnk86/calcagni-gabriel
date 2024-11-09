@@ -14,7 +14,7 @@ import { GetLocation } from "./GetLocation";
 export default function Header() {
   const isClient = useIsClient();
   const mobile = useMatchMedia("(max-width: 700px)", false);
-  const [visits, setVisits] = useState<any>(null);
+  const [visits, setVisits] = useState<number | null>(null);
 
   const sendDataLocation = async () => {
     const objectData = {
@@ -50,7 +50,7 @@ export default function Header() {
         }
       }
 
-      setVisits(lastVisit?.id);
+      setVisits(lastVisit?.id ?? null);
     } catch (error) {
       console.error("Error sending data location:", error);
     }
@@ -60,36 +60,28 @@ export default function Header() {
     sendDataLocation();
   }, []);
 
+  if (!isClient) return null;
+
+  const sections = mobile
+    ? [
+        <Section_4 key="section4" />,
+        <Section_2 key="section2" visits={visits} />,
+        <Section_3 key="section3" />,
+        <Section_1 key="section1" />,
+      ]
+    : [
+        <Section_1 key="section1" />,
+        <Section_2 key="section2" visits={visits} />,
+        <Section_3 key="section3" />,
+        <Section_4 key="section4" />,
+      ];
+
   return (
-    <>
-      {isClient && (
-        <ResponsiveMasonry
-          columnsCountBreakPoints={{ 400: 1, 700: 1, 900: 2 }}
-          className="my-4"
-        >
-          {mobile ? (
-            <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>
-              <Section_4 />
-
-              <Section_2 visits={visits} />
-
-              <Section_3 />
-
-              <Section_1 />
-            </Masonry>
-          ) : (
-            <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>
-              <Section_1 />
-
-              <Section_2 visits={visits} />
-
-              <Section_3 />
-
-              <Section_4 />
-            </Masonry>
-          )}
-        </ResponsiveMasonry>
-      )}
-    </>
+    <ResponsiveMasonry
+      columnsCountBreakPoints={{ 400: 1, 700: 1, 900: 2 }}
+      className="my-4"
+    >
+      <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>{sections}</Masonry>
+    </ResponsiveMasonry>
   );
 }
