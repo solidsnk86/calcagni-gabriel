@@ -80,8 +80,8 @@ export default function Header() {
             <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>
               <Section_1 />
               <Section_2 visits={visits} />
-              <Section_3 />
               <Section_4 />
+              <Section_3 />
             </Masonry>
           )}
         </ResponsiveMasonry>
