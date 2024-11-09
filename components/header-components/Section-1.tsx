@@ -10,7 +10,7 @@ export const Section_1 = ({ className }: { className?: string }) => {
   const mobile = useMatchMedia("(max-width: 700px)", false);
   return (
     <section
-      className={`border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl h-[50%] ${className}`}
+      className={`border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl ${className}`}
     >
       <header className="text-center">
         <p className="text-gray-400">

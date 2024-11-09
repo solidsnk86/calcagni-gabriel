@@ -7,7 +7,6 @@ import { Section_2 } from "./main-section/Section-2";
 import { useIsClient } from "@/app/hooks/useIsClient";
 import { Section_3 } from "./main-section/Section-3";
 import { Section_4 } from "./main-section/Section-4";
-import { supabase } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
 import { GetLocation } from "./GetLocation";
 import { Section_5 } from "./main-section/Section-5";
