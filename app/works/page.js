@@ -8,7 +8,6 @@ import { ArrowRight, BriefcaseBusiness } from "lucide-react";
 import { useIsClient } from "../hooks/useIsClient";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import { worksProyects } from "@/components/constants";
-import { useEffect } from "react";
 
 export default function Works() {
   const isClient = useIsClient();
