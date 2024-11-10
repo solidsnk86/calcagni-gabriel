@@ -36,7 +36,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
           <p className="text-zinc-400 text-sm">Desarrollador Front End</p>
         </aside>
         <Link
-          href="/MGC-Currículum.pdf"
+          href="https://docs.google.com/document/d/15jJ0_nLwg7dyt2cUycnH9ioKA3TPWMvx7INeAa2VOp8/edit?usp=sharing"
           download="Curriculum-Vitae-Calcagni-Gabriel-2024.pdf"
           title="Descargar CV"
           className="absolute right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:-translate-y-1 transition-transform duration-300 hover:shadow-md"
