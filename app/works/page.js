@@ -8,6 +8,7 @@ import { ArrowRight, BriefcaseBusiness } from "lucide-react";
 import { useIsClient } from "../hooks/useIsClient";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import { worksProyects } from "@/components/constants";
+import { useEffect } from "react";
 
 export default function Works() {
   const isClient = useIsClient();
@@ -30,11 +31,12 @@ export default function Works() {
                 {mobile ? null : (
                   <button
                     className="absolute top-4 left-4 ramdomize hover:opacity-80"
-                    onClick={() => {
+                    onClick={async () => {
                       const grid = document.querySelector(".grid");
 
                       const shuffledItems = shuffleItems(grid.children);
-                      document.startViewTransition(() => {
+
+                      await document.startViewTransition(() => {
                         grid.replaceChildren(...shuffledItems);
                       });
 
