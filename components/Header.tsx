@@ -3,13 +3,13 @@
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { useIsClient } from "@/app/hooks/useIsClient";
 import useMatchMedia from "@/app/hooks/useMatchMedia";
-import { Section_4 } from "./header-components/Section-4";
-import { Section_3 } from "./header-components/Section-3";
-import { Section_2 } from "./header-components/Section-2";
-import { Section_1 } from "./header-components/Section-1";
+import { Section_4 } from "@/components/header-components/Section-4";
+import { Section_3 } from "@/components/header-components/Section-3";
+import { Section_2 } from "@/components/header-components/Section-2";
+import { Section_1 } from "@/components/header-components/Section-1";
 import { supabase } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
-import { GetLocation } from "./GetLocation";
+import { GetLocation } from "@/components/GetLocation";
 
 export default function Header() {
   const isClient = useIsClient();
