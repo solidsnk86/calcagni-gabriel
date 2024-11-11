@@ -27,7 +27,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
               Disponible
             </p>
           ) : (
-            <p className="text-sm text-zinc-400 bg-zinc-900 items-center pl-[26px] pr-3 py-1 rounded-full border border-foreground/5 w-fit relative">
+            <p className="text-sm text-zinc-400 bg-zinc-900 items-center pl-[26px] pr-3 py-1 rounded-full border border-foreground/5 w-fit relative line-clamp-1">
               <span className="avaliable-dot before:animate-ping" />
               Disponible para Trabajar
             </p>
