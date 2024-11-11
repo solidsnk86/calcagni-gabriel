@@ -62,7 +62,7 @@ export const Section_2 = ({
                 </span>
               ) : null}
             </h1>
-            <aside className="flex items-center justify-center xl:px-3 px-2 xl:py-1 py-[2px] mt-2 bg-zinc-800/30 border border-foreground/5 md:rounded-full w-full min-w-[120px]">
+            <aside className="flex items-center justify-center xl:px-3 px-2 xl:py-1 py-[2px] mt-2 bg-zinc-800/30 border border-foreground/5 lg:rounded-full w-full min-w-[120px]">
               {sec.icon}
               <span className="xl:text-xs text-[10px] whitespace-nowrap">
                 {sec.name}
