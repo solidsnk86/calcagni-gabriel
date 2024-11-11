@@ -19,11 +19,11 @@ export const Section_2 = ({
   };
 
   const handleVisitsNumber = (num: number | string | any) => {
-    if (visits >= 1000) {
-      const formatVisits = (visits / 1000).toFixed(1);
+    if (num >= 1000) {
+      const formatVisits = (num / 1000).toFixed(1);
       return formatVisits.replace(/.0/, "") + "K";
     }
-    return visits;
+    return num;
   };
 
   const sections = [
