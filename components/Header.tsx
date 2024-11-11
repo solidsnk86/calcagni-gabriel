@@ -38,7 +38,7 @@ export default function Header() {
 
       const lastVisit = visitsData?.[0];
 
-      if (!lastVisit || lastVisit.ip !== objectData.ip) {
+      if (lastVisit.ip !== objectData.ip) {
         const { error: insertError } = await supabase
           .from("profile_visits")
           .insert(objectData);
