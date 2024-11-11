@@ -5,6 +5,24 @@ import { supabase } from "@/utils/supabase/client";
  */
 
 export class DataModel {
+  public static async create(
+    table: string,
+    content: object,
+    onCreate: () => void
+  ) {
+    try {
+      const { error } = await supabase.from(table).insert(content);
+
+      if (error) {
+        throw new Error(`Cannot create comment: ${error.message}`);
+      }
+
+      onCreate();
+    } catch (err) {
+      console.error("Server error, cannot create comment: ", err);
+    }
+  }
+
   public static async getData(
     table: string,
     column: string,
@@ -25,24 +43,6 @@ export class DataModel {
       return data;
     } catch (err) {
       console.error("Server error, cannot get data: ", err);
-    }
-  }
-
-  public static async create(
-    table: string,
-    content: object,
-    onCreate: () => void
-  ) {
-    try {
-      const { error } = await supabase.from(table).insert(content);
-
-      if (error) {
-        throw new Error(`Cannot create comment: ${error.message}`);
-      }
-
-      onCreate();
-    } catch (err) {
-      console.error("Server error, cannot create comment: ", err);
     }
   }
 
