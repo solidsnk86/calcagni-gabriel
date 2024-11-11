@@ -7,7 +7,7 @@ export default async function Index() {
   return (
     <AnimatedLayout>
       <main className="w-full">
-        <section className="flex flex-col  max-w-4xl justify-center mx-auto px-3 md:pt-0 pt-16">
+        <section className="flex flex-col  max-w-4xl justify-center mx-auto md:px-3 md:pt-0 pt-16">
           <div className="px-3 py-3">
             <Header />
             <Main />
