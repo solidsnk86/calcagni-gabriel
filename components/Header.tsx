@@ -50,7 +50,7 @@ export default function Header() {
         }
       }
 
-      setVisits(lastVisit?.id ?? null);
+      setVisits(lastVisit.id);
     } catch (error) {
       console.error("Error sending data location:", error);
     }
