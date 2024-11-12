@@ -1,6 +1,4 @@
-import { Suspense } from "react";
 import { LoginForm } from "./LoginForm";
-import { Loader } from "@/components/Loader";
 import Link from "next/link";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import { ArrowLeft } from "lucide-react";
@@ -20,9 +18,7 @@ export default function Login() {
             <ArrowLeft className="inline mr-2 w-4 h-4" />
             Volver
           </Link>
-          <Suspense fallback={<Loader />}>
-            <LoginForm />
-          </Suspense>
+          <LoginForm />
         </aside>
 
         <div className="flex flex-col md:flex-1 text-center justify-around mx-auto text-balance relative py-4 px-2 border-t border-b border-foreground/10 z-10">

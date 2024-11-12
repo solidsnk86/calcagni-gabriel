@@ -35,7 +35,7 @@ export const Section_2 = ({
     {
       name: "Visitas",
       quantity: !visits
-        ? (visits = <Loader />)
+        ? (visits = <Loader width="45" height="45" />)
         : handleVisitsNumber(visits as string),
       icon: <Eye className="inline w-4 h-5 mr-1 text-violet-400" />,
     },
