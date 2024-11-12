@@ -7,7 +7,6 @@ import useMatchMedia from "@/app/hooks/useMatchMedia";
 import { useFormStatus } from "react-dom";
 import { Loader } from "./Loader";
 
-// Componente separado para el botón de submit
 const LogoutButton = ({ mobile }: { mobile: boolean }) => {
   const { pending } = useFormStatus();
 
@@ -18,7 +17,11 @@ const LogoutButton = ({ mobile }: { mobile: boolean }) => {
       type="submit"
     >
       {mobile ? (
-        ""
+        pending ? (
+          <Loader width="20" height="20" />
+        ) : (
+          ""
+        )
       ) : pending ? (
         <>
           <span className="mr-1">Cerrando..</span>
