@@ -32,7 +32,7 @@ export const AuthButtonClient: React.FC<AuthButtonProps> = ({
           }}
         >
           {mobile ? "" : "Cerrar Sesión"}
-          <LogOut className="w-5 h-5 inline ml-2" />
+          <LogOut className={`${mobile ? "ml-0" : "ml-2"} w-5 h-5 inline`} />
         </button>
       </form>
     </div>

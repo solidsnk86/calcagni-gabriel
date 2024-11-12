@@ -20,7 +20,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   return (
     <div
       id={`comment-${id}`}
-      className="flex flex-col md:max-w-lg max-w-xs w-[320px] md:w-[512px] space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative mt-4"
+      className="flex flex-col w-full space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative my-4"
     >
       <header className="flex gap-[10px] items-center border-b border-foreground/10 dark:border-zinc-800 p-3">
         <img

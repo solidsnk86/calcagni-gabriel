@@ -69,7 +69,7 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
   };
 
   return (
-    <form onSubmit={handleSubmit(formSubmit)} className="grid px-5">
+    <form onSubmit={handleSubmit(formSubmit)} className="grid">
       <textarea
         id="textarea"
         className="bg-zinc-900/50 rounded-t-md p-2 w-full border-x border-t border-foreground/5 mt-4 resize-none outline-none overflow-y-hidden"

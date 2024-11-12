@@ -50,7 +50,7 @@ export default async function Comments() {
         </nav>
       </div>
 
-      <main className="flex flex-col gap-6 max-w-xl px-3">
+      <main className="flex flex-col gap-6 xl:max-w-lg lg:max-w-sm max-w-xs">
         {user.user_metadata.user_name !== "solidsnk86" ? (
           <div className="p-6 italic bg-violet-400/20 text-white text-balance rounded-xl relative">
             <svg

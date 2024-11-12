@@ -10,7 +10,7 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
   onDelete,
 }) => {
   return (
-    <div className="flex flex-col justify-center mx-auto">
+    <div className="flex justify-center">
       {data &&
         data.map((comment: any) => (
           <ReviewCard
