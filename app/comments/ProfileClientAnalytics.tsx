@@ -70,7 +70,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
         <span className="text-violet-400">{data.length}</span>
       </TitleComponent.H4>
 
-      <div className="my-10 w-full max-w-md mx-auto">
+      <div className="my-10 w-full max-w-md mx-auto justify-center flex">
         <Doughnut data={chartData} options={chartOptions} />
       </div>
       <TitleComponent.H4 className="text-center py-2 border border-foreground/5 bg-violet-300/50">
@@ -87,7 +87,8 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
             <span className="pr-2">{index + 1}.</span>
             <p className="text-pretty">
               El IP: {d.ip}. Ha visitado el perfil el día{" "}
-              {Format.dateAndTime(d.created_at)}, desde {d.city} - {d.province}, {d.country}.
+              {Format.dateAndTime(d.created_at)}, desde {d.city} - {d.province},{" "}
+              {d.country}.
             </p>
           </article>
         ) : null

@@ -34,7 +34,7 @@ export default async function Comments() {
   }
 
   return (
-    <div className="flex-1 w-full flex flex-col gap-20 items-center">
+    <div className="flex-1 w-full flex flex-col gap-20 items-center px-2">
       <div className="w-full">
         <nav className="w-full flex h-16">
           <div className="w-full flex justify-between items-center p-3 text-sm">
