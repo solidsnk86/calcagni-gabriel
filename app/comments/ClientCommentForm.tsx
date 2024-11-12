@@ -54,7 +54,7 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
         full_name: fullName,
         avatar_url: avatar,
       },
-      onRefresh
+      await onRefresh()
     );
     setCharCount(0);
     setWordsCount(0);

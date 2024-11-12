@@ -23,30 +23,17 @@ export const AuthButtonClient: React.FC<AuthButtonProps> = ({
         <span className="hidden md:block">{user.user_metadata.user_name}!</span>
       </div>
       <form>
-        {mobile ? (
-          <button
-            className="p-1 rounded-md no-underline bg-btn-background hover:bg-btn-background-hover border border-foreground/5"
-            title="Cerrar Sesión"
-            onClick={async (e) => {
-              e.preventDefault();
-              await signOut();
-            }}
-          >
-            <LogOut className="w-5 h-5 inline" />
-          </button>
-        ) : (
-          <button
-            className="py-2 px-4 rounded-md no-underline bg-btn-background hover:bg-btn-background-hover border border-foreground/5"
-            title="Cerrar Sesión"
-            onClick={async (e) => {
-              e.preventDefault();
-              await signOut();
-            }}
-          >
-            Cerrar Sesión
-            <LogOut className="w-5 h-5 inline ml-2" />
-          </button>
-        )}
+        <button
+          className="py-2 px-4 rounded-md no-underline bg-btn-background hover:bg-btn-background-hover border border-foreground/5"
+          title="Cerrar Sesión"
+          onClick={async (e) => {
+            e.preventDefault();
+            await signOut();
+          }}
+        >
+          {mobile ? "" : "Cerrar Sesión"}
+          <LogOut className="w-5 h-5 inline ml-2" />
+        </button>
       </form>
     </div>
   );
