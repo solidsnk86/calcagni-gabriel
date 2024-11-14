@@ -13,7 +13,7 @@ export default function Login() {
           <Link
             href="/"
             title="Volver"
-            className="py-2 pl-1 pr-2 absolute top-4 left-2 md:top-4 md:left-4 w-fit rounded-md text-foreground bg-btn-background hover:bg-btn-background-hover flex items-center group text-sm"
+            className="py-2 pl-1 pr-2 absolute top-4 left-2 md:top-4 md:left-4 w-fit rounded-md text-foreground bg-btn-background hover:bg-btn-background-hover flex items-center group text-sm back-btn"
           >
             <ArrowLeft className="inline mr-2 w-4 h-4" />
             Volver

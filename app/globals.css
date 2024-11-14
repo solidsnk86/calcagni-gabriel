@@ -273,20 +273,9 @@ body {
   z-index: -1;
 }
 
-/*
-* FOOTER
-*/
-
-@media (width < 700px) {
-  .footer-menu {
-    position: fixed;
-    backdrop-filter: blur(5px);
-    color: white;
-    border-radius: 50px;
-    gap: 12px;
-    top: 30px;
-    z-index: 99;
-  }
+.reflection-404 {
+  -webkit-box-reflect: below -12px linear-gradient(transparent, #00000009, rgb(0
+          0 0 / 14%));
 }
 
 /**
@@ -335,17 +324,29 @@ body {
   navigation: auto;
 }
 
+/* Pueden ver la compatibilidad en Can I Use: https://caniuse.com/?search=view-transition-class */
 .item {
-  view-transition-class: item; /* Pueden ver la compatibilidad en Can I Use: https://caniuse.com/?search=view-transition-class */
+  view-transition-class: item;
 }
 ::view-transition-group(*.item) {
   animation-duration: 420ms;
   animation-timing-function: cubic-bezier(1, -0.62, 0.61, 1.37);
 }
 
-.reflection-404 {
-  -webkit-box-reflect: below -12px linear-gradient(transparent, #00000009, rgb(0
-          0 0 / 14%));
+/*
+* FOOTER
+*/
+
+@media (width < 700px) {
+  .footer-menu {
+    position: fixed;
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 50px;
+    gap: 12px;
+    top: 30px;
+    z-index: 99;
+  }
 }
 
 @layer base {
