@@ -332,6 +332,10 @@ body {
   z-index: -1;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 .item {
   view-transition-class: item; /* Pueden ver la compatibilidad en Can I Use: https://caniuse.com/?search=view-transition-class */
 }
