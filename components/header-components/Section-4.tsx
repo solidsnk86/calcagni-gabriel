@@ -78,7 +78,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
           </a>
         </FancyButton>
         <FancyButton
-          className={`py-3 px-3 flex items-center justify-center w-[100%] text-center ${
+          className={`py-3 px-3 inline-flex items-center justify-center w-[100%] text-center ${
             mobile ? "text-xs" : "text-base"
           }`}
           duration={2.5}
