@@ -183,7 +183,7 @@ body {
   --inset: 1px;
   --fancy-color: #757575;
   border-radius: var(--radius);
-  background: var(--color);
+  background: linear-gradient(to bottom, #444, transparent);
   color: white;
   font-weight: 500;
   border: 0;
@@ -199,20 +199,23 @@ body {
 .fancy-button .fancy {
   position: absolute;
   inset: 0;
+  animation: rotate calc(1.8s * 2) infinite steps(2, end);
 }
 
 .fancy-button:hover .fancy:before {
   content: "";
+  position: absolute;
+  z-index: -1;
+  rotate: 0;
   background: conic-gradient(
     from var(--rotate),
-    transparent 0%,
-    var(--fancy-color) 15%,
-    transparent 10%
+    transparent 0,
+    var(--fancy-color) 340deg,
+    white 360deg
   );
-  position: absolute;
+
   inset: 0;
-  animation: rotate var(--animation-duration) infinite;
-  animation-timing-function: cubic-bezier(0, 0, 0.75, 0.55);
+  animation: rotate var(--animation-duration) linear infinite both;
 }
 
 .fancy-button .fancy:after {
