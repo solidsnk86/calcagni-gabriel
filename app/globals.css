@@ -175,6 +175,12 @@ body {
   inherits: false;
 }
 
+@keyframes rotate {
+  to {
+    --rotate: 360deg;
+  }
+}
+
 .fancy-button {
   --color: #131315;
   --radius: 10px;
@@ -199,7 +205,7 @@ body {
 .fancy-button .fancy {
   position: absolute;
   inset: 0;
-  animation: rotate calc(1.8s * 2) infinite steps(2, end);
+  animation: rotate calc(var(--animation-duration) * 2) infinite steps(2, end);
 }
 
 .fancy-button:hover .fancy:before {
@@ -213,7 +219,6 @@ body {
     var(--fancy-color) 340deg,
     white 360deg
   );
-
   inset: 0;
   animation: rotate var(--animation-duration) linear infinite both;
 }
@@ -228,12 +233,6 @@ body {
 
 .fancy-button .text {
   position: relative;
-}
-
-@keyframes rotate {
-  to {
-    --rotate: 360deg;
-  }
 }
 
 .proyects-hover {
