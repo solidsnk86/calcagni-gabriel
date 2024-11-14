@@ -183,7 +183,7 @@ body {
   --inset: 1px;
   --fancy-color: #757575;
   border-radius: var(--radius);
-  background: linear-gradient(to bottom, #444, transparent);
+  background: linear-gradient(to bottom, #3d3d3dcf, transparent);
   color: white;
   font-weight: 500;
   border: 0;
