@@ -95,6 +95,15 @@ export const worksProyects = [
   },
 ];
 
+export const photosImg = [
+  { link: "/photos/IMG_20211112_140629341.jpg" },
+  { link: "/photos/IMG_20220402_194523981.jpg" },
+  { link: "/photos/IMG_20220417_130500956.jpg" },
+  { link: "/photos/IMG_20230111_185210271.jpg" },
+  { link: "/photos/PXL_20221129_055945143.NIGHT.jpg" },
+  { link: "/photos/PXL_20230111_215448841.NIGHT.jpg" },
+];
+
 export const footerRoutes = [
   { name: "Inicio", link: "/" },
   { name: "Trabajos", link: "/works" },

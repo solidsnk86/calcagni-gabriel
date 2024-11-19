@@ -59,6 +59,9 @@ dependencies:
   react-responsive-masonry:
     specifier: ^2.4.1
     version: 2.4.1
+  swiper:
+    specifier: ^11.1.15
+    version: 11.1.15
   tailwind-merge:
     specifier: ^2.5.4
     version: 2.5.4
@@ -1870,6 +1873,11 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: false
+
+  /swiper@11.1.15:
+    resolution: {integrity: sha512-IzWeU34WwC7gbhjKsjkImTuCRf+lRbO6cnxMGs88iVNKDwV+xQpBCJxZ4bNH6gSrIbbyVJ1kuGzo3JTtz//CBw==}
+    engines: {node: '>= 4.7.0'}
     dev: false
 
   /tailwind-merge@2.5.4:

@@ -50,7 +50,11 @@ export const ProyectsMarquee = () => {
     <div className="flex flex-col flex-wrap items-center justify-center mb-[27px]">
       <Marquee className="[--duration:30s]" flex animateX>
         {proyects.reverse().map((proyect) => (
-          <ProyectCard key={proyect.name} {...proyect} />
+          <ProyectCard
+            key={proyect.name}
+            name={proyect.name}
+            img={proyect.img}
+          />
         ))}
       </Marquee>
       <Link

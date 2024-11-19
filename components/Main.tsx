@@ -73,24 +73,14 @@ export default function Main() {
             <div className={mobile ? "grid mt-2 gap-2" : "flex mt-4 gap-4"}>
               <Section_3
                 data={comments && comments}
-                className={mobile ? "w-[100%]" : "w-[70%]"}
+                className={mobile ? "w-[100%]" : "w-[60%]"}
               />
               <Section_4
                 city={location.city}
                 country={location.country}
                 province={location.province}
                 flag={location.flag}
-                latitude={
-                  navLocation.latitude
-                    ? navLocation.latitude
-                    : location.latitude
-                }
-                longitude={
-                  navLocation.longitude
-                    ? navLocation.longitude
-                    : location.longitude
-                }
-                className={mobile ? "w-[100%]" : "w-[30%]"}
+                className={mobile ? "w-[100%]" : "w-[40%]"}
               />
             </div>
             <Section_5

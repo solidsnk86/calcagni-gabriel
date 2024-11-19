@@ -23,40 +23,43 @@ export const Section_1 = ({ className }: { className?: string }) => {
         {[
           {
             name: "React",
-            icon: <ReactLogo className="inline" />,
+            icon: ReactLogo,
             url: "https://es.react.dev/learn",
           },
           {
             name: "Next.js",
-            icon: <NextjsLogo className="inline" />,
+            icon: NextjsLogo,
             url: "https://nextjs.org/",
           },
           {
             name: "Supabase",
-            icon: <SupabaseLogo className="inline" />,
+            icon: SupabaseLogo,
             url: "https://supabase.com/",
           },
           {
             name: "Figma",
-            icon: <FigmaLogo className="inline" />,
+            icon: FigmaLogo,
             url: "https://www.figma.com/",
           },
-        ].map((btn, index) => (
-          <Link
-            key={index}
-            href={btn.url}
-            target="_blank"
-            className="section-1-btn relative py-4 pl-2 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl text-left border border-foreground/5"
-          >
-            <span className="p-2 border border-foreground/5 rounded-lg mr-2 bg-zinc-800/50 shadow-md">
-              {btn.icon}
-            </span>
-            {btn.name}
-            {mobile ? null : (
-              <ArrowRight className="w-5 h-5 inline absolute right-4 top-[18px] arrow-right" />
-            )}
-          </Link>
-        ))}
+        ].map((btn, index) => {
+          const LinkIcon = btn.icon;
+          return (
+            <Link
+              key={index}
+              href={btn.url}
+              target="_blank"
+              className="section-1-btn relative py-4 pl-2 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl text-left border border-foreground/5"
+            >
+              <span className="p-2 border border-foreground/5 rounded-lg mr-2 bg-zinc-800/50 shadow-md">
+                <LinkIcon className="inline" />
+              </span>
+              {btn.name}
+              {mobile ? null : (
+                <ArrowRight className="w-5 h-5 inline absolute right-4 top-[18px] arrow-right" />
+              )}
+            </Link>
+          );
+        })}
       </aside>
     </section>
   );

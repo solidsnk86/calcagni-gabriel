@@ -49,8 +49,6 @@ export type Setcion_4Props = {
   country?: string | Promise<void>;
   province?: string;
   flag?: string | Promise<void>;
-  longitude?: string | number | Promise<void>;
-  latitude?: string | number | Promise<void>;
   className?: string;
 };
 
