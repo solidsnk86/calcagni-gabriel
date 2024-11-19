@@ -5,7 +5,7 @@ export default function Page404() {
     <div className="px-8 justify-center mx-auto mt-20 reflection-404">
       <header>
         <img
-          src="/grim-fandango.png"
+          src="/404-page/grim-fandango.png"
           alt="Avatar Image"
           className="w-20 h-20"
         />

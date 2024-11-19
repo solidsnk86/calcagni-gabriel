@@ -60,7 +60,7 @@ export const worksProyects = [
   {
     name: "ChismeApp",
     url: "https://gossip-app.vercel.app/",
-    image: "/Portada-ChismeApp.png",
+    image: "/Portada-ChismeApp-2.png",
     type: "Social",
   },
   {
