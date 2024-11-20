@@ -26,7 +26,7 @@ export default function Works() {
                   Mis Trabajos
                 </p>
                 <h3 className="text-white text-lg font-bold">
-                  Mi Top 6 de Proyectos {stats}
+                  Mi Top 6 de Proyectos
                 </h3>
                 {mobile ? null : (
                   <button
