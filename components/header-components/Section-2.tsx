@@ -30,47 +30,51 @@ export const Section_2 = ({
     {
       name: "Proyectos",
       quantity: 5,
-      icon: <Flag className="inline w-4 h-5 mr-1 text-violet-400" />,
+      icon: Flag,
     },
     {
       name: "Visitas",
       quantity: !visits
         ? (visits = <Loader width="45" height="45" />)
         : handleVisitsNumber(visits as string),
-      icon: <Eye className="inline w-4 h-5 mr-1 text-violet-400" />,
+      icon: Eye,
     },
     {
       name: "Experiencia",
       quantity: getExperienceYears(),
-      icon: <Sparkles className="inline w-4 h-5 mr-1 text-violet-400" />,
+      icon: Sparkles,
     },
   ];
 
   return (
     <Masonry className="flex" gutter="0.8rem">
-      {sections.map((section, index) => (
-        <section
-          key={index}
-          className={`flex items-center justify-center border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl overflow-hidden ${className}`}
-        >
-          <div className="flex flex-col items-center text-center w-full">
-            <h1 className="text-5xl font-bold text-white flex items-center">
-              {section.quantity as number}
-              {section.name !== "Experiencia" && section.name !== "Visitas" ? (
-                <span className="text-violet-400 font-semibold text-3xl ml-1">
-                  +
+      {sections.map((section, index) => {
+        const SectionIcon = section.icon;
+        return (
+          <section
+            key={index}
+            className={`flex items-center justify-center border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl overflow-hidden ${className}`}
+          >
+            <div className="flex flex-col items-center text-center w-full">
+              <h1 className="text-5xl font-bold text-white flex items-center">
+                {section.quantity as number}
+                {section.name !== "Experiencia" &&
+                section.name !== "Visitas" ? (
+                  <span className="text-violet-400 font-semibold text-3xl ml-1">
+                    +
+                  </span>
+                ) : null}
+              </h1>
+              <aside className="flex items-center justify-center xl:px-3 px-2 xl:py-1 py-[2px] mt-2 bg-zinc-800/30 border border-foreground/5 rounded-full w-full min-w-[120px]">
+                <SectionIcon className="inline w-4 h-5 mr-1 text-violet-400" />
+                <span className="xl:text-xs text-[10px] whitespace-nowrap">
+                  {section.name}
                 </span>
-              ) : null}
-            </h1>
-            <aside className="flex items-center justify-center xl:px-3 px-2 xl:py-1 py-[2px] mt-2 bg-zinc-800/30 border border-foreground/5 rounded-full w-full min-w-[120px]">
-              {section.icon}
-              <span className="xl:text-xs text-[10px] whitespace-nowrap">
-                {section.name}
-              </span>
-            </aside>
-          </div>
-        </section>
-      ))}
+              </aside>
+            </div>
+          </section>
+        );
+      })}
     </Masonry>
   );
 };
