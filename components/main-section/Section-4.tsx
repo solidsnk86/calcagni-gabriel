@@ -8,6 +8,7 @@ import { Navigation, Pagination, EffectCards, Keyboard } from "swiper/modules";
 import { photosImg } from "@/components/constants";
 import "swiper/css";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 export const Section_4 = ({ className }: Setcion_4Props) => {
   const [value, setValue] = useState<number>(0);
@@ -60,7 +61,12 @@ export const Section_4 = ({ className }: Setcion_4Props) => {
         >
           {photosImg.map((photo, i) => (
             <SwiperSlide key={i + 1}>
-              <img src={photo.link} alt={`Foto ${i + 1}`} />
+              <Image
+                className="next-img"
+                fill
+                src={photo.link}
+                alt={`Foto ${i + 1}`}
+              />
             </SwiperSlide>
           ))}
         </Swiper>

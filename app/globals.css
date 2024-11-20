@@ -338,7 +338,7 @@ body {
   height: 303px;
 }
 
-.swiper-slide img {
+.swiper-slide .next-img {
   display: block;
   width: 100%;
   height: 100%;

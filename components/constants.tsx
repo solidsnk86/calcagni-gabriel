@@ -67,6 +67,33 @@ export const itemsSection_4 = [
   },
 ];
 
+export const projects = [
+  {
+    name: "Portfolio Personal",
+    img: "/Portada-Portfolio-Solid.png",
+  },
+  {
+    name: "NeoTecs",
+    img: "/Portada-NeoTecs.png",
+  },
+  {
+    name: "Web LLM IA",
+    img: "/Portada-Web-LLM-AI.png",
+  },
+  {
+    name: "ChismeApp",
+    img: "/Portada-ChismeApp.png",
+  },
+  {
+    name: "Facturador Web",
+    img: "/Portada-Formulario-Web.png",
+  },
+  {
+    name: "Portfolio Gerardo",
+    img: "/Portada-CV-Gerardo.png",
+  },
+];
+
 export const worksProyects = [
   {
     name: "ChismeApp",
@@ -146,12 +173,30 @@ export const services = [
 ];
 
 export const photosImg = [
-  { link: "/photos/IMG_20211112_140629341.webp" },
-  { link: "/photos/IMG_20220402_194523982.webp" },
-  { link: "/photos/IMG_20220417_130500956.webp" },
-  { link: "/photos/IMG_20230111_185210271.webp" },
-  { link: "/photos/PXL_20221129_055945143.NIGHT.webp" },
-  { link: "/photos/PXL_20230111_215448841.NIGHT.webp" },
+  {
+    link: "/photos/IMG_20211112_140629341.webp",
+    name: "El Filo Merlo, San Luis 🇦🇷",
+  },
+  {
+    link: "/photos/IMG_20220402_194523982.webp",
+    name: "Dique San Felipe Tilisarao, San Luis 🇦🇷",
+  },
+  {
+    link: "/photos/IMG_20220417_130500956.webp",
+    name: "Sierra de las Quijadas, San Luis 🇦🇷",
+  },
+  {
+    link: "/photos/IMG_20230111_185210271.webp",
+    name: "Carpintería Merlo, San Luis 🇦🇷",
+  },
+  {
+    link: "/photos/PXL_20221129_055945143.NIGHT.webp",
+    name: "Una noche en Concarán, San Luis 🇦🇷",
+  },
+  {
+    link: "/photos/PXL_20230111_215448841.NIGHT.webp",
+    name: "Carpintería Merlo, San Luis 🇦🇷",
+  },
 ];
 
 export const footerRoutes = [

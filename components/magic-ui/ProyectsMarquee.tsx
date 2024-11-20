@@ -1,40 +1,15 @@
 import React from "react";
 import { Marquee } from "@/components/magic-ui/Marquee";
 import Link from "next/link";
-
-const proyects = [
-  {
-    name: "Portfolio Personal",
-    img: "/Portada-Portfolio-Solid.png",
-  },
-  {
-    name: "NeoTecs",
-    img: "/Portada-NeoTecs.png",
-  },
-  {
-    name: "Web LLM IA",
-    img: "/Portada-Web-LLM-AI.png",
-  },
-  {
-    name: "ChismeApp",
-    img: "/Portada-ChismeApp.png",
-  },
-  {
-    name: "Facturador Web",
-    img: "/Portada-Formulario-Web.png",
-  },
-  {
-    name: "Portfolio Gerardo",
-    img: "/Portada-CV-Gerardo.png",
-  },
-];
+import { projects } from "../constants";
+import Image from "next/image";
 
 const ProyectCard = ({ name, img }: { name: string; img: string }) => {
   return img && img ? (
-    <img
+    <Image
       src={img}
-      width="200px"
-      height="auto"
+      width={200}
+      height={100}
       alt={`Imagen proyecto ${name}`}
       className="rounded-xl aspect-auto"
     />
@@ -49,11 +24,11 @@ export const ProyectsMarquee = () => {
   return (
     <div className="flex flex-col flex-wrap items-center justify-center mb-[27px]">
       <Marquee className="[--duration:30s]" flex animateX>
-        {proyects.reverse().map((proyect) => (
+        {projects.reverse().map((project) => (
           <ProyectCard
-            key={proyect.name}
-            name={proyect.name}
-            img={proyect.img}
+            key={project.name}
+            name={project.name}
+            img={project.img}
           />
         ))}
       </Marquee>

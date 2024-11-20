@@ -8,6 +8,7 @@ import { ArrowRight, BriefcaseBusiness } from "lucide-react";
 import { useIsClient } from "../hooks/useIsClient";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import { worksProyects } from "@/components/constants";
+import Image from "next/image";
 
 export default function Works() {
   const isClient = useIsClient();
@@ -64,11 +65,13 @@ export default function Works() {
                       style={{ viewTransitionName: `item${index}` }}
                       className={`item item${index} relative p-3 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl text-left border border-foreground/5 work-icon-hover grayscale hover:grayscale-0 transition-all duration-500`}
                     >
-                      <img
+                      <Image
                         src={proyect.image}
                         className="rounded-xl aspect-auto"
-                        width="100%"
-                        height={100}
+                        layout="responsive"
+                        width={16}
+                        height={9}
+                        alt={proyect.name}
                       />
 
                       <div className="mt-3">
