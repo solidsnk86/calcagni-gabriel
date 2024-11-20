@@ -6,63 +6,67 @@ import { ArrowLeft } from "lucide-react";
 export default function Login() {
   return (
     <AnimatedLayout>
-      <main className="md:flex flex-1 w-full items-center overflow-hidden">
-        <div className="bg-effect-1 hidden lg:flex"></div>
-        <aside className="flex flex-col xl:justify-center mx-auto p-6 md:sticky top-0 left-0 max-w-xs md:border-r border-foreground/5 md:h-screen overflow-hidden z-20 shadow-zinc-950 xl:shadow-md">
-          <div className="bg-effect-2"></div>
-          <Link
-            href="/"
-            title="Volver"
-            className="py-2 pl-1 pr-2 absolute top-4 left-2 md:top-4 md:left-4 w-fit rounded-md text-foreground bg-btn-background hover:bg-btn-background-hover flex items-center group text-sm back-btn"
-          >
-            <ArrowLeft className="inline mr-2 w-4 h-4" />
-            Volver
-          </Link>
-          <LoginForm />
-        </aside>
-
-        <div className="flex flex-col md:flex-1 text-center justify-around mx-auto text-balance relative py-4 px-2 border-t border-b border-foreground/10 z-10">
+      <main className="min-h-screen flex flex-col items-center justify-center bg-background p-4 relative overflow-hidden">
+        <div className="absolute inset-0 pointer-events-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            version="1.1"
-            width="100%"
-            height="100%"
-            className="absolute top-0 left-0 opacity-[0.2]"
+            className="w-full h-full opacity-[0.03]"
+            preserveAspectRatio="none"
           >
             <filter id="noiseFilter">
               <feTurbulence
                 type="fractalNoise"
-                baseFrequency="9.5"
+                baseFrequency="9.9"
                 numOctaves="2"
                 stitchTiles="stitch"
               />
             </filter>
             <rect width="100%" height="100%" filter="url(#noiseFilter)" />
           </svg>
-          <h2 className="text-2xl font-bold mb-4 z-30">
-            ¡Bienvenido a la sección de comentarios!
-          </h2>
-          <p className="text-foreground mb-4 z-30">
-            Aquí puedes compartir opiniones, sugerencias o preguntas sobre mi
-            portfolio. Inicia sesión con tu cuenta de GitHub para participar.
-          </p>
-          <p className="text-foreground mb-4 z-30">
-            Ya sea que tengas preguntas, recomendaciones o solo quieras saludar,
-            este espacio está diseñado para facilitar una comunicación abierta y
-            directa.
-          </p>
-          <p className="text-foreground z-30">
-            Si aún no tienes una cuenta de GitHub, te recomiendo{" "}
+        </div>
+
+        <div className="w-full max-w-2xl mx-auto flex flex-col items-center relative z-10">
+          <div className="w-full mb-8">
             <Link
-              href="https://github.com/"
-              className="underline text-violet-400 hover:opacity-70"
-              target="_blank"
+              href="/"
+              className="inline-flex group items-center text-sm text-foreground/80 hover:text-foreground transition-colors"
             >
-              crear una
-            </Link>{" "}
-            para aprovechar todas las funciones de esta plataforma. ¡Nos vemos
-            en los comentarios!
-          </p>
+              <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform duration-200" />
+              Volver
+            </Link>
+          </div>
+
+          {/* Card principal */}
+          <div className="w-full max-w-md bg-zinc-900/50 backdrop-blur-sm rounded-lg shadow-lg border border-foreground/5 p-8">
+            <div className="text-center mb-8">
+              <h2 className="text-2xl font-semibold mb-4">
+                Bienvenido a la sección de comentarios
+              </h2>
+              <p className="text-muted-foreground mb-4">
+                Aquí puedes compartir opiniones, sugerencias o preguntas sobre
+                mi portfolio. Inicia sesión con tu cuenta de GitHub para
+                participar.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <LoginForm />
+            </div>
+
+            {/* Footer con información adicional */}
+            <div className="mt-8 text-center text-sm text-muted-foreground">
+              <p>
+                ¿No tienes una cuenta de GitHub?
+                <Link
+                  href="https://github.com/"
+                  className="text-primary hover:text-indigo-400 underline ml-1"
+                  target="_blank"
+                >
+                  Crear una cuenta
+                </Link>
+              </p>
+            </div>
+          </div>
         </div>
       </main>
     </AnimatedLayout>
