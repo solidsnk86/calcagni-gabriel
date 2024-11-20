@@ -1,7 +1,6 @@
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
 import { encodedRedirect } from "@/utils/utils";
-import { FancyButton } from "@/components/magic-ui/FancyButton";
 import { DEFAULT_PATH } from "@/components/constants";
 import { SubmitButton } from "./SubmitButton";
 
