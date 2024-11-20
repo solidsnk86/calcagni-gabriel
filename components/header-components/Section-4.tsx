@@ -42,7 +42,10 @@ export const Section_4 = ({ className }: { className?: string }) => {
           target="_blank"
           className="absolute group right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
         >
-          <span className="pdf absolute -top-2 -right-4 text-[0.6rem] font-semibold px-1 rounded-full bg-[tomato] opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-md shadow-black">
+          <span
+            className={`pdf absolute -top-2 -right-4 text-[0.6rem] font-semibold px-1 rounded-full opacity-0 
+           bg-gradient-to-b from-red-300 via-red-500 to-red-600 group-hover:opacity-100 transition-opacity duration-300 shadow-md shadow-black`}
+          >
             PDF
           </span>
           <DownloadIcon className="w-4 h-4" />
