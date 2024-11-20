@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowLeft, ArrowRight, CameraIcon } from "lucide-react";
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { Setcion_4Props } from "@/app/types/definitions";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, EffectCards, Keyboard } from "swiper/modules";
@@ -9,7 +9,7 @@ import { photosImg } from "@/components/constants";
 import "swiper/css";
 import "swiper/css/pagination";
 
-export const Section_4: React.FC<Setcion_4Props> = ({ className }) => {
+export const Section_4 = ({ className }: Setcion_4Props) => {
   const [value, setValue] = useState<number>(0);
 
   const handleSlideChange = (swiper: any) => {
