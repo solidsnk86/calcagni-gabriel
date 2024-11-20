@@ -67,7 +67,7 @@ export default function Works() {
                     >
                       <Image
                         src={proyect.image}
-                        className="rounded-xl w-full h-auto"
+                        className="rounded-xl w-full h-auto aspect-auto"
                         width={1600}
                         height={900}
                         alt={proyect.name}
