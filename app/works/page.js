@@ -67,10 +67,9 @@ export default function Works() {
                     >
                       <Image
                         src={proyect.image}
-                        className="rounded-xl"
-                        layout="responsive"
-                        width={16}
-                        height={9}
+                        className="rounded-xl w-full h-auto"
+                        width={1600}
+                        height={900}
                         alt={proyect.name}
                         priority
                       />
