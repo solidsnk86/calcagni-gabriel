@@ -9,37 +9,10 @@ import { useIsClient } from "../hooks/useIsClient";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import { worksProyects } from "@/components/constants";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
 export default function Works() {
   const isClient = useIsClient();
   const mobile = useMatchMedia("(max-width: 700px)", false);
-  const [stats, setStats] = useState([]);
-
-  const options = {
-    mode: "cors",
-    headers: {
-      "Cotent-Type": "application/json",
-    },
-    method: "GET",
-  };
-
-  const getGithusStats = async () => {
-    const res = await fetch(
-      "https://neotecs.vercel.app/api/github-stats",
-      options
-    );
-    const data = await res.json();
-    if (!res.ok) {
-      console.error("Error al llamar a la API: ", res.statusText);
-    }
-    console.log(data.repos);
-    setStats(data);
-  };
-
-  useEffect(() => {
-    getGithusStats();
-  }, []);
 
   return (
     isClient && (
@@ -53,7 +26,7 @@ export default function Works() {
                   Mis Trabajos
                 </p>
                 <h3 className="text-white text-lg font-bold">
-                  Mi Top 6 de Proyectos
+                  Mi Top 6 de Proyectos {stats}
                 </h3>
                 {mobile ? null : (
                   <button
@@ -99,6 +72,7 @@ export default function Works() {
                         width={16}
                         height={9}
                         alt={proyect.name}
+                        priority
                       />
 
                       <div className="mt-3">
