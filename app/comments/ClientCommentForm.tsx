@@ -41,8 +41,7 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
   const [wordsCount, setWordsCount] = useState(0);
 
   const formSubmit = async (formData: FormData) => {
-    DataModel.create(
-      "comments",
+    const { error } = await supabase.from("comments").insert([
       {
         ip: await GetLocation.ip(),
         city: await GetLocation.city(),
@@ -54,8 +53,11 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
         full_name: fullName,
         avatar_url: avatar,
       },
-      await onRefresh()
-    );
+    ]);
+    if (error) {
+      console.error("Error al envair comentario: ", error);
+    }
+    await onRefresh();
     setCharCount(0);
     setWordsCount(0);
 
@@ -103,7 +105,7 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
         </button>
       </aside>
       {errors.comment && (
-        <small className="text-red-400 text-xs ml-1 mb-3">
+        <small className="text-red-400 text-xs m-1">
           {errors.comment.message}
         </small>
       )}

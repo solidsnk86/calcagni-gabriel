@@ -4,24 +4,6 @@ import { supabase } from "@/utils/supabase/client";
  */
 
 export class DataModel {
-  public static async create(
-    table: string,
-    content: object,
-    onCreate: () => void
-  ) {
-    try {
-      const { error } = await supabase.from(table).insert(content);
-
-      if (error) {
-        throw new Error(`Cannot create comment: ${error.message}`);
-      }
-
-      onCreate();
-    } catch (err) {
-      console.error("Server error, cannot create comment: ", err);
-    }
-  }
-
   public static async getData(
     table: string,
     column: string,
@@ -68,25 +50,6 @@ export class DataModel {
       return newData;
     } catch (err) {
       console.error("Server error, cannot update comment: ", err);
-    }
-  }
-
-  public static async delete(
-    table: string,
-    id: string | number,
-    onDelete: () => void
-  ) {
-    try {
-      const { error } = await supabase.from(table).delete().match({ id });
-
-      if (error) {
-        throw new Error(`Cannot delete comment: ${error.message}`);
-      }
-
-      onDelete();
-      location.reload();
-    } catch (err) {
-      console.error("Server error, cannot delete data: ", err);
     }
   }
 
