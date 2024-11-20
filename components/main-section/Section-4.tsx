@@ -26,7 +26,7 @@ export const Section_4 = ({ className }: Setcion_4Props) => {
           <CameraIcon className="inline mr-1 -translate-y-[2px] text-violet-400 w-5 h-[18px]" />
           Fotos
         </p>
-        <h3 className="text-white text-lg font-bold">Galeria de Fotos</h3>
+        <h3 className="text-white text-lg font-bold">Galeria de Imágenes</h3>
       </header>
       <div className="flex justify-evenly">
         <button
