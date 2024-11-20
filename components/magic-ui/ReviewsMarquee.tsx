@@ -39,7 +39,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
         <small className="flex absolute right-3 text-zinc-400">
           {trash ? (
             <>
-              <DeleteButton id={id} onDelete={() => onDelete} />
+              <DeleteButton id={id} onDelete={() => onDelete && onDelete(id)} />
             </>
           ) : null}
           {createdAt as number}
