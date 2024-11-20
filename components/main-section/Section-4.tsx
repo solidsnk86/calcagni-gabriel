@@ -61,11 +61,14 @@ export const Section_4 = ({ className }: Setcion_4Props) => {
         >
           {photosImg.map((photo, i) => (
             <SwiperSlide key={i + 1}>
+              <small className="absolute top-2 left-2 mx-auto justify-center z-50 drop-shadow-sm">
+                {photo.name}
+              </small>
               <Image
                 className="next-img"
                 fill
                 src={photo.link}
-                alt={`Foto ${i + 1}`}
+                alt={`Foto ${i + 1}: ${photo.name}`}
               />
             </SwiperSlide>
           ))}
