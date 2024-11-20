@@ -1,5 +1,4 @@
 import { supabase } from "@/utils/supabase/client";
-
 /**
  * Supabase actions
  */
