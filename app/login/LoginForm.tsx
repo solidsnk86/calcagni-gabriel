@@ -28,14 +28,17 @@ export async function LoginForm() {
   return (
     <form
       action={signInWithGitHub}
-      className="grid gap-3 text-foreground mx-auto mt-32 md:mt-0"
+      className="flex flex-col items-center space-y-6 w-full"
     >
-      <h3 className="text-center font-semibold text-3xl pb-2">Inciar sesión</h3>
+      <div className="text-center space-y-2">
+        <h3 className="text-xl font-semibold">Iniciar sesión</h3>
+        <p className="text-sm text-muted-foreground">
+          Continúa para unirte a la conversación en mi portfolio y dejar tus
+          comentarios.
+        </p>
+      </div>
+
       <SubmitButton />
-      <small className="text-center text-[12px] text-foreground dark:text-zinc-400 mt-2">
-        Inicia sesión para unirte a la conversación en mi portfolio y dejar tus
-        comentarios.
-      </small>
     </form>
   );
 }
