@@ -32,7 +32,7 @@ export const api = {
 export const wap = {
   number: "+5492665290020",
   message: encodeURIComponent(
-    "Hola estoy interesado en tus servicios Gabriel!"
+    "👋 ¡Hola, Gabriel! Me interesa conocer más sobre tus servicios. ¿Podrías contarme cómo podrías ayudarme con mi proyecto? 😊"
   ),
 };
 
