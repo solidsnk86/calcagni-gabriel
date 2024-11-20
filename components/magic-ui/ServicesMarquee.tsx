@@ -1,21 +1,6 @@
-import { CodeSquare, Smartphone, SwatchBook } from "lucide-react";
 import { Marquee } from "./Marquee";
 import { ReactNode } from "react";
-
-const services = [
-  {
-    name: "Desarrollo Web",
-    icon: <CodeSquare className="w-5 h-5" />,
-  },
-  {
-    name: "Diseño Web",
-    icon: <SwatchBook className="w-5 h-5" />,
-  },
-  {
-    name: "Diseño Aplicación Móvil",
-    icon: <Smartphone className="w-5 h-5" />,
-  },
-];
+import { services } from "@/components/constants";
 
 const ServiceCard = ({ name, icon }: { name: string; icon: ReactNode }) => {
   return (
@@ -31,12 +16,12 @@ const ServiceCard = ({ name, icon }: { name: string; icon: ReactNode }) => {
 export const ServicesMarquee = () => {
   return (
     <div className="flex flex-col flex-wrap items-center justify-center gap-2 mb-[27px]">
-      <Marquee reverse className="[--duration:20s]" animateX flex>
+      <Marquee reverse className="[--duration:55s]" animateX flex>
         {services.map((service) => (
           <ServiceCard key={service.name} {...service} />
         ))}
       </Marquee>
-      <Marquee className="[--duration:20s]" animateX flex>
+      <Marquee className="[--duration:55s]" animateX flex>
         {services.map((service) => (
           <ServiceCard key={service.name} {...service} />
         ))}

@@ -5,6 +5,15 @@ import {
   BookMarked,
   SmileIcon,
   University,
+  CodeSquare,
+  Smartphone,
+  SwatchBook,
+  BarChart,
+  Wrench,
+  Plug,
+  MessageCircle,
+  Cloud,
+  Layout,
 } from "lucide-react";
 
 export const DEFAULT_PATH =
@@ -92,6 +101,45 @@ export const worksProyects = [
     url: "https://solidsnk86.github.io/formularioWeb/",
     image: "/Portada-Formulario-Web.png",
     type: "Facturación",
+  },
+];
+
+export const services = [
+  {
+    name: "Desarrollo Web",
+    icon: <CodeSquare className="w-5 h-5" />,
+  },
+  {
+    name: "Diseño Web",
+    icon: <SwatchBook className="w-5 h-5" />,
+  },
+  {
+    name: "Diseño Aplicación Móvil",
+    icon: <Smartphone className="w-5 h-5" />,
+  },
+  {
+    name: "Optimización de SEO",
+    icon: <BarChart className="w-5 h-5" />,
+  },
+  {
+    name: "Mantenimiento de Aplicaciones",
+    icon: <Wrench className="w-5 h-5" />,
+  },
+  {
+    name: "Integración de APIs",
+    icon: <Plug className="w-5 h-5" />,
+  },
+  {
+    name: "Consultoría Técnica",
+    icon: <MessageCircle className="w-5 h-5" />,
+  },
+  {
+    name: "Despliegue en la Nube",
+    icon: <Cloud className="w-5 h-5" />,
+  },
+  {
+    name: "Diseño UI/UX",
+    icon: <Layout className="w-5 h-5" />,
   },
 ];
 
