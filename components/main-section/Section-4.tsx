@@ -34,7 +34,7 @@ export const Section_4: React.FC<Setcion_4Props> = ({ className }) => {
         >
           <ArrowLeft />
         </button>
-        <small className="-translate-y-2">
+        <small className="-translate-y">
           {value + 1} de {photosImg.length}
         </small>
         <button
