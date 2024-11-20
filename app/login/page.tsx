@@ -38,11 +38,11 @@ export default function Login() {
 
           {/* Card principal */}
           <div className="w-full max-w-md bg-zinc-900/50 backdrop-blur-sm rounded-lg shadow-lg border border-foreground/5 p-8">
-            <div className="text-center mb-8">
-              <h2 className="text-2xl font-semibold mb-4">
+            <div className="text-center mb-8 border border-foreground/5 rounded-xl bg-zinc-800/40 p-4">
+              <h2 className="text-xl font-semibold mb-4">
                 Bienvenido a la sección de comentarios
               </h2>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-muted-foreground text-sm mb-4">
                 Aquí puedes compartir opiniones, sugerencias o preguntas sobre
                 mi portfolio. Inicia sesión con tu cuenta de GitHub para
                 participar.
