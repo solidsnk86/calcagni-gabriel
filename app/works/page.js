@@ -9,10 +9,37 @@ import { useIsClient } from "../hooks/useIsClient";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import { worksProyects } from "@/components/constants";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function Works() {
   const isClient = useIsClient();
   const mobile = useMatchMedia("(max-width: 700px)", false);
+  const [stats, setStats] = useState([]);
+
+  const options = {
+    mode: "cors",
+    headers: {
+      "Cotent-Type": "application/json",
+    },
+    method: "GET",
+  };
+
+  const getGithusStats = async () => {
+    const res = await fetch(
+      "https://neotecs.vercel.app/api/github-stats",
+      options
+    );
+    const data = await res.json();
+    if (!res.ok) {
+      console.error("Error al llamar a la API: ", res.statusText);
+    }
+    console.log(data.repos);
+    setStats(data);
+  };
+
+  useEffect(() => {
+    getGithusStats();
+  }, []);
 
   return (
     isClient && (
@@ -34,18 +61,18 @@ export default function Works() {
                     onClick={async () => {
                       const grid = document.querySelector(".grid");
 
-                      const shuffledItems = shuffleItems(grid.children);
-
-                      await document.startViewTransition(() => {
-                        grid.replaceChildren(...shuffledItems);
-                      });
-
                       function shuffleItems(items) {
                         return Array.from(items)
                           .map((value) => ({ value, sort: Math.random() }))
                           .sort((a, b) => a.sort - b.sort)
                           .map(({ value }) => value);
                       }
+
+                      const shuffledItems = shuffleItems(grid.children);
+
+                      await document.startViewTransition(() => {
+                        grid.replaceChildren(...shuffledItems);
+                      });
                     }}
                   >
                     Mezclar
@@ -67,7 +94,7 @@ export default function Works() {
                     >
                       <Image
                         src={proyect.image}
-                        className="rounded-xl aspect-auto"
+                        className="rounded-xl"
                         layout="responsive"
                         width={16}
                         height={9}

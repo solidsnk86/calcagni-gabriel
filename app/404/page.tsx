@@ -1,13 +1,15 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Page404() {
   return (
     <div className="px-8 justify-center mx-auto mt-20 reflection-404">
       <header>
-        <img
+        <Image
           src="/404-page/grim-fandango.png"
           alt="Avatar Image"
-          className="w-20 h-20"
+          width={80}
+          height={80}
         />
       </header>
       <div className="bg-gradient-to-t from-zinc-800/50 to-zinc-700/50 backdrop-blur-lg relative rounded-xl w-fit p-12 overflow-hidden">

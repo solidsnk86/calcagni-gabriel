@@ -117,7 +117,7 @@ export const worksProyects = [
     name: "Web LLM IA",
     url: "https://solidsnk86.github.io/web-Llm-local/",
     image: "/Portada-Web-LLM-AI.png",
-    type: "GPT Chat",
+    type: "Chat GPT",
   },
   {
     name: "Gerardo",
