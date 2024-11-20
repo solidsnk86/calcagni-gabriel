@@ -18,7 +18,6 @@ export default function Main() {
   const [comments, setComments] = useState<any>([]);
   const [location, setLocation] = useState<any>({});
   const [lastVisit, setLastVisit] = useState<any>([]);
-  const [navLocation, setNavLocation] = useState<any>({});
 
   const fetchComments = async () => {
     try {
@@ -45,16 +44,6 @@ export default function Main() {
   };
 
   useEffect(() => {
-    const navigatorLocation = () => {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition((position) => {
-          const longitude = position.coords.longitude;
-          const latitude = position.coords.latitude;
-          setNavLocation({ longitude, latitude });
-        });
-      }
-    };
-    navigatorLocation();
     fetchComments();
     getLocation();
   }, []);
