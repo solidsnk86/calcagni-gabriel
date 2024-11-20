@@ -28,7 +28,7 @@ export function SubmitButton() {
             />
           </svg>
         )}
-        {pending ? "Ingresando..." : "Ingresa con GitHub"}
+        {pending ? "Ingresando..." : "Continuar con GitHub"}
       </span>
     </FancyButton>
   );
