@@ -5,6 +5,7 @@ import useMatchMedia from "@/app/hooks/useMatchMedia";
 import Link from "next/link";
 import { FancyButton } from "@/components/magic-ui/FancyButton";
 import { DownloadIcon } from "lucide-react";
+import Image from "next/image";
 
 export const Section_4 = ({ className }: { className?: string }) => {
   const mobile = useMatchMedia("(max-width: 700px)", false);
@@ -14,10 +15,11 @@ export const Section_4 = ({ className }: { className?: string }) => {
       className={`border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl relative ${className}`}
     >
       <header className="flex gap-4">
-        <img
+        <Image
           src="/avatar-mgc.webp"
           width={100}
           height={100}
+          alt="Avatar Gabriel 🎃"
           className="rounded-lg bg-violet-400/60 aspect-square"
         />
         <aside className="flex-col ml-1">
