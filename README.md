@@ -40,7 +40,7 @@ Este es mi portafolio personal y está desarrollado con **Next.js**, **Supabase*
 
 ## Base de Datos
 
-- **Gestión de datos**: Toda la lógica de backend está desarrollada con SQL en **Supabase**, asegurando un manejo eficiente y escalable de los datos del usuario y visitas.
+- **Gestión de datos**: Toda la lógica de backend está desarrollada con PostgreeSQL en **Supabase**, asegurando un manejo eficiente y escalable de los datos del usuario y visitas.
 
 ## Sección de analítica para el perfíl del portafolio
 
