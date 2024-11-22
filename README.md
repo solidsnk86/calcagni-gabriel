@@ -19,7 +19,7 @@ Este es mi portafolio personal y está desarrollado con **Next.js**, **Supabase*
 
 - **Cookies**: Se almacenan cookies para recordar información del usuario y mejorar la experiencia de navegación.
 
-- **Geolocalización**: Utilizo geolocalización para registrar la ubicación de los usuarios. Los datos se guardan en la base de datos de Supabase mediante SQL.
+- **Geolocalización**: Utilizo geolocalización para registrar la ubicación de los usuarios. Los datos se guardan en la base de datos de Supabase mediante PostgreeSQL.
 
 - **Registro de visitas**: Almaceno la cantidad de veces que un perfil es visitado, identificando a los usuarios por su dirección IP. Si la IP se repite, no se incrementa el contador.
 
