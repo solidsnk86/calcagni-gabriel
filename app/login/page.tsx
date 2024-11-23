@@ -7,7 +7,9 @@ export default function Login() {
   return (
     <AnimatedLayout>
       <main className="min-h-screen flex flex-col items-center justify-center bg-background p-4 relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
+        <div className="bg-effect-2"></div>
+        <div className="bg-effect-1"></div>
+        <div className="absolute inset-0 pointer-events-none z-10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-full h-full opacity-[0.03]"
