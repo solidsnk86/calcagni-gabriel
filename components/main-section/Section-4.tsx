@@ -91,7 +91,7 @@ export const Section_4 = ({ className, userId }: Setcion_4Props) => {
                 <Image
                   className="next-img"
                   fill
-                  src={`https://yyqjcfzddjozcwahhugs.supabase.co/storage/v1/object/public/upload/${userId}/${photo.name}`}
+                  src={`https://yyqjcfzddjozcwahhugs.supabase.co/storage/v1/object/public/upload/2334c6e1-adb2-4738-b786-e32570d9318e/${photo.name}`}
                   alt={`Foto ${i + 1}: ${photo.name}`}
                 />
               </SwiperSlide>
