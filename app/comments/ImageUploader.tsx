@@ -1,6 +1,7 @@
 "use client";
 
 import { supabase } from "@/utils/supabase/client";
+import { Trash2 } from "lucide-react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
@@ -49,32 +50,69 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
     }
   }
 
+  async function deleteMedia(fileName: string) {
+    try {
+      const { error } = await supabase.storage
+        .from("upload")
+        .remove([`${userId}/${fileName}`]);
+
+      if (error) {
+        setError(error);
+      } else {
+        getMedia();
+      }
+    } catch (err) {
+      setError(err as Error);
+    }
+  }
+
   useEffect(() => {
     getMedia();
   }, [userId]);
 
   return (
-    <div>
-      <h2>Subir Foto</h2>
-      <div className="grid my-3">
-        <input type="file" onChange={(e) => uploadImage(e)} />
+    <div className="p-4">
+      <h2 className="text-xl font-bold mb-4">Subir Foto</h2>
+
+      <div className="mb-6">
+        <input
+          type="file"
+          onChange={uploadImage}
+          className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+          accept="image/*"
+        />
         {uploading && (
-          <small className="text-blue-500">Subiendo imagen...</small>
+          <div className="mt-2 text-blue-500">Subiendo imagen...</div>
         )}
       </div>
-      <figure className="grid lg:grid-cols-3 grid-cols-1 gap-3">
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {media.map((item) => (
-          <Image
-            key={item.id}
-            src={`https://yyqjcfzddjozcwahhugs.supabase.co/storage/v1/object/public/upload/2334c6e1-adb2-4738-b786-e32570d9318e/${item.name}`}
-            alt={item.name}
-            width={300}
-            height={300}
-            className="object-cover rounded"
-          />
+          <div key={item.id} className="relative group">
+            <div className="aspect-square relative overflow-hidden rounded-lg">
+              <Image
+                src={`https://yyqjcfzddjozcwahhugs.supabase.co/storage/v1/object/public/upload/${userId}/${item.name}`}
+                alt={item.name}
+                fill
+                className="object-cover"
+              />
+              <button
+                onClick={() => deleteMedia(item.name)}
+                className="absolute top-2 right-2 p-2 bg-red-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-red-600"
+                title="Eliminar imagen"
+              >
+                <Trash2 className="w-5 h-5 text-white" />
+              </button>
+            </div>
+          </div>
         ))}
-      </figure>
-      {error && <small className="text-red-400">{error.message}</small>}
+      </div>
+
+      {error && (
+        <div className="mt-4 p-4 bg-red-50 text-red-500 rounded">
+          {error.message}
+        </div>
+      )}
     </div>
   );
 }
