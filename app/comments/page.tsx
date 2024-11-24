@@ -99,7 +99,7 @@ export default async function Comments() {
         </a>
         <aside className="flex gap-3 font-medium">
           {footerRoutes
-            .filter((route) => route.name !== "Comentar")
+            .filter((route) => route.name !== "Ingresar")
             .map((link, index) => (
               <Link
                 key={index}
