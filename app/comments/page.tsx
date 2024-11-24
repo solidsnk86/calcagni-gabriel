@@ -5,6 +5,7 @@ import Link from "next/link";
 import { CLientCommentsPage } from "./ClientCommentsPage";
 import { footerRoutes } from "@/components/constants";
 import ProfileClientAnalytics from "./ProfileClientAnalytics";
+import ImageUpload from "./ImageUploader";
 
 export default async function Comments() {
   const supabase = createClient();
@@ -80,7 +81,10 @@ export default async function Comments() {
         <h2 className="font-bold text-2xl text-center mb-4">Comentario</h2>
         <CLientCommentsPage user={user} initialData={data} />
         {user.user_metadata.user_name === "solidsnk86" ? (
-          <ProfileClientAnalytics data={profileData} />
+          <>
+            <ProfileClientAnalytics data={profileData} />
+            <ImageUpload userId={user.id} />
+          </>
         ) : null}
       </main>
 
