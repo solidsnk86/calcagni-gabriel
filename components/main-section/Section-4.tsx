@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowLeft, ArrowRight, CameraIcon } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Setcion_4Props } from "@/app/types/definitions";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, EffectCards, Keyboard } from "swiper/modules";
@@ -9,13 +9,39 @@ import { photosImg } from "@/components/constants";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
+import { supabase } from "@/utils/supabase/client";
 
-export const Section_4 = ({ className }: Setcion_4Props) => {
+export const Section_4 = ({ className, userId }: Setcion_4Props) => {
   const [value, setValue] = useState<number>(0);
+  const [media, setMedia] = useState<Array<any>>();
+  const [error, setError] = useState<Error>();
 
   const handleSlideChange = (swiper: any) => {
     setValue(swiper.activeIndex);
   };
+
+  async function getMedia() {
+    const { data, error } = await supabase.storage
+      .from("upload")
+      .list(userId + "/", {
+        limit: 10,
+        offset: 0,
+        sortBy: {
+          column: "name",
+          order: "asc",
+        },
+      });
+
+    if (data) {
+      setMedia(data);
+    } else {
+      setError(error);
+    }
+  }
+
+  useEffect(() => {
+    getMedia();
+  }, [userId]);
 
   return (
     <section
@@ -36,7 +62,7 @@ export const Section_4 = ({ className }: Setcion_4Props) => {
           <ArrowLeft />
         </button>
         <small className="-translate-y">
-          {value + 1} de {photosImg.length}
+          {value + 1} de {media?.length}
         </small>
         <button
           className="swiper-button-next mx-4 -translate-y-3 p-[2px] bg-zinc-800 border-zinc-800/50 rounded-full"
@@ -59,19 +85,17 @@ export const Section_4 = ({ className }: Setcion_4Props) => {
           onSlideChange={handleSlideChange}
           className="mySwiper"
         >
-          {photosImg.map((photo, i) => (
-            <SwiperSlide key={i + 1}>
-              <small className="absolute top-2 left-2 mx-auto justify-center z-50 drop-shadow-sm">
-                {photo.name}
-              </small>
-              <Image
-                className="next-img"
-                fill
-                src={photo.link}
-                alt={`Foto ${i + 1}: ${photo.name}`}
-              />
-            </SwiperSlide>
-          ))}
+          {media &&
+            media.map((photo, i) => (
+              <SwiperSlide key={i + 1}>
+                <Image
+                  className="next-img"
+                  fill
+                  src={`https://yyqjcfzddjozcwahhugs.supabase.co/storage/v1/object/public/upload/2334c6e1-adb2-4738-b786-e32570d9318e/${photo.name}`}
+                  alt={`Foto ${i + 1}: ${photo.name}`}
+                />
+              </SwiperSlide>
+            ))}
         </Swiper>
       </aside>
     </section>

@@ -50,6 +50,7 @@ export type Setcion_4Props = {
   province?: string;
   flag?: string | Promise<void>;
   className?: string;
+  userId?: string | number | any;
 };
 
 export type Section_5Props = {

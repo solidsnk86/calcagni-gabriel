@@ -56,19 +56,24 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
   return (
     <div>
       <h2>Subir Foto</h2>
-      <input type="file" onChange={(e) => uploadImage(e)} />
-      {uploading && <small className="text-blue-500">Subiendo imagen...</small>}
-      {media.map((item) => {
-        return (
+      <div className="grid my-3">
+        <input type="file" onChange={(e) => uploadImage(e)} />
+        {uploading && (
+          <small className="text-blue-500">Subiendo imagen...</small>
+        )}
+      </div>
+      <figure className="grid lg:grid-cols-3 grid-cols-1 gap-3">
+        {media.map((item) => (
           <Image
             key={item.id}
             src={`https://yyqjcfzddjozcwahhugs.supabase.co/storage/v1/object/public/upload/2334c6e1-adb2-4738-b786-e32570d9318e/${item.name}`}
             alt={item.name}
             width={300}
             height={300}
+            className="object-cover rounded"
           />
-        );
-      })}
+        ))}
+      </figure>
       {error && <small className="text-red-400">{error.message}</small>}
     </div>
   );
