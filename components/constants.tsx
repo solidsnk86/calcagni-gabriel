@@ -202,6 +202,6 @@ export const photosImg = [
 export const footerRoutes = [
   { name: "Inicio", link: "/" },
   { name: "Trabajos", link: "/works" },
-  { name: "Comentar", link: "/comments" },
+  { name: "Ingresar", link: "/comments" },
   { name: "404", link: "/404" },
 ];

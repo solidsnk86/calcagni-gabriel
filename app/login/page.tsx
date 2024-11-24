@@ -12,7 +12,7 @@ export default function Login() {
         <div className="absolute inset-0 pointer-events-none z-10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-full h-full opacity-[0.03]"
+            className="w-full h-full opacity-[0.05]"
             preserveAspectRatio="none"
           >
             <filter id="noiseFilter">

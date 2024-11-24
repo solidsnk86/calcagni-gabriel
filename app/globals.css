@@ -307,6 +307,26 @@ body {
   background-color: #a78bfac2;
   filter: blur(20px) drop-shadow(0 0 10px #968bfac4);
   z-index: 1;
+  animation: 3s infinite alternate zoomin;
+}
+
+.bg-effect-1::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: rgba(50, 50, 240, 0.908);
+  filter: blur(20px) drop-shadow(0 0 10px rgba(51, 51, 229, 0.908));
+}
+
+@keyframes zoomin {
+  from {
+    scale: 0.92;
+  }
+  to {
+    scale: 1;
+  }
 }
 
 .bg-effect-2 {
@@ -320,13 +340,32 @@ body {
   border-radius: 50%;
   background-color: #a78bfa91;
   filter: blur(20px) drop-shadow(0 0 10px #a78bfa91);
+  animation: movement 6s linear infinite;
+}
+
+@keyframes movement {
+  0% {
+    transform: translateY(0%);
+  }
+  25% {
+    transform: translateY(5%);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  75% {
+    transform: translateY(5%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 @view-transition {
   navigation: auto;
 }
 
-/* Pueden ver la compatibilidad en Can I Use: https://caniuse.com/?search=view-transition-class */
+/* Ver la compatibilidad en Can I Use: https://caniuse.com/?search=view-transition-class */
 .item {
   view-transition-class: item;
 }
