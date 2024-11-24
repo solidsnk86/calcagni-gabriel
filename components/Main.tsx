@@ -12,7 +12,7 @@ import { GetLocation } from "./GetLocation";
 import { Section_5 } from "./main-section/Section-5";
 import { DataModel } from "@/app/lib/actions";
 
-export default function Main({ userId }: { userId: string | number | any }) {
+export default function Main() {
   const mobile = useMatchMedia("(max-width: 700px)", false);
   const isClient = useIsClient();
   const [comments, setComments] = useState<any>([]);
@@ -70,7 +70,6 @@ export default function Main({ userId }: { userId: string | number | any }) {
                 province={location.province}
                 flag={location.flag}
                 className={mobile ? "w-[100%]" : "w-[40%]"}
-                userId={userId}
               />
             </div>
             <Section_5

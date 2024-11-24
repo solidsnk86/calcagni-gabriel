@@ -5,13 +5,12 @@ import { useEffect, useState } from "react";
 import { Setcion_4Props } from "@/app/types/definitions";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, EffectCards, Keyboard } from "swiper/modules";
-import { photosImg } from "@/components/constants";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
 import { supabase } from "@/utils/supabase/client";
 
-export const Section_4 = ({ className, userId }: Setcion_4Props) => {
+export const Section_4 = ({ className }: Setcion_4Props) => {
   const [value, setValue] = useState<number>(0);
   const [media, setMedia] = useState<Array<any>>();
   const [error, setError] = useState<Error>();
@@ -23,7 +22,7 @@ export const Section_4 = ({ className, userId }: Setcion_4Props) => {
   async function getMedia() {
     const { data, error } = await supabase.storage
       .from("upload")
-      .list(userId + "/", {
+      .list("2334c6e1-adb2-4738-b786-e32570d9318e" + "/", {
         limit: 10,
         offset: 0,
         sortBy: {
@@ -41,7 +40,7 @@ export const Section_4 = ({ className, userId }: Setcion_4Props) => {
 
   useEffect(() => {
     getMedia();
-  }, [userId]);
+  }, []);
 
   return (
     <section
