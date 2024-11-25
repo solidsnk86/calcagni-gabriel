@@ -1,5 +1,7 @@
 "use client";
 
+import { TitleComponent } from "@/components/ComponentTitles";
+import { Loader } from "@/components/Loader";
 import { supabase } from "@/utils/supabase/client";
 import { Trash2 } from "lucide-react";
 import Image from "next/image";
@@ -9,25 +11,25 @@ import { v4 as uuidv4 } from "uuid";
 export default function ImageUpload({ userId }: { userId: string | number }) {
   const [media, setMedia] = useState<Array<any>>([]);
   const [error, setError] = useState<Error>();
-  const [uploading, setUploading] = useState<boolean>();
+  const [loading, setLoading] = useState<boolean>();
 
   async function uploadImage(event: React.ChangeEvent<HTMLInputElement>) {
     let file: File | any;
     if (event.target.files && event.target.files.length > 0) {
       file = event.target.files[0];
     }
-    setUploading(true);
+    setLoading(true);
 
     const { data, error } = await supabase.storage
       .from("upload")
       .upload(userId + "/" + uuidv4(), file);
 
     if (data) {
-      setUploading(false);
+      setLoading(false);
       getMedia();
     } else {
       setError(error);
-      setUploading(false);
+      setLoading(false);
     }
   }
 
@@ -51,6 +53,7 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
   }
 
   async function deleteMedia(fileName: string) {
+    setLoading(true);
     try {
       const { error } = await supabase.storage
         .from("upload")
@@ -58,11 +61,14 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
 
       if (error) {
         setError(error);
+        setLoading(false);
       } else {
         getMedia();
+        setLoading(false);
       }
     } catch (err) {
       setError(err as Error);
+      setLoading(false);
     }
   }
 
@@ -72,6 +78,9 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
 
   return (
     <div className="p-4">
+      <TitleComponent.H2 className="text-center my-12">
+        Mis Fotos
+      </TitleComponent.H2>
       <h2 className="text-xl font-bold mb-4">Subir Foto</h2>
 
       <div className="mb-6">
@@ -81,8 +90,12 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
           className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
           accept="image/*"
         />
-        {uploading && (
-          <div className="mt-2 text-blue-500">Subiendo imagen...</div>
+        {loading && (
+          <Loader
+            width="45"
+            height="45"
+            className="flex justify-center mx-auto my-4"
+          />
         )}
       </div>
 

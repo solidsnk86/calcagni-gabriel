@@ -39,13 +39,15 @@ export default async function Comments() {
       <div className="w-full">
         <nav className="w-full flex h-16">
           <div className="w-full flex justify-between items-center p-3 text-sm">
-            <img
-              src="/logo.png"
-              alt="Logo"
-              width={45}
-              height={45}
-              className="mb-2"
-            />
+            <Link href="/">
+              <img
+                src="/logo.png"
+                alt="Logo"
+                width={45}
+                height={45}
+                className="mb-2"
+              />
+            </Link>
             <AuthButton />
           </div>
         </nav>
