@@ -28,6 +28,51 @@ body {
 }
 
 /*
+* LOGO
+*/
+
+/*
+* LOGO
+*/
+
+.logo {
+  position: relative; /* Asegura que los pseudo-elementos se posicionen correctamente */
+  width: 33px;
+  height: 33px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  background: linear-gradient(45deg, #a78bfa, rebeccapurple);
+  rotate: 45deg;
+}
+
+.logo::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: linear-gradient(45deg, #a78bfa, rebeccapurple);
+  filter: drop-shadow(0 0 6px #222);
+}
+
+.logo::after {
+  content: "</>";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-55%) translateY(16%);
+  font-size: 14px;
+  color: rgb(214, 195, 234);
+  font-weight: bold;
+  background: transparent;
+  padding: 2px 4px;
+  rotate: -45deg;
+}
+
+/*
 * HEADER / SECTION_1
 */
 
