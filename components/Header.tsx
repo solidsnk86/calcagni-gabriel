@@ -10,6 +10,7 @@ import { Section_1 } from "@/components/header-components/Section-1";
 import { supabase } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
 import { GetLocation } from "@/components/GetLocation";
+import { Section_5 } from "./header-components/Section-5";
 
 export default function Header() {
   const isClient = useIsClient();
@@ -84,6 +85,7 @@ export default function Header() {
               <Section_3 />
             </Masonry>
           )}
+          {/* <Section_5 className="my-3" /> */}
         </ResponsiveMasonry>
       )}
     </>

@@ -94,45 +94,6 @@ export const projects = [
   },
 ];
 
-export const worksProyects = [
-  {
-    name: "ChismeApp",
-    url: "https://gossip-app.vercel.app/",
-    image: "/Portada-ChismeApp.png",
-    type: "Social",
-  },
-  {
-    name: "SolidSnk86",
-    url: "https://portfolio-mgc.vercel.app/",
-    image: "/Portada-Portfolio-Solid.png",
-    type: "Portfolio",
-  },
-  {
-    name: "NeoTecs",
-    url: "https://neotecs.vercel.app/",
-    image: "/Portada-NeoTecs.png",
-    type: "Documentación Web",
-  },
-  {
-    name: "Web LLM IA",
-    url: "https://solidsnk86.github.io/web-Llm-local/",
-    image: "/Portada-Web-LLM-AI.png",
-    type: "Chat GPT",
-  },
-  {
-    name: "Gerardo",
-    url: "https://cv-gec.vercel.app/",
-    image: "/Portada-CV-Gerardo.png",
-    type: "Portfolio",
-  },
-  {
-    name: "Facturador Web",
-    url: "https://solidsnk86.github.io/formularioWeb/",
-    image: "/Portada-Formulario-Web.png",
-    type: "Facturación",
-  },
-];
-
 export const services = [
   {
     name: "Desarrollo Web",
