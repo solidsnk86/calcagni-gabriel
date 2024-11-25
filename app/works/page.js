@@ -47,7 +47,7 @@ export default function Works() {
       image: "/Portada-Portfolio-Solid.png",
       type: "Portfolio",
       repoName: "portfolioweb",
-      stars: stars.portfolioweb,
+      stars: stars.portfolioweb || 0,
     },
     {
       name: "NeoTecs",
@@ -55,7 +55,7 @@ export default function Works() {
       image: "/Portada-NeoTecs.png",
       type: "Documentación Web",
       repoName: "neotecs",
-      stars: stars.neotecs,
+      stars: stars.neotecs || 0,
     },
     {
       name: "Web LLM IA",
@@ -71,7 +71,7 @@ export default function Works() {
       image: "/Portada-CV-Gerardo.png",
       type: "Portfolio",
       repoName: "cv-gec",
-      stars: stars.cv_gec,
+      stars: stars.cv_gec || 0,
     },
     {
       name: "Facturador Web",
@@ -79,7 +79,7 @@ export default function Works() {
       image: "/Portada-Formulario-Web.png",
       type: "Facturación",
       repoName: "formularioweb",
-      stars: stars.formularioweb,
+      stars: stars.formularioweb || 0,
     },
   ];
 
