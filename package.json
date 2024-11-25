@@ -27,6 +27,7 @@
     "react": "18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
+    "react-google-charts": "^5.2.1",
     "react-hook-form": "^7.53.2",
     "react-masonry-css": "^1.0.16",
     "react-responsive-masonry": "^2.4.1",

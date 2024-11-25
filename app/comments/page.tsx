@@ -54,7 +54,7 @@ export default async function Comments() {
         </nav>
       </div>
 
-      <main className="flex flex-col gap-6 xl:max-w-lg max-w-sm">
+      <section className="flex flex-col gap-6 xl:max-w-lg max-w-sm">
         {user.user_metadata.user_name !== "solidsnk86" ? (
           <div className="p-6 italic bg-violet-400/20 text-white text-balance rounded-xl relative">
             <svg
@@ -85,13 +85,18 @@ export default async function Comments() {
           Comentario
         </TitleComponent.H2>
         <CLientCommentsPage user={user} initialData={data} />
-        {user.user_metadata.user_name === "solidsnk86" ? (
-          <>
+      </section>
+
+      {user.user_metadata.user_name === "solidsnk86" ? (
+        <>
+          <section className="w-full flex">
             <ProfileClientAnalytics data={profileData} />
+          </section>
+          <div className="">
             <ImageUpload userId={user.id} />
-          </>
-        ) : null}
-      </main>
+          </div>
+        </>
+      ) : null}
 
       <footer className="w-full p-8 justify-between text-center text-base text-zinc-400 flex">
         <a
