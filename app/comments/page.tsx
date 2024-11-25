@@ -6,6 +6,7 @@ import { CLientCommentsPage } from "./ClientCommentsPage";
 import { footerRoutes } from "@/components/constants";
 import ProfileClientAnalytics from "./ProfileClientAnalytics";
 import ImageUpload from "./ImageUploader";
+import { TitleComponent } from "@/components/ComponentTitles";
 
 export default async function Comments() {
   const supabase = createClient();
@@ -80,7 +81,9 @@ export default async function Comments() {
             <p className="text-right mt-4">Gabriel Calcagni ツ</p>
           </div>
         ) : null}
-        <h2 className="font-bold text-2xl text-center mb-4">Comentario</h2>
+        <TitleComponent.H2 className="text-center">
+          Comentario
+        </TitleComponent.H2>
         <CLientCommentsPage user={user} initialData={data} />
         {user.user_metadata.user_name === "solidsnk86" ? (
           <>
