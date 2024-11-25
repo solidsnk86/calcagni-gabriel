@@ -92,7 +92,7 @@ export default async function Comments() {
           <section className="w-full flex">
             <ProfileClientAnalytics data={profileData} />
           </section>
-          <div className="">
+          <div>
             <ImageUpload userId={user.id} />
           </div>
         </>

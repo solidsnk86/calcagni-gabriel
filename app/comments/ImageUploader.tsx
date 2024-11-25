@@ -78,7 +78,7 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
 
   return (
     <div className="p-4">
-      <TitleComponent.H2 className="text-center my-12">
+      <TitleComponent.H2 className="text-center mb-12">
         Mis Fotos
       </TitleComponent.H2>
       <h2 className="text-xl font-bold mb-4">Subir Foto</h2>
@@ -99,7 +99,7 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
         )}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="xl:max-w-2xl xl:w-[672px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {media.map((item) => (
           <div key={item.id} className="relative group">
             <div className="aspect-square relative overflow-hidden rounded-lg">

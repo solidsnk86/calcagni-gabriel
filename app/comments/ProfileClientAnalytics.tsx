@@ -4,10 +4,12 @@ import React from "react";
 import { Chart } from "react-google-charts";
 import { TitleComponent } from "@/components/ComponentTitles";
 import { Format } from "@/components/Format";
+import useMatchMedia from "../hooks/useMatchMedia";
 
 export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   // Construct a type with a set of properties K of type T
   const visitsByCountry: Record<string, number> = {};
+  const mobile = useMatchMedia("(max-width: 700px)", false);
 
   for (let i = 0; i < data.length; i++) {
     const country = data[i].country;
@@ -71,7 +73,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
               data={chartData}
               options={{
                 ...chartOptions,
-                width: 400,
+                width: mobile ? 360 : 400,
                 height: 400,
               }}
             />
