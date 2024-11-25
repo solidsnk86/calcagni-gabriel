@@ -114,7 +114,7 @@ export const Section_4 = ({ className }: Setcion_4Props) => {
       </header>
       <div className="flex justify-evenly">
         <button
-          className="swiper-button-prev mx-4 -translate-y-3 p-[2px] bg-zinc-800 hover:bg-zinc-700 transition-colors border border-zinc-700 border-zinc-800/50 rounded-full disabled:cursor-not-allowed"
+          className="swiper-button-prev mx-4 -translate-y-3 p-[2px] bg-zinc-800 hover:bg-zinc-700 transition-colors border border-zinc-700 rounded-full disabled:cursor-not-allowed"
           title="Previa"
           disabled={media.length <= 1}
         >
@@ -124,7 +124,7 @@ export const Section_4 = ({ className }: Setcion_4Props) => {
           {media?.length > 0 ? `${value + 1} de ${media.length}` : "0 de 0"}
         </small>
         <button
-          className="swiper-button-next mx-4 -translate-y-3 p-[2px] bg-zinc-800 hover:bg-zinc-700 transition-colors border border-zinc-700 border-zinc-800/50 rounded-full disabled:cursor-not-allowed"
+          className="swiper-button-next mx-4 -translate-y-3 p-[2px] bg-zinc-800 hover:bg-zinc-700 transition-colors border border-zinc-700 rounded-full disabled:cursor-not-allowed"
           title="Siguiente"
           disabled={media.length <= 1}
         >

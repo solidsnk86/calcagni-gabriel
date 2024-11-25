@@ -4,8 +4,21 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { footerRoutes } from "./constants";
 
-export const Footer = ({ className }: { className?: string }) => {
+export const Footer = ({
+  className,
+  user,
+}: {
+  className?: string;
+  user: boolean;
+}) => {
   const pathname = usePathname();
+
+  const getAuthLink = (linkName: string) => {
+    if (linkName === "Ingresar" || linkName === "Perfil") {
+      return user ? "Perfil" : "Ingresar";
+    }
+    return linkName;
+  };
 
   return (
     <footer
@@ -30,7 +43,7 @@ export const Footer = ({ className }: { className?: string }) => {
                 : ""
             }`}
           >
-            {link.name}
+            {getAuthLink(link.name)}
           </Link>
         ))}
       </aside>

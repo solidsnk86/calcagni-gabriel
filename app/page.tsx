@@ -20,7 +20,7 @@ export default async function Index() {
             <Main />
           </div>
         </section>
-        <Footer />
+        <Footer user={user?.aud === "authenticated"} />
       </main>
     </AnimatedLayout>
   );
