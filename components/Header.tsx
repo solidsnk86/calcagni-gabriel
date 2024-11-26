@@ -68,7 +68,7 @@ export default function Header() {
       {isClient && (
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 400: 1, 700: 1, 900: 2 }}
-          className="my-4"
+          className="my-3"
         >
           {mobile ? (
             <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>
@@ -85,7 +85,7 @@ export default function Header() {
               <Section_3 />
             </Masonry>
           )}
-          {/* <Section_5 className="my-3" /> */}
+          <Section_5 className="mt-3" />
         </ResponsiveMasonry>
       )}
     </>
