@@ -33,8 +33,6 @@ export async function GET(req: NextRequest) {
           followings: dataFollowings,
           followers: dataFollowers,
           non_following: nonFolowers,
-          followings_count: dataFollowings.length,
-          followers_count: dataFollowers.length,
           nonfollowings_count: nonFolowers.length,
         },
       }),
