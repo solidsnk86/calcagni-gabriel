@@ -2,11 +2,29 @@
 import { NextRequest } from "next/server";
 import getGithubUser from "@/utils/getGithubUser";
 
+let element: any = {};
+
+function hasDuplicates(array: any[]): boolean {
+  const elementCount: { [key: string]: number } = {};
+  for (const element of array) {
+    if (elementCount[element]) {
+      return true;
+    }
+    elementCount[element] = 1;
+    element[element] = elementCount;
+  }
+  return false;
+}
+
 export async function GET(req: NextRequest) {
   try {
     const { dataFollowers, dataFollowings } = await getGithubUser();
-    const loginFollowers = new Set(dataFollowers.map((data) => data.login));
-    const loginFollowings = new Set(dataFollowings.map((data) => data.login));
+    const loginFollowers: any = new Set(
+      dataFollowers.map((data) => data.login)
+    );
+    const loginFollowings: any = new Set(
+      dataFollowings.map((data) => data.login)
+    );
     const nonFolowers = Array.from(loginFollowings).filter(
       (login) => !loginFollowers.has(login)
     );
@@ -14,10 +32,13 @@ export async function GET(req: NextRequest) {
     return new Response(
       JSON.stringify({
         status: "success",
-        message: {
+        data: {
           followings: dataFollowings,
           followers: dataFollowers,
           non_following: nonFolowers,
+          followings_count: dataFollowings.length,
+          followers_count: dataFollowers.length,
+          nonfollowings_count: nonFolowers.length,
         },
       }),
       { status: 200 }
