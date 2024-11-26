@@ -1,8 +1,5 @@
-// app/api/nonFollowers/route.js
 import { NextRequest } from "next/server";
 import getGithubUser from "@/utils/getGithubUser";
-
-let element: any = {};
 
 function hasDuplicates(array: any[]): boolean {
   const elementCount: { [key: string]: number } = {};
