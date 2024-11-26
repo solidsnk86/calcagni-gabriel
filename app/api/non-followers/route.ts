@@ -8,7 +8,6 @@ function hasDuplicates(array: any[]): boolean {
       return true;
     }
     elementCount[element] = 1;
-    element[element] = elementCount;
   }
   return false;
 }
@@ -16,14 +15,18 @@ function hasDuplicates(array: any[]): boolean {
 export async function GET(req: NextRequest) {
   try {
     const { dataFollowers, dataFollowings } = await getGithubUser();
-    const loginFollowers: any = new Set(
-      dataFollowers.map((data) => data.login)
-    );
-    const loginFollowings: any = new Set(
-      dataFollowings.map((data) => data.login)
-    );
-    const nonFolowers = Array.from(loginFollowings).filter(
+    const loginFollowers = new Set(dataFollowers.map((data) => data.login));
+    const loginFollowings = new Set(dataFollowings.map((data) => data.login));
+
+    const nonFollowers = Array.from(loginFollowings).filter(
       (login) => !loginFollowers.has(login)
+    );
+
+    const avatarFollowings = dataFollowings.map((data) => data.avatar_url);
+    const avatarFollowers = dataFollowers.map((data) => data.avatar_url);
+
+    const noDuplicatesAvatars = avatarFollowings.filter(
+      (avatar_url) => !avatarFollowers.includes(avatar_url)
     );
 
     return new Response(
@@ -32,8 +35,11 @@ export async function GET(req: NextRequest) {
         data: {
           followings: dataFollowings,
           followers: dataFollowers,
-          non_following: nonFolowers,
-          nonfollowings_count: nonFolowers.length,
+          non_following: {
+            users: nonFollowers,
+            avatar: noDuplicatesAvatars,
+          },
+          nonfollowings_count: nonFollowers.length,
         },
       }),
       { status: 200 }

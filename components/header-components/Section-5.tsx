@@ -2,10 +2,12 @@ import { Github } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Chart } from "react-google-charts";
 import { Format } from "../Format";
+import Image from "next/image";
 
 export const Section_5 = ({ className }: { className: string }) => {
   const [githubStats, setGithubStats] = useState<any>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [nonFollowings, setNonFollowings] = useState<Array<any>>([]);
 
   const getData = async () => {
     try {
@@ -21,8 +23,15 @@ export const Section_5 = ({ className }: { className: string }) => {
     }
   };
 
+  const getNonFollowings = async () => {
+    const response = await fetch("/api/non-followers");
+    const data = await response.json();
+    setNonFollowings(data || []);
+  };
+
   useEffect(() => {
     getData();
+    getNonFollowings();
   }, []);
 
   const mostUsedLanguage = githubStats.most_used?.name || "N/A";
@@ -30,7 +39,6 @@ export const Section_5 = ({ className }: { className: string }) => {
   const publicRepos = githubStats.data?.user?.public_repos || 0;
   const followers = githubStats.data?.user?.followers || 0;
   const following = githubStats.data?.user?.following || 0;
-  const notFollowingMe = following - followers;
   const timeStampsPortfolio = githubStats.data?.repos?.[18];
   const createdAt = timeStampsPortfolio
     ? Format.date(timeStampsPortfolio.created_at)
@@ -99,6 +107,25 @@ export const Section_5 = ({ className }: { className: string }) => {
     );
   }
 
+  const itemsStats = [
+    {
+      title: "Lenguaje más usado",
+      stat: mostUsedLanguage,
+    },
+    {
+      title: `Uso de ${mostUsedLanguage}`,
+      stat: `%${percentage}`,
+    },
+    {
+      title: "Creación Portfolio",
+      stat: createdAt,
+    },
+    {
+      title: "Actualización Portfolio",
+      stat: lastUpdate,
+    },
+  ];
+
   return (
     <section
       className={`border border-foreground/5 bg-zinc-900/50 rounded-xl overflow-hidden ${className}`}
@@ -134,39 +161,31 @@ export const Section_5 = ({ className }: { className: string }) => {
       </div>
 
       <aside className="w-[100%] grid grid-cols-2 md:grid-cols-4 gap-4 text-center px-6 py-4">
-        <div className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2">
-          <p className="text-zinc-400 text-sm">Lenguaje más usado</p>
-          <p className="text-violet-400 font-bold">{mostUsedLanguage}</p>
-        </div>
-        <div className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2">
-          <p className="text-zinc-400 text-sm">Uso de JavaScript</p>
-          <p className="text-violet-400 font-bold">{percentage}%</p>
-        </div>
-        <div className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2">
-          <p className="text-zinc-400 text-sm">Creación Portfolio</p>
-          <p className="text-violet-400 font-bold">{createdAt}</p>
-        </div>
-        <div className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2">
-          <p className="text-zinc-400 text-sm">Actualización Portfolio</p>
-          <p className="text-violet-400 font-bold">{lastUpdate}</p>
-        </div>
-        <div className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2">
-          <p className="text-zinc-400 text-sm">Seguidores</p>
-          <p className="text-violet-400 font-bold">{followers}</p>
-        </div>
-        <div className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2">
-          <p className="text-zinc-400 text-sm">Seguidos</p>
-          <p className="text-violet-400 font-bold">{following}</p>
-        </div>
-        <div className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2">
-          <p className="text-zinc-400 text-sm">No Siguen de Vuelta</p>
-          <p className="text-violet-400 font-bold">{notFollowingMe}</p>
-        </div>
-        <div className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2">
-          <p className="text-zinc-400 text-sm">Repositorios Públicos</p>
-          <p className="text-violet-400 font-bold">{publicRepos}</p>
-        </div>
+        {itemsStats.map((item) => {
+          return (
+            <div
+              key={item.title}
+              className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2"
+            >
+              <p className="text-zinc-400 text-sm">{item.title}</p>
+              <p className="text-violet-400 font-bold">{item.stat}</p>
+            </div>
+          );
+        })}
       </aside>
+      {/* <div className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2">
+        {nonFollowings.map((item) => {
+          return (
+            <Image
+              key={item.data.users}
+              src={item.data.non_following.avatar_url}
+              width={30}
+              height={30}
+              alt=""
+            />
+          );
+        })}
+      </div> */}
     </section>
   );
 };
