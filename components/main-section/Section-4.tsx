@@ -150,7 +150,8 @@ export const Section_4 = ({ className }: Setcion_4Props) => {
               <SwiperSlide key={i + 1}>
                 <Image
                   className="next-img"
-                  fill
+                  width={400}
+                  height={400}
                   src={`https://yyqjcfzddjozcwahhugs.supabase.co/storage/v1/object/public/upload/2334c6e1-adb2-4738-b786-e32570d9318e/${photo.name}`}
                   alt={`Foto ${i + 1}: ${photo.name}`}
                 />
