@@ -126,7 +126,7 @@ La aplicación permite subir fotos a mi galería personal utilizando el servicio
 Características:
 
 - Subida de imágenes directa al bucket storage de Supabase
-- Almacenamiento seguro en tu perfil privado
+- Almacenamiento seguro en mi perfil privado
 - Renderización automática en la galería principal
 
 <div>
