@@ -173,6 +173,7 @@ export const Section_5 = ({ className }: { className: string }) => {
               <Link
                 key={user}
                 href={`https://github.com/${user}/`}
+                target="_blank"
                 className="hover:z-10"
                 title={user}
                 onMouseEnter={clickSound}
