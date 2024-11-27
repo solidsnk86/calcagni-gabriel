@@ -158,7 +158,7 @@ export const Section_5 = ({ className }: { className: string }) => {
           <small className="flex font-semibold lg:-translate-x-6">
             No me siguen de vuelta: {nonFollowingUsers.length}
           </small>
-          {nonFollowingUsers === 0 ? (
+          {!nonFollowingUsers ? (
             <p className="font-bold text-center mx-auto">
               Cargando Usuarios...
             </p>
