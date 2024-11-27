@@ -108,7 +108,9 @@ export const Section_5 = ({ className }: { className: string }) => {
   function clickSound() {
     const audio = new Audio("/effects-sounds/computer-click.mp3");
     audio.volume = 0.1;
-    return audio.play();
+    if (audio) {
+      return audio.play();
+    }
   }
 
   return (
