@@ -12,6 +12,7 @@ const ProyectCard = ({ name, img }: { name: string; img: string }) => {
       height={100}
       alt={`Imagen proyecto ${name}`}
       className="rounded-xl aspect-auto"
+      priority
     />
   ) : (
     <div className="w-[200px] py-8 h-auto">
