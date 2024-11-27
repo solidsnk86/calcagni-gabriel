@@ -162,7 +162,7 @@ export const photosImg = [
 
 export const footerRoutes = [
   { name: "Inicio", link: "/" },
-  { name: "Trabajos", link: "/works" },
+  { name: "Proyectos", link: "/projects" },
   { name: "Ingresar", link: "/comments" },
   { name: "404", link: "/404" },
 ];

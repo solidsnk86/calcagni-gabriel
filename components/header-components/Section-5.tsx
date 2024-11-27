@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Chart } from "react-google-charts";
 import { Format } from "../Format";
 import Image from "next/image";
+import { color } from "framer-motion";
 
 export const Section_5 = ({ className }: { className: string }) => {
   const [githubStats, setGithubStats] = useState<any>([]);
@@ -48,7 +49,7 @@ export const Section_5 = ({ className }: { className: string }) => {
     : "N/A";
 
   const languageData = [
-    ["Periodo", "Uso de JavaScript"],
+    ["Periodo", "Uso de JavaScript", { role: "style", color: "#f4f4f4" }],
     ["Anterior", percentage * 0.9],
     ["Actual", percentage],
     ["Proyección", percentage * 1.1],

@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { ReviewsMarqueeProps } from "@/app/types/definitions";
 import { DeleteButton } from "../DeleteBtn";
+import Image from "next/image";
 
 export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   id,
@@ -23,7 +24,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
       className="flex flex-col w-full space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative my-4"
     >
       <header className="flex gap-[10px] items-center border-b border-foreground/10 dark:border-zinc-800 p-3">
-        <img
+        <Image
           src={avatarUrl}
           width={38}
           height={38}
