@@ -117,6 +117,22 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
 <img src="public/captura-analitica-del-portfolio-mgc.png" width="100%" heigt="600" />
 </div>
 
+## Gestión de Galería de Fotos 📸
+
+Subir Fotos
+
+La aplicación permite subir fotos a mi galería personal utilizando el servicio de almacenamiento de Supabase. El proceso es sencillo y me permite expandir mi colección de imágenes de manera rápida y segura.
+
+Características:
+
+- Subida de imágenes directa al bucket storage de Supabase
+- Almacenamiento seguro en tu perfil privado
+- Renderización automática en la galería principal
+
+<div>
+<img src="public/profile-pic-section.png" width="100%" heigt="600" />
+</div>
+
 ## Clonar y Usar este Proyecto
 
 Si te gusta este template y quieres utilizarlo como base para tu propio proyecto, ¡puedes clonarlo y empezar en minutos! Sigue estos pasos:
