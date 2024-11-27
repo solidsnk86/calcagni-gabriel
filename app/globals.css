@@ -437,6 +437,12 @@ body {
   transform: translate(-10px);
 }
 
+@media (min-width: 420px) {
+  .card-comment {
+    max-width: 382px;
+  }
+}
+
 /*
 * FOOTER
 */
