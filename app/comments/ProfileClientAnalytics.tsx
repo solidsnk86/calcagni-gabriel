@@ -7,7 +7,6 @@ import { Format } from "@/components/Format";
 import useMatchMedia from "../hooks/useMatchMedia";
 
 export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
-  // Construct a type with a set of properties K of type T
   const visitsByCountry: Record<string, number> = {};
   const mobile = useMatchMedia("(max-width: 700px)", false);
 
@@ -21,7 +20,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   }
 
   const chartData = [
-    ["Country", "Visits"],
+    ["País", "Visitas"],
     ...Object.entries(visitsByCountry).map(([country, visits]) => [
       country,
       visits,
