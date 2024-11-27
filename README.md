@@ -63,50 +63,50 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   }
 
   // Se pasan los valores obtenidos al chart
-  const chartData = {
-    labels: Object.keys(visitsByCountry), // Le pasamos la llave
-    datasets: [
-      {
-        data: Object.values(visitsByCountry), // Luego los valores
-        backgroundColor: [
-          "rgba(255, 99, 132, 0.6)",
-          "rgba(54, 162, 235, 0.6)",
-          "rgba(255, 206, 86, 0.6)",
-          "rgba(75, 192, 192, 0.6)",
-          "rgba(153, 102, 255, 0.6)",
-          "rgba(255, 159, 64, 0.6)",
-        ],
-        borderColor: [
-          "rgba(255, 99, 132, 1)",
-          "rgba(54, 162, 235, 1)",
-          "rgba(255, 206, 86, 1)",
-          "rgba(75, 192, 192, 1)",
-          "rgba(153, 102, 255, 1)",
-          "rgba(255, 159, 64, 1)",
-        ],
-        borderWidth: 1,
-      },
-    ],
+  const chartData = [
+    ["Country", "Visits"],
+    ...Object.entries(visitsByCountry).map(([country, visits]) => [
+      country,
+      visits,
+    ]),
+  ];
+
+  const colorPalettes = {
+    ocean: ["#E6F2FF", "#BAE6FD", "#7DD3FC", "#38BDF8", "#0EA5E9"],
+    forest: ["#ECFDF5", "#D1FAE5", "#6EE7B7", "#10B981", "#059669"],
+    sunset: ["#FEF3C7", "#FDE68A", "#FCD34D", "#F59E0B", "#D97706"],
+    berry: ["#AFBBE3", "#EDE9FE", "#DDD6FE", "#AC94C9", "#A78BFA"],
+    monochrome: ["#F4F4F4", "#E5E5E5", "#A3A3A3", "#737373", "#404040"],
   };
 
-  // Y por último las opciones
   const chartOptions = {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: "top" as const,
-      },
-      title: {
-        display: true,
-        text: "Visitas por País",
+    title: "Visitas por País",
+    backgroundColor: "#04090B",
+    colorAxis: {
+      colors: colorPalettes.berry,
+    },
+    legend: {
+      textStyle: {
+        color: "#333",
       },
     },
+    titleTextStyle: {
+      color: "#f4f4f4",
+    },
   };
-  // Renderizamos el componente, yo usé un Doughnut
+  // Renderizamos el componente, yo usé un Geo Chart de Google React Charts
   return (
-    <div className="my-10 w-full max-w-md mx-auto">
-      <Doughnut data={chartData} options={chartOptions} />
-    </div>
+    <Chart
+      chartType="GeoChart"
+      width="100%"
+      height="400px"
+      data={chartData}
+      options={{
+        ...chartOptions,
+        width: mobile ? 360 : 400,
+        height: 400,
+      }}
+    />
   );
 }
 ```
