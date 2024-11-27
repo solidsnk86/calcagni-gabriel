@@ -1,4 +1,6 @@
-import { CSSProperties, ReactNode } from "react";
+import { CSSProperties, ReactNode, ComponentProps } from "react";
+
+type FancyButton = ComponentProps<"button">;
 /**
  * AuthButton Props
  */
@@ -23,7 +25,7 @@ export interface MarqueeProps {
   flex?: boolean;
 }
 
-export interface FancyButtonProps {
+export interface FancyButtonProps extends FancyButton {
   children: ReactNode;
   className?: string;
   style?: CSSProperties;

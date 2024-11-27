@@ -105,6 +105,12 @@ export const Section_5 = ({ className }: { className: string }) => {
     },
   ];
 
+  function clickSound() {
+    const audio = new Audio("/effects-sounds/computer-click.mp3");
+    audio.volume = 0.1;
+    return audio.play();
+  }
+
   return (
     <section
       className={`border border-foreground/5 bg-zinc-900/50 rounded-xl overflow-hidden ${className}`}
@@ -159,9 +165,9 @@ export const Section_5 = ({ className }: { className: string }) => {
             No me siguen de vuelta: {nonFollowingUsers.length}
           </small>
           {nonFollowingUsers.length === 0 ? (
-            <p className="font-bold text-center mx-auto">
+            <small className="font-bold text-center mx-auto">
               Cargando Usuarios...
-            </p>
+            </small>
           ) : (
             nonFollowingUsers.map((user: string, i: number) => (
               <Link
@@ -169,6 +175,7 @@ export const Section_5 = ({ className }: { className: string }) => {
                 href={`https://github.com/${user}/`}
                 className="hover:z-10"
                 title={user}
+                onMouseEnter={clickSound}
               >
                 <Image
                   src={nonFollowingAvatars[i]}

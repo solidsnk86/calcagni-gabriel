@@ -1,7 +1,5 @@
 import { itemsSection_4, wap } from "@/components/constants";
-
 import useMatchMedia from "@/app/hooks/useMatchMedia";
-
 import Link from "next/link";
 import { FancyButton } from "@/components/magic-ui/FancyButton";
 import { DownloadIcon } from "lucide-react";
@@ -9,6 +7,18 @@ import Image from "next/image";
 
 export const Section_4 = ({ className }: { className?: string }) => {
   const mobile = useMatchMedia("(max-width: 700px)", false);
+
+  function soundClick() {
+    const audio = new Audio("/effects-sounds/lighter-zippo-click.mp3");
+    audio.volume = 0.3;
+    return audio.play();
+  }
+
+  function soundClick2() {
+    const audio = new Audio("/effects-sounds/button-click.mp3");
+    audio.volume = 0.1;
+    return audio.play();
+  }
 
   return (
     <section
@@ -43,6 +53,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
           title="Descargar CV"
           target="_blank"
           className="absolute group right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
+          onMouseDown={soundClick}
         >
           <span
             className={`pdf absolute -top-2 -right-4 text-[0.6rem] font-semibold px-1 rounded-full opacity-0 
@@ -71,6 +82,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
           }`}
           duration={2.5}
           radius={10}
+          onMouseEnter={soundClick2}
         >
           <svg
             role="img"
@@ -91,6 +103,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
             mobile ? "text-xs" : "text-base"
           }`}
           duration={2.5}
+          onMouseEnter={soundClick2}
         >
           <svg
             role="img"
