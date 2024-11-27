@@ -158,22 +158,28 @@ export const Section_5 = ({ className }: { className: string }) => {
           <small className="flex font-semibold lg:-translate-x-6">
             No me siguen de vuelta: {nonFollowingUsers.length}
           </small>
-          {nonFollowingUsers.map((user: any, i: number) => (
-            <Link
-              key={user}
-              href={`https://github.com/${user}/`}
-              className="hover:z-10"
-              title={user}
-            >
-              <Image
-                src={nonFollowingAvatars[i]}
-                alt={`Avatar del usuario ${user}`}
-                className="rounded-full border-2 border-zinc-900 hover:scale-125 transition-transform"
-                width={30}
-                height={30}
-              />
-            </Link>
-          ))}
+          {nonFollowingUsers === 0 ? (
+            <p className="font-bold text-center mx-auto">
+              Cargando Usuarios...
+            </p>
+          ) : (
+            nonFollowingUsers.map((user: any, i: number) => (
+              <Link
+                key={user}
+                href={`https://github.com/${user}/`}
+                className="hover:z-10"
+                title={user}
+              >
+                <Image
+                  src={nonFollowingAvatars[i]}
+                  alt={`Avatar del usuario ${user}`}
+                  className="rounded-full border-2 border-zinc-900 hover:scale-125 transition-transform"
+                  width={30}
+                  height={30}
+                />
+              </Link>
+            ))
+          )}
         </div>
       </article>
     </section>
