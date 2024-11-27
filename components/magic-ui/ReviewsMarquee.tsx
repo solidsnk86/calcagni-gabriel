@@ -21,7 +21,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   return (
     <div
       id={`comment-${id}`}
-      className="flex flex-col max-w-xs md:max-w-md mx-auto space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative my-4"
+      className="flex flex-col flex-1 max-w-xs sm:max-w-md mx-auto space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative my-4 text-pretty"
     >
       <header className="flex gap-[10px] items-center border-b border-foreground/10 dark:border-zinc-800 p-3">
         <Image
@@ -65,12 +65,7 @@ export const ReviewsMarquee = ({ data }: { data: any | Promise<void> }) => {
   return (
     <div className="flex">
       {reviews.length !== 0 ? (
-        <Marquee
-          className="[--duration:20s] text-wrap"
-          animateY
-          slice
-          pauseOnHover
-        >
+        <Marquee className="[--duration:20s]" animateY slice pauseOnHover>
           {reviews.map((review) => (
             <ReviewCard
               id={review.id}
