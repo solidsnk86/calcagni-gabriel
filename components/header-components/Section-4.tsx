@@ -16,7 +16,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
     >
       <header className="flex gap-4">
         <Image
-          src="/avatar-mgc.webp"
+          src="/avatar-mgc.png"
           width={100}
           height={100}
           alt="Avatar Gabriel 🎃"
