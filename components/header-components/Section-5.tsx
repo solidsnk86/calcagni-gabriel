@@ -3,12 +3,13 @@ import { useEffect, useState } from "react";
 import { Chart } from "react-google-charts";
 import { Format } from "../Format";
 import Image from "next/image";
-import { color } from "framer-motion";
+import { languageChartOptions } from "../constants";
+import Link from "next/link";
 
 export const Section_5 = ({ className }: { className: string }) => {
   const [githubStats, setGithubStats] = useState<any>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [nonFollowings, setNonFollowings] = useState<Array<any>>([]);
+  const [nonFollowings, setNonFollowings] = useState<any>([]);
 
   const getData = async () => {
     try {
@@ -47,38 +48,15 @@ export const Section_5 = ({ className }: { className: string }) => {
   const lastUpdate = timeStampsPortfolio
     ? Format.date(timeStampsPortfolio.updated_at)
     : "N/A";
+  const nonFollowingUsers = nonFollowings?.data?.non_following.users || [];
+  const nonFollowingAvatars = nonFollowings?.data?.non_following.avatar || [];
 
   const languageData = [
-    ["Periodo", "Uso de JavaScript", { role: "style", color: "#f4f4f4" }],
+    ["Periodo", "Uso de JavaScript"],
     ["Anterior", percentage * 0.9],
     ["Actual", percentage],
     ["Proyección", percentage * 1.1],
   ];
-
-  const languageChartOptions = {
-    title: "Evolución de Uso de Lenguaje",
-    curveType: "function",
-    legend: { position: "bottom" },
-    backgroundColor: "transparent",
-    chartArea: {
-      width: "80%",
-      height: "70%",
-    },
-    titleTextStyle: { color: "#f4f4f4", fontSize: 16 },
-    hAxis: {
-      textStyle: { color: "#f4f4f4" },
-      titleTextStyle: { color: "#f4f4f4" },
-    },
-    vAxis: {
-      title: "Porcentaje (%)",
-      textStyle: { color: "#f4f4f4" },
-      titleTextStyle: { color: "#f4f4f4" },
-      viewWindow: { min: 0 },
-    },
-    series: {
-      0: { color: "#8B5CF6" },
-    },
-  };
 
   const socialData = [
     ["Métrica", "Cantidad", { role: "style" }],
@@ -115,7 +93,7 @@ export const Section_5 = ({ className }: { className: string }) => {
     },
     {
       title: `Uso de ${mostUsedLanguage}`,
-      stat: `%${percentage}`,
+      stat: `% ${percentage}`,
     },
     {
       title: "Creación Portfolio",
@@ -166,27 +144,38 @@ export const Section_5 = ({ className }: { className: string }) => {
           return (
             <div
               key={item.title}
+              title={item.title}
               className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2"
             >
-              <p className="text-zinc-400 text-sm">{item.title}</p>
+              <p className="text-zinc-400 text-sm line-clamp-1">{item.title}</p>
               <p className="text-violet-400 font-bold">{item.stat}</p>
             </div>
           );
         })}
       </aside>
-      {/* <div className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2">
-        {nonFollowings.map((item) => {
-          return (
-            <Image
-              key={item.data.users}
-              src={item.data.non_following.avatar_url}
-              width={30}
-              height={30}
-              alt=""
-            />
-          );
-        })}
-      </div> */}
+      <article className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 mx-6 items-center mb-4">
+        <div className="flex -space-x-4 justify-center mx-auto items-center">
+          <small className="flex font-semibold lg:-translate-x-6">
+            No me siguen de vuelta: {nonFollowingUsers.length}
+          </small>
+          {nonFollowingUsers.map((user: any, i: number) => (
+            <Link
+              key={user}
+              href={`https://github.com/${user}/`}
+              className="hover:z-10"
+              title={user}
+            >
+              <Image
+                src={nonFollowingAvatars[i]}
+                alt={`Avatar del usuario ${user}`}
+                className="rounded-full border-2 border-zinc-900 hover:scale-125 transition-transform"
+                width={30}
+                height={30}
+              />
+            </Link>
+          ))}
+        </div>
+      </article>
     </section>
   );
 };

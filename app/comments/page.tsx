@@ -41,7 +41,7 @@ export default async function Comments() {
         <nav className="w-full flex h-16">
           <div className="w-full flex justify-between items-center p-3 text-sm">
             <Link href="/" title="Inicio">
-              <div className="logo" />
+              <div className="logo hover:scale-125 transition-transform" />
               {/* <img
                 src="/logo.png"
                 alt="Logo"
@@ -110,7 +110,7 @@ export default async function Comments() {
         </a>
         <aside className="flex gap-3 font-medium">
           {footerRoutes
-            .filter((route) => route.name !== "Ingresar")
+            .filter((route) => route.name !== "Comentar")
             .map((link, index) => (
               <Link
                 key={index}

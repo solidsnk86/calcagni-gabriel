@@ -431,6 +431,12 @@ body {
   border-radius: 12px;
 }
 
+.non-following {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+  transform: translate(-10px);
+}
+
 /*
 * FOOTER
 */

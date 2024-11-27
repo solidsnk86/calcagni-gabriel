@@ -163,6 +163,31 @@ export const photosImg = [
 export const footerRoutes = [
   { name: "Inicio", link: "/" },
   { name: "Proyectos", link: "/projects" },
-  { name: "Ingresar", link: "/comments" },
+  { name: "Comentar", link: "/comments" },
   { name: "404", link: "/404" },
 ];
+
+export const languageChartOptions = {
+  title: "Evolución de Uso de Lenguaje",
+  curveType: "function",
+  legend: { position: "bottom" },
+  backgroundColor: "transparent",
+  chartArea: {
+    width: "80%",
+    height: "70%",
+  },
+  titleTextStyle: { color: "#f4f4f4", fontSize: 16 },
+  hAxis: {
+    textStyle: { color: "#f4f4f4" },
+    titleTextStyle: { color: "#f4f4f4" },
+  },
+  vAxis: {
+    title: "Porcentaje (%)",
+    textStyle: { color: "#f4f4f4" },
+    titleTextStyle: { color: "#f4f4f4" },
+    viewWindow: { min: 0 },
+  },
+  series: {
+    0: { color: "#8B5CF6" },
+  },
+};

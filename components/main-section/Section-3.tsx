@@ -21,8 +21,8 @@ export const Section_3: React.FC<Section_3Props> = ({
           <h3 className="text-white text-lg font-bold">Críticas y Reseñas</h3>
         </div>
       </header>
-      <aside className="w-[100%] relative overflow-hidden h-[331px]">
-        <div className="px-2 grid mx-auto justify-center">
+      <aside className="relative overflow-hidden h-[331px]">
+        <div className="flex mx-auto justify-center px-2">
           <ReviewsMarquee key={id} data={data} />
           <div className="shadow-top"></div>
           <div className="shadow-bottom"></div>
