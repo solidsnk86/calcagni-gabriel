@@ -17,7 +17,9 @@ export const Section_4 = ({ className }: { className?: string }) => {
   function soundClick2() {
     const audio = new Audio("/effects-sounds/button-click.mp3");
     audio.volume = 0.1;
-    return audio.play();
+    if (audio) {
+      return audio.play();
+    }
   }
 
   return (
