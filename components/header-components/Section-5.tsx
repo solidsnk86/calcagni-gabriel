@@ -158,12 +158,12 @@ export const Section_5 = ({ className }: { className: string }) => {
           <small className="flex font-semibold lg:-translate-x-6">
             No me siguen de vuelta: {nonFollowingUsers.length}
           </small>
-          {!nonFollowingUsers ? (
+          {nonFollowingUsers.length === 0 ? (
             <p className="font-bold text-center mx-auto">
               Cargando Usuarios...
             </p>
           ) : (
-            nonFollowingUsers.map((user: any, i: number) => (
+            nonFollowingUsers.map((user: string, i: number) => (
               <Link
                 key={user}
                 href={`https://github.com/${user}/`}
