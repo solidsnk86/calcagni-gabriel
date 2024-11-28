@@ -113,6 +113,10 @@ export const Section_5 = ({ className }: { className: string }) => {
     }
   }
 
+  if (!nonFollowingUsers) {
+    return <small className="text-center font-semibold">Cargando...</small>;
+  }
+
   return (
     <section
       className={`border border-foreground/5 bg-zinc-900/50 rounded-xl overflow-hidden ${className}`}
@@ -162,13 +166,13 @@ export const Section_5 = ({ className }: { className: string }) => {
         })}
       </aside>
       <article className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 mx-6 items-center mb-4">
-        <div className="flex -space-x-4 justify-center mx-auto items-center">
-          <small className="flex font-semibold lg:-translate-x-6">
+        <div className="flex -space-x-4 justify-center mx-auto items-center text-pretty overflow-x-hidden">
+          <small className="flex font-semibold lg:-translate-x-6 -translate-x-8">
             No me siguen de vuelta: {nonFollowingUsers.length}
           </small>
           {nonFollowingUsers.length === 0 ? (
             <small className="font-bold text-center mx-auto">
-              Cargando Usuarios...
+              No hay usuarios
             </small>
           ) : (
             nonFollowingUsers.map((user: string, i: number) => (
