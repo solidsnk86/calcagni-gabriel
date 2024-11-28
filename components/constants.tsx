@@ -19,7 +19,7 @@ import {
 export const DEFAULT_PATH =
   process.env.NODE_ENV === "production"
     ? "https://personal-portfolio-mgc.vercel.app/auth/callback"
-    : "http://localhost:3000/auth/callback";
+    : `http://${"localhost:3000" || "localhost:3001"}/auth/callback`;
 
 export const api = {
   url: "https://geolocation.microlink.io",
@@ -157,6 +157,51 @@ export const photosImg = [
   {
     link: "/photos/PXL_20230111_215448841.NIGHT.webp",
     name: "Carpintería Merlo, San Luis 🇦🇷",
+  },
+];
+
+export const worksProyects = [
+  {
+    name: "ChismeApp",
+    url: "https://gossip-app.vercel.app/",
+    image: "/Portada-ChismeApp.png",
+    type: "Social",
+    repoName: "gossip-app",
+  },
+  {
+    name: "SolidSnk86",
+    url: "https://portfolio-mgc.vercel.app/",
+    image: "/Portada-Portfolio-Solid.png",
+    type: "Portfolio",
+    repoName: "portfolioweb",
+  },
+  {
+    name: "NeoTecs",
+    url: "https://neotecs.vercel.app/",
+    image: "/Portada-NeoTecs.png",
+    type: "Documentación Web",
+    repoName: "neotecs",
+  },
+  {
+    name: "Web LLM IA",
+    url: "https://solidsnk86.github.io/web-Llm-local/",
+    image: "/Portada-Web-LLM-AI.png",
+    type: "Chat GPT",
+    repoName: "web-llm-local",
+  },
+  {
+    name: "CV Gerardo",
+    url: "https://cv-gec.vercel.app/",
+    image: "/Portada-CV-Gerardo.png",
+    type: "Portfolio",
+    repoName: "cv-gec",
+  },
+  {
+    name: "Facturador Web",
+    url: "https://solidsnk86.github.io/formularioWeb/",
+    image: "/Portada-Formulario-Web.png",
+    type: "Facturación",
+    repoName: "formularioweb",
   },
 ];
 

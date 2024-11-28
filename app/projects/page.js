@@ -9,6 +9,7 @@ import { useIsClient } from "../hooks/useIsClient";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { worksProyects } from "@/components/constants";
 
 export default function Works() {
   const isClient = useIsClient();
@@ -31,57 +32,6 @@ export default function Works() {
   for (let i = 0; i < repos.length; i++) {
     stars[repos[i]?.name.toLowerCase()] = repos[i]?.stars;
   }
-
-  const worksProyects = [
-    {
-      name: "ChismeApp",
-      url: "https://gossip-app.vercel.app/",
-      image: "/Portada-ChismeApp.png",
-      type: "Social",
-      repoName: "gossip-app",
-      stars: 0,
-    },
-    {
-      name: "SolidSnk86",
-      url: "https://portfolio-mgc.vercel.app/",
-      image: "/Portada-Portfolio-Solid.png",
-      type: "Portfolio",
-      repoName: "portfolioweb",
-      stars: stars.portfolioweb || 0,
-    },
-    {
-      name: "NeoTecs",
-      url: "https://neotecs.vercel.app/",
-      image: "/Portada-NeoTecs.png",
-      type: "Documentación Web",
-      repoName: "neotecs",
-      stars: stars.neotecs || 0,
-    },
-    {
-      name: "Web LLM IA",
-      url: "https://solidsnk86.github.io/web-Llm-local/",
-      image: "/Portada-Web-LLM-AI.png",
-      type: "Chat GPT",
-      repoName: "web-llm-local",
-      stars: 0,
-    },
-    {
-      name: "Gerardo",
-      url: "https://cv-gec.vercel.app/",
-      image: "/Portada-CV-Gerardo.png",
-      type: "Portfolio",
-      repoName: "cv-gec",
-      stars: stars.cv_gec || 0,
-    },
-    {
-      name: "Facturador Web",
-      url: "https://solidsnk86.github.io/formularioWeb/",
-      image: "/Portada-Formulario-Web.png",
-      type: "Facturación",
-      repoName: "formularioweb",
-      stars: stars.formularioweb || 0,
-    },
-  ];
 
   return (
     isClient && (
@@ -153,9 +103,6 @@ export default function Works() {
                           <p className="text-zinc-400 text-sm">
                             {proyect.type}
                           </p>
-                          <small className=" text-zinc-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            ⭐{proyect.stars}
-                          </small>
                         </div>
                         <aside className="bg-zinc-800/40 w-fit py-[8px] px-[10px] rounded-full absolute right-2 bottom-3 border border-foreground/5 overflow-hidden">
                           <ArrowRight className="w-5 h-5 inline work-arrow-icon-1" />
