@@ -2,7 +2,7 @@ import { NextRequest } from "next/server";
 import getGithubUser from "@/utils/getGithubUser";
 
 function hasDuplicates(array: any[]): boolean {
-  const elementCount: { [key: string]: number } = {};
+  const elementCount: Record<string, number> = {};
   for (const element of array) {
     if (elementCount[element]) {
       return true;
