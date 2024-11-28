@@ -79,8 +79,21 @@ export const Section_5 = ({ className }: { className: string }) => {
       <section
         className={`border border-foreground/5 bg-zinc-900/50 rounded-xl overflow-hidden ${className}`}
       >
-        <div className="flex justify-center items-center h-64">
+        <div className="flex justify-center items-center h-64 animate-pulse">
           <p className="text-violet-400">Cargando estadísticas...</p>
+        </div>
+        <header className="text-center p-6">
+          <p className="text-gray-400">
+            <Github className="inline mr-1 -translate-y-[4px] text-violet-400 w-5 h-[18px]" />
+            Datos de Github
+          </p>
+          <h3 className="text-white text-lg font-bold">Stats</h3>
+        </header>
+
+        <div className="flex flex-col lg:flex-row">
+          <div className="w-full lg:w-1/2 p-4">Cargando...</div>
+
+          <div className="w-full lg:w-1/2 p-4">Cargando...</div>
         </div>
       </section>
     );
@@ -167,9 +180,12 @@ export const Section_5 = ({ className }: { className: string }) => {
       </aside>
       <article className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 mx-6 items-center mb-4">
         <div className="flex -space-x-4 justify-center mx-auto items-center text-pretty overflow-hidden py-1">
-          <small className="flex text-zinc-400 lg:-translate-x-6 -translate-x-8">
-            No me siguen: {nonFollowingUsers.length}
-          </small>
+          <p className="flex text-zinc-400 text-sm lg:-translate-x-6 -translate-x-8 gap-1">
+            No me siguen:{" "}
+            <span className="inline text-violet-400 font-bold">
+              {nonFollowingUsers.length}
+            </span>
+          </p>
           {nonFollowingUsers.length === 0 ? (
             <small className="font-bold text-center mx-auto">
               No hay usuarios
