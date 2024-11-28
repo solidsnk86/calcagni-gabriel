@@ -53,7 +53,7 @@ export const Section_5 = ({ className }: { className: string }) => {
 
   const languageData = [
     ["Periodo", "Uso de JavaScript"],
-    ["Anterior", percentage * 0.9],
+    ["Anterior", percentage * 0.1],
     ["Actual", percentage],
     ["Proyección", percentage * 1.1],
   ];
