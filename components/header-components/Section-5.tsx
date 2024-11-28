@@ -166,7 +166,7 @@ export const Section_5 = ({ className }: { className: string }) => {
         })}
       </aside>
       <article className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 mx-6 items-center mb-4">
-        <div className="flex -space-x-4 justify-center mx-auto items-center text-pretty overflow-x-hidden">
+        <div className="flex -space-x-4 justify-center mx-auto items-center text-pretty overflow-hidden py-1">
           <small className="flex font-semibold lg:-translate-x-6 -translate-x-8">
             No me siguen de vuelta: {nonFollowingUsers.length}
           </small>
