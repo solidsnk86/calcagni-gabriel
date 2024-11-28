@@ -175,24 +175,50 @@ export const Section_5 = ({ className }: { className: string }) => {
               No hay usuarios
             </small>
           ) : (
-            nonFollowingUsers.map((user: string, i: number) => (
-              <Link
-                key={user}
-                href={`https://github.com/${user}/`}
-                target="_blank"
-                className="hover:z-10"
-                title={user}
-                onMouseEnter={clickSound}
-              >
-                <Image
-                  src={nonFollowingAvatars[i]}
-                  alt={`Avatar del usuario ${user}`}
-                  className="rounded-full border-2 border-zinc-900 hover:scale-125 transition-transform"
-                  width={30}
-                  height={30}
-                />
-              </Link>
-            ))
+            <>
+              {nonFollowingUsers.slice(0, 30).map((user: string, i: number) => (
+                <Link
+                  key={user}
+                  href={`https://github.com/${user}/`}
+                  target="_blank"
+                  className="hover:z-10"
+                  title={user}
+                  onMouseEnter={clickSound}
+                >
+                  <Image
+                    src={nonFollowingAvatars[i]}
+                    alt={`Avatar del usuario ${user}`}
+                    className="rounded-full border-2 border-zinc-900 hover:scale-125 transition-transform"
+                    width={30}
+                    height={30}
+                  />
+                </Link>
+              ))}
+              {nonFollowingUsers.length > 30 && (
+                <div className="text-center line-clamp-1">
+                  {nonFollowingUsers
+                    .slice(30)
+                    .map((user: string, i: number) => (
+                      <Link
+                        key={user}
+                        href={`https://github.com/${user}/`}
+                        target="_blank"
+                        className="hover:z-10 line-clamp-1"
+                        title={user}
+                        onMouseEnter={clickSound}
+                      >
+                        <Image
+                          src={nonFollowingAvatars[i + 30]}
+                          alt={`Avatar del usuario ${user}`}
+                          className="rounded-full border-2 border-zinc-900 hover:scale-125 transition-transform"
+                          width={30}
+                          height={30}
+                        />
+                      </Link>
+                    ))}
+                </div>
+              )}
+            </>
           )}
         </div>
       </article>
