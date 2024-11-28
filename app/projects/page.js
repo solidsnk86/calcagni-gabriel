@@ -8,30 +8,11 @@ import { ArrowRight, BriefcaseBusiness } from "lucide-react";
 import { useIsClient } from "../hooks/useIsClient";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import { worksProyects } from "@/components/constants";
 
 export default function Works() {
   const isClient = useIsClient();
   const mobile = useMatchMedia("(max-width: 700px)", false);
-  const [githubStats, setGithubStats] = useState([]);
-  const [stars, setStars] = useState({});
-
-  const getData = async () => {
-    const response = await fetch("https://neotecs.vercel.app/api/github-stats");
-    const stats = await response.json();
-    setGithubStats(stats || []);
-  };
-
-  useEffect(() => {
-    getData();
-  }, []);
-
-  const repos = githubStats.data?.repos || [];
-
-  for (let i = 0; i < repos.length; i++) {
-    stars[repos[i]?.name.toLowerCase()] = repos[i]?.stars;
-  }
 
   return (
     isClient && (
