@@ -7,6 +7,7 @@ import { footerRoutes } from "@/components/constants";
 import ProfileClientAnalytics from "./ProfileClientAnalytics";
 import ImageUpload from "./ImageUploader";
 import { TitleComponent } from "@/components/ComponentTitles";
+import Image from "next/image";
 
 export default async function Comments() {
   const supabase = createClient();
@@ -41,14 +42,13 @@ export default async function Comments() {
         <nav className="w-full flex h-16">
           <div className="w-full flex justify-between items-center p-3 text-sm">
             <Link href="/" title="Inicio">
-              <div className="logo hover:scale-125 transition-transform" />
-              {/* <img
+              <Image
                 src="/logo.png"
                 alt="Logo"
                 width={45}
                 height={45}
-                className="mb-2"
-              /> */}
+                className="mb-2 hover:scale-110"
+              />
             </Link>
             <AuthButton />
           </div>
