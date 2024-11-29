@@ -31,6 +31,7 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
             trash
             editable={editable === comment.id}
             onEdit={() => onEdit && onEdit(comment.id)}
+            edited={comment.editable}
             onDelete={() => onDelete && onDelete(comment.id)}
             onSave={onSave}
           />

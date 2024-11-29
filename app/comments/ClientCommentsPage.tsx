@@ -36,7 +36,7 @@ export const CLientCommentsPage = ({
   ) => {
     const { data: updatedData, error } = await supabase
       .from("comments")
-      .update({ message: newComment, edited: true })
+      .update({ message: newComment, edited })
       .match({ id })
       .select();
 
@@ -45,7 +45,7 @@ export const CLientCommentsPage = ({
     } else if (updatedData) {
       setData(
         data.map((post: any) =>
-          post.id === id ? { ...post, message: newComment, edited: true } : post
+          post.id === id ? { ...post, message: newComment, edited } : post
         )
       );
       setEditingId(null);

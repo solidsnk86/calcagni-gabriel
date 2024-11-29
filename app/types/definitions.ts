@@ -96,6 +96,7 @@ export type ReviewsClientProps = {
   onDelete?: (id: string | number) => void;
   onEdit?: (id: string | number) => void;
   editable?: boolean;
+  edited?: boolean;
   onSave?: (id: string | number, comment: string, edited: boolean) => void;
 };
 
