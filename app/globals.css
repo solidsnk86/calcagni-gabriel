@@ -443,6 +443,17 @@ body {
   }
 }
 
+@media (min-width: 1000px) {
+  .card-comment {
+    width: 94%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card-comment {
+    width: 100%;
+  }
+}
 /*
 * FOOTER
 */
