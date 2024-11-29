@@ -199,7 +199,10 @@ export const Section_5 = ({ className }: { className: string }) => {
                   target="_blank"
                   className="hover:z-10"
                   title={user}
-                  onMouseEnter={clickSound}
+                  onMouseEnter={(e) => {
+                    e.preventDefault();
+                    clickSound();
+                  }}
                 >
                   <Image
                     src={nonFollowingAvatars[i]}
@@ -221,7 +224,10 @@ export const Section_5 = ({ className }: { className: string }) => {
                         target="_blank"
                         className="hover:z-10 line-clamp-1"
                         title={user}
-                        onMouseEnter={clickSound}
+                        onMouseEnter={(e) => {
+                          e.preventDefault();
+                          clickSound();
+                        }}
                       >
                         <Image
                           src={nonFollowingAvatars[i + 30]}

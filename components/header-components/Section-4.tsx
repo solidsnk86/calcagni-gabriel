@@ -10,7 +10,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
 
   function soundClick() {
     const audio = new Audio("/effects-sounds/lighter-zippo-click.mp3");
-    audio.volume = 0.3;
+    audio.volume = 0.2;
     if (audio) {
       return audio.play();
     }
@@ -18,7 +18,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
 
   function soundClick2() {
     const audio = new Audio("/effects-sounds/button-click.mp3");
-    audio.volume = 0.3;
+    audio.volume = 0.2;
     if (audio) {
       return audio.play();
     }
@@ -86,7 +86,10 @@ export const Section_4 = ({ className }: { className?: string }) => {
           }`}
           duration={2.5}
           radius={10}
-          onMouseEnter={soundClick2}
+          onMouseEnter={(e) => {
+            e.preventDefault();
+            soundClick2();
+          }}
         >
           <svg
             role="img"
@@ -107,7 +110,10 @@ export const Section_4 = ({ className }: { className?: string }) => {
             mobile ? "text-xs" : "text-base"
           }`}
           duration={2.5}
-          onMouseEnter={soundClick2}
+          onMouseEnter={(e) => {
+            e.preventDefault();
+            soundClick2();
+          }}
         >
           <svg
             role="img"
