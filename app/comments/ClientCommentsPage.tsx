@@ -45,7 +45,7 @@ export const CLientCommentsPage = ({
     } else if (updatedData) {
       setData(
         data.map((post: any) =>
-          post.id === id ? { ...post, comment: newComment, edited: true } : post
+          post.id === id ? { ...post, message: newComment, edited: true } : post
         )
       );
       setEditingId(null);
