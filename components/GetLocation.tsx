@@ -1,6 +1,6 @@
 import { api } from "./constants";
 
-const env = process.env.NEXT_PUBLIC_WEATHER_API;
+const apiId = process.env.NEXT_PUBLIC_WEATHER_API;
 let url: string = "";
 let hook: any = {};
 
@@ -26,7 +26,7 @@ export class GetLocation {
         navigator.geolocation.getCurrentPosition(async (position) => {
           const lat = position.coords.latitude;
           const lon = position.coords.longitude;
-          url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${env}`;
+          url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiId}`;
 
           const res = await fetch(url);
           const data = await res.json();
