@@ -8,6 +8,7 @@ import { Format } from "@/components/Format";
 export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
   data,
   onDelete,
+  onEdit,
 }) => {
   return (
     <div className="flex flex-col justify-center">
@@ -24,8 +25,10 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
             country={comment.country}
             flag={comment.flag}
             createdAt={Format.date(comment.created_at)}
-            comment={comment?.message}
+            comment={comment.message}
             trash
+            edit
+            onEdit={() => onEdit && onEdit(comment.id)}
             onDelete={() => onDelete && onDelete(comment.id)}
           />
         ))}

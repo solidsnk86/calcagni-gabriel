@@ -13,6 +13,7 @@ export const CLientCommentsPage = ({
   initialData: any;
 }) => {
   const [data, setData] = useState<any>(initialData);
+  const [editable, setEditable] = useState();
 
   const handleRefresh = async () => {
     const { data: refreshedData, error } = await supabase
@@ -28,6 +29,10 @@ export const CLientCommentsPage = ({
     setData(refreshedData);
   };
 
+  const handleEdit = (id: any) => {
+    setEditable(id);
+  };
+
   return (
     <>
       <ClientCommentForm
@@ -41,7 +46,11 @@ export const CLientCommentsPage = ({
           {data.length === 1 ? "Último comentario" : "Últimos comentarios"}
         </h1>
       ) : null}
-      <ReviewClientCard data={data} onDelete={handleRefresh} />
+      <ReviewClientCard
+        data={data}
+        onDelete={handleRefresh}
+        onEdit={handleEdit}
+      />
     </>
   );
 };

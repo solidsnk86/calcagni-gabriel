@@ -5,6 +5,7 @@ import React from "react";
 import { ReviewsMarqueeProps } from "@/app/types/definitions";
 import { DeleteButton } from "../DeleteBtn";
 import Image from "next/image";
+import { EditButton } from "../EditBtn";
 
 export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   id,
@@ -16,7 +17,11 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   createdAt,
   comment,
   trash,
+  edit,
+  edited,
   onDelete,
+  onEdit,
+  onSave,
 }) => {
   return (
     <div
@@ -40,6 +45,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
         <small className="flex absolute right-3 text-zinc-400">
           {trash ? (
             <>
+              <EditButton onEdit={() => onEdit && onEdit(id)} />
               <DeleteButton id={id} onDelete={() => onDelete && onDelete(id)} />
             </>
           ) : null}
@@ -47,9 +53,30 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
         </small>
       </header>
       <div className="space-y-2 p-3 pointer-events-none">
-        <p id="message" className="text-balance text-zinc-400">
+        <small className="text-zinc-400 text-xs absolute right-[26px] top-1">
+          {edited === true ? "(editado)" : null}
+        </small>
+        <p
+          contentEditable={edit}
+          suppressContentEditableWarning
+          id="message"
+          className="text-balance text-zinc-400"
+        >
           {comment}
         </p>
+        {edit && (
+          <button
+            onClick={() => {
+              const comment = document.getElementById(`comment-${id}`);
+              const editedComment = comment?.textContent;
+              const edited = true;
+              onSave && onSave(id, editedComment as string, edited);
+            }}
+            className="px-2 py-1 bg-btn-background hover:bg-btn-background-hover rounded-lg border border-foreground/10 w-fit cursor-pointer"
+          >
+            Guardar
+          </button>
+        )}
       </div>
     </div>
   );

@@ -77,11 +77,14 @@ export type ReviewsMarqueeProps = {
   country?: string;
   flag?: string;
   createdAt: string | number | Date;
-  comment: string | [];
+  comment: string;
   content?: string;
   trash?: boolean;
+  edit?: boolean | false;
+  edited?: boolean;
   onDelete?: (id: string | number) => void;
-  onEdit?: (id: string | number, content: string) => Promise<void>;
+  onEdit?: (id: string | number) => void;
+  onSave?: (id: string | number, message: string, edited: boolean) => void;
 };
 
 /**
@@ -91,6 +94,7 @@ export type ReviewsMarqueeProps = {
 export type ReviewsClientProps = {
   data: any | Promise<any>;
   onDelete?: (id: string | number) => void;
+  onEdit?: (id: string | number) => void;
 };
 
 /**
@@ -117,7 +121,6 @@ export type DeleteButtonProps = {
  * Edit Button Props
  */
 export type EditButtonProps = {
-  id: string | number;
-  content: string;
+  className?: string;
   onEdit: () => void;
 };
