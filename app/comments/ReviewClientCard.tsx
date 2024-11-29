@@ -9,6 +9,7 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
   data,
   onDelete,
   onEdit,
+  editable,
   onSave,
 }) => {
   return (
@@ -28,7 +29,7 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
             createdAt={Format.date(comment.created_at)}
             comment={comment.message}
             trash
-            edited={comment.edited === true}
+            editable={editable === comment.id}
             onEdit={() => onEdit && onEdit(comment.id)}
             onDelete={() => onDelete && onDelete(comment.id)}
             onSave={onSave}

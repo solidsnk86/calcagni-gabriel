@@ -13,7 +13,7 @@ export const CLientCommentsPage = ({
   initialData: any;
 }) => {
   const [data, setData] = useState<any>(initialData);
-  const [editable, setEditable] = useState<string | number | null>(null);
+  const [editingId, setEditingId] = useState<string | number | null>(null);
 
   const handleRefresh = async () => {
     const { data: refreshedData, error } = await supabase
@@ -36,7 +36,7 @@ export const CLientCommentsPage = ({
   ) => {
     const { data: updatedData, error } = await supabase
       .from("comments")
-      .update({ comment: newComment, edited: true })
+      .update({ message: newComment, edited: true })
       .match({ id })
       .select();
 
@@ -45,15 +45,15 @@ export const CLientCommentsPage = ({
     } else if (updatedData) {
       setData(
         data.map((post: any) =>
-          post.id === id ? { ...post, comment: newComment, edited } : post
+          post.id === id ? { ...post, comment: newComment, edited: true } : post
         )
       );
-      setEditable(null);
+      setEditingId(null);
     }
   };
 
-  const handleEdit = (id: any) => {
-    setEditable(id);
+  const handleEdit = (id: string | number) => {
+    setEditingId(id);
   };
 
   return (

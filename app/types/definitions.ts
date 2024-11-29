@@ -95,6 +95,7 @@ export type ReviewsClientProps = {
   data: any | Promise<any>;
   onDelete?: (id: string | number) => void;
   onEdit?: (id: string | number) => void;
+  editable?: boolean;
   onSave?: (id: string | number, comment: string, edited: boolean) => void;
 };
 
