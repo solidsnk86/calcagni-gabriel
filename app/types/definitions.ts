@@ -80,11 +80,11 @@ export type ReviewsMarqueeProps = {
   comment: string;
   content?: string;
   trash?: boolean;
-  edit?: boolean | false;
   edited?: boolean;
+  editable?: boolean;
   onDelete?: (id: string | number) => void;
   onEdit?: (id: string | number) => void;
-  onSave?: (id: string | number, message: string, edited: boolean) => void;
+  onSave?: (id: string | number, comment: string, edited: boolean) => void;
 };
 
 /**
@@ -95,6 +95,7 @@ export type ReviewsClientProps = {
   data: any | Promise<any>;
   onDelete?: (id: string | number) => void;
   onEdit?: (id: string | number) => void;
+  onSave?: (id: string | number, comment: string, edited: boolean) => void;
 };
 
 /**

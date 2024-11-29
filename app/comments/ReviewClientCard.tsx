@@ -9,6 +9,7 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
   data,
   onDelete,
   onEdit,
+  onSave,
 }) => {
   return (
     <div className="flex flex-col justify-center">
@@ -27,9 +28,10 @@ export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
             createdAt={Format.date(comment.created_at)}
             comment={comment.message}
             trash
-            edit
+            edited={comment.edited === true}
             onEdit={() => onEdit && onEdit(comment.id)}
             onDelete={() => onDelete && onDelete(comment.id)}
+            onSave={onSave}
           />
         ))}
     </div>

@@ -19,7 +19,7 @@ export const DeleteButton: React.FC<DeleteButtonProps> = ({ id, onDelete }) => {
       onClick={() => handleDelete(id)}
       title="Eliminar"
     >
-      <Trash className="w-[18px] h-[18px] text-zinc-600 dark:text-zinc-400" />
+      <Trash className="w-[16px] h-[16px] text-zinc-600 dark:text-zinc-400" />
     </span>
   );
 };

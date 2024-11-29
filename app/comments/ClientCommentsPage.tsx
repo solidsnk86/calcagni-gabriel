@@ -13,7 +13,7 @@ export const CLientCommentsPage = ({
   initialData: any;
 }) => {
   const [data, setData] = useState<any>(initialData);
-  const [editable, setEditable] = useState();
+  const [editable, setEditable] = useState<string | number | null>(null);
 
   const handleRefresh = async () => {
     const { data: refreshedData, error } = await supabase
@@ -27,6 +27,29 @@ export const CLientCommentsPage = ({
     }
 
     setData(refreshedData);
+  };
+
+  const handleSave = async (
+    id: string | number,
+    newComment: string,
+    edited: boolean
+  ) => {
+    const { data: updatedData, error } = await supabase
+      .from("comments")
+      .update({ comment: newComment, edited: true })
+      .match({ id })
+      .select();
+
+    if (error) {
+      console.error("No se pudo guardar el comentario", error.message);
+    } else if (updatedData) {
+      setData(
+        data.map((post: any) =>
+          post.id === id ? { ...post, comment: newComment, edited } : post
+        )
+      );
+      setEditable(null);
+    }
   };
 
   const handleEdit = (id: any) => {
@@ -50,6 +73,7 @@ export const CLientCommentsPage = ({
         data={data}
         onDelete={handleRefresh}
         onEdit={handleEdit}
+        onSave={handleSave}
       />
     </>
   );

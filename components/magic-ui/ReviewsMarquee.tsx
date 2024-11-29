@@ -17,7 +17,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   createdAt,
   comment,
   trash,
-  edit,
+  editable,
   edited,
   onDelete,
   onEdit,
@@ -53,26 +53,27 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
         </small>
       </header>
       <div className="space-y-2 p-3 pointer-events-none">
-        <small className="text-zinc-400 text-xs absolute right-[26px] top-1">
+        <small className="text-zinc-400 text-xs absolute right-[26px] top-[36px]">
           {edited === true ? "(editado)" : null}
         </small>
         <p
-          contentEditable={edit}
-          suppressContentEditableWarning
-          id="message"
+          contentEditable={editable}
+          suppressContentEditableWarning={true}
+          id="comment"
           className="text-balance text-zinc-400"
         >
           {comment}
         </p>
-        {edit && (
+        {editable && (
           <button
             onClick={() => {
-              const comment = document.getElementById(`comment-${id}`);
-              const editedComment = comment?.textContent;
+              const commentId = document.getElementById(`comment-${id}`);
               const edited = true;
+              const editedComment =
+                commentId?.querySelector("#comment")?.textContent;
               onSave && onSave(id, editedComment as string, edited);
             }}
-            className="px-2 py-1 bg-btn-background hover:bg-btn-background-hover rounded-lg border border-foreground/10 w-fit cursor-pointer"
+            className="px-2 py-1 bg-btn-background hover:bg-btn-background-hover rounded-md border border-foreground/5 w-fit cursor-pointer"
           >
             Guardar
           </button>
@@ -105,6 +106,7 @@ export const ReviewsMarquee = ({ data }: { data: any | Promise<void> }) => {
               flag={review.flag}
               createdAt={Format.date(review.created_at)}
               comment={review.message}
+              edited={review.edited === true}
             />
           ))}
         </Marquee>
