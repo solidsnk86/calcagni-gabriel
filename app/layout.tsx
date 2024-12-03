@@ -43,6 +43,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={GeistSans.className}>
       <meta name="theme-color" content="#A78BFA" />
+      <meta property="og:image" content="/og-image.png" />
       <body className="bg-background text-foreground">
         <main className="min-h-screen flex flex-col items-center">
           {children}
