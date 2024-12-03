@@ -49,6 +49,8 @@ export default function Header() {
             `Cannot insert data ip into db: ${insertError.message}`
           );
         }
+      } else {
+        console.log("Same ip on the site!");
       }
 
       setVisits(lastVisit.id);
