@@ -7,7 +7,7 @@ export default async function getGithubUser(user: string, type: string) {
       const response = await fetch(`${url}?per_page=100?page=${page}`);
 
       if (!response.ok) {
-        throw new Error(`Error fetchind data: ${response.statusText}`);
+        throw new Error(`Error fetching data: ${response.statusText}`);
       }
       const data = await response.json();
       if (data.length === 0) break;
