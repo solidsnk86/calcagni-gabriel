@@ -1,32 +1,32 @@
-import { createClient } from "@supabase/supabase-js";
+export default async function getGithubUser(user: string, type: string) {
+  const url = `https://api.github.com/users/${user}/${type}`;
+  let allData: Array<any> = [];
+  let page = 1;
+  while (true) {
+    try {
+      const response = await fetch(`${url}?per_page=100?page=${page}`);
 
-const URL = process.env.NEXT_PUBLIC_SUPABASE_URL_SOLIDSNK!;
-const ANNON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY_SOLIDSNK!;
+      if (!response.ok) {
+        throw new Error(`Error fetchind data: ${response.statusText}`);
+      }
+      const data = await response.json();
+      if (data.length === 0) break;
 
-const supabase = createClient(URL, ANNON_KEY);
+      allData.push(...data);
+      const linkHeader = response.headers.get("link");
+      if (linkHeader) {
+        const links = linkHeader.split(",").map((link) => link.trim());
+        const nextLink = links.find((link) => link.includes('rel="next"'));
+        if (!nextLink) break;
+      } else {
+        break;
+      }
 
-export default async function getGithubUser() {
-  try {
-    const { data: githubFollowers, error } = await supabase
-      .from("github_followers_user")
-      .select("login, avatar_url, url");
-    const { data: githubFollowings, error: newError } = await supabase
-      .from("github_followings_user")
-      .select("login, avatar_url, url");
-
-    if (error || newError) {
-      throw new Error(
-        `Cannot get data from supabase: , ${
-          error?.message || newError?.message
-        }`
-      );
+      page++;
+    } catch (err) {
+      throw new Error(`Server error: ${err}`);
     }
-
-    return {
-      dataFollowers: githubFollowers,
-      dataFollowings: githubFollowings,
-    };
-  } catch (err) {
-    throw new Error(`Server error: ${err}`);
   }
+
+  return allData;
 }

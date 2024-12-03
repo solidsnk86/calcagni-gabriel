@@ -14,7 +14,10 @@ function hasDuplicates(array: any[]): boolean {
 
 export async function GET(req: NextRequest) {
   try {
-    const { dataFollowers, dataFollowings } = await getGithubUser();
+    const [dataFollowers, dataFollowings] = await Promise.all([
+      getGithubUser("solidsnk86", "followers"),
+      getGithubUser("solidsnk86", "following"),
+    ]);
     const loginFollowers = new Set(dataFollowers.map((data) => data.login));
     const loginFollowings = new Set(dataFollowings.map((data) => data.login));
 
