@@ -18,7 +18,7 @@ import {
 
 export const DEFAULT_PATH =
   process.env.NODE_ENV === "production"
-    ? "https://personal-portfolio-mgc.vercel.app/auth/callback"
+    ? "https://calcagni-gabriel.app/auth/callback"
     : `http://${"localhost:3000" || "localhost:3001"}/auth/callback`;
 
 export const api = {
