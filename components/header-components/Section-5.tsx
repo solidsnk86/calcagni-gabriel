@@ -41,7 +41,7 @@ export const Section_5 = ({ className }: { className: string }) => {
   const publicRepos = githubStats.data?.user?.public_repos || 0;
   const followers = githubStats.data?.user?.followers || 0;
   const following = githubStats.data?.user?.following || 0;
-  const timeStampsPortfolio = githubStats.data?.repos?.[18];
+  const timeStampsPortfolio = githubStats.data?.repos?.[2];
   const createdAt = timeStampsPortfolio
     ? Format.date(timeStampsPortfolio.created_at)
     : "N/A";
