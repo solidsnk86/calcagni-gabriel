@@ -1,10 +1,21 @@
 export default async function getGithubUser(user: string, type: string) {
+  const GITHUB_TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
+  const headers: HeadersInit = GITHUB_TOKEN
+    ? {
+        Authorization: `token ${GITHUB_TOKEN}`,
+        Accept: "application/vnd.github.v3+json",
+      }
+    : {
+        Accept: "application/vnd.github.v3+json",
+      };
   const url = `https://api.github.com/users/${user}/${type}`;
   let allData: Array<any> = [];
   let page = 1;
   while (true) {
     try {
-      const response = await fetch(`${url}?per_page=100?page=${page}`);
+      const response = await fetch(`${url}?per_page=100&page=${page}`, {
+        headers,
+      });
 
       if (!response.ok) {
         throw new Error(`Error fetching data: ${response.statusText}`);
