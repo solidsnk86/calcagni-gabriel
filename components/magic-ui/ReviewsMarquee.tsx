@@ -8,6 +8,7 @@ import { ReviewsMarqueeProps } from "@/app/types/definitions";
 import { DeleteButton } from "../DeleteBtn";
 import Image from "next/image";
 import { EditButton } from "../EditBtn";
+import useMatchMedia from "@/app/hooks/useMatchMedia";
 
 export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   id,
@@ -27,6 +28,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
 }) => {
   const [isEditable, setIsEditable] = useState(false);
   const [editedComment, setEditedComment] = useState(comment);
+  const mobile = useMatchMedia("(max-width: 700px)", false);
 
   useEffect(() => {
     setIsEditable(initialEditable || false);
@@ -42,7 +44,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   return (
     <div
       id={`comment-${id}`}
-      className="flex flex-col max-w-xs md:max-w-xl card-comment mx-auto space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative my-4 text-pretty"
+      className={`flex flex-col max-w-xs md:max-w-xl card-comment mx-auto space-y-2 bg-zinc-800/50 border border-zinc-800 rounded-2xl relative my-4 text-pretty`}
     >
       <header className="flex gap-[10px] items-center border-b border-foreground/10 dark:border-zinc-800 p-3">
         <Image
