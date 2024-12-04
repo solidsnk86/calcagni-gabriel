@@ -21,7 +21,7 @@ export const metadata = {
     description: description,
     images: [
       {
-        url: `/og-image.png`,
+        url: `https://raw.githubusercontent.com/solidsnk86/calcagni-gabriel/refs/heads/master/public/og-image.png`,
         width: 1200,
         height: 630,
         alt: "Gabriel Calcagni",
@@ -43,7 +43,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={GeistSans.className}>
       <meta name="theme-color" content="#A78BFA" />
-      <meta property="og:image" content="/og-image.png" />
+      <meta property="og:image" content="https://raw.githubusercontent.com/solidsnk86/calcagni-gabriel/refs/heads/master/public/og-image.png" />
       <body className="bg-background text-foreground">
         <main className="min-h-screen flex flex-col items-center">
           {children}
