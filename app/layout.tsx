@@ -21,7 +21,7 @@ export const metadata = {
     description: description,
     images: [
       {
-        url: `${defaultUrl}/og-image.png`,
+        url: `/og-image.png`,
         width: 1200,
         height: 630,
         alt: "Gabriel Calcagni",
