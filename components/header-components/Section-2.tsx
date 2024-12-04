@@ -13,7 +13,7 @@ export const Section_2 = ({
   const getExperienceYears = (currentDate: Date = new Date()): number => {
     const startDate = new Date(2023, 3, 26);
     const diffTime = currentDate.getTime() - startDate.getTime();
-    const diffYears = diffTime / (1000 * 60 * 60 * 24 * 365.25); // milisegundos, segundos, minutos, horas, días del año
+    const diffYears = diffTime / (1000 * 60 * 60 * 24 * 365.25);
 
     return Math.max(0, Number(diffYears.toFixed(1)));
   };
