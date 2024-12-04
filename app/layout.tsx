@@ -33,6 +33,17 @@ export const metadata = {
     site: "@gabriel_calcagni",
     cardType: "summary_large_image",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -43,7 +54,6 @@ export default function RootLayout({
   return (
     <html lang="es" className={GeistSans.className}>
       <meta name="theme-color" content="#A78BFA" />
-      <meta property="og:image" content="https://raw.githubusercontent.com/solidsnk86/calcagni-gabriel/refs/heads/master/public/og-image.png" />
       <body className="bg-background text-foreground">
         <main className="min-h-screen flex flex-col items-center">
           {children}
