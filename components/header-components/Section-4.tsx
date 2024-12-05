@@ -52,8 +52,8 @@ export const Section_4 = ({ className }: { className?: string }) => {
           <p className="text-zinc-400 text-sm">Desarrollador Front End</p>
         </aside>
         <Link
-          href="/MGC-Currículum-11-2024.pdf"
-          download="/MGC-Currículum-11-2024.pdf"
+          href="/MGC-Currículum.pdf"
+          download="/MGC-Currículum.pdf"
           title="Descargar CV"
           target="_blank"
           className="absolute group right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
