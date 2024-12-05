@@ -34,7 +34,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
           width={100}
           height={100}
           alt="Avatar Gabriel 🎃"
-          className="rounded-lg bg-violet-400/60 aspect-square"
+          className="rounded-lg aspect-square"
         />
         <aside className="flex-col ml-1">
           {mobile ? (
