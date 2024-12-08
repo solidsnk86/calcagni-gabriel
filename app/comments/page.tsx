@@ -47,7 +47,7 @@ export default async function Comments() {
                 alt="Logo"
                 width={45}
                 height={45}
-                className="mb-2 hover:scale-110"
+                className="mb-2 hover:scale-110 transition-transform duration-300"
               />
             </Link>
             <AuthButton />
