@@ -437,19 +437,19 @@ body {
   transform: translate(-10px);
 }
 
+.card-comment {
+  width: 100%;
+  max-width: 600px;
+}
+
 @media (max-width: 700px) {
   .card-comment {
-    width: 100%;
+    width: calc(100% - 20px);
+    max-width: 100%;
   }
 }
 
-@media (min-width: 420px) {
-  .card-comment {
-    max-width: 382px;
-  }
-}
-
-@media (min-width: 700px) {
+@media (max-width: 420px) {
   .card-comment {
     width: 100%;
   }
