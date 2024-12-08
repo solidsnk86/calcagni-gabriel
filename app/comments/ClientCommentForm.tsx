@@ -7,14 +7,17 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import React, { useState } from "react";
 import { GetLocation } from "@/components/GetLocation";
 import { ClientFormProps } from "@/app/types/definitions";
-import { DataModel } from "../lib/actions";
 
 const formSchema = z.object({
   comment: z
     .string()
     .min(10, { message: "El comentario debe tener al menos 10 caracteres" })
     .max(260, {
-      message: "El comentario no dbe exceder un máximo de 260 caracteres",
+      message: "El comentario no debe exceder un máximo de 260 caracteres",
+    })
+    .refine((val) => !val.includes("<script>"), {
+      message:
+        "No se permiten scripts, HTML o cualquier otra cosa que pueda ser maliciosa",
     }),
 });
 
@@ -75,7 +78,7 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
       <textarea
         id="textarea"
         className="bg-zinc-900/50 rounded-t-md p-2 w-full border-x border-t border-foreground/5 mt-4 resize-none outline-none overflow-y-hidden"
-        placeholder="Tu comentario aquí...✍"
+        placeholder="Tu comentario aquí..."
         {...register("comment")}
         maxLength={MAX_CHAR}
         onInput={handleInput}
