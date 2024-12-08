@@ -449,7 +449,7 @@ body {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .card-comment {
     width: 100%;
   }
