@@ -38,7 +38,6 @@ export default function Login() {
             </Link>
           </div>
 
-          {/* Card principal */}
           <div className="w-full max-w-md bg-zinc-900/50 backdrop-blur-sm rounded-lg shadow-lg border border-foreground/5 p-8">
             <div className="text-center mb-8 border border-foreground/5 rounded-xl bg-zinc-800/40 p-4">
               <h2 className="text-xl font-semibold mb-4">
@@ -55,7 +54,6 @@ export default function Login() {
               <LoginForm />
             </div>
 
-            {/* Footer con información adicional */}
             <div className="mt-8 text-center text-sm text-muted-foreground">
               <p>
                 ¿No tienes una cuenta de GitHub?
