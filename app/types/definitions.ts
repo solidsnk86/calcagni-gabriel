@@ -41,26 +41,26 @@ export interface FancyButtonProps extends FancyButton {
  */
 
 export type Section_3Props = {
-  id?: string | number;
+  id: string | number;
   data: any | Promise<void>;
-  className?: string;
+  className: string;
 };
 
 export type Setcion_4Props = {
-  city?: string | Promise<void>;
-  country?: string | Promise<void>;
-  province?: string;
-  flag?: string | Promise<void>;
-  className?: string;
-  userId?: string | number | any;
+  city: string | Promise<void>;
+  country: string | Promise<void>;
+  province: string;
+  flag: string | Promise<void>;
+  className: string;
+  userId: string | number | any;
 };
 
 export type Section_5Props = {
-  city?: string | Promise<void>;
-  province?: string | Promise<void>;
-  country?: string | Promise<void>;
-  className?: string;
-  createdAt?: string | number | Date;
+  city: string | Promise<void>;
+  province: string | Promise<void>;
+  country: string | Promise<void>;
+  className: string;
+  createdAt: string | number | Date;
 };
 
 /**
@@ -127,3 +127,7 @@ export type EditButtonProps = {
   className?: string;
   onEdit: () => void;
 };
+
+export type Section_3PropsOptional = Partial<Section_3Props>;
+export type Setcion_4PropsOptional = Partial<Setcion_4Props>;
+export type Section_5PropsOptional = Partial<Section_5Props>;
