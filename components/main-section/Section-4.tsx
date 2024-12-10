@@ -2,7 +2,7 @@
 
 import { ArrowLeft, ArrowRight, CameraIcon, ImageIcon } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Setcion_4Props } from "@/app/types/definitions";
+import { Setcion_4PropsOptional } from "@/app/types/definitions";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, EffectCards, Keyboard } from "swiper/modules";
 import "swiper/css";
@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import Image from "next/image";
 import { supabase } from "@/utils/supabase/client";
 
-export const Section_4 = ({ className }: Setcion_4Props) => {
+export const Section_4 = ({ className }: Setcion_4PropsOptional) => {
   const [value, setValue] = useState<number>(0);
   const [media, setMedia] = useState<Array<any>>([]);
   const [error, setError] = useState<Error | null>(null);
