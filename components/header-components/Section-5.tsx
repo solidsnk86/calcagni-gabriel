@@ -187,7 +187,7 @@ export const Section_5 = ({
       </div>
 
       <aside className="w-[100%] grid grid-cols-2 gap-4 text-center px-6 py-4">
-        {itemsStats.map((item, index) => {
+        {itemsStats.map((item) => {
           return (
             <div
               key={item.title}
@@ -209,7 +209,7 @@ export const Section_5 = ({
             </span>
           </p>
         </header>
-        <div className="flex -space-x-4 justify-center mx-auto items-center text-pretty overflow-hidden py-1 overflow-x-auto">
+        <div className="flex -space-x-4 justify-center mx-auto items-center text-pretty overflow-hidden p-2 overflow-x-auto">
           {nonFollowingUsers.length === 0 ? (
             <small className="font-bold text-center mx-auto">
               No hay usuarios
