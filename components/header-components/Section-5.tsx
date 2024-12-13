@@ -102,8 +102,6 @@ export const Section_5 = ({
 
         <div className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-1/2 p-4">Cargando...</div>
-
-          <div className="w-full lg:w-1/2 p-4">Cargando...</div>
         </div>
       </section>
     );
