@@ -120,7 +120,7 @@ export const Section_5 = ({
     },
     {
       title: `Uso de ${mostUsedLanguage}`,
-      stat: `% ${percentage}`,
+      stat: `%${percentage}`,
     },
     {
       title: "Repositorios Públicos",
@@ -162,6 +162,9 @@ export const Section_5 = ({
           Estadísticas de Github
         </p>
         <h3 className="text-white text-lg font-bold">Datos</h3>
+        <p className="text-gray-400 bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 mt-4">
+          Usuario <span className="text-violet-400">{user}</span>
+        </p>
       </header>
 
       <div className="flex flex-col lg:flex-row">
