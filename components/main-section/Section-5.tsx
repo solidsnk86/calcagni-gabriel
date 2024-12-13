@@ -1,7 +1,7 @@
 import React from "react";
 import { Section_5Props } from "@/app/types/definitions";
 import { MapPin } from "lucide-react";
-import { Format } from "../Format";
+import { Format } from "../DateFormat";
 
 export const Section_5: React.FC<Section_5Props> = ({
   city,

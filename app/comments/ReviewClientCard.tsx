@@ -3,7 +3,7 @@
 import { ReviewCard } from "@/components/magic-ui/ReviewsMarquee";
 import { ReviewsClientProps } from "../types/definitions";
 import React from "react";
-import { Format } from "@/components/Format";
+import { Format } from "@/components/DateFormat";
 
 export const ReviewClientCard: React.FC<ReviewsClientProps> = ({
   data,

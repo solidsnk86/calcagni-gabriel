@@ -3,10 +3,8 @@
 import React from "react";
 import { Chart } from "react-google-charts";
 import { TitleComponent } from "@/components/ComponentTitles";
-import { Format } from "@/components/Format";
+import { Format } from "@/components/DateFormat";
 import useMatchMedia from "../hooks/useMatchMedia";
-import { Section } from "lucide-react";
-import { Section_5 } from "@/components/header-components/Section-5";
 
 export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   const visitsByCountry: Record<string, number> = {};

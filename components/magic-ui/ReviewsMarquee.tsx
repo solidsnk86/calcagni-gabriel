@@ -1,7 +1,7 @@
 "use client";
 
 import { Marquee } from "@/components/magic-ui/Marquee";
-import { Format } from "../Format";
+import { Format } from "../DateFormat";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { ReviewsMarqueeProps } from "@/app/types/definitions";

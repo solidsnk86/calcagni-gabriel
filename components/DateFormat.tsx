@@ -10,6 +10,11 @@ export class Format {
     return dateAndTime;
   }
 
+  static defaultDate(snd: string | number | Date) {
+    const date = new Date(snd).toLocaleDateString();
+    return date;
+  }
+
   static date(snd: string | number | Date) {
     const date = new Date(snd).toLocaleDateString("es-ES", {
       year: "numeric",

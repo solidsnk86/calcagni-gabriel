@@ -58,7 +58,7 @@ export const CLientCommentsPage = ({
   };
 
   return (
-    <>
+    <div className="">
       <ClientCommentForm
         userName={user.user_metadata.user_name}
         fullName={user.user_metadata.full_name}
@@ -76,7 +76,7 @@ export const CLientCommentsPage = ({
         onEdit={handleEdit}
         onSave={handleSave}
       />
-      <Section_5 className="mt-10" />
-    </>
+      <Section_5 className="mt-10" user={user.user_metadata.user_name} />
+    </div>
   );
 };

@@ -56,7 +56,7 @@ export default async function Comments() {
         </nav>
       </div>
 
-      <section className="flex flex-col gap-6 xl:max-w-lg max-w-sm">
+      <section className="flex flex-col gap-6 xl:max-w-xl max-w-sm">
         {user.user_metadata.user_name !== "solidsnk86" ? (
           <div className="p-6 italic bg-violet-400/20 text-white text-balance rounded-xl relative">
             <svg
@@ -79,7 +79,8 @@ export default async function Comments() {
             Hola 👋 {user.user_metadata.full_name}! Agradezco mucho tu
             retroalimentación sobre mis proyectos. Te invito a compartir tus
             comentarios de manera respetuosa y profesional para ayudarme a
-            mejorar. ¡Gracias por tu tiempo!
+            mejorar. Puedes ver las estadísticas de GitHub en la sección de
+            análisis. Gracias por tu tiempo!
             <p className="text-right mt-4">Gabriel Calcagni ツ</p>
           </div>
         ) : null}
