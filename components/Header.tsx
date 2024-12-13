@@ -87,7 +87,6 @@ export default function Header() {
               <Section_3 />
             </Masonry>
           )}
-          <Section_5 className="mt-3" />
         </ResponsiveMasonry>
       )}
     </>

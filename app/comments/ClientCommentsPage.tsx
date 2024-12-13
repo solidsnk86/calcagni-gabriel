@@ -4,6 +4,7 @@ import { supabase } from "@/utils/supabase/client";
 import { ClientCommentForm } from "./ClientCommentForm";
 import { useState } from "react";
 import { ReviewClientCard } from "./ReviewClientCard";
+import { Section_5 } from "@/components/header-components/Section-5";
 
 export const CLientCommentsPage = ({
   user,
@@ -75,6 +76,7 @@ export const CLientCommentsPage = ({
         onEdit={handleEdit}
         onSave={handleSave}
       />
+      <Section_5 className="mt-10" />
     </>
   );
 };

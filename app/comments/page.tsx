@@ -8,6 +8,7 @@ import ProfileClientAnalytics from "./ProfileClientAnalytics";
 import ImageUpload from "./ImageUploader";
 import { TitleComponent } from "@/components/ComponentTitles";
 import Image from "next/image";
+import { Section_5 } from "@/components/header-components/Section-5";
 
 export default async function Comments() {
   const supabase = createClient();
