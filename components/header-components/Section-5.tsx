@@ -62,7 +62,7 @@ export const Section_5 = ({
     .reverse();
 
   const languageData = [
-    ["Periodo", "Uso de JavaScript"],
+    ["Periodo", `Uso de ${mostUsedLanguage}`],
     ["Anterior", percentage * 0.1],
     ["Actual", percentage],
     ["Proyección", percentage * 1.1],
