@@ -16,14 +16,6 @@ export const Section_4 = ({ className }: { className?: string }) => {
     }
   }
 
-  function soundClick2() {
-    const audio = new Audio("/effects-sounds/button-click.mp3");
-    audio.volume = 0.2;
-    if (audio) {
-      return audio.play();
-    }
-  }
-
   return (
     <section
       className={`border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl relative ${className}`}
@@ -86,10 +78,6 @@ export const Section_4 = ({ className }: { className?: string }) => {
           }`}
           duration={2.5}
           radius={10}
-          onMouseEnter={(e) => {
-            e.preventDefault();
-            soundClick2();
-          }}
         >
           <svg
             role="img"
@@ -110,10 +98,6 @@ export const Section_4 = ({ className }: { className?: string }) => {
             mobile ? "text-xs" : "text-base"
           }`}
           duration={2.5}
-          onMouseEnter={(e) => {
-            e.preventDefault();
-            soundClick2();
-          }}
         >
           <svg
             role="img"
