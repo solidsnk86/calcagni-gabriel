@@ -28,7 +28,6 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
 }) => {
   const [isEditable, setIsEditable] = useState(false);
   const [editedComment, setEditedComment] = useState(comment);
-  const mobile = useMatchMedia("(max-width: 700px)", false);
 
   useEffect(() => {
     setIsEditable(initialEditable || false);
