@@ -8,9 +8,8 @@ import { ReviewsMarqueeProps } from "@/app/types/definitions";
 import { DeleteButton } from "../DeleteBtn";
 import Image from "next/image";
 import { EditButton } from "../EditBtn";
-import useMatchMedia from "@/app/hooks/useMatchMedia";
 
-export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
+export const ReviewCard = ({
   id,
   avatarUrl,
   fullName,
@@ -25,7 +24,7 @@ export const ReviewCard: React.FC<ReviewsMarqueeProps> = ({
   onDelete,
   onEdit,
   onSave,
-}) => {
+}: ReviewsMarqueeProps) => {
   const [isEditable, setIsEditable] = useState(false);
   const [editedComment, setEditedComment] = useState(comment);
 

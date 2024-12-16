@@ -10,7 +10,6 @@ import { Section_1 } from "@/components/header-components/Section-1";
 import { supabase } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
 import { GetLocation } from "@/components/GetLocation";
-import { Section_5 } from "./header-components/Section-5";
 
 export default function Header() {
   const isClient = useIsClient();
@@ -49,8 +48,6 @@ export default function Header() {
             `Cannot insert data ip into db: ${insertError.message}`
           );
         }
-      } else {
-        console.log("Same ip on the site!");
       }
 
       setVisits(lastVisit.id);
