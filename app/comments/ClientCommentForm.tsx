@@ -82,15 +82,6 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
         {...register("comment")}
         maxLength={MAX_CHAR}
         onInput={handleInput}
-        onChange={() => {
-          const textarea = document.getElementById("textarea");
-          if (textarea) {
-            textarea.addEventListener("input", () => {
-              textarea.style.height = "auto";
-              textarea.style.height = textarea.scrollHeight + "px";
-            });
-          }
-        }}
       ></textarea>
       <aside className="text-xs flex justify-between items-center border-x border-b border-foreground/5 bg-zinc-900/50 p-2  rounded-b-md">
         <span

@@ -28,16 +28,16 @@ body {
   font-display: swap;
 }
 
-/*
-* LOGO
-*/
+#textarea {
+  field-sizing: content;
+}
 
 /*
 * LOGO
 */
 
 .logo {
-  position: relative; /* Asegura que los pseudo-elementos se posicionen correctamente */
+  position: relative;
   width: 33px;
   height: 33px;
   border-radius: 10px;
