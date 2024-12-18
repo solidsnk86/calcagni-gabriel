@@ -58,25 +58,27 @@ export const CLientCommentsPage = ({
   };
 
   return (
-    <div className="">
-      <ClientCommentForm
-        userName={user.user_metadata.user_name}
-        fullName={user.user_metadata.full_name}
-        avatar={user.user_metadata.avatar_url}
-        onRefresh={handleRefresh}
-      />
-      {data && data.length > 0 ? (
-        <h1 className="text-center text-xl font-semibold my-4">
-          {data.length === 1 ? "Último comentario" : "Últimos comentarios"}
-        </h1>
-      ) : null}
-      <ReviewClientCard
-        data={data}
-        onDelete={handleRefresh}
-        onEdit={handleEdit}
-        onSave={handleSave}
-      />
+    <>
+      <div className="w-full">
+        <ClientCommentForm
+          userName={user.user_metadata.user_name}
+          fullName={user.user_metadata.full_name}
+          avatar={user.user_metadata.avatar_url}
+          onRefresh={handleRefresh}
+        />
+        {data && data.length > 0 ? (
+          <h1 className="text-center text-xl font-semibold my-4">
+            {data.length === 1 ? "Último comentario" : "Últimos comentarios"}
+          </h1>
+        ) : null}
+        <ReviewClientCard
+          data={data}
+          onDelete={handleRefresh}
+          onEdit={handleEdit}
+          onSave={handleSave}
+        />
+      </div>
       <Section_5 className="mt-10" user={user.user_metadata.user_name} />
-    </div>
+    </>
   );
 };

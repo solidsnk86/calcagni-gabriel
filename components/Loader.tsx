@@ -1,12 +1,10 @@
-export const Loader = ({
-  className,
-  width,
-  height,
-}: {
+interface LoaderProps {
   className?: string;
-  width?: string;
-  height?: string;
-}) => {
+  width: number | `${number}px`;
+  height: number;
+}
+
+export const Loader = ({ className, width, height }: LoaderProps) => {
   return (
     <div className="flex w-[100%] h-[100%] p-[1.5px]">
       <span

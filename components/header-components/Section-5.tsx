@@ -6,6 +6,38 @@ import Image from "next/image";
 import { languageChartOptions } from "../constants";
 import Link from "next/link";
 
+type LanguagesProps = {
+  name: string;
+  count: number;
+  percentage: number | string;
+};
+type FollowProps = { login: string; id: number; avatar_url: string };
+type ReposProps = {
+  id: number;
+  name: string;
+  full_name: string;
+  private: boolean;
+  owner: {
+    login: string;
+    id: number;
+  };
+  stargazers_count: number;
+  updated_at: string | Date;
+};
+
+interface UserProps {
+  data: {
+    followers: [FollowProps];
+    following: [FollowProps];
+    repos: Array<ReposProps>;
+    non_following: { users: [string]; avatar: [string] };
+    nonfollowing_count: number;
+    used_languages: Array<LanguagesProps>;
+    most_used_language: LanguagesProps;
+    second_most_used: LanguagesProps;
+  };
+}
+
 export const Section_5 = ({
   className,
   user,
@@ -13,16 +45,14 @@ export const Section_5 = ({
   className: string;
   user: string;
 }) => {
-  const [githubStats, setGithubStats] = useState<any>([]);
+  const [githubStats, setGithubStats] = useState<UserProps>();
   const [isLoading, setIsLoading] = useState(true);
-  const [nonFollowings, setNonFollowings] = useState<any>([]);
 
   const getData = async () => {
     try {
-      const response = await fetch(
-        `https://neotecs.vercel.app/api/github-stats?username=${user}`
-      );
+      const response = await fetch(`/api/non-followers?user=${user}`);
       const stats = await response.json();
+
       setGithubStats(stats || []);
       setIsLoading(false);
     } catch (error) {
@@ -31,34 +61,30 @@ export const Section_5 = ({
     }
   };
 
-  const getNonFollowings = async () => {
-    const response = await fetch(`/api/non-followers?user=${user}`);
-    const data = await response.json();
-    setNonFollowings(data || []);
-  };
-
   useEffect(() => {
     getData();
-    getNonFollowings();
   }, []);
 
-  const mostUsedLanguage = githubStats.most_used?.name || "No disponible";
+  const mostUsedLanguage =
+    githubStats?.data.most_used_language.name || "No disponible";
   const secondMostUsedLanguage =
-    githubStats.second_most_used?.name || "No disponible";
-  const percentage = parseFloat(githubStats.most_used?.percentage || 0);
-  const publicRepos = githubStats.data?.user?.public_repos || 0;
-  const followers = githubStats.data?.user?.followers || 0;
-  const following = githubStats.data?.user?.following || 0;
-  const repos = githubStats.data?.repos || [];
-  const stars = repos.map((repo: any) => repo.stars);
+    githubStats?.data.second_most_used?.name || "No disponible";
+
+  const percentage =
+    Number(githubStats?.data.most_used_language.percentage) || 0;
+
+  const publicRepos = githubStats?.data.repos.length;
+
+  const repos = githubStats?.data.repos || [];
+  const stars = repos.map((repo) => repo.stargazers_count);
   const maxRepoStar = Math.max(...stars);
   const repoWithMoreStars = repos.find(
-    (repo: { stars: number }) => repo.stars === maxRepoStar
+    (repo) => repo.stargazers_count === maxRepoStar
   );
-  const nonFollowingUsers = nonFollowings?.data?.non_following.users || [];
-  const nonFollowingAvatars = nonFollowings?.data?.non_following.avatar || [];
+  const nonFollowingUsers = githubStats?.data.non_following.users || [];
+  const nonFollowingAvatars = githubStats?.data?.non_following.avatar || [];
   const lastCommitRepos = repos
-    .map((repo: { updated_at: string }) => repo.updated_at)
+    .map((repo) => repo.updated_at)
     .sort()
     .reverse();
 
@@ -72,8 +98,8 @@ export const Section_5 = ({
   const socialData = [
     ["Métrica", "Cantidad", { role: "style" }],
     ["Repositorios", publicRepos, "#8B5CF6"],
-    ["Seguidores", followers, "#6D28D9"],
-    ["Siguiendo", following, "#4C1D95"],
+    ["Seguidores", 218, "#6D28D9"],
+    ["Siguiendo", 216, "#4C1D95"],
   ];
 
   const socialChartOptions = {
@@ -102,7 +128,9 @@ export const Section_5 = ({
         </header>
 
         <div className="flex flex-col lg:flex-row">
-          <div className="w-full lg:w-1/2 p-4">Cargando...</div>
+          <div className="w-full lg:w-1/2 p-4 text-center justify-center">
+            Cargando...
+          </div>
         </div>
       </section>
     );
@@ -141,14 +169,18 @@ export const Section_5 = ({
 
   function clickSound() {
     const audio = new Audio("/effects-sounds/computer-click.mp3");
-    audio.volume = 0.2;
+    audio.volume = 0.1;
     if (audio) {
       return audio.play();
     }
   }
 
   if (!nonFollowingUsers) {
-    return <small className="text-center font-semibold">Cargando...</small>;
+    return (
+      <small className="text-center flex justify-center font-semibold">
+        Cargando...
+      </small>
+    );
   }
 
   return (
@@ -165,7 +197,6 @@ export const Section_5 = ({
           Usuario <span className="text-violet-400">{user}</span>
         </p>
       </header>
-
       <div className="flex flex-col lg:flex-row">
         <div className="w-full p-2">
           <Chart
@@ -176,7 +207,6 @@ export const Section_5 = ({
             options={languageChartOptions}
           />
         </div>
-
         <div className="w-full p-2">
           <Chart
             chartType="ColumnChart"
@@ -217,7 +247,7 @@ export const Section_5 = ({
               No hay usuarios
             </small>
           ) : (
-            nonFollowingUsers.map((user: string, i: number) => (
+            nonFollowingUsers.map((user, i: number) => (
               <Link
                 key={user}
                 href={`https://github.com/${user}/`}
@@ -228,6 +258,7 @@ export const Section_5 = ({
                   e.preventDefault();
                   clickSound();
                 }}
+                onMouseLeave={(event) => event.stopPropagation()}
               >
                 <Image
                   src={nonFollowingAvatars[i]}

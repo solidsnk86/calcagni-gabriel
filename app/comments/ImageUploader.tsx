@@ -63,7 +63,7 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
         setError(error);
         setLoading(false);
       } else {
-        getMedia();
+        await getMedia();
         setLoading(false);
       }
     } catch (err) {
@@ -92,33 +92,41 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
         />
         {loading && (
           <Loader
-            width="45"
-            height="45"
+            width={45}
+            height={45}
             className="flex justify-center mx-auto my-4"
           />
         )}
       </div>
 
       <div className="xl:max-w-2xl xl:w-[672px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {media.map((item) => (
-          <div key={item.id} className="relative group">
-            <div className="aspect-square relative overflow-hidden rounded-lg">
-              <Image
-                src={`https://yyqjcfzddjozcwahhugs.supabase.co/storage/v1/object/public/upload/${userId}/${item.name}`}
-                alt={item.name}
-                fill
-                className="object-cover"
-              />
-              <button
-                onClick={() => deleteMedia(item.name)}
-                className="absolute top-2 right-2 p-2 bg-red-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-red-600"
-                title="Eliminar imagen"
-              >
-                <Trash2 className="w-5 h-5 text-white" />
-              </button>
+        {media.length === 0 ? (
+          <Loader
+            className="flex justify-center mx-auto my-6 left-1/2"
+            width={45}
+            height={45}
+          />
+        ) : (
+          media.map((item) => (
+            <div key={item.id} className="relative group">
+              <div className="aspect-square relative overflow-hidden rounded-lg">
+                <Image
+                  src={`https://yyqjcfzddjozcwahhugs.supabase.co/storage/v1/object/public/upload/${userId}/${item.name}`}
+                  alt={item.name}
+                  fill
+                  className="object-cover"
+                />
+                <button
+                  onClick={() => deleteMedia(item.name)}
+                  className="absolute top-2 right-2 p-2 bg-red-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-red-600"
+                  title="Eliminar imagen"
+                >
+                  <Trash2 className="w-5 h-5 text-white" />
+                </button>
+              </div>
             </div>
-          </div>
-        ))}
+          ))
+        )}
       </div>
 
       {error && (
