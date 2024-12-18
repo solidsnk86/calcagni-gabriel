@@ -1,25 +1,16 @@
 import { NextRequest } from "next/server";
 import getGithubUser from "@/utils/services";
 
-function hasDuplicates(array: any[]): boolean {
-  const elementCount: Record<string, number> = {};
-  for (const element of array) {
-    if (elementCount[element]) {
-      return true;
-    }
-    elementCount[element] = 1;
-  }
-  return false;
-}
-
 export async function GET(req: NextRequest) {
   const user = req.nextUrl.searchParams.get("user") || "";
 
   try {
-    const [dataFollowers, dataFollowings] = await Promise.all([
+    const [dataFollowers, dataFollowings, dataRepos] = await Promise.all([
       getGithubUser(user, "followers"),
       getGithubUser(user, "following"),
+      getGithubUser(user, "repos"),
     ]);
+
     const loginFollowers = new Set(dataFollowers.map((data) => data.login));
     const loginFollowings = new Set(dataFollowings.map((data) => data.login));
     const nonFollowers = Array.from(loginFollowings).filter(
@@ -31,8 +22,32 @@ export async function GET(req: NextRequest) {
     const noDuplicatesAvatars = avatarFollowings.filter(
       (avatar_url) => !avatarFollowers.includes(avatar_url)
     );
-    const languages: Record<string, string> = {};
-    const languageArray = {};
+
+    const languages: Record<string, number> = {};
+    dataRepos.map((repo) => {
+      const language = repo.language || "Sin especificar";
+      languages[language] = (languages[language] || 0) + 1;
+    });
+
+    const languageArray = Object.entries(languages)
+      .map(([name, count]) => ({
+        name,
+        count,
+        percentage: ((count / dataRepos.length) * 100).toFixed(1),
+      }))
+      .sort((a, b) => b.count - a.count);
+
+    const mostUsedLanguage = languageArray[0] || {
+      name: "Sin lenguaje",
+      count: 0,
+      percentage: "0.0",
+    };
+
+    const seconUsedLanguge = languageArray[1] || {
+      name: "Sin lenguaje",
+      count: 0,
+      percentage: "0.0",
+    };
 
     return new Response(
       JSON.stringify({
@@ -40,11 +55,15 @@ export async function GET(req: NextRequest) {
         data: {
           followings: dataFollowings,
           followers: dataFollowers,
+          repos: dataRepos,
           non_following: {
             users: nonFollowers,
             avatar: noDuplicatesAvatars,
           },
           nonfollowings_count: nonFollowers.length,
+          used_languages: languageArray,
+          most_used_language: mostUsedLanguage,
+          second_most_used: seconUsedLanguge,
         },
       }),
       { status: 200 }

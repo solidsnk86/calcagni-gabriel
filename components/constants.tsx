@@ -212,6 +212,10 @@ export const footerRoutes = [
   { name: "404", link: "/404" },
 ];
 
+/////////////////////
+// CHAR OPTIONS
+////////////////////
+
 export const languageChartOptions = {
   title: "Evolución de Uso de Lenguaje",
   curveType: "function",
