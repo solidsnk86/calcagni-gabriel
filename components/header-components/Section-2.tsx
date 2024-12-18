@@ -35,7 +35,7 @@ export const Section_2 = ({
     {
       name: "Visitas",
       quantity: !visits
-        ? (visits = <Loader width="45" height="45" />)
+        ? (visits = <Loader width={45} height={45} />)
         : handleVisitsNumber(visits as string) || "0",
       icon: Eye,
     },
