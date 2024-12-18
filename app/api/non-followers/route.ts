@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import getGithubUser from "@/utils/getGithubUser";
+import getGithubUser from "@/utils/services";
 
 function hasDuplicates(array: any[]): boolean {
   const elementCount: Record<string, number> = {};
@@ -13,25 +13,26 @@ function hasDuplicates(array: any[]): boolean {
 }
 
 export async function GET(req: NextRequest) {
-  const user = req.nextUrl.searchParams.get("user");
+  const user = req.nextUrl.searchParams.get("user") || "";
+
   try {
     const [dataFollowers, dataFollowings] = await Promise.all([
-      getGithubUser(user as string, "followers"),
-      getGithubUser(user as string, "following"),
+      getGithubUser(user, "followers"),
+      getGithubUser(user, "following"),
     ]);
     const loginFollowers = new Set(dataFollowers.map((data) => data.login));
     const loginFollowings = new Set(dataFollowings.map((data) => data.login));
-
     const nonFollowers = Array.from(loginFollowings).filter(
       (login) => !loginFollowers.has(login)
     );
 
     const avatarFollowings = dataFollowings.map((data) => data.avatar_url);
     const avatarFollowers = dataFollowers.map((data) => data.avatar_url);
-
     const noDuplicatesAvatars = avatarFollowings.filter(
       (avatar_url) => !avatarFollowers.includes(avatar_url)
     );
+    const languages: Record<string, string> = {};
+    const languageArray = {};
 
     return new Response(
       JSON.stringify({
