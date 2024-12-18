@@ -42,8 +42,9 @@ export const Section_5 = ({
     getNonFollowings();
   }, []);
 
-  const mostUsedLanguage = githubStats.most_used?.name || "N/A";
-  const secondMostUsedLanguage = githubStats.second_most_used?.name || "N/A";
+  const mostUsedLanguage = githubStats.most_used?.name || "No disponible";
+  const secondMostUsedLanguage =
+    githubStats.second_most_used?.name || "No disponible";
   const percentage = parseFloat(githubStats.most_used?.percentage || 0);
   const publicRepos = githubStats.data?.user?.public_repos || 0;
   const followers = githubStats.data?.user?.followers || 0;
@@ -126,7 +127,7 @@ export const Section_5 = ({
     },
     {
       title: "Repositorio con más Estrellas",
-      stat: repoWithMoreStars.name,
+      stat: repoWithMoreStars?.name || "No disponible",
     },
     {
       title: "Cantidad Máxima de Estrellas",
