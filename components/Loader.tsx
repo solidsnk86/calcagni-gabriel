@@ -1,7 +1,7 @@
 interface LoaderProps {
   className?: string;
   width: number | `${number}px`;
-  height: number;
+  height: number | `${number}px`;
 }
 
 export const Loader = ({ className, width, height }: LoaderProps) => {

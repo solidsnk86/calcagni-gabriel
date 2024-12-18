@@ -19,7 +19,7 @@ export function SubmitButton() {
     >
       <span className="flex items-center">
         {pending ? (
-          <Loader className="mr-2" width="22" height="22" />
+          <Loader className="mr-2" width="22px" height="22px" />
         ) : (
           <svg viewBox="0 0 24 24" width="24" height="24" className="mr-2">
             <path
