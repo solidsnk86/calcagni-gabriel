@@ -18,14 +18,14 @@ const LogoutButton = ({ mobile }: { mobile: boolean }) => {
     >
       {mobile ? (
         pending ? (
-          <Loader width="20" height="20" />
+          <Loader width={20} height={20} />
         ) : (
           ""
         )
       ) : pending ? (
         <>
           <span className="mr-1">Cerrando..</span>
-          <Loader width="20" height="20" />
+          <Loader width={20} height={20} />
         </>
       ) : (
         "Cerrar Sesión"
