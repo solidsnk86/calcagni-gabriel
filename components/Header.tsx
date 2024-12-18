@@ -9,7 +9,7 @@ import { Section_2 } from "@/components/header-components/Section-2";
 import { Section_1 } from "@/components/header-components/Section-1";
 import { supabase } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
-import { GetLocation } from "@/components/GetLocation";
+import { GetLocation } from "@/utils/get-location";
 
 export default function Header() {
   const isClient = useIsClient();

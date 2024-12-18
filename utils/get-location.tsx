@@ -1,8 +1,8 @@
-import { api } from "./constants";
+import { api } from "../components/constants";
 
 const apiId = process.env.NEXT_PUBLIC_WEATHER_API;
-let url: string = "";
-let hook: any = {};
+let url = "";
+const hook: Record<string, string> = {};
 
 export class GetLocation {
   static async fetchData() {
@@ -15,7 +15,7 @@ export class GetLocation {
       }
 
       return data;
-    } catch (error) {
+    } catch (error: unknown) {
       console.error("Error:", error);
     }
   }
@@ -34,7 +34,7 @@ export class GetLocation {
           resolve(hook);
         }),
           (error: Error) => {
-            reject(error);
+            reject(error.message);
           };
       } else {
         reject(new Error("Geolocalización no soportada por el navegador."));

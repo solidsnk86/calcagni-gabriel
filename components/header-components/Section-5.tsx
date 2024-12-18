@@ -87,6 +87,7 @@ export const Section_5 = ({
     .map((repo) => repo.updated_at)
     .sort()
     .reverse();
+  const earnedStars = stars.reduce((acc, value) => acc + value, 0);
 
   const languageData = [
     ["Periodo", `Uso de ${mostUsedLanguage}`],
@@ -127,8 +128,8 @@ export const Section_5 = ({
           <h3 className="text-white text-lg font-bold">Stats</h3>
         </header>
 
-        <div className="flex flex-col lg:flex-row">
-          <div className="w-full lg:w-1/2 p-4 text-center justify-center">
+        <div className="flex flex-col animate-pulse duration-400">
+          <div className="w-full p-4 text-center justify-center">
             Cargando...
           </div>
         </div>
@@ -154,12 +155,16 @@ export const Section_5 = ({
       stat: publicRepos || 0,
     },
     {
-      title: "Repositorio con más Estrellas",
+      title: "Repo con más Estrellas",
       stat: repoWithMoreStars?.name || "No disponible",
     },
     {
-      title: "Cantidad Máxima de Estrellas",
+      title: "Estrellas " + repoWithMoreStars?.name,
       stat: maxRepoStar || 0,
+    },
+    {
+      title: "Total Estrellas Ganadas",
+      stat: earnedStars || 0,
     },
     {
       title: "Último Commit",
@@ -185,9 +190,9 @@ export const Section_5 = ({
 
   return (
     <section
-      className={`border border-foreground/5 bg-zinc-900/50 rounded-xl overflow-hidden ${className}`}
+      className={`border border-foreground/5 bg-zinc-900/50 rounded-xl overflow-hidden p-4 ${className}`}
     >
-      <header className="text-center p-6">
+      <header className="text-center">
         <p className="text-gray-400">
           <Github className="inline mr-1 -translate-y-[4px] text-violet-400 w-5 h-[18px]" />
           Estadísticas de Github
@@ -197,8 +202,8 @@ export const Section_5 = ({
           Usuario <span className="text-violet-400">{user}</span>
         </p>
       </header>
-      <div className="flex flex-col lg:flex-row">
-        <div className="w-full p-2">
+      <div className="flex flex-col lg:flex-row my-6">
+        <div className="w-full">
           <Chart
             chartType="AreaChart"
             width="100%"
@@ -207,7 +212,7 @@ export const Section_5 = ({
             options={languageChartOptions}
           />
         </div>
-        <div className="w-full p-2">
+        <div className="w-full">
           <Chart
             chartType="ColumnChart"
             width="100%"
@@ -218,7 +223,7 @@ export const Section_5 = ({
         </div>
       </div>
 
-      <aside className="w-[100%] grid grid-cols-2 gap-4 text-center px-6 py-4">
+      <aside className="w-[100%] grid grid-cols-2 gap-4 text-center px-4 py-4">
         {itemsStats.map((item) => {
           return (
             <div
@@ -232,7 +237,7 @@ export const Section_5 = ({
           );
         })}
       </aside>
-      <article className="bg-zinc-900/50 border border-foreground/5 rounded-lg mx-6 items-center mb-4">
+      <article className="bg-zinc-900/50 border border-foreground/5 rounded-lg mx-4 items-center mb-4">
         <header className="flex justify-center items-center text-pretty border-b border-foreground/5 p-1">
           <p className="flex text-zinc-400 text-sm gap-1 mr-1">
             No te siguen:{" "}
