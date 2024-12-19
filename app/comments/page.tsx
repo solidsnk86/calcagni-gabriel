@@ -2,10 +2,10 @@ import AuthButton from "@/components/AuthButton";
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
 import Link from "next/link";
-import { CLientCommentsPage } from "./ClientCommentsPage";
+import { CLientCommentsPage } from "./components";
 import { footerRoutes } from "@/components/constants";
-import ProfileClientAnalytics from "./ProfileClientAnalytics";
-import ImageUpload from "./ImageUploader";
+import ProfileClientAnalytics from "./components/ProfileClientAnalytics";
+import ImageUpload from "./components/ImageUploader";
 import { TitleComponent } from "@/components/ComponentTitles";
 import Image from "next/image";
 

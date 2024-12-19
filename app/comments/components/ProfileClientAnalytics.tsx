@@ -4,7 +4,7 @@ import React from "react";
 import { Chart } from "react-google-charts";
 import { TitleComponent } from "@/components/ComponentTitles";
 import { Format } from "@/components/DateFormat";
-import useMatchMedia from "../hooks/useMatchMedia";
+import useMatchMedia from "@/app/hooks/useMatchMedia";
 
 export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   const visitsByCountry: Record<string, number> = {};

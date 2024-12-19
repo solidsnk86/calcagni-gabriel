@@ -1,7 +1,7 @@
 "use client";
 
 import { ReviewCard } from "@/components/magic-ui/ReviewsMarquee";
-import { ReviewsClientProps } from "../types/definitions";
+import { ReviewsClientProps } from "@/app/types/definitions";
 import React from "react";
 import { Format } from "@/components/DateFormat";
 
