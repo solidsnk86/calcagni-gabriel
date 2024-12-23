@@ -4,7 +4,7 @@ import { supabase } from "@/utils/supabase/client";
 import z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import React, { useState } from "react";
+import { ChangeEvent, useState } from "react";
 import { GetLocation } from "@/utils/get-location";
 import { ClientFormProps } from "@/app/types/definitions";
 
@@ -23,12 +23,12 @@ const formSchema = z.object({
 
 type FormData = z.infer<typeof formSchema>;
 
-export const ClientCommentForm: React.FC<ClientFormProps> = ({
+export const ClientCommentForm = ({
   userName,
   fullName,
   avatar,
   onRefresh,
-}) => {
+}: ClientFormProps) => {
   const {
     reset,
     handleSubmit,
@@ -67,7 +67,7 @@ export const ClientCommentForm: React.FC<ClientFormProps> = ({
     reset();
   };
 
-  const handleInput = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+  const handleInput = (e: ChangeEvent<HTMLTextAreaElement>) => {
     const text = e.target.value;
     setCharCount(text.length);
     setWordsCount(text.split(" ").length);
