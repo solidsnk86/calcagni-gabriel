@@ -15,6 +15,7 @@ export default function Header() {
   const isClient = useIsClient();
   const mobile = useMatchMedia("(max-width: 700px)", false);
   const [visits, setVisits] = useState<number | null>(null);
+  const [delayed, setDelayed] = useState(mobile);
 
   const sendDataLocation = async () => {
     const objectData = {
@@ -58,7 +59,13 @@ export default function Header() {
 
   useEffect(() => {
     sendDataLocation();
-  }, []);
+
+    const timer = setTimeout(() => {
+      setDelayed(mobile);
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [mobile]);
 
   if (!isClient) return null;
 

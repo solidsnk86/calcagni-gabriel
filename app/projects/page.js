@@ -9,10 +9,37 @@ import { useIsClient } from "../hooks/useIsClient";
 import AnimatedLayout from "@/components/AnimatedLayouts";
 import Image from "next/image";
 import { worksProyects } from "@/components/constants";
+import { useEffect, useState } from "react";
 
 export default function Works() {
   const isClient = useIsClient();
-  const mobile = useMatchMedia("(max-width: 700px)", false);
+  const mobile = useMatchMedia("(max-width: 700px)", true);
+  const [delayed, setDelayed] = useState(mobile);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDelayed(mobile);
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [mobile]);
+
+  const mixItems = async () => {
+    const grid = document.querySelector(".grid");
+
+    function shuffleItems(items) {
+      return Array.from(items)
+        .map((value) => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value);
+    }
+
+    const shuffledItems = shuffleItems(grid.children);
+
+    await document.startViewTransition(() => {
+      grid.replaceChildren(...shuffledItems);
+    });
+  };
 
   return (
     isClient && (
@@ -28,30 +55,12 @@ export default function Works() {
                 <h3 className="text-white text-lg font-bold">
                   Mi Top 6 de Proyectos
                 </h3>
-
-                {mobile ? null : (
-                  <button
-                    className="absolute top-4 left-4 ramdomize hover:opacity-80"
-                    onClick={async () => {
-                      const grid = document.querySelector(".grid");
-
-                      function shuffleItems(items) {
-                        return Array.from(items)
-                          .map((value) => ({ value, sort: Math.random() }))
-                          .sort((a, b) => a.sort - b.sort)
-                          .map(({ value }) => value);
-                      }
-
-                      const shuffledItems = shuffleItems(grid.children);
-
-                      await document.startViewTransition(() => {
-                        grid.replaceChildren(...shuffledItems);
-                      });
-                    }}
-                  >
-                    Mezclar
-                  </button>
-                )}
+                <button
+                  className="absolute top-4 left-4 ramdomize hover:opacity-80 hidden md:flex"
+                  onClick={mixItems}
+                >
+                  Mezclar
+                </button>
               </header>
               <ResponsiveMasonry
                 columnsCountBreakPoints={{ 400: 1, 700: 1, 900: 3 }}

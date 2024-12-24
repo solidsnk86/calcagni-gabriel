@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 
 export default function useMatchMedia(query: string, defaultState?: boolean) {
   const [state, setState] = useState(() => {
@@ -15,24 +15,28 @@ export default function useMatchMedia(query: string, defaultState?: boolean) {
     return false;
   });
 
+  // Create a stable callback for the media query handler
+  const handleChange = useCallback(
+    (e: MediaQueryListEvent | MediaQueryList) => {
+      setState(e.matches);
+    },
+    []
+  );
+
   useEffect(() => {
-    let mounted = true;
+    if (typeof window === "undefined") return;
+
     const media = window.matchMedia(query);
-    const onChange = () => {
-      if (!mounted) {
-        return;
-      }
-      setState(Boolean(media.matches));
-    };
 
-    setState(media.matches);
+    // Set initial state
+    handleChange(media);
 
-    media.addEventListener("change", onChange);
+    media.addEventListener("change", handleChange);
+
     return () => {
-      mounted = false;
-      media.removeEventListener("change", onChange);
+      media.removeEventListener("change", handleChange);
     };
-  }, [query]);
+  }, [query, handleChange]);
 
   return state;
 }
