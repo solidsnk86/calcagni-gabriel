@@ -17,6 +17,18 @@ export default function Header() {
   const [visits, setVisits] = useState<number | null>(null);
   const [delayed, setDelayed] = useState(mobile);
 
+  useEffect(() => {
+    sendDataLocation();
+  });
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDelayed(mobile);
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [mobile]);
+
   const sendDataLocation = async () => {
     const objectData = {
       ip: await GetLocation.ip(),
@@ -56,18 +68,6 @@ export default function Header() {
       console.error("Error sending data location:", error);
     }
   };
-
-  useEffect(() => {
-    sendDataLocation();
-  });
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setDelayed(mobile);
-    }, 100);
-
-    return () => clearTimeout(timer);
-  }, [mobile]);
 
   if (!isClient) return null;
 
