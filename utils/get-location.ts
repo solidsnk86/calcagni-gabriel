@@ -1,5 +1,3 @@
-import { api } from "../components/constants";
-
 const apiId = process.env.NEXT_PUBLIC_WEATHER_API;
 const token = process.env.NEXT_PUBLIC_IP_API;
 

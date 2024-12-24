@@ -21,16 +21,6 @@ export const DEFAULT_PATH =
     ? "https://calcagni-gabriel.vercel.app/auth/callback"
     : `http://${"localhost:3000" || "localhost:3001"}/auth/callback`;
 
-export const api = {
-  url: "https://geolocation.microlink.io",
-  options: {
-    headers: {
-      "Content-Type": "application/json",
-    },
-    method: "GET",
-  },
-};
-
 export const wap = {
   number: "+5492665290020",
   message: encodeURIComponent(
@@ -130,33 +120,6 @@ export const services = [
   {
     name: "Diseño UI/UX",
     icon: <Layout className="w-5 h-5" />,
-  },
-];
-
-export const photosImg = [
-  {
-    link: "/photos/IMG_20211112_140629341.webp",
-    name: "El Filo Merlo, San Luis 🇦🇷",
-  },
-  {
-    link: "/photos/IMG_20220402_194523982.webp",
-    name: "Dique San Felipe Tilisarao, San Luis 🇦🇷",
-  },
-  {
-    link: "/photos/IMG_20220417_130500956.webp",
-    name: "Sierra de las Quijadas, San Luis 🇦🇷",
-  },
-  {
-    link: "/photos/IMG_20230111_185210271.webp",
-    name: "Carpintería Merlo, San Luis 🇦🇷",
-  },
-  {
-    link: "/photos/PXL_20221129_055945143.NIGHT.webp",
-    name: "Una noche en Concarán, San Luis 🇦🇷",
-  },
-  {
-    link: "/photos/PXL_20230111_215448841.NIGHT.webp",
-    name: "Carpintería Merlo, San Luis 🇦🇷",
   },
 ];
 
