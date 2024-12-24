@@ -13,11 +13,28 @@ import { Section_5 } from "./main-section/Section-5";
 import { DataModel } from "@/app/lib/actions";
 
 export default function Main() {
-  const mobile = useMatchMedia("(max-width: 700px)", false);
+  const mobile = useMatchMedia("(max-width: 700px)", true);
   const isClient = useIsClient();
   const [comments, setComments] = useState<any>([]);
   const [location, setLocation] = useState<any>({});
   const [lastVisit, setLastVisit] = useState<any>([]);
+  const [delayed, setDelayed] = useState(mobile);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDelayed(mobile);
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [mobile]);
+
+  useEffect(() => {
+    fetchComments();
+  }, []);
+
+  useEffect(() => {
+    getLocation();
+  }, []);
 
   const fetchComments = async () => {
     try {
@@ -43,11 +60,6 @@ export default function Main() {
 
     setLocation(dataLocation);
   };
-
-  useEffect(() => {
-    fetchComments();
-    getLocation();
-  }, []);
 
   return (
     isClient && (
