@@ -59,7 +59,7 @@ export default function Header() {
 
   useEffect(() => {
     sendDataLocation();
-  }, []);
+  });
 
   useEffect(() => {
     const timer = setTimeout(() => {
