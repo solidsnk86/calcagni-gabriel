@@ -27,6 +27,8 @@ export class GetLocation {
           const data = await res.json();
 
           hook.city = data.name;
+          hook.lat = data.coord.lat;
+          hook.lon = data.coord.lon;
           resolve(hook);
         }),
           (error: Error) => {
@@ -49,19 +51,24 @@ export class GetLocation {
   }
 
   static async city() {
-    const data: any | [] =
-      (await this.getCityFromWheaterAPI()) ?? (await this.fetchData());
-    return data.city ?? data.city;
+    const data = (await this.getCityFromWheaterAPI()) as Promise<{
+      city: string;
+    }>;
+    return (await data).city;
   }
 
   static async latitude() {
-    const data = await this.fetchData();
-    return data.coordinates.latitude;
+    const data = (await this.getCityFromWheaterAPI()) as Promise<{
+      lat: number | string;
+    }>;
+    return (await data).lat;
   }
 
   static async longitude() {
-    const data = await this.fetchData();
-    return data.coordinates.longitude;
+    const data = (await this.getCityFromWheaterAPI()) as Promise<{
+      lon: number | string;
+    }>;
+    return (await data).lon;
   }
 
   static async province() {
@@ -72,6 +79,6 @@ export class GetLocation {
 
   static async flag() {
     const data = await this.fetchData();
-    return data.country.flag;
+    return data.country === "AR" ? "🇦🇷" : data.country;
   }
 }

@@ -40,6 +40,7 @@ export default function Main() {
       province: await GetLocation.province(),
       flag: await GetLocation.flag(),
     };
+
     setLocation(dataLocation);
   };
 
