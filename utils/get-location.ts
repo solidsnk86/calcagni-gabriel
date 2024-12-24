@@ -1,22 +1,19 @@
 import { api } from "../components/constants";
 
 const apiId = process.env.NEXT_PUBLIC_WEATHER_API;
+const token = process.env.NEXT_PUBLIC_IP_API;
+
 let url = "";
 const hook: Record<string, string> = {};
 
 export class GetLocation {
   static async fetchData() {
     try {
-      const res = await fetch(api.url);
-      const data = await res.json();
-
-      if (!res.ok) {
-        console.error("Error to get data from api:", res.statusText);
-      }
-
+      const response = await fetch(`https://ipinfo.io/json?token=${token}`);
+      const data = await response.json();
       return data;
-    } catch (error: unknown) {
-      console.error("Error:", error);
+    } catch (err) {
+      console.error("Cannot get the ip server API", err);
     }
   }
 
@@ -30,6 +27,7 @@ export class GetLocation {
 
           const res = await fetch(url);
           const data = await res.json();
+
           hook.city = data.name;
           resolve(hook);
         }),
@@ -44,18 +42,18 @@ export class GetLocation {
 
   static async ip() {
     const data = await this.fetchData();
-    return data.ip.address;
+    return data.ip;
   }
 
   static async country() {
     const data = await this.fetchData();
-    return data.country.name;
+    return data.country || "No disponible";
   }
 
   static async city() {
     const data: any | [] =
       (await this.getCityFromWheaterAPI()) ?? (await this.fetchData());
-    return data.city ?? data.city.name;
+    return data.city ?? data.city;
   }
 
   static async latitude() {
