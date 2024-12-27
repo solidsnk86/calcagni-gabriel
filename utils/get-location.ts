@@ -1,13 +1,12 @@
-const apiId = process.env.NEXT_PUBLIC_WEATHER_API;
-const token = process.env.NEXT_PUBLIC_IP_API;
-
 let url = "";
 const hook: Record<string, string> = {};
 
 export class GetLocation {
   static async fetchData() {
     try {
-      const response = await fetch(`https://ipinfo.io/json?token=${token}`);
+      const response = await fetch(
+        "https://solid-geolocation.vercel.app/location"
+      );
       const data = await response.json();
       return data;
     } catch (err) {
@@ -21,7 +20,7 @@ export class GetLocation {
         navigator.geolocation.getCurrentPosition(async (position) => {
           const lat = position.coords.latitude;
           const lon = position.coords.longitude;
-          url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiId}`;
+          url = `https://solid-geolocation.vercel.app/weather?latitude=${lat}&longitude=${lon}`;
 
           const res = await fetch(url);
           const data = await res.json();
@@ -47,7 +46,7 @@ export class GetLocation {
 
   static async country() {
     const data = await this.fetchData();
-    return data.country || "No disponible";
+    return data.country.name;
   }
 
   static async city() {
@@ -72,13 +71,12 @@ export class GetLocation {
   }
 
   static async province() {
-    let data = await this.fetchData();
-    data = data.timezone.replace(/.*\//, "");
-    return data.replace("_", " ");
+    const data = await this.fetchData();
+    return data.city.name;
   }
 
   static async flag() {
     const data = await this.fetchData();
-    return data.country === "AR" ? "🇦🇷" : data.country;
+    return data.country.flag.small;
   }
 }

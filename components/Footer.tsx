@@ -13,13 +13,6 @@ export const Footer = ({
 }) => {
   const pathname = usePathname();
 
-  const getAuthLink = (linkName: string) => {
-    if (linkName === "Ingresar" || linkName === "Perfil") {
-      return user ? "Perfil" : "Ingresar";
-    }
-    return linkName;
-  };
-
   return (
     <footer
       className={`w-full p-8 justify-around text-center text-base text-zinc-400 flex ${className} items-center`}
@@ -43,7 +36,7 @@ export const Footer = ({
                 : ""
             }`}
           >
-            {getAuthLink(link.name)}
+            {link.name}
           </Link>
         ))}
       </aside>
