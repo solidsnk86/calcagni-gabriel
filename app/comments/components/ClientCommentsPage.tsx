@@ -45,8 +45,9 @@ export const CLientCommentsPage = ({
       console.error("No se pudo guardar el comentario", error.message);
     } else if (updatedData) {
       setData(
-        data.map((post: any) =>
-          post.id === id ? { ...post, message: newComment, edited } : post
+        data.map(
+          (post: { id: string | number; message: string; edited: boolean }) =>
+            post.id === id ? { ...post, message: newComment, edited } : post
         )
       );
       setEditingId(null);
