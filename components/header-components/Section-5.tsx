@@ -1,10 +1,10 @@
-import { Github } from "lucide-react";
-import { useEffect, useState } from "react";
-import { Chart } from "react-google-charts";
-import { Format } from "../DateFormat";
-import Image from "next/image";
-import { languageChartOptions } from "../constants";
-import Link from "next/link";
+import { Github } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { Chart } from 'react-google-charts';
+import { Format } from '../DateFormat';
+import Image from 'next/image';
+import { languageChartOptions } from '../constants';
+import Link from 'next/link';
 
 type LanguagesProps = {
   name: string;
@@ -56,7 +56,7 @@ export const Section_5 = ({
       setGithubStats(stats || []);
       setIsLoading(false);
     } catch (error) {
-      console.error("Error fetching GitHub stats:", error);
+      console.error('Error fetching GitHub stats:', error);
       setIsLoading(false);
     }
   };
@@ -66,9 +66,9 @@ export const Section_5 = ({
   }, []);
 
   const mostUsedLanguage =
-    githubStats?.data.most_used_language.name || "No disponible";
+    githubStats?.data.most_used_language.name || 'No disponible';
   const secondMostUsedLanguage =
-    githubStats?.data.second_most_used?.name || "No disponible";
+    githubStats?.data.second_most_used?.name || 'No disponible';
 
   const percentage =
     Number(githubStats?.data.most_used_language.percentage) || 0;
@@ -90,25 +90,25 @@ export const Section_5 = ({
   const earnedStars = stars.reduce((acc, value) => acc + value, 0);
 
   const languageData = [
-    ["Periodo", `Uso de ${mostUsedLanguage}`],
-    ["Anterior", percentage * 0.1],
-    ["Actual", percentage],
-    ["Proyección", percentage * 1.1],
+    ['Periodo', `Uso de ${mostUsedLanguage}`],
+    ['Anterior', percentage * 0.1],
+    ['Actual', percentage],
+    ['Proyección', percentage * 1.1],
   ];
 
   const socialData = [
-    ["Métrica", "Cantidad", { role: "style" }],
-    ["Repositorios", publicRepos, "#8B5CF6"],
-    ["Seguidores", 218, "#6D28D9"],
-    ["Siguiendo", 216, "#4C1D95"],
+    ['Métrica', 'Cantidad', { role: 'style' }],
+    ['Repositorios', publicRepos, '#8B5CF6'],
+    ['Seguidores', 218, '#6D28D9'],
+    ['Siguiendo', 216, '#4C1D95'],
   ];
 
   const socialChartOptions = {
     ...languageChartOptions,
-    title: "Estadísticas Sociales de GitHub",
+    title: 'Estadísticas Sociales de GitHub',
     vAxis: {
       ...languageChartOptions.vAxis,
-      title: "Número",
+      title: 'Número',
     },
   };
 
@@ -139,11 +139,11 @@ export const Section_5 = ({
 
   const itemsStats = [
     {
-      title: "Lenguaje más usado",
+      title: 'Lenguaje más usado',
       stat: mostUsedLanguage,
     },
     {
-      title: "Segundo más usado",
+      title: 'Segundo más usado',
       stat: secondMostUsedLanguage,
     },
     {
@@ -151,29 +151,29 @@ export const Section_5 = ({
       stat: `%${percentage}`,
     },
     {
-      title: "Repositorios Públicos",
+      title: 'Repositorios Públicos',
       stat: publicRepos || 0,
     },
     {
-      title: "Repo con más Estrellas",
-      stat: repoWithMoreStars?.name || "No disponible",
+      title: 'Repo con más Estrellas',
+      stat: repoWithMoreStars?.name || 'No disponible',
     },
     {
-      title: "Estrellas " + repoWithMoreStars?.name,
+      title: 'Estrellas ' + repoWithMoreStars?.name,
       stat: maxRepoStar || 0,
     },
     {
-      title: "Total Estrellas Ganadas",
+      title: 'Total Estrellas Ganadas',
       stat: earnedStars || 0,
     },
     {
-      title: "Último Commit",
-      stat: Format.dateAndTime(lastCommitRepos[0]).replace(/,/g, " a las"),
+      title: 'Último Commit',
+      stat: Format.dateAndTime(lastCommitRepos[0]).replace(/,/g, ' a las'),
     },
   ];
 
   function clickSound() {
-    const audio = new Audio("/effects-sounds/computer-click.mp3");
+    const audio = new Audio('/effects-sounds/computer-click.mp3');
     audio.volume = 0.1;
     if (audio) {
       return audio.play();
@@ -240,7 +240,7 @@ export const Section_5 = ({
       <article className="bg-zinc-900/50 border border-foreground/5 rounded-lg mx-4 items-center mb-4">
         <header className="flex justify-center items-center text-pretty border-b border-foreground/5 p-1">
           <p className="flex text-zinc-400 text-sm gap-1 mr-1">
-            No te siguen:{" "}
+            No te siguen:{' '}
             <span className="inline text-violet-400 font-bold">
               {nonFollowingUsers.length}
             </span>

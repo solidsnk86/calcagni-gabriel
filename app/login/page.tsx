@@ -1,7 +1,7 @@
-import { LoginForm } from "./LoginForm";
-import Link from "next/link";
-import AnimatedLayout from "@/components/AnimatedLayouts";
-import { ArrowLeft } from "lucide-react";
+import { LoginForm } from './LoginForm';
+import Link from 'next/link';
+import AnimatedLayout from '@/components/AnimatedLayouts';
+import { ArrowLeft } from 'lucide-react';
 
 export default function Login() {
   return (
@@ -42,10 +42,11 @@ export default function Login() {
             <div className="text-center mb-8 border border-foreground/5 rounded-xl bg-zinc-800/40 p-4">
               <h2 className="text-xl font-semibold mb-4">Bienvenido!</h2>
               <p className="text-muted-foreground text-sm mb-4">
-                Esta aplicación te permite ver las estadísticas de tu cuenta de
-                Github como quienes no te siguen de vuelta, etc. Compartir
-                opiniones, sugerencias o preguntas sobre el portfolio. Inicia
-                sesión con tu cuenta de GitHub para participar.
+                Con esta aplicación, puedes consultar las estadísticas de tu
+                cuenta de GitHub, incluyendo quiénes no te siguen de vuelta.
+                Además, puedes compartir opiniones, sugerencias o preguntas
+                sobre tu portfolio. Inicia sesión con tu cuenta de GitHub para
+                participar y aprovechar todas las funcionalidades.
               </p>
             </div>
 

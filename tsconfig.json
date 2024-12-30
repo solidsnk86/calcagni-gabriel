@@ -30,6 +30,6 @@
     ".next/types/**/*.ts",
     "app/projects/page.js",
     "app/api/non-followers.js"
-  ],
+, "app/api_example/components/Pre.jsx", "app/api_example/components/Pre.jsx", "app/api_example/components/Pre.jsx", "app/api_example/components/Pre.jsx"  ],
   "exclude": ["node_modules"]
 }

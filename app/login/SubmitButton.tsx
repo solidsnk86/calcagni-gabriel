@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { useFormStatus } from "react-dom";
-import { FancyButton } from "@/components/magic-ui/FancyButton";
-import { Loader } from "@/components/Loader";
+import { useFormStatus } from 'react-dom';
+import { FancyButton } from '@/components/magic-ui/FancyButton';
+import { Loader } from '@/components/Loader';
 
 export function SubmitButton() {
   const { pending } = useFormStatus();
@@ -19,7 +19,7 @@ export function SubmitButton() {
     >
       <span className="flex items-center">
         {pending ? (
-          <Loader className="mr-2" width="22px" height="22px" />
+          <Loader className="mr-2" width={22} height={22} />
         ) : (
           <svg viewBox="0 0 24 24" width="24" height="24" className="mr-2">
             <path
@@ -28,7 +28,7 @@ export function SubmitButton() {
             />
           </svg>
         )}
-        {pending ? "Ingresando..." : "Continuar con GitHub"}
+        {pending ? 'Ingresando...' : 'Continuar con GitHub'}
       </span>
     </FancyButton>
   );

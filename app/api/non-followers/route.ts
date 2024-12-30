@@ -1,8 +1,13 @@
 import { NextRequest } from "next/server";
 import getGithubUser from "@/utils/services";
+import { redirect } from "next/navigation";
 
 export async function GET(req: NextRequest) {
-  const user = req.nextUrl.searchParams.get("user") || "";
+  const user = req.nextUrl.searchParams.get("user");
+
+  if (!user) {
+    return redirect("/api_example");
+  }
 
   try {
     const [dataFollowers, dataFollowings, dataRepos] = await Promise.all([
