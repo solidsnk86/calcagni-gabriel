@@ -20,6 +20,9 @@ dependencies:
   chart.js:
     specifier: ^4.4.6
     version: 4.4.6
+  clean-indent:
+    specifier: ^1.0.11
+    version: 1.0.11
   clsx:
     specifier: ^2.1.1
     version: 2.1.1
@@ -1085,6 +1088,10 @@ packages:
     resolution: {integrity: sha512-rNjApaLzuwaOTjCiT8lSDdGN1APCiqkChLMJxJPWLunPAt5fy8xgU9/jNOchV84wfIxrA0lRQB7oCT8jrn/wrQ==}
     engines: {node: '>=6.0'}
     dev: true
+
+  /clean-indent@1.0.11:
+    resolution: {integrity: sha512-xBQioMiLjjIrdM3cpRHONagoCvl4iHXs9JXxIehr/JgpoJB4l8JGlU/bJ8h7iycYTAxOFsh1pBtd9EphgkZBsQ==}
+    dev: false
 
   /client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}

@@ -12,13 +12,12 @@ export default function Page() {
         <Pre
           lang="typescript"
           stringCode={
-            /**javascrip */ 
-        `
-        async function getApiData({ user }) {
+            /**typescript */ `
+            export default async function getApiData({ user }: { user: string }) {
             const response = await fetch('https://calcagni-gabriel/api/non-followers?user=\${user}');
             const data = await response.json();
             return data;
-        \b\b\b}
+        }
         `
           }
         />
