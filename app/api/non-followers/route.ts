@@ -48,7 +48,7 @@ export async function GET(req: NextRequest) {
       percentage: '0.0',
     };
 
-    const seconUsedLanguge = languageArray[1] || {
+    const secondUsedLanguge = languageArray[1] || {
       name: 'Sin lenguaje',
       count: 0,
       percentage: '0.0',
@@ -68,7 +68,7 @@ export async function GET(req: NextRequest) {
           nonfollowings_count: nonFollowers.length,
           used_languages: languageArray,
           most_used_language: mostUsedLanguage,
-          second_most_used: seconUsedLanguge,
+          second_most_used: secondUsedLanguge,
         },
       }),
       { status: 200 }
