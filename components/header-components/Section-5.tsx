@@ -1,9 +1,7 @@
 import { Github } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { Chart } from 'react-google-charts';
 import { Format } from '../DateFormat';
 import Image from 'next/image';
-import { languageChartOptions } from '../constants';
 import Link from 'next/link';
 
 type LanguagesProps = {
@@ -65,52 +63,28 @@ export const Section_5 = ({
     getData();
   }, []);
 
+  const followersCount = githubStats?.data?.followers?.length || 0;
+  const followingCount = githubStats?.data?.following?.length || 0;
   const mostUsedLanguage =
     githubStats?.data.most_used_language.name || 'No disponible';
   const secondMostUsedLanguage =
     githubStats?.data.second_most_used?.name || 'No disponible';
-
   const percentage =
     Number(githubStats?.data.most_used_language.percentage) || 0;
-
   const publicRepos = githubStats?.data.repos.length;
-
   const repos = githubStats?.data.repos || [];
   const stars = repos.map((repo) => repo.stargazers_count);
   const maxRepoStar = Math.max(...stars);
   const repoWithMoreStars = repos.find(
     (repo) => repo.stargazers_count === maxRepoStar
   );
-  const nonFollowingUsers = githubStats?.data.non_following.users || [];
-  const nonFollowingAvatars = githubStats?.data?.non_following.avatar || [];
+  const nonFollowingUsers = githubStats?.data.non_following?.users || [];
+  const nonFollowingAvatars = githubStats?.data?.non_following?.avatar || [];
   const lastCommitRepos = repos
     .map((repo) => repo.updated_at)
     .sort()
     .reverse();
   const earnedStars = stars.reduce((acc, value) => acc + value, 0);
-
-  const languageData = [
-    ['Periodo', `Uso de ${mostUsedLanguage}`],
-    ['Anterior', percentage * 0.1],
-    ['Actual', percentage],
-    ['Proyección', percentage * 1.1],
-  ];
-
-  const socialData = [
-    ['Métrica', 'Cantidad', { role: 'style' }],
-    ['Repositorios', publicRepos, '#8B5CF6'],
-    ['Seguidores', 218, '#6D28D9'],
-    ['Siguiendo', 216, '#4C1D95'],
-  ];
-
-  const socialChartOptions = {
-    ...languageChartOptions,
-    title: 'Estadísticas Sociales de GitHub',
-    vAxis: {
-      ...languageChartOptions.vAxis,
-      title: 'Número',
-    },
-  };
 
   if (isLoading) {
     return (
@@ -138,6 +112,14 @@ export const Section_5 = ({
   }
 
   const itemsStats = [
+    {
+      title: 'Seguidores',
+      stat: followersCount,
+    },
+    {
+      title: 'Seguidos',
+      stat: followingCount,
+    },
     {
       title: 'Lenguaje más usado',
       stat: mostUsedLanguage,
@@ -198,30 +180,10 @@ export const Section_5 = ({
           Estadísticas de Github
         </p>
         <h3 className="text-white text-lg font-bold">Datos</h3>
-        <p className="text-gray-400 bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 mt-4">
+        <p className="text-gray-400 bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 mt-4 mx-4">
           Usuario <span className="text-violet-400">{user}</span>
         </p>
       </header>
-      <div className="flex flex-col lg:flex-row my-6">
-        <div className="w-full">
-          <Chart
-            chartType="AreaChart"
-            width="100%"
-            height="300px"
-            data={languageData}
-            options={languageChartOptions}
-          />
-        </div>
-        <div className="w-full">
-          <Chart
-            chartType="ColumnChart"
-            width="100%"
-            height="300px"
-            data={socialData}
-            options={socialChartOptions}
-          />
-        </div>
-      </div>
 
       <aside className="w-[100%] grid grid-cols-2 gap-4 text-center px-4 py-4">
         {itemsStats.map((item) => {

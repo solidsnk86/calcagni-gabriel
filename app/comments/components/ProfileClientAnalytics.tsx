@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import React from "react";
-import { Chart } from "react-google-charts";
-import { TitleComponent } from "@/components/ComponentTitles";
-import { Format } from "@/components/DateFormat";
-import useMatchMedia from "@/app/hooks/useMatchMedia";
+import React from 'react';
+import { Chart } from 'react-google-charts';
+import { TitleComponent } from '@/components/ComponentTitles';
+import { Format } from '@/components/DateFormat';
+import useMatchMedia from '@/app/hooks/useMatchMedia';
 
 export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   const visitsByCountry: Record<string, number> = {};
-  const mobile = useMatchMedia("(max-width: 700px)", false);
+  const mobile = useMatchMedia('(max-width: 700px)', false);
 
   for (let i = 0; i < data.length; i++) {
     const country = data[i].country;
@@ -20,7 +20,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   }
 
   const chartData = [
-    ["País", "Visitas"],
+    ['País', 'Visitas'],
     ...Object.entries(visitsByCountry).map(([country, visits]) => [
       country,
       visits,
@@ -28,26 +28,26 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   ];
 
   const colorPalettes = {
-    ocean: ["#E6F2FF", "#BAE6FD", "#7DD3FC", "#38BDF8", "#0EA5E9"],
-    forest: ["#ECFDF5", "#D1FAE5", "#6EE7B7", "#10B981", "#059669"],
-    sunset: ["#FEF3C7", "#FDE68A", "#FCD34D", "#F59E0B", "#D97706"],
-    berry: ["#AFBBE3", "#EDE9FE", "#DDD6FE", "#AC94C9", "#A78BFA"],
-    monochrome: ["#F4F4F4", "#E5E5E5", "#A3A3A3", "#737373", "#404040"],
+    ocean: ['#E6F2FF', '#BAE6FD', '#7DD3FC', '#38BDF8', '#0EA5E9'],
+    forest: ['#ECFDF5', '#D1FAE5', '#6EE7B7', '#10B981', '#059669'],
+    sunset: ['#FEF3C7', '#FDE68A', '#FCD34D', '#F59E0B', '#D97706'],
+    berry: ['#AFBBE3', '#EDE9FE', '#DDD6FE', '#AC94C9', '#A78BFA'],
+    monochrome: ['#F4F4F4', '#E5E5E5', '#A3A3A3', '#737373', '#404040'],
   };
 
   const chartOptions = {
-    title: "Visitas por País",
-    backgroundColor: "#04090B",
+    title: 'Visitas por País',
+    backgroundColor: '#04090B',
     colorAxis: {
       colors: colorPalettes.berry,
     },
     legend: {
       textStyle: {
-        color: "#333",
+        color: '#333',
       },
     },
     titleTextStyle: {
-      color: "#f4f4f4",
+      color: '#f4f4f4',
     },
   };
 
@@ -59,7 +59,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
         </TitleComponent.H2>
 
         <TitleComponent.H4 className="text-center p-2">
-          Total de visitas al Perfil:{" "}
+          Total de visitas al Perfil:{' '}
           <span className="text-violet-400">{data.length}</span>
         </TitleComponent.H4>
 
@@ -88,15 +88,15 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
                 <div
                   key={index}
                   className={`flex items-center p-2 border-b border-foreground/5 ${
-                    index % 2 !== 0 ? "bg-zinc-800/20" : "bg-zinc-900/20"
+                    index % 2 !== 0 ? 'bg-zinc-800/20' : 'bg-zinc-900/20'
                   }`}
                 >
                   <span className="mr-2 font-bold text-violet-300 min-w-[30px]">
                     {index + 1}.
                   </span>
                   <p className="flex-1 text-pretty text-xs sm:text-sm">
-                    El IP: {d.ip}. Ha visitado el perfil el día{" "}
-                    {Format.dateAndTime(d.created_at)}, desde {d.city} -{" "}
+                    El IP: {d.ip}. Ha visitado el perfil el día{' '}
+                    {Format.dateAndTime(d.created_at)}, desde {d.city} -{' '}
                     {d.province}, {d.country}.
                   </p>
                 </div>

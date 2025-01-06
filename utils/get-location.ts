@@ -1,16 +1,16 @@
-let url = "";
+let url = '';
 const hook: Record<string, string> = {};
 
 export class GetLocation {
   static async fetchData() {
     try {
       const response = await fetch(
-        "https://solid-geolocation.vercel.app/location"
+        'https://solid-geolocation.vercel.app/location'
       );
       const data = await response.json();
       return data;
     } catch (err) {
-      console.error("Cannot get the ip server API", err);
+      console.error('Cannot get the ip server API', err);
     }
   }
 
@@ -34,7 +34,7 @@ export class GetLocation {
             reject(error.message);
           };
       } else {
-        reject(new Error("Geolocalización no soportada por el navegador."));
+        reject(new Error('Geolocalización no soportada por el navegador.'));
       }
     });
   }

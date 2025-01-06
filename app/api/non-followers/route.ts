@@ -1,28 +1,28 @@
-import { NextRequest } from "next/server";
-import getGithubUser from "@/utils/services";
-import { redirect } from "next/navigation";
+import { NextRequest } from 'next/server';
+import getGithubUser from '@/utils/services';
+import { redirect } from 'next/navigation';
 
 export async function GET(req: NextRequest) {
-  const user = req.nextUrl.searchParams.get("user");
+  const user = req.nextUrl.searchParams.get('user');
 
   if (!user) {
-    return redirect("/api_example");
+    return redirect('/api_example');
   }
 
   try {
-    const [dataFollowers, dataFollowings, dataRepos] = await Promise.all([
-      getGithubUser(user, "followers"),
-      getGithubUser(user, "following"),
-      getGithubUser(user, "repos"),
+    const [dataFollowers, dataFollowing, dataRepos] = await Promise.all([
+      getGithubUser(user, 'followers'),
+      getGithubUser(user, 'following'),
+      getGithubUser(user, 'repos'),
     ]);
 
     const loginFollowers = new Set(dataFollowers.map((data) => data.login));
-    const loginFollowings = new Set(dataFollowings.map((data) => data.login));
+    const loginFollowings = new Set(dataFollowing.map((data) => data.login));
     const nonFollowers = Array.from(loginFollowings).filter(
       (login) => !loginFollowers.has(login)
     );
 
-    const avatarFollowings = dataFollowings.map((data) => data.avatar_url);
+    const avatarFollowings = dataFollowing.map((data) => data.avatar_url);
     const avatarFollowers = dataFollowers.map((data) => data.avatar_url);
     const noDuplicatesAvatars = avatarFollowings.filter(
       (avatar_url) => !avatarFollowers.includes(avatar_url)
@@ -30,7 +30,7 @@ export async function GET(req: NextRequest) {
 
     const languages: Record<string, number> = {};
     dataRepos.map((repo) => {
-      const language = repo.language || "Sin especificar";
+      const language = repo.language || 'Sin especificar';
       languages[language] = (languages[language] || 0) + 1;
     });
 
@@ -43,22 +43,22 @@ export async function GET(req: NextRequest) {
       .sort((a, b) => b.count - a.count);
 
     const mostUsedLanguage = languageArray[0] || {
-      name: "Sin lenguaje",
+      name: 'Sin lenguaje',
       count: 0,
-      percentage: "0.0",
+      percentage: '0.0',
     };
 
     const seconUsedLanguge = languageArray[1] || {
-      name: "Sin lenguaje",
+      name: 'Sin lenguaje',
       count: 0,
-      percentage: "0.0",
+      percentage: '0.0',
     };
 
     return new Response(
       JSON.stringify({
-        status: "success",
+        status: 'success',
         data: {
-          followings: dataFollowings,
+          following: dataFollowing,
           followers: dataFollowers,
           repos: dataRepos,
           non_following: {
@@ -75,7 +75,7 @@ export async function GET(req: NextRequest) {
     );
   } catch (err: Error | any) {
     return new Response(
-      JSON.stringify({ status: "error", message: err?.message }),
+      JSON.stringify({ status: 'error', message: err?.message }),
       { status: 500 }
     );
   }
