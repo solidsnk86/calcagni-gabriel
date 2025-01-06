@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { LogOut } from "lucide-react";
-import React from "react";
-import { AuthButtonProps } from "@/app/types/definitions";
-import useMatchMedia from "@/app/hooks/useMatchMedia";
-import { useFormStatus } from "react-dom";
-import { Loader } from "./Loader";
+import { LogOut } from 'lucide-react';
+import React from 'react';
+import { AuthButtonProps } from '@/app/types/definitions';
+import useMatchMedia from '@/app/hooks/useMatchMedia';
+import { useFormStatus } from 'react-dom';
+import { Loader } from './Loader';
 
 const LogoutButton = ({ mobile }: { mobile: boolean }) => {
   const { pending } = useFormStatus();
@@ -18,20 +18,20 @@ const LogoutButton = ({ mobile }: { mobile: boolean }) => {
     >
       {mobile ? (
         pending ? (
-          <Loader width={20} height={20} />
+          <Loader width={19} height={19} />
         ) : (
-          ""
+          ''
         )
       ) : pending ? (
         <>
           <span className="mr-1">Cerrando..</span>
-          <Loader width={20} height={20} />
+          <Loader width={19} height={19} />
         </>
       ) : (
-        "Cerrar Sesión"
+        'Cerrar Sesión'
       )}
       {pending ? null : (
-        <LogOut className={`${mobile ? "ml-0" : "ml-2"} w-5 h-5 inline`} />
+        <LogOut className={`${mobile ? 'ml-0' : 'ml-2'} w-5 h-5 inline`} />
       )}
     </button>
   );
@@ -41,7 +41,7 @@ export const AuthButtonClient: React.FC<AuthButtonProps> = ({
   signOut,
   user,
 }) => {
-  const mobile = useMatchMedia("(max-width: 700px)", false);
+  const mobile = useMatchMedia('(max-width: 700px)', false);
 
   return (
     <div className="flex items-center gap-4">

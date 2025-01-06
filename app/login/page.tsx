@@ -1,4 +1,4 @@
-import { LoginForm } from './LoginForm';
+import { LoginForm } from './components/LoginForm';
 import Link from 'next/link';
 import AnimatedLayout from '@/components/AnimatedLayouts';
 import { ArrowLeft } from 'lucide-react';
@@ -44,9 +44,9 @@ export default function Login() {
               <p className="text-muted-foreground text-sm mb-4">
                 Con esta aplicación, puedes consultar las estadísticas de tu
                 cuenta de GitHub, incluyendo quiénes no te siguen de vuelta.
-                Además, puedes compartir opiniones, sugerencias o preguntas
-                sobre tu portfolio. Inicia sesión con tu cuenta de GitHub para
-                participar y aprovechar todas las funcionalidades.
+                Además, puedes compartir opiniones, sugerencias. Inicia sesión
+                con tu cuenta de GitHub para participar y aprovechar todas las
+                funcionalidades.
               </p>
             </div>
 

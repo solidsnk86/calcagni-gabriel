@@ -186,18 +186,18 @@ export const Section_5 = ({
       </header>
 
       <aside className="w-[100%] grid grid-cols-2 gap-4 text-center px-4 py-4">
-        {itemsStats.map((item) => {
-          return (
-            <div
-              key={item.title}
-              title={item.title}
-              className={`bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 last:col-span-2`}
-            >
-              <p className="text-zinc-400 text-sm line-clamp-1">{item.title}</p>
-              <p className="text-violet-400 font-bold">{item.stat}</p>
-            </div>
-          );
-        })}
+        {itemsStats.map((item) => (
+          <div
+            key={item.title}
+            title={`${item.title}: ${item.stat}`}
+            className={`bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 last:col-span-2 overflow-hidden text-ellipsis`}
+          >
+            <p className="text-zinc-400 text-sm line-clamp-1">{item.title}</p>
+            <p className="text-violet-400 font-semibold line-clamp-1">
+              {item.stat}
+            </p>
+          </div>
+        ))}
       </aside>
       <article className="bg-zinc-900/50 border border-foreground/5 rounded-lg mx-4 items-center mb-4">
         <header className="flex justify-center items-center text-pretty border-b border-foreground/5 p-1">
