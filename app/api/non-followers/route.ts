@@ -1,5 +1,5 @@
 import { NextRequest } from 'next/server';
-import getGithubUser from '@/utils/services';
+import getGithubUser from '@/utils/get-github-stats';
 import { redirect } from 'next/navigation';
 
 export async function GET(req: NextRequest) {
