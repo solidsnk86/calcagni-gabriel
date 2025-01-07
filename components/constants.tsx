@@ -134,10 +134,10 @@ export const worksProyects = [
   },
   {
     name: 'App Sorteo',
-    url: 'https://solidsnk86.github.io/app-sorteo/',
-    image: '/Portada-Formulario-Web.png',
-    type: 'Facturación',
-    repoName: 'formularioweb',
+    url: 'https://solidsnk86.github.io/app_sorteo/',
+    image: '/screen-shot-app-sorteo.png',
+    type: 'Sorteos',
+    repoName: 'app_sorteo',
   },
 ];
 
