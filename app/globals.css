@@ -47,7 +47,7 @@ body {
 }
 
 .logo::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -5px;
   right: -5px;
@@ -60,7 +60,7 @@ body {
 }
 
 .logo::after {
-  content: "</>";
+  content: '</>';
   position: absolute;
   top: -20px;
   left: 50%;
@@ -110,7 +110,7 @@ body {
 }
 
 .avaliable-dot::before {
-  content: "";
+  content: '';
   position: absolute;
   left: calc(1px - 1px);
   top: calc(1px - 1px);
@@ -216,7 +216,7 @@ body {
 */
 
 @property --rotate {
-  syntax: "<angle>";
+  syntax: '<angle>';
   initial-value: 0deg;
   inherits: false;
 }
@@ -255,7 +255,7 @@ body {
 }
 
 .fancy-button:hover .fancy:before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   rotate: 0;
@@ -270,7 +270,7 @@ body {
 }
 
 .fancy-button .fancy:after {
-  content: "";
+  content: '';
   background-color: var(--color);
   position: absolute;
   inset: var(--inset);
@@ -357,7 +357,7 @@ body {
 }
 
 .bg-effect-1::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100px;
   height: 100px;
@@ -432,10 +432,19 @@ body {
   border-radius: 12px;
 }
 
+/*
+* Github-Stats
+*/
+
 .non-following {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
   transform: translate(-10px);
+}
+
+.stat-card:nth-child(7) {
+  grid-column: span 2;
+  width: 100%;
 }
 
 .card-comment {

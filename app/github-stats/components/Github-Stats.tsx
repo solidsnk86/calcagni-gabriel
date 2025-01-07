@@ -190,7 +190,7 @@ export const GithubStats = ({
           <div
             key={item.title}
             title={`${item.title}: ${item.stat}`}
-            className={`bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 last:col-span-2 overflow-hidden text-ellipsis`}
+            className="bg-zinc-900/50 border border-foreground/5 rounded-lg p-2 last:col-span-2 overflow-hidden text-ellipsis stat-card"
           >
             <p className="text-zinc-400 text-sm line-clamp-1">{item.title}</p>
             <p className="text-violet-400 font-semibold line-clamp-1">
