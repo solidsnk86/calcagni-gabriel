@@ -57,33 +57,6 @@ export const itemsSection_4 = [
   },
 ];
 
-export const projects = [
-  {
-    name: 'Portfolio Personal',
-    img: '/Portada-Portfolio-Solid.png',
-  },
-  {
-    name: 'NeoTecs',
-    img: '/Portada-NeoTecs.png',
-  },
-  {
-    name: 'Web LLM IA',
-    img: '/Portada-Web-LLM-AI.png',
-  },
-  {
-    name: 'ChismeApp',
-    img: '/Portada-ChismeApp.png',
-  },
-  {
-    name: 'Facturador Web',
-    img: '/Portada-Formulario-Web.png',
-  },
-  {
-    name: 'Portfolio Gerardo',
-    img: '/Portada-CV-Gerardo.png',
-  },
-];
-
 export const services = [
   {
     name: 'Desarrollo Web',
@@ -134,7 +107,7 @@ export const worksProyects = [
   {
     name: 'Clean-Indent',
     url: 'https://www.npmjs.com/package/clean-indent',
-    image: '/clean-indent-screen-shoot.png',
+    image: '/clean-indent-screen-shot.png',
     type: 'Paquete NPM',
     repoName: 'clean-indent',
   },
@@ -160,8 +133,8 @@ export const worksProyects = [
     repoName: 'cv-gec',
   },
   {
-    name: 'Facturador Web',
-    url: 'https://solidsnk86.github.io/formularioWeb/',
+    name: 'App Sorteo',
+    url: 'https://solidsnk86.github.io/app-sorteo/',
     image: '/Portada-Formulario-Web.png',
     type: 'Facturación',
     repoName: 'formularioweb',

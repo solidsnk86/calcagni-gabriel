@@ -1,8 +1,8 @@
-import React from "react";
-import { Marquee } from "@/components/magic-ui/Marquee";
-import Link from "next/link";
-import { projects } from "../constants";
-import Image from "next/image";
+import React from 'react';
+import { Marquee } from '@/components/magic-ui/Marquee';
+import Link from 'next/link';
+import { worksProyects } from '../constants';
+import Image from 'next/image';
 
 const ProyectCard = ({ name, img }: { name: string; img: string }) => {
   return img && img ? (
@@ -25,11 +25,11 @@ export const ProyectsMarquee = () => {
   return (
     <div className="flex flex-col flex-wrap items-center justify-center mb-[27px]">
       <Marquee className="[--duration:30s]" flex animateX>
-        {projects.reverse().map((project) => (
+        {worksProyects.reverse().map((project) => (
           <ProyectCard
             key={project.name}
             name={project.name}
-            img={project.img}
+            img={project.image}
           />
         ))}
       </Marquee>
