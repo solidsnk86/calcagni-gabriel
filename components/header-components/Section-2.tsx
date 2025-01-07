@@ -1,7 +1,7 @@
-import React from "react";
-import { Eye, Flag, Sparkles } from "lucide-react";
-import Masonry from "react-responsive-masonry";
-import { Loader } from "../Loader";
+import React from 'react';
+import { Eye, Flag, Sparkles } from 'lucide-react';
+import Masonry from 'react-responsive-masonry';
+import { Loader } from '../Loader';
 
 export const Section_2 = ({
   visits,
@@ -21,26 +21,26 @@ export const Section_2 = ({
   const handleVisitsNumber = (num: number | string | any) => {
     if (num >= 1000) {
       const formatVisits = (num / 1000).toFixed(1);
-      return formatVisits.replace(/.0/, "") + "K";
+      return formatVisits.replace(/.0/, '') + 'K';
     }
     return num;
   };
 
   const sections = [
     {
-      name: "Proyectos",
-      quantity: 5,
+      name: 'Proyectos',
+      quantity: 6,
       icon: Flag,
     },
     {
-      name: "Visitas",
+      name: 'Visitas',
       quantity: !visits
         ? (visits = <Loader width={45} height={45} />)
-        : handleVisitsNumber(visits as string) || "0",
+        : handleVisitsNumber(visits as string) || '0',
       icon: Eye,
     },
     {
-      name: "Experiencia",
+      name: 'Experiencia',
       quantity: getExperienceYears(),
       icon: Sparkles,
     },
@@ -58,8 +58,8 @@ export const Section_2 = ({
             <div className="flex flex-col items-center text-center w-full">
               <h1 className="text-5xl font-bold text-white flex items-center">
                 {section.quantity as number}
-                {section.name !== "Experiencia" &&
-                section.name !== "Visitas" ? (
+                {section.name !== 'Experiencia' &&
+                section.name !== 'Visitas' ? (
                   <span className="text-violet-400 font-semibold text-3xl ml-1">
                     +
                   </span>
