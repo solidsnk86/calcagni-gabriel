@@ -1,4 +1,4 @@
-import { supabase } from "@/utils/supabase/client";
+import { supabase } from '@/utils/supabase/client';
 /**
  * Supabase actions
  */
@@ -23,14 +23,14 @@ export class DataModel {
 
       return data;
     } catch (err) {
-      console.error("Server error, cannot get data: ", err);
+      console.error('Server error, cannot get data: ', err);
     }
   }
 
   public static async update(id: string | number, content: object | any) {
     try {
       const { error } = await supabase
-        .from("comments")
+        .from('comments')
         .update(content)
         .match({ id });
 
@@ -39,9 +39,9 @@ export class DataModel {
       }
 
       const { data: newData, error: newError } = await supabase
-        .from("comments")
+        .from('comments')
         .select()
-        .order("created_at", { ascending: false });
+        .order('created_at', { ascending: false });
 
       if (newError) {
         throw new Error(`cannot get updated comment: ${newError.message}`);
@@ -49,15 +49,15 @@ export class DataModel {
 
       return newData;
     } catch (err) {
-      console.error("Server error, cannot update comment: ", err);
+      console.error('Server error, cannot update comment: ', err);
     }
   }
 
   public static async getLastVisit() {
     const { data, error } = await supabase
-      .from("profile_visits")
-      .select("city, province, country, created_at")
-      .order("created_at", { ascending: false })
+      .from('profile_visits')
+      .select('city, province, country, flag, created_at')
+      .order('created_at', { ascending: false })
       .limit(1);
 
     if (error) {

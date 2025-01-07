@@ -58,6 +58,7 @@ export type Setcion_4Props = {
 export type Section_5Props = {
   city: string | Promise<void>;
   country: string | Promise<void>;
+  flag: string;
   className: string;
   createdAt: string | number | Date;
 };
