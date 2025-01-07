@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { supabase } from "@/utils/supabase/client";
-import { ClientCommentForm } from "./ClientCommentForm";
-import { useState } from "react";
-import { ReviewClientCard } from "./ReviewClientCard";
-import { Section_5 } from "@/components/header-components/Section-5";
+import { supabase } from '@/utils/supabase/client';
+import { ClientCommentForm } from './ClientCommentForm';
+import { useState } from 'react';
+import { ReviewClientCard } from './ReviewClientCard';
+import { Section_5 } from '@/components/header-components/Section-5';
 
 export const CLientCommentsPage = ({
   user,
@@ -18,10 +18,10 @@ export const CLientCommentsPage = ({
 
   const handleRefresh = async () => {
     const { data: refreshedData, error } = await supabase
-      .from("comments")
-      .select("*")
-      .eq("user_name", user.user_metadata.user_name)
-      .order("created_at", { ascending: false });
+      .from('comments')
+      .select('*')
+      .eq('user_name', user.user_metadata.user_name)
+      .order('created_at', { ascending: false });
 
     if (error) {
       throw new Error(`Error to get data from supabase: ${error.message}`);
@@ -36,13 +36,13 @@ export const CLientCommentsPage = ({
     edited: boolean
   ) => {
     const { data: updatedData, error } = await supabase
-      .from("comments")
+      .from('comments')
       .update({ message: newComment, edited })
       .match({ id })
       .select();
 
     if (error) {
-      console.error("No se pudo guardar el comentario", error.message);
+      console.error('No se pudo guardar el comentario', error.message);
     } else if (updatedData) {
       setData(
         data.map(
@@ -68,8 +68,8 @@ export const CLientCommentsPage = ({
           onRefresh={handleRefresh}
         />
         {data && data.length > 0 ? (
-          <h1 className="text-center text-xl font-semibold my-4">
-            {data.length === 1 ? "Último comentario" : "Últimos comentarios"}
+          <h1 className="text-center text-xl font-semibold my-12">
+            {data.length === 1 ? 'Último comentario' : 'Últimos comentarios'}
           </h1>
         ) : null}
         <ReviewClientCard

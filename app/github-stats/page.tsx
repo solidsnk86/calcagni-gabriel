@@ -1,13 +1,13 @@
-import AuthButton from "@/components/AuthButton";
-import { createClient } from "@/utils/supabase/server";
-import { redirect } from "next/navigation";
-import Link from "next/link";
-import { CLientCommentsPage } from "./components";
-import { footerRoutes } from "@/components/constants";
-import ProfileClientAnalytics from "./components/ProfileClientAnalytics";
-import ImageUpload from "./components/ImageUploader";
-import { TitleComponent } from "@/components/ComponentTitles";
-import Image from "next/image";
+import AuthButton from '@/components/AuthButton';
+import { createClient } from '@/utils/supabase/server';
+import { redirect } from 'next/navigation';
+import Link from 'next/link';
+import { CLientCommentsPage } from './components';
+import { footerRoutes } from '@/components/constants';
+import ProfileClientAnalytics from './components/ProfileClientAnalytics';
+import ImageUpload from './components/ImageUploader';
+import { TitleComponent } from '@/components/ComponentTitles';
+import Image from 'next/image';
 
 export default async function Comments() {
   const supabase = createClient();
@@ -17,21 +17,21 @@ export default async function Comments() {
   } = await supabase.auth.getUser();
 
   if (!user) {
-    return redirect("/login");
+    return redirect('/login');
   }
 
   const { data, error } = await supabase
-    .from("comments")
-    .select("*")
-    .eq("user_name", user.user_metadata.user_name);
+    .from('comments')
+    .select('*')
+    .eq('user_name', user.user_metadata.user_name);
   if (error) {
     throw new Error(`Error to get comments: ${error.message}`);
   }
 
   const { data: profileData, error: profileError } = await supabase
-    .from("profile_visits")
-    .select("*")
-    .order("created_at", { ascending: false });
+    .from('profile_visits')
+    .select('*')
+    .order('created_at', { ascending: false });
   if (profileError) {
     throw new Error(`Error to get data from DB ${profileError.message}`);
   }
@@ -56,7 +56,7 @@ export default async function Comments() {
       </div>
 
       <section className="flex flex-col gap-6 xl:max-w-xl max-w-sm">
-        {user.user_metadata.user_name !== "solidsnk86" ? (
+        {user.user_metadata.user_name !== 'solidsnk86' ? (
           <div className="p-6 italic bg-violet-400/20 text-white text-balance rounded-xl relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -83,13 +83,13 @@ export default async function Comments() {
             <p className="text-right mt-4">Gabriel Calcagni ツ</p>
           </div>
         ) : null}
-        <TitleComponent.H2 className="text-center">
+        <TitleComponent.H2 className="text-center my-4">
           Comentario
         </TitleComponent.H2>
         <CLientCommentsPage user={user} initialData={data} />
       </section>
 
-      {user.user_metadata.user_name === "solidsnk86" ? (
+      {user.user_metadata.user_name === 'solidsnk86' ? (
         <>
           <section className="w-full flex">
             <ProfileClientAnalytics data={profileData} />
@@ -111,7 +111,7 @@ export default async function Comments() {
         </a>
         <aside className="flex gap-3 font-medium">
           {footerRoutes
-            .filter((route) => route.name !== "Comentar")
+            .filter((route) => route.name !== 'Github-stats')
             .map((link, index) => (
               <Link
                 key={index}
