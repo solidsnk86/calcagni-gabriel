@@ -125,18 +125,18 @@ export const services = [
 
 export const worksProyects = [
   {
-    name: 'ChismeApp',
-    url: 'https://gossip-app.vercel.app/',
-    image: '/Portada-ChismeApp.png',
-    type: 'Social',
-    repoName: 'gossip-app',
+    name: 'Solid Geolocation',
+    url: 'https://solid-geolocation.vercel.app/',
+    image: '/solid-geolocation-api.png',
+    type: 'Geolocation API',
+    repoName: 'geo-api',
   },
   {
-    name: 'SolidSnk86',
-    url: 'https://portfolio-mgc.vercel.app/',
-    image: '/Portada-Portfolio-Solid.png',
-    type: 'Portfolio',
-    repoName: 'portfolioweb',
+    name: 'Clean-Indent',
+    url: 'https://www.npmjs.com/package/clean-indent',
+    image: '/clean-indent-screen-shoot.png',
+    type: 'Paquete NPM',
+    repoName: 'clean-indent',
   },
   {
     name: 'NeoTecs',
