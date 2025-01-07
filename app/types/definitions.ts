@@ -1,6 +1,6 @@
-import { CSSProperties, ReactNode, ComponentProps } from "react";
+import { CSSProperties, ReactNode, ComponentProps } from 'react';
 
-type FancyButton = ComponentProps<"button">;
+type FancyButton = ComponentProps<'button'>;
 /**
  * AuthButton Props
  */
@@ -57,7 +57,6 @@ export type Setcion_4Props = {
 
 export type Section_5Props = {
   city: string | Promise<void>;
-  province: string | Promise<void>;
   country: string | Promise<void>;
   className: string;
   createdAt: string | number | Date;
