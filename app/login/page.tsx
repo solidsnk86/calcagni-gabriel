@@ -43,10 +43,9 @@ export default function Login() {
               <h2 className="text-xl font-semibold mb-4">Bienvenido!</h2>
               <p className="text-muted-foreground text-sm mb-4">
                 Con esta aplicación, puedes consultar las estadísticas de tu
-                cuenta de GitHub, incluyendo quiénes no te siguen de vuelta.
-                Además, puedes compartir opiniones, sugerencias. Inicia sesión
-                con tu cuenta de GitHub para participar y aprovechar todas las
-                funcionalidades.
+                cuenta de GitHub, incluyendo quiénes no te siguen de vuelta
+                entre otras. Además, puedes compartir opiniones y sugerencias.
+                Inicia sesión con tu cuenta de GitHub para participar.
               </p>
             </div>
 
