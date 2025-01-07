@@ -1,7 +1,7 @@
-import { createClient } from "@/utils/supabase/server";
-import Link from "next/link";
-import { redirect } from "next/navigation";
-import { AuthButtonClient } from "./AuthButtonClient";
+import { createClient } from '@/utils/supabase/server';
+import Link from 'next/link';
+import { redirect } from 'next/navigation';
+import { AuthButtonClient } from './AuthButtonClient';
 
 export default async function AuthButton() {
   const supabase = createClient();
@@ -11,14 +11,14 @@ export default async function AuthButton() {
   } = await supabase.auth.getUser();
 
   const signOut = async () => {
-    "use server";
+    'use server';
     try {
       const supabase = createClient();
       await supabase.auth.signOut();
-      return redirect("/login");
+      return redirect('/login');
     } catch (error) {
-      console.error("Sign Out error", error);
-      redirect(`/comments?=error${error}`);
+      console.error('Sign Out error', error);
+      redirect(`/github-stats?=error${error}`);
     }
   };
 
