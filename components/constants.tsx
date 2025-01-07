@@ -171,6 +171,6 @@ export const worksProyects = [
 export const footerRoutes = [
   { name: 'Inicio', link: '/' },
   { name: 'Proyectos', link: '/projects' },
-  { name: 'Comentar', link: '/comments' },
+  { name: 'Github-stats', link: '/github-stats' },
   { name: '404', link: '/404' },
 ];
