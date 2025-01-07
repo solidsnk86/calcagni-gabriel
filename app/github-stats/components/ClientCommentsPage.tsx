@@ -4,7 +4,7 @@ import { supabase } from '@/utils/supabase/client';
 import { ClientCommentForm } from './ClientCommentForm';
 import { useState } from 'react';
 import { ReviewClientCard } from './ReviewClientCard';
-import { Section_5 } from '@/components/header-components/Section-5';
+import { GithubStats } from '@/app/github-stats/components/Github-Stats';
 
 export const CLientCommentsPage = ({
   user,
@@ -79,7 +79,7 @@ export const CLientCommentsPage = ({
           onSave={handleSave}
         />
       </div>
-      <Section_5 className="mt-10" user={user.user_metadata.user_name} />
+      <GithubStats className="mt-10" user={user.user_metadata.user_name} />
     </>
   );
 };

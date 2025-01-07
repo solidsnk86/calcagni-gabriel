@@ -1,6 +1,6 @@
 import { Github } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { Format } from '../DateFormat';
+import { Format } from '../../../components/DateFormat';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -36,7 +36,7 @@ interface UserProps {
   };
 }
 
-export const Section_5 = ({
+export const GithubStats = ({
   className,
   user,
 }: {

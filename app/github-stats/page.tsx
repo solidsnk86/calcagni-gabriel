@@ -78,8 +78,8 @@ export default async function Comments() {
             Hola 👋 {user.user_metadata.full_name}! Agradezco mucho tu
             retroalimentación sobre mis proyectos. Te invito a compartir tus
             comentarios de manera respetuosa y profesional para ayudarme a
-            mejorar. Puedes ver las estadísticas de GitHub. Gracias por tu
-            tiempo!
+            mejorar. También puedes ver tus estadísticas de GitHub. Gracias por
+            tu tiempo!
             <p className="text-right mt-4">Gabriel Calcagni ツ</p>
           </div>
         ) : null}
