@@ -5,11 +5,15 @@ export async function GET(req: NextRequest) {
   const user = req.nextUrl.searchParams.get('user');
 
   if (!user) {
-    return Response.json({
-      message: 'Debes proporcionar el nombre de usuario para obtener los datos',
-      example:
-        'https://calcagni-gabriel.vercel.app/api/non-followers?user=usuario-de-github',
-    });
+    return Response.json(
+      {
+        message:
+          'Debes proporcionar el nombre de usuario para obtener los datos',
+        example:
+          'https://calcagni-gabriel.vercel.app/api/non-followers?user=usuario-de-github',
+      },
+      { status: 400 }
+    );
   }
 
   try {
