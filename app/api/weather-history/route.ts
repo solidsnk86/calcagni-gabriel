@@ -20,23 +20,28 @@ export async function GET(res: NextResponse, req: NextRequest) {
     return value - 273.15;
   };
 
-  const weatherData = await getWeatherData();
-  const temp = kelvinToCelsius({ value: weatherData.main.temp }).toFixed(1);
-  const humedity = weatherData.maon.humedity;
-  const city = weatherData.name;
-  const countryName = weatherData.sys.country;
-
   try {
-    return Response.json({
-      status: 200,
-      city_name: city,
-      country: countryName,
-      temp: temp,
-    });
+    const weatherData = await getWeatherData();
+    const temp = kelvinToCelsius({ value: weatherData.main.temp }).toFixed(1);
+    const humidity = weatherData.main.humidity;
+    const city = weatherData.name;
+    const countryName = weatherData.sys.country;
+
+    return new Response(
+      JSON.stringify({
+        status: 200,
+        city_name: city,
+        country: countryName,
+        temp: temp,
+        humidity: humidity,
+      })
+    );
   } catch (err) {
-    return Response.json({
-      status: 500,
-      message: 'Error del servidor: ' + err,
-    });
+    return new Response(
+      JSON.stringify({
+        status: 500,
+        message: 'Error del servidor: ' + err,
+      })
+    );
   }
 }
