@@ -1,12 +1,15 @@
 import { NextRequest } from 'next/server';
 import getGithubUser from '@/utils/get-github-stats';
-import { redirect } from 'next/navigation';
 
 export async function GET(req: NextRequest) {
   const user = req.nextUrl.searchParams.get('user');
 
   if (!user) {
-    return redirect('/api_example');
+    return Response.json({
+      message: 'Debes proporcionar el nombre de usuario para obtener los datos',
+      example:
+        'https://calcagni-gabriel.vercel.app/api/non-followers?user=usuario-de-github',
+    });
   }
 
   try {
@@ -54,8 +57,8 @@ export async function GET(req: NextRequest) {
       percentage: '0.0',
     };
 
-    return new Response(
-      JSON.stringify({
+    return Response.json(
+      {
         status: 'success',
         data: {
           following: dataFollowing,
@@ -70,7 +73,7 @@ export async function GET(req: NextRequest) {
           most_used_language: mostUsedLanguage,
           second_most_used: secondUsedLanguge,
         },
-      }),
+      },
       { status: 200 }
     );
   } catch (err: Error | any) {
