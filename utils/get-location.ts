@@ -77,6 +77,6 @@ export class GetLocation {
 
   static async flag() {
     const data = await this.fetchData();
-    return data.country.flag.small;
+    return data.country.flag.emoji_flag;
   }
 }

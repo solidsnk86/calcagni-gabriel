@@ -7,6 +7,7 @@ export const Section_5: React.FC<Section_5Props> = ({
   city,
   country,
   className,
+  flag,
   createdAt,
 }) => {
   return (
@@ -18,7 +19,7 @@ export const Section_5: React.FC<Section_5Props> = ({
           <MapPin className="inline mr-1 -translate-y-[4px] text-violet-400 w-5 h-[18px]" />
           Última Visita
         </p>
-        <h3 className="text-white text-lg font-bold">Desde</h3>
+        <h3 className="text-white text-lg font-bold">Desde {flag}</h3>
       </header>
       <aside className="w-[100%] relative text-center px-6">
         <p className="text-zinc-400 text-md mb-3">
