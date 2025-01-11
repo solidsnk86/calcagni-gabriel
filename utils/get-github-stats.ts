@@ -1,11 +1,11 @@
-const GITHUB_TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const headers: HeadersInit = GITHUB_TOKEN
   ? {
       Authorization: `token ${GITHUB_TOKEN}`,
-      Accept: "application/vnd.github.v3+json",
+      Accept: 'application/vnd.github.v3+json',
     }
   : {
-      Accept: "application/vnd.github.v3+json",
+      Accept: 'application/vnd.github.v3+json',
     };
 
 export default async function getGithubUser(user: string, type: string) {
@@ -27,10 +27,10 @@ export default async function getGithubUser(user: string, type: string) {
       if (data.length === 0) break;
 
       allData.push(...data);
-      const linkHeader = response.headers.get("link");
+      const linkHeader = response.headers.get('link');
 
       if (linkHeader) {
-        const links = linkHeader.split(",").map((link) => link.trim());
+        const links = linkHeader.split(',').map((link) => link.trim());
         const nextLink = links.find((link) => link.includes('rel="next"'));
         if (!nextLink) break;
       } else {

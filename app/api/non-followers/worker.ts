@@ -6,7 +6,7 @@ self.onmessage = async (event) => {
   postMessage(repoCommits);
 };
 
-const TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
+const TOKEN = process.env.GITHUB_TOKEN;
 
 const headers = {
   Authorization: `token ${TOKEN}`,
