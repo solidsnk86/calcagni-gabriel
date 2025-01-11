@@ -1,5 +1,5 @@
 import { NextRequest } from 'next/server';
-import getGithubUser from '@/utils/get-github-stats';
+import { getGithubData, getMoreData } from '@/utils/get-github-stats';
 
 export async function GET(req: NextRequest) {
   const user = req.nextUrl.searchParams.get('user');
@@ -17,11 +17,13 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const [dataFollowers, dataFollowing, dataRepos] = await Promise.all([
-      getGithubUser(user, 'followers'),
-      getGithubUser(user, 'following'),
-      getGithubUser(user, 'repos'),
-    ]);
+    const [dataFollowers, dataFollowing, dataRepos, extraData] =
+      await Promise.all([
+        getGithubData(user, 'followers'),
+        getGithubData(user, 'following'),
+        getGithubData(user, 'repos'),
+        getMoreData(user),
+      ]);
 
     const loginFollowers = new Set(dataFollowers.map((data) => data.login));
     const loginFollowings = new Set(dataFollowing.map((data) => data.login));
@@ -61,6 +63,9 @@ export async function GET(req: NextRequest) {
       percentage: '0.0',
     };
 
+    const followersCount = extraData.followers;
+    const followingCount = extraData.following;
+
     return Response.json(
       {
         status: 'success',
@@ -76,6 +81,8 @@ export async function GET(req: NextRequest) {
           used_languages: languageArray,
           most_used_language: mostUsedLanguage,
           second_most_used: secondUsedLanguge,
+          followers_count: followersCount,
+          following_count: followingCount,
         },
       },
       { status: 200 }

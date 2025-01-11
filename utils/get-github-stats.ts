@@ -8,7 +8,7 @@ const headers: HeadersInit = GITHUB_TOKEN
       Accept: 'application/vnd.github.v3+json',
     };
 
-export default async function getGithubUser(user: string, type: string) {
+async function getGithubData(user: string, type: string) {
   const url = `https://api.github.com/users/${user}/${type}`;
   let allData: Array<any> = [];
   let page = 1;
@@ -45,3 +45,13 @@ export default async function getGithubUser(user: string, type: string) {
 
   return allData;
 }
+
+async function getMoreData(user: string) {
+  const response = await fetch(`https://api.github.com/users/${user}`, {
+    headers,
+  });
+  const jsonData = await response.json();
+  return jsonData;
+}
+
+export { getGithubData, getMoreData };
