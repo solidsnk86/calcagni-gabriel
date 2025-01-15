@@ -9,7 +9,7 @@ export async function GET(req: NextRequest) {
   if (!user || !TOKEN) {
     return Response.json(
       {
-        mesnaje:
+        mensaje:
           'Debes proporcionar el nombre de usuario y tu token de github para obtener los datos',
         ejemplo:
           'https://calcagni-gabriel.vercel.app/api/non-followers?user=usuario_name&gh_token=tu_token_de_github',
