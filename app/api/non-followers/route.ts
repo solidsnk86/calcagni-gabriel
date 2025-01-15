@@ -20,18 +20,18 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const [dataFollowers, dataFollowing, dataRepos, extraData] =
+    const [dataFollowers, dataFollowing, dataRepos, extraData, results] =
       await Promise.all([
         getGithubData(user, 'followers'),
         getGithubData(user, 'following'),
         getGithubData(user, 'repos'),
         getUserData(user),
+        getGithubGraphql({
+          username: user,
+          token: TOKEN as string,
+        }),
       ]);
 
-    const results = await getGithubGraphql({
-      username: user,
-      token: TOKEN as string,
-    });
     const loginFollowers = new Set(dataFollowers.map((data) => data.login));
     const loginFollowings = new Set(dataFollowing.map((data) => data.login));
     const nonFollowers = Array.from(loginFollowings).filter(
