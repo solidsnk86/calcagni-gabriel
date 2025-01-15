@@ -33,6 +33,7 @@ interface UserProps {
     used_languages: Array<LanguagesProps>;
     most_used_language: LanguagesProps;
     second_most_used: LanguagesProps;
+    contributions: { contrib_2024: number; contrib_2025: number };
   };
 }
 
@@ -85,6 +86,10 @@ export const GithubStats = ({
     .sort()
     .reverse();
   const earnedStars = stars.reduce((acc, value) => acc + value, 0);
+  const lastYearContributions =
+    githubStats?.data?.contributions?.contrib_2024 || 'No disponible';
+  const currentYearContributions =
+    githubStats?.data?.contributions?.contrib_2025 || 'No disponible';
 
   if (isLoading) {
     return (
@@ -147,6 +152,14 @@ export const GithubStats = ({
     {
       title: 'Total Estrellas Ganadas',
       stat: earnedStars || 0,
+    },
+    {
+      title: 'Total de Commits 2024',
+      stat: lastYearContributions,
+    },
+    {
+      title: 'Total de commits 2025',
+      stat: currentYearContributions,
     },
     {
       title: 'Último Commit',
