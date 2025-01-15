@@ -48,8 +48,11 @@ export const GithubStats = ({
   const [isLoading, setIsLoading] = useState(true);
 
   const getData = async () => {
+    const token = process.env.GITHUB_TOKEN;
     try {
-      const response = await fetch(`/api/non-followers?user=${user}`);
+      const response = await fetch(
+        `/api/non-followers?user=${user}&gh_token=${token}`
+      );
       const stats = await response.json();
 
       setGithubStats(stats || []);
