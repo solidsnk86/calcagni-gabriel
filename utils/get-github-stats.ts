@@ -46,7 +46,7 @@ async function getGithubData(user: string, type: string) {
   return allData;
 }
 
-async function getMoreData(user: string) {
+async function getUserData(user: string) {
   const response = await fetch(`https://api.github.com/users/${user}`, {
     headers,
   });
@@ -54,4 +54,4 @@ async function getMoreData(user: string) {
   return jsonData;
 }
 
-export { getGithubData, getMoreData };
+export { getGithubData, getUserData };

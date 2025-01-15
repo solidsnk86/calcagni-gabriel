@@ -1,16 +1,19 @@
 import { NextRequest } from 'next/server';
-import { getGithubData, getMoreData } from '@/utils/get-github-stats';
+import { getGithubData, getUserData } from '@/utils/get-github-stats';
+import getGithubGraphql from '@/utils/get-github-graphql';
 
 export async function GET(req: NextRequest) {
   const user = req.nextUrl.searchParams.get('user');
+  const TOKEN =
+    req.nextUrl.searchParams.get('gh_token') || process.env.GITHUB_TOKEN;
 
   if (!user) {
     return Response.json(
       {
         message:
-          'Debes proporcionar el nombre de usuario para obtener los datos',
+          'Debes proporcionar el nombre de usuario para obtener los datos y tu token de github',
         example:
-          'https://calcagni-gabriel.vercel.app/api/non-followers?user=usuario-de-github',
+          'https://calcagni-gabriel.vercel.app/api/non-followers?user=usuario_name&gh_token=tu_token_de_github',
       },
       { status: 400 }
     );
@@ -22,9 +25,13 @@ export async function GET(req: NextRequest) {
         getGithubData(user, 'followers'),
         getGithubData(user, 'following'),
         getGithubData(user, 'repos'),
-        getMoreData(user),
+        getUserData(user),
       ]);
 
+    const results = await getGithubGraphql({
+      username: user,
+      token: TOKEN as string,
+    });
     const loginFollowers = new Set(dataFollowers.map((data) => data.login));
     const loginFollowings = new Set(dataFollowing.map((data) => data.login));
     const nonFollowers = Array.from(loginFollowings).filter(
@@ -83,6 +90,7 @@ export async function GET(req: NextRequest) {
           second_most_used: secondUsedLanguge,
           followers_count: followersCount,
           following_count: followingCount,
+          contributions: results,
         },
       },
       { status: 200 }

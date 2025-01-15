@@ -2,7 +2,7 @@ let url = '';
 const hook: Record<string, string> = {};
 
 export class GetLocation {
-  static async fetchData() {
+  public static async fetchData() {
     try {
       const response = await fetch(
         'https://solid-geolocation.vercel.app/location'
