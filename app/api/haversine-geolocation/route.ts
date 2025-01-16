@@ -65,6 +65,10 @@ export async function GET(req: NextRequest) {
           latitude: closestAirport.lat,
         },
         airport_distance: `${minDistance.toFixed(2)}km`,
+        current_position: {
+          latitude: lat,
+          longitude: lon,
+        },
       },
       {
         status: 200,
