@@ -40,20 +40,20 @@ export async function GET(req: NextRequest) {
 
     const getAirport = (coordinates: any, airports: any) => {
       let closestAirport = null;
-      let minMeters = Infinity;
+      let minDistance = Infinity;
 
       for (const airport of airports) {
         const meters = haversine(coordinates, airport);
 
-        if (meters < minMeters) {
-          minMeters = meters;
+        if (meters < minDistance) {
+          minDistance = meters;
           closestAirport = airport;
         }
       }
 
-      return { closestAirport, minMeters };
+      return { closestAirport, minDistance };
     };
-    const { closestAirport, minMeters } = getAirport(coords, airports);
+    const { closestAirport, minDistance } = getAirport(coords, airports);
     return Response.json(
       {
         message: 'Haversine geolocation math forlmula',
@@ -64,7 +64,7 @@ export async function GET(req: NextRequest) {
           longitude: closestAirport.lon,
           latitude: closestAirport.lat,
         },
-        airport_distance: `${minMeters.toFixed(2)}km`,
+        airport_distance: `${minDistance.toFixed(2)}km`,
       },
       {
         status: 200,
