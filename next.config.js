@@ -3,11 +3,20 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/api/non-followers",
+        source: '/api/non-followers',
         headers: [
           {
-            key: "Access-Control-Allow-Origin",
-            value: "*",
+            key: 'Access-Control-Allow-Origin',
+            value: '*',
+          },
+        ],
+      },
+      {
+        source: '/api/haversine-geolocation',
+        headers: [
+          {
+            key: 'Access-Control-Allow-Origin',
+            value: '*',
           },
         ],
       },
@@ -16,14 +25,14 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "yyqjcfzddjozcwahhugs.supabase.co",
-        pathname: "/storage/v1/object/public/upload/**",
+        protocol: 'https',
+        hostname: 'yyqjcfzddjozcwahhugs.supabase.co',
+        pathname: '/storage/v1/object/public/upload/**',
       },
       {
-        protocol: "https",
-        hostname: "avatars.githubusercontent.com",
-        pathname: "/u/**",
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+        pathname: '/u/**',
       },
     ],
   },

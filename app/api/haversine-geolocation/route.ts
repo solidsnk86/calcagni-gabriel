@@ -57,7 +57,13 @@ export async function GET(req: NextRequest) {
         },
         airport_distance: `${minMeters.toFixed(2)}km`,
       },
-      { status: 200 }
+      {
+        status: 200,
+        headers: {
+          'Content-Type': 'application/json',
+          'Cache-Control': 'max-age=3600, public',
+        },
+      }
     );
   } catch (err) {
     return Response.json({ message: 'Server Error', error_message: err });
