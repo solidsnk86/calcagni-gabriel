@@ -56,7 +56,7 @@ export async function GET(req: NextRequest) {
     const { closestAirport, minMeters } = getAirport(coords, airports);
     return Response.json(
       {
-        message: 'success',
+        message: 'Haversine geolocation math forlmula',
         city: closestAirport.city,
         country: closestAirport.country,
         airport: closestAirport.name,
