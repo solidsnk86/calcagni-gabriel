@@ -61,8 +61,8 @@ export async function GET(req: NextRequest) {
         country: closestAirport.country,
         airport: closestAirport.name,
         airport_coords: {
-          longitude: closestAirport.lon,
           latitude: closestAirport.lat,
+          longitude: closestAirport.lon,
         },
         airport_distance: `${minDistance.toFixed(2)}km`,
         current_position: {
