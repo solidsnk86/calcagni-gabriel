@@ -8,8 +8,8 @@ const getAllAirports = async () => {
   const airports = await response.json();
   const filteredData = Object.keys(airports)
     .map((key) => {
-      const { iata, name, city, country, lat, lon } = airports[key];
-      return iata ? { iata, name, city, country, lat, lon } : null;
+      const { iata, name, city, state, country, lat, lon } = airports[key];
+      return iata ? { iata, name, city, state, country, lat, lon } : null;
     })
     .filter(Boolean);
   return filteredData;
@@ -58,6 +58,7 @@ export async function GET(req: NextRequest) {
       {
         message: 'Haversine geolocation math forlmula',
         city: closestAirport.city,
+        state: closestAirport.state,
         country: closestAirport.country,
         airport: closestAirport.name,
         airport_coords: {
