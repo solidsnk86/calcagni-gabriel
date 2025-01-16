@@ -1,5 +1,5 @@
 import { haversine } from '@/utils/haversine-formula';
-import { NextRequest } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 
 const getAllAirports = async () => {
   const response = await fetch(
@@ -18,6 +18,15 @@ const getAllAirports = async () => {
 export async function GET(req: NextRequest) {
   const lat = parseFloat(req.nextUrl.searchParams.get('lat') || '0');
   const lon = parseFloat(req.nextUrl.searchParams.get('lon') || '0');
+  const response = NextResponse.next();
+
+  response.headers.set('Access-Control-Allow-Origin', '*');
+  response.headers.set('Access-Control-Allow-Methods', 'GET');
+  response.headers.set(
+    'Access-Control-Allow-Headers',
+    'Content-Type, Authorization'
+  );
+  response.headers.set('Access-Control-Max-Age', '86400');
 
   if (!lat || !lon) {
     return Response.json(
