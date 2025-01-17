@@ -14,31 +14,6 @@ export class GetLocation {
     }
   }
 
-  static async getCityFromWheaterAPI() {
-    return new Promise((resolve, reject) => {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(async (position) => {
-          const lat = position.coords.latitude;
-          const lon = position.coords.longitude;
-          url = `https://solid-geolocation.vercel.app/weather?latitude=${lat}&longitude=${lon}`;
-
-          const res = await fetch(url);
-          const data = await res.json();
-
-          hook.city = data.name;
-          hook.lat = data.coord.lat;
-          hook.lon = data.coord.lon;
-          resolve(hook);
-        }),
-          (error: Error) => {
-            reject(error.message);
-          };
-      } else {
-        reject(new Error('Geolocalización no soportada por el navegador.'));
-      }
-    });
-  }
-
   static async ip() {
     const data = await this.fetchData();
     return data.ip;
@@ -50,24 +25,24 @@ export class GetLocation {
   }
 
   static async city() {
-    const data = (await this.getCityFromWheaterAPI()) as Promise<{
-      city: string;
+    const data = (await this.fetchData()) as Promise<{
+      haversine_location: { city: string };
     }>;
-    return (await data).city;
+    return (await data).haversine_location.city;
   }
 
   static async latitude() {
-    const data = (await this.getCityFromWheaterAPI()) as Promise<{
-      lat: number | string;
+    const data = (await this.fetchData()) as Promise<{
+      coords: { latitude: number | string };
     }>;
-    return (await data).lat;
+    return (await data).coords.latitude;
   }
 
   static async longitude() {
-    const data = (await this.getCityFromWheaterAPI()) as Promise<{
-      lon: number | string;
+    const data = (await this.fetchData()) as Promise<{
+      coords: { longitude: number | string };
     }>;
-    return (await data).lon;
+    return (await data).coords.longitude;
   }
 
   static async province() {
