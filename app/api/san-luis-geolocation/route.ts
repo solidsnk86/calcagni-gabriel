@@ -1,5 +1,6 @@
 import { haversine } from '@/utils/haversine-formula';
 import { NextRequest, NextResponse } from 'next/server';
+import { json } from 'stream/consumers';
 
 const getAllCities = async () => {
   const resposne = await fetch(
@@ -33,6 +34,14 @@ const getAllCities = async () => {
   return formatJSON;
 };
 
+const getAllAntennas = async () => {
+  const resposne = await fetch(
+    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/conca-antennas.json'
+  );
+  const josnData = await resposne.json();
+  return josnData;
+};
+
 export async function GET(req: NextRequest) {
   const lat = parseFloat(req.nextUrl.searchParams.get('lat') || '0');
   const lon = parseFloat(req.nextUrl.searchParams.get('lon') || '0');
@@ -54,23 +63,28 @@ export async function GET(req: NextRequest) {
   }
   const coords = { lat, lon };
   try {
-    const getCity = (coordinates: any, allCities: any) => {
-      let closestCity = null;
+    const getClosest = (coordinates: any, allData: any) => {
+      let closestTarget = null;
       let minDistance = Infinity;
 
-      for (const city of allCities) {
+      for (const city of allData) {
         const distance = haversine(coordinates, city);
 
         if (distance < minDistance) {
           minDistance = distance;
-          closestCity = city;
+          closestTarget = city;
         }
       }
 
-      return { closestCity, minDistance };
+      return { closestTarget, minDistance };
     };
-    const cities = await getAllCities();
-    const { closestCity, minDistance } = getCity(coords, cities);
+    const [cities, antennas] = await Promise.all([
+      getAllCities(),
+      getAllAntennas(),
+    ]);
+    const { closestTarget: closestCity, minDistance: cityDistance } =
+      getClosest(coords, cities);
+    const { closestTarget, minDistance } = getClosest(coords, antennas);
     return Response.json(
       {
         city: closestCity.nombre,
@@ -80,10 +94,16 @@ export async function GET(req: NextRequest) {
           latitude: closestCity.lat,
           longitude: closestCity.lon,
         },
-        center_of_city: `${minDistance.toFixed(0)}km`,
+        center_city: `${cityDistance.toFixed(3)}km`,
         current_position: {
           latitude: lat,
           longitude: lon,
+        },
+        closest_wifi: {
+          antenna: closestTarget.name || 'Not avalaible',
+          distance: `${minDistance.toFixed(3)}km`,
+          type: closestTarget.type,
+          MAC: closestTarget.MAC,
         },
       },
       {
