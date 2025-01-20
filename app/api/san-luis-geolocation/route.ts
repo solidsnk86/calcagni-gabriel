@@ -67,12 +67,12 @@ export async function GET(req: NextRequest) {
       let closestTarget = null;
       let minDistance = Infinity;
 
-      for (const city of allData) {
-        const distance = haversine(coordinates, city);
+      for (const data of allData) {
+        const distance = haversine(coordinates, data);
 
         if (distance < minDistance) {
           minDistance = distance;
-          closestTarget = city;
+          closestTarget = data;
         }
       }
 
