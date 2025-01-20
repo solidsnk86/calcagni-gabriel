@@ -12,7 +12,7 @@ const nextConfig = {
         ],
       },
       {
-        source: '/api/haversine-geolocation',
+        source: '/api/san-luis-geolocation',
         headers: [
           {
             key: 'Access-Control-Allow-Origin',
