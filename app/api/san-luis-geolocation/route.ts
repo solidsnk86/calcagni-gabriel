@@ -111,9 +111,9 @@ export async function GET(req: NextRequest) {
       );
       return Response.json({
         searched: {
-          antenna: searchedTarget,
-          distance: `${targetDistance}km`,
-          coords: coordinates,
+          antenna: searchedTarget || 'Antena inexistente',
+          distance: `${targetDistance}km` || 'No disponible',
+          coords: coordinates || 'No disponible',
         },
       });
     }
