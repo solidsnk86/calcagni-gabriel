@@ -1,6 +1,17 @@
 import { haversine } from '@/utils/haversine-formula';
 import { NextRequest, NextResponse } from 'next/server';
-import { json } from 'stream/consumers';
+
+interface WIfiProps {
+  id: string;
+  nombre: string;
+  tipo: string;
+  departamento: string;
+  provincia: string;
+  pais: string;
+  elevacion: number;
+  lat: number;
+  lon: number;
+}
 
 const getAllCities = async () => {
   const resposne = await fetch(
@@ -36,7 +47,7 @@ const getAllCities = async () => {
 
 const getAllAntennas = async () => {
   const resposne = await fetch(
-    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-antennas.json'
+    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-antennas-sl.json'
   );
   const josnData = await resposne.json();
   return josnData;
@@ -45,6 +56,7 @@ const getAllAntennas = async () => {
 export async function GET(req: NextRequest) {
   const lat = parseFloat(req.nextUrl.searchParams.get('lat') || '0');
   const lon = parseFloat(req.nextUrl.searchParams.get('lon') || '0');
+  const query = req.nextUrl.searchParams.get('query' || '');
   const response = NextResponse.next();
 
   response.headers.set('Access-Control-Allow-Origin', '*');
@@ -63,9 +75,10 @@ export async function GET(req: NextRequest) {
   }
   const coords = { lat, lon };
   try {
-    const getClosest = (coordinates: any, allData: any) => {
+    const getClosest = (coordinates: any, allData: any, query?: any) => {
       let closestTarget = null;
       let minDistance = Infinity;
+      let searchedQuery = null;
 
       for (const data of allData) {
         const distance = haversine(coordinates, data);
@@ -74,9 +87,12 @@ export async function GET(req: NextRequest) {
           minDistance = distance;
           closestTarget = data;
         }
+        if (query === data.nombre) {
+          searchedQuery = data.nombre;
+        }
       }
 
-      return { closestTarget, minDistance };
+      return { closestTarget, minDistance, searchedQuery };
     };
     const [cities, antennas] = await Promise.all([
       getAllCities(),
@@ -84,7 +100,7 @@ export async function GET(req: NextRequest) {
     ]);
     const { closestTarget: closestCity, minDistance: cityDistance } =
       getClosest(coords, cities);
-    const { closestTarget, minDistance } = getClosest(coords, antennas);
+    const { closestTarget, minDistance } = getClosest(coords, antennas, query);
     return Response.json(
       {
         city: closestCity.nombre,
