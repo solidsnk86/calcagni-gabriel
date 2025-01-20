@@ -12,7 +12,7 @@ const nextConfig = {
         ],
       },
       {
-        source: '/api/san-luis-geolocation',
+        source: '/api/geolocation',
         headers: [
           {
             key: 'Access-Control-Allow-Origin',

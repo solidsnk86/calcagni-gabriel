@@ -1,5 +1,5 @@
 import { haversine } from '@/utils/haversine-formula';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest } from 'next/server';
 
 const getAllCities = async () => {
   const resposne = await fetch(
