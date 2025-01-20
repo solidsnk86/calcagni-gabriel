@@ -1,21 +1,9 @@
 import { haversine } from '@/utils/haversine-formula';
 import { NextRequest, NextResponse } from 'next/server';
 
-interface WIfiProps {
-  id: string;
-  nombre: string;
-  tipo: string;
-  departamento: string;
-  provincia: string;
-  pais: string;
-  elevacion: number;
-  lat: number;
-  lon: number;
-}
-
 const getAllCities = async () => {
   const resposne = await fetch(
-    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/geodata-sanluis-ar.json'
+    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/san-luis-geodata.json'
   );
   const jsonData = await resposne.json();
   const formatJSON = Object.keys(jsonData).map((key) => {
@@ -46,17 +34,22 @@ const getAllCities = async () => {
 };
 
 const getAllAntennas = async () => {
-  const resposne = await fetch(
-    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-antennas-sl.json'
-  );
-  const josnData = await resposne.json();
-  return josnData;
+  try {
+    const resposne = await fetch(
+      'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-antennas.json'
+    );
+    if (!resposne.ok) throw new Error(`Cannot get data from cdn`);
+    const josnData = await resposne.json();
+    return josnData;
+  } catch (err) {
+    console.error(err);
+  }
 };
 
 export async function GET(req: NextRequest) {
   const lat = parseFloat(req.nextUrl.searchParams.get('lat') || '0');
   const lon = parseFloat(req.nextUrl.searchParams.get('lon') || '0');
-  const query = req.nextUrl.searchParams.get('query' || '');
+  const query = req.nextUrl.searchParams.get('query' || 'WiFi3.0-CO-28');
   const response = NextResponse.next();
 
   response.headers.set('Access-Control-Allow-Origin', '*');
@@ -73,12 +66,12 @@ export async function GET(req: NextRequest) {
       { status: 400 }
     );
   }
+
   const coords = { lat, lon };
   try {
-    const getClosest = (coordinates: any, allData: any, query?: any) => {
+    const getClosest = (coordinates: any, allData: any) => {
       let closestTarget = null;
       let minDistance = Infinity;
-      let searchedQuery = null;
 
       for (const data of allData) {
         const distance = haversine(coordinates, data);
@@ -87,20 +80,51 @@ export async function GET(req: NextRequest) {
           minDistance = distance;
           closestTarget = data;
         }
-        if (query === data.nombre) {
-          searchedQuery = data.nombre;
+      }
+
+      return { closestTarget, minDistance };
+    };
+
+    const searchAntenna = (coordinates: any, allData: any, query: any) => {
+      let target = null;
+      let targetDistance = Infinity;
+      let searchedTarget = null;
+
+      for (const data of allData) {
+        const distance = haversine(coordinates, data);
+
+        if (query === data.name) {
+          searchedTarget = data.name;
+          targetDistance = Number(distance.toFixed(4));
         }
       }
 
-      return { closestTarget, minDistance, searchedQuery };
+      return { target, targetDistance, searchedTarget };
     };
+
     const [cities, antennas] = await Promise.all([
       getAllCities(),
       getAllAntennas(),
     ]);
     const { closestTarget: closestCity, minDistance: cityDistance } =
       getClosest(coords, cities);
-    const { closestTarget, minDistance } = getClosest(coords, antennas, query);
+    const { closestTarget, minDistance } = getClosest(coords, antennas);
+
+    if (query) {
+      const { target, targetDistance, searchedTarget } = searchAntenna(
+        coords,
+        antennas,
+        query
+      );
+      return Response.json({
+        searched: {
+          antenna: target,
+          distance: `${targetDistance}mts`,
+          searched: searchedTarget,
+        },
+      });
+    }
+
     return Response.json(
       {
         city: closestCity.nombre,
@@ -121,6 +145,7 @@ export async function GET(req: NextRequest) {
           type: closestTarget.type || 'N/A',
           MAC: closestTarget.MAC || 'N/A',
         },
+        q: query,
       },
       {
         status: 200,
