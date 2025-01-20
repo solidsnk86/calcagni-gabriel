@@ -100,10 +100,10 @@ export async function GET(req: NextRequest) {
           longitude: lon,
         },
         closest_wifi: {
-          antenna: closestTarget.name || 'Not avalaible',
-          distance: `${minDistance.toFixed(3)}km`,
-          type: closestTarget.type,
-          MAC: closestTarget.MAC,
+          antenna: closestTarget.name || 'N/A',
+          distance: `${minDistance.toFixed(3)}km` || 'N/A',
+          type: closestTarget.type || 'N/A',
+          MAC: closestTarget.MAC || 'N/A',
         },
       },
       {
