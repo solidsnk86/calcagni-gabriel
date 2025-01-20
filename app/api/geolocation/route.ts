@@ -36,7 +36,7 @@ const getAllCities = async () => {
 const getAllAntennas = async () => {
   try {
     const resposne = await fetch(
-      'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-antennas.json'
+      'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-antennas-sl.json'
     );
     if (!resposne.ok) throw new Error(`Cannot get data from cdn`);
     const josnData = await resposne.json();
@@ -133,12 +133,12 @@ export async function GET(req: NextRequest) {
           longitude: lon,
         },
         closest_wifi: {
+          message: 'Only for San Luis AR',
           antenna: closestTarget.name || 'N/A',
-          distance: `${minDistance.toFixed(3)}km` || 'N/A',
+          distance: `${minDistance.toFixed(3)}kms` || 'N/A',
           type: closestTarget.type || 'N/A',
           MAC: closestTarget.MAC || 'N/A',
         },
-        q: query,
       },
       {
         status: 200,
