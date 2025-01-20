@@ -18,7 +18,7 @@ export const Section_2 = ({
     return Math.max(0, Number(diffYears.toFixed(1)));
   };
 
-  const handleVisitsNumber = (num: number | string | any) => {
+  const handleVisitsNumber = (num: number) => {
     if (num >= 1000) {
       const formatVisits = (num / 1000).toFixed(1);
       return formatVisits.replace(/.0/, '') + 'K';
@@ -36,7 +36,7 @@ export const Section_2 = ({
       name: 'Visitas',
       quantity: !visits
         ? (visits = <Loader width={45} height={45} />)
-        : handleVisitsNumber(visits as string) || '0',
+        : `${handleVisitsNumber(visits)}` || '0',
       icon: Eye,
     },
     {
