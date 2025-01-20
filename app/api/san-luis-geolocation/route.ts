@@ -36,7 +36,7 @@ const getAllCities = async () => {
 
 const getAllAntennas = async () => {
   const resposne = await fetch(
-    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/conca-antennas.json'
+    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-antennas.json'
   );
   const josnData = await resposne.json();
   return josnData;
