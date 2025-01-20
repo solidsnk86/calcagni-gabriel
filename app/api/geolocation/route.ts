@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 const getAllCities = async () => {
   const resposne = await fetch(
-    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/geodata-sanluis-ar.json'
+    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/geodata-ar.json'
   );
   const jsonData = await resposne.json();
   const formatJSON = Object.keys(jsonData).map((key) => {
