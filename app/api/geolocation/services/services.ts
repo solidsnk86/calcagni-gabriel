@@ -78,15 +78,19 @@ const getClosest = (coordinates: any, allData: any) => {
   return { closestTarget, minDistance };
 };
 
-const searchAntenna = (coordinates: any, allData: any, query: any) => {
+const searchAntenna = (
+  coordinates: { lat: number; lon: number },
+  allData: any,
+  query: string
+) => {
   let targetDistance = Infinity;
   let searchedTarget = null;
   let coords = { latitude: 0, longitude: 0 };
 
   for (const data of allData) {
     const distance = haversine(coordinates, data);
-
-    if (query === data.name) {
+    const lowerCase = String(data.name).toLowerCase();
+    if (query === lowerCase) {
       searchedTarget = data.name;
       targetDistance = Number(distance.toFixed(3));
       coords.latitude = data.lat;

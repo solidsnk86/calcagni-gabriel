@@ -10,7 +10,7 @@ import {
 export async function GET(req: NextRequest) {
   const lat = parseFloat(req.nextUrl.searchParams.get('lat') || '0');
   const lon = parseFloat(req.nextUrl.searchParams.get('lon') || '0');
-  const query = req.nextUrl.searchParams.get('query');
+  const query = req.nextUrl.searchParams.get('query')?.toLowerCase();
 
   if (!lat || !lon) {
     return Response.json(
