@@ -59,7 +59,7 @@ export async function GET(req: NextRequest) {
           latitude: closestCity.lat,
           longitude: closestCity.lon,
         },
-        center_city: `${cityDistance.toFixed(3)}km` || 'N/A',
+        center_city: `${cityDistance.toFixed(3)}mts` || 'N/A',
         current_position: {
           latitude: lat,
           longitude: lon,
@@ -67,7 +67,7 @@ export async function GET(req: NextRequest) {
         closest_wifi: {
           message: 'Only for San Luis AR',
           antenna: closestTarget.name || 'N/A',
-          distance: `${minDistance.toFixed(3)}kms` || 'N/A',
+          distance: `${minDistance.toFixed(3)}mts` || 'N/A',
           type: closestTarget.type || 'N/A',
           MAC: closestTarget.MAC || 'N/A',
         },
@@ -76,7 +76,7 @@ export async function GET(req: NextRequest) {
           country: target.country,
           closest_airport: {
             airport: target.name,
-            distance: `${distance.toFixed(3)}kms` || 'N/A',
+            distance: `${distance.toFixed(3)}mts` || 'N/A',
           },
         },
       },
