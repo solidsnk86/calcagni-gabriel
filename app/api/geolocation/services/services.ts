@@ -2,7 +2,7 @@ import { haversine } from '@/utils/haversine-formula';
 
 const getAllCities = async () => {
   const resposne = await fetch(
-    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/geodata-ar.json'
+    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/geodata-arg.json'
   );
   const jsonData = await resposne.json();
   const formatJSON = Object.keys(jsonData).map((key) => {
@@ -30,6 +30,23 @@ const getAllCities = async () => {
     };
   });
   return formatJSON;
+};
+
+const getAllAirports = async () => {
+  const response = await fetch(
+    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/world-airports.json'
+  );
+  const data = await response.json();
+  const formattedData = Object.keys(data)
+    .map((key) => {
+      const { iata, name, city, state, country, elevation, lat, lon } =
+        data[key];
+      return iata
+        ? { iata, name, city, state, country, elevation, lat, lon }
+        : null;
+    })
+    .filter(Boolean);
+  return formattedData;
 };
 
 const getAllAntennas = async () => {
@@ -80,4 +97,10 @@ const searchAntenna = (coordinates: any, allData: any, query: any) => {
   return { targetDistance, searchedTarget, coordinates };
 };
 
-export { getAllCities, getAllAntennas, getClosest, searchAntenna };
+export {
+  getAllCities,
+  getAllAntennas,
+  getAllAirports,
+  getClosest,
+  searchAntenna,
+};

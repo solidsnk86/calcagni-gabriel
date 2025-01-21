@@ -4,6 +4,7 @@ import {
   getAllAntennas,
   getClosest,
   searchAntenna,
+  getAllAirports,
 } from './services/services';
 
 export async function GET(req: NextRequest) {
@@ -20,13 +21,19 @@ export async function GET(req: NextRequest) {
 
   const coords = { lat, lon };
   try {
-    const [cities, antennas] = await Promise.all([
+    const [cities, antennas, airports] = await Promise.all([
       getAllCities(),
       getAllAntennas(),
+      getAllAirports(),
     ]);
+
     const { closestTarget: closestCity, minDistance: cityDistance } =
       getClosest(coords, cities);
     const { closestTarget, minDistance } = getClosest(coords, antennas);
+    const { closestTarget: target, minDistance: distance } = getClosest(
+      coords,
+      airports
+    );
 
     if (query) {
       const { targetDistance, searchedTarget, coordinates } = searchAntenna(
@@ -52,7 +59,7 @@ export async function GET(req: NextRequest) {
           latitude: closestCity.lat,
           longitude: closestCity.lon,
         },
-        center_city: `${cityDistance.toFixed(3)}km`,
+        center_city: `${cityDistance.toFixed(3)}km` || 'N/A',
         current_position: {
           latitude: lat,
           longitude: lon,
@@ -63,6 +70,14 @@ export async function GET(req: NextRequest) {
           distance: `${minDistance.toFixed(3)}kms` || 'N/A',
           type: closestTarget.type || 'N/A',
           MAC: closestTarget.MAC || 'N/A',
+        },
+        international_location: {
+          city: target.state,
+          country: target.country,
+          closest_airport: {
+            airport: target.name,
+            distance: `${distance.toFixed(3)}kms` || 'N/A',
+          },
         },
       },
       {
