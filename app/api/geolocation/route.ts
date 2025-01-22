@@ -36,16 +36,14 @@ export async function GET(req: NextRequest) {
     );
 
     if (query) {
-      const { targetDistance, searchedTarget, coordinates } = searchAntenna(
-        coords,
-        antennas,
-        query
-      );
+      const { targetDistance, searchedTarget, coordinates, mac } =
+        searchAntenna(coords, antennas, query);
       return Response.json({
         searched: {
           antenna: searchedTarget || 'Antena inexistente',
           distance: `${targetDistance}km` || 'No disponible',
           coords: coordinates || 'No disponible',
+          MAC: mac,
         },
       });
     }

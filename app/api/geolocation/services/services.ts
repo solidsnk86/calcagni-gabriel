@@ -52,7 +52,7 @@ const getAllAirports = async () => {
 const getAllAntennas = async () => {
   try {
     const resposne = await fetch(
-      'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-sl-antennas.json'
+      'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-sl.json'
     );
     if (!resposne.ok) throw new Error(`Cannot get data from cdn`);
     const josnData = await resposne.json();
@@ -86,6 +86,7 @@ const searchAntenna = (
   let targetDistance = Infinity;
   let searchedTarget = null;
   let coords = { latitude: 0, longitude: 0 };
+  let mac = null;
 
   for (const data of allData) {
     const distance = haversine(coordinates, data);
@@ -95,10 +96,11 @@ const searchAntenna = (
       targetDistance = Number(distance.toFixed(3));
       coords.latitude = data.lat;
       coords.longitude = data.lon;
+      mac = data.MAC;
     }
   }
 
-  return { targetDistance, searchedTarget, coordinates };
+  return { targetDistance, searchedTarget, coordinates, mac };
 };
 
 export {
