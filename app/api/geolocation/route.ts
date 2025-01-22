@@ -35,6 +35,8 @@ export async function GET(req: NextRequest) {
       airports
     );
 
+    const writeMAC = (address: string) => address.split(' ').join('-');
+
     const {
       targetDistance,
       searchedTarget,
@@ -77,7 +79,7 @@ export async function GET(req: NextRequest) {
           distance: `${minDistance.toFixed(3)}mts` || 'N/A',
           type: closestTarget.type || 'N/A',
           MAC: closestTarget.MAC || 'N/A',
-          MAC5G: mac5 !== null ? mac5 : 'MAC 5G no disponible',
+          MAC5G: closestTarget.MAC5G || 'N/A',
         },
         airport_location: {
           city: target.state,
