@@ -79,7 +79,7 @@ export async function GET(req: NextRequest) {
           distance: `${minDistance.toFixed(3)}mts` || 'N/A',
           type: closestTarget.type || 'N/A',
           MAC: closestTarget.MAC || 'N/A',
-          MAC5G: closestTarget.MAC5G || 'N/A',
+          MAC5G: closestTarget.MAC5g || 'N/A',
         },
         airport_location: {
           city: target.state,
