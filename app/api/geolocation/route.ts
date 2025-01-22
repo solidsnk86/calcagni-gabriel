@@ -45,16 +45,14 @@ export async function GET(req: NextRequest) {
         mac5,
       } = searchAntenna(coords, antennas, query);
       return Response.json({
-        searched: {
-          antenna: {
-            name: searchedTarget || 'Antena inexistente',
-            name5g: searchedTarget5g,
-          },
-          distance: `${targetDistance}km` || 'No disponible',
-          coords: coordinates || 'No disponible',
-          MAC: mac !== null ? mac : 'MAC no disponible',
-          MAC5G: mac5 !== null ? mac : 'MAC 5G no disponible',
+        antenna: {
+          name: searchedTarget || 'Antena inexistente',
+          name5g: searchedTarget5g,
         },
+        distance: `${targetDistance}km` || 'No disponible',
+        coords: coordinates || 'No disponible',
+        MAC: mac !== null ? mac : 'MAC no disponible',
+        MAC5G: mac5 !== null ? mac : 'MAC 5G no disponible',
       });
     }
 
