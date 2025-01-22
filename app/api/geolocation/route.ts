@@ -49,7 +49,7 @@ export async function GET(req: NextRequest) {
           name: searchedTarget || 'Antena inexistente',
           name5g: searchedTarget5g,
         },
-        distance: `${targetDistance}km` || 'No disponible',
+        distance: `${targetDistance}mts` || 'No disponible',
         coords: coordinates || 'No disponible',
         MAC: mac !== null ? mac : 'MAC no disponible',
         MAC5G: mac5 !== null ? mac : 'MAC 5G no disponible',
