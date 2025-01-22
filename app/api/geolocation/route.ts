@@ -52,8 +52,8 @@ export async function GET(req: NextRequest) {
         },
         distance: `${targetDistance}mts` || 'No disponible',
         coords: coordinates || 'No disponible',
-        MAC: mac !== null ? mac : 'MAC no disponible',
-        MAC5G: mac5 !== null ? mac5 : 'MAC 5G no disponible',
+        MAC: mac || 'MAC no disponible',
+        MAC5G: mac5 || 'MAC 5G no disponible',
       });
     }
 
