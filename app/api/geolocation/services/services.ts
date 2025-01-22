@@ -101,7 +101,7 @@ const searchAntenna = (
       coords.latitude = data.lat;
       coords.longitude = data.lon;
       mac = data.MAC;
-      mac5 = data.MAC5g;
+      mac5 = data.MAC5G;
     }
   }
 
