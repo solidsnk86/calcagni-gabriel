@@ -85,6 +85,7 @@ const searchAntenna = (
 ) => {
   let targetDistance = Infinity;
   let searchedTarget = null;
+  let searchedTarget5g = null;
   let coords = { latitude: 0, longitude: 0 };
   let mac = null;
   let mac5 = null;
@@ -94,15 +95,23 @@ const searchAntenna = (
     const lowerCase = String(data.name).toLowerCase();
     if (query === lowerCase) {
       searchedTarget = data.name;
+      searchedTarget5g = data.name5g;
       targetDistance = Number(distance.toFixed(3));
       coords.latitude = data.lat;
       coords.longitude = data.lon;
       mac = data.MAC;
-      mac5 = data?.MAC5g ? data.MAC5g : null;
+      mac5 = data.MAC5g;
     }
   }
 
-  return { targetDistance, searchedTarget, coordinates, mac, mac5 };
+  return {
+    targetDistance,
+    searchedTarget,
+    searchedTarget5g,
+    coordinates,
+    mac,
+    mac5,
+  };
 };
 
 export {
