@@ -94,7 +94,7 @@ const searchAntenna = (
     const distance = haversine(coordinates, data);
     const nameA = String(data.name).toLowerCase();
     const nameB = String(data.name5g).toLowerCase();
-    if (query === nameA && query === nameB) {
+    if (query === nameA || query === nameB) {
       searchedTarget = data.name;
       searchedTarget5g = data.name5g;
       targetDistance = Number(distance.toFixed(3));
