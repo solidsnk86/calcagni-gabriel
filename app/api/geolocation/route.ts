@@ -70,7 +70,7 @@ export async function GET(req: NextRequest) {
           type: closestTarget.type || 'N/A',
           MAC: closestTarget.MAC || 'N/A',
         },
-        international_location: {
+        airport_location: {
           city: target.state,
           country: target.country,
           closest_airport: {
