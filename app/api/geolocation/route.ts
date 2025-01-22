@@ -36,7 +36,7 @@ export async function GET(req: NextRequest) {
     );
 
     if (query) {
-      const { targetDistance, searchedTarget, coordinates, mac } =
+      const { targetDistance, searchedTarget, coordinates, mac, mac5 } =
         searchAntenna(coords, antennas, query);
       return Response.json({
         searched: {
@@ -44,6 +44,7 @@ export async function GET(req: NextRequest) {
           distance: `${targetDistance}km` || 'No disponible',
           coords: coordinates || 'No disponible',
           MAC: mac,
+          MAC5g: mac5,
         },
       });
     }

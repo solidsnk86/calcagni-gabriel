@@ -87,6 +87,7 @@ const searchAntenna = (
   let searchedTarget = null;
   let coords = { latitude: 0, longitude: 0 };
   let mac = null;
+  let mac5 = null;
 
   for (const data of allData) {
     const distance = haversine(coordinates, data);
@@ -97,10 +98,11 @@ const searchAntenna = (
       coords.latitude = data.lat;
       coords.longitude = data.lon;
       mac = data.MAC;
+      mac5 = data?.MAC5g ? data.MAC5g : null;
     }
   }
 
-  return { targetDistance, searchedTarget, coordinates, mac };
+  return { targetDistance, searchedTarget, coordinates, mac, mac5 };
 };
 
 export {
