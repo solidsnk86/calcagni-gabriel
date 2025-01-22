@@ -35,15 +35,16 @@ export async function GET(req: NextRequest) {
       airports
     );
 
+    const {
+      targetDistance,
+      searchedTarget,
+      searchedTarget5g,
+      coordinates,
+      mac,
+      mac5,
+    } = searchAntenna(coords, antennas, query as string);
+
     if (query) {
-      const {
-        targetDistance,
-        searchedTarget,
-        searchedTarget5g,
-        coordinates,
-        mac,
-        mac5,
-      } = searchAntenna(coords, antennas, query);
       return Response.json({
         antenna: {
           name: searchedTarget || 'Antena inexistente',
@@ -76,6 +77,7 @@ export async function GET(req: NextRequest) {
           distance: `${minDistance.toFixed(3)}mts` || 'N/A',
           type: closestTarget.type || 'N/A',
           MAC: closestTarget.MAC || 'N/A',
+          MAC5G: mac5 !== null ? mac : 'MAC 5G no disponible',
         },
         airport_location: {
           city: target.state,
