@@ -52,7 +52,7 @@ const getAllAirports = async () => {
 const getAllAntennas = async () => {
   try {
     const resposne = await fetch(
-      'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-sl-antennas.json'
+      'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-sl.json'
     );
     if (!resposne.ok) throw new Error(`Cannot get data from cdn`);
     const josnData = await resposne.json();
