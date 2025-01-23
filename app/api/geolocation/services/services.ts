@@ -51,11 +51,11 @@ const getAllAirports = async () => {
 
 const getAllAntennas = async () => {
   try {
-    const resposne = await fetch(
+    const response = await fetch(
       'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-sl.json'
     );
-    if (!resposne.ok) throw new Error(`Cannot get data from cdn`);
-    const josnData = await resposne.json();
+    if (!response.ok) throw new Error(`Cannot get data from cdn`);
+    const josnData = await response.json();
     return josnData;
   } catch (err) {
     console.error(err);
