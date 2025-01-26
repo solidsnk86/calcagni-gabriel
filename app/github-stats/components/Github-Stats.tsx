@@ -48,7 +48,7 @@ export const GithubStats = ({
   const [isLoading, setIsLoading] = useState(true);
 
   const getData = async () => {
-    const token = process.env.GITHUB_TOKEN;
+    const token = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
     try {
       const response = await fetch(
         `/api/non-followers?user=${user}&gh_token=${token}`
@@ -70,19 +70,19 @@ export const GithubStats = ({
   const followersCount = githubStats?.data?.followers?.length || 0;
   const followingCount = githubStats?.data?.following?.length || 0;
   const mostUsedLanguage =
-    githubStats?.data.most_used_language.name || 'No disponible';
+    githubStats?.data?.most_used_language?.name || 'No disponible';
   const secondMostUsedLanguage =
-    githubStats?.data.second_most_used?.name || 'No disponible';
+    githubStats?.data?.second_most_used?.name || 'No disponible';
   const percentage =
-    Number(githubStats?.data.most_used_language.percentage) || 0;
-  const publicRepos = githubStats?.data.repos.length;
-  const repos = githubStats?.data.repos || [];
+    Number(githubStats?.data?.most_used_language?.percentage) || 0;
+  const publicRepos = githubStats?.data?.repos.length;
+  const repos = githubStats?.data?.repos || [];
   const stars = repos.map((repo) => repo.stargazers_count);
   const maxRepoStar = Math.max(...stars);
   const repoWithMoreStars = repos.find(
     (repo) => repo.stargazers_count === maxRepoStar
   );
-  const nonFollowingUsers = githubStats?.data.non_following?.users || [];
+  const nonFollowingUsers = githubStats?.data?.non_following?.users || [];
   const nonFollowingAvatars = githubStats?.data?.non_following?.avatar || [];
   const lastCommitRepos = repos
     .map((repo) => repo.updated_at)
