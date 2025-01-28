@@ -64,6 +64,7 @@ export async function GET(req: NextRequest) {
         city: closestCity.nombre,
         state: closestCity.provincia,
         country: closestCity.pais,
+        departament: closestCity.departamento,
         city_coords: {
           latitude: closestCity.lat,
           longitude: closestCity.lon,
