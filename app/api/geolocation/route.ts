@@ -75,6 +75,7 @@ export async function GET(req: NextRequest) {
         closest_wifi: {
           message: 'Only for San Luis AR',
           antenna: closestTarget.name || 'N/A',
+          name: closestTarget.name5g || 'N/A',
           distance: `${minDistance.toFixed(3)}mts` || 'N/A',
           type: closestTarget.type || 'N/A',
           MAC: closestTarget.MAC || 'N/A',
