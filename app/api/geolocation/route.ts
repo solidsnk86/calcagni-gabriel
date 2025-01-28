@@ -35,8 +35,6 @@ export async function GET(req: NextRequest) {
       airports
     );
 
-    const writeMAC = (address: string) => address.split(' ').join('-');
-
     const {
       targetDistance,
       searchedTarget,
