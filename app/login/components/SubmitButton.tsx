@@ -1,20 +1,15 @@
 'use client';
 
 import { useFormStatus } from 'react-dom';
-import { FancyButton } from '@/components/magic-ui/FancyButton';
 import { Loader } from '@/components/Loader';
 
 export function SubmitButton() {
   const { pending } = useFormStatus();
 
   return (
-    <FancyButton
+    <button
       className="bg-btn-background rounded-md py-2 px-4 text-foreground mb-2 flex items-center justify-center hover:bg-btn-background-hover transition-all duration-300 border border-foreground/20"
       type="submit"
-      radius={6}
-      duration={2.6}
-      inset={1}
-      fancyColor="#A78BFA"
       disabled={pending}
     >
       <span className="flex items-center">
@@ -32,6 +27,6 @@ export function SubmitButton() {
         )}
         {pending ? 'Ingresando...' : 'Continuar con GitHub'}
       </span>
-    </FancyButton>
+    </button>
   );
 }
