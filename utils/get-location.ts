@@ -26,9 +26,9 @@ export class GetLocation {
 
   static async city() {
     const data = (await this.fetchData()) as Promise<{
-      haversine_location: { city: string };
+      city: { name: string };
     }>;
-    return (await data).haversine_location.city;
+    return (await data).city.name;
   }
 
   static async latitude() {
@@ -45,13 +45,8 @@ export class GetLocation {
     return (await data).coords.longitude;
   }
 
-  static async province() {
-    const data = await this.fetchData();
-    return data.city.name;
-  }
-
   static async flag() {
     const data = await this.fetchData();
-    return data.country.flag.emoji_flag;
+    return data.country.emojiFlag;
   }
 }
