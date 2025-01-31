@@ -8,7 +8,6 @@ import { useIsClient } from '@/app/hooks/useIsClient';
 import { Section_3 } from './main-section/Section-3';
 import { Section_4 } from './main-section/Section-4';
 import { useEffect, useState } from 'react';
-import { GetLocation } from '../utils/get-location';
 import { Section_5 } from './main-section/Section-5';
 import { DataModel } from '@/app/lib/actions';
 
