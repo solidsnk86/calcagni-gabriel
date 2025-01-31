@@ -1,6 +1,3 @@
-let url = '';
-const hook: Record<string, string> = {};
-
 export class GetLocation {
   public static async fetchData() {
     try {
@@ -15,13 +12,15 @@ export class GetLocation {
   }
 
   static async ip() {
-    const data = await this.fetchData();
-    return data.ip;
+    const data = (await this.fetchData()) as Promise<{ ip: string | number }>;
+    return (await data).ip;
   }
 
   static async country() {
-    const data = await this.fetchData();
-    return data.country.name;
+    const data = (await this.fetchData()) as Promise<{
+      country: { name: string };
+    }>;
+    return (await data).country.name;
   }
 
   static async city() {
@@ -46,7 +45,9 @@ export class GetLocation {
   }
 
   static async flag() {
-    const data = await this.fetchData();
-    return data.country.emojiFlag;
+    const data = (await this.fetchData()) as Promise<{
+      country: { emojiFlag: string };
+    }>;
+    return (await data).country.emojiFlag;
   }
 }
