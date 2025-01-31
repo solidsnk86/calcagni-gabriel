@@ -1,16 +1,15 @@
-"use client";
+'use client';
 
-import { ArrowLeft, ArrowRight, CameraIcon, ImageIcon } from "lucide-react";
-import { useEffect, useState } from "react";
-import { Setcion_4PropsOptional } from "@/app/types/definitions";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, EffectCards, Keyboard } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
-import Image from "next/image";
-import { supabase } from "@/utils/supabase/client";
+import { ArrowLeft, ArrowRight, CameraIcon, ImageIcon } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, EffectCards, Keyboard } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import Image from 'next/image';
+import { supabase } from '@/utils/supabase/client';
 
-export const Section_4 = ({ className }: Setcion_4PropsOptional) => {
+export const Section_4 = ({ className }: { className: string }) => {
   const [value, setValue] = useState<number>(0);
   const [media, setMedia] = useState<Array<any>>([]);
   const [error, setError] = useState<Error | null>(null);
@@ -24,13 +23,13 @@ export const Section_4 = ({ className }: Setcion_4PropsOptional) => {
     setIsLoading(true);
     try {
       const { data, error } = await supabase.storage
-        .from("upload")
-        .list("2334c6e1-adb2-4738-b786-e32570d9318e" + "/", {
+        .from('upload')
+        .list('2334c6e1-adb2-4738-b786-e32570d9318e' + '/', {
           limit: 10,
           offset: 0,
           sortBy: {
-            column: "name",
-            order: "asc",
+            column: 'name',
+            order: 'asc',
           },
         });
 
@@ -121,7 +120,7 @@ export const Section_4 = ({ className }: Setcion_4PropsOptional) => {
           <ArrowLeft />
         </button>
         <small className="-translate-y">
-          {media?.length > 0 ? `${value + 1} de ${media.length}` : "0 de 0"}
+          {media?.length > 0 ? `${value + 1} de ${media.length}` : '0 de 0'}
         </small>
         <button
           className="swiper-button-next mx-4 -translate-y-3 p-[2px] bg-zinc-800 hover:bg-zinc-700 transition-colors border border-zinc-700 rounded-full disabled:cursor-not-allowed"
@@ -133,14 +132,14 @@ export const Section_4 = ({ className }: Setcion_4PropsOptional) => {
       </div>
       <aside className="w-[100%] relative text-center">
         <Swiper
-          effect={"cards"}
+          effect={'cards'}
           grabCursor={true}
           modules={[EffectCards, Keyboard, Navigation, Pagination]}
           pagination={{ clickable: true }}
           keyboard={{ enabled: true }}
           navigation={{
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
           }}
           onSlideChange={handleSlideChange}
           className="mySwiper"

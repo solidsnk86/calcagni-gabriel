@@ -16,7 +16,6 @@ export default function Main() {
   const mobile = useMatchMedia('(max-width: 700px)', true);
   const isClient = useIsClient();
   const [comments, setComments] = useState<any>([]);
-  const [location, setLocation] = useState<any>({});
   const [lastVisit, setLastVisit] = useState<any>([]);
   const [delayed, setDelayed] = useState(mobile);
 
@@ -32,10 +31,6 @@ export default function Main() {
     fetchComments();
   }, []);
 
-  useEffect(() => {
-    getLocation();
-  }, []);
-
   const fetchComments = async () => {
     try {
       const data = await DataModel.getData('comments', '*');
@@ -47,18 +42,6 @@ export default function Main() {
 
     const visitsData = await DataModel.getLastVisit();
     setLastVisit(visitsData[0]);
-  };
-
-  const getLocation = async () => {
-    const dataLocation = {
-      ip: await GetLocation.ip(),
-      city: await GetLocation.city(),
-      country: await GetLocation.country(),
-      province: await GetLocation.province(),
-      flag: await GetLocation.flag(),
-    };
-
-    setLocation(dataLocation);
   };
 
   return (
@@ -77,13 +60,7 @@ export default function Main() {
                 data={comments && comments}
                 className={mobile ? 'w-[100%]' : 'w-[60%]'}
               />
-              <Section_4
-                city={location.city}
-                country={location.country}
-                province={location.province}
-                flag={location.flag}
-                className={mobile ? 'w-[100%]' : 'w-[40%]'}
-              />
+              <Section_4 className={mobile ? 'w-[100%]' : 'w-[40%]'} />
             </div>
             <Section_5
               city={lastVisit.city}

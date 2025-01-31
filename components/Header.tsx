@@ -1,20 +1,20 @@
-"use client";
+'use client';
 
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import { useIsClient } from "@/app/hooks/useIsClient";
-import useMatchMedia from "@/app/hooks/useMatchMedia";
-import { Section_4 } from "@/components/header-components/Section-4";
-import { Section_3 } from "@/components/header-components/Section-3";
-import { Section_2 } from "@/components/header-components/Section-2";
-import { Section_1 } from "@/components/header-components/Section-1";
-import { supabase } from "@/utils/supabase/client";
-import { useEffect, useState } from "react";
-import { GetLocation } from "@/utils/get-location";
+import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import { useIsClient } from '@/app/hooks/useIsClient';
+import useMatchMedia from '@/app/hooks/useMatchMedia';
+import { Section_4 } from '@/components/header-components/Section-4';
+import { Section_3 } from '@/components/header-components/Section-3';
+import { Section_2 } from '@/components/header-components/Section-2';
+import { Section_1 } from '@/components/header-components/Section-1';
+import { supabase } from '@/utils/supabase/client';
+import { useEffect, useState } from 'react';
+import { GetLocation } from '@/utils/get-location';
 
 export default function Header() {
   const isClient = useIsClient();
-  const mobile = useMatchMedia("(max-width: 700px)", false);
-  const [visits, setVisits] = useState<number | null>(null);
+  const mobile = useMatchMedia('(max-width: 700px)', false);
+  const [visits, setVisits] = useState<number | string>();
   const [delayed, setDelayed] = useState(mobile);
 
   useEffect(() => {
@@ -33,27 +33,26 @@ export default function Header() {
     const objectData = {
       ip: await GetLocation.ip(),
       city: await GetLocation.city(),
-      province: await GetLocation.province(),
       country: await GetLocation.country(),
       flag: await GetLocation.flag(),
     };
 
     try {
       const { data: visitsData, error: visitsError } = await supabase
-        .from("profile_visits")
-        .select("id, ip")
+        .from('profile_visits')
+        .select('id, ip')
         .limit(1)
-        .order("id", { ascending: false });
+        .order('id', { ascending: false });
 
       if (visitsError) {
         throw new Error(`Cannot get data from db: ${visitsError.message}`);
       }
 
-      const lastVisit = visitsData?.[0];
+      const lastVisit = visitsData[0];
 
       if (lastVisit.ip !== objectData.ip) {
         const { error: insertError } = await supabase
-          .from("profile_visits")
+          .from('profile_visits')
           .insert(objectData);
 
         if (insertError) {
@@ -65,7 +64,7 @@ export default function Header() {
 
       setVisits(lastVisit.id);
     } catch (error) {
-      console.error("Error sending data location:", error);
+      console.error('Error sending data location:', error);
     }
   };
 
@@ -79,14 +78,14 @@ export default function Header() {
           className="my-3"
         >
           {mobile ? (
-            <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>
+            <Masonry gutter={mobile ? '0.5rem' : '0.8rem'}>
               <Section_4 />
               <Section_2 visits={visits} />
               <Section_3 />
               <Section_1 />
             </Masonry>
           ) : (
-            <Masonry gutter={mobile ? "0.5rem" : "0.8rem"}>
+            <Masonry gutter={mobile ? '0.5rem' : '0.8rem'}>
               <Section_1 />
               <Section_2 visits={visits} />
               <Section_4 />
