@@ -37,10 +37,7 @@ const LogoutButton = ({ mobile }: { mobile: boolean }) => {
   );
 };
 
-export const AuthButtonClient: React.FC<AuthButtonProps> = ({
-  signOut,
-  user,
-}) => {
+export const AuthButtonClient = ({ signOut, user }: AuthButtonProps) => {
   const mobile = useMatchMedia('(max-width: 700px)', false);
 
   return (
