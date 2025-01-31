@@ -83,7 +83,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
               Últimas 20 visitas
             </TitleComponent.H4>
 
-            <div className="h-[400px] overflow-y-auto border border-foreground/10">
+            <div className="h-[400px] overflow-y-auto border border-foreground/10 custom-scroll">
               {data.slice(0, 20).map((d: any, index: number) => (
                 <div
                   key={index}

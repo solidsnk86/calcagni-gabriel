@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { TitleComponent } from "@/components/ComponentTitles";
-import { Loader } from "@/components/Loader";
-import { supabase } from "@/utils/supabase/client";
-import { Trash2 } from "lucide-react";
-import Image from "next/image";
-import { useState, useEffect } from "react";
-import { v4 as uuidv4 } from "uuid";
+import { TitleComponent } from '@/components/ComponentTitles';
+import { Loader } from '@/components/Loader';
+import { supabase } from '@/utils/supabase/client';
+import { Trash2 } from 'lucide-react';
+import Image from 'next/image';
+import { useState, useEffect } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 export default function ImageUpload({ userId }: { userId: string | number }) {
   const [media, setMedia] = useState<Array<any>>([]);
@@ -21,8 +21,8 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
     setLoading(true);
 
     const { data, error } = await supabase.storage
-      .from("upload")
-      .upload(userId + "/" + uuidv4(), file);
+      .from('upload')
+      .upload(userId + '/' + uuidv4(), file);
 
     if (data) {
       setLoading(false);
@@ -35,13 +35,13 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
 
   async function getMedia() {
     const { data, error } = await supabase.storage
-      .from("upload")
-      .list(userId + "/", {
+      .from('upload')
+      .list(userId + '/', {
         limit: 10,
         offset: 0,
         sortBy: {
-          column: "name",
-          order: "asc",
+          column: 'name',
+          order: 'asc',
         },
       });
 
@@ -56,7 +56,7 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
     setLoading(true);
     try {
       const { error } = await supabase.storage
-        .from("upload")
+        .from('upload')
         .remove([`${userId}/${fileName}`]);
 
       if (error) {
@@ -99,7 +99,7 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
         )}
       </div>
 
-      <div className="xl:max-w-2xl xl:w-[672px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="xl:max-w-2xl xl:w-[672px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 image-uploader">
         {media.length === 0 ? (
           <Loader
             className="flex justify-center mx-auto my-6 left-1/2"
