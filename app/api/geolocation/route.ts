@@ -71,7 +71,7 @@ export async function GET(req: NextRequest) {
           latitude: closestCity.lat,
           longitude: closestCity.lon,
         },
-        center_city: `${cityDistance.toFixed(3)}mts` || 'No disponible',
+        center_distance: `${cityDistance.toFixed(3)}mts` || 'No disponible',
         current_position: {
           latitude: lat,
           longitude: lon,
