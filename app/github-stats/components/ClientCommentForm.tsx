@@ -1,23 +1,23 @@
-"use client";
+'use client';
 
-import { supabase } from "@/utils/supabase/client";
-import z from "zod";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { ChangeEvent, useState } from "react";
-import { GetLocation } from "@/utils/get-location";
-import { ClientFormProps } from "@/app/types/definitions";
+import { supabase } from '@/utils/supabase/client';
+import z from 'zod';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { ChangeEvent, useState } from 'react';
+import { GetLocation } from '@/utils/get-location';
+import { ClientFormProps } from '@/app/types/definitions';
 
 const formSchema = z.object({
   comment: z
     .string()
-    .min(10, { message: "El comentario debe tener al menos 10 caracteres" })
+    .min(10, { message: 'El comentario debe tener al menos 10 caracteres' })
     .max(260, {
-      message: "El comentario no debe exceder un máximo de 260 caracteres",
+      message: 'El comentario no debe exceder un máximo de 260 caracteres',
     })
-    .refine((val) => !val.includes("<script>"), {
+    .refine((val) => !val.includes('<script>'), {
       message:
-        "No se permiten scripts, HTML o cualquier otra cosa que pueda ser maliciosa",
+        'No se permiten scripts, HTML o cualquier otra cosa que pueda ser maliciosa',
     }),
 });
 
@@ -44,11 +44,10 @@ export const ClientCommentForm = ({
   const [wordsCount, setWordsCount] = useState(0);
 
   const formSubmit = async (formData: FormData) => {
-    const { error } = await supabase.from("comments").insert([
+    const { error } = await supabase.from('comments').insert([
       {
         ip: await GetLocation.ip(),
         city: await GetLocation.city(),
-        province: await GetLocation.province(),
         country: await GetLocation.country(),
         flag: await GetLocation.flag(),
         message: formData.comment,
@@ -58,7 +57,7 @@ export const ClientCommentForm = ({
       },
     ]);
     if (error) {
-      console.error("Error al envair comentario: ", error);
+      console.error('Error al envair comentario: ', error);
     }
     await onRefresh();
     setCharCount(0);
@@ -70,7 +69,7 @@ export const ClientCommentForm = ({
   const handleInput = (e: ChangeEvent<HTMLTextAreaElement>) => {
     const text = e.target.value;
     setCharCount(text.length);
-    setWordsCount(text.split(" ").length);
+    setWordsCount(text.split(' ').length);
   };
 
   return (
@@ -79,13 +78,13 @@ export const ClientCommentForm = ({
         id="textarea"
         className="bg-zinc-900/50 rounded-t-md p-2 w-full border-x border-t border-foreground/5 mt-4 resize-none outline-none overflow-y-hidden"
         placeholder="Tu comentario aquí..."
-        {...register("comment")}
+        {...register('comment')}
         maxLength={MAX_CHAR}
         onInput={handleInput}
       ></textarea>
       <aside className="text-xs flex justify-between items-center border-x border-b border-foreground/5 bg-zinc-900/50 p-2  rounded-b-md">
         <span
-          className={`${char <= 10 ? "text-red-400" : "text-violet-400"} w-10`}
+          className={`${char <= 10 ? 'text-red-400' : 'text-violet-400'} w-10`}
         >
           {charCount}/{MAX_CHAR}
         </span>
@@ -95,7 +94,7 @@ export const ClientCommentForm = ({
           type="submit"
           disabled={isSubmitting}
         >
-          {isSubmitting ? "Enviando" : "Enviar"}
+          {isSubmitting ? 'Enviando' : 'Enviar'}
         </button>
       </aside>
       {errors.comment && (
