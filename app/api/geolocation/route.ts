@@ -11,6 +11,7 @@ export async function GET(req: NextRequest) {
   const lat = parseFloat(req.nextUrl.searchParams.get('lat') || '0');
   const lon = parseFloat(req.nextUrl.searchParams.get('lon') || '0');
   const query = req.nextUrl.searchParams.get('query')?.toLowerCase();
+  const clientIp = req.headers.get('x-real-ip');
 
   if (!lat || !lon) {
     return Response.json(
@@ -61,6 +62,7 @@ export async function GET(req: NextRequest) {
 
     return Response.json(
       {
+        ip: clientIp,
         city: closestCity.nombre,
         state: closestCity.provincia,
         country: closestCity.pais,
