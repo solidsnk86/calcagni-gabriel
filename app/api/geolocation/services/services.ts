@@ -1,52 +1,33 @@
 import { haversine } from '@/utils/haversine-formula';
+import jsonAirports from './airports.json';
 
-const getAllCities = async () => {
-  const resposne = await fetch(
-    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/geodata-arg-v3.json'
-  );
-  const jsonData = await resposne.json();
-  const formatJSON = Object.keys(jsonData).map((key) => {
-    const {
-      id,
-      nombre,
-      tipo,
-      departamento,
-      provincia,
-      pais,
-      elevacion,
-      lat,
-      lon,
-    } = jsonData[key];
-    return {
-      id,
-      nombre,
-      tipo,
-      departamento,
-      provincia,
-      pais,
-      elevacion,
-      lat,
-      lon,
-    };
-  });
-  return formatJSON;
+interface AirportData {
+  iata: string;
+  name: string;
+  city: string;
+  state: string;
+  country: string;
+  elevation: number;
+  lat: number;
+  lon: number;
+}
+
+type AirportsMap = {
+  [key: string]: AirportData;
 };
 
-const getAllAirports = async () => {
-  const response = await fetch(
-    'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/world-airports.json'
-  );
-  const data = await response.json();
-  const formattedData = Object.keys(data)
-    .map((key) => {
+const getAllAirports = async (): Promise<AirportData[]> => {
+  const airportsMap = jsonAirports as AirportsMap;
+  const cleanedData: AirportData[] = Object.keys(airportsMap)
+    .map((key: string) => {
       const { iata, name, city, state, country, elevation, lat, lon } =
-        data[key];
+        airportsMap[key];
       return iata
         ? { iata, name, city, state, country, elevation, lat, lon }
         : null;
     })
-    .filter(Boolean);
-  return formattedData;
+    .filter((airport): airport is AirportData => airport !== null);
+  return cleanedData;
 };
 
 const getAllAntennas = async () => {
@@ -115,10 +96,4 @@ const searchAntenna = (
   };
 };
 
-export {
-  getAllCities,
-  getAllAntennas,
-  getAllAirports,
-  getClosest,
-  searchAntenna,
-};
+export { getAllAntennas, getAllAirports, getClosest, searchAntenna };

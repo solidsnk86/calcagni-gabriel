@@ -1,17 +1,13 @@
 import { NextRequest } from 'next/server';
-import {
-  getAllCities,
-  getAllAntennas,
-  getClosest,
-  searchAntenna,
-  getAllAirports,
-} from './services/services';
+import { getAllAirports, getClosest, searchAntenna } from './services/services';
+import antennas from './services/wifi-sl-v1.json';
+import cities from './services/geodata-arg-v3.json';
 
 export async function GET(req: NextRequest) {
   const lat = parseFloat(req.nextUrl.searchParams.get('lat') || '0');
   const lon = parseFloat(req.nextUrl.searchParams.get('lon') || '0');
   const query = req.nextUrl.searchParams.get('query')?.toLowerCase();
-  const clientIp = req.headers.get('x-real-ip');
+  const clientIp = req.headers.get('x-real-ip') || 'No disponible';
 
   if (!lat || !lon) {
     return Response.json(
@@ -22,12 +18,7 @@ export async function GET(req: NextRequest) {
 
   const coords = { lat, lon };
   try {
-    const [cities, antennas, airports] = await Promise.all([
-      getAllCities(),
-      getAllAntennas(),
-      getAllAirports(),
-    ]);
-
+    const [airports] = await Promise.all([getAllAirports()]);
     const { closestTarget: closestCity, minDistance: cityDistance } =
       getClosest(coords, cities);
     const { closestTarget, minDistance } = getClosest(coords, antennas);
