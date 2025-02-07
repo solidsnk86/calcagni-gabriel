@@ -22,13 +22,13 @@ export const haversine = (locationA: Coords, locationB: Coords) => {
   const longitudeB = degreesToRadians(
     locationB.lon || (locationB.longitude as number)
   );
-  // Fórmula de Haversine
+
   const formula =
     square(Math.sin((latitudeB - latitudeA) / 2)) +
     Math.cos(latitudeA) *
       Math.cos(latitudeB) *
       square((longitudeB - longitudeA) / 2);
-  // Calcular distancia usando la fórmula de Haversine
+
   const distance = 2 * EARTH_RAIDUS * Math.asin(Math.sqrt(formula));
   return distance / 1000;
 };
