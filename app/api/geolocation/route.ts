@@ -1,7 +1,8 @@
 import { NextRequest } from 'next/server';
-import { getAllAirports, getClosest, searchAntenna } from './services/services';
+import { getClosest, searchAntenna } from './services/services';
 import antennas from './services/wifi-sl-v1.json';
 import cities from './services/geodata-arg-v3.json';
+import airports from './services/airports.json';
 
 const wirteMAC = (mac: string) => mac.split(' ').join('-');
 
@@ -20,7 +21,6 @@ export async function GET(req: NextRequest) {
 
   const coords = { lat, lon };
   try {
-    const [airports] = await Promise.all([getAllAirports()]);
     const { closestTarget: closestCity, minDistance: cityDistance } =
       getClosest(coords, cities);
     const { closestTarget, minDistance } = getClosest(coords, antennas);
@@ -79,11 +79,11 @@ export async function GET(req: NextRequest) {
           MAC5G: wirteMAC(closestTarget.MAC5g) || 'No disponible',
         },
         airport_location: {
-          city: target.state,
-          country: target.country,
+          city: target?.state,
+          country: target?.country,
           closest_airport: {
-            airport: target.name,
-            distance: `${distance.toFixed(3)}mts` || 'No disponible',
+            airport: target?.name,
+            distance: `${distance?.toFixed(3)}mts` || 'No disponible',
           },
         },
       },
@@ -92,6 +92,6 @@ export async function GET(req: NextRequest) {
       }
     );
   } catch (err) {
-    return Response.json({ message: 'Server Error', error_message: err });
+    return Response.json({ message: String(err) });
   }
 }

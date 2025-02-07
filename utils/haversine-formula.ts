@@ -5,13 +5,15 @@ const degreesToRadians = (degrees: number) => (degrees * Math.PI) / 180.0;
 type Coords = {
   lat: number;
   lon: number;
+  latitude: number;
+  longitude: number;
 };
 
 export const haversine = (locationA: Coords, locationB: Coords) => {
-  const latitudeA = degreesToRadians(locationA.lat);
-  const latitudeB = degreesToRadians(locationB.lat);
-  const longitudeA = degreesToRadians(locationA.lon);
-  const longitudeB = degreesToRadians(locationB.lon);
+  const latitudeA = degreesToRadians(locationA.lat || locationA.latitude);
+  const latitudeB = degreesToRadians(locationB.lat || locationB.latitude);
+  const longitudeA = degreesToRadians(locationA.lon || locationA.longitude);
+  const longitudeB = degreesToRadians(locationB.lon || locationB.longitude);
   // Fórmula de Haversine
   const formula =
     square(Math.sin((latitudeB - latitudeA) / 2)) +

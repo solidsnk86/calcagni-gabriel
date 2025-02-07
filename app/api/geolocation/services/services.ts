@@ -1,34 +1,4 @@
 import { haversine } from '@/utils/haversine-formula';
-import jsonAirports from './airports.json';
-
-interface AirportData {
-  iata: string;
-  name: string;
-  city: string;
-  state: string;
-  country: string;
-  elevation: number;
-  lat: number;
-  lon: number;
-}
-
-type AirportsMap = {
-  [key: string]: AirportData;
-};
-
-const getAllAirports = async (): Promise<AirportData[]> => {
-  const airportsMap = jsonAirports as AirportsMap;
-  const cleanedData: AirportData[] = Object.keys(airportsMap)
-    .map((key: string) => {
-      const { iata, name, city, state, country, elevation, lat, lon } =
-        airportsMap[key];
-      return iata
-        ? { iata, name, city, state, country, elevation, lat, lon }
-        : null;
-    })
-    .filter((airport): airport is AirportData => airport !== null);
-  return cleanedData;
-};
 
 const getAllAntennas = async () => {
   try {
@@ -96,4 +66,4 @@ const searchAntenna = (
   };
 };
 
-export { getAllAntennas, getAllAirports, getClosest, searchAntenna };
+export { getAllAntennas, getClosest, searchAntenna };
