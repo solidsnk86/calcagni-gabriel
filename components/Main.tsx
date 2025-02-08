@@ -39,7 +39,12 @@ export default function Main() {
       console.error('Error', error);
     }
 
-    const visitsData = await DataModel.getLastVisit();
+    const visitsData = await DataModel.getLastVisit({
+      from: 'profile_visits',
+      select: 'city,country,flag,created_at',
+      limit: 1,
+      orderBy: 'created_at',
+    });
     setLastVisit(visitsData[0]);
   };
 
@@ -63,8 +68,8 @@ export default function Main() {
             </div>
             <Section_5
               city={lastVisit.city}
-              flag={lastVisit.flag}
               country={lastVisit.country}
+              flag={lastVisit.flag}
               createdAt={lastVisit.created_at}
               className={mobile ? 'mt-2' : 'mt-4'}
             />
