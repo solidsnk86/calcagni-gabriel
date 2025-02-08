@@ -53,31 +53,15 @@ export class DataModel {
     }
   }
 
-  public static async getLastVisit({
-    from,
-    select,
-    limit,
-    orderBy,
-  }: {
-    from: string;
-    select: string;
-    limit: number;
-    orderBy: string;
-  }) {
-    const res = await fetch(
-      `https://supabase-res-api.vercel.app/supabase/optional?from=${from}&select=${select}&limit=${limit}&order=${orderBy}`,
-      {
-        method: 'GET',
-        mode: 'cors',
-        headers: { 'Content-Type': 'application/json' },
-      }
-    );
-    const data = await res.json();
+  public static async getLastVisit() {
+    const { data, error } = await supabase
+      .from('profile_visits')
+      .select('city, province, country, flag, created_at')
+      .order('created_at', { ascending: false })
+      .limit(1);
 
-    if (!res.ok) {
-      throw new Error(
-        `Error to get data from profile_visits ${res.statusText}`
-      );
+    if (error) {
+      throw new Error(`Error to get data from profile_visits ${error.message}`);
     }
 
     return data;

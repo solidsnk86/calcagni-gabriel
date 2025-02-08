@@ -39,12 +39,7 @@ export default function Main() {
       console.error('Error', error);
     }
 
-    const visitsData = await DataModel.getLastVisit({
-      from: 'profile_visits',
-      select: 'city,country,flag,created_at',
-      limit: 1,
-      orderBy: 'created_at',
-    });
+    const visitsData = await DataModel.getLastVisit();
     setLastVisit(visitsData[0]);
   };
 
