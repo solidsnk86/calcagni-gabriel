@@ -48,8 +48,8 @@ export async function GET(req: NextRequest) {
           targetDistance === Infinity ? 'No disponible ' : targetDistance
         }mts`,
         coords: coordinates || 'No disponible',
-        MAC: mac || 'MAC 2.4G no disponible',
-        MAC5G: mac5 || 'MAC 5G no disponible',
+        MAC: wirteMAC(mac) || 'MAC 2.4G no disponible',
+        MAC5G: wirteMAC(mac5) || 'MAC 5G no disponible',
       });
     }
 
