@@ -42,7 +42,7 @@ export async function GET(req: NextRequest) {
       return Response.json({
         antenna: {
           name: searchedTarget || 'Antena inexistente',
-          name5g: searchedTarget5g || 'Antena inexistente',
+          name5g: searchedTarget5g || 'No disponible',
         },
         distance: `${targetDistance ? targetDistance.toFixed(3) : '0'}mts`,
         coords: coordinates || 'No disponible',
