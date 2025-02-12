@@ -44,9 +44,7 @@ export async function GET(req: NextRequest) {
           name: searchedTarget || 'Antena inexistente',
           name5g: searchedTarget5g || 'Antena inexistente',
         },
-        distance: `${
-          targetDistance === Infinity ? 'No disponible ' : targetDistance
-        }mts`,
+        distance: `${targetDistance ? targetDistance.toFixed(3) : '0'}mts`,
         coords: coordinates || 'No disponible',
         MAC: mac ? wirteMAC(mac) : 'MAC 2.4G no disponible',
         MAC5G: mac5 ? wirteMAC(mac5) : 'MAC 5G no disponible',

@@ -48,7 +48,7 @@ const searchAntenna = (
     if (query === nameA || query === nameB) {
       searchedTarget = data.name;
       searchedTarget5g = data.name5g;
-      targetDistance = Number(distance.toFixed(3)) || 0;
+      targetDistance = Number(distance);
       coords.latitude = data.lat;
       coords.longitude = data.lon;
       mac = data.MAC;
