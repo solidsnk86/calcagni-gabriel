@@ -64,7 +64,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
 
   // Se pasan los valores obtenidos al chart
   const chartData = [
-    ["Country", "Visits"],
+    ['Country', 'Visits'],
     ...Object.entries(visitsByCountry).map(([country, visits]) => [
       country,
       visits,
@@ -72,26 +72,26 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
   ];
 
   const colorPalettes = {
-    ocean: ["#E6F2FF", "#BAE6FD", "#7DD3FC", "#38BDF8", "#0EA5E9"],
-    forest: ["#ECFDF5", "#D1FAE5", "#6EE7B7", "#10B981", "#059669"],
-    sunset: ["#FEF3C7", "#FDE68A", "#FCD34D", "#F59E0B", "#D97706"],
-    berry: ["#AFBBE3", "#EDE9FE", "#DDD6FE", "#AC94C9", "#A78BFA"],
-    monochrome: ["#F4F4F4", "#E5E5E5", "#A3A3A3", "#737373", "#404040"],
+    ocean: ['#E6F2FF', '#BAE6FD', '#7DD3FC', '#38BDF8', '#0EA5E9'],
+    forest: ['#ECFDF5', '#D1FAE5', '#6EE7B7', '#10B981', '#059669'],
+    sunset: ['#FEF3C7', '#FDE68A', '#FCD34D', '#F59E0B', '#D97706'],
+    berry: ['#AFBBE3', '#EDE9FE', '#DDD6FE', '#AC94C9', '#A78BFA'],
+    monochrome: ['#F4F4F4', '#E5E5E5', '#A3A3A3', '#737373', '#404040'],
   };
 
   const chartOptions = {
-    title: "Visitas por País",
-    backgroundColor: "#04090B",
+    title: 'Visitas por País',
+    backgroundColor: '#04090B',
     colorAxis: {
       colors: colorPalettes.berry,
     },
     legend: {
       textStyle: {
-        color: "#333",
+        color: '#333',
       },
     },
     titleTextStyle: {
-      color: "#f4f4f4",
+      color: '#f4f4f4',
     },
   };
   // Renderizamos el componente, yo usé un Geo Chart de Google React Charts
@@ -184,10 +184,14 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=tu-supabase-anon-key
 ```
 
 5. Versión de Next.js
-   Este proyecto utiliza Next.js 14.2.6, por lo que si quieres mantener la compatibilidad, asegúrate de estar utilizando esta versión o superior.
+   Este proyecto utiliza Next.js 15.0.3, por lo que si quieres mantener la compatibilidad, asegúrate de estar utilizando esta versión o superior.
 
 ```bash
-npm install next@14.2.6
+pnpm install next@15.0.3
+```
+
+```bash
+npm install next@15.0.3
 ```
 
 ¡Y eso es todo! Ahora puedes explorar y personalizar el proyecto a tu gusto.
