@@ -37,9 +37,9 @@ const searchAntenna = (
   let targetDistance = Infinity;
   let searchedTarget = null;
   let searchedTarget5g = null;
-  let coords = { latitude: 0, longitude: 0 };
   let mac = null;
   let mac5 = null;
+  let coords = { latitude: 0, longitude: 0 };
 
   for (const data of allData) {
     const distance = haversine(coordinates, data);
