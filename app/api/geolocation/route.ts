@@ -14,7 +14,10 @@ export async function GET(req: NextRequest) {
 
   if (!lat || !lon) {
     return Response.json(
-      { message: 'You must to provide latitude and longitude params' },
+      {
+        message:
+          'Debes proporcionar los parámetros de latitud y longitud en los query params',
+      },
       { status: 400 }
     );
   }
