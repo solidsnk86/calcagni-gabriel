@@ -4,7 +4,7 @@ import antennas from './services/wifi-sl-v1.json';
 import cities from './services/geodata-arg-v3.json';
 import airports from './services/airports.json';
 
-const wirteMAC = (mac: string) => mac.split(' ').join('-');
+const wirteMAC = (mac: string) => mac?.split(' ').join('-');
 
 export async function GET(req: NextRequest) {
   const lat = parseFloat(req.nextUrl.searchParams.get('lat') || '0');
@@ -75,8 +75,12 @@ export async function GET(req: NextRequest) {
           name: closestTarget.name5g || 'No disponible',
           distance: `${minDistance.toFixed(3)}mts` || 'No disponible',
           type: closestTarget.type || 'No disponible',
-          MAC: wirteMAC(closestTarget.MAC) || 'No disponible',
-          MAC5G: wirteMAC(closestTarget.MAC5g) || 'No disponible',
+          MAC: closestTarget.MAC
+            ? wirteMAC(closestTarget.MAC)
+            : 'No disponible',
+          MAC5G: closestTarget.MAC5g
+            ? wirteMAC(closestTarget.MAC5g)
+            : 'No disponible',
         },
         airport_location: {
           city: target?.state,
