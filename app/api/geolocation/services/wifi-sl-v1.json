@@ -4916,5 +4916,41 @@
     "lon": -65.811346,
     "name5g": "GobSL-QU-40",
     "MAC5g": null
+  },
+  {
+    "name": "GobSL-SJM-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 B8 90",
+    "lat": -33.212023,
+    "lon": -65.4919,
+    "name5g": "GobSL-SJM-01",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-SJM-03",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 F5 A0",
+    "lat": -33.2115,
+    "lon": -65.491833,
+    "name5g": "GobSL-SJM-03",
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-SJM-04",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -33.212584,
+    "lon": -65.488838,
+    "name5g": "WiFi3.0-SJM-04",
+    "MAC5g": "7C 57 3C 6D 73 11"
+  },
+  {
+    "name": "GobSL-SJM-05",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 05 36 80",
+    "lat": -33.213903,
+    "lon": -65.48997,
+    "name5g": "GobSL-SJM-05",
+    "MAC5g": null
   }
 ]
