@@ -187,6 +187,28 @@
     "lon": -66.0666667
   },
   {
+    "id": "ELMO",
+    "nombre": "El Morro",
+    "tipo": "Pueblo",
+    "departamento": "General Pedernera",
+    "provincia": "San Luis",
+    "pais": "Argentina",
+    "elevacion": 303,
+    "lat": -33.21241168818113,
+    "lon": -65.49113763307443
+  },
+  {
+    "id": "CEMO",
+    "nombre": "Cerro El Morro",
+    "tipo": "Mirador",
+    "departamento": "General Pedernera",
+    "provincia": "San Luis",
+    "pais": "Argentina",
+    "elevacion": 4800,
+    "lat": -33.15233461781494,
+    "lon": -65.3972379701866
+  },
+  {
     "id": "SCY",
     "nombre": "San Francisco del Monte de Oro",
     "tipo": "Ciudad",
