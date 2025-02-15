@@ -22,15 +22,15 @@
     "lon": -65.4666667
   },
   {
-    "id": "MRC",
+    "id": "MESL",
     "nombre": "Merlo",
     "tipo": "Ciudad",
     "departamento": "Junín",
     "provincia": "San Luis",
     "pais": "Argentina",
     "elevacion": 809,
-    "lat": -32.3444444,
-    "lon": -65.0316667
+    "lat": -32.34262933266051,
+    "lon": -65.01355495819543
   },
   {
     "id": "JCH",
@@ -161,8 +161,8 @@
     "provincia": "San Luis",
     "pais": "Argentina",
     "elevacion": 1050,
-    "lat": -32.3666667,
-    "lon": -64.9833333
+    "lat": -32.41014754729099,
+    "lon": -65.01000907777427
   },
   {
     "id": "LFL",
