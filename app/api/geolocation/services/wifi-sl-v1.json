@@ -4952,5 +4952,32 @@
     "lon": -65.48997,
     "name5g": "GobSL-SJM-05",
     "MAC5g": null
+  },
+  {
+    "name": "GobSL-ED-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 A0 30",
+    "lat": -33.183225,
+    "lon": -66.151708,
+    "name5g": null,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-ED-02",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 04 41 E0",
+    "lat": -33.19228,
+    "lon": -66.137977,
+    "name5g": null,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-ED-03",
+    "type": "2.4Ghz",
+    "MAC": null,
+    "lat": -33.193472,
+    "lon": -66.156972,
+    "name5g": null,
+    "MAC5g": "00 18 25 00 87 40"
   }
 ]
