@@ -6774,5 +6774,110 @@
     "lat": -33.252033,
     "lon": -66.184733,
     "MAC5g": null
+  },
+  {
+    "name": "WiFi4.0-VQ-01",
+    "MAC": null,
+    "lat": -33.016546,
+    "lon": -66.290031,
+    "MAC5g": "6C C4 9F 7B 29 31"
+  },
+  {
+    "name": "GobSL-VQ-02",
+    "MAC": "00 18 25 00 6B 10",
+    "lat": -33.015263,
+    "lon": -66.293334,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-03",
+    "MAC": "00 18 25 00 B4 B0",
+    "lat": -33.019989,
+    "lon": -66.288338,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-04",
+    "MAC": "7C 57 3C CE DA C6",
+    "lat": -33.01553,
+    "lon": -66.288361,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-05",
+    "MAC": "00 18 25 00 7E 50",
+    "lat": -33.013667,
+    "lon": -66.290095,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-06",
+    "MAC": "00 18 25 00 35 60",
+    "lat": -33.01647,
+    "lon": -66.295965,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-07",
+    "MAC": "7C 57 3C 6E A0 E1",
+    "lat": -33.051269,
+    "lon": -66.288186,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-08",
+    "MAC": "00 18 25 11 8B 00",
+    "lat": -33.01725,
+    "lon": -66.293944,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-10",
+    "MAC": "7C 57 3C CE E5 B6",
+    "lat": -33.0179772,
+    "lon": -66.2872859,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-11",
+    "MAC": "00 18 25 00 BD 90",
+    "lat": -33.010417,
+    "lon": -66.292667,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-12",
+    "MAC": "7C 57 3C 6D 93 A1",
+    "lat": -33.017493,
+    "lon": -66.291516,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-13",
+    "MAC": "00 18 25 04 06 E0",
+    "lat": -33.018483,
+    "lon": -66.300044,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi4.0-VQ-14",
+    "MAC": null,
+    "lat": -33.04775,
+    "lon": -66.288444,
+    "MAC5g": "6C C4 9F 7B 1B 31"
+  },
+  {
+    "name": "GobSL-VQ-15",
+    "MAC": "00 18 25 04 4F D0",
+    "lat": -33.032565,
+    "lon": -66.292805,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VQ-16",
+    "MAC": "00 18 25 00 7E 10",
+    "lat": -33.004972,
+    "lon": -66.292739,
+    "MAC5g": null
   }
 ]
