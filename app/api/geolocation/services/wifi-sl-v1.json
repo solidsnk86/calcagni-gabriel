@@ -6320,5 +6320,459 @@
     "lon": -65.503544,
     "name5g": "GobSL-VM-126",
     "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-127",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 C8 00",
+    "lat": -33.698269,
+    "lon": -65.453047,
+    "name5g": "GobSL-VM-127",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-129",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 9B 70",
+    "lat": -33.657861,
+    "lon": -65.461778,
+    "name5g": "GobSL-VM-129",
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi4.0-VM-130",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -33.687504,
+    "lon": -65.50469,
+    "name5g": "WiFi4.0-VM-130",
+    "MAC5g": "CC 88 C7 69 98 31"
+  },
+  {
+    "name": "GobSL-VM-141",
+    "type": "2.4Ghz",
+    "MAC": "7C 57 3C 6E 78 61",
+    "lat": -33.700736,
+    "lon": -65.439992,
+    "name5g": "GobSL-VM-141",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-142",
+    "type": "2.4Ghz",
+    "MAC": "F0 5C 19 BD B1 21",
+    "lat": -33.700381,
+    "lon": -65.433411,
+    "name5g": "GobSL-VM-142",
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-VM-Sur",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -33.702153,
+    "lon": -65.427222,
+    "name5g": "WiFi3.0-VM-Sur",
+    "MAC5g": "F0 5C 19 BE B0 51"
+  },
+  {
+    "name": "GobSL-VM-144",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 03 58 30",
+    "lat": -33.707815,
+    "lon": -65.435781,
+    "name5g": "GobSL-VM-144",
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-VM-Este",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -33.709322,
+    "lon": -65.431594,
+    "name5g": "WiFi3.0-VM-Este",
+    "MAC5g": "F0 5C 19 BE AF F1"
+  },
+  {
+    "name": "GobSL-VM-146",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 04 AF 40",
+    "lat": -33.690013,
+    "lon": -65.453822,
+    "name5g": "GobSL-VM-146",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-147",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 05 38 80",
+    "lat": -33.691038,
+    "lon": -65.453747,
+    "name5g": "GobSL-VM-147",
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-VM-Este",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "F0 5C 19 BD B1 00",
+    "lat": -33.690233,
+    "lon": -65.45283,
+    "name5g": "WiFi3.0-VM-Este",
+    "MAC5g": "F0 5C 19 BD B1 10"
+  },
+  {
+    "name": "GobSL-VM-149",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 03 F9 F0",
+    "lat": -33.691506,
+    "lon": -65.451569,
+    "name5g": "GobSL-VM-149",
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-VM-Este",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "F0 5C 19 BE B5 00",
+    "lat": -33.690797,
+    "lon": -65.450106,
+    "name5g": "WiFi3.0-VM-Este",
+    "MAC5g": "F0 5C 19 BE B5 10"
+  },
+  {
+    "name": "GobSL-VM-151",
+    "type": "2.4Ghz",
+    "MAC": "F0 5C 19 BE CB A1",
+    "lat": -33.691183,
+    "lon": -65.448422,
+    "name5g": "GobSL-VM-151",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-153",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "F0 5C 19 BD B1 81",
+    "lat": -33.690905,
+    "lon": -65.437694,
+    "name5g": "GobSL-VM-153",
+    "MAC5g": "F0 5C 19 BD B1 91"
+  },
+  {
+    "name": "WiFi3.0-VM-Este",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -33.691008,
+    "lon": -65.434711,
+    "name5g": "WiFi3.0-VM-Este",
+    "MAC5g": "F0 5C 19 BE C9 91"
+  },
+  {
+    "name": "GobSL-VM-155",
+    "type": "2.4Ghz",
+    "MAC": "F0 5C 19 BD B2 C1",
+    "lat": -33.689936,
+    "lon": -65.434666,
+    "name5g": "GobSL-VM-155",
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-VM-Este",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "F0 5C 19 BE B6 40",
+    "lat": -33.686875,
+    "lon": -65.449697,
+    "name5g": "WiFi3.0-VM-Este",
+    "MAC5g": "F0 5C 19 BE B6 50"
+  },
+  {
+    "name": "GobSL-VM-157",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "F0 5C 19 BE C9 61",
+    "lat": -33.663413,
+    "lon": -65.471652,
+    "name5g": "GobSL-VM-157",
+    "MAC5g": "F0 5C 19 BE C9 71"
+  },
+  {
+    "name": "WiFi3.0-VM-Este",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -33.662,
+    "lon": -65.468491,
+    "name5g": "WiFi3.0-VM-Este",
+    "MAC5g": "F0 5C 19 BE CB 91"
+  },
+  {
+    "name": "WiFi4.0-VM-159",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -33.636175,
+    "lon": -65.4865,
+    "name5g": "WiFi4.0-VM-159",
+    "MAC5g": "6C C4 9F 7B 3F D1"
+  },
+  {
+    "name": "GobSL-VM-160",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 05 35 A0",
+    "lat": -33.635794,
+    "lon": -65.488689,
+    "name5g": "GobSL-VM-160",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-161",
+    "type": "2.4Ghz",
+    "MAC": "F0 5C 19 BE 89 21",
+    "lat": -33.635203,
+    "lon": -65.491842,
+    "name5g": "GobSL-VM-161",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-162",
+    "type": "2.4Ghz",
+    "MAC": "F0 5C 19 BD B7 41",
+    "lat": -33.694569,
+    "lon": -65.463656,
+    "name5g": "GobSL-VM-162",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-163",
+    "type": "2.4Ghz",
+    "MAC": "7C 57 3C 6D 4E 41",
+    "lat": -33.698261,
+    "lon": -65.464319,
+    "name5g": "GobSL-VM-163",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-164",
+    "type": "2.4Ghz",
+    "MAC": "F0 5C 19 BE B2 C1",
+    "lat": -33.697747,
+    "lon": -65.455378,
+    "name5g": "GobSL-VM-164",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-165",
+    "type": "2.4Ghz",
+    "MAC": "7C 57 3C 6D C4 01",
+    "lat": -33.699331,
+    "lon": -65.449969,
+    "name5g": "GobSL-VM-165",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-166",
+    "type": "2.4Ghz",
+    "MAC": "F0 5C 19 BE B7 E1",
+    "lat": -33.698722,
+    "lon": -65.448639,
+    "name5g": "GobSL-VM-166",
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-VM-Sur",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -33.695164,
+    "lon": -65.452142,
+    "name5g": "WiFi3.0-VM-Sur",
+    "MAC5g": "7C 57 3C 6E 05 31"
+  },
+  {
+    "name": "GobSL-VM-168",
+    "type": "2.4Ghz",
+    "MAC": "F0 5C 19 BE B0 E1",
+    "lat": -33.694647,
+    "lon": -65.445506,
+    "name5g": "GobSL-VM-168",
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VM-169",
+    "type": "2.4Ghz",
+    "MAC": "9C 8C D8 4F 6B E1",
+    "lat": -33.697411,
+    "lon": -65.438467,
+    "name5g": "GobSL-VM-169",
+    "MAC5g": null
+  },
+  {
+    "name": "Comisaria",
+    "MAC": null,
+    "lat": -33.24929,
+    "lon": -66.19372,
+    "MAC5g": "C8 B5 AD B0 7A 92"
+  },
+  {
+    "name": "WiFi3.0-El Volcan",
+    "MAC": null,
+    "lat": -33.25156,
+    "lon": -66.179527,
+    "MAC5g": "F0 5C 19 BE AB 11"
+  },
+  {
+    "name": "GobSL-EV-04",
+    "MAC": "C8 B5 AD C3 07 94",
+    "lat": -33.25092562,
+    "lon": -66.17383431,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-EV-05",
+    "MAC": null,
+    "lat": -33.25481,
+    "lon": -66.17653,
+    "MAC5g": "C8 B5 AD B0 7F B1"
+  },
+  {
+    "name": "WiFi4.0-EV-06",
+    "MAC": null,
+    "lat": -33.24927,
+    "lon": -66.178629,
+    "MAC5g": "CC 88 C7 69 A4 71"
+  },
+  {
+    "name": "GobSL-EV-07",
+    "MAC": "00 18 25 00 8F E0",
+    "lat": -33.253493,
+    "lon": -66.179906,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-EV-08",
+    "MAC": null,
+    "lat": -33.251157,
+    "lon": -66.19261,
+    "MAC5g": "C8 B5 AD B0 7B F1"
+  },
+  {
+    "name": "GobSL-EV-09",
+    "MAC": "00 18 25 05 3B 00",
+    "lat": -33.25025,
+    "lon": -66.187928,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-EV-10",
+    "MAC": null,
+    "lat": -33.246357,
+    "lon": -66.181763,
+    "MAC5g": "7C 57 3C 6D 85 F1"
+  },
+  {
+    "name": "WiFi3.0-EV-11",
+    "MAC": null,
+    "lat": -33.248208,
+    "lon": -66.179514,
+    "MAC5g": "C8 B5 AD B0 7B D1"
+  },
+  {
+    "name": "GobSL-EV-12",
+    "MAC": "00 18 25 00 7C 00",
+    "lat": -33.253803,
+    "lon": -66.197074,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-EV-13",
+    "MAC": "00 18 25 01 B2 20",
+    "lat": -33.257961,
+    "lon": -66.175142,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-EV-14",
+    "MAC": "00 18 25 04 03 70",
+    "lat": -33.247069,
+    "lon": -66.196131,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi4.0-EV-15",
+    "MAC": null,
+    "lat": -33.242344,
+    "lon": -66.177019,
+    "MAC5g": "CC 88 C7 69 A2 51"
+  },
+  {
+    "name": "GobSL-EV-16",
+    "MAC": "00 18 25 05 53 A0",
+    "lat": -33.23894104,
+    "lon": -66.17981309,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-EV-17",
+    "MAC": "00 18 25 05 3E 50",
+    "lat": -33.249139,
+    "lon": -66.173839,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi4.0-EV-18",
+    "MAC": null,
+    "lat": -33.25159543,
+    "lon": -66.1770942,
+    "MAC5g": "CC 88 C7 69 B4 D1"
+  },
+  {
+    "name": "GobSL-EV-19",
+    "MAC": "00 18 25 04 42 20",
+    "lat": -33.25147938,
+    "lon": -66.18954694,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-EV-20",
+    "MAC": "00 18 25 00 7D B0",
+    "lat": -33.25462411,
+    "lon": -66.17254949,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-EV-22",
+    "MAC": "CC 88 C7 CE 9A 30",
+    "lat": -33.25079954,
+    "lon": -66.18378465,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-EV-23",
+    "MAC": "00 18 25 00 B9 C0",
+    "lat": -33.23833,
+    "lon": -66.187657,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-EV-24",
+    "MAC": "00 18 25 00 77 80",
+    "lat": -33.247639,
+    "lon": -66.178167,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-EV-34",
+    "MAC": "00 18 25 00 B9 30",
+    "lat": -33.2435,
+    "lon": -66.180733,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-EV-35",
+    "MAC": "00 18 25 00 7B A0",
+    "lat": -33.25161667,
+    "lon": -66.19598333,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-EV-36",
+    "MAC": "00 18 25 04 16 70",
+    "lat": -33.252033,
+    "lon": -66.184733,
+    "MAC5g": null
   }
 ]
