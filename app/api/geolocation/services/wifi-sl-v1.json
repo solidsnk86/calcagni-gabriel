@@ -4936,9 +4936,9 @@
     "MAC5g": null
   },
   {
-    "name": "WiFi3.0-SJM-04",
+    "name": "GobSL-SJM-04",
     "type": "Dual Band 2.4Ghz | 5Ghz",
-    "MAC": null,
+    "MAC": "7C 57 3C 6D 73",
     "lat": -33.212584,
     "lon": -65.488838,
     "name5g": "WiFi3.0-SJM-04",
