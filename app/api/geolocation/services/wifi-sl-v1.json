@@ -6879,5 +6879,35 @@
     "lat": -33.004972,
     "lon": -66.292739,
     "MAC5g": null
+  },
+  {
+    "name": "GobSL-RE-01",
+    "MAC": "9C 8C D8 4F 7C A1",
+    "lat": -32.770591,
+    "lon": -65.364927,
+    "name5g": "WiFi3.0-RE-01",
+    "MAC5g": "9C 8C D8 4F 7C B0"
+  },
+  {
+    "name": "GobSL-RE-02",
+    "MAC": "00 18 25 05 34 C0",
+    "lat": -32.773083,
+    "lon": -65.363967,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-RE-03",
+    "MAC": "F0 5C 19 BD B9 E0",
+    "lat": -32.77053,
+    "lon": -65.362324,
+    "name5g": "WiFi3.0-RE-03",
+    "MAC5g": "F0 5C 19 BD B9 F1"
+  },
+  {
+    "name": "GobSL-RE-04",
+    "MAC": "00 18 25 14 0E E0",
+    "lat": -32.771628,
+    "lon": -65.367556,
+    "MAC5g": null
   }
 ]
