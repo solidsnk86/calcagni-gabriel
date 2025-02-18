@@ -1,55 +1,53 @@
 'use client';
 
 import React from 'react';
-import { Chart } from 'react-google-charts';
 import { TitleComponent } from '@/components/ComponentTitles';
 import { Format } from '@/components/DateFormat';
-import useMatchMedia from '@/app/hooks/useMatchMedia';
 
 export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
-  const visitsByCountry: Record<string, number> = {};
-  const mobile = useMatchMedia('(max-width: 700px)', false);
+  // const visitsByCountry: Record<string, number> = {};
+  // const mobile = useMatchMedia('(max-width: 700px)', false);
 
-  for (let i = 0; i < data.length; i++) {
-    const country = data[i].country;
-    if (visitsByCountry[country]) {
-      visitsByCountry[country]++;
-    } else {
-      visitsByCountry[country] = 1;
-    }
-  }
+  // for (let i = 0; i < data.length; i++) {
+  //   const country = data[i].country;
+  //   if (visitsByCountry[country]) {
+  //     visitsByCountry[country]++;
+  //   } else {
+  //     visitsByCountry[country] = 1;
+  //   }
+  // }
 
-  const chartData = [
-    ['País', 'Visitas'],
-    ...Object.entries(visitsByCountry).map(([country, visits]) => [
-      country,
-      visits,
-    ]),
-  ];
+  // const chartData = [
+  //   ['País', 'Visitas'],
+  //   ...Object.entries(visitsByCountry).map(([country, visits]) => [
+  //     country,
+  //     visits,
+  //   ]),
+  // ];
 
-  const colorPalettes = {
-    ocean: ['#E6F2FF', '#BAE6FD', '#7DD3FC', '#38BDF8', '#0EA5E9'],
-    forest: ['#ECFDF5', '#D1FAE5', '#6EE7B7', '#10B981', '#059669'],
-    sunset: ['#FEF3C7', '#FDE68A', '#FCD34D', '#F59E0B', '#D97706'],
-    berry: ['#AFBBE3', '#EDE9FE', '#DDD6FE', '#AC94C9', '#A78BFA'],
-    monochrome: ['#F4F4F4', '#E5E5E5', '#A3A3A3', '#737373', '#404040'],
-  };
+  // const colorPalettes = {
+  //   ocean: ['#E6F2FF', '#BAE6FD', '#7DD3FC', '#38BDF8', '#0EA5E9'],
+  //   forest: ['#ECFDF5', '#D1FAE5', '#6EE7B7', '#10B981', '#059669'],
+  //   sunset: ['#FEF3C7', '#FDE68A', '#FCD34D', '#F59E0B', '#D97706'],
+  //   berry: ['#AFBBE3', '#EDE9FE', '#DDD6FE', '#AC94C9', '#A78BFA'],
+  //   monochrome: ['#F4F4F4', '#E5E5E5', '#A3A3A3', '#737373', '#404040'],
+  // };
 
-  const chartOptions = {
-    title: 'Visitas por País',
-    backgroundColor: '#04090B',
-    colorAxis: {
-      colors: colorPalettes.berry,
-    },
-    legend: {
-      textStyle: {
-        color: '#333',
-      },
-    },
-    titleTextStyle: {
-      color: '#f4f4f4',
-    },
-  };
+  // const chartOptions = {
+  //   title: 'Visitas por País',
+  //   backgroundColor: '#04090B',
+  //   colorAxis: {
+  //     colors: colorPalettes.berry,
+  //   },
+  //   legend: {
+  //     textStyle: {
+  //       color: '#333',
+  //     },
+  //   },
+  //   titleTextStyle: {
+  //     color: '#f4f4f4',
+  //   },
+  // };
 
   return (
     <div className="container mx-auto px-4">
@@ -63,8 +61,8 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
           <span className="text-violet-400">{data.length}</span>
         </TitleComponent.H4>
 
-        <div className="flex flex-col lg:flex-row w-full max-w-5xl my-10 space-y-4 lg:space-y-0 lg:space-x-4">
-          <div className="w-full lg:w-1/2">
+        <div className="flex justify-center mx-auto w-full max-w-5xl my-10 space-y-4 lg:space-y-0 lg:space-x-4">
+          {/* <div className="w-full lg:w-1/2">
             <Chart
               chartType="GeoChart"
               width="100%"
@@ -76,7 +74,7 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
                 height: 400,
               }}
             />
-          </div>
+          </div> */}
 
           <div className="w-full lg:w-1/2">
             <TitleComponent.H4 className="text-center py-2 border border-foreground/5 bg-violet-300/50">

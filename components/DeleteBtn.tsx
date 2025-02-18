@@ -1,17 +1,20 @@
-"use client";
+'use client';
 
-import React from "react";
-import { Trash } from "lucide-react";
-import { DeleteButtonProps } from "@/app/types/definitions";
-import { supabase } from "@/utils/supabase/client";
+import { Trash } from 'lucide-react';
+import { DeleteButtonProps } from '@/app/types/definitions';
+import { supabase } from '@/utils/supabase/client';
 
 export const DeleteButton: React.FC<DeleteButtonProps> = ({ id, onDelete }) => {
   const handleDelete = async (id: string | number) => {
-    const { error } = await supabase.from("comments").delete().eq("id", id);
-    if (error) {
-      console.error("Error al borrar comentario: ", error);
+    try {
+      const { error } = await supabase.from('comments').delete().eq('id', id);
+      if (error) {
+        console.error('Error al borrar comentario: ', error);
+      }
+      onDelete();
+    } catch (error) {
+      console.error(error);
     }
-    onDelete();
   };
   return (
     <span
