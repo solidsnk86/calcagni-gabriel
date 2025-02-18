@@ -6909,5 +6909,40 @@
     "lat": -32.771628,
     "lon": -65.367556,
     "MAC5g": null
+  },
+  {
+    "name": "GobSL-PY-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 80 40",
+    "lat": -32.6755,
+    "lon": -64.990583,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi4.0-PY-02",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -32.675647,
+    "lon": -64.993758,
+    "name5g": "WiFi4.0-PY-02",
+    "MAC5g": "CC 88 C7 69 A5 11"
+  },
+  {
+    "name": "GobSL-PY-03",
+    "type": "2.4Ghz",
+    "MAC": "C8 B5 AD B0 66 61",
+    "lat": -32.675875,
+    "lon": -64.985953,
+    "name5g": "WiFi3.0-PY-03",
+    "MAC5g": "C8 B5 AD B0 66 70"
+  },
+  {
+    "name": "WiFi3.0-PY-04",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "9C 8C D8 4F 68 A0",
+    "lat": -32.674258,
+    "lon": -64.988981,
+    "name5g": "WiFi3.0-PY-04",
+    "MAC5g": "9C 8C D8 4F 68 B0"
   }
 ]
