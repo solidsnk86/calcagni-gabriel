@@ -96,8 +96,8 @@ export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
                   </span>
                   <p className="flex-1 text-pretty text-xs sm:text-sm">
                     El IP: {d.ip}. Ha visitado el perfil el día{' '}
-                    {Format.dateAndTime(d.created_at)}, desde {d.city} -{' '}
-                    {d.province}, {d.country}.
+                    {Format.dateAndTime(d.created_at)}, desde {d.city},{' '}
+                    {d.country}.
                   </p>
                 </div>
               ))}

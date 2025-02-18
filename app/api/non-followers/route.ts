@@ -4,15 +4,15 @@ import getGithubGraphql from '@/utils/get-github-graphql';
 
 export async function GET(req: NextRequest) {
   const user = req.nextUrl.searchParams.get('user');
-  const TOKEN = req.nextUrl.searchParams.get('gh_token');
+  const TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
 
   if (!user || !TOKEN) {
     return Response.json(
       {
         mensaje:
-          'Debes proporcionar el nombre de usuario y tu token de github para obtener los datos',
+          'Debes proporcionar el nombre de usuario de github para obtener los datos',
         ejemplo:
-          'https://calcagni-gabriel.vercel.app/api/non-followers?user=usuario_name&gh_token=tu_token_de_github',
+          'https://calcagni-gabriel.vercel.app/api/non-followers?user=usuario_name',
       },
       { status: 400 }
     );
