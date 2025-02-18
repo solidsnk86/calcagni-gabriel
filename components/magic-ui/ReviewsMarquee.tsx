@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import { Marquee } from "@/components/magic-ui/Marquee";
-import { Format } from "../DateFormat";
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import { ReviewsMarqueeProps } from "@/app/types/definitions";
-import { DeleteButton } from "../DeleteBtn";
-import Image from "next/image";
-import { EditButton } from "../EditBtn";
+import { Marquee } from '@/components/magic-ui/Marquee';
+import { Format } from '../DateFormat';
+import Link from 'next/link';
+import React, { useEffect, useState } from 'react';
+import { ReviewsMarqueeProps } from '@/app/types/definitions';
+import { DeleteButton } from '../DeleteBtn';
+import Image from 'next/image';
+import { EditButton } from '../EditBtn';
 
 export const ReviewCard = ({
   id,
@@ -73,7 +73,7 @@ export const ReviewCard = ({
           {createdAt as number}
         </small>
         <small className="text-zinc-400 text-xs absolute right-[26px] top-[36px]">
-          {edited === true ? "(editado)" : null}
+          {edited === true ? '(editado)' : null}
         </small>
       </header>
       <div className="space-y-2 p-3 relative">
