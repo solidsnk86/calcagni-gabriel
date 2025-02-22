@@ -38,6 +38,7 @@ export async function GET(req: NextRequest) {
       coordinates,
       mac,
       mac5,
+      type,
     } = searchAntenna(coords, antennas, query as string);
 
     if (query) {
@@ -50,6 +51,7 @@ export async function GET(req: NextRequest) {
         coords: coordinates || 'No disponible',
         MAC: mac ? wirteMAC(mac) : 'MAC 2.4G no disponible',
         MAC5G: mac5 ? wirteMAC(mac5) : 'MAC 5G no disponible',
+        type: type || 'No disponible',
       });
     }
 

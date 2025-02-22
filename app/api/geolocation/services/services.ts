@@ -39,6 +39,7 @@ const searchAntenna = (
   let searchedTarget5g = null;
   let mac = null;
   let mac5 = null;
+  let type = null;
   let coords = { latitude: 0, longitude: 0 };
 
   for (const data of allData) {
@@ -53,6 +54,7 @@ const searchAntenna = (
       coords.longitude = data.lon;
       mac = data.MAC;
       mac5 = data.MAC5g;
+      type = data.type;
     }
   }
 
@@ -63,6 +65,7 @@ const searchAntenna = (
     coordinates,
     mac,
     mac5,
+    type,
   };
 };
 
