@@ -7195,5 +7195,14 @@
     "lon": 2.1757580211625425,
     "name5g": "Barcelona-Wifi (Carrer de Girona y d'Ausias Marc)",
     "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Placeta del comerç)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.389971024843604,
+    "lon": 2.181015702703444,
+    "name5g": "Barcelona-Wifi (Placeta del comerç)",
+    "MAC5g": null
   }
 ]
