@@ -7204,5 +7204,14 @@
     "lon": 2.181015702703444,
     "name5g": "Barcelona-Wifi (Placeta del comerç)",
     "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Carrer de Sant Pere Més Baix y Carrer de Jaume Giralt)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.38817681420987,
+    "lon": 2.1785722103570664,
+    "name5g": "Barcelona-Wifi (Carrer de Sant Pere Més Baix y Carrer de Jaume Giralt)",
+    "MAC5g": null
   }
 ]
