@@ -5619,5 +5619,115 @@
     "elevacion": 157,
     "lat": -36.5,
     "lon": -63.8333
+  },
+  {
+    "id": "MAD",
+    "nombre": "Madrid",
+    "tipo": "Ciudad",
+    "provincia": "Madrid",
+    "pais": "España",
+    "elevacion": 667,
+    "lat": 40.4165,
+    "lon": -3.7026
+  },
+  {
+    "id": "BCN",
+    "nombre": "Barcelona",
+    "tipo": "Ciudad",
+    "provincia": "Barcelona",
+    "pais": "España",
+    "elevacion": 12,
+    "lat": 41.3851,
+    "lon": 2.1734
+  },
+  {
+    "id": "VAL",
+    "nombre": "Valencia",
+    "tipo": "Ciudad",
+    "provincia": "Valencia",
+    "pais": "España",
+    "elevacion": 15,
+    "lat": 39.4699,
+    "lon": -0.3763
+  },
+  {
+    "id": "SEV",
+    "nombre": "Sevilla",
+    "tipo": "Ciudad",
+    "provincia": "Sevilla",
+    "pais": "España",
+    "elevacion": 7,
+    "lat": 37.3891,
+    "lon": -5.9845
+  },
+  {
+    "id": "ZAR",
+    "nombre": "Zaragoza",
+    "tipo": "Ciudad",
+    "provincia": "Zaragoza",
+    "pais": "España",
+    "elevacion": 199,
+    "lat": 41.6488,
+    "lon": -0.8891
+  },
+  {
+    "id": "MAL",
+    "nombre": "Málaga",
+    "tipo": "Ciudad",
+    "provincia": "Málaga",
+    "pais": "España",
+    "elevacion": 11,
+    "lat": 36.7213,
+    "lon": -4.4214
+  },
+  {
+    "id": "BIL",
+    "nombre": "Bilbao",
+    "tipo": "Ciudad",
+    "provincia": "Vizcaya",
+    "pais": "España",
+    "elevacion": 19,
+    "lat": 43.263,
+    "lon": -2.935
+  },
+  {
+    "id": "VIG",
+    "nombre": "Vigo",
+    "tipo": "Ciudad",
+    "provincia": "Pontevedra",
+    "pais": "España",
+    "elevacion": 45,
+    "lat": 42.2314,
+    "lon": -8.7124
+  },
+  {
+    "id": "GRA",
+    "nombre": "Granada",
+    "tipo": "Ciudad",
+    "provincia": "Granada",
+    "pais": "España",
+    "elevacion": 738,
+    "lat": 37.1773,
+    "lon": -3.5986
+  },
+  {
+    "id": "COR",
+    "nombre": "Córdoba",
+    "tipo": "Ciudad",
+    "provincia": "Córdoba",
+    "pais": "España",
+    "elevacion": 106,
+    "lat": 37.8882,
+    "lon": -4.7794
+  },
+  {
+    "id": "COR",
+    "nombre": "Córdoba",
+    "tipo": "Ciudad",
+    "provincia": "Córdoba",
+    "pais": "España",
+    "elevacion": 106,
+    "lat": 37.8882,
+    "lon": -4.7794
   }
 ]
