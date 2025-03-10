@@ -7213,5 +7213,749 @@
     "lon": 2.1785722103570664,
     "name5g": "Barcelona-Wifi (Carrer de Sant Pere Més Baix y Carrer de Jaume Giralt)",
     "MAC5g": null
+  },
+  {
+    "id": "7",
+    "name": "CIAC BELL VILLE",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-32.629939",
+    "lon": "-62.693294"
+  },
+  {
+    "id": "2",
+    "name": "CIAC SAN FRANCISCO",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-31.430887",
+    "lon": "-62.085524"
+  },
+  {
+    "id": "8",
+    "name": "CIAC LABOULAYE",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-34.127115",
+    "lon": "-63.388221"
+  },
+  {
+    "id": "4",
+    "name": "CIAC VILLA CARLOS PAZ",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-31.416129",
+    "lon": "-64.493532"
+  },
+  {
+    "id": "5",
+    "name": "CIAC VILLA DEL TOTORAL",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-30.706057",
+    "lon": "-64.068228"
+  },
+  {
+    "id": "9",
+    "name": "CIAC MONTE BUEY",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-32.920773",
+    "lon": "-62.456101"
+  },
+  {
+    "id": "12",
+    "name": "CIAC VILLA DEL ROSARIO",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-31.552142",
+    "lon": "-63.536069"
+  },
+  {
+    "id": "23",
+    "name": "MUSEO CARAFFA",
+    "state": "Conectado",
+    "type": "MUSEO",
+    "lat": "-31.4285434",
+    "lon": "-64.1835363"
+  },
+  {
+    "id": "13",
+    "name": "CIAC CRUZ DEL EJE",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-30.726632",
+    "lon": "-64.801745"
+  },
+  {
+    "id": "24",
+    "name": "TEATRO REAL",
+    "state": "Conectado",
+    "type": "TEATRO",
+    "lat": "-31.417545",
+    "lon": "-64.18392463"
+  },
+  {
+    "id": "25",
+    "name": "REGISTRO CIVIL",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4168292",
+    "lon": "-64.18982699"
+  },
+  {
+    "id": "26",
+    "name": "CATASTRO",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.410965",
+    "lon": "-64.19064226"
+  },
+  {
+    "id": "27",
+    "name": "MUSEO PALACIO DIONISI",
+    "state": "Conectado",
+    "type": "MUSEO",
+    "lat": "-31.427236",
+    "lon": "-64.185483"
+  },
+  {
+    "id": "28",
+    "name": "ESPACIO CULTURAL MUSEO DE LAS MUJERES",
+    "state": "Conectado",
+    "type": "MUSEO",
+    "lat": "-31.414843",
+    "lon": "-64.185077"
+  },
+  {
+    "id": "29",
+    "name": "POLO INTEGRAL DE LA MUJER",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.421128",
+    "lon": "-64.175629"
+  },
+  {
+    "id": "31",
+    "name": "MUSEO DE CIENCIAS NATURALES",
+    "state": "Conectado",
+    "type": "MUSEO",
+    "lat": "-31.416875",
+    "lon": "-64.181158"
+  },
+  {
+    "id": "33",
+    "name": "MUSEO EVITA PALACIO FERREYRA",
+    "state": "Conectado",
+    "type": "MUSEO",
+    "lat": "-31.427141",
+    "lon": "-64.185218"
+  },
+  {
+    "id": "36",
+    "name": "SECRETARIA DE AMBIENTE Y CAMBIO CLIMATICO",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.437085",
+    "lon": "-64.175465"
+  },
+  {
+    "id": "37",
+    "name": "DEFENSA CIVIL Y NAUTICA",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4345117",
+    "lon": "-64.17484493"
+  },
+  {
+    "id": "38",
+    "name": "MINISTERIO DE DESARROLLO SOCIAL",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.441979",
+    "lon": "-64.1963161"
+  },
+  {
+    "id": "39",
+    "name": "BOLETIN OFICIAL",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4094895",
+    "lon": "-64.1927577"
+  },
+  {
+    "id": "41",
+    "name": "CONSEJO DE LA MAGISTRATURA",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.414334",
+    "lon": "-64.186273"
+  },
+  {
+    "id": "42",
+    "name": "REGISTRO DE REINCIDENCIA",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.416998",
+    "lon": "-64.180687"
+  },
+  {
+    "id": "44",
+    "name": "ACIF",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4152695",
+    "lon": "-64.18541809"
+  },
+  {
+    "id": "59",
+    "name": "HOSPITAL TRÁNSITO CÁCERES DE ALLENDE",
+    "state": "Conectado",
+    "type": "HOSPITAL",
+    "lat": "-31.404895",
+    "lon": "-64.169729"
+  },
+  {
+    "id": "64",
+    "name": "CAPS AMPLIACIÓN FERREYRA",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.4700222",
+    "lon": "-64.1169431"
+  },
+  {
+    "id": "68",
+    "name": "CAJA DE JUBILACIONES - HOGAR DE DÍA",
+    "state": "Conectado",
+    "type": "HOGAR DE DIA",
+    "lat": "-31.4089705",
+    "lon": "-64.18418578"
+  },
+  {
+    "id": "53",
+    "name": "MINISTERIO DE FINANZAS",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4312389",
+    "lon": "-64.18471277"
+  },
+  {
+    "id": "55",
+    "name": "HOSPITAL MATERNIDAD PROVINCIAL",
+    "state": "Conectado",
+    "type": "HOSPITAL",
+    "lat": "-31.42294",
+    "lon": "-64.163899"
+  },
+  {
+    "id": "56",
+    "name": "HOSPITAL SAN ROQUE VIEJO",
+    "state": "Conectado",
+    "type": "HOSPITAL",
+    "lat": "-31.4180662",
+    "lon": "-64.1791399"
+  },
+  {
+    "id": "57",
+    "name": "HOSPITAL ONCOLÓGICO",
+    "state": "Conectado",
+    "type": "HOSPITAL",
+    "lat": "-31.42742",
+    "lon": "-64.167147"
+  },
+  {
+    "id": "58",
+    "name": "HOSPITAL SAN ROQUE",
+    "state": "Conectado",
+    "type": "HOSPITAL",
+    "lat": "-31.42832",
+    "lon": "-64.1699809"
+  },
+  {
+    "id": "60",
+    "name": "CAPS PARQUE DE LAS ROSAS",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.4474904",
+    "lon": "-64.2408988"
+  },
+  {
+    "id": "61",
+    "name": "CAPS NUEVA ESPERANZA",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.403967",
+    "lon": "-64.064404"
+  },
+  {
+    "id": "62",
+    "name": "CAPS VILLA ANGELELLI",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.5048322",
+    "lon": "-64.1943222"
+  },
+  {
+    "id": "63",
+    "name": "CAPS CABILDO",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.4840287",
+    "lon": "-64.2279034"
+  },
+  {
+    "id": "65",
+    "name": "CAPS SOL NACIENTE",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.3219168",
+    "lon": "-64.2423257"
+  },
+  {
+    "id": "66",
+    "name": "CAPS CIUDAD DE LOS CUARTETOS",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.358873",
+    "lon": "-64.1307485"
+  },
+  {
+    "id": "69",
+    "name": "CAJA DE JUBILACIONES",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4166892",
+    "lon": "-64.1813255"
+  },
+  {
+    "id": "70",
+    "name": "MINISTERIO DE SALUD",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4431863",
+    "lon": "-64.196852"
+  },
+  {
+    "id": "71",
+    "name": "CAPS AMPLIACIÓN SAVIO",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.3722043",
+    "lon": "-64.1610356"
+  },
+  {
+    "id": "72",
+    "name": "CAPS CIUDAD DE MIS SUEÑOS",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.4777566",
+    "lon": "-64.0855962"
+  },
+  {
+    "id": "73",
+    "name": "TRIBUNAL DE CUENTAS",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4150953",
+    "lon": "-64.19189492"
+  },
+  {
+    "id": "74",
+    "name": "CONSEJO DE LA MUJER",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4127128",
+    "lon": "-64.18700932"
+  },
+  {
+    "id": "77",
+    "name": "HOSPITAL DEL SUR ESTE - FLORENCIO DÍAZ",
+    "state": "Conectado",
+    "type": "HOSPITAL",
+    "lat": "-31.445878",
+    "lon": "-64.1488191"
+  },
+  {
+    "id": "78",
+    "name": "CAPS CIUDAD DE LOS NIÑOS",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.295443",
+    "lon": "-64.177883"
+  },
+  {
+    "id": "79",
+    "name": "CAPS ZEPA",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.3974417",
+    "lon": "-64.1091015"
+  },
+  {
+    "id": "80",
+    "name": "CAPS CIUDAD EVITA",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.4496504",
+    "lon": "-64.110774"
+  },
+  {
+    "id": "76",
+    "name": "CIAC COLONIA CAROYA",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.0336304",
+    "lon": "-64.083252"
+  },
+  {
+    "id": "81",
+    "name": "CAPS AMPLIACIÓN RETIRO",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.3481212",
+    "lon": "-64.1466165"
+  },
+  {
+    "id": "82",
+    "name": "CAPS CHINGOLO",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.3410106",
+    "lon": "-64.170928"
+  },
+  {
+    "id": "1",
+    "name": "CIAC CENTRO CÍVICO RÍO CUARTO",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-33.123024",
+    "lon": "-64.333848"
+  },
+  {
+    "id": "3",
+    "name": "CIAC VILLA MARÍA",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-32.41345",
+    "lon": "-63.24009"
+  },
+  {
+    "id": "6",
+    "name": "CIAC RÍO TERCERO",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-32.175161",
+    "lon": "-64.111367"
+  },
+  {
+    "id": "10",
+    "name": "CIAC RÍO CEBALLOS",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-31.159748",
+    "lon": "-64.318261"
+  },
+  {
+    "id": "11",
+    "name": "CIAC MARCOS JUÁREZ",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-32.699281",
+    "lon": "-62.106208"
+  },
+  {
+    "id": "14",
+    "name": "CIAC CENTRO CÍVICO DEL BICENTENARIO GOBERNADOR JUAN BAUTISTA BUSTOS",
+    "state": "Conectado",
+    "type": "CIAC",
+    "lat": "-31.418558",
+    "lon": "-64.174076"
+  },
+  {
+    "id": "15",
+    "name": "UNIVERSIDAD PROVINCIAL DE CÓRDOBA -POLO DE LAS ARTES - ARTES APLICADAS",
+    "state": "Conectado",
+    "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
+    "lat": "-31.4354383",
+    "lon": "-64.17509092"
+  },
+  {
+    "id": "16",
+    "name": "UNIVERSIDAD PROVINCIAL DE CÓRDOBA -POLO DE LAS ARTES - 5",
+    "state": "Conectado",
+    "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
+    "lat": "-31.4354383",
+    "lon": "-64.17509092"
+  },
+  {
+    "id": "17",
+    "name": "UNIVERSIDAD PROVINCIAL DE CÓRDOBA -HALL DE ENTRADA",
+    "state": "Conectado",
+    "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
+    "lat": "-31.4354383",
+    "lon": "-64.17509092"
+  },
+  {
+    "id": "18",
+    "name": "UNIVERSIDAD PROVINCIAL DE CÓRDOBA -SALÓN DE ACTOS 1",
+    "state": "Conectado",
+    "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
+    "lat": "-31.4354383",
+    "lon": "-64.17509092"
+  },
+  {
+    "id": "19",
+    "name": "UNIVERSIDAD PROVINCIAL DE CÓRDOBA - POLO DE LAS ARTES - MÚSICA",
+    "state": "Conectado",
+    "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
+    "lat": "-31.4354383",
+    "lon": "-64.17509092"
+  },
+  {
+    "id": "20",
+    "name": "UNIVERSIDAD PROVINCIAL DE CÓRDOBA -POLO DE LAS ARTES - BELLAS ARTES",
+    "state": "Conectado",
+    "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
+    "lat": "-31.4354383",
+    "lon": "-64.17509092"
+  },
+  {
+    "id": "21",
+    "name": "UNIVERSIDAD PROVINCIAL DE CÓRDOBA -POLO DE LAS ARTES - 4",
+    "state": "Conectado",
+    "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
+    "lat": "-31.4354383",
+    "lon": "-64.17509092"
+  },
+  {
+    "id": "22",
+    "name": "UNIVERSIDAD PROVINCIAL DE CÓRDOBA -SALÓN DE ACTOS 2",
+    "state": "Conectado",
+    "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
+    "lat": "-31.4354383",
+    "lon": "-64.17509092"
+  },
+  {
+    "id": "54",
+    "name": "HOSPITAL NEUROPSIQUIÁTRICO",
+    "state": "Conectado",
+    "type": "HOSPITAL",
+    "lat": "-31.4190393",
+    "lon": "-64.1709509"
+  },
+  {
+    "id": "30",
+    "name": "CENTRO CULTURAL CÓRDOBA",
+    "state": "Conectado",
+    "type": "CENTRO CULTURAL CÓRDOBA",
+    "lat": "-31.416875",
+    "lon": "-64.181158"
+  },
+  {
+    "id": "32",
+    "name": "DIRECCIÓN DE RENTAS",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4082442",
+    "lon": "-64.18188177"
+  },
+  {
+    "id": "34",
+    "name": "AGENCIA CÓRDOBA CULTURA",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4263476",
+    "lon": "-64.18361863"
+  },
+  {
+    "id": "35",
+    "name": "MARCAS Y SEÑALES",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4336121",
+    "lon": "-64.17150768"
+  },
+  {
+    "id": "40",
+    "name": "JUNTA DE CALIFICACIÓN Y SELECCIÓN DE JUECES DE PAZ",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.414334",
+    "lon": "-64.186273"
+  },
+  {
+    "id": "43",
+    "name": "MINISTERIO DE EDUCACIÓN",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4098558",
+    "lon": "-64.19298126"
+  },
+  {
+    "id": "45",
+    "name": "SECRETARÍA DE AGRICULTURA",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.41906293",
+    "lon": "-64.18883396"
+  },
+  {
+    "id": "46",
+    "name": "POLICÍA FISCAL",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.406909",
+    "lon": "-64.181542"
+  },
+  {
+    "id": "47",
+    "name": "MINISTERIO DE INDUSTRIA COMERCIO Y MINERÍA",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4193587",
+    "lon": "-64.18963785"
+  },
+  {
+    "id": "48",
+    "name": "SECRETARÍA DE TRABAJO",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4093253",
+    "lon": "-64.1792032"
+  },
+  {
+    "id": "49",
+    "name": "MINISTERIO DE SERVICIOS PÚBLICOS",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4080553",
+    "lon": "-64.19024244"
+  },
+  {
+    "id": "50",
+    "name": "INSPECCIÓN DE PERSONAS JURÍDICAS",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.408821",
+    "lon": "-64.183775"
+  },
+  {
+    "id": "51",
+    "name": "SECRETARÍA DE TRANSPORTE",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4234787",
+    "lon": "-64.17458557"
+  },
+  {
+    "id": "52",
+    "name": "MINISTERIO DE CIENCIA Y TECNOLOGÍA",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4202573",
+    "lon": "-64.1713203"
+  },
+  {
+    "id": "67",
+    "name": "DIRECCIÓN DE VIVIENDA",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4087875",
+    "lon": "-64.18812431"
+  },
+  {
+    "id": "75",
+    "name": "MINISTERIO DE OBRAS PÚBLICAS Y FINANCIAMIENTO",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4074225",
+    "lon": "-64.19175395"
+  },
+  {
+    "id": "83",
+    "name": "HOSPITAL MISERICORDIA",
+    "state": "Conectado",
+    "type": "HOSPITAL",
+    "lat": "-31.4326283",
+    "lon": "-64.1962668"
+  },
+  {
+    "id": "84",
+    "name": "UNIVERSIDAD PROVINCIAL DE CÓRDOBA -TEATRO BAR",
+    "state": "Conectado",
+    "type": "TEATRO",
+    "lat": "-31.4354383",
+    "lon": "-64.17509092"
+  },
+  {
+    "id": "85",
+    "name": "APROSS",
+    "state": "Conectado",
+    "type": "DEPENDENCIA PÚBLICA",
+    "lat": "-31.4236792",
+    "lon": "-64.19370885"
+  },
+  {
+    "id": "86",
+    "name": "PARQUE DEL KEMPES",
+    "state": "Conectado",
+    "type": "ESPACIO ABIERTO",
+    "lat": "-31.37409",
+    "lon": "-64.24422"
+  },
+  {
+    "id": "87",
+    "name": "PARQUE DE LAS TEJAS",
+    "state": "En proceso",
+    "type": "ESPACIO ABIERTO",
+    "lat": "-31.432586",
+    "lon": "-64.187381"
+  },
+  {
+    "id": "88",
+    "name": "COMPLEJO FERIAL CÓRDOBA",
+    "state": "Conectado",
+    "type": "ESPACIO ABIERTO",
+    "lat": "-31.371921",
+    "lon": "-64.25637"
+  },
+  {
+    "id": "89",
+    "name": "TERMINAL 2",
+    "state": "Conectado",
+    "type": "ESPACIO ABIERTO",
+    "lat": "-31.42411",
+    "lon": "-64.173974"
+  },
+  {
+    "id": "90",
+    "name": "PARQUE DEL CHATEAU",
+    "state": "En proceso",
+    "type": "ESPACIO ABIERTO",
+    "lat": "-31.373713",
+    "lon": "-64.25677"
+  },
+  {
+    "id": "91",
+    "name": "TERMINAL 1",
+    "state": "Conectado",
+    "type": "ESPACIO ABIERTO",
+    "lat": "-31.422733",
+    "lon": "-64.175626"
+  },
+  {
+    "id": "92",
+    "name": "PASEO DEL BUEN PASTOR",
+    "state": "Conectado",
+    "type": "ESPACIO ABIERTO",
+    "lat": "-31.423851",
+    "lon": "-64.186363"
+  },
+  {
+    "id": "93",
+    "name": "CAPS JUAN PABLO II",
+    "state": "Conectado",
+    "type": "CAPS",
+    "lat": "-31.3634995",
+    "lon": "-64.157179"
   }
 ]
