@@ -788,8 +788,8 @@
     "provincia": "Córdoba",
     "pais": "Argentina",
     "elevacion": 390,
-    "lat": -31.4167,
-    "lon": -64.1833
+    "lat": -31.41677811667936,
+    "lon": -64.18358273849186
   },
   {
     "id": "VCA",
@@ -5709,16 +5709,6 @@
     "elevacion": 738,
     "lat": 37.1773,
     "lon": -3.5986
-  },
-  {
-    "id": "COR",
-    "nombre": "Córdoba",
-    "tipo": "Ciudad",
-    "provincia": "Córdoba",
-    "pais": "España",
-    "elevacion": 106,
-    "lat": 37.8882,
-    "lon": -4.7794
   },
   {
     "id": "COR",
