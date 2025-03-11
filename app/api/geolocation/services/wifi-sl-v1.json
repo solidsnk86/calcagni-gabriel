@@ -7534,6 +7534,82 @@
     "MAC5g": null
   },
   {
+    "name": "GobSL-CA-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 17 5C D0",
+    "lat": -32.811338,
+    "lon": -66.076912,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-CA-02",
+    "type": "2.4Ghz",
+    "MAC": "C8 B5 AD B0 65 C1",
+    "lat": -32.81066,
+    "lon": -66.09084,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-CA-03",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 03 FA E0",
+    "lat": -32.811186,
+    "lon": -66.092858,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi4.0-CA-04",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -32.812819,
+    "lon": -66.096136,
+    "name5g": "WiFi4.0-CA-04",
+    "MAC5g": "6C C4 9F 7B 64 91"
+  },
+  {
+    "name": "GobSL-CA-05",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 05 3E 40",
+    "lat": -32.815327,
+    "lon": -66.097998,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-CA-06",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 05 2F B0",
+    "lat": -32.805422,
+    "lon": -66.085836,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-CA-07",
+    "type": "2.4Ghz",
+    "MAC": "6C C4 9F 7B 1A 20",
+    "lat": -32.814769,
+    "lon": -66.093352,
+    "name5g": "WiFi4.0-CA-07",
+    "MAC5g": "6C C4 9F 7B 1A 31"
+  },
+  {
+    "name": "Cobro",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "6C C4 9F 7B 1A 22",
+    "lat": -32.814769,
+    "lon": -66.093352,
+    "name5g": "Cobro",
+    "MAC5g": "6C C4 9F 7B 1A 32"
+  },
+  {
+    "name": "WiFi4.0-CA-08",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "E4 55 A8 55 7C DB",
+    "lat": -32.811362,
+    "lon": -66.0766,
+    "name5g": "WiFi4.0-CA-08",
+    "MAC5g": null
+  },
+  {
     "id": "1",
     "name": "CIAC CENTRO CÍVICO RÍO CUARTO",
     "state": "Conectado",
