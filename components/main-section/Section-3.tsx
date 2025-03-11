@@ -1,7 +1,8 @@
-import { Drama } from "lucide-react";
-import { ReviewsMarquee } from "../magic-ui/ReviewsMarquee";
-import React from "react";
-import { Section_3PropsOptional } from "@/app/types/definitions";
+import { Drama } from 'lucide-react';
+import { ReviewsMarquee } from '../magic-ui/ReviewsMarquee';
+import React from 'react';
+import { Section_3PropsOptional } from '@/app/types/definitions';
+import Link from 'next/link';
 
 export const Section_3: React.FC<Section_3PropsOptional> = ({
   data,
@@ -9,8 +10,10 @@ export const Section_3: React.FC<Section_3PropsOptional> = ({
   className,
 }) => {
   return (
-    <section
+    <Link
+      href="/login"
       className={`border border-foreground/5 bg-zinc-900/50 rounded-xl overflow-hidden ${className}`}
+      title="Inicia sesión para comentar 😃"
     >
       <header className="text-center border-b border-foreground/5">
         <div className="p-6">
@@ -28,6 +31,6 @@ export const Section_3: React.FC<Section_3PropsOptional> = ({
           <div className="shadow-bottom"></div>
         </div>
       </aside>
-    </section>
+    </Link>
   );
 };

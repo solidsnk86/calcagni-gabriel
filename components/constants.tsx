@@ -98,6 +98,13 @@ export const services = [
 
 export const worksProyects = [
   {
+    name: 'NeoWiFi',
+    url: 'https://neo-wifi.vercel.app/',
+    image: '/Portada-NeoWiFi.png',
+    type: 'Información WiFi',
+    repoName: 'neo-wifi',
+  },
+  {
     name: 'Solid Geolocation',
     url: 'https://solid-geolocation.vercel.app/',
     image: '/solid-geolocation-api.png',
@@ -105,18 +112,11 @@ export const worksProyects = [
     repoName: 'geo-api',
   },
   {
-    name: 'Clean-Indent',
+    name: 'Clean Indent',
     url: 'https://www.npmjs.com/package/clean-indent',
     image: '/clean-indent-screen-shot.png',
     type: 'Paquete NPM',
     repoName: 'clean-indent',
-  },
-  {
-    name: 'NeoTecs',
-    url: 'https://neotecs.vercel.app/',
-    image: '/Portada-NeoTecs.png',
-    type: 'Documentación Web',
-    repoName: 'neotecs',
   },
   {
     name: 'Web LLM IA',

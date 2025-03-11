@@ -1,15 +1,15 @@
-import { itemsSection_4, wap } from "@/components/constants";
-import useMatchMedia from "@/app/hooks/useMatchMedia";
-import Link from "next/link";
-import { FancyButton } from "@/components/magic-ui/FancyButton";
-import { DownloadIcon } from "lucide-react";
-import Image from "next/image";
+import { itemsSection_4, wap } from '@/components/constants';
+import useMatchMedia from '@/app/hooks/useMatchMedia';
+import Link from 'next/link';
+import { FancyButton } from '@/components/magic-ui/FancyButton';
+import { DownloadIcon } from 'lucide-react';
+import Image from 'next/image';
 
 export const Section_4 = ({ className }: { className?: string }) => {
-  const mobile = useMatchMedia("(max-width: 700px)", false);
+  const mobile = useMatchMedia('(max-width: 700px)', false);
 
   function soundClick() {
-    const audio = new Audio("/effects-sounds/lighter-zippo-click.mp3");
+    const audio = new Audio('/effects-sounds/lighter-zippo-click.mp3');
     audio.volume = 0.2;
     if (audio) {
       return audio.play();
@@ -53,7 +53,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
         >
           <span
             className={`pdf absolute -top-2 -right-4 text-[0.6rem] font-semibold px-1 rounded-full opacity-0 
-           bg-gradient-to-b from-red-300 via-red-500 to-red-600 group-hover:opacity-100 transition-opacity duration-300 shadow-md shadow-black`}
+          bg-gradient-to-b from-red-300 via-red-500 to-red-600 group-hover:opacity-100 transition-opacity duration-300 shadow-md shadow-black`}
           >
             PDF
           </span>
@@ -74,7 +74,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
       <footer className="flex my-4 gap-2 justify-between">
         <FancyButton
           className={`py-3 px-3 flex items-center justify-center w-[100%] text-center ${
-            mobile ? "text-xs" : "text-base"
+            mobile ? 'text-xs' : 'text-base'
           }`}
           duration={2.5}
           radius={10}
@@ -84,7 +84,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
             viewBox="0 0 24 24"
             fill="#A78BFA"
             className={`${
-              mobile ? "w-4 h-4 mr-1" : "w-5 h-5 mr-2"
+              mobile ? 'w-4 h-4 mr-1' : 'w-5 h-5 mr-2'
             } z-20 inline -translate-y-[2px]`}
           >
             <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
@@ -95,7 +95,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
         </FancyButton>
         <FancyButton
           className={`py-3 px-3 inline-flex items-center justify-center w-[100%] text-center ${
-            mobile ? "text-xs" : "text-base"
+            mobile ? 'text-xs' : 'text-base'
           }`}
           duration={2.5}
         >
@@ -104,7 +104,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
             viewBox="0 0 24 24"
             fill="#A78BFA"
             className={`${
-              mobile ? "w-4 h-4 mr-1" : "w-5 h-5 mr-2"
+              mobile ? 'w-4 h-4 mr-1' : 'w-5 h-5 mr-2'
             } z-20 inline -translate-y-[2px]`}
           >
             <path
