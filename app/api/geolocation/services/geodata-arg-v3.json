@@ -264,6 +264,17 @@
     "lon": -66.15989824777664
   },
   {
+    "id": "ELMO",
+    "nombre": "El Molle",
+    "tipo": "Localidad",
+    "departamento": "Belgrano",
+    "provincia": "San Luis",
+    "pais": "Argentina",
+    "elevacion": 495,
+    "lat": -33.096250422195375,
+    "lon": -66.29224238695417
+  },
+  {
     "id": "CNL",
     "nombre": "Candelaria",
     "tipo": "Localidad",
