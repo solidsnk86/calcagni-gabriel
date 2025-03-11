@@ -7107,112 +7107,141 @@
     "MAC5g": null
   },
   {
-    "name": "Barcelona-Wifi (Pl. de Catalunya - Rda. Sant Pere)",
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "MAC": null,
-    "lat": 41.38813501305241,
-    "lon": 2.170301290290271,
-    "name5g": "Barcelona-Wifi (Pl. de Catalunya - Rda. Sant Pere)",
+    "name": "GobSL-UN-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 42 F0",
+    "lat": -35.15292,
+    "lon": -65.94591,
     "MAC5g": null
   },
   {
-    "name": "Barcelona-Wifi (Urquinaona Metro)",
+    "name": "WiFi4.0-UN-02",
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "MAC": null,
-    "lat": 41.388778952890775,
-    "lon": 2.172747464879312,
-    "name5g": "Barcelona-Wifi(Urquinaona Metro)",
+    "lat": -35.156258,
+    "lon": -65.945367,
+    "name5g": "WiFi4.0-UN-02",
+    "MAC5g": "CC 88 C7 69 AB 51"
+  },
+  {
+    "name": "WiFi3.0-UN-03",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "7C 57 3C 6D 6B 60",
+    "lat": -35.155955,
+    "lon": -65.951003,
+    "name5g": "WiFi3.0-UN-03",
+    "MAC5g": "7C 57 3C 6D 6B 70"
+  },
+  {
+    "name": "GobSL-UN-04",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 F5 C0",
+    "lat": -35.151418,
+    "lon": -65.942804,
     "MAC5g": null
   },
   {
-    "name": "Barcelona-Wifi (Av. del Portal del Angel y Fontanella)",
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "MAC": null,
-    "lat": 41.38681025796545,
-    "lon": 2.1713892162619097,
-    "name5g": "Barcelona-Wifi (Av. del Portal del Angel y Fontanella)",
+    "name": "GobSL-UN-05",
+    "type": "2.4Ghz",
+    "MAC": "CC 88 C7 69 95 81",
+    "lat": -35.154785,
+    "lon": -65.9481,
     "MAC5g": null
   },
   {
-    "name": "Barcelona-Wifi (Parada Catalunya Línea 3 de Metro)",
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "MAC": null,
-    "lat": 41.38546454352417,
-    "lon": 2.1700762012744925,
-    "name5g": "Barcelona-Wifi (Parada Catalunya Línea 3 de Metro)",
+    "name": "GobSL-UN-06",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 01 B2 10",
+    "lat": -35.158539,
+    "lon": -65.94472,
     "MAC5g": null
   },
   {
-    "name": "Barcelona-Wifi (Carrer de Pelaí y Balmes)",
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "MAC": null,
-    "lat": 41.385802257050095,
-    "lon": 2.1672147170038287,
-    "name5g": "Barcelona-Wifi (Carrer de Pelaí y Balmes)",
+    "name": "GobSL-UN-07",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 03 79 00",
+    "lat": -35.15,
+    "lon": -65.945555,
     "MAC5g": null
   },
   {
-    "name": "Barcelona-Wifi (Carrer de Casp y Carrer del Bruc)",
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "MAC": null,
-    "lat": 41.39129879779566,
-    "lon": 2.1736895824005713,
-    "name5g": "Barcelona-Wifi (Carrer de Casp y Carrer del Bruc)",
+    "name": "GobSL-UN-08",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 04 45 A0",
+    "lat": -35.157222,
+    "lon": -65.94,
     "MAC5g": null
   },
   {
-    "name": "Barcelona-Wifi (Metro Liceu)",
+    "name": "WiFi4.0-UN-09",
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "MAC": null,
-    "lat": 41.38115635879335,
-    "lon": 2.173263795373531,
-    "name5g": "Barcelona-Wifi (Metro Liceu)",
+    "lat": -35.162605,
+    "lon": -65.945497,
+    "name5g": "WiFi4.0-UN-09",
+    "MAC5g": "CC 88 C7 69 9C 11"
+  },
+  {
+    "name": "GobSL-UN-10",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 04 08 A0",
+    "lat": -35.154026,
+    "lon": -65.942874,
     "MAC5g": null
   },
   {
-    "name": "Barcelona-Wifi (Via Laietana, 35)",
+    "name": "WiFi3.0-UN-11",
     "type": "Dual Band 2.4Ghz | 5Ghz",
-    "MAC": null,
-    "lat": 41.38115635879335,
-    "lon": 2.173263795373531,
-    "name5g": "Barcelona-Wifi (Via Laietana, 35)",
-    "MAC5g": null
+    "MAC": "C8 B5 AD B0 64 A0",
+    "lat": -35.151022,
+    "lon": -65.945881,
+    "name5g": "WiFi3.0-UN-11",
+    "MAC5g": "C8 B5 AD B0 64 B0"
   },
   {
-    "name": "Barcelona-Wifi (Carrer de Trafalgar, Museo Banksy)",
+    "name": "WiFi4.0",
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "MAC": null,
-    "lat": 41.38906731266802,
-    "lon": 2.176199244533383,
-    "name5g": "Barcelona-Wifi (Carrer de Trafalgar, Museo Banksy)",
-    "MAC5g": null
+    "lat": -35.153047,
+    "lon": -65.948347,
+    "name5g": "WiFi4.0",
+    "MAC5g": "C8 B5 AD B0 65 F1"
   },
   {
-    "name": "Barcelona-Wifi (Carrer de Girona y d'Ausias Marc)",
+    "name": "WiFi3.0-UN-13",
     "type": "Dual Band 2.4Ghz | 5Ghz",
-    "MAC": null,
-    "lat": 41.39125011095503,
-    "lon": 2.1757580211625425,
-    "name5g": "Barcelona-Wifi (Carrer de Girona y d'Ausias Marc)",
-    "MAC5g": null
+    "MAC": "C8 B5 AD B0 66 40",
+    "lat": -35.157131,
+    "lon": -65.943847,
+    "name5g": "WiFi3.0-UN-13",
+    "MAC5g": "C8 B5 AD B0 66 50"
   },
   {
-    "name": "Barcelona-Wifi (Placeta del comerç)",
+    "name": "WiFi3.0-UN-14",
     "type": "Dual Band 2.4Ghz | 5Ghz",
-    "MAC": null,
-    "lat": 41.389971024843604,
-    "lon": 2.181015702703444,
-    "name5g": "Barcelona-Wifi (Placeta del comerç)",
-    "MAC5g": null
+    "MAC": "C8 B5 AD B0 66 C0",
+    "lat": -35.156611,
+    "lon": -65.949344,
+    "name5g": "WiFi3.0-UN-14",
+    "MAC5g": "C8 B5 AD B0 66 D0"
   },
   {
-    "name": "Barcelona-Wifi (Carrer de Sant Pere Més Baix y Carrer de Jaume Giralt)",
+    "name": "WiFi3.0-UN-15",
     "type": "Dual Band 2.4Ghz | 5Ghz",
-    "MAC": null,
-    "lat": 41.38817681420987,
-    "lon": 2.1785722103570664,
-    "name5g": "Barcelona-Wifi (Carrer de Sant Pere Més Baix y Carrer de Jaume Giralt)",
-    "MAC5g": null
+    "MAC": "9C 8C D8 4F F6 00",
+    "lat": -35.150278,
+    "lon": -65.941944,
+    "name5g": "WiFi3.0-UN-15",
+    "MAC5g": "9C 8C D8 4F F6 10"
+  },
+  {
+    "name": "WiFi3.0-UN-16",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "C8 B5 AD B0 5D 80",
+    "lat": -35.154789,
+    "lon": -65.946197,
+    "name5g": "WiFi3.0-UN-16",
+    "MAC5g": "C8 B5 AD B0 5D 90"
   },
   {
     "id": "1",
@@ -7957,5 +7986,113 @@
     "type": "CAPS",
     "lat": "-31.3634995",
     "lon": "-64.157179"
+  },
+  {
+    "name": "Barcelona-Wifi (Pl. de Catalunya - Rda. Sant Pere)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.38813501305241,
+    "lon": 2.170301290290271,
+    "name5g": "Barcelona-Wifi (Pl. de Catalunya - Rda. Sant Pere)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Urquinaona Metro)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.388778952890775,
+    "lon": 2.172747464879312,
+    "name5g": "Barcelona-Wifi(Urquinaona Metro)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Av. del Portal del Angel y Fontanella)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.38681025796545,
+    "lon": 2.1713892162619097,
+    "name5g": "Barcelona-Wifi (Av. del Portal del Angel y Fontanella)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Parada Catalunya Línea 3 de Metro)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.38546454352417,
+    "lon": 2.1700762012744925,
+    "name5g": "Barcelona-Wifi (Parada Catalunya Línea 3 de Metro)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Carrer de Pelaí y Balmes)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.385802257050095,
+    "lon": 2.1672147170038287,
+    "name5g": "Barcelona-Wifi (Carrer de Pelaí y Balmes)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Carrer de Casp y Carrer del Bruc)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.39129879779566,
+    "lon": 2.1736895824005713,
+    "name5g": "Barcelona-Wifi (Carrer de Casp y Carrer del Bruc)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Metro Liceu)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.38115635879335,
+    "lon": 2.173263795373531,
+    "name5g": "Barcelona-Wifi (Metro Liceu)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Via Laietana, 35)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.38115635879335,
+    "lon": 2.173263795373531,
+    "name5g": "Barcelona-Wifi (Via Laietana, 35)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Carrer de Trafalgar, Museo Banksy)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.38906731266802,
+    "lon": 2.176199244533383,
+    "name5g": "Barcelona-Wifi (Carrer de Trafalgar, Museo Banksy)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Carrer de Girona y d'Ausias Marc)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.39125011095503,
+    "lon": 2.1757580211625425,
+    "name5g": "Barcelona-Wifi (Carrer de Girona y d'Ausias Marc)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Placeta del comerç)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.389971024843604,
+    "lon": 2.181015702703444,
+    "name5g": "Barcelona-Wifi (Placeta del comerç)",
+    "MAC5g": null
+  },
+  {
+    "name": "Barcelona-Wifi (Carrer de Sant Pere Més Baix y Carrer de Jaume Giralt)",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": 41.38817681420987,
+    "lon": 2.1785722103570664,
+    "name5g": "Barcelona-Wifi (Carrer de Sant Pere Més Baix y Carrer de Jaume Giralt)",
+    "MAC5g": null
   }
 ]
