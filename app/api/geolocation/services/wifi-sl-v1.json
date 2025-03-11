@@ -7244,6 +7244,91 @@
     "MAC5g": "C8 B5 AD B0 5D 90"
   },
   {
+    "name": "GobSL-PE-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 05 30 30",
+    "lat": -33.83748,
+    "lon": -66.13855,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-PE-02",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "C8 B5 AD B0 55 C1",
+    "lat": -33.835124,
+    "lon": -66.137758,
+    "name5g": "WiFi3.0-PE-02",
+    "MAC5g": "C8 B5 AD B0 55 D0"
+  },
+  {
+    "name": "GobSL-AP-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 05 3D 00",
+    "lat": -35.154026,
+    "lon": -65.942874,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-AP-02",
+    "type": "2.4Ghz",
+    "MAC": "C8 B5 AD B0 52 C0",
+    "lat": -33.83748,
+    "lon": -66.13855,
+    "name5g": "WiFi3.0-AP-02",
+    "MAC5g": "C8 B5 AD B0 52 D0"
+  },
+  {
+    "name": "GobSL-AP-03",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "6C C4 9F 7B 62 C0",
+    "lat": -33.835124,
+    "lon": -66.137758,
+    "name5g": "WiFi4.0-AP-03",
+    "MAC5g": "6C C4 9F 7B 62 D0"
+  },
+  {
+    "name": "WiFi3.0-AN-01",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -35.67575,
+    "lon": -65.42599,
+    "name5g": "WiFi3.0-AN-01",
+    "MAC5g": "9C 8C D8 4F 6A F1"
+  },
+  {
+    "name": "GobSL-AN-02",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 12 19 30",
+    "lat": -35.6748,
+    "lon": -65.42315,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi4.0-AN.03",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -35.673621,
+    "lon": -65.426468,
+    "name5g": "WiFi4.0-AN.03",
+    "MAC5g": "CC 88 C7 69 C3 F1"
+  },
+  {
+    "name": "WiFi3.0-AN-04",
+    "type": "2.4Ghz",
+    "MAC": "9C 8C D8 4F 67 E0",
+    "lat": -35.67625,
+    "lon": -65.419944,
+    "MAC5g": "9C 8C D8 4F 67 F0"
+  },
+  {
+    "name": "GobSL-AN-05",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 11 82 B0",
+    "lat": -35.677278,
+    "lon": -65.422778,
+    "MAC5g": null
+  },
+  {
     "id": "1",
     "name": "CIAC CENTRO CÍVICO RÍO CUARTO",
     "state": "Conectado",
