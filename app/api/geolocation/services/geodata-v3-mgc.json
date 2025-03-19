@@ -77,28 +77,6 @@
     "lon": -65.2433333
   },
   {
-    "id": "CNTSL",
-    "nombre": "Casa Lidia Meza",
-    "tipo": "Ciudad",
-    "departamento": "Concarán",
-    "provincia": "San Luis",
-    "pais": "Argentina",
-    "elevacion": 153,
-    "lat": -32.560365263192736,
-    "lon": -65.23517700307904
-  },
-  {
-    "id": "CNTJN",
-    "nombre": "Campo Nievas Jhony",
-    "tipo": "Ciudad",
-    "departamento": "Concarán",
-    "provincia": "San Luis",
-    "pais": "Argentina",
-    "elevacion": 153,
-    "lat": -32.572110355316006,
-    "lon": -65.23457238363008
-  },
-  {
     "id": "NPZ",
     "nombre": "Nueva Paz",
     "tipo": "Localidad",
@@ -559,28 +537,6 @@
     "elevacion": 152,
     "lat": -34.60149730377255,
     "lon": -68.32785465154824
-  },
-  {
-    "id": "TERSRF",
-    "nombre": "Casa Alejandro Meza",
-    "tipo": "Ciudad",
-    "departamento": "San Rafael",
-    "provincia": "Mendoza",
-    "pais": "Argentina",
-    "elevacion": 149,
-    "lat": -34.62128069359487,
-    "lon": -68.32238430312655
-  },
-  {
-    "id": "TERSRF",
-    "nombre": "Casa Juan Carlos Meza",
-    "tipo": "Ciudad",
-    "departamento": "San Rafael",
-    "provincia": "Mendoza",
-    "pais": "Argentina",
-    "elevacion": 149,
-    "lat": -34.62756832028832,
-    "lon": -68.33244680741683
   },
   {
     "id": "TERSRF",
