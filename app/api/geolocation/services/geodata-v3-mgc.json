@@ -5648,87 +5648,649 @@
     "provincia": "Barcelona",
     "pais": "España",
     "elevacion": 12,
-    "lat": 41.38702052653792,
-    "lon": 2.170045254744868
+    "lat": 41.387,
+    "lon": 2.17
   },
   {
-    "id": "VAL",
-    "nombre": "Valencia",
+    "id": "SCQ",
+    "nombre": "Santiago de Compostela",
     "tipo": "Ciudad",
-    "provincia": "Valencia",
+    "provincia": "La Coruña",
     "pais": "España",
-    "elevacion": 15,
-    "lat": 39.4699,
-    "lon": -0.3763
+    "elevacion": 260,
+    "lat": 42.8805,
+    "lon": -8.5457
   },
   {
-    "id": "SEV",
-    "nombre": "Sevilla",
+    "id": "PAL",
+    "nombre": "Palma de Mallorca",
     "tipo": "Ciudad",
-    "provincia": "Sevilla",
+    "provincia": "Islas Baleares",
     "pais": "España",
-    "elevacion": 7,
-    "lat": 37.3891,
-    "lon": -5.9845
+    "elevacion": 13,
+    "lat": 39.5696,
+    "lon": 2.6502
   },
   {
-    "id": "ZAR",
-    "nombre": "Zaragoza",
-    "tipo": "Ciudad",
-    "provincia": "Zaragoza",
-    "pais": "España",
-    "elevacion": 199,
-    "lat": 41.6488,
-    "lon": -0.8891
-  },
-  {
-    "id": "MAL",
-    "nombre": "Málaga",
-    "tipo": "Ciudad",
+    "id": "RND",
+    "nombre": "Ronda",
+    "tipo": "Pueblo",
     "provincia": "Málaga",
     "pais": "España",
-    "elevacion": 11,
-    "lat": 36.7213,
-    "lon": -4.4214
+    "elevacion": 723,
+    "lat": 36.7429,
+    "lon": -5.1663
   },
   {
-    "id": "BIL",
-    "nombre": "Bilbao",
-    "tipo": "Ciudad",
-    "provincia": "Vizcaya",
+    "id": "TFD",
+    "nombre": "Parque Nacional del Teide",
+    "tipo": "Parque Nacional",
+    "provincia": "Santa Cruz de Tenerife",
     "pais": "España",
-    "elevacion": 19,
-    "lat": 43.263,
-    "lon": -2.935
+    "elevacion": 3718,
+    "lat": 28.2725,
+    "lon": -16.6425
   },
   {
-    "id": "VIG",
-    "nombre": "Vigo",
+    "id": "MJV",
+    "nombre": "Murcia",
     "tipo": "Ciudad",
-    "provincia": "Pontevedra",
+    "provincia": "Murcia",
     "pais": "España",
-    "elevacion": 45,
-    "lat": 42.2314,
-    "lon": -8.7124
+    "elevacion": 43,
+    "lat": 37.9922,
+    "lon": -1.1307
   },
   {
-    "id": "GRA",
-    "nombre": "Granada",
+    "id": "ABR",
+    "nombre": "Albarracín",
+    "tipo": "Pueblo",
+    "provincia": "Teruel",
+    "pais": "España",
+    "elevacion": 1182,
+    "lat": 40.4065,
+    "lon": -1.4443
+  },
+  {
+    "id": "SDR",
+    "nombre": "Santander",
     "tipo": "Ciudad",
+    "provincia": "Cantabria",
+    "pais": "España",
+    "elevacion": 15,
+    "lat": 43.4628,
+    "lon": -3.805
+  },
+  {
+    "id": "CUD",
+    "nombre": "Cudillero",
+    "tipo": "Pueblo",
+    "provincia": "Asturias",
+    "pais": "España",
+    "elevacion": 28,
+    "lat": 43.5626,
+    "lon": -6.1464
+  },
+  {
+    "id": "PLM",
+    "nombre": "Playa de las Catedrales",
+    "tipo": "Playa",
+    "provincia": "Lugo",
+    "pais": "España",
+    "elevacion": 0,
+    "lat": 43.5553,
+    "lon": -7.1814
+  },
+  {
+    "id": "TOL",
+    "nombre": "Toledo",
+    "tipo": "Ciudad",
+    "provincia": "Toledo",
+    "pais": "España",
+    "elevacion": 529,
+    "lat": 39.8628,
+    "lon": -4.0273
+  },
+  {
+    "id": "ORD",
+    "nombre": "Ordesa y Monte Perdido",
+    "tipo": "Parque Nacional",
+    "provincia": "Huesca",
+    "pais": "España",
+    "elevacion": 3355,
+    "lat": 42.6486,
+    "lon": -0.0589
+  },
+  {
+    "id": "IBZ",
+    "nombre": "Ibiza",
+    "tipo": "Isla",
+    "provincia": "Islas Baleares",
+    "pais": "España",
+    "elevacion": 475,
+    "lat": 38.9067,
+    "lon": 1.4206
+  },
+  {
+    "id": "SNV",
+    "nombre": "Sierra Nevada",
+    "tipo": "Montaña",
     "provincia": "Granada",
     "pais": "España",
-    "elevacion": 738,
-    "lat": 37.1773,
-    "lon": -3.5986
+    "elevacion": 3478,
+    "lat": 37.0943,
+    "lon": -3.0258
   },
   {
-    "id": "COR",
-    "nombre": "Córdoba",
+    "id": "BER",
+    "nombre": "Berlín",
     "tipo": "Ciudad",
-    "provincia": "Córdoba",
-    "pais": "España",
-    "elevacion": 106,
-    "lat": 37.8882,
-    "lon": -4.7794
-  }
+    "provincia": "Berlín",
+    "pais": "Alemania",
+    "elevacion": 34,
+    "lat": 52.52,
+    "lon": 13.405
+  },
+  {
+    "id": "MUC",
+    "nombre": "Múnich",
+    "tipo": "Ciudad",
+    "provincia": "Baviera",
+    "pais": "Alemania",
+    "elevacion": 519,
+    "lat": 48.1351,
+    "lon": 11.582
+  },
+  {
+    "id": "HAM",
+    "nombre": "Hamburgo",
+    "tipo": "Ciudad",
+    "provincia": "Hamburgo",
+    "pais": "Alemania",
+    "elevacion": 6,
+    "lat": 53.5511,
+    "lon": 9.9937
+  },
+  {
+    "id": "CGN",
+    "nombre": "Colonia",
+    "tipo": "Ciudad",
+    "provincia": "Renania del Norte-Westfalia",
+    "pais": "Alemania",
+    "elevacion": 53,
+    "lat": 50.9375,
+    "lon": 6.9603
+  },
+  {
+    "id": "FRA",
+    "nombre": "Fráncfort",
+    "tipo": "Ciudad",
+    "provincia": "Hesse",
+    "pais": "Alemania",
+    "elevacion": 112,
+    "lat": 50.1109,
+    "lon": 8.6821
+  },
+  {
+    "id": "SXB",
+    "nombre": "Selva Negra",
+    "tipo": "Bosque",
+    "provincia": "Baden-Wurtemberg",
+    "pais": "Alemania",
+    "elevacion": 1493,
+    "lat": 47.8736,
+    "lon": 8.0047
+  },
+  {
+    "id": "NWS",
+    "nombre": "Castillo de Neuschwanstein",
+    "tipo": "Castillo",
+    "provincia": "Baviera",
+    "pais": "Alemania",
+    "elevacion": 940,
+    "lat": 47.5576,
+    "lon": 10.7494
+  },
+  {
+    "id": "RHN",
+    "nombre": "Valle del Rin",
+    "tipo": "Río",
+    "provincia": "Renania-Palatinado",
+    "pais": "Alemania",
+    "elevacion": 64,
+    "lat": 50.3569,
+    "lon": 7.589
+  },
+  {
+    "id": "DRS",
+    "nombre": "Dresde",
+    "tipo": "Ciudad",
+    "provincia": "Sajonia",
+    "pais": "Alemania",
+    "elevacion": 113,
+    "lat": 51.0504,
+    "lon": 13.7373
+  },
+  {
+    "id": "LEJ",
+    "nombre": "Leipzig",
+    "tipo": "Ciudad",
+    "provincia": "Sajonia",
+    "pais": "Alemania",
+    "elevacion": 113,
+    "lat": 51.3397,
+    "lon": 12.3731
+  },
+  {
+    "id": "ROT",
+    "nombre": "Rotemburgo ob der Tauber",
+    "tipo": "Pueblo",
+    "provincia": "Baviera",
+    "pais": "Alemania",
+    "elevacion": 430,
+    "lat": 49.3789,
+    "lon": 10.1875
+  },
+  {
+    "id": "ZUG",
+    "nombre": "Zugspitze",
+    "tipo": "Montaña",
+    "provincia": "Baviera",
+    "pais": "Alemania",
+    "elevacion": 2962,
+    "lat": 47.4211,
+    "lon": 10.9854
+  },
+  {
+    "id": "HEI",
+    "nombre": "Heidelberg",
+    "tipo": "Ciudad",
+    "provincia": "Baden-Wurtemberg",
+    "pais": "Alemania",
+    "elevacion": 114,
+    "lat": 49.3988,
+    "lon": 8.6724
+  },
+  {
+    "id": "NUE",
+    "nombre": "Núremberg",
+    "tipo": "Ciudad",
+    "provincia": "Baviera",
+    "pais": "Alemania",
+    "elevacion": 309,
+    "lat": 49.4521,
+    "lon": 11.0767
+  },
+  {
+    "id": "RUG",
+    "nombre": "Isla de Rügen",
+    "tipo": "Isla",
+    "provincia": "Mecklemburgo-Pomerania Occidental",
+    "pais": "Alemania",
+    "elevacion": 0,
+    "lat": 54.4167,
+    "lon": 13.4
+  },
+  {
+    "id": "SSN",
+    "nombre": "Parque Nacional de la Suiza Sajona",
+    "tipo": "Parque Nacional",
+    "provincia": "Sajonia",
+    "pais": "Alemania",
+    "elevacion": 556,
+    "lat": 50.9189,
+    "lon": 14.2683
+  },
+  {
+    "id": "BRE",
+    "nombre": "Bremen",
+    "tipo": "Ciudad",
+    "provincia": "Bremen",
+    "pais": "Alemania",
+    "elevacion": 11,
+    "lat": 53.0793,
+    "lon": 8.8017
+  },
+  {
+    "id": "QED",
+    "nombre": "Quedlinburg",
+    "tipo": "Pueblo",
+    "provincia": "Sajonia-Anhalt",
+    "pais": "Alemania",
+    "elevacion": 123,
+    "lat": 51.7909,
+    "lon": 11.1529
+  },
+  {
+    "id": "KLD",
+    "nombre": "Catedral de Colonia",
+    "tipo": "Catedral",
+    "provincia": "Renania del Norte-Westfalia",
+    "pais": "Alemania",
+    "elevacion": 53,
+    "lat": 50.9413,
+    "lon": 6.9583
+  },
+  {
+    "id": "BTG",
+    "nombre": "Puerta de Brandeburgo",
+    "tipo": "Monumento",
+    "provincia": "Berlín",
+    "pais": "Alemania",
+    "elevacion": 34,
+    "lat": 52.5163,
+    "lon": 13.3777
+  },
+  {
+    "id": "BOD",
+    "nombre": "Lago de Constanza",
+    "tipo": "Lago",
+    "provincia": "Baden-Wurtemberg",
+    "pais": "Alemania",
+    "elevacion": 395,
+    "lat": 47.5953,
+    "lon": 9.4688
+  },
+  {
+    "id": "WOB",
+    "nombre": "Wolfsburgo",
+    "tipo": "Ciudad",
+    "provincia": "Baja Sajonia",
+    "pais": "Alemania",
+    "elevacion": 63,
+    "lat": 52.4231,
+    "lon": 10.7873
+  },
+  {
+    "id": "BGD",
+    "nombre": "Parque Nacional de Berchtesgaden",
+    "tipo": "Parque Nacional",
+    "provincia": "Baviera",
+    "pais": "Alemania",
+    "elevacion": 2713,
+    "lat": 47.5426,
+    "lon": 12.96
+  },
+  {
+    "id": "SYL",
+    "nombre": "Isla de Sylt",
+    "tipo": "Isla",
+    "provincia": "Schleswig-Holstein",
+    "pais": "Alemania",
+    "elevacion": 0,
+    "lat": 54.9075,
+    "lon": 8.3175
+  },
+  {
+    "id": "RRD",
+    "nombre": "Ruta Romántica",
+    "tipo": "Ruta Turística",
+    "provincia": "Baviera",
+    "pais": "Alemania",
+    "elevacion": 500,
+    "lat": 49.0,
+    "lon": 10.5
+  },
+  [
+    {
+      "id": "HAV",
+      "nombre": "La Habana",
+      "tipo": "Ciudad",
+      "provincia": "La Habana",
+      "pais": "Cuba",
+      "elevacion": 59,
+      "lat": 23.1136,
+      "lon": -82.3666
+    },
+    {
+      "id": "SCU",
+      "nombre": "Santiago de Cuba",
+      "tipo": "Ciudad",
+      "provincia": "Santiago de Cuba",
+      "pais": "Cuba",
+      "elevacion": 82,
+      "lat": 20.0217,
+      "lon": -75.8294
+    },
+    {
+      "id": "VRA",
+      "nombre": "Varadero",
+      "tipo": "Playa",
+      "provincia": "Matanzas",
+      "pais": "Cuba",
+      "elevacion": 5,
+      "lat": 23.1398,
+      "lon": -81.2862
+    },
+    {
+      "id": "TND",
+      "nombre": "Trinidad",
+      "tipo": "Ciudad Colonial",
+      "provincia": "Sancti Spíritus",
+      "pais": "Cuba",
+      "elevacion": 60,
+      "lat": 21.8045,
+      "lon": -79.9845
+    },
+    {
+      "id": "CMW",
+      "nombre": "Camagüey",
+      "tipo": "Ciudad",
+      "provincia": "Camagüey",
+      "pais": "Cuba",
+      "elevacion": 95,
+      "lat": 21.3808,
+      "lon": -77.9169
+    },
+    {
+      "id": "HOG",
+      "nombre": "Holguín",
+      "tipo": "Ciudad",
+      "provincia": "Holguín",
+      "pais": "Cuba",
+      "elevacion": 150,
+      "lat": 20.8883,
+      "lon": -76.2572
+    },
+    {
+      "id": "SNC",
+      "nombre": "Santa Clara",
+      "tipo": "Ciudad",
+      "provincia": "Villa Clara",
+      "pais": "Cuba",
+      "elevacion": 125,
+      "lat": 22.4075,
+      "lon": -79.9644
+    },
+    {
+      "id": "CFG",
+      "nombre": "Cienfuegos",
+      "tipo": "Ciudad",
+      "provincia": "Cienfuegos",
+      "pais": "Cuba",
+      "elevacion": 25,
+      "lat": 22.1461,
+      "lon": -80.4356
+    },
+    {
+      "id": "MZO",
+      "nombre": "Matanzas",
+      "tipo": "Ciudad",
+      "provincia": "Matanzas",
+      "pais": "Cuba",
+      "elevacion": 20,
+      "lat": 23.0411,
+      "lon": -81.5775
+    },
+    {
+      "id": "BYM",
+      "nombre": "Bayamo",
+      "tipo": "Ciudad",
+      "provincia": "Granma",
+      "pais": "Cuba",
+      "elevacion": 55,
+      "lat": 20.3792,
+      "lon": -76.6433
+    },
+    {
+      "id": "VIN",
+      "nombre": "Viñales",
+      "tipo": "Valle",
+      "provincia": "Pinar del Río",
+      "pais": "Cuba",
+      "elevacion": 135,
+      "lat": 22.6156,
+      "lon": -83.7158
+    },
+    {
+      "id": "SMR",
+      "nombre": "Sierra Maestra",
+      "tipo": "Montaña",
+      "provincia": "Granma",
+      "pais": "Cuba",
+      "elevacion": 1974,
+      "lat": 19.985,
+      "lon": -76.8411
+    },
+    {
+      "id": "TDC",
+      "nombre": "Topes de Collantes",
+      "tipo": "Parque Natural",
+      "provincia": "Sancti Spíritus",
+      "pais": "Cuba",
+      "elevacion": 800,
+      "lat": 21.9,
+      "lon": -80.0167
+    },
+    {
+      "id": "PRS",
+      "nombre": "Playa Paraíso",
+      "tipo": "Playa",
+      "provincia": "Villa Clara",
+      "pais": "Cuba",
+      "elevacion": 1,
+      "lat": 22.1639,
+      "lon": -80.3836
+    },
+    {
+      "id": "BRC",
+      "nombre": "Baracoa",
+      "tipo": "Ciudad",
+      "provincia": "Guantánamo",
+      "pais": "Cuba",
+      "elevacion": 15,
+      "lat": 20.3467,
+      "lon": -74.4958
+    },
+    {
+      "id": "PIN",
+      "nombre": "Pinar del Río",
+      "tipo": "Ciudad",
+      "provincia": "Pinar del Río",
+      "pais": "Cuba",
+      "elevacion": 61,
+      "lat": 22.4175,
+      "lon": -83.6981
+    },
+    {
+      "id": "RVD",
+      "nombre": "Remedios",
+      "tipo": "Pueblo",
+      "provincia": "Villa Clara",
+      "pais": "Cuba",
+      "elevacion": 25,
+      "lat": 22.4942,
+      "lon": -79.5447
+    },
+    {
+      "id": "CAY",
+      "nombre": "Cayo Coco",
+      "tipo": "Isla",
+      "provincia": "Ciego de Ávila",
+      "pais": "Cuba",
+      "elevacion": 2,
+      "lat": 22.5133,
+      "lon": -78.5119
+    },
+    {
+      "id": "ISJ",
+      "nombre": "Isla de la Juventud",
+      "tipo": "Isla",
+      "provincia": "Isla de la Juventud",
+      "pais": "Cuba",
+      "elevacion": 17,
+      "lat": 21.75,
+      "lon": -82.85
+    },
+    {
+      "id": "GIB",
+      "nombre": "Gibara",
+      "tipo": "Pueblo Costero",
+      "provincia": "Holguín",
+      "pais": "Cuba",
+      "elevacion": 10,
+      "lat": 21.1092,
+      "lon": -76.1367
+    },
+    {
+      "id": "SSP",
+      "nombre": "Sancti Spíritus",
+      "tipo": "Ciudad",
+      "provincia": "Sancti Spíritus",
+      "pais": "Cuba",
+      "elevacion": 90,
+      "lat": 21.9339,
+      "lon": -79.4439
+    },
+    {
+      "id": "MOR",
+      "nombre": "Morón",
+      "tipo": "Ciudad",
+      "provincia": "Ciego de Ávila",
+      "pais": "Cuba",
+      "elevacion": 5,
+      "lat": 22.11,
+      "lon": -78.6275
+    },
+    {
+      "id": "ANC",
+      "nombre": "Playa Ancón",
+      "tipo": "Playa",
+      "provincia": "Sancti Spíritus",
+      "pais": "Cuba",
+      "elevacion": 3,
+      "lat": 21.7417,
+      "lon": -79.9833
+    },
+    {
+      "id": "MRO",
+      "nombre": "Castillo del Morro",
+      "tipo": "Fuerte Histórico",
+      "provincia": "Santiago de Cuba",
+      "pais": "Cuba",
+      "elevacion": 40,
+      "lat": 19.9694,
+      "lon": -75.8722
+    },
+    {
+      "id": "GIR",
+      "nombre": "Bahía de Cochinos",
+      "tipo": "Sitio Histórico",
+      "provincia": "Matanzas",
+      "pais": "Cuba",
+      "elevacion": 0,
+      "lat": 22.2225,
+      "lon": -81.1683
+    },
+    {
+      "id": "TUR",
+      "nombre": "Pico Turquino",
+      "tipo": "Montaña",
+      "provincia": "Santiago de Cuba",
+      "pais": "Cuba",
+      "elevacion": 1974,
+      "lat": 19.9894,
+      "lon": -76.8353
+    }
+  ]
 ]

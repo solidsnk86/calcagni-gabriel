@@ -1,7 +1,7 @@
 import { NextRequest } from 'next/server';
 import { getClosest, searchAntenna } from './services/services';
 import antennas from './services/wifi-sl-v1.json';
-import cities from './services/geodata-arg-v3.json';
+import cities from './services/geodata-v3-mgc.json';
 import airports from './services/airports.json';
 
 const wirteMAC = (mac: string) => mac?.split(' ').join('-');
