@@ -77,7 +77,7 @@
     "lon": -65.2433333
   },
   {
-    "id": "CNT",
+    "id": "CNTSL",
     "nombre": "Casa Lidia Meza",
     "tipo": "Ciudad",
     "departamento": "Concarán",
@@ -86,6 +86,17 @@
     "elevacion": 153,
     "lat": -32.560365263192736,
     "lon": -65.23517700307904
+  },
+  {
+    "id": "CNTJN",
+    "nombre": "Campo Nievas Jhony",
+    "tipo": "Ciudad",
+    "departamento": "Concarán",
+    "provincia": "San Luis",
+    "pais": "Argentina",
+    "elevacion": 153,
+    "lat": -32.572110355316006,
+    "lon": -65.23457238363008
   },
   {
     "id": "NPZ",
@@ -6620,5 +6631,302 @@
     "elevacion": 5,
     "lat": 40.6826,
     "lon": 14.7681
+  },
+  {
+    "id": "MON",
+    "nombre": "Montevideo",
+    "tipo": "Ciudad",
+    "departamento": "Montevideo",
+    "provincia": "Montevideo",
+    "pais": "Uruguay",
+    "elevacion": 43,
+    "lat": -34.9011,
+    "lon": -56.1645
+  },
+  {
+    "id": "SAL",
+    "nombre": "Salto",
+    "tipo": "Ciudad",
+    "departamento": "Salto",
+    "provincia": "Salto",
+    "pais": "Uruguay",
+    "elevacion": 61,
+    "lat": -31.3921,
+    "lon": -57.9689
+  },
+  {
+    "id": "PAY",
+    "nombre": "Paysandú",
+    "tipo": "Ciudad",
+    "departamento": "Paysandú",
+    "provincia": "Paysandú",
+    "pais": "Uruguay",
+    "elevacion": 43,
+    "lat": -32.3214,
+    "lon": -58.0772
+  },
+  {
+    "id": "MAL",
+    "nombre": "Maldonado",
+    "tipo": "Ciudad",
+    "departamento": "Maldonado",
+    "provincia": "Maldonado",
+    "pais": "Uruguay",
+    "elevacion": 39,
+    "lat": -34.9091,
+    "lon": -54.9414
+  },
+  {
+    "id": "RIV",
+    "nombre": "Rivera",
+    "tipo": "Ciudad",
+    "departamento": "Rivera",
+    "provincia": "Rivera",
+    "pais": "Uruguay",
+    "elevacion": 140,
+    "lat": -30.911,
+    "lon": -55.539
+  },
+  {
+    "id": "TAC",
+    "nombre": "Tacuarembó",
+    "tipo": "Ciudad",
+    "departamento": "Tacuarembó",
+    "provincia": "Tacuarembó",
+    "pais": "Uruguay",
+    "elevacion": 150,
+    "lat": -31.7333,
+    "lon": -55.9833
+  },
+  {
+    "id": "MER",
+    "nombre": "Mercedes",
+    "tipo": "Ciudad",
+    "departamento": "Soriano",
+    "provincia": "Soriano",
+    "pais": "Uruguay",
+    "elevacion": 55,
+    "lat": -33.27,
+    "lon": -58.4167
+  },
+  {
+    "id": "MEL",
+    "nombre": "Melo",
+    "tipo": "Ciudad",
+    "departamento": "Cerro Largo",
+    "provincia": "Cerro Largo",
+    "pais": "Uruguay",
+    "elevacion": 160,
+    "lat": -32.34,
+    "lon": -54.185
+  },
+  {
+    "id": "ART",
+    "nombre": "Artigas",
+    "tipo": "Ciudad",
+    "departamento": "Artigas",
+    "provincia": "Artigas",
+    "pais": "Uruguay",
+    "elevacion": 175,
+    "lat": -30.4028,
+    "lon": -56.4539
+  },
+  {
+    "id": "CAN",
+    "nombre": "Canelones",
+    "tipo": "Ciudad",
+    "departamento": "Canelones",
+    "provincia": "Canelones",
+    "pais": "Uruguay",
+    "elevacion": 49,
+    "lat": -34.52,
+    "lon": -56.0
+  },
+  {
+    "id": "LPI",
+    "nombre": "Las Piedras",
+    "tipo": "Ciudad",
+    "departamento": "Canelones",
+    "provincia": "Canelones",
+    "pais": "Uruguay",
+    "elevacion": 50,
+    "lat": -34.677,
+    "lon": -56.151
+  },
+  {
+    "id": "SJM",
+    "nombre": "San José de Mayo",
+    "tipo": "Ciudad",
+    "departamento": "San José",
+    "provincia": "San José",
+    "pais": "Uruguay",
+    "elevacion": 57,
+    "lat": -33.3,
+    "lon": -56.5
+  },
+  {
+    "id": "FLA",
+    "nombre": "Florida",
+    "tipo": "Ciudad",
+    "departamento": "Florida",
+    "provincia": "Florida",
+    "pais": "Uruguay",
+    "elevacion": 95,
+    "lat": -34.028,
+    "lon": -56.211
+  },
+  {
+    "id": "DUR",
+    "nombre": "Durazno",
+    "tipo": "Ciudad",
+    "departamento": "Durazno",
+    "provincia": "Durazno",
+    "pais": "Uruguay",
+    "elevacion": 68,
+    "lat": -33.425,
+    "lon": -56.505
+  },
+  {
+    "id": "T3",
+    "nombre": "Treinta y Tres",
+    "tipo": "Ciudad",
+    "departamento": "Treinta y Tres",
+    "provincia": "Treinta y Tres",
+    "pais": "Uruguay",
+    "elevacion": 100,
+    "lat": -33.23,
+    "lon": -54.44
+  },
+  {
+    "id": "ASU",
+    "nombre": "Asunción",
+    "tipo": "Ciudad",
+    "departamento": "Asunción",
+    "provincia": "Asunción",
+    "pais": "Paraguay",
+    "elevacion": 43,
+    "lat": -25.2637,
+    "lon": -57.5759
+  },
+  {
+    "id": "CDE",
+    "nombre": "Ciudad del Este",
+    "tipo": "Ciudad",
+    "departamento": "Alto Paraná",
+    "provincia": "Alto Paraná",
+    "pais": "Paraguay",
+    "elevacion": 160,
+    "lat": -25.5,
+    "lon": -54.6111
+  },
+  {
+    "id": "SLO",
+    "nombre": "San Lorenzo",
+    "tipo": "Ciudad",
+    "departamento": "Central",
+    "provincia": "Central",
+    "pais": "Paraguay",
+    "elevacion": 85,
+    "lat": -25.3333,
+    "lon": -57.5
+  },
+  {
+    "id": "LUQ",
+    "nombre": "Luque",
+    "tipo": "Ciudad",
+    "departamento": "Central",
+    "provincia": "Central",
+    "pais": "Paraguay",
+    "elevacion": 96,
+    "lat": -25.3167,
+    "lon": -57.5333
+  },
+  {
+    "id": "FDE",
+    "nombre": "Fernando de la Mora",
+    "tipo": "Ciudad",
+    "departamento": "Central",
+    "provincia": "Central",
+    "pais": "Paraguay",
+    "elevacion": 85,
+    "lat": -25.3,
+    "lon": -57.55
+  },
+  {
+    "id": "ENC",
+    "nombre": "Encarnación",
+    "tipo": "Ciudad",
+    "departamento": "Itapúa",
+    "provincia": "Itapúa",
+    "pais": "Paraguay",
+    "elevacion": 68,
+    "lat": -27.3333,
+    "lon": -55.8667
+  },
+  {
+    "id": "CON",
+    "nombre": "Concepción",
+    "tipo": "Ciudad",
+    "departamento": "Concepción",
+    "provincia": "Concepción",
+    "pais": "Paraguay",
+    "elevacion": 86,
+    "lat": -23.4378,
+    "lon": -57.4272
+  },
+  {
+    "id": "PJC",
+    "nombre": "Pedro Juan Caballero",
+    "tipo": "Ciudad",
+    "departamento": "Amambay",
+    "provincia": "Amambay",
+    "pais": "Paraguay",
+    "elevacion": 260,
+    "lat": -22.4167,
+    "lon": -55.7167
+  },
+  {
+    "id": "CAA",
+    "nombre": "Caaguazú",
+    "tipo": "Ciudad",
+    "departamento": "Caaguazú",
+    "provincia": "Caaguazú",
+    "pais": "Paraguay",
+    "elevacion": 120,
+    "lat": -24.1,
+    "lon": -56.2333
+  },
+  {
+    "id": "COV",
+    "nombre": "Coronel Oviedo",
+    "tipo": "Ciudad",
+    "departamento": "Caaguazú",
+    "provincia": "Caaguazú",
+    "pais": "Paraguay",
+    "elevacion": 140,
+    "lat": -24.4333,
+    "lon": -56.4833
+  },
+  {
+    "id": "NEM",
+    "nombre": "Ñemby",
+    "tipo": "Ciudad",
+    "departamento": "Central",
+    "provincia": "Central",
+    "pais": "Paraguay",
+    "elevacion": 90,
+    "lat": -25.3036,
+    "lon": -57.575
+  },
+  {
+    "id": "LAM",
+    "nombre": "Lambaré",
+    "tipo": "Ciudad",
+    "departamento": "Central",
+    "provincia": "Central",
+    "pais": "Paraguay",
+    "elevacion": 87,
+    "lat": -25.3167,
+    "lon": -57.5333
   }
 ]
