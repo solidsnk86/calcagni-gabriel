@@ -77,6 +77,17 @@
     "lon": -65.2433333
   },
   {
+    "id": "CNT",
+    "nombre": "Casa Lidia Meza",
+    "tipo": "Ciudad",
+    "departamento": "Concarán",
+    "provincia": "San Luis",
+    "pais": "Argentina",
+    "elevacion": 153,
+    "lat": -32.560365263192736,
+    "lon": -65.23517700307904
+  },
+  {
     "id": "NPZ",
     "nombre": "Nueva Paz",
     "tipo": "Localidad",
@@ -526,6 +537,50 @@
     "elevacion": 748,
     "lat": -34.6177,
     "lon": -68.3301
+  },
+  {
+    "id": "UTNSRF",
+    "nombre": "UTN San Rafael",
+    "tipo": "Ciudad",
+    "departamento": "San Rafael",
+    "provincia": "Mendoza",
+    "pais": "Argentina",
+    "elevacion": 152,
+    "lat": -34.60149730377255,
+    "lon": -68.32785465154824
+  },
+  {
+    "id": "TERSRF",
+    "nombre": "Casa Alejandro Meza",
+    "tipo": "Ciudad",
+    "departamento": "San Rafael",
+    "provincia": "Mendoza",
+    "pais": "Argentina",
+    "elevacion": 149,
+    "lat": -34.62128069359487,
+    "lon": -68.32238430312655
+  },
+  {
+    "id": "TERSRF",
+    "nombre": "Casa Juan Carlos Meza",
+    "tipo": "Ciudad",
+    "departamento": "San Rafael",
+    "provincia": "Mendoza",
+    "pais": "Argentina",
+    "elevacion": 149,
+    "lat": -34.62756832028832,
+    "lon": -68.33244680741683
+  },
+  {
+    "id": "TERSRF",
+    "nombre": "Terminal de Ómnibus San Rafael",
+    "tipo": "Ciudad",
+    "departamento": "San Rafael",
+    "provincia": "Mendoza",
+    "pais": "Argentina",
+    "elevacion": 140,
+    "lat": -34.60599690748631,
+    "lon": -68.32736206335213
   },
   {
     "id": "SCR",
@@ -6031,266 +6086,539 @@
     "lat": 49.0,
     "lon": 10.5
   },
-  [
-    {
-      "id": "HAV",
-      "nombre": "La Habana",
-      "tipo": "Ciudad",
-      "provincia": "La Habana",
-      "pais": "Cuba",
-      "elevacion": 59,
-      "lat": 23.1136,
-      "lon": -82.3666
-    },
-    {
-      "id": "SCU",
-      "nombre": "Santiago de Cuba",
-      "tipo": "Ciudad",
-      "provincia": "Santiago de Cuba",
-      "pais": "Cuba",
-      "elevacion": 82,
-      "lat": 20.0217,
-      "lon": -75.8294
-    },
-    {
-      "id": "VRA",
-      "nombre": "Varadero",
-      "tipo": "Playa",
-      "provincia": "Matanzas",
-      "pais": "Cuba",
-      "elevacion": 5,
-      "lat": 23.1398,
-      "lon": -81.2862
-    },
-    {
-      "id": "TND",
-      "nombre": "Trinidad",
-      "tipo": "Ciudad Colonial",
-      "provincia": "Sancti Spíritus",
-      "pais": "Cuba",
-      "elevacion": 60,
-      "lat": 21.8045,
-      "lon": -79.9845
-    },
-    {
-      "id": "CMW",
-      "nombre": "Camagüey",
-      "tipo": "Ciudad",
-      "provincia": "Camagüey",
-      "pais": "Cuba",
-      "elevacion": 95,
-      "lat": 21.3808,
-      "lon": -77.9169
-    },
-    {
-      "id": "HOG",
-      "nombre": "Holguín",
-      "tipo": "Ciudad",
-      "provincia": "Holguín",
-      "pais": "Cuba",
-      "elevacion": 150,
-      "lat": 20.8883,
-      "lon": -76.2572
-    },
-    {
-      "id": "SNC",
-      "nombre": "Santa Clara",
-      "tipo": "Ciudad",
-      "provincia": "Villa Clara",
-      "pais": "Cuba",
-      "elevacion": 125,
-      "lat": 22.4075,
-      "lon": -79.9644
-    },
-    {
-      "id": "CFG",
-      "nombre": "Cienfuegos",
-      "tipo": "Ciudad",
-      "provincia": "Cienfuegos",
-      "pais": "Cuba",
-      "elevacion": 25,
-      "lat": 22.1461,
-      "lon": -80.4356
-    },
-    {
-      "id": "MZO",
-      "nombre": "Matanzas",
-      "tipo": "Ciudad",
-      "provincia": "Matanzas",
-      "pais": "Cuba",
-      "elevacion": 20,
-      "lat": 23.0411,
-      "lon": -81.5775
-    },
-    {
-      "id": "BYM",
-      "nombre": "Bayamo",
-      "tipo": "Ciudad",
-      "provincia": "Granma",
-      "pais": "Cuba",
-      "elevacion": 55,
-      "lat": 20.3792,
-      "lon": -76.6433
-    },
-    {
-      "id": "VIN",
-      "nombre": "Viñales",
-      "tipo": "Valle",
-      "provincia": "Pinar del Río",
-      "pais": "Cuba",
-      "elevacion": 135,
-      "lat": 22.6156,
-      "lon": -83.7158
-    },
-    {
-      "id": "SMR",
-      "nombre": "Sierra Maestra",
-      "tipo": "Montaña",
-      "provincia": "Granma",
-      "pais": "Cuba",
-      "elevacion": 1974,
-      "lat": 19.985,
-      "lon": -76.8411
-    },
-    {
-      "id": "TDC",
-      "nombre": "Topes de Collantes",
-      "tipo": "Parque Natural",
-      "provincia": "Sancti Spíritus",
-      "pais": "Cuba",
-      "elevacion": 800,
-      "lat": 21.9,
-      "lon": -80.0167
-    },
-    {
-      "id": "PRS",
-      "nombre": "Playa Paraíso",
-      "tipo": "Playa",
-      "provincia": "Villa Clara",
-      "pais": "Cuba",
-      "elevacion": 1,
-      "lat": 22.1639,
-      "lon": -80.3836
-    },
-    {
-      "id": "BRC",
-      "nombre": "Baracoa",
-      "tipo": "Ciudad",
-      "provincia": "Guantánamo",
-      "pais": "Cuba",
-      "elevacion": 15,
-      "lat": 20.3467,
-      "lon": -74.4958
-    },
-    {
-      "id": "PIN",
-      "nombre": "Pinar del Río",
-      "tipo": "Ciudad",
-      "provincia": "Pinar del Río",
-      "pais": "Cuba",
-      "elevacion": 61,
-      "lat": 22.4175,
-      "lon": -83.6981
-    },
-    {
-      "id": "RVD",
-      "nombre": "Remedios",
-      "tipo": "Pueblo",
-      "provincia": "Villa Clara",
-      "pais": "Cuba",
-      "elevacion": 25,
-      "lat": 22.4942,
-      "lon": -79.5447
-    },
-    {
-      "id": "CAY",
-      "nombre": "Cayo Coco",
-      "tipo": "Isla",
-      "provincia": "Ciego de Ávila",
-      "pais": "Cuba",
-      "elevacion": 2,
-      "lat": 22.5133,
-      "lon": -78.5119
-    },
-    {
-      "id": "ISJ",
-      "nombre": "Isla de la Juventud",
-      "tipo": "Isla",
-      "provincia": "Isla de la Juventud",
-      "pais": "Cuba",
-      "elevacion": 17,
-      "lat": 21.75,
-      "lon": -82.85
-    },
-    {
-      "id": "GIB",
-      "nombre": "Gibara",
-      "tipo": "Pueblo Costero",
-      "provincia": "Holguín",
-      "pais": "Cuba",
-      "elevacion": 10,
-      "lat": 21.1092,
-      "lon": -76.1367
-    },
-    {
-      "id": "SSP",
-      "nombre": "Sancti Spíritus",
-      "tipo": "Ciudad",
-      "provincia": "Sancti Spíritus",
-      "pais": "Cuba",
-      "elevacion": 90,
-      "lat": 21.9339,
-      "lon": -79.4439
-    },
-    {
-      "id": "MOR",
-      "nombre": "Morón",
-      "tipo": "Ciudad",
-      "provincia": "Ciego de Ávila",
-      "pais": "Cuba",
-      "elevacion": 5,
-      "lat": 22.11,
-      "lon": -78.6275
-    },
-    {
-      "id": "ANC",
-      "nombre": "Playa Ancón",
-      "tipo": "Playa",
-      "provincia": "Sancti Spíritus",
-      "pais": "Cuba",
-      "elevacion": 3,
-      "lat": 21.7417,
-      "lon": -79.9833
-    },
-    {
-      "id": "MRO",
-      "nombre": "Castillo del Morro",
-      "tipo": "Fuerte Histórico",
-      "provincia": "Santiago de Cuba",
-      "pais": "Cuba",
-      "elevacion": 40,
-      "lat": 19.9694,
-      "lon": -75.8722
-    },
-    {
-      "id": "GIR",
-      "nombre": "Bahía de Cochinos",
-      "tipo": "Sitio Histórico",
-      "provincia": "Matanzas",
-      "pais": "Cuba",
-      "elevacion": 0,
-      "lat": 22.2225,
-      "lon": -81.1683
-    },
-    {
-      "id": "TUR",
-      "nombre": "Pico Turquino",
-      "tipo": "Montaña",
-      "provincia": "Santiago de Cuba",
-      "pais": "Cuba",
-      "elevacion": 1974,
-      "lat": 19.9894,
-      "lon": -76.8353
-    }
-  ]
+  {
+    "id": "HAV",
+    "nombre": "La Habana",
+    "tipo": "Ciudad",
+    "provincia": "La Habana",
+    "pais": "Cuba",
+    "elevacion": 59,
+    "lat": 23.1136,
+    "lon": -82.3666
+  },
+  {
+    "id": "SCU",
+    "nombre": "Santiago de Cuba",
+    "tipo": "Ciudad",
+    "provincia": "Santiago de Cuba",
+    "pais": "Cuba",
+    "elevacion": 82,
+    "lat": 20.0217,
+    "lon": -75.8294
+  },
+  {
+    "id": "VRA",
+    "nombre": "Varadero",
+    "tipo": "Playa",
+    "provincia": "Matanzas",
+    "pais": "Cuba",
+    "elevacion": 5,
+    "lat": 23.1398,
+    "lon": -81.2862
+  },
+  {
+    "id": "TND",
+    "nombre": "Trinidad",
+    "tipo": "Ciudad Colonial",
+    "provincia": "Sancti Spíritus",
+    "pais": "Cuba",
+    "elevacion": 60,
+    "lat": 21.8045,
+    "lon": -79.9845
+  },
+  {
+    "id": "CMW",
+    "nombre": "Camagüey",
+    "tipo": "Ciudad",
+    "provincia": "Camagüey",
+    "pais": "Cuba",
+    "elevacion": 95,
+    "lat": 21.3808,
+    "lon": -77.9169
+  },
+  {
+    "id": "HOG",
+    "nombre": "Holguín",
+    "tipo": "Ciudad",
+    "provincia": "Holguín",
+    "pais": "Cuba",
+    "elevacion": 150,
+    "lat": 20.8883,
+    "lon": -76.2572
+  },
+  {
+    "id": "SNC",
+    "nombre": "Santa Clara",
+    "tipo": "Ciudad",
+    "provincia": "Villa Clara",
+    "pais": "Cuba",
+    "elevacion": 125,
+    "lat": 22.4075,
+    "lon": -79.9644
+  },
+  {
+    "id": "CFG",
+    "nombre": "Cienfuegos",
+    "tipo": "Ciudad",
+    "provincia": "Cienfuegos",
+    "pais": "Cuba",
+    "elevacion": 25,
+    "lat": 22.1461,
+    "lon": -80.4356
+  },
+  {
+    "id": "MZO",
+    "nombre": "Matanzas",
+    "tipo": "Ciudad",
+    "provincia": "Matanzas",
+    "pais": "Cuba",
+    "elevacion": 20,
+    "lat": 23.0411,
+    "lon": -81.5775
+  },
+  {
+    "id": "BYM",
+    "nombre": "Bayamo",
+    "tipo": "Ciudad",
+    "provincia": "Granma",
+    "pais": "Cuba",
+    "elevacion": 55,
+    "lat": 20.3792,
+    "lon": -76.6433
+  },
+  {
+    "id": "VIN",
+    "nombre": "Viñales",
+    "tipo": "Valle",
+    "provincia": "Pinar del Río",
+    "pais": "Cuba",
+    "elevacion": 135,
+    "lat": 22.6156,
+    "lon": -83.7158
+  },
+  {
+    "id": "SMR",
+    "nombre": "Sierra Maestra",
+    "tipo": "Montaña",
+    "provincia": "Granma",
+    "pais": "Cuba",
+    "elevacion": 1974,
+    "lat": 19.985,
+    "lon": -76.8411
+  },
+  {
+    "id": "TDC",
+    "nombre": "Topes de Collantes",
+    "tipo": "Parque Natural",
+    "provincia": "Sancti Spíritus",
+    "pais": "Cuba",
+    "elevacion": 800,
+    "lat": 21.9,
+    "lon": -80.0167
+  },
+  {
+    "id": "PRS",
+    "nombre": "Playa Paraíso",
+    "tipo": "Playa",
+    "provincia": "Villa Clara",
+    "pais": "Cuba",
+    "elevacion": 1,
+    "lat": 22.1639,
+    "lon": -80.3836
+  },
+  {
+    "id": "BRC",
+    "nombre": "Baracoa",
+    "tipo": "Ciudad",
+    "provincia": "Guantánamo",
+    "pais": "Cuba",
+    "elevacion": 15,
+    "lat": 20.3467,
+    "lon": -74.4958
+  },
+  {
+    "id": "PIN",
+    "nombre": "Pinar del Río",
+    "tipo": "Ciudad",
+    "provincia": "Pinar del Río",
+    "pais": "Cuba",
+    "elevacion": 61,
+    "lat": 22.4175,
+    "lon": -83.6981
+  },
+  {
+    "id": "RVD",
+    "nombre": "Remedios",
+    "tipo": "Pueblo",
+    "provincia": "Villa Clara",
+    "pais": "Cuba",
+    "elevacion": 25,
+    "lat": 22.4942,
+    "lon": -79.5447
+  },
+  {
+    "id": "CAY",
+    "nombre": "Cayo Coco",
+    "tipo": "Isla",
+    "provincia": "Ciego de Ávila",
+    "pais": "Cuba",
+    "elevacion": 2,
+    "lat": 22.5133,
+    "lon": -78.5119
+  },
+  {
+    "id": "ISJ",
+    "nombre": "Isla de la Juventud",
+    "tipo": "Isla",
+    "provincia": "Isla de la Juventud",
+    "pais": "Cuba",
+    "elevacion": 17,
+    "lat": 21.75,
+    "lon": -82.85
+  },
+  {
+    "id": "GIB",
+    "nombre": "Gibara",
+    "tipo": "Pueblo Costero",
+    "provincia": "Holguín",
+    "pais": "Cuba",
+    "elevacion": 10,
+    "lat": 21.1092,
+    "lon": -76.1367
+  },
+  {
+    "id": "SSP",
+    "nombre": "Sancti Spíritus",
+    "tipo": "Ciudad",
+    "provincia": "Sancti Spíritus",
+    "pais": "Cuba",
+    "elevacion": 90,
+    "lat": 21.9339,
+    "lon": -79.4439
+  },
+  {
+    "id": "MOR",
+    "nombre": "Morón",
+    "tipo": "Ciudad",
+    "provincia": "Ciego de Ávila",
+    "pais": "Cuba",
+    "elevacion": 5,
+    "lat": 22.11,
+    "lon": -78.6275
+  },
+  {
+    "id": "ANC",
+    "nombre": "Playa Ancón",
+    "tipo": "Playa",
+    "provincia": "Sancti Spíritus",
+    "pais": "Cuba",
+    "elevacion": 3,
+    "lat": 21.7417,
+    "lon": -79.9833
+  },
+  {
+    "id": "MRO",
+    "nombre": "Castillo del Morro",
+    "tipo": "Fuerte Histórico",
+    "provincia": "Santiago de Cuba",
+    "pais": "Cuba",
+    "elevacion": 40,
+    "lat": 19.9694,
+    "lon": -75.8722
+  },
+  {
+    "id": "GIR",
+    "nombre": "Bahía de Cochinos",
+    "tipo": "Sitio Histórico",
+    "provincia": "Matanzas",
+    "pais": "Cuba",
+    "elevacion": 0,
+    "lat": 22.2225,
+    "lon": -81.1683
+  },
+  {
+    "id": "TUR",
+    "nombre": "Pico Turquino",
+    "tipo": "Montaña",
+    "provincia": "Santiago de Cuba",
+    "pais": "Cuba",
+    "elevacion": 1974,
+    "lat": 19.9894,
+    "lon": -76.8353
+  },
+  {
+    "id": "ROM",
+    "nombre": "Roma",
+    "tipo": "Ciudad",
+    "departamento": "Roma",
+    "provincia": "Roma",
+    "pais": "Italia",
+    "elevacion": 21,
+    "lat": 41.9028,
+    "lon": 12.4964
+  },
+  {
+    "id": "MIL",
+    "nombre": "Milán",
+    "tipo": "Ciudad",
+    "departamento": "Milán",
+    "provincia": "Milán",
+    "pais": "Italia",
+    "elevacion": 122,
+    "lat": 45.4642,
+    "lon": 9.19
+  },
+  {
+    "id": "NAP",
+    "nombre": "Nápoles",
+    "tipo": "Ciudad",
+    "departamento": "Nápoles",
+    "provincia": "Nápoles",
+    "pais": "Italia",
+    "elevacion": 17,
+    "lat": 40.8518,
+    "lon": 14.2681
+  },
+  {
+    "id": "TOR",
+    "nombre": "Turín",
+    "tipo": "Ciudad",
+    "departamento": "Turín",
+    "provincia": "Turín",
+    "pais": "Italia",
+    "elevacion": 239,
+    "lat": 45.0703,
+    "lon": 7.6869
+  },
+  {
+    "id": "PAL",
+    "nombre": "Palermo",
+    "tipo": "Ciudad",
+    "departamento": "Palermo",
+    "provincia": "Palermo",
+    "pais": "Italia",
+    "elevacion": 18,
+    "lat": 38.1157,
+    "lon": 13.3615
+  },
+  {
+    "id": "GEN",
+    "nombre": "Génova",
+    "tipo": "Ciudad",
+    "departamento": "Génova",
+    "provincia": "Génova",
+    "pais": "Italia",
+    "elevacion": 20,
+    "lat": 44.4056,
+    "lon": 8.9463
+  },
+  {
+    "id": "BOL",
+    "nombre": "Bolonia",
+    "tipo": "Ciudad",
+    "departamento": "Bolonia",
+    "provincia": "Bolonia",
+    "pais": "Italia",
+    "elevacion": 54,
+    "lat": 44.4949,
+    "lon": 11.3426
+  },
+  {
+    "id": "FIR",
+    "nombre": "Florencia",
+    "tipo": "Ciudad",
+    "departamento": "Florencia",
+    "provincia": "Florencia",
+    "pais": "Italia",
+    "elevacion": 50,
+    "lat": 43.7696,
+    "lon": 11.2558
+  },
+  {
+    "id": "BAR",
+    "nombre": "Bari",
+    "tipo": "Ciudad",
+    "departamento": "Bari",
+    "provincia": "Bari",
+    "pais": "Italia",
+    "elevacion": 5,
+    "lat": 41.1171,
+    "lon": 16.8719
+  },
+  {
+    "id": "CAT",
+    "nombre": "Catania",
+    "tipo": "Ciudad",
+    "departamento": "Catania",
+    "provincia": "Catania",
+    "pais": "Italia",
+    "elevacion": 7,
+    "lat": 37.5079,
+    "lon": 15.083
+  },
+  {
+    "id": "VEN",
+    "nombre": "Venecia",
+    "tipo": "Ciudad",
+    "departamento": "Venecia",
+    "provincia": "Venecia",
+    "pais": "Italia",
+    "elevacion": 2,
+    "lat": 45.4408,
+    "lon": 12.3155
+  },
+  {
+    "id": "VER",
+    "nombre": "Verona",
+    "tipo": "Ciudad",
+    "departamento": "Verona",
+    "provincia": "Verona",
+    "pais": "Italia",
+    "elevacion": 49,
+    "lat": 45.4384,
+    "lon": 10.9916
+  },
+  {
+    "id": "MES",
+    "nombre": "Messina",
+    "tipo": "Ciudad",
+    "departamento": "Messina",
+    "provincia": "Messina",
+    "pais": "Italia",
+    "elevacion": 3,
+    "lat": 38.1938,
+    "lon": 15.554
+  },
+  {
+    "id": "PAD",
+    "nombre": "Padua",
+    "tipo": "Ciudad",
+    "departamento": "Padua",
+    "provincia": "Padua",
+    "pais": "Italia",
+    "elevacion": 12,
+    "lat": 45.4064,
+    "lon": 11.8768
+  },
+  {
+    "id": "TRI",
+    "nombre": "Trieste",
+    "tipo": "Ciudad",
+    "departamento": "Trieste",
+    "provincia": "Trieste",
+    "pais": "Italia",
+    "elevacion": 2,
+    "lat": 45.6495,
+    "lon": 13.7768
+  },
+  {
+    "id": "BRE",
+    "nombre": "Brescia",
+    "tipo": "Ciudad",
+    "departamento": "Brescia",
+    "provincia": "Brescia",
+    "pais": "Italia",
+    "elevacion": 198,
+    "lat": 45.5416,
+    "lon": 10.2118
+  },
+  {
+    "id": "TAR",
+    "nombre": "Taranto",
+    "tipo": "Ciudad",
+    "departamento": "Taranto",
+    "provincia": "Taranto",
+    "pais": "Italia",
+    "elevacion": 16,
+    "lat": 40.4644,
+    "lon": 17.247
+  },
+  {
+    "id": "PRA",
+    "nombre": "Prato",
+    "tipo": "Ciudad",
+    "departamento": "Prato",
+    "provincia": "Prato",
+    "pais": "Italia",
+    "elevacion": 38,
+    "lat": 43.8778,
+    "lon": 11.1022
+  },
+  {
+    "id": "MOD",
+    "nombre": "Módena",
+    "tipo": "Ciudad",
+    "departamento": "Módena",
+    "provincia": "Módena",
+    "pais": "Italia",
+    "elevacion": 31,
+    "lat": 44.6471,
+    "lon": 10.9252
+  },
+  {
+    "id": "REG",
+    "nombre": "Reggio Calabria",
+    "tipo": "Ciudad",
+    "departamento": "Reggio Calabria",
+    "provincia": "Reggio Calabria",
+    "pais": "Italia",
+    "elevacion": 10,
+    "lat": 38.1105,
+    "lon": 15.6613
+  },
+  {
+    "id": "PAR",
+    "nombre": "Parma",
+    "tipo": "Ciudad",
+    "departamento": "Parma",
+    "provincia": "Parma",
+    "pais": "Italia",
+    "elevacion": 55,
+    "lat": 44.8015,
+    "lon": 10.3279
+  },
+  {
+    "id": "PER",
+    "nombre": "Perugia",
+    "tipo": "Ciudad",
+    "departamento": "Perugia",
+    "provincia": "Perugia",
+    "pais": "Italia",
+    "elevacion": 260,
+    "lat": 43.1107,
+    "lon": 12.3908
+  },
+  {
+    "id": "LIV",
+    "nombre": "Livorno",
+    "tipo": "Ciudad",
+    "departamento": "Livorno",
+    "provincia": "Livorno",
+    "pais": "Italia",
+    "elevacion": 4,
+    "lat": 43.5485,
+    "lon": 10.3106
+  },
+  {
+    "id": "RAV",
+    "nombre": "Ravenna",
+    "tipo": "Ciudad",
+    "departamento": "Ravenna",
+    "provincia": "Ravenna",
+    "pais": "Italia",
+    "elevacion": 3,
+    "lat": 44.4184,
+    "lon": 12.2035
+  },
+  {
+    "id": "SAL",
+    "nombre": "Salerno",
+    "tipo": "Ciudad",
+    "departamento": "Salerno",
+    "provincia": "Salerno",
+    "pais": "Italia",
+    "elevacion": 5,
+    "lat": 40.6826,
+    "lon": 14.7681
+  }
 ]
