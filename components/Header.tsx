@@ -7,7 +7,6 @@ import { Section_4 } from '@/components/header-components/Section-4';
 import { Section_3 } from '@/components/header-components/Section-3';
 import { Section_2 } from '@/components/header-components/Section-2';
 import { Section_1 } from '@/components/header-components/Section-1';
-import { supabase } from '@/utils/supabase/client';
 import { useEffect, useState } from 'react';
 import { GetLocation } from '@/utils/get-location';
 import { SupabaseModel } from '@/app/models/SupabaseModel';
