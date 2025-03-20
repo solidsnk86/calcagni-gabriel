@@ -10,6 +10,7 @@ import { Section_4 } from './main-section/Section-4';
 import { useEffect, useState } from 'react';
 import { Section_5 } from './main-section/Section-5';
 import { DataModel } from '@/app/lib/actions';
+import { SupabaseModel } from '@/app/models/SupabaseModel';
 
 export default function Main() {
   const mobile = useMatchMedia('(max-width: 700px)', true);
@@ -32,15 +33,15 @@ export default function Main() {
 
   const fetchComments = async () => {
     try {
-      const data = await DataModel.getData('comments', '*');
+      const data = await SupabaseModel.getComments();
 
       setComments(data);
     } catch (error) {
       console.error('Error', error);
     }
 
-    const visitsData = await DataModel.getLastVisit();
-    setLastVisit(visitsData[0]);
+    const visitsData = await SupabaseModel.getLastVisits();
+    setLastVisit(visitsData);
   };
 
   return (
