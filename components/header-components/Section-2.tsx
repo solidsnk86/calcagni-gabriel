@@ -29,7 +29,7 @@ export const Section_2 = ({
   const sections = [
     {
       name: 'Proyectos',
-      quantity: 6,
+      quantity: 9,
       icon: Flag,
     },
     {

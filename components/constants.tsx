@@ -121,7 +121,7 @@ export const worksProyects = [
   {
     name: 'Web LLM IA',
     url: 'https://solidsnk86.github.io/web-Llm-local/',
-    image: '/Portada-Web-LLM-AI.png',
+    image: '/Portada-Web-LLM-AI.webp',
     type: 'Chat GPT',
     repoName: 'web-llm-local',
   },
