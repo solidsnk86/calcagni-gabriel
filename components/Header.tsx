@@ -10,6 +10,7 @@ import { Section_1 } from '@/components/header-components/Section-1';
 import { supabase } from '@/utils/supabase/client';
 import { useEffect, useState } from 'react';
 import { GetLocation } from '@/utils/get-location';
+import { SupabaseModel } from '@/app/models/SupabaseModel';
 
 export default function Header() {
   const isClient = useIsClient();
@@ -38,19 +39,10 @@ export default function Header() {
     };
 
     try {
-      const { data: visitsData, error: visitsError } = await supabase
-        .from('profile_visits')
-        .select('id, ip')
-        .limit(1)
-        .order('id', { ascending: false });
+      const { id: visitsData, ip: lastIp } =
+        await SupabaseModel.getProfileVisits();
 
-      if (visitsError) {
-        throw new Error(`Cannot get data from db: ${visitsError.message}`);
-      }
-
-      const lastVisit = visitsData[0];
-
-      if (lastVisit.ip !== objectData.ip) {
+      if (lastIp !== objectData.ip) {
         const { error: insertError } = await supabase
           .from('profile_visits')
           .insert(objectData);
@@ -62,7 +54,7 @@ export default function Header() {
         }
       }
 
-      setVisits(lastVisit.id);
+      setVisits(visitsData);
     } catch (error) {
       console.error('Error sending data location:', error);
     }
