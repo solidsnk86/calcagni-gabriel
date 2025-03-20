@@ -43,15 +43,7 @@ export default function Header() {
         await SupabaseModel.getProfileVisits();
 
       if (lastIp !== objectData.ip) {
-        const { error: insertError } = await supabase
-          .from('profile_visits')
-          .insert(objectData);
-
-        if (insertError) {
-          throw new Error(
-            `Cannot insert data ip into db: ${insertError.message}`
-          );
-        }
+        await SupabaseModel.sendDataToSupabase({ data: objectData });
       }
 
       setVisits(visitsData);

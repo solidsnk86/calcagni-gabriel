@@ -12,7 +12,7 @@ export class GetLocation {
   }
 
   static async ip() {
-    const data = (await this.fetchData()) as Promise<{ ip: string | number }>;
+    const data = (await this.fetchData()) as Promise<{ ip: string }>;
     return (await data).ip;
   }
 
