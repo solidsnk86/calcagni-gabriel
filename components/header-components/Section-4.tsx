@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { FancyButton } from '@/components/magic-ui/FancyButton';
 import { DownloadIcon, X } from 'lucide-react';
 import Image from 'next/image';
-import { showDialog } from '@/utils/dialog';
+import { closeDialogWithAnimation, showDialog } from '@/utils/dialog';
 
 export const Section_4 = ({ className }: { className?: string }) => {
   const mobile = useMatchMedia('(max-width: 700px)', false);
@@ -16,17 +16,6 @@ export const Section_4 = ({ className }: { className?: string }) => {
       return audio.play();
     }
   }
-  const closeDialog = () => {
-    const dialog = document.querySelector('dialog');
-
-    if (dialog) {
-      dialog.style.animation = 'slideOutEffect 300ms ease-in-out';
-      self.addEventListener('animationend', () => {
-        dialog.close();
-        dialog.remove();
-      });
-    }
-  };
 
   const openOptions = () => {
     showDialog({
@@ -34,7 +23,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
         <div className="p-5 flex flex-col">
           <X
             className="absolute top-2 right-2 hover:bg-zinc-700/50 rounded-md"
-            onClick={closeDialog}
+            onClick={closeDialogWithAnimation}
             aria-label="Cerrar Dialogo"
           />
           <h2 className="text-center text-2xl font-semibold mb-2">
