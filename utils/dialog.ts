@@ -1,11 +1,10 @@
 import { ReactNode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-const dialog = document.createElement('dialog');
-const root = createRoot(dialog);
-const controller = new AbortController();
-
 export const closeDialogWithAnimation = () => {
+  const dialog = document.createElement('dialog');
+  const root = createRoot(dialog);
+  const controller = new AbortController();
   dialog.style.animation = 'slideOutEffect 300ms ease-in-out';
 
   dialog.addEventListener(
@@ -21,6 +20,9 @@ export const closeDialogWithAnimation = () => {
 };
 
 export const showDialog = ({ content }: { content: ReactNode }) => {
+  const dialog = document.createElement('dialog');
+  const root = createRoot(dialog);
+  const controller = new AbortController();
   document.body.appendChild(dialog);
   root.render(content);
   dialog.showModal();
