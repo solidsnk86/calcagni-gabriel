@@ -61,7 +61,7 @@ export class SupabaseModel {
   }) {
     try {
       const response = await fetch(
-        'https://supabase-rest-api.vercel.app/supabase/',
+        'https://supabase-rest-api.vercel.app/supabase/?from=profile_visits',
         {
           method: 'POST',
           mode: 'cors',

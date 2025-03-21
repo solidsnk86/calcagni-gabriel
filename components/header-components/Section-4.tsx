@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { FancyButton } from '@/components/magic-ui/FancyButton';
 import { DownloadIcon } from 'lucide-react';
 import Image from 'next/image';
+import { showDialog } from '@/utils/dialog';
 
 export const Section_4 = ({ className }: { className?: string }) => {
   const mobile = useMatchMedia('(max-width: 700px)', false);
@@ -15,6 +16,34 @@ export const Section_4 = ({ className }: { className?: string }) => {
       return audio.play();
     }
   }
+
+  const openOptions = () => {
+    showDialog({
+      content: (
+        <div className="p-5">
+          <Link
+            href="/CV-MGC-ES.pdf"
+            download="/MGC-Currículum.pdf"
+            title="Descargar CV"
+            target="_blank"
+            className="absolute group right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
+          >
+            Español
+          </Link>
+          <hr />
+          <Link
+            href="/CV-MGC-EN.pdf"
+            download="/MGC-Currículum.pdf"
+            title="Descargar CV"
+            target="_blank"
+            className="absolute group right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
+          >
+            Español
+          </Link>
+        </div>
+      ),
+    });
+  };
 
   return (
     <section
@@ -43,14 +72,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
           <h3 className="text-white text-lg font-bold">Calcagni Gabriel</h3>
           <p className="text-zinc-400 text-sm">Desarrollador Front End</p>
         </aside>
-        <Link
-          href="/MGC-Currículum.pdf"
-          download="/MGC-Currículum.pdf"
-          title="Descargar CV"
-          target="_blank"
-          className="absolute group right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
-          onMouseDown={soundClick}
-        >
+        <div onClick={openOptions}>
           <span
             className={`pdf absolute -top-2 -right-4 text-[0.6rem] font-semibold px-1 rounded-full opacity-0 
           bg-gradient-to-b from-red-300 via-red-500 to-red-600 group-hover:opacity-100 transition-opacity duration-300 shadow-md shadow-black`}
@@ -58,7 +80,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
             PDF
           </span>
           <DownloadIcon className="w-4 h-4" />
-        </Link>
+        </div>
       </header>
       <aside className="text-zinc-400 bg-zinc-900/30 flex flex-wrap items-center p-4 rounded-xl border border-foreground/5 mt-4">
         {itemsSection_4.map((item, index) => (

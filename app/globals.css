@@ -498,9 +498,14 @@ body {
 * DIALOG
 */
 
+dialog::backdrop {
+  filter: blur(6px);
+}
+
 dialog {
   padding: 16px;
   border: none;
+  outline: none;
   color: #f1f1f1;
   border: 1px solid #222;
   border-radius: 12px;
@@ -517,6 +522,15 @@ dialog {
 
   & button:hover {
     opacity: 0.8;
+  }
+}
+
+@keyframes dialogEffect {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
   }
 }
 
