@@ -7,9 +7,13 @@ export const showDialog = ({ content }: { content: ReactNode }) => {
   const root = createRoot(dialog);
   root.render(content);
 
+  dialog.showModal();
+
   const controller = new AbortController();
-  function closeWithEffect() {
-    dialog.style.animation = 'dialogEffect 0.6s ease-in-out';
+
+  const closeDialogWithAnimation = () => {
+    dialog.style.animation = 'slideOutEffect 300ms ease-in-out';
+
     dialog.addEventListener(
       'animationend',
       () => {
@@ -20,12 +24,16 @@ export const showDialog = ({ content }: { content: ReactNode }) => {
       },
       { once: true, signal: controller.signal }
     );
-  }
-
-  document.onclick = (event: MouseEvent) => {
-    const firstChildrenDialog = document.querySelector('dialog')?.children[0];
-    if (dialog.open && !firstChildrenDialog?.contains(event.target as Node)) {
-      closeWithEffect();
-    }
   };
+
+  document.addEventListener(
+    'click',
+    (event: MouseEvent) => {
+      const firstChildDialog = document.querySelector('dialog')?.children[0];
+      if (dialog.open && !firstChildDialog?.contains(event.target as Node)) {
+        closeDialogWithAnimation();
+      }
+    },
+    { once: true, signal: controller.signal }
+  );
 };

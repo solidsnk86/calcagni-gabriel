@@ -2,7 +2,7 @@ import { itemsSection_4, wap } from '@/components/constants';
 import useMatchMedia from '@/app/hooks/useMatchMedia';
 import Link from 'next/link';
 import { FancyButton } from '@/components/magic-ui/FancyButton';
-import { DownloadIcon } from 'lucide-react';
+import { DownloadIcon, X } from 'lucide-react';
 import Image from 'next/image';
 import { showDialog } from '@/utils/dialog';
 
@@ -16,29 +16,48 @@ export const Section_4 = ({ className }: { className?: string }) => {
       return audio.play();
     }
   }
+  const closeDialog = () => {
+    const dialog = document.querySelector('dialog');
+
+    if (dialog) {
+      dialog.style.animation = 'slideOutEffect 300ms ease-in-out';
+      self.addEventListener('animationend', () => {
+        dialog.close();
+        dialog.remove();
+      });
+    }
+  };
 
   const openOptions = () => {
     showDialog({
       content: (
-        <div className="p-5">
+        <div className="p-5 flex flex-col">
+          <X
+            className="absolute top-2 right-2 hover:bg-zinc-700/50 rounded-md"
+            onClick={closeDialog}
+            aria-label="Cerrar Dialogo"
+          />
+          <h2 className="text-center text-2xl font-semibold mb-2">
+            Descarga CV
+          </h2>
           <Link
             href="/CV-MGC-ES.pdf"
-            download="/MGC-Currículum.pdf"
+            download="/CV-MGC-ES.pdf"
             title="Descargar CV"
             target="_blank"
-            className="absolute group right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
+            className="text-center px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
           >
-            Español
+            Español 🇦🇷
           </Link>
-          <hr />
+          <span className="border-t border-zinc-800 my-2" />
           <Link
             href="/CV-MGC-EN.pdf"
-            download="/MGC-Currículum.pdf"
-            title="Descargar CV"
+            download="/CV-MGC-EN.pdf"
+            title="Download CV"
             target="_blank"
-            className="absolute group right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
+            className="text-center px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
           >
-            Español
+            English 🇺🇸
           </Link>
         </div>
       ),
@@ -72,7 +91,11 @@ export const Section_4 = ({ className }: { className?: string }) => {
           <h3 className="text-white text-lg font-bold">Calcagni Gabriel</h3>
           <p className="text-zinc-400 text-sm">Desarrollador Front End</p>
         </aside>
-        <div onClick={openOptions}>
+        <div
+          className="absolute group right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
+          onClick={openOptions}
+          onMouseDown={soundClick}
+        >
           <span
             className={`pdf absolute -top-2 -right-4 text-[0.6rem] font-semibold px-1 rounded-full opacity-0 
           bg-gradient-to-b from-red-300 via-red-500 to-red-600 group-hover:opacity-100 transition-opacity duration-300 shadow-md shadow-black`}
