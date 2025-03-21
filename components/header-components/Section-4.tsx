@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { FancyButton } from '@/components/magic-ui/FancyButton';
 import { DownloadIcon, X } from 'lucide-react';
 import Image from 'next/image';
-import { closeDialogWithAnimation, showDialog } from '@/utils/dialog';
+import { showDialog } from '@/utils/dialog';
 
 export const Section_4 = ({ className }: { className?: string }) => {
   const mobile = useMatchMedia('(max-width: 700px)', false);
@@ -16,6 +16,18 @@ export const Section_4 = ({ className }: { className?: string }) => {
       return audio.play();
     }
   }
+
+  const closeDialogWithAnimation = () => {
+    const dialog = document.querySelector('dialog');
+    if (dialog) {
+      dialog.style.animation = 'slideOutEffect 300ms ease-in-out';
+
+      dialog.addEventListener('animationend', () => {
+        dialog.close();
+        dialog.remove();
+      });
+    }
+  };
 
   const openOptions = () => {
     showDialog({
