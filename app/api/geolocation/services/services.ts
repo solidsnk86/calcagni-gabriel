@@ -1,38 +1,42 @@
 import { haversine } from '@/utils/haversine-formula';
 
-const getAllAntennas = async () => {
-  try {
-    const response = await fetch(
-      'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/wifi-sl-v1.json'
-    );
-    if (!response.ok) throw new Error(`Cannot get data from cdn`);
-    const josnData = await response.json();
-    return josnData;
-  } catch (err) {
-    console.error(err);
-  }
-};
-
 const getClosest = (
   coordinates: { lat: number; lon: number },
   allData: any
 ) => {
   let closestTarget = null;
+  let secondClosestTarget = null;
   let minDistance = Infinity;
+  let secondMinDistance = Infinity;
   let coords = { lat: 0, lon: 0 };
+  let secondCoords = { lat: 0, lon: 0 };
 
   for (const data of allData) {
     const distance = haversine(coordinates, data);
 
     if (distance < minDistance) {
+      secondMinDistance = minDistance;
+      secondClosestTarget = closestTarget;
+      secondCoords = { ...coords };
+
       minDistance = distance;
       closestTarget = data;
-      coords.lat = data.lat;
-      coords.lon = data.lon;
+      coords = { lat: data.lat, lon: data.lon };
+    } else if (distance < secondMinDistance) {
+      secondMinDistance = distance;
+      secondClosestTarget = data;
+      secondCoords = { lat: data.lat, lon: data.lon };
     }
   }
 
-  return { closestTarget, minDistance, coords };
+  return {
+    closestTarget,
+    secondClosestTarget,
+    minDistance,
+    secondMinDistance,
+    coords,
+    secondCoords,
+  };
 };
 
 const searchAntenna = (
@@ -75,4 +79,4 @@ const searchAntenna = (
   };
 };
 
-export { getAllAntennas, getClosest, searchAntenna };
+export { getClosest, searchAntenna };
