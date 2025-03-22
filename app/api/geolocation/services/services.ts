@@ -32,7 +32,7 @@ const getClosest = (
     }
   }
 
-  return { closestTarget, minDistance, coordinates };
+  return { closestTarget, minDistance, coords };
 };
 
 const searchAntenna = (

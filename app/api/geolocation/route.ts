@@ -28,7 +28,7 @@ export async function GET(req: NextRequest) {
     const {
       closestTarget,
       minDistance,
-      coordinates: antennaCoords,
+      coords: antennaCoords,
     } = getClosest(coords, antennas);
     const { closestTarget: target, minDistance: distance } = getClosest(
       coords,
