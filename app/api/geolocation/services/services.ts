@@ -13,9 +13,13 @@ const getAllAntennas = async () => {
   }
 };
 
-const getClosest = (coordinates: any, allData: any) => {
+const getClosest = (
+  coordinates: { lat: number; lon: number },
+  allData: any
+) => {
   let closestTarget = null;
   let minDistance = Infinity;
+  let coords = { lat: 0, lon: 0 };
 
   for (const data of allData) {
     const distance = haversine(coordinates, data);
@@ -23,10 +27,12 @@ const getClosest = (coordinates: any, allData: any) => {
     if (distance < minDistance) {
       minDistance = distance;
       closestTarget = data;
+      coords.lat = data.lat;
+      coords.lon = data.lon;
     }
   }
 
-  return { closestTarget, minDistance };
+  return { closestTarget, minDistance, coordinates };
 };
 
 const searchAntenna = (

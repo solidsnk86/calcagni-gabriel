@@ -25,7 +25,11 @@ export async function GET(req: NextRequest) {
   try {
     const { closestTarget: closestCity, minDistance: cityDistance } =
       getClosest(coords, cities);
-    const { closestTarget, minDistance } = getClosest(coords, antennas);
+    const {
+      closestTarget,
+      minDistance,
+      coordinates: antennaCoords,
+    } = getClosest(coords, antennas);
     const { closestTarget: target, minDistance: distance } = getClosest(
       coords,
       airports
@@ -73,6 +77,7 @@ export async function GET(req: NextRequest) {
         },
         closest_wifi: {
           antenna: closestTarget.name || 'No disponible',
+          coords: antennaCoords || 'No Disponible',
           name: closestTarget.name5g || 'No disponible',
           distance: `${minDistance.toFixed(3)}mts` || 'No disponible',
           type: closestTarget.type || 'No disponible',
