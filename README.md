@@ -46,76 +46,7 @@ Este es mi portafolio personal y está desarrollado con **Next.js**, **Supabase*
 
 He implementado una sección de analítica en mi dashboard privado para analizar las visitas a los perfiles. En esta sección, se recopila información sobre la IP del visitante, su ciudad, país, y la cantidad de veces que un usuario específico ha visitado el perfil.
 
-Para la visualización de los datos, utilicé la librería <a href="https://www.chartjs.org/docs/latest/getting-started/usage.html" target="_blank">Chart.js</a>, que me permitió representar los datos de forma gráfica. Los datos se obtienen de mi tabla en Supabase y se integran en los gráficos mediante un bucle for, que itera sobre las claves y valores de los datos recopilados. A continuación, dejo un ejemplo del código que utilicé para inyectar los datos en el gráfico:
-
-```typescript
-export default function ProfileClientAnalytics({ data }: { data: Array<any> }) {
-  // Record en typescript se usa para poder definirlo como [key: string]: number; en este caso (key, value)
-  const visitsByCountry: Record<string, number> = {};
-
-  for (let i = 0; i < data.length; i++) {
-    const country = data[i].country;
-    if (visitsByCountry[country]) {
-      visitsByCountry[country]++;
-    } else {
-      visitsByCountry[country] = 1;
-    }
-  }
-
-  // Se pasan los valores obtenidos al chart
-  const chartData = [
-    ['Country', 'Visits'],
-    ...Object.entries(visitsByCountry).map(([country, visits]) => [
-      country,
-      visits,
-    ]),
-  ];
-
-  const colorPalettes = {
-    ocean: ['#E6F2FF', '#BAE6FD', '#7DD3FC', '#38BDF8', '#0EA5E9'],
-    forest: ['#ECFDF5', '#D1FAE5', '#6EE7B7', '#10B981', '#059669'],
-    sunset: ['#FEF3C7', '#FDE68A', '#FCD34D', '#F59E0B', '#D97706'],
-    berry: ['#AFBBE3', '#EDE9FE', '#DDD6FE', '#AC94C9', '#A78BFA'],
-    monochrome: ['#F4F4F4', '#E5E5E5', '#A3A3A3', '#737373', '#404040'],
-  };
-
-  const chartOptions = {
-    title: 'Visitas por País',
-    backgroundColor: '#04090B',
-    colorAxis: {
-      colors: colorPalettes.berry,
-    },
-    legend: {
-      textStyle: {
-        color: '#333',
-      },
-    },
-    titleTextStyle: {
-      color: '#f4f4f4',
-    },
-  };
-  // Renderizamos el componente, yo usé un Geo Chart de Google React Charts
-  return (
-    <Chart
-      chartType="GeoChart"
-      width="100%"
-      height="400px"
-      data={chartData}
-      options={{
-        ...chartOptions,
-        width: mobile ? 360 : 400,
-        height: 400,
-      }}
-    />
-  );
-}
-```
-
-### Ejemplo:
-
-<div>
-<img src="public/captura-analitica-del-portfolio-mgc.png" width="100%" heigt="600" />
-</div>
+Los datos se obtienen de mi tabla en Supabase y se integran en la aplicación.
 
 ## Gestión de Galería de Fotos 📸
 
