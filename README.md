@@ -3,8 +3,6 @@
 | Portfolio Personal MGC |
 | ---------------------- |
 
-<img src="public/logo.png" alt="Logo Portafolio MGC" style="filter: drop-shadow(0 0 10px #46E4D7)" />
-
 </div>
 
 Este es mi portafolio personal y está desarrollado con **Next.js**, **Supabase** y **TypeScript**. Aquí presento las principales características:
