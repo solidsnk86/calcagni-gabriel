@@ -8686,18 +8686,11 @@
     "lon": -68.40505240041024
   },
   {
-    "name": "Club Estrella, Algarrobo Grande",
+    "name": "Parque Municipal Valle Grande",
     "state": "Conectado",
-    "type": "Estrella",
-    "lat": -33.151651941919255,
-    "lon": -68.40505240041024
-  },
-  {
-    "name": "Club Estrella, Algarrobo Grande",
-    "state": "Conectado",
-    "type": "Estrella",
-    "lat": -33.151651941919255,
-    "lon": -68.40505240041024
+    "type": "RP173 Km 21",
+    "lat": -34.824762853001694,
+    "lon": -68.45553566411057
   },
   {
     "name": "Barcelona-Wifi (Pl. de Catalunya - Rda. Sant Pere)",

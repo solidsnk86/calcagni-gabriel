@@ -1,6 +1,6 @@
 import { NextRequest } from 'next/server';
 import { getClosest, searchAntenna } from './services/utils';
-import antennas from './services/wifi-sl-v1.json';
+import antennas from './services/wifi-v2.json';
 import cities from './services/geodata-v3-mgc.json';
 import airports from './services/airports.json';
 
