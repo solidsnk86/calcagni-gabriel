@@ -480,8 +480,8 @@
     "provincia": "Mendoza",
     "pais": "Argentina",
     "elevacion": 724,
-    "lat": -32.8833,
-    "lon": -68.7833
+    "lat": -32.90009297445809,
+    "lon": -68.78752004873867
   },
   {
     "id": "LSH",
@@ -513,8 +513,8 @@
     "provincia": "Mendoza",
     "pais": "Argentina",
     "elevacion": 945,
-    "lat": -33.0333,
-    "lon": -68.8833
+    "lat": -32.99347068633503,
+    "lon": -68.87349739572623
   },
   {
     "id": "SRF",
@@ -561,6 +561,17 @@
     "lon": -69.0333
   },
   {
+    "id": "SPDA",
+    "nombre": "Carmensa",
+    "tipo": "Ciudad",
+    "departamento": "General Alvear",
+    "provincia": "Mendoza",
+    "pais": "Argentina",
+    "elevacion": 2368,
+    "lat": -35.1509029,
+    "lon": -67.6716144
+  },
+  {
     "id": "TUN",
     "nombre": "Tunuyán",
     "tipo": "Ciudad",
@@ -590,8 +601,8 @@
     "provincia": "Mendoza",
     "pais": "Argentina",
     "elevacion": 1396,
-    "lat": -35.4667,
-    "lon": -69.5833
+    "lat": -35.47610122255667,
+    "lon": -69.58028265716044
   },
   {
     "id": "USP",
@@ -798,9 +809,9 @@
     "departamento": "General Alvear",
     "provincia": "Mendoza",
     "pais": "Argentina",
-    "elevacion": 480,
-    "lat": -34.9833,
-    "lon": -67.5167
+    "elevacion": 297,
+    "lat": -35.00032006437468,
+    "lon": -67.5104955688793
   },
   {
     "id": "GAL",

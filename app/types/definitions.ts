@@ -27,8 +27,6 @@ export interface MarqueeProps {
 
 export interface FancyButtonProps extends FancyButton {
   children: ReactNode;
-  className?: string;
-  style?: CSSProperties;
   duration?: string | number;
   radius?: string | number;
   inset?: string | number;
@@ -143,5 +141,4 @@ export type Section_3PropsOptional = Partial<Section_3Props>;
 export type Setcion_4PropsOptional = Partial<Setcion_4Props>;
 export type Section_5PropsOptional = Partial<Section_5Props>;
 export type FecthPropsPartial = Partial<FetchProps>;
-
 export type PartialReviewMarqueeProps = Partial<ReviewsMarqueeProps>;

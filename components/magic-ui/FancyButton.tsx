@@ -1,5 +1,5 @@
-import { FancyButtonProps } from "@/app/types/definitions";
-import { CSSProperties } from "react";
+import { FancyButtonProps } from '@/app/types/definitions';
+import { CSSProperties } from 'react';
 
 export const FancyButton = ({
   children,
@@ -8,7 +8,7 @@ export const FancyButton = ({
   duration,
   radius = 10,
   inset = 1,
-  fancyColor = "#757575",
+  fancyColor = '#757575',
   ...props
 }: FancyButtonProps) => {
   return (
@@ -17,10 +17,10 @@ export const FancyButton = ({
       style={
         {
           ...style,
-          "--animation-duration": `${duration}s`,
-          "--radius": `${radius}px`,
-          "--inset": `${inset}px`,
-          "--fancy-color": `${fancyColor}`,
+          '--animation-duration': `${duration}s`,
+          '--radius': `${radius}px`,
+          '--inset': `${inset}px`,
+          '--fancy-color': `${fancyColor}`,
         } as CSSProperties
       }
       {...props}

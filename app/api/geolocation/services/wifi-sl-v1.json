@@ -8406,6 +8406,300 @@
     "lon": "-64.157179"
   },
   {
+    "name": "Dirección de Educación de la Municipalidad",
+    "state": "Conectado",
+    "type": "Buenos Aires 763",
+    "lat": -34.60673152584367,
+    "lon": -68.33114271378356
+  },
+  {
+    "name": "Coordinación de Juventud",
+    "state": "Conectado",
+    "type": "Francia 43",
+    "lat": -34.61418499779476,
+    "lon": -68.32821587455874
+  },
+  {
+    "name": "CIC Monte Comán",
+    "state": "Conectado",
+    "type": "Avenida Mendoza y Córdoba",
+    "lat": -34.59245718472212,
+    "lon": -67.86969511404293
+  },
+  {
+    "name": "Biblioteca Peñasco",
+    "state": "Conectado",
+    "type": "Avenida Mitre 1233",
+    "lat": -34.62195072761318,
+    "lon": -68.31206076270637
+  },
+  {
+    "name": "Biblioteca Popular Santo Tomás de Aquino",
+    "state": "Conectado",
+    "type": "Distrito de Las Malvinas",
+    "lat": -34.83343638566389,
+    "lon": -68.25207702813917
+  },
+  {
+    "name": "Biblioteca Popular Cultura",
+    "state": "Conectado",
+    "type": "Real del Padre",
+    "lat": -34.84066403770971,
+    "lon": -67.76753163340531
+  },
+  {
+    "name": "Delegación Municipal El Sosneado",
+    "state": "Conectado",
+    "type": "El Sosneado",
+    "lat": -35.07943027571415,
+    "lon": -69.56727264752625
+  },
+  {
+    "name": "Campus Educativo Municipal",
+    "state": "Conectado",
+    "type": "Calle Rosario Vera Peñaloza y Beltrán",
+    "lat": -35.47335259012757,
+    "lon": -69.58916609223651
+  },
+  {
+    "name": "J.C.M. N°194 LUNA DE PAPEL",
+    "state": "Conectado",
+    "type": "San Martín - Carmensa",
+    "lat": -35.149066907818984,
+    "lon": -67.65266362419749
+  },
+  {
+    "name": "Punto Digital",
+    "state": "Conectado",
+    "type": "Calle Ancán Amún",
+    "lat": -35.48502912053609,
+    "lon": -69.59384736219496
+  },
+  {
+    "name": "J.C.M. N°301 CASTILLITO DE MIS SUEÑOS",
+    "state": "Conectado",
+    "type": "Pedro Christophersen, Col. Alvear, Mendoza",
+    "lat": -34.998600178458474,
+    "lon": -67.65140030886387
+  },
+  {
+    "name": "ITU Instituto Tecnológico Universitario",
+    "state": "Conectado",
+    "type": "Chapearugue 163",
+    "lat": -34.97982968955309,
+    "lon": -67.6945286545948
+  },
+  {
+    "name": "Biblioteca Municipal Almafuerte",
+    "state": "Conectado",
+    "type": "Av. Libertad 720",
+    "lat": -32.900040634352386,
+    "lon": -68.788331447413
+  },
+  {
+    "name": "Punto Digital Ex Bodega Monclus",
+    "state": "Conectado",
+    "type": "Av. Bandera de los Andes 7713, Rodeo de la Cruz",
+    "lat": -32.91477442857702,
+    "lon": -68.75504079362811
+  },
+  {
+    "name": "Consejo Deliberante de Mendoza",
+    "state": "Conectado",
+    "type": "9 de Julio 459",
+    "lat": -32.8983450194246,
+    "lon": -68.84264661596389
+  },
+  {
+    "name": "Distrito 33",
+    "state": "Conectado",
+    "type": "Distrito 33, M5500 Capital",
+    "lat": -32.88516039915204,
+    "lon": -68.89626227770299
+  },
+  {
+    "name": "Rama",
+    "state": "Conectado",
+    "type": "Barrio San Martín",
+    "lat": -33.04378301394272,
+    "lon": -68.45746101289417
+  },
+  {
+    "name": "Nido",
+    "state": "Conectado",
+    "type": "Las Heras, Mendoza",
+    "lat": -32.82157803571493,
+    "lon": -68.81754062737402
+  },
+  {
+    "name": "Escuela N°4-071 Julio Fernández Peláez",
+    "state": "Conectado",
+    "type": "Las Camelias 1866, M5513 Maipú",
+    "lat": -32.96729722389541,
+    "lon": -68.76044446909467
+  },
+  {
+    "name": "Plaza 12 de Febrero",
+    "state": "Conectado",
+    "type": "Pablo Pescara 190, M5515 Maipú",
+    "lat": -32.98477477113717,
+    "lon": -68.78752607454412
+  },
+  {
+    "name": "Parque Metropolitano Sur",
+    "state": "Conectado",
+    "type": "Colectora Norte, M5515 Maipú",
+    "lat": -32.97444693498869,
+    "lon": -68.80190552006883
+  },
+  {
+    "name": "Parque Canota",
+    "state": "Conectado",
+    "type": "Base Esperanza 752",
+    "lat": -32.9484570716502,
+    "lon": -68.79921836357214
+  },
+  {
+    "name": "Plaza José López Rivas",
+    "state": "Conectado",
+    "type": "López y Planes, Rivas",
+    "lat": -32.96380479751935,
+    "lon": -68.78127365680183
+  },
+  {
+    "name": "Estadio Dr. Vicente Polimeni",
+    "state": "Conectado",
+    "type": "San Miguel 1464",
+    "lat": -32.851559074980464,
+    "lon": -68.83954195955889
+  },
+  {
+    "name": "Plaza Marcos Burgos",
+    "state": "Conectado",
+    "type": "Belgrano 777",
+    "lat": -32.85036980409702,
+    "lon": -68.84056472506327
+  },
+  {
+    "name": "Delegación Municipal Gutierrez",
+    "state": "Conectado",
+    "type": "Hipólito Yrigoyen, Padre Vásquez",
+    "lat": -32.96031228881527,
+    "lon": -68.78236043289058
+  },
+  {
+    "name": "Biblioteca Digital Carrodilla",
+    "state": "Conectado",
+    "type": "Manuel Antonio Sáez 8235",
+    "lat": -32.96238452402569,
+    "lon": -68.84306970467419
+  },
+  {
+    "name": "Rotonda de los Bomberos",
+    "state": "Conectado",
+    "type": "Bustamante, Azcuénaga",
+    "lat": -33.036065005695896,
+    "lon": -68.87586236715191
+  },
+  {
+    "name": "Escuela de Oficios",
+    "state": "Conectado",
+    "type": "Colón 770",
+    "lat": -32.93364300154074,
+    "lon": -68.84754487405414
+  },
+  {
+    "name": "Casa del Futuro",
+    "state": "Conectado",
+    "type": "Sarmiento 2291",
+    "lat": -32.943556887446455,
+    "lon": -68.8185261758448
+  },
+  {
+    "name": "Infinito por Descubrir",
+    "state": "Conectado",
+    "type": "Rafael Cubillos 2110",
+    "lat": -32.93848475570341,
+    "lon": -68.81990434487922
+  },
+  {
+    "name": "CFP Sarmiento - Centro de Formación Profesional",
+    "state": "Conectado",
+    "type": "Juan Domingo Perón Nte. 2399",
+    "lat": -32.93385243098998,
+    "lon": -68.87746919739295
+  },
+  {
+    "name": "Polideportivo Municipal N° 7 Nicolino Locche",
+    "state": "Conectado",
+    "type": "Chapadmalal y Punta Mogotes",
+    "lat": -32.934322834137504,
+    "lon": -68.87504388878477
+  },
+  {
+    "name": "Polideportivo N. 4 Julián Filippini",
+    "state": "Conectado",
+    "type": "Elena de Zizzias y Roca",
+    "lat": -32.95486365081817,
+    "lon": -68.84101607583592
+  },
+  {
+    "name": "Polideportivo N. 1 Britos",
+    "state": "Conectado",
+    "type": "Biritos y Roque Saenz Peña",
+    "lat": -32.910430105091365,
+    "lon": -68.84640065744773
+  },
+  {
+    "name": "Centro Integrador Comunitario N°910 - Palmira",
+    "state": "Conectado",
+    "type": "Carril San Pedro S/N",
+    "lat": -33.050418643301995,
+    "lon": -68.5462344396684
+  },
+  {
+    "name": "Plaza Departamental - Juan Bautista Alberdi",
+    "state": "Conectado",
+    "type": "Avenida Mitre y Sarmiento",
+    "lat": -33.1440858976017,
+    "lon": -68.48525851971908
+  },
+  {
+    "name": "Centro Universitario, La Colonia",
+    "state": "Conectado",
+    "type": "Espejo Este 406",
+    "lat": -33.09042773843448,
+    "lon": -68.48085320248366
+  },
+  {
+    "name": "Parque Recreativo Dueño del Sol",
+    "state": "Conectado",
+    "type": "Los Geranios",
+    "lat": -33.158620962507676,
+    "lon": -68.4477635250781
+  },
+  {
+    "name": "Club Estrella, Algarrobo Grande",
+    "state": "Conectado",
+    "type": "Estrella",
+    "lat": -33.151651941919255,
+    "lon": -68.40505240041024
+  },
+  {
+    "name": "Club Estrella, Algarrobo Grande",
+    "state": "Conectado",
+    "type": "Estrella",
+    "lat": -33.151651941919255,
+    "lon": -68.40505240041024
+  },
+  {
+    "name": "Club Estrella, Algarrobo Grande",
+    "state": "Conectado",
+    "type": "Estrella",
+    "lat": -33.151651941919255,
+    "lon": -68.40505240041024
+  },
+  {
     "name": "Barcelona-Wifi (Pl. de Catalunya - Rda. Sant Pere)",
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "MAC": null,
