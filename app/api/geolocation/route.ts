@@ -1,5 +1,5 @@
 import { NextRequest } from 'next/server';
-import { getClosest, searchAntenna } from './services/services';
+import { getClosest, searchAntenna } from './services/utils';
 import antennas from './services/wifi-sl-v1.json';
 import cities from './services/geodata-v3-mgc.json';
 import airports from './services/airports.json';
@@ -65,13 +65,13 @@ export async function GET(req: NextRequest) {
     return Response.json(
       {
         ip: clientIp,
-        city: closestCity.nombre,
-        state: closestCity.provincia,
-        country: closestCity.pais,
-        departament: closestCity.departamento,
+        city: closestCity?.nombre,
+        state: closestCity?.provincia,
+        country: closestCity?.pais,
+        departament: closestCity?.departamento,
         city_coords: {
-          latitude: closestCity.lat,
-          longitude: closestCity.lon,
+          latitude: closestCity?.lat,
+          longitude: closestCity?.lon,
         },
         center_distance: `${cityDistance.toFixed(3)}mts` || 'No disponible',
         current_position: {
@@ -79,8 +79,8 @@ export async function GET(req: NextRequest) {
           longitude: lon,
         },
         closest_wifi: {
-          antenna: closestTarget.name || 'No disponible',
-          name: closestTarget.name5g || 'No disponible',
+          antenna: closestTarget?.name || 'No disponible',
+          name: closestTarget?.name5g || 'No disponible',
           distance: `${minDistance.toFixed(3)}mts` || 'No disponible',
           type: closestTarget.type || 'No disponible',
           MAC: closestTarget.MAC
