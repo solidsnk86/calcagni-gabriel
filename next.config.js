@@ -16,7 +16,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Access-Control-Allow-Origin',
-            value: 'https://neo-wifi.vercel.app',
+            value: '*',
           },
         ],
       },
