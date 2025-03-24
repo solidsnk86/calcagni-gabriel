@@ -100,8 +100,15 @@ export const worksProyects = [
   {
     name: 'NeoWiFi',
     url: 'https://neo-wifi.vercel.app/',
-    image: '/Portada-NeoWiFi.png',
+    image: '/Portada-Neo-WiFi.png',
     type: 'Información WiFi',
+    repoName: 'neo-wifi',
+  },
+  {
+    name: 'Neo-WiFi App',
+    url: 'https://github.com/solidsnk86/neo-wifi/releases/tag/v1.1.3',
+    image: '/Portada-NeoWiFi-Electron-App.png',
+    type: 'Desktop App',
     repoName: 'neo-wifi',
   },
   {
@@ -131,13 +138,6 @@ export const worksProyects = [
     image: '/Portada-CV-Gerardo.png',
     type: 'Portfolio',
     repoName: 'cv-gec',
-  },
-  {
-    name: 'App Sorteo',
-    url: 'https://solidsnk86.github.io/app_sorteo/',
-    image: '/screen-shot-app-sorteo.png',
-    type: 'Sorteos',
-    repoName: 'app_sorteo',
   },
 ];
 

@@ -1,19 +1,19 @@
-"use client";
+'use client';
 
-import { Footer } from "@/components/Footer";
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import useMatchMedia from "../hooks/useMatchMedia";
-import Link from "next/link";
-import { ArrowRight, BriefcaseBusiness } from "lucide-react";
-import { useIsClient } from "../hooks/useIsClient";
-import AnimatedLayout from "@/components/AnimatedLayouts";
-import Image from "next/image";
-import { worksProyects } from "@/components/constants";
-import { useEffect, useState } from "react";
+import { Footer } from '@/components/Footer';
+import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import useMatchMedia from '../hooks/useMatchMedia';
+import Link from 'next/link';
+import { ArrowRight, BriefcaseBusiness } from 'lucide-react';
+import { useIsClient } from '../hooks/useIsClient';
+import AnimatedLayout from '@/components/AnimatedLayouts';
+import Image from 'next/image';
+import { worksProyects } from '@/components/constants';
+import { useEffect, useState } from 'react';
 
 export default function Works() {
   const isClient = useIsClient();
-  const mobile = useMatchMedia("(max-width: 700px)", true);
+  const mobile = useMatchMedia('(max-width: 700px)', true);
   const [delayed, setDelayed] = useState(mobile);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function Works() {
   }, [mobile]);
 
   const mixItems = async () => {
-    const grid = document.querySelector(".grid");
+    const grid = document.querySelector('.grid');
 
     function shuffleItems(items) {
       return Array.from(items)
@@ -66,7 +66,7 @@ export default function Works() {
                 columnsCountBreakPoints={{ 400: 1, 700: 1, 900: 3 }}
               >
                 <Masonry
-                  gutter={mobile ? "0.5rem" : "0.8rem"}
+                  gutter={mobile ? '0.5rem' : '0.8rem'}
                   className="grid relative"
                 >
                   {worksProyects.map((proyect, index) => (
@@ -82,7 +82,7 @@ export default function Works() {
                         src={proyect.image}
                         className="rounded-xl w-full h-auto aspect-auto"
                         width={1600}
-                        height={900}
+                        height={600}
                         alt={proyect.name}
                         priority
                       />
