@@ -17,15 +17,13 @@ export const CLientCommentsPage = ({
   const [editingId, setEditingId] = useState<string | number | null>(null);
 
   const handleRefresh = async () => {
-    const { data: refreshedData, error } = await supabase
-      .from('comments')
-      .select('*')
-      .eq('user_name', user.user_metadata.user_name)
-      .order('created_at', { ascending: false });
-
-    if (error) {
-      throw new Error(`Error to get data from supabase: ${error.message}`);
-    }
+    const [comments] = await Promise.all([
+      fetch(`api/comments?username=${user.user_metadata.user_name}`, {
+        headers: { 'content-type': 'application/json' },
+        method: 'GET',
+      }),
+    ]);
+    const refreshedData = await comments.json();
 
     setData(refreshedData);
   };
@@ -35,23 +33,28 @@ export const CLientCommentsPage = ({
     newComment: string,
     edited: boolean
   ) => {
-    const { data: updatedData, error } = await supabase
-      .from('comments')
-      .update({ message: newComment, edited })
-      .match({ id })
-      .select();
+    const response = await fetch(`/api/comments/update`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ id, message: newComment, edited }),
+    });
 
-    if (error) {
-      console.error('No se pudo guardar el comentario', error.message);
-    } else if (updatedData) {
-      setData(
-        data.map(
-          (post: { id: string | number; message: string; edited: boolean }) =>
-            post.id === id ? { ...post, message: newComment, edited } : post
-        )
-      );
-      setEditingId(null);
+    const result = await response.json();
+
+    if (!response.ok) {
+      console.error('No se pudo guardar el comentario:', result.message);
+      return;
     }
+
+    setData(
+      data.map(
+        (post: { id: string | number; message: string; edited: boolean }) =>
+          post.id === id ? { ...post, message: newComment, edited } : post
+      )
+    );
+    setEditingId(null);
   };
 
   const handleEdit = (id: string | number) => {
