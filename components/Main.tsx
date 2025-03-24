@@ -7,7 +7,7 @@ import { Section_2 } from './main-section/Section-2';
 import { useIsClient } from '@/app/hooks/useIsClient';
 import { Section_3 } from './main-section/Section-3';
 import { Section_4 } from './main-section/Section-4';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Section_5 } from './main-section/Section-5';
 import { SupabaseModel } from '@/app/models/SupabaseModel';
 
@@ -26,11 +26,16 @@ export default function Main() {
     return () => clearTimeout(timer);
   }, [mobile]);
 
-  useEffect(() => {
-    fetchComments();
+  const fetchLastVisits = useCallback(async () => {
+    try {
+      const visitsData = await SupabaseModel.getLastVisits();
+      setLastVisit(visitsData);
+    } catch (err) {
+      console.error(err);
+    }
   }, []);
 
-  const fetchComments = async () => {
+  const fetchComments = useCallback(async () => {
     try {
       const data = await SupabaseModel.getComments();
 
@@ -38,10 +43,15 @@ export default function Main() {
     } catch (error) {
       console.error('Error', error);
     }
+  }, []);
 
-    const visitsData = await SupabaseModel.getLastVisits();
-    setLastVisit(visitsData);
-  };
+  useEffect(() => {
+    fetchComments();
+  }, []);
+
+  useEffect(() => {
+    fetchLastVisits();
+  }, []);
 
   return (
     isClient && (

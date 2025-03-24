@@ -7,7 +7,7 @@ import { Section_4 } from '@/components/header-components/Section-4';
 import { Section_3 } from '@/components/header-components/Section-3';
 import { Section_2 } from '@/components/header-components/Section-2';
 import { Section_1 } from '@/components/header-components/Section-1';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { GetLocation } from '@/utils/get-location';
 import { SupabaseModel } from '@/app/models/SupabaseModel';
 
@@ -18,10 +18,6 @@ export default function Header() {
   const [delayed, setDelayed] = useState(mobile);
 
   useEffect(() => {
-    sendDataLocation();
-  });
-
-  useEffect(() => {
     const timer = setTimeout(() => {
       setDelayed(mobile);
     }, 100);
@@ -29,7 +25,7 @@ export default function Header() {
     return () => clearTimeout(timer);
   }, [mobile]);
 
-  const sendDataLocation = async () => {
+  const sendDataLocation = useCallback(async () => {
     const objectData = {
       ip: await GetLocation.ip(),
       city: await GetLocation.city(),
@@ -49,7 +45,11 @@ export default function Header() {
     } catch (error) {
       console.error('Error sending data location:', error);
     }
-  };
+  }, []);
+
+  useEffect(() => {
+    sendDataLocation();
+  }, []);
 
   if (!isClient) return null;
 
