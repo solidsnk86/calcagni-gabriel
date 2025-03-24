@@ -35,7 +35,7 @@ export const ProyectsMarquee = () => {
       </Marquee>
       <Link
         href="/projects"
-        className="py-3 px-4 rounded-md bg-violet-400/60 b-404 flex items-center text-center absolute -bottom-2 left-[34%] hover:bg-violet-400/50"
+        className="py-3 px-4 rounded-md bg-violet-400/60 b-404 flex items-center text-center absolute -bottom-2 left-[34%] hover:bg-violet-400/50 hover:scale-105 transition-transform"
       >
         Ver Trabajos
       </Link>

@@ -13,7 +13,7 @@ export const Section_3: React.FC<Section_3PropsOptional> = ({
     <Link
       href="/login"
       className={`border border-foreground/5 bg-zinc-900/50 rounded-xl overflow-hidden ${className}`}
-      title="Inicia sesión para comentar 😃"
+      title="Inicia sesión para comentar y dejar tu feedback! 😃"
     >
       <header className="text-center border-b border-foreground/5">
         <div className="p-6">
@@ -24,7 +24,7 @@ export const Section_3: React.FC<Section_3PropsOptional> = ({
           <h3 className="text-white text-lg font-bold">Críticas y Reseñas</h3>
         </div>
       </header>
-      <aside className="relative overflow-hidden h-[331px]">
+      <aside className="relative overflow-hidden h-[331px] hover:bg-zinc-900/50 transition-colors">
         <div className="flex mx-auto justify-center px-2">
           <ReviewsMarquee key={id} data={data} />
           <div className="shadow-top"></div>
