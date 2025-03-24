@@ -13,7 +13,7 @@ export const CLientCommentsPage = ({
   user: any;
   initialData: any;
 }) => {
-  const [data, setData] = useState<any>(initialData);
+  const [data, setData] = useState(initialData);
   const [editingId, setEditingId] = useState<string | number | null>(null);
 
   const handleRefresh = async () => {
