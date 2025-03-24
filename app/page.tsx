@@ -1,15 +1,15 @@
-import AnimatedLayout from "@/components/AnimatedLayouts";
-import { Footer } from "@/components/Footer";
-import Header from "@/components/Header";
-import Main from "@/components/Main";
-import { createClient } from "@/utils/supabase/server";
+import AnimatedLayout from '@/components/AnimatedLayouts';
+import { Footer } from '@/components/Footer';
+import Header from '@/components/Header';
+import Main from '@/components/Main';
+import { createClient } from '@/utils/supabase/server';
 
 export default async function Index() {
-  const supabse = createClient();
+  const supabase = createClient();
 
   const {
     data: { user },
-  } = await supabse.auth.getUser();
+  } = await supabase.auth.getUser();
 
   return (
     <AnimatedLayout>
@@ -20,7 +20,7 @@ export default async function Index() {
             <Main />
           </div>
         </section>
-        <Footer user={user?.aud === "authenticated"} />
+        <Footer user={user?.aud === 'authenticated'} />
       </main>
     </AnimatedLayout>
   );
