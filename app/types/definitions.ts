@@ -10,6 +10,21 @@ export type AuthButtonProps = {
   signOut: () => Promise<void>;
 };
 
+interface UserMessage {
+  id: number | string;
+  ip?: string;
+  full_name: string;
+  avatar_url?: string;
+  city: string;
+  message: string;
+  created_at?: string;
+  country?: string;
+  flag?: string;
+  user_name?: string;
+  edited?: boolean;
+  province?: string;
+}
+
 /**
  * UI Elements Interface
  */
@@ -137,6 +152,7 @@ interface FetchProps {
   repo: string;
 }
 
+export type SupabaseResponse = Promise<UserMessage[]>;
 export type Section_3PropsOptional = Partial<Section_3Props>;
 export type Setcion_4PropsOptional = Partial<Setcion_4Props>;
 export type Section_5PropsOptional = Partial<Section_5Props>;

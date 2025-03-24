@@ -1,8 +1,11 @@
-import { PartialReviewMarqueeProps } from '../types/definitions';
+import {
+  PartialReviewMarqueeProps,
+  SupabaseResponse,
+} from '../types/definitions';
 
 export class SupabaseModel {
   public static async getProfileVisits() {
-    const data = await fetch(
+    const response = await fetch(
       'https://supabase-rest-api.vercel.app/supabase/optional/?from=profile_visits&select=id,ip&limit=1&order=id',
       {
         method: 'GET',
@@ -10,15 +13,15 @@ export class SupabaseModel {
         headers: { 'Content-Type': 'application/json' },
       }
     );
-    if (!data.ok) console.error(data.statusText);
-    const visitData = await data.json();
+    if (!response.ok) console.error(response.statusText);
+    const visitData = await response.json();
     const { id, ip } = visitData[0];
     return { id, ip };
   }
 
   public static async getComments() {
     try {
-      const data = await fetch(
+      const response = await fetch(
         'https://supabase-rest-api.vercel.app/supabase/?from=comments&select=*',
         {
           method: 'GET',
@@ -26,8 +29,8 @@ export class SupabaseModel {
           headers: { 'Content-Type': 'application/json' },
         }
       );
-      if (!data.ok) throw new Error(data.statusText);
-      const comments = (await data.json()) as Promise<
+      if (!response.ok) throw new Error(response.statusText);
+      const comments = (await response.json()) as Promise<
         Array<PartialReviewMarqueeProps>
       >;
       return comments;
@@ -38,7 +41,7 @@ export class SupabaseModel {
 
   public static async getLastVisits() {
     try {
-      const data = await fetch(
+      const response = await fetch(
         'https://supabase-rest-api.vercel.app/supabase/optional/?from=profile_visits&select=city,province,country,flag,created_at&limit=1&order=created_at',
         {
           method: 'GET',
@@ -46,8 +49,8 @@ export class SupabaseModel {
           headers: { 'Content-Type': 'application/json' },
         }
       );
-      if (!data.ok) throw new Error(data.statusText);
-      const visitsData = await data.json();
+      if (!response.ok) throw new Error(response.statusText);
+      const visitsData = await response.json();
       return visitsData[0];
     } catch (error) {
       console.error(error);
