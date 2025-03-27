@@ -7703,22 +7703,6 @@
     "MAC5g": null
   },
   {
-    "name": null,
-    "type": "2.4Ghz",
-    "MAC": null,
-    "lat": null,
-    "lon": null,
-    "MAC5g": null
-  },
-  {
-    "name": null,
-    "type": "2.4Ghz",
-    "MAC": null,
-    "lat": null,
-    "lon": null,
-    "MAC5g": null
-  },
-  {
     "name": "GobSL-SM-08",
     "type": "2.4Ghz",
     "MAC": "00 18 25 00 BB 40",
