@@ -7662,6 +7662,71 @@
     "MAC5g": null
   },
   {
+    "name": "GobSL-SM-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 04 48 20",
+    "lat": -32.41156,
+    "lon": -65.674188,
+    "MAC5g": null
+  },
+  {
+    "name": "WIFI3.0-SM-02",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -32.413498,
+    "lon": -65.676562,
+    "name5g": "WIFI3.0-SM-02",
+    "MAC5g": "9C 8C D8 4F 5D 51"
+  },
+  {
+    "name": "GobSL-SM-03",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 CF E0",
+    "lat": -32.409209,
+    "lon": -65.676407,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-SM-04",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 05 36 D0",
+    "lat": -32.414664,
+    "lon": -65.673819,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-SM-05",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 04 47 A0",
+    "lat": -32.416453,
+    "lon": -65.72205,
+    "MAC5g": null
+  },
+  {
+    "name": null,
+    "type": "2.4Ghz",
+    "MAC": null,
+    "lat": null,
+    "lon": null,
+    "MAC5g": null
+  },
+  {
+    "name": null,
+    "type": "2.4Ghz",
+    "MAC": null,
+    "lat": null,
+    "lon": null,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-SM-08",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 BB 40",
+    "lat": -32.411056,
+    "lon": -65.676833,
+    "MAC5g": null
+  },
+  {
     "id": "1",
     "name": "CIAC CENTRO CÍVICO RÍO CUARTO",
     "state": "Conectado",
