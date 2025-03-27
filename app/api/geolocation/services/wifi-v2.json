@@ -7711,6 +7711,20 @@
     "MAC5g": null
   },
   {
+    "name": "GobSL-LF-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 79 A0",
+    "lat": -32.059925,
+    "lon": -65.347863
+  },
+  {
+    "name": "GobSL-LF-03",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 7A 10",
+    "lat": -32.058167,
+    "lon": -65.341835
+  },
+  {
     "id": "1",
     "name": "CIAC CENTRO CÍVICO RÍO CUARTO",
     "state": "Conectado",
