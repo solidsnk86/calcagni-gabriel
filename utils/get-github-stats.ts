@@ -39,7 +39,7 @@ async function getGithubData(user: string, type: string) {
 
       page++;
     } catch (err) {
-      throw new Error(`Server error: ${err}`);
+      console.error('Server error', (err as Error).message);
     }
   }
 

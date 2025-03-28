@@ -82,7 +82,7 @@ export default async function getGithubGraphql({
 
     return results;
   } catch (err) {
-    console.error('Error:', err);
+    console.error('Error: ', (err as Error).message);
     throw err;
   }
 }
