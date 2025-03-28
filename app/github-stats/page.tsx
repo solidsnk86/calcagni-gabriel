@@ -43,7 +43,7 @@ export default async function Comments() {
           <div className="w-full flex justify-between items-center p-3 text-sm">
             <Link href="/" title="Inicio">
               <Image
-                src="/logo.png"
+                src="/iniciales.svg"
                 alt="Logo"
                 width={45}
                 height={45}
