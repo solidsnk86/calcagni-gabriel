@@ -7760,6 +7760,20 @@
     "lon": -65.27742000000627
   },
   {
+    "name": "GobSL-SI-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 04 43 00",
+    "lat": -32.53469942763077,
+    "lon": -65.52747331779618
+  },
+  {
+    "name": "GobSL-GP-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 17 5C 50",
+    "lat": -32.544599310311625,
+    "lon": -65.55210719330388
+  },
+  {
     "name": "GobSL-LF-01",
     "type": "2.4Ghz",
     "MAC": "00 18 25 17 61 F0",
@@ -7820,6 +7834,192 @@
     "MAC": "00 18 25 11 9D 00",
     "lat": -33.12239700000256,
     "lon": -66.04904000000288
+  },
+  {
+    "name": "GobSL-VP-01",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": "6C C4 9F 7B 33 00",
+    "lat": -32.533583,
+    "lon": -65.644491,
+    "name5g": "WiFi4.0-VP-01",
+    "MAC5g": "6C C4 9F 7B 33 11"
+  },
+  {
+    "name": "GobSL-VP-02",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 A1 D0",
+    "lat": -32.533786,
+    "lon": -65.643108,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-VP-03",
+    "type": "2.4Ghz",
+    "MAC": "C8 B5 AD B0 50 00",
+    "lat": -32.534981,
+    "lon": -65.646314,
+    "MAC5g": "C8 B5 AD B0 50 10"
+  },
+  {
+    "name": "GobSL-VP-04",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 7D E0",
+    "lat": -32.547324,
+    "lon": -65.631683,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-VP-05",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 16 E3 B0",
+    "lat": -32.551234,
+    "lon": -65.64634,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-01",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 23 20",
+    "lat": -32.368386,
+    "lon": -65.934116,
+    "MAC5g": null
+  },
+  {
+    "name": null,
+    "type": "2.4Ghz",
+    "MAC": null,
+    "lat": null,
+    "lon": null,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi3.0-LU-03",
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "MAC": null,
+    "lat": -32.364897,
+    "lon": -65.932805,
+    "name5g": "WiFi3.0-LU-03",
+    "MAC5g": "C8 B5 AD B0 52 91"
+  },
+  {
+    "name": "GobSL-LU-04",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 76 A0",
+    "lat": -32.367408,
+    "lon": -65.939822,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi4.0",
+    "type": "2.4Ghz",
+    "MAC": null,
+    "lat": -32.365555,
+    "lon": -65.935897,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-06",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 C0 B0",
+    "lat": -32.373919,
+    "lon": -65.931252,
+    "MAC5g": null
+  },
+  {
+    "name": null,
+    "type": "2.4Ghz",
+    "MAC": null,
+    "lat": null,
+    "lon": null,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-08",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 14 10 80",
+    "lat": -32.364198,
+    "lon": -65.930109,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-09",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 C1 F0",
+    "lat": -32.376577,
+    "lon": -65.929183,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-10",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 16 E4 C0",
+    "lat": -32.359667,
+    "lon": -65.947567,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-11",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 04 52 B0",
+    "lat": -32.372117,
+    "lon": -65.93505,
+    "MAC5g": null
+  },
+  {
+    "name": null,
+    "type": "2.4Ghz",
+    "MAC": null,
+    "lat": null,
+    "lon": null,
+    "MAC5g": null
+  },
+  {
+    "name": "WiFi4.0-LU-13",
+    "type": "2.4Ghz",
+    "MAC": "CC 88 C7 69 99 A1",
+    "lat": -32.367777,
+    "lon": -65.9325,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-14",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 04 48 70",
+    "lat": -32.370277,
+    "lon": -65.933333,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-15",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 04 1B E0",
+    "lat": -32.373191,
+    "lon": -65.939686,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-17",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 70 A0",
+    "lat": -32.354656,
+    "lon": -65.945431,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-23",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 00 BF C0",
+    "lat": -32.377111,
+    "lon": -65.935722,
+    "MAC5g": null
+  },
+  {
+    "name": "GobSL-LU-25",
+    "type": "2.4Ghz",
+    "MAC": "00 18 25 03 0E B0",
+    "lat": -32.360876,
+    "lon": -65.9589509,
+    "MAC5g": null
   },
   {
     "id": "1",
