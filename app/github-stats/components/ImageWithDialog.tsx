@@ -31,10 +31,10 @@ export const ImageWithDialog: React.FC<Partial<ImageWithDialogProps>> = ({
           content: (
             <>
               <X
-                className="absolute top-2 right-2 hover:bg-zinc-300/70 dark:hover:bg-zinc-800 cursor-pointer rounded-md"
+                className="absolute top-2 right-2 text-red-500 dark:bg-zinc-800 hover:bg-zinc-700 cursor-pointer rounded-md"
                 onClick={closeDialog}
               />
-              {children}
+              <main className="pt-5">{children}</main>
               <div className="flex justify-start gap-2 mt-2">
                 {techs?.map((item) => (
                   <div className="flex">
