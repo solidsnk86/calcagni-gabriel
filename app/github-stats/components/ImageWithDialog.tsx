@@ -35,13 +35,15 @@ export const ImageWithDialog: React.FC<Partial<ImageWithDialogProps>> = ({
                 onClick={closeDialog}
               />
               {children}
-              {techs?.map((item) => (
-                <div className="inline-flex mx-1 my-1 px-0">
-                  <small className="py-1 px-2 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl border border-foreground/5">
-                    {item}
-                  </small>
-                </div>
-              ))}
+              <div className="flex justify-start gap-2 mt-2">
+                {techs?.map((item) => (
+                  <div className="flex">
+                    <small className="py-1 px-2 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-lg border border-foreground/5">
+                      {item}
+                    </small>
+                  </div>
+                ))}
+              </div>
               <aside className="flex flex-col">
                 <small className="my-3">{imageInfo}</small>
                 <div className="flex justify-evenly items-center">
@@ -56,7 +58,7 @@ export const ImageWithDialog: React.FC<Partial<ImageWithDialogProps>> = ({
                       height={18}
                       alt="Icono Planeta"
                     />
-                    Ver sitio {link}
+                    Ver {link}
                     <MoveRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
                   </Link>
                   <Link
