@@ -1,5 +1,6 @@
+import useMatchMedia from '@/app/hooks/useMatchMedia';
 import { closeDialog, showDialog } from '@/utils/dialog';
-import { Github, Globe, MoveRight, X } from 'lucide-react';
+import { Github, MoveRight, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ReactNode } from 'react';
@@ -23,22 +24,24 @@ export const ImageWithDialog: React.FC<Partial<ImageWithDialogProps>> = ({
   repoName,
   techs,
 }) => {
+  const mobile = useMatchMedia('(max-width: 762px)', true);
   return (
     <div
       className={className}
       onClick={() =>
         showDialog({
+          dialogWidth: mobile ? '100%' : '50%',
           content: (
             <>
               <X
-                className="absolute top-2 right-2 text-red-500 dark:bg-zinc-800 hover:bg-zinc-700 cursor-pointer rounded-md"
+                className="absolute top-2 right-2 dark:bg-zinc-800 hover:bg-zinc-700 cursor-pointer rounded-md"
                 onClick={closeDialog}
               />
-              <main className="pt-5">{children}</main>
-              <div className="flex justify-start gap-2 mt-2">
+              <main className="pt-6">{children}</main>
+              <div className="flex w-full gap-2 mt-2 overflow-x-auto">
                 {techs?.map((item) => (
-                  <div className="flex">
-                    <small className="py-1 px-2 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-lg border border-foreground/5">
+                  <div className="grid grid-cols-[repeat(auto-fill,minmax(90px,1fr))]">
+                    <small className="py-1 px-2 text-center bg-zinc-800 transition-colors line-clamp-1 text-white rounded-lg border border-zinc-700/50 ">
                       {item}
                     </small>
                   </div>
@@ -46,10 +49,10 @@ export const ImageWithDialog: React.FC<Partial<ImageWithDialogProps>> = ({
               </div>
               <aside className="flex flex-col">
                 <small className="my-3">{imageInfo}</small>
-                <div className="flex justify-evenly items-center">
+                <div className="flex justify-evenly items-center text-zinc-500 z-50 bg-zinc-900 border rounded-lg border-zinc-800">
                   <Link
-                    href={href as string}
-                    className="hover:underline flex justify-end items-center gap-1 group text-sm"
+                    href={href!}
+                    className="flex justify-end items-center gap-1 group text-sm"
                   >
                     <Image
                       src="/globe.svg"
@@ -63,8 +66,8 @@ export const ImageWithDialog: React.FC<Partial<ImageWithDialogProps>> = ({
                   </Link>
                   <Link
                     title={`Ver repo ${repoName}`}
-                    href={href as string}
-                    className="hover:underline flex justify-end items-center gap-1 group text-sm"
+                    href={href!}
+                    className="flex justify-end items-center gap-1 group text-sm"
                   >
                     <Github className="inline-flex w-5 h-5 my-3" /> Código
                     <MoveRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
