@@ -1,5 +1,7 @@
 <svg width="250" height="120" viewBox="0 0 250 120" xmlns="http://www.w3.org/2000/svg">
   <rect width="100%" height="100%" fill="#0a0a0a"/>
-  <text x="50%" y="50%" font-family="'Poppins', sans-serif" font-size="40" fill="#00ffcc" text-anchor="middle" dominant-baseline="middle" font-weight="bold">${GC}</text>
+  <text x="50%" y="50%" font-family="'Poppins', sans-serif" font-size="40" fill="#00ffcc" text-anchor="middle" dominant-baseline="middle" font-weight="bold">
+  ${GC}
+  </text>
   <rect x="20" y="20" width="210" height="80" rx="15" ry="15" stroke="#00ffcc" stroke-width="3" fill="none"/>
 </svg>
