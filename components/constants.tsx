@@ -103,6 +103,16 @@ export const worksProyects = [
     image: '/Portada-Neo-WiFi.png',
     type: 'Información WiFi',
     repoName: 'neo-wifi',
+    description:
+      'Neo WiFi es una aplicación innovadora diseñada específicamente para los habitantes de San Luis y Córdoba, Argentina. Su objetivo principal es simplificar la configuración de conexiones WiFi mediante una localización precisa de antenas cercanas.',
+    tech: [
+      'typescript',
+      'redux',
+      'css',
+      'nodemailer',
+      'talwindcss',
+      'nextjs15',
+    ],
   },
   {
     name: 'Neo-WiFi App',
@@ -110,6 +120,16 @@ export const worksProyects = [
     image: '/Portada-NeoWiFi-Electron-App.png',
     type: 'Desktop App',
     repoName: 'neo-wifi',
+    description:
+      'NeoWiFi App es una aplicación para instalar en la pc (Windows) 64x para automatizar la conectividad WiFi en sistemas TP-LINK en las redes del Gobierno de la Provincia de San Luis.',
+    tech: [
+      'typescript',
+      'javascript',
+      'electron.js',
+      'ipc-renderer',
+      'talwindcss',
+      'nextjs15',
+    ],
   },
   {
     name: 'Solid Geolocation',
@@ -117,6 +137,9 @@ export const worksProyects = [
     image: '/solid-geolocation-api.png',
     type: 'Geolocation API',
     repoName: 'geo-api',
+    description:
+      'Solid-geolocation es una api para consultar los datos de ip del usaurio, así como también ciudad, país, código postal, etc.',
+    tech: ['javascript', 'nodejs', 'express', 'cors', 'rate-limiter'],
   },
   {
     name: 'Clean Indent',
@@ -124,6 +147,9 @@ export const worksProyects = [
     image: '/clean-indent-screen-shot.png',
     type: 'Paquete NPM',
     repoName: 'clean-indent',
+    description:
+      'Clean-indent es una utilidad ligera y eficiente para limpiar las indentaciones de cadenas de código. Ideal para formatear textos y asegurarte de que no queden espacios innecesarios al inicio o al final de cada línea. Ideal para presentaciones de código dentro de los elementos <pre>.',
+    tech: ['typescript', 'npm'],
   },
   {
     name: 'Web LLM IA',
@@ -131,6 +157,16 @@ export const worksProyects = [
     image: '/Portada-Web-LLM-AI.webp',
     type: 'Chat GPT',
     repoName: 'web-llm-local',
+    description:
+      'Neo WiFi es una aplicación innovadora diseñada específicamente para los habitantes de San Luis y Córdoba, Argentina. Su objetivo principal es simplificar la configuración de conexiones WiFi mediante una localización precisa de antenas cercanas.',
+    tech: [
+      'typescript',
+      'redux',
+      'css',
+      'nodemailer',
+      'talwindcss',
+      'nextjs15',
+    ],
   },
   {
     name: 'CV Gerardo',
@@ -138,6 +174,16 @@ export const worksProyects = [
     image: '/Portada-CV-Gerardo.png',
     type: 'Portfolio',
     repoName: 'cv-gec',
+    description:
+      'Un currículum minimalista diseñado para la web, con la opción de imprimir o descargar en formato PDF. Este currículum es completamente editable directamente desde Google Sheets.',
+    tech: [
+      'typescript',
+      'css',
+      'talwindcss',
+      'nextjs14',
+      'supabase',
+      'postgresql',
+    ],
   },
 ];
 

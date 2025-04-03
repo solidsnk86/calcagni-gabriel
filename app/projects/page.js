@@ -72,11 +72,13 @@ export default function Works() {
                   {worksProyects.map((proyect, index) => (
                     <ImageWithDialog
                       key={proyect.name}
-                      imgInfo={proyect.name}
+                      imageInfo={proyect.description}
                       href={proyect.url}
+                      link={proyect.name}
                       linkName={`https://github.com/solidsnk86/${proyect.repoName}`}
                       data-item={index}
                       style={{ viewTransitionName: `item${index}` }}
+                      techs={proyect.tech}
                       className={`item item${index} relative group p-3 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl text-left border border-foreground/5 work-icon-hover grayscale hover:grayscale-0 transition-all duration-500`}
                     >
                       <Image
