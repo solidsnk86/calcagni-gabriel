@@ -3,13 +3,13 @@
 import { Footer } from '@/components/Footer';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import useMatchMedia from '../hooks/useMatchMedia';
-import Link from 'next/link';
 import { ArrowRight, BriefcaseBusiness } from 'lucide-react';
 import { useIsClient } from '../hooks/useIsClient';
 import AnimatedLayout from '@/components/AnimatedLayouts';
 import Image from 'next/image';
 import { worksProyects } from '@/components/constants';
 import { useEffect, useState } from 'react';
+import { ImageWithDialog } from '../github-stats/components/ImageWithDialog';
 
 export default function Works() {
   const isClient = useIsClient();
@@ -70,10 +70,11 @@ export default function Works() {
                   className="grid relative"
                 >
                   {worksProyects.map((proyect, index) => (
-                    <Link
-                      key={index}
+                    <ImageWithDialog
+                      key={proyect.name}
+                      imgInfo={proyect.name}
                       href={proyect.url}
-                      target="_blank"
+                      linkName={`https://github.com/solidsnk86/${proyect.repoName}`}
                       data-item={index}
                       style={{ viewTransitionName: `item${index}` }}
                       className={`item item${index} relative group p-3 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl text-left border border-foreground/5 work-icon-hover grayscale hover:grayscale-0 transition-all duration-500`}
@@ -99,7 +100,7 @@ export default function Works() {
                           <ArrowRight className="w-5 h-5 work-arrow-icon-2" />
                         </aside>
                       </div>
-                    </Link>
+                    </ImageWithDialog>
                   ))}
                 </Masonry>
               </ResponsiveMasonry>

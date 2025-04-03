@@ -1,6 +1,20 @@
 import { ReactNode } from 'react';
 import { createRoot } from 'react-dom/client';
 
+export const closeDialog = () => {
+  const dialog = document.createElement('dialog');
+  dialog.style.animation = 'slideOutEffect 300ms ease-in-out';
+
+  dialog.addEventListener(
+    'animationend',
+    () => {
+      dialog.close();
+      dialog.remove();
+    },
+    { once: true }
+  );
+};
+
 export const showDialog = ({ content }: { content: ReactNode }) => {
   const dialog = document.createElement('dialog');
   const root = createRoot(dialog);

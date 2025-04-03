@@ -8,7 +8,7 @@ export const Footer = ({
   className,
 }: {
   className?: string;
-  user: boolean;
+  user?: boolean;
 }) => {
   const pathname = usePathname();
 
