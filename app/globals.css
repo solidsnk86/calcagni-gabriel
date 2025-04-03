@@ -211,6 +211,17 @@ body {
   transform: translate(18px, -18px) rotate(-45deg);
 }
 
+.aside-footer::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 8px;
+  left: 12px;
+  background: #22222295;
+  border-radius: 8px;
+}
+
 /*
 * HEADER / SECTION_4
 */

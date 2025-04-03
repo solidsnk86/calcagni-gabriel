@@ -47,9 +47,9 @@ export const ImageWithDialog: React.FC<Partial<ImageWithDialogProps>> = ({
                   </div>
                 ))}
               </div>
-              <aside className="flex flex-col">
+              <footer className="flex flex-col">
                 <small className="my-3">{imageInfo}</small>
-                <div className="flex justify-evenly items-center text-zinc-500 z-50 bg-zinc-900 border rounded-lg border-zinc-800">
+                <aside className="flex gap-3 md:justify-evenly relative z-50 items-center text-zinc-500">
                   <Link
                     href={href!}
                     className="flex justify-end items-center gap-1 group text-sm"
@@ -72,8 +72,8 @@ export const ImageWithDialog: React.FC<Partial<ImageWithDialogProps>> = ({
                     <Github className="inline-flex w-5 h-5 my-3" /> Código
                     <MoveRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
                   </Link>
-                </div>
-              </aside>
+                </aside>
+              </footer>
             </>
           ),
         })
