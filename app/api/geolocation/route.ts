@@ -92,7 +92,8 @@ export async function GET(req: NextRequest) {
           MAC5G: closestTarget.MAC5g
             ? wirteMAC(closestTarget.MAC5g)
             : 'No disponible',
-          coords: antennaCoords || 'No Disponible',
+          coords: antennaCoords || 'No disponible',
+          users: closestTarget.users || 0,
         },
         second_closest_wifi: {
           antenna: secondClosestTarget.name || 'No disponible',
@@ -106,6 +107,7 @@ export async function GET(req: NextRequest) {
             ? wirteMAC(secondClosestTarget.MAC5g)
             : 'No disponible',
           coords: secondCoords || 'No disponible',
+          users: secondClosestTarget.users || 0,
         },
         third_closest_wifi: {
           antenna: thirdClosestTarget.name || 'No disponible',
@@ -119,6 +121,7 @@ export async function GET(req: NextRequest) {
             ? wirteMAC(thirdClosestTarget.MAC5g)
             : 'No disponible',
           coords: thirdCoords || 'No disponible',
+          users: thirdClosestTarget.users || 0,
         },
         airport_location: {
           city: target?.state,
