@@ -32,6 +32,9 @@ export async function GET(req: NextRequest) {
       secondMinDistance,
       coords: antennaCoords,
       secondCoords,
+      thirdClosestTarget,
+      thirdMinDistance,
+      thirdCoords,
     } = getClosest(coords, antennas);
     const { closestTarget: target, minDistance: distance } = getClosest(
       coords,
@@ -103,6 +106,19 @@ export async function GET(req: NextRequest) {
             ? wirteMAC(secondClosestTarget.MAC5g)
             : 'No disponible',
           coords: secondCoords || 'No disponible',
+        },
+        third_closest_wifi: {
+          antenna: thirdClosestTarget.name || 'No disponible',
+          name: thirdClosestTarget.name5g || 'No disponible',
+          distance: `${thirdMinDistance.toFixed(3)}mts` || 'No disponible',
+          type: thirdClosestTarget.type || 'No disponible',
+          MAC: thirdClosestTarget.MAC
+            ? wirteMAC(thirdClosestTarget.MAC)
+            : 'No disponible',
+          MAC5G: thirdClosestTarget.MAC5g
+            ? wirteMAC(thirdClosestTarget.MAC5g)
+            : 'No disponible',
+          coords: thirdCoords || 'No disponible',
         },
         airport_location: {
           city: target?.state,

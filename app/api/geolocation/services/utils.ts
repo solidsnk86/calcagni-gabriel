@@ -6,15 +6,22 @@ const getClosest = (
 ) => {
   let closestTarget = null;
   let secondClosestTarget = null;
+  let thirdClosestTarget = null;
   let minDistance = Infinity;
   let secondMinDistance = Infinity;
+  let thirdMinDistance = Infinity;
   let coords = { lat: 0, lon: 0 };
   let secondCoords = { lat: 0, lon: 0 };
+  let thirdCoords = { lat: 0, lon: 0 };
 
   for (const data of allData) {
     const distance = haversine(coordinates, data);
 
     if (distance < minDistance) {
+      thirdMinDistance = secondMinDistance;
+      thirdClosestTarget = secondClosestTarget;
+      thirdCoords = { ...secondCoords };
+
       secondMinDistance = minDistance;
       secondClosestTarget = closestTarget;
       secondCoords = { ...coords };
@@ -23,19 +30,30 @@ const getClosest = (
       closestTarget = data;
       coords = { lat: data.lat, lon: data.lon };
     } else if (distance < secondMinDistance) {
+      thirdMinDistance = secondMinDistance;
+      thirdClosestTarget = secondClosestTarget;
+      thirdCoords = { ...secondCoords };
+
       secondMinDistance = distance;
       secondClosestTarget = data;
       secondCoords = { lat: data.lat, lon: data.lon };
+    } else if (distance < thirdMinDistance) {
+      thirdMinDistance = distance;
+      thirdClosestTarget = data;
+      thirdCoords = { lat: data.lat, lon: data.lon };
     }
   }
 
   return {
     closestTarget,
     secondClosestTarget,
+    thirdClosestTarget,
     minDistance,
     secondMinDistance,
+    thirdMinDistance,
     coords,
     secondCoords,
+    thirdCoords,
   };
 };
 
