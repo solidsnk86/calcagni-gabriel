@@ -4089,7 +4089,7 @@
     "lon": -66.12818,
     "type": "2Ghz.",
     "users": 14,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-09",
@@ -4100,7 +4100,7 @@
     "lon": -66.12586,
     "type": "2Ghz.",
     "users": 47,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-11",
@@ -4111,7 +4111,7 @@
     "lon": -66.127102,
     "type": "2Ghz.",
     "users": 64,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi3.0-SF-12",
@@ -4122,7 +4122,7 @@
     "lon": -66.123555,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 33,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-13",
@@ -4133,7 +4133,7 @@
     "lon": -66.121916,
     "type": "2Ghz.",
     "users": 35,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-02",
@@ -4144,7 +4144,7 @@
     "lon": -66.129169,
     "type": "2Ghz.",
     "users": 11,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi4.0-SF-03",
@@ -4155,7 +4155,7 @@
     "lon": -66.126444,
     "type": "2Ghz.",
     "users": 43,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-04",
@@ -4166,7 +4166,7 @@
     "lon": -66.121425,
     "type": "2Ghz.",
     "users": 20,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-05",
@@ -4177,7 +4177,7 @@
     "lon": -66.12144,
     "type": "2Ghz.",
     "users": 46,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi3.0-SF-06",
@@ -4188,7 +4188,7 @@
     "lon": -66.1231,
     "type": "2Ghz.",
     "users": 54,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-07",
@@ -4199,7 +4199,7 @@
     "lon": -66.12947,
     "type": "2Ghz.",
     "users": 61,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-08",
@@ -4210,7 +4210,7 @@
     "lon": -66.12799,
     "type": "2Ghz.",
     "users": 76,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-10",
@@ -4221,7 +4221,7 @@
     "lon": -66.12621966,
     "type": "2Ghz.",
     "users": 60,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-14",
@@ -4232,7 +4232,7 @@
     "lon": -66.126277,
     "type": "2Ghz.",
     "users": 34,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SG-01",
@@ -8379,7 +8379,7 @@
     "lon": -66.131011,
     "type": "2Ghz.",
     "users": 21,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-15",
@@ -8390,7 +8390,7 @@
     "lon": -66.122797,
     "type": "2Ghz.",
     "users": 26,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-Autodromo-01",
@@ -10051,7 +10051,7 @@
     "lon": -66.127604,
     "type": "2Ghz.",
     "users": 25,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-SF-17",
@@ -10062,7 +10062,7 @@
     "lon": -66.140461,
     "type": "2Ghz.",
     "users": 28,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-LP-53",
@@ -13879,7 +13879,7 @@
     "lon": -66.151111,
     "type": "2Ghz.",
     "users": 11,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "Wifi3.0-VM-Sur",
@@ -13978,7 +13978,7 @@
     "lon": -66.128739,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 29,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi3.0-SR-20",
@@ -14022,7 +14022,7 @@
     "lon": -66.126033,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 25,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi3.0-SF-23",
@@ -14033,7 +14033,7 @@
     "lon": -66.127556,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 23,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi3.0-SF-24",
@@ -14044,7 +14044,7 @@
     "lon": -66.128094,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 24,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi3.0-SF-25",
@@ -14055,7 +14055,7 @@
     "lon": -66.126247,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 19,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi3.0-SF-26",
@@ -14066,7 +14066,7 @@
     "lon": -66.125678,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 25,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-JK-70",
@@ -16123,7 +16123,7 @@
     "lon": -66.118639,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 20,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi3.0-UN-15",
@@ -16156,7 +16156,7 @@
     "lon": -66.128933,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 38,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi3.0-LU-21",
@@ -16244,7 +16244,7 @@
     "lon": -66.134606,
     "type": "2Ghz.",
     "users": 17,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi3.0-CE-07",
@@ -18994,7 +18994,7 @@
     "lon": -66.135419,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 35,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi4.0-CN-17",
@@ -19819,7 +19819,7 @@
     "lon": -66.125278,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 31,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi4.0-SF-31",
@@ -19830,7 +19830,7 @@
     "lon": -66.116597,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 32,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "WiFi4.0-JK-85",
@@ -20578,7 +20578,7 @@
     "lon": -66.130083,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 28,
-    "location": "San Francisco del Monte de Oro"
+    "location": "San Francisco"
   },
   {
     "name": "GobSL-LV-03",
