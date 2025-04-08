@@ -21554,287 +21554,336 @@
     "state": "Conectado",
     "type": "Buenos Aires 763",
     "lat": -34.60673152584367,
-    "lon": -68.33114271378356
+    "lon": -68.33114271378356,
+    "location": "Mendoza"
   },
   {
     "name": "Coordinación de Juventud",
     "state": "Conectado",
     "type": "Francia 43",
     "lat": -34.61418499779476,
-    "lon": -68.32821587455874
+    "lon": -68.32821587455874,
+    "location": "Mendoza"
   },
   {
     "name": "CIC Monte Comán",
     "state": "Conectado",
     "type": "Avenida Mendoza y Córdoba",
     "lat": -34.59245718472212,
-    "lon": -67.86969511404293
+    "lon": -67.86969511404293,
+    "location": "Monte Comán"
   },
   {
     "name": "Biblioteca Peñasco",
     "state": "Conectado",
     "type": "Avenida Mitre 1233",
     "lat": -34.62195072761318,
-    "lon": -68.31206076270637
+    "lon": -68.31206076270637,
+    "location": "San Rafael"
   },
   {
     "name": "Biblioteca Popular Santo Tomás de Aquino",
     "state": "Conectado",
     "type": "Distrito de Las Malvinas",
     "lat": -34.83343638566389,
-    "lon": -68.25207702813917
+    "lon": -68.25207702813917,
+    "location": "San Rafael"
   },
   {
     "name": "Biblioteca Popular Cultura",
     "state": "Conectado",
     "type": "Real del Padre",
     "lat": -34.84066403770971,
-    "lon": -67.76753163340531
+    "lon": -67.76753163340531,
+    "location": "San Rafael"
   },
   {
     "name": "Delegación Municipal El Sosneado",
     "state": "Conectado",
     "type": "El Sosneado",
     "lat": -35.07943027571415,
-    "lon": -69.56727264752625
+    "lon": -69.56727264752625,
+    "location": "El Sosneado"
+  },
+  {
+    "name": "CIC Barrio El Sosneado",
+    "state": "Conectado",
+    "type": "Jacaraná S/N",
+    "lat": -35.080261066995476,
+    "lon": -69.56784554021795,
+    "location": "El Sosneado"
   },
   {
     "name": "Campus Educativo Municipal",
     "state": "Conectado",
     "type": "Calle Rosario Vera Peñaloza y Beltrán",
     "lat": -35.47335259012757,
-    "lon": -69.58916609223651
+    "lon": -69.58916609223651,
+    "location": "Malargüe"
   },
   {
     "name": "J.C.M. N°194 LUNA DE PAPEL",
     "state": "Conectado",
     "type": "San Martín - Carmensa",
     "lat": -35.149066907818984,
-    "lon": -67.65266362419749
+    "lon": -67.65266362419749,
+    "location": "Mendoza"
   },
   {
     "name": "Punto Digital",
     "state": "Conectado",
     "type": "Calle Ancán Amún",
     "lat": -35.48502912053609,
-    "lon": -69.59384736219496
+    "lon": -69.59384736219496,
+    "location": "Malargüe"
   },
   {
     "name": "J.C.M. N°301 CASTILLITO DE MIS SUEÑOS",
     "state": "Conectado",
     "type": "Pedro Christophersen, Col. Alvear, Mendoza",
     "lat": -34.998600178458474,
-    "lon": -67.65140030886387
+    "lon": -67.65140030886387,
+    "location": "Mendoza"
   },
   {
     "name": "ITU Instituto Tecnológico Universitario",
     "state": "Conectado",
     "type": "Chapearugue 163",
     "lat": -34.97982968955309,
-    "lon": -67.6945286545948
+    "lon": -67.6945286545948,
+    "location": "Mendoza"
   },
   {
     "name": "Biblioteca Municipal Almafuerte",
     "state": "Conectado",
     "type": "Av. Libertad 720",
     "lat": -32.900040634352386,
-    "lon": -68.788331447413
+    "lon": -68.788331447413,
+    "location": "Mendoza"
   },
   {
     "name": "Punto Digital Ex Bodega Monclus",
     "state": "Conectado",
     "type": "Av. Bandera de los Andes 7713, Rodeo de la Cruz",
     "lat": -32.91477442857702,
-    "lon": -68.75504079362811
+    "lon": -68.75504079362811,
+    "location": "Mendoza"
   },
   {
     "name": "Consejo Deliberante de Mendoza",
     "state": "Conectado",
     "type": "9 de Julio 459",
     "lat": -32.8983450194246,
-    "lon": -68.84264661596389
+    "lon": -68.84264661596389,
+    "location": "Mendoza"
   },
   {
     "name": "Distrito 33",
     "state": "Conectado",
     "type": "Distrito 33, M5500 Capital",
     "lat": -32.88516039915204,
-    "lon": -68.89626227770299
+    "lon": -68.89626227770299,
+    "location": "Mendoza"
   },
   {
     "name": "Rama",
     "state": "Conectado",
     "type": "Barrio San Martín",
     "lat": -33.04378301394272,
-    "lon": -68.45746101289417
+    "lon": -68.45746101289417,
+    "location": "Mendoza"
   },
   {
     "name": "Nido",
     "state": "Conectado",
     "type": "Las Heras, Mendoza",
     "lat": -32.82157803571493,
-    "lon": -68.81754062737402
+    "lon": -68.81754062737402,
+    "location": "Mendoza"
   },
   {
     "name": "Escuela N°4-071 Julio Fernández Peláez",
     "state": "Conectado",
     "type": "Las Camelias 1866, M5513 Maipú",
     "lat": -32.96729722389541,
-    "lon": -68.76044446909467
+    "lon": -68.76044446909467,
+    "location": "Mendoza"
   },
   {
     "name": "Plaza 12 de Febrero",
     "state": "Conectado",
     "type": "Pablo Pescara 190, M5515 Maipú",
     "lat": -32.98477477113717,
-    "lon": -68.78752607454412
+    "lon": -68.78752607454412,
+    "location": "Mendoza"
   },
   {
     "name": "Parque Metropolitano Sur",
     "state": "Conectado",
     "type": "Colectora Norte, M5515 Maipú",
     "lat": -32.97444693498869,
-    "lon": -68.80190552006883
+    "lon": -68.80190552006883,
+    "location": "Mendoza"
   },
   {
     "name": "Parque Canota",
     "state": "Conectado",
     "type": "Base Esperanza 752",
     "lat": -32.9484570716502,
-    "lon": -68.79921836357214
+    "lon": -68.79921836357214,
+    "location": "Mendoza"
   },
   {
     "name": "Plaza José López Rivas",
     "state": "Conectado",
     "type": "López y Planes, Rivas",
     "lat": -32.96380479751935,
-    "lon": -68.78127365680183
+    "lon": -68.78127365680183,
+    "location": "Mendoza"
   },
   {
     "name": "Estadio Dr. Vicente Polimeni",
     "state": "Conectado",
     "type": "San Miguel 1464",
     "lat": -32.851559074980464,
-    "lon": -68.83954195955889
+    "lon": -68.83954195955889,
+    "location": "Mendoza"
   },
   {
     "name": "Plaza Marcos Burgos",
     "state": "Conectado",
     "type": "Belgrano 777",
     "lat": -32.85036980409702,
-    "lon": -68.84056472506327
+    "lon": -68.84056472506327,
+    "location": "Mendoza"
   },
   {
     "name": "Delegación Municipal Gutierrez",
     "state": "Conectado",
     "type": "Hipólito Yrigoyen, Padre Vásquez",
     "lat": -32.96031228881527,
-    "lon": -68.78236043289058
+    "lon": -68.78236043289058,
+    "location": "Mendoza"
   },
   {
     "name": "Biblioteca Digital Carrodilla",
     "state": "Conectado",
     "type": "Manuel Antonio Sáez 8235",
     "lat": -32.96238452402569,
-    "lon": -68.84306970467419
+    "lon": -68.84306970467419,
+    "location": "Mendoza"
   },
   {
     "name": "Rotonda de los Bomberos",
     "state": "Conectado",
     "type": "Bustamante, Azcuénaga",
     "lat": -33.036065005695896,
-    "lon": -68.87586236715191
+    "lon": -68.87586236715191,
+    "location": "Mendoza"
   },
   {
     "name": "Escuela de Oficios",
     "state": "Conectado",
     "type": "Colón 770",
     "lat": -32.93364300154074,
-    "lon": -68.84754487405414
+    "lon": -68.84754487405414,
+    "location": "Mendoza"
   },
   {
     "name": "Casa del Futuro",
     "state": "Conectado",
     "type": "Sarmiento 2291",
     "lat": -32.943556887446455,
-    "lon": -68.8185261758448
+    "lon": -68.8185261758448,
+    "location": "Mendoza"
   },
   {
     "name": "Infinito por Descubrir",
     "state": "Conectado",
     "type": "Rafael Cubillos 2110",
     "lat": -32.93848475570341,
-    "lon": -68.81990434487922
+    "lon": -68.81990434487922,
+    "location": "Mendoza"
   },
   {
     "name": "CFP Sarmiento - Centro de Formación Profesional",
     "state": "Conectado",
     "type": "Juan Domingo Perón Nte. 2399",
     "lat": -32.93385243098998,
-    "lon": -68.87746919739295
+    "lon": -68.87746919739295,
+    "location": "Mendoza"
   },
   {
     "name": "Polideportivo Municipal N° 7 Nicolino Locche",
     "state": "Conectado",
     "type": "Chapadmalal y Punta Mogotes",
     "lat": -32.934322834137504,
-    "lon": -68.87504388878477
+    "lon": -68.87504388878477,
+    "location": "Mendoza"
   },
   {
     "name": "Polideportivo N. 4 Julián Filippini",
     "state": "Conectado",
     "type": "Elena de Zizzias y Roca",
     "lat": -32.95486365081817,
-    "lon": -68.84101607583592
+    "lon": -68.84101607583592,
+    "location": "Mendoza"
   },
   {
     "name": "Polideportivo N. 1 Britos",
     "state": "Conectado",
     "type": "Biritos y Roque Saenz Peña",
     "lat": -32.910430105091365,
-    "lon": -68.84640065744773
+    "lon": -68.84640065744773,
+    "location": "Mendoza"
   },
   {
     "name": "Centro Integrador Comunitario N°910 - Palmira",
     "state": "Conectado",
     "type": "Carril San Pedro S/N",
     "lat": -33.050418643301995,
-    "lon": -68.5462344396684
+    "lon": -68.5462344396684,
+    "location": "Mendoza"
   },
   {
     "name": "Plaza Departamental - Juan Bautista Alberdi",
     "state": "Conectado",
     "type": "Avenida Mitre y Sarmiento",
     "lat": -33.1440858976017,
-    "lon": -68.48525851971908
+    "lon": -68.48525851971908,
+    "location": "Mendoza"
   },
   {
     "name": "Centro Universitario, La Colonia",
     "state": "Conectado",
     "type": "Espejo Este 406",
     "lat": -33.09042773843448,
-    "lon": -68.48085320248366
+    "lon": -68.48085320248366,
+    "location": "Mendoza"
   },
   {
     "name": "Parque Recreativo Dueño del Sol",
     "state": "Conectado",
     "type": "Los Geranios",
     "lat": -33.158620962507676,
-    "lon": -68.4477635250781
+    "lon": -68.4477635250781,
+    "location": "Mendoza"
   },
   {
     "name": "Club Estrella, Algarrobo Grande",
     "state": "Conectado",
     "type": "Estrella",
     "lat": -33.151651941919255,
-    "lon": -68.40505240041024
+    "lon": -68.40505240041024,
+    "location": "Mendoza"
   },
   {
     "name": "Parque Municipal Valle Grande",
     "state": "Conectado",
     "type": "RP173 Km 21",
     "lat": -34.824762853001694,
-    "lon": -68.45553566411057
+    "lon": -68.45553566411057,
+    "location": "San Rafael"
   },
   {
     "name": "Barcelona-Wifi (Pl. de Catalunya - Rda. Sant Pere)",
