@@ -20718,7 +20718,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -33.123024,
-    "lon": -64.333848
+    "lon": -64.333848,
+    "location": "Córdoba"
   },
   {
     "id": "2",
@@ -20726,7 +20727,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -31.430887,
-    "lon": -62.085524
+    "lon": -62.085524,
+    "location": "Córdoba"
   },
   {
     "id": "3",
@@ -20734,7 +20736,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -32.41345,
-    "lon": -63.24009
+    "lon": -63.24009,
+    "location": "Córdoba"
   },
   {
     "id": "4",
@@ -20742,7 +20745,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -31.416129,
-    "lon": -64.493532
+    "lon": -64.493532,
+    "location": "Córdoba"
   },
   {
     "id": "5",
@@ -20750,7 +20754,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -30.706057,
-    "lon": -64.068228
+    "lon": -64.068228,
+    "location": "Córdoba"
   },
   {
     "id": "6",
@@ -20758,7 +20763,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -32.175161,
-    "lon": -64.111367
+    "lon": -64.111367,
+    "location": "Córdoba"
   },
   {
     "id": "7",
@@ -20766,7 +20772,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -32.629939,
-    "lon": -62.693294
+    "lon": -62.693294,
+    "location": "Córdoba"
   },
   {
     "id": "8",
@@ -20774,7 +20781,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -34.127115,
-    "lon": -63.388221
+    "lon": -63.388221,
+    "location": "Córdoba"
   },
   {
     "id": "9",
@@ -20782,7 +20790,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -32.920773,
-    "lon": -62.456101
+    "lon": -62.456101,
+    "location": "Córdoba"
   },
   {
     "id": "10",
@@ -20790,7 +20799,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -31.159748,
-    "lon": -64.318261
+    "lon": -64.318261,
+    "location": "Córdoba"
   },
   {
     "id": "11",
@@ -20798,7 +20808,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -32.699281,
-    "lon": -62.106208
+    "lon": -62.106208,
+    "location": "Córdoba"
   },
   {
     "id": "12",
@@ -20806,7 +20817,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -31.552142,
-    "lon": -63.536069
+    "lon": -63.536069,
+    "location": "Córdoba"
   },
   {
     "id": "13",
@@ -20814,7 +20826,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -30.726632,
-    "lon": -64.801745
+    "lon": -64.801745,
+    "location": "Córdoba"
   },
   {
     "id": "14",
@@ -20822,7 +20835,8 @@
     "state": "Conectado",
     "type": "CIAC",
     "lat": -31.418558,
-    "lon": -64.174076
+    "lon": -64.174076,
+    "location": "Córdoba"
   },
   {
     "id": "15",
@@ -20830,7 +20844,8 @@
     "state": "Conectado",
     "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
     "lat": -31.4354383,
-    "lon": -64.17509092
+    "lon": -64.17509092,
+    "location": "Córdoba"
   },
   {
     "id": "16",
@@ -20838,7 +20853,8 @@
     "state": "Conectado",
     "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
     "lat": -31.4354383,
-    "lon": -64.17509092
+    "lon": -64.17509092,
+    "location": "Córdoba"
   },
   {
     "id": "17",
@@ -20846,7 +20862,8 @@
     "state": "Conectado",
     "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
     "lat": -31.4354383,
-    "lon": -64.17509092
+    "lon": -64.17509092,
+    "location": "Córdoba"
   },
   {
     "id": "18",
@@ -20854,7 +20871,8 @@
     "state": "Conectado",
     "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
     "lat": -31.4354383,
-    "lon": -64.17509092
+    "lon": -64.17509092,
+    "location": "Córdoba"
   },
   {
     "id": "19",
@@ -20862,7 +20880,8 @@
     "state": "Conectado",
     "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
     "lat": -31.4354383,
-    "lon": -64.17509092
+    "lon": -64.17509092,
+    "location": "Córdoba"
   },
   {
     "id": "20",
@@ -20870,7 +20889,8 @@
     "state": "Conectado",
     "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
     "lat": -31.4354383,
-    "lon": -64.17509092
+    "lon": -64.17509092,
+    "location": "Córdoba"
   },
   {
     "id": "21",
@@ -20878,7 +20898,8 @@
     "state": "Conectado",
     "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
     "lat": -31.4354383,
-    "lon": -64.17509092
+    "lon": -64.17509092,
+    "location": "Córdoba"
   },
   {
     "id": "22",
@@ -20886,7 +20907,8 @@
     "state": "Conectado",
     "type": "UNIVERSIDAD PROVINCIAL DE C�RDOBA",
     "lat": -31.4354383,
-    "lon": -64.17509092
+    "lon": -64.17509092,
+    "location": "Córdoba"
   },
   {
     "id": "23",
@@ -20894,7 +20916,8 @@
     "state": "Conectado",
     "type": "MUSEO",
     "lat": -31.4285434,
-    "lon": -64.1835363
+    "lon": -64.1835363,
+    "location": "Córdoba"
   },
   {
     "id": "24",
@@ -20902,7 +20925,8 @@
     "state": "Conectado",
     "type": "TEATRO",
     "lat": -31.417545,
-    "lon": -64.18392463
+    "lon": -64.18392463,
+    "location": "Córdoba"
   },
   {
     "id": "25",
@@ -20910,7 +20934,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4168292,
-    "lon": -64.18982699
+    "lon": -64.18982699,
+    "location": "Córdoba"
   },
   {
     "id": "26",
@@ -20918,7 +20943,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.410965,
-    "lon": -64.19064226
+    "lon": -64.19064226,
+    "location": "Córdoba"
   },
   {
     "id": "27",
@@ -20926,7 +20952,8 @@
     "state": "Conectado",
     "type": "MUSEO",
     "lat": -31.427236,
-    "lon": -64.185483
+    "lon": -64.185483,
+    "location": "Córdoba"
   },
   {
     "id": "28",
@@ -20934,7 +20961,8 @@
     "state": "Conectado",
     "type": "MUSEO",
     "lat": -31.414843,
-    "lon": -64.185077
+    "lon": -64.185077,
+    "location": "Córdoba"
   },
   {
     "id": "29",
@@ -20942,7 +20970,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.421128,
-    "lon": -64.175629
+    "lon": -64.175629,
+    "location": "Córdoba"
   },
   {
     "id": "30",
@@ -20950,7 +20979,8 @@
     "state": "Conectado",
     "type": "CENTRO CULTURAL CÓRDOBA",
     "lat": -31.416875,
-    "lon": -64.181158
+    "lon": -64.181158,
+    "location": "Córdoba"
   },
   {
     "id": "31",
@@ -20958,7 +20988,8 @@
     "state": "Conectado",
     "type": "MUSEO",
     "lat": -31.416875,
-    "lon": -64.181158
+    "lon": -64.181158,
+    "location": "Córdoba"
   },
   {
     "id": "32",
@@ -20966,7 +20997,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4082442,
-    "lon": -64.18188177
+    "lon": -64.18188177,
+    "location": "Córdoba"
   },
   {
     "id": "33",
@@ -20974,7 +21006,8 @@
     "state": "Conectado",
     "type": "MUSEO",
     "lat": -31.427141,
-    "lon": -64.185218
+    "lon": -64.185218,
+    "location": "Córdoba"
   },
   {
     "id": "34",
@@ -20982,7 +21015,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4263476,
-    "lon": -64.18361863
+    "lon": -64.18361863,
+    "location": "Córdoba"
   },
   {
     "id": "35",
@@ -20990,7 +21024,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4336121,
-    "lon": -64.17150768
+    "lon": -64.17150768,
+    "location": "Córdoba"
   },
   {
     "id": "36",
@@ -20998,7 +21033,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.437085,
-    "lon": -64.175465
+    "lon": -64.175465,
+    "location": "Córdoba"
   },
   {
     "id": "37",
@@ -21006,7 +21042,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4345117,
-    "lon": -64.17484493
+    "lon": -64.17484493,
+    "location": "Córdoba"
   },
   {
     "id": "38",
@@ -21014,7 +21051,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.441979,
-    "lon": -64.1963161
+    "lon": -64.1963161,
+    "location": "Córdoba"
   },
   {
     "id": "39",
@@ -21022,7 +21060,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4094895,
-    "lon": -64.1927577
+    "lon": -64.1927577,
+    "location": "Córdoba"
   },
   {
     "id": "40",
@@ -21030,7 +21069,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.414334,
-    "lon": -64.186273
+    "lon": -64.186273,
+    "location": "Córdoba"
   },
   {
     "id": "41",
@@ -21038,7 +21078,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.414334,
-    "lon": -64.186273
+    "lon": -64.186273,
+    "location": "Córdoba"
   },
   {
     "id": "42",
@@ -21046,7 +21087,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.416998,
-    "lon": -64.180687
+    "lon": -64.180687,
+    "location": "Córdoba"
   },
   {
     "id": "43",
@@ -21054,7 +21096,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4098558,
-    "lon": -64.19298126
+    "lon": -64.19298126,
+    "location": "Córdoba"
   },
   {
     "id": "44",
@@ -21062,7 +21105,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4152695,
-    "lon": -64.18541809
+    "lon": -64.18541809,
+    "location": "Córdoba"
   },
   {
     "id": "45",
@@ -21070,7 +21114,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.41906293,
-    "lon": -64.18883396
+    "lon": -64.18883396,
+    "location": "Córdoba"
   },
   {
     "id": "46",
@@ -21078,7 +21123,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.406909,
-    "lon": -64.181542
+    "lon": -64.181542,
+    "location": "Córdoba"
   },
   {
     "id": "47",
@@ -21086,7 +21132,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4193587,
-    "lon": -64.18963785
+    "lon": -64.18963785,
+    "location": "Córdoba"
   },
   {
     "id": "48",
@@ -21094,7 +21141,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4093253,
-    "lon": -64.1792032
+    "lon": -64.1792032,
+    "location": "Córdoba"
   },
   {
     "id": "49",
@@ -21102,7 +21150,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4080553,
-    "lon": -64.19024244
+    "lon": -64.19024244,
+    "location": "Córdoba"
   },
   {
     "id": "50",
@@ -21110,7 +21159,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.408821,
-    "lon": -64.183775
+    "lon": -64.183775,
+    "location": "Córdoba"
   },
   {
     "id": "51",
@@ -21118,7 +21168,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4234787,
-    "lon": -64.17458557
+    "lon": -64.17458557,
+    "location": "Córdoba"
   },
   {
     "id": "52",
@@ -21126,7 +21177,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4202573,
-    "lon": -64.1713203
+    "lon": -64.1713203,
+    "location": "Córdoba"
   },
   {
     "id": "53",
@@ -21134,7 +21186,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4312389,
-    "lon": -64.18471277
+    "lon": -64.18471277,
+    "location": "Córdoba"
   },
   {
     "id": "54",
@@ -21142,7 +21195,8 @@
     "state": "Conectado",
     "type": "HOSPITAL",
     "lat": -31.4190393,
-    "lon": -64.1709509
+    "lon": -64.1709509,
+    "location": "Córdoba"
   },
   {
     "id": "55",
@@ -21150,7 +21204,8 @@
     "state": "Conectado",
     "type": "HOSPITAL",
     "lat": -31.42294,
-    "lon": -64.163899
+    "lon": -64.163899,
+    "location": "Córdoba"
   },
   {
     "id": "56",
@@ -21158,7 +21213,8 @@
     "state": "Conectado",
     "type": "HOSPITAL",
     "lat": -31.4180662,
-    "lon": -64.1791399
+    "lon": -64.1791399,
+    "location": "Córdoba"
   },
   {
     "id": "57",
@@ -21166,7 +21222,8 @@
     "state": "Conectado",
     "type": "HOSPITAL",
     "lat": -31.42742,
-    "lon": -64.167147
+    "lon": -64.167147,
+    "location": "Córdoba"
   },
   {
     "id": "58",
@@ -21174,7 +21231,8 @@
     "state": "Conectado",
     "type": "HOSPITAL",
     "lat": -31.42832,
-    "lon": -64.1699809
+    "lon": -64.1699809,
+    "location": "Córdoba"
   },
   {
     "id": "59",
@@ -21182,7 +21240,8 @@
     "state": "Conectado",
     "type": "HOSPITAL",
     "lat": -31.404895,
-    "lon": -64.169729
+    "lon": -64.169729,
+    "location": "Córdoba"
   },
   {
     "id": "60",
@@ -21190,7 +21249,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.4474904,
-    "lon": -64.2408988
+    "lon": -64.2408988,
+    "location": "Córdoba"
   },
   {
     "id": "61",
@@ -21198,7 +21258,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.403967,
-    "lon": -64.064404
+    "lon": -64.064404,
+    "location": "Córdoba"
   },
   {
     "id": "62",
@@ -21206,7 +21267,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.5048322,
-    "lon": -64.1943222
+    "lon": -64.1943222,
+    "location": "Córdoba"
   },
   {
     "id": "63",
@@ -21214,7 +21276,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.4840287,
-    "lon": -64.2279034
+    "lon": -64.2279034,
+    "location": "Córdoba"
   },
   {
     "id": "64",
@@ -21222,7 +21285,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.4700222,
-    "lon": -64.1169431
+    "lon": -64.1169431,
+    "location": "Córdoba"
   },
   {
     "id": "65",
@@ -21230,7 +21294,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.3219168,
-    "lon": -64.2423257
+    "lon": -64.2423257,
+    "location": "Córdoba"
   },
   {
     "id": "66",
@@ -21238,7 +21303,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.358873,
-    "lon": -64.1307485
+    "lon": -64.1307485,
+    "location": "Córdoba"
   },
   {
     "id": "67",
@@ -21246,7 +21312,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4087875,
-    "lon": -64.18812431
+    "lon": -64.18812431,
+    "location": "Córdoba"
   },
   {
     "id": "68",
@@ -21254,7 +21321,8 @@
     "state": "Conectado",
     "type": "HOGAR DE DIA",
     "lat": -31.4089705,
-    "lon": -64.18418578
+    "lon": -64.18418578,
+    "location": "Córdoba"
   },
   {
     "id": "69",
@@ -21262,7 +21330,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4166892,
-    "lon": -64.1813255
+    "lon": -64.1813255,
+    "location": "Córdoba"
   },
   {
     "id": "70",
@@ -21270,7 +21339,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4431863,
-    "lon": -64.196852
+    "lon": -64.196852,
+    "location": "Córdoba"
   },
   {
     "id": "71",
@@ -21278,7 +21348,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.3722043,
-    "lon": -64.1610356
+    "lon": -64.1610356,
+    "location": "Córdoba"
   },
   {
     "id": "72",
@@ -21286,7 +21357,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.4777566,
-    "lon": -64.0855962
+    "lon": -64.0855962,
+    "location": "Córdoba"
   },
   {
     "id": "73",
@@ -21294,7 +21366,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4150953,
-    "lon": -64.19189492
+    "lon": -64.19189492,
+    "location": "Córdoba"
   },
   {
     "id": "74",
@@ -21302,7 +21375,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4127128,
-    "lon": -64.18700932
+    "lon": -64.18700932,
+    "location": "Córdoba"
   },
   {
     "id": "75",
@@ -21310,7 +21384,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4074225,
-    "lon": -64.19175395
+    "lon": -64.19175395,
+    "location": "Córdoba"
   },
   {
     "id": "76",
@@ -21318,7 +21393,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.0336304,
-    "lon": -64.083252
+    "lon": -64.083252,
+    "location": "Córdoba"
   },
   {
     "id": "77",
@@ -21326,7 +21402,8 @@
     "state": "Conectado",
     "type": "HOSPITAL",
     "lat": -31.445878,
-    "lon": -64.1488191
+    "lon": -64.1488191,
+    "location": "Córdoba"
   },
   {
     "id": "78",
@@ -21334,7 +21411,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.295443,
-    "lon": -64.177883
+    "lon": -64.177883,
+    "location": "Córdoba"
   },
   {
     "id": "79",
@@ -21342,7 +21420,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.3974417,
-    "lon": -64.1091015
+    "lon": -64.1091015,
+    "location": "Córdoba"
   },
   {
     "id": "80",
@@ -21350,7 +21429,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.4496504,
-    "lon": -64.110774
+    "lon": -64.110774,
+    "location": "Córdoba"
   },
   {
     "id": "81",
@@ -21358,7 +21438,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.3481212,
-    "lon": -64.1466165
+    "lon": -64.1466165,
+    "location": "Córdoba"
   },
   {
     "id": "82",
@@ -21366,7 +21447,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.3410106,
-    "lon": -64.170928
+    "lon": -64.170928,
+    "location": "Córdoba"
   },
   {
     "id": "83",
@@ -21374,7 +21456,8 @@
     "state": "Conectado",
     "type": "HOSPITAL",
     "lat": -31.4326283,
-    "lon": -64.1962668
+    "lon": -64.1962668,
+    "location": "Córdoba"
   },
   {
     "id": "84",
@@ -21382,7 +21465,8 @@
     "state": "Conectado",
     "type": "TEATRO",
     "lat": -31.4354383,
-    "lon": -64.17509092
+    "lon": -64.17509092,
+    "location": "Córdoba"
   },
   {
     "id": "85",
@@ -21390,7 +21474,8 @@
     "state": "Conectado",
     "type": "DEPENDENCIA PÚBLICA",
     "lat": -31.4236792,
-    "lon": -64.19370885
+    "lon": -64.19370885,
+    "location": "Córdoba"
   },
   {
     "id": "86",
@@ -21398,7 +21483,8 @@
     "state": "Conectado",
     "type": "ESPACIO ABIERTO",
     "lat": -31.37409,
-    "lon": -64.24422
+    "lon": -64.24422,
+    "location": "Córdoba"
   },
   {
     "id": "87",
@@ -21406,7 +21492,8 @@
     "state": "En proceso",
     "type": "ESPACIO ABIERTO",
     "lat": -31.432586,
-    "lon": -64.187381
+    "lon": -64.187381,
+    "location": "Córdoba"
   },
   {
     "id": "88",
@@ -21414,7 +21501,8 @@
     "state": "Conectado",
     "type": "ESPACIO ABIERTO",
     "lat": -31.371921,
-    "lon": -64.25637
+    "lon": -64.25637,
+    "location": "Córdoba"
   },
   {
     "id": "89",
@@ -21422,7 +21510,8 @@
     "state": "Conectado",
     "type": "ESPACIO ABIERTO",
     "lat": -31.42411,
-    "lon": -64.173974
+    "lon": -64.173974,
+    "location": "Córdoba"
   },
   {
     "id": "90",
@@ -21430,7 +21519,8 @@
     "state": "En proceso",
     "type": "ESPACIO ABIERTO",
     "lat": -31.373713,
-    "lon": -64.25677
+    "lon": -64.25677,
+    "location": "Córdoba"
   },
   {
     "id": "91",
@@ -21438,7 +21528,8 @@
     "state": "Conectado",
     "type": "ESPACIO ABIERTO",
     "lat": -31.422733,
-    "lon": -64.175626
+    "lon": -64.175626,
+    "location": "Córdoba"
   },
   {
     "id": "92",
@@ -21446,7 +21537,8 @@
     "state": "Conectado",
     "type": "ESPACIO ABIERTO",
     "lat": -31.423851,
-    "lon": -64.186363
+    "lon": -64.186363,
+    "location": "Córdoba"
   },
   {
     "id": "93",
@@ -21454,7 +21546,8 @@
     "state": "Conectado",
     "type": "CAPS",
     "lat": -31.3634995,
-    "lon": -64.157179
+    "lon": -64.157179,
+    "location": "Córdoba"
   },
   {
     "name": "Dirección de Educación de la Municipalidad",
@@ -21750,7 +21843,8 @@
     "lat": 41.38813501305241,
     "lon": 2.170301290290271,
     "name5g": "Barcelona-Wifi (Pl. de Catalunya - Rda. Sant Pere)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Urquinaona Metro)",
@@ -21759,7 +21853,8 @@
     "lat": 41.388778952890775,
     "lon": 2.172747464879312,
     "name5g": "Barcelona-Wifi(Urquinaona Metro)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Av. del Portal del Angel y Fontanella)",
@@ -21768,7 +21863,8 @@
     "lat": 41.38681025796545,
     "lon": 2.1713892162619097,
     "name5g": "Barcelona-Wifi (Av. del Portal del Angel y Fontanella)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Parada Catalunya Línea 3 de Metro)",
@@ -21777,7 +21873,8 @@
     "lat": 41.38546454352417,
     "lon": 2.1700762012744925,
     "name5g": "Barcelona-Wifi (Parada Catalunya Línea 3 de Metro)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Carrer de Pelaí y Balmes)",
@@ -21786,7 +21883,8 @@
     "lat": 41.385802257050095,
     "lon": 2.1672147170038287,
     "name5g": "Barcelona-Wifi (Carrer de Pelaí y Balmes)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Carrer de Casp y Carrer del Bruc)",
@@ -21795,7 +21893,8 @@
     "lat": 41.39129879779566,
     "lon": 2.1736895824005713,
     "name5g": "Barcelona-Wifi (Carrer de Casp y Carrer del Bruc)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Metro Liceu)",
@@ -21804,7 +21903,8 @@
     "lat": 41.38115635879335,
     "lon": 2.173263795373531,
     "name5g": "Barcelona-Wifi (Metro Liceu)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Via Laietana, 35)",
@@ -21813,7 +21913,8 @@
     "lat": 41.38115635879335,
     "lon": 2.173263795373531,
     "name5g": "Barcelona-Wifi (Via Laietana, 35)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Carrer de Trafalgar, Museo Banksy)",
@@ -21822,7 +21923,8 @@
     "lat": 41.38906731266802,
     "lon": 2.176199244533383,
     "name5g": "Barcelona-Wifi (Carrer de Trafalgar, Museo Banksy)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Carrer de Girona y d'Ausias Marc)",
@@ -21831,7 +21933,8 @@
     "lat": 41.39125011095503,
     "lon": 2.1757580211625425,
     "name5g": "Barcelona-Wifi (Carrer de Girona y d'Ausias Marc)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Placeta del comerç)",
@@ -21840,7 +21943,8 @@
     "lat": 41.389971024843604,
     "lon": 2.181015702703444,
     "name5g": "Barcelona-Wifi (Placeta del comerç)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   },
   {
     "name": "Barcelona-Wifi (Carrer de Sant Pere Més Baix y Carrer de Jaume Giralt)",
@@ -21849,6 +21953,7 @@
     "lat": 41.38817681420987,
     "lon": 2.1785722103570664,
     "name5g": "Barcelona-Wifi (Carrer de Sant Pere Més Baix y Carrer de Jaume Giralt)",
-    "MAC5g": null
+    "MAC5g": null,
+    "location": "Barcelona"
   }
 ]
