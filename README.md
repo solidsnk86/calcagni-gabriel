@@ -19,7 +19,7 @@ Este es mi portafolio personal y está desarrollado con **Next.js**, **Supabase*
 
 - **Geolocalización**: Utilizo geolocalización para registrar la ubicación de los usuarios. Los datos se guardan en la base de datos de Supabase mediante PostgreeSQL.
 
-- **Registro de visitas**: Almaceno la cantidad de veces que mi perfil es visitado, identificando a los usuarios por su dirección IP. Si la IP se repite, no se incrementa el contador.
+- **Registro de visitas**: Almaceno la cantidad de veces que mi perfil es visitado, identificando a los usuarios por su dirección IP, ciudad, país, etc. Se evitan duplicados de IP.
 
 ## Navegación Fluida
 
@@ -34,7 +34,8 @@ Este es mi portafolio personal y está desarrollado con **Next.js**, **Supabase*
 ## Sección Privada del Usuario
 
 - **Área de usuario**: Los usuarios autenticados tienen acceso a una sección privada.
-- **Formulario interactivo**: En esta área, pueden compartir mensajes conmigo a través de un formulario, y también tienen la opción de eliminarlos si lo desean.
+- **Formulario interactivo**: En esta área, pueden compartir mensajes conmigo a través de un formulario, y también tienen la opción de eliminarlos o modificarlos si lo desean.
+- **Estadísticas de Github**: En la sección privada tambien se dipone de una app con las estadísticas de tu perfil de Github.
 
 ## Base de Datos
 
