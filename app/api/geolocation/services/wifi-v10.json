@@ -20703,9 +20703,9 @@
   },
   {
     "name": "WiFi3.0-CT-26",
-    "MAC": "No disponible",
+    "MAC": "6C C4 9F 7B 5D E0",
     "name5g": " WiFi3.0-CT-26",
-    "MAC5g": "No disponible",
+    "MAC5g": "6C C4 9F 7B 5D F0",
     "lat": -32.49744,
     "lon": -64.994248,
     "type": "Dual Band 2.4Ghz | 5Ghz",
