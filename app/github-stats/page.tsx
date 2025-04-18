@@ -45,8 +45,8 @@ export default async function Comments() {
               <Image
                 src="/logo.png"
                 alt="Logo"
-                width={90}
-                height={65}
+                width={45}
+                height={45}
                 className="mb-2 hover:scale-110 transition-transform duration-300"
               />
             </Link>
