@@ -6,7 +6,7 @@ export async function GET(req: NextRequest) {
   const user = req.nextUrl.searchParams.get('user');
   const TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
 
-  if (!user || !TOKEN) {
+  if (!user) {
     return Response.json(
       {
         mensaje:
