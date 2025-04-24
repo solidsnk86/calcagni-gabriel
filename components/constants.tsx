@@ -121,12 +121,12 @@ export const worksProyects = [
     type: 'Desktop App',
     repoName: 'neo-wifi',
     description:
-      'NeoWiFi App es una aplicación para instalar en la pc (Windows) 64x para automatizar la conectividad WiFi en sistemas TP-LINK en las redes del Gobierno de la Provincia de San Luis.',
+      'NeoWiFi App es una aplicación diseñada para sistemas Windows (64 bits y 32 bits) que automatiza la conexión a redes Wi-Fi en equipos TP-LINK. Optimizada para funcionar en las redes del Gobierno de la Provincia de San Luis, esta herramienta facilita una conectividad rápida, segura y sin configuraciones manuales.',
     techs: [
       'typescript',
       'javascript',
       'electron.js',
-      'ipc-renderer',
+      'node.js',
       'talwindcss',
       'nextjs15',
     ],
