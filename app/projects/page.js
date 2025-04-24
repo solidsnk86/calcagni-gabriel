@@ -55,12 +55,6 @@ export default function Works() {
                 <h3 className="text-white text-lg font-bold">
                   Mi Top 6 de Proyectos
                 </h3>
-                <button
-                  className="absolute top-4 left-4 ramdomize hover:opacity-80 hidden md:flex"
-                  onClick={mixItems}
-                >
-                  Mezclar
-                </button>
               </header>
               <ResponsiveMasonry
                 columnsCountBreakPoints={{ 400: 1, 700: 1, 900: 3 }}
