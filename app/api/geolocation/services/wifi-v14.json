@@ -21120,100 +21120,78 @@
     "location": "San Rafael"
   },
   {
-    "name": "Plaza-Torrent",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.83256844718,
-    "lon": -27.471917094053,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 18,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Delegacion-Universitario",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.796924795497,
-    "lon": -27.47991910123,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 2,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Delegacion-Union",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.822467278941,
-    "lon": -27.485713681862,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 1,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Rotonda-PonchoVerde",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.822488,
-    "lon": -27.466614,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 38,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Dr-Korimblum",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.810743884228,
-    "lon": -27.496437113628,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 1,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Arazaty-1",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.856053407458,
-    "lon": -27.476029756556,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 12,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Chiquita",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.806064889942,
-    "lon": -27.483909442607,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 0,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Villa-Garcia",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.802693189212,
-    "lon": -27.477942803576,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 1,
-    "location": "Corrientes"
-  },
-  {
     "name": "Delegacion-Galvan",
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.8528506,
-    "lon": -27.4835833,
+    "lat": -27.4835833,
+    "lon": -58.8528506,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 3,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Santiago-Lorenzo",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.500302221622,
+    "lon": -58.792326202569,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 15,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Quinta Ferre",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.46331,
+    "lon": -58.80654,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 4,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Rio-Parana",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.5152378,
+    "lon": -58.83085,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 4,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Plaza-Vera",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.4672642,
+    "lon": -58.8369942,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 25,
+    "location": "Corrientes"
+  },
+  {
+    "name": "CDI-Popular",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.467884582409,
+    "lon": -58.792937764333,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 4,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Delegacion-Pirayui",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.5060637,
+    "lon": -58.7822291,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 1,
     "location": "Corrientes"
@@ -21223,250 +21201,19 @@
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.844700684894,
-    "lon": -27.465139469341,
+    "lat": -27.465139469341,
+    "lon": -58.844700684894,
     "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 14,
+    "users": 24,
     "location": "Corrientes"
   },
   {
-    "name": "SAPS-Quinta Ferre",
+    "name": "SAPS-Dr-Calmanash",
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.80654,
-    "lon": -27.46331,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 4,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Guemes",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.796680471144,
-    "lon": -27.485979538341,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 3,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Delegacion-Victor-Colas",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.786079775489,
-    "lon": -27.462431700866,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 2,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Dr-Pirchi",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.798320350889,
-    "lon": -27.464012868857,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 2,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Delegacion-Guemes",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.7981656,
-    "lon": -27.4855785,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 3,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Cassuso",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.8131907,
-    "lon": -27.5079091,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 10,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Delegacion-Pirayui",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.7822291,
-    "lon": -27.5060637,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 1,
-    "location": "Corrientes"
-  },
-  {
-    "name": "CDI-Popular",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.792937764333,
-    "lon": -27.467884582409,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 3,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Primera-Junta",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.8182445792,
-    "lon": -27.490635723022,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 1,
-    "location": "Corrientes"
-  },
-  {
-    "name": "CDI-Primera-Junta",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.818948449462,
-    "lon": -27.484729653495,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 1,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Plaza-Cabral",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.831287331724,
-    "lon": -27.468565605651,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 8,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Dr-Rawson",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.788324929127,
-    "lon": -27.476437769545,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 5,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Delegacion-San-Roque",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.8099853,
-    "lon": -27.5128704,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 1,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Rossi-Candia",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.830044580053,
-    "lon": -27.503325835143,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 1,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Delegacion-Quintana",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.791799440785,
-    "lon": -27.508595527859,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 8,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Rio-Parana",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.83085,
-    "lon": -27.5152378,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 4,
-    "location": "Corrientes"
-  },
-  {
-    "name": "CDI-Esperanza",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.7854572,
-    "lon": -27.5475963,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 3,
-    "location": "Corrientes"
-  },
-  {
-    "name": "CDI-Serantes",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.809126144487,
-    "lon": -27.501482360704,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 3,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Sussini",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.847632405052,
-    "lon": -27.473976117009,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 5,
-    "location": "Corrientes"
-  },
-  {
-    "name": "CDI-San-Benito",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.847077541566,
-    "lon": -27.480556135063,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 1,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Esperanza",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.785248046158,
-    "lon": -27.543862538275,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 0,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Cementerio-San-Juan-Bautista",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.85372,
-    "lon": -27.48721,
+    "lat": -27.494415297004,
+    "lon": -58.847064992453,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 5,
     "location": "Corrientes"
@@ -21476,32 +21223,10 @@
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.7511362,
-    "lon": -27.4908199,
+    "lat": -27.4908199,
+    "lon": -58.7511362,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 1,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Delegacion-Laguna-Seca",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.8010384,
-    "lon": -27.4928042,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 0,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Santiago-Lorenzo",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.792326202569,
-    "lon": -27.500302221622,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 13,
     "location": "Corrientes"
   },
   {
@@ -21509,195 +21234,96 @@
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.785553552669,
-    "lon": -27.501082634112,
+    "lat": -27.501082634112,
+    "lon": -58.785553552669,
     "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 11,
+    "users": 12,
     "location": "Corrientes"
   },
   {
-    "name": "DIAT",
+    "name": "SAPS-Dr-Korimblum",
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.820125952064,
-    "lon": -27.507603546602,
+    "lat": -27.496437113628,
+    "lon": -58.810743884228,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 2,
     "location": "Corrientes"
   },
   {
-    "name": "Plaza-La-Cruz",
+    "name": "Delegacion-Union",
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.840159718571,
-    "lon": -27.471114866288,
+    "lat": -27.485713681862,
+    "lon": -58.822467278941,
     "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 5,
+    "users": 2,
     "location": "Corrientes"
   },
   {
-    "name": "PaseoUrbano",
+    "name": "SAPS-Dr-Rawson",
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.830301,
-    "lon": -27.460128,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 0,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Parque-Mitre",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.82872906056,
-    "lon": -27.460782002965,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 4,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Santa-Marta",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.84162138025,
-    "lon": -27.502384574628,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 0,
-    "location": "Corrientes"
-  },
-  {
-    "name": "CDI-Dr-Montana",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.793796,
-    "lon": -27.5198296,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 4,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Cichero",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.8208763,
-    "lon": -27.4592333,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 4,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Pujol",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.8059513,
-    "lon": -27.4674651,
+    "lat": -27.476437769545,
+    "lon": -58.788324929127,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 8,
     "location": "Corrientes"
   },
   {
-    "name": "SAPS-San-Marcos",
+    "name": "Plaza-Cabral",
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.8222961,
-    "lon": -27.4886696,
+    "lat": -27.468565605651,
+    "lon": -58.831287331724,
     "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 1,
+    "users": 30,
     "location": "Corrientes"
   },
   {
-    "name": "SAPS-Dr-Calmanash",
+    "name": "SAPS-Primera-Junta",
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.847064992453,
-    "lon": -27.494415297004,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 2,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Plaza-Vera",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.8369942,
-    "lon": -27.4672642,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 25,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Plaza-Libertad",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.822327056476,
-    "lon": -27.470435664307,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 2,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Delegacion-Laguna-Brava",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.718527035343,
-    "lon": -27.491844906319,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 6,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Delegacion-Ponce",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.77163,
-    "lon": -27.4922951,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 0,
-    "location": "Corrientes"
-  },
-  {
-    "name": "Casa-Bicentenario",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.788863053391,
-    "lon": -27.47566276436,
-    "type": "Dual Band 2.4Ghz | 5Ghz",
-    "users": 11,
-    "location": "Corrientes"
-  },
-  {
-    "name": "SAPS-Itati",
-    "name5g": null,
-    "MAC": null,
-    "MAC5g": null,
-    "lat": -58.8087537752,
-    "lon": -27.462574620072,
+    "lat": -27.490635723022,
+    "lon": -58.8182445792,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 3,
     "location": "Corrientes"
   },
   {
-    "name": "Playa-IslaMalvinas",
+    "name": "SAPS-Sussini",
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.853681706524,
-    "lon": -27.468404119585,
+    "lat": -27.473976117009,
+    "lon": -58.847632405052,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 8,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Rossi-Candia",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.503325835143,
+    "lon": -58.830044580053,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 4,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Delegacion-San-Roque",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.5128704,
+    "lon": -58.8099853,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 1,
     "location": "Corrientes"
@@ -21707,10 +21333,65 @@
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.767774937996,
-    "lon": -27.48438277271,
+    "lat": -27.48438277271,
+    "lon": -58.767774937996,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 0,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Cementerio-San-Juan-Bautista",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.48721,
+    "lon": -58.85372,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 10,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Santa-Marta",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.502384574628,
+    "lon": -58.84162138025,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 0,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Plaza-Torrent",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.471917094053,
+    "lon": -58.83256844718,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 14,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Cassuso",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.5079091,
+    "lon": -58.8131907,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 13,
+    "location": "Corrientes"
+  },
+  {
+    "name": "CDI-Dr-Montana",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.5198296,
+    "lon": -58.793796,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 10,
     "location": "Corrientes"
   },
   {
@@ -21718,8 +21399,228 @@
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.8353262,
-    "lon": -27.4922498,
+    "lat": -27.4922498,
+    "lon": -58.8353262,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 8,
+    "location": "Corrientes"
+  },
+  {
+    "name": "CDI-Primera-Junta",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.484729653495,
+    "lon": -58.818948449462,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 1,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Delegacion-Ponce",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.4922951,
+    "lon": -58.77163,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 0,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Dr-Semper",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.458780409865,
+    "lon": -58.782727161373,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 0,
+    "location": "Corrientes"
+  },
+  {
+    "name": "CDI-Esperanza",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.5475963,
+    "lon": -58.7854572,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 3,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Chiquita",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.483909442607,
+    "lon": -58.806064889942,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 0,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Delegacion-Quintana",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.508595527859,
+    "lon": -58.791799440785,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 7,
+    "location": "Corrientes"
+  },
+  {
+    "name": "PaseoUrbano",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.460128,
+    "lon": -58.830301,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 3,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Delegacion-Universitario",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.47991910123,
+    "lon": -58.796924795497,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 2,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-San-Marcos",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.4886696,
+    "lon": -58.8222961,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 3,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Delegacion-Laguna-Brava",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.491844906319,
+    "lon": -58.718527035343,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 7,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Delegacion-Victor-Colas",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.462431700866,
+    "lon": -58.786079775489,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 4,
+    "location": "Corrientes"
+  },
+  {
+    "name": "CDI-Serantes",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.501482360704,
+    "lon": -58.809126144487,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 8,
+    "location": "Corrientes"
+  },
+  {
+    "name": "CDI-San-Benito",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.480556135063,
+    "lon": -58.847077541566,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 1,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Guemes",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.485979538341,
+    "lon": -58.796680471144,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 3,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Delegacion-Laguna-Seca",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.4928042,
+    "lon": -58.8010384,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 0,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Itati",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.462574620072,
+    "lon": -58.8087537752,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 1,
+    "location": "Corrientes"
+  },
+  {
+    "name": "DIAT",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.507603546602,
+    "lon": -58.820125952064,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 2,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Parque-Mitre",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.460782002965,
+    "lon": -58.82872906056,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 3,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Playa-IslaMalvinas",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.468404119585,
+    "lon": -58.853681706524,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 1,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Dr-Pirchi",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.464012868857,
+    "lon": -58.798320350889,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 3,
     "location": "Corrientes"
@@ -21729,22 +21630,5169 @@
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.805144160433,
-    "lon": -27.507592491242,
+    "lat": -27.507592491242,
+    "lon": -58.805144160433,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 12,
     "location": "Corrientes"
   },
   {
-    "name": "SAPS-Dr-Semper",
+    "name": "SAPS-Villa-Garcia",
     "name5g": null,
     "MAC": null,
     "MAC5g": null,
-    "lat": -58.782727161373,
-    "lon": -27.458780409865,
+    "lat": -27.477942803576,
+    "lon": -58.802693189212,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 1,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Esperanza",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.543862538275,
+    "lon": -58.785248046158,
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 0,
     "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Cichero",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.4592333,
+    "lon": -58.8208763,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 4,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Casa-Bicentenario",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.47566276436,
+    "lon": -58.788863053391,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 27,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Arazaty-1",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.476029756556,
+    "lon": -58.856053407458,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 21,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Rotonda-PonchoVerde",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.466614,
+    "lon": -58.822488,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 78,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Plaza-La-Cruz",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.471114866288,
+    "lon": -58.840159718571,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 5,
+    "location": "Corrientes"
+  },
+  {
+    "name": "SAPS-Pujol",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.4674651,
+    "lon": -58.8059513,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 19,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Plaza-Libertad",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.470435664307,
+    "lon": -58.822327056476,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 4,
+    "location": "Corrientes"
+  },
+  {
+    "name": "Delegacion-Guemes",
+    "name5g": null,
+    "MAC": null,
+    "MAC5g": null,
+    "lat": -27.4855785,
+    "lon": -58.7981656,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": 4,
+    "location": "Corrientes"
+  },
+  {
+    "name": "6420001 Barrio 31 - Casa de la Cultura",
+    "name5g": "ALPACA e islas GALAPAGOS - RETIRO",
+    "lat": -34.5844761794185,
+    "lon": -58.379668832904365,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420001 Barrio 31 - CEDEL SM-Recepcion",
+    "name5g": "FLOR DE OTOÑO y ISLAS GALAPAGOS - RETIRO",
+    "lat": -34.58588033890424,
+    "lon": -58.37876999980224,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420001 Barrio 31 - Feria Güemes Entrada",
+    "name5g": "3 DE DICIEMBRE DE 2009 y MACHU PICHU - RETIRO",
+    "lat": -34.5845021258465,
+    "lon": -58.375853798330354,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420001 Barrio 31 - Portal - Inclusivo - Der",
+    "name5g": "GENDARMERIA NACIONAL AV. y WALSH, RODOLFO - RETIRO",
+    "lat": -34.583388954650616,
+    "lon": -58.374804809289245,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420001 Obrador Carromato YPF 2 Cristo Redentor",
+    "name5g": "CERRO DE LOS 7 COLORES y MAPUCHES - RETIRO",
+    "lat": -34.58041135958831,
+    "lon": -58.383920550452515,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420003 Barrio 31 Feria Cancha Guemes-Retiro",
+    "name5g": "EVITA y CHAÑAR - RETIRO",
+    "lat": -34.58290654963594,
+    "lon": -58.37925530262399,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420006 Predio YPF Barrio 31",
+    "name5g": "CASTILLO, RAMON S., PRES. AV. 1300 - RETIRO",
+    "lat": -34.57957368511436,
+    "lon": -58.38126567803021,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420008 Barrio 31 - Galpon Anses",
+    "name5g": "ALPACA y FLOR DE IRUPE - RETIRO",
+    "lat": -34.58500620404964,
+    "lon": -58.37873555921148,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420014 Cancha Parroquia Cristo Obrero",
+    "name5g": "CAACUPE y ALPACA - RETIRO",
+    "lat": -34.58055662207079,
+    "lon": -58.3873158246045,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420017 Barrio 31 - Plaza del Tríángulo",
+    "name5g": "ALPACA y CHURQUI - RETIRO",
+    "lat": -34.58105250589154,
+    "lon": -58.385856995446524,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420017 Retiro Cedel 2 (Cristo Obrero)",
+    "name5g": "GUATAMBU y MAKA - RETIRO",
+    "lat": -34.57951237006344,
+    "lon": -58.38990042787645,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6420101 Barrio 31 - CEDEL SM-Ofi-Larreta",
+    "name5g": "FLOR DE OTOÑO y ISLAS GALAPAGOS - RETIRO",
+    "lat": -34.585901774128274,
+    "lon": -58.37872672167143,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6570002 Barrio 20 - Cancha Huerfanos",
+    "name5g": "None - VILLA LUGANO",
+    "lat": -34.67320768239763,
+    "lon": -58.46808843252098,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6580001 Ed. Centro Comunitario Barrio 1-11-14",
+    "name5g": "VARELA AV. 1881 - FLORES",
+    "lat": -34.64816280638252,
+    "lon": -58.44839374740746,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6580001 V1-11-14 Portal Perito Moreno",
+    "name5g": "VARELA AV. 1881 - FLORES",
+    "lat": -34.64816280638252,
+    "lon": -58.44839374740746,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6590001 Barrio Cildanez Portal Inclusivo",
+    "name5g": "SAN JUAN BAUTISTA DE LA SALLE AV. y DERQUI AV. - PARQUE AVELLANEDA",
+    "lat": -34.65568215027302,
+    "lon": -58.47152784360266,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6590002 Barrio Cildanez Boulevard-Dellepiane",
+    "name5g": "SAN JUAN BAUTISTA DE LA SALLE AV. y DERQUI AV. - PARQUE AVELLANEDA",
+    "lat": -34.65568215027302,
+    "lon": -58.47152784360266,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6600001 Barrio Soldati Plaza NIDO",
+    "name5g": "CORRALES 3500 - VILLA SOLDATI",
+    "lat": -34.666063282120454,
+    "lon": -58.444748840244976,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6600004 Barrio Soldati Plaza Lacarra y Somellera",
+    "name5g": "LACARRA AV. y SOMELLERA - VILLA SOLDATI",
+    "lat": -34.6595299849471,
+    "lon": -58.456695761376686,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6600005 Barrio Soldati Polideportivo Piletones",
+    "name5g": "JANER, ANA MARIA 3800 - VILLA SOLDATI",
+    "lat": -34.66348158257005,
+    "lon": -58.45364060333754,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6600006 Barrio Soldati Cancha Bajo Autopista",
+    "name5g": "CORRALES y LACARRA AV. - VILLA SOLDATI",
+    "lat": -34.668427830253854,
+    "lon": -58.44557410751189,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6610001 Nido Soldati Anexo",
+    "name5g": "CORRALES 3500 - VILLA SOLDATI",
+    "lat": -34.666063282120454,
+    "lon": -58.444748840244976,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6610001 Portal Barrio Carrillo",
+    "name5g": "None - VILLA SOLDATI",
+    "lat": -34.655863830442804,
+    "lon": -58.45508229048706,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6610001 Portal Ciudad Oculta - Piedrabuena 3140",
+    "name5g": "PIEDRA BUENA AV. 3140 - VILLA LUGANO",
+    "lat": -34.670430447497544,
+    "lon": -58.495095912018904,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6610001 Portal Varela",
+    "name5g": "VARELA AV. y OCEANIA (NO OFICIAL) - FLORES",
+    "lat": -34.64919568927686,
+    "lon": -58.44650228962964,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6620001 Barrio 15 - Cancha Mate (Ciudad Oculta)",
+    "name5g": "PERON, EVA AV. 6600 - VILLA LUGANO",
+    "lat": -34.66908096301104,
+    "lon": -58.4929556028925,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6620003 Barrio 15 - Portal inclusivo (CESAC 5)",
+    "name5g": "PERON, EVA AV. 6500 - VILLA LUGANO",
+    "lat": -34.6680633006766,
+    "lon": -58.49342789115534,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6760001 Playón Chacarita IVC",
+    "name5g": "FRAGA y PALPA - CHACARITA",
+    "lat": -34.58432104452822,
+    "lon": -58.45647926684713,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6790001 Piletones - Polideportivo",
+    "name5g": "LACARRA AV. 3086 - VILLA SOLDATI",
+    "lat": -34.66330711267624,
+    "lon": -58.45171413587399,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6790003 Piletones - UTN Sala Rack",
+    "name5g": "LACARRA AV. 3086 - VILLA SOLDATI",
+    "lat": -34.66330711267624,
+    "lon": -58.45171413587399,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6790005 Piletones - Casa Lucero",
+    "name5g": "LACARRA AV. 3086 - VILLA SOLDATI",
+    "lat": -34.66330711267624,
+    "lon": -58.45171413587399,
+    "type": "Barrios Sociales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede Comunal 10",
+    "name5g": "BACACAY 3968 - FLORESTA",
+    "lat": -34.631941920210586,
+    "lon": -58.48349251364267,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede Comunal 12 RC",
+    "name5g": "HOLMBERG 2548 - VILLA URQUIZA",
+    "lat": -34.56845745710743,
+    "lon": -58.47811548233468,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede Comunal 15",
+    "name5g": "CORDOBA AV. 5690 - CHACARITA",
+    "lat": -34.58702409685439,
+    "lon": -58.441380540287035,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede Comunal 2",
+    "name5g": "URIBURU JOSE E., PRES. 1020 - RECOLETA",
+    "lat": -34.59668044763632,
+    "lon": -58.39901965365142,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede Comunal 4 ",
+    "name5g": "BARCO CENTENERA DEL 2906 - NUEVA POMPEYA",
+    "lat": -34.65025554567851,
+    "lon": -58.42476891903637,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede Comunal 5",
+    "name5g": "CALVO, CARLOS 3307 - BOEDO",
+    "lat": -34.62283994478461,
+    "lon": -58.412311984436,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede Comunal 6 RC",
+    "name5g": "PATRICIAS ARGENTINAS AV. 277 - CABALLITO",
+    "lat": -34.605599863460554,
+    "lon": -58.43280935465453,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede Comunal 7",
+    "name5g": "RIVADAVIA AV. 7202 - FLORES",
+    "lat": -34.63008162521205,
+    "lon": -58.46719910979704,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede Comunal 8",
+    "name5g": "ROCA, CNEL. AV. 5252 - VILLA RIACHUELO",
+    "lat": -34.68483479107939,
+    "lon": -58.45518302057044,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede Comunal 9",
+    "name5g": "GORDILLO, TIMOTEO 2212 - MATADEROS",
+    "lat": -34.65957816073794,
+    "lon": -58.504975514586775,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Sede de Comuna 14 RC",
+    "name5g": "BERUTI 3325 - PALERMO",
+    "lat": -34.58715359376029,
+    "lon": -58.409297773521,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Subsede Comunal 11",
+    "name5g": "GUTIERREZ, RICARDO 3253 - VILLA DEL PARQUE",
+    "lat": -34.601188503803314,
+    "lon": -58.496342132776235,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Subsede Comunal 3 RC",
+    "name5g": "SARANDI 1273 - SAN CRISTOBAL",
+    "lat": -34.62375521987803,
+    "lon": -58.3938689646182,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Subsede Comunal 7",
+    "name5g": "MITRE, EMILIO 956 - PARQUE CHACABUCO",
+    "lat": -34.632068450883914,
+    "lon": -58.44107681363191,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230001 Subsede Comunal 9",
+    "name5g": "DIRECTORIO AV. 4360 - PARQUE AVELLANEDA",
+    "lat": -34.6456871324105,
+    "lon": -58.484725007006325,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230002 Sede Comunal 11 - Atención al público",
+    "name5g": "BEIRO, FRANCISCO AV. 4629 - VILLA DEVOTO",
+    "lat": -34.60825283947215,
+    "lon": -58.5160490559991,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230101 ExPadelai",
+    "name5g": "HUMBERTO 1° 250 - SAN TELMO",
+    "lat": -34.62081933153222,
+    "lon": -58.36918519291101,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230101 Sede Comunal 3 - Spinetto Mediaciones",
+    "name5g": "MATHEU 240 - BALVANERA",
+    "lat": -34.61250994967584,
+    "lon": -58.40006964055521,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230102 Sede Comunal 13 Lado Ibera",
+    "name5g": "CABILDO AV. 3067 - NUÑEZ",
+    "lat": -34.553724124773815,
+    "lon": -58.46402441940106,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6230302 Subsede Comuna 2 - Stand",
+    "name5g": "LOPEZ, VICENTE 2050 - RECOLETA",
+    "lat": -34.58905497219312,
+    "lon": -58.393691607228135,
+    "type": "Sedes Comunales",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6040001 Usina del Arte - ExIntendencia",
+    "name5g": "CAFFARENA, AGUSTIN R. 1 - BOCA",
+    "lat": -34.62898612185716,
+    "lon": -58.356773144160236,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100001 DG de Museos",
+    "name5g": "DE LOS ITALIANOS AV. 851 - PUERTO MADERO",
+    "lat": -34.60741742451982,
+    "lon": -58.360800588201734,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100001 Museo Carlos Gardel",
+    "name5g": "JAURES, JEAN 735 - BALVANERA",
+    "lat": -34.60168055849717,
+    "lon": -58.40775573249067,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100001 Museo de la Ciudad - Elorriaga Sala Central",
+    "name5g": "ALSINA, ADOLFO 410 - MONSERRAT",
+    "lat": -34.61033325975647,
+    "lon": -58.37219159975052,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100001 Museo Jose Hernandez",
+    "name5g": "DEL LIBERTADOR AV. 2373 - PALERMO",
+    "lat": -34.57984537220349,
+    "lon": -58.4051756323168,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100001 Museo Larreta - Jardin de los Naranjos",
+    "name5g": "JURAMENTO AV. 2291 - BELGRANO",
+    "lat": -34.56118267771808,
+    "lon": -58.455613185750494,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100001 Museo Luis Perlotti",
+    "name5g": "PUJOL 642 - CABALLITO",
+    "lat": -34.61507890788254,
+    "lon": -58.448399792894946,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100001 Museo Sivori",
+    "name5g": "ISABEL, INFANTA AV. 555 - PALERMO",
+    "lat": -34.56906968232725,
+    "lon": -58.41808299790494,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100002 Museo de la Ciudad - Sala Querubines",
+    "name5g": "DEFENSA 219 - MONSERRAT",
+    "lat": -34.610386899426906,
+    "lon": -58.37226579617012,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100002 Museo del Cine - Caffarena",
+    "name5g": "CAFFARENA, AGUSTIN R. 49 - BOCA",
+    "lat": -34.629371384900736,
+    "lon": -58.35713952097682,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100002 Museo del Humor",
+    "name5g": "DE LOS ITALIANOS AV. 851 - PUERTO MADERO",
+    "lat": -34.60741742451982,
+    "lon": -58.360800588201734,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100002 Museo Fernández Blanco",
+    "name5g": "SUIPACHA 1422 - RETIRO",
+    "lat": -34.59106251029733,
+    "lon": -58.38022492731386,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100002 Museo Saavedra - Hall",
+    "name5g": "LARRALDE, CRISOLOGO AV. 6309 - SAAVEDRA",
+    "lat": -34.56853597922721,
+    "lon": -58.507916851426145,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100002 Torre Monumental",
+    "name5g": "DEL LIBERTADOR AV. 49 - RETIRO",
+    "lat": -34.592153946625274,
+    "lon": -58.373727549818845,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100101 Casa Fernandez Blanco",
+    "name5g": "YRIGOYEN, HIPOLITO 1420 - MONSERRAT",
+    "lat": -34.6101557144944,
+    "lon": -58.386502267884374,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100101 Museo de Arte Moderno (MAMBA)",
+    "name5g": "SAN JUAN AV. 350 - SAN TELMO",
+    "lat": -34.62197460464752,
+    "lon": -58.370520827212324,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100102 Museo de la Ciudad",
+    "name5g": "DEFENSA 223 - MONSERRAT",
+    "lat": -34.61043126329794,
+    "lon": -58.37226331086306,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6100201 Museo de Esculturas Luis Perlotti",
+    "name5g": "PUJOL 642 - CABALLITO",
+    "lat": -34.61507890788254,
+    "lon": -58.448399792894946,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6170102 CC Recoleta - Hall distribución a admin y Sec.",
+    "name5g": "JUNIN 1930 - RECOLETA",
+    "lat": -34.58659166893928,
+    "lon": -58.391811886508705,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6180001 CC Adan BuenosAyres",
+    "name5g": "ASAMBLEA AV. 1200 - PARQUE CHACABUCO",
+    "lat": -34.63388781653242,
+    "lon": -58.443385714737815,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6180001 CC Alfonsina Storni",
+    "name5g": "TUCUMAN 3233 - BALVANERA",
+    "lat": -34.60025674302915,
+    "lon": -58.4112934897213,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6180001 CC Carlos Gardel",
+    "name5g": "OLLEROS 3640 - CHACARITA",
+    "lat": -34.58248911060205,
+    "lon": -58.450711466031564,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6180001 CC Casa Flores",
+    "name5g": "CACHIMAYO 1675 - PARQUE CHACABUCO",
+    "lat": -34.638520518725066,
+    "lon": -58.43623141918338,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6180001 CC Casita de la Selva",
+    "name5g": "LA SELVA 4022 - VELEZ SARSFIELD",
+    "lat": -34.637967506909106,
+    "lon": -58.48223214333556,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6180001 CC Eladia Blazquez/Telerico",
+    "name5g": "RABANAL, FRANCISCO, INTENDENTE AV. 2275 - VILLA SOLDATI",
+    "lat": -34.659388292575855,
+    "lon": -58.428832753518634,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6180001 CC Julian Centeya",
+    "name5g": "SAN JUAN AV. 3255 - SAN CRISTOBAL",
+    "lat": -34.62470318293828,
+    "lon": -58.411390181675,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6180001 C.C.Tato Bores",
+    "name5g": "SOLER 3929 - PALERMO",
+    "lat": -34.591802565841455,
+    "lon": -58.417074102885685,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6180001 Centro Cultural del Sur",
+    "name5g": "CASEROS AV. 1750 - BARRACAS",
+    "lat": -34.63332190936364,
+    "lon": -58.386320236701174,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6180102 CC San Martin",
+    "name5g": "SARMIENTO 1551 - SAN NICOLAS",
+    "lat": -34.60522472159856,
+    "lon": -58.38865195730157,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Alvaro Yunque",
+    "name5g": "SOLDADO DE LA FRONTERA AV. 5210 - VILLA LUGANO",
+    "lat": -34.68502966754335,
+    "lon": -58.46331345927858,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Antonio Devoto",
+    "name5g": "BAHIA BLANCA 4025 - VILLA DEVOTO",
+    "lat": -34.59928342861881,
+    "lon": -58.510721648530826,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Baldomero Fernández Moreno",
+    "name5g": "ARENAL, CONCEPCION 4206 - CHACARITA",
+    "lat": -34.59136182071164,
+    "lon": -58.45015404263055,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Benito Lynch",
+    "name5g": "YRUPE 6741 - MATADEROS",
+    "lat": -34.6675744578476,
+    "lon": -58.49707812552152,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Carlos Guido y Spano",
+    "name5g": "GUEMES 4601 - PALERMO",
+    "lat": -34.58134342065737,
+    "lon": -58.423640420860835,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Carriego",
+    "name5g": "HONDURAS AV. 3784 - PALERMO",
+    "lat": -34.59425938910355,
+    "lon": -58.41604726856971,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Del Docente",
+    "name5g": "ENTRE RIOS AV. 1349 - SAN CRISTOBAL",
+    "lat": -34.62460564667446,
+    "lon": -58.39160278171014,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Enrique Banchs",
+    "name5g": "CASEROS AV. y URQUIZA, GRAL. - PARQUE PATRICIOS",
+    "lat": -34.637458450843,
+    "lon": -58.40755976817167,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Estanislao del Campo",
+    "name5g": "DE LAS ARTES 1210 - PARQUE CHACABUCO",
+    "lat": -34.63390219304295,
+    "lon": -58.438237646273514,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Hernández",
+    "name5g": "BOQUERON 6753 - LINIERS",
+    "lat": -34.64621805650109,
+    "lon": -58.52092149110148,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Javier Villafañe",
+    "name5g": "JANER, ANA MARIA 2200 - FLORES",
+    "lat": -34.648941965128564,
+    "lon": -58.43709233432283,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca José Mármol",
+    "name5g": "JURAMENTO 2937 - BELGRANO",
+    "lat": -34.564845045086315,
+    "lon": -58.46181401723462,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Julio Cesar Saguier",
+    "name5g": "DELLEPIANE, LUIS, TTE. GRAL. 4801 - VILLA LUGANO",
+    "lat": -34.66519583130534,
+    "lon": -58.47436416248605,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Julio Cortázar",
+    "name5g": "LAVALLEJA 924 - VILLA CRESPO",
+    "lat": -34.59780603489557,
+    "lon": -58.429931965662924,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Lugones",
+    "name5g": "LA PAMPA 2215 - BELGRANO",
+    "lat": -34.56367663407616,
+    "lon": -58.45259982888195,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Mariano Pelliza",
+    "name5g": "CRANWELL 819 - FLORES",
+    "lat": -34.6378080477025,
+    "lon": -58.4567005386186,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Miguel Cané",
+    "name5g": "CALVO, CARLOS AV. 4319 - BOEDO",
+    "lat": -34.624889479186706,
+    "lon": -58.42624473940175,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 Biblioteca Reina Batata (Infantil)",
+    "name5g": "11 DE SEPTIEMBRE DE 1888 1801 - BELGRANO",
+    "lat": -34.561468769119166,
+    "lon": -58.448569467483466,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190001 D G del Libro - Biblioteca PB",
+    "name5g": "TALCAHUANO 1261 - RETIRO",
+    "lat": -34.59339575110483,
+    "lon": -58.385821916424575,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190002 Biblioteca J.V.Gonzalez",
+    "name5g": "SUAREZ 408 - BOCA",
+    "lat": -34.63553239915633,
+    "lon": -58.358929676762926,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190002 Biblioteca Manuel Gálvez",
+    "name5g": "CORDOBA AV. 1558 - SAN NICOLAS",
+    "lat": -34.599580886947955,
+    "lon": -58.38900001017339,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190101 Biblioteca Casa de la lectura",
+    "name5g": "LAVALLEJA 924 - VILLA CRESPO",
+    "lat": -34.59780603489557,
+    "lon": -58.429931965662924,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190101 Biblioteca del Barco Centenera/ A. Storni",
+    "name5g": "REPUBLICA BOLIVARIANA DE VENEZUELA 1538 - MONSERRAT",
+    "lat": -34.61485940445898,
+    "lon": -58.38805389572288,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6190101 Biblioteca El Progreso",
+    "name5g": "RIESTRA AV. 5655 - VILLA LUGANO",
+    "lat": -34.67671006919182,
+    "lon": -58.47508318887469,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6220001 Teatro Colon",
+    "name5g": "CERRITO 628 - SAN NICOLAS",
+    "lat": -34.6011314390579,
+    "lon": -58.38259761937607,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6220001 Teatro Larreta",
+    "name5g": "MENDOZA 2250 - BELGRANO",
+    "lat": -34.56036649670028,
+    "lon": -58.45590993349097,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6220001 Teatro Sarmiento",
+    "name5g": "SARMIENTO AV. 2715 - PALERMO",
+    "lat": -34.58006163770671,
+    "lon": -58.41960532359315,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6220007 Teatro Colon - Galpon Ingreso Alfredo Palacios",
+    "name5g": "DON PEDRO DE MENDOZA AV. 2141 - BOCA",
+    "lat": -34.64124961876077,
+    "lon": -58.3608135210173,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6220301 Teatro 25 de Mayo - Administración",
+    "name5g": "TRIUNVIRATO AV. 4444 - VILLA URQUIZA",
+    "lat": -34.57631075713621,
+    "lon": -58.48354682915094,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6220901 Teatro San Martín",
+    "name5g": "CORRIENTES AV. 1530 - SAN NICOLAS",
+    "lat": -34.604315375228715,
+    "lon": -58.38833318555714,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6320004 CMD Rack 5",
+    "name5g": "ALGARROBO 1041 - BARRACAS",
+    "lat": -34.65482521256484,
+    "lon": -58.37954345102832,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6330001 CSM Astor Piazzolla - Biblioteca",
+    "name5g": "SARMIENTO 3401 - ALMAGRO",
+    "lat": -34.605932332326496,
+    "lon": -58.413636772409184,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6330001 CSMMF - Suipacha 443 (Regencia)",
+    "name5g": "SUIPACHA 443 - SAN NICOLAS",
+    "lat": -34.6030805343347,
+    "lon": -58.37929045749504,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6330001 Emad - Escuela Metropolitana",
+    "name5g": "JUFRE 141 - VILLA CRESPO",
+    "lat": -34.59765620253575,
+    "lon": -58.430207211545124,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6330001 Emad - Sarmiento Seguridad",
+    "name5g": "SARMIENTO 2573 - BALVANERA",
+    "lat": -34.60615882025578,
+    "lon": -58.403143148693744,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6330001 IVA - Manuel Labarden - Garay",
+    "name5g": "GARAY, JUAN DE AV. 1684 - CONSTITUCION",
+    "lat": -34.6273771573071,
+    "lon": -58.389225595360365,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6330005 IVA - Manuel Labarden - Curapaligue",
+    "name5g": "CURAPALIGUE AV. 1026 - PARQUE CHACABUCO",
+    "lat": -34.63500379963725,
+    "lon": -58.44693909640406,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "673EP01 Teatro Alvear",
+    "name5g": "CORRIENTES AV. 1659 - SAN NICOLAS",
+    "lat": -34.60410537556522,
+    "lon": -58.39025684147212,
+    "type": "Cultura",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6020002 CCPP Mil",
+    "name5g": "USPALLATA 3150 - PARQUE PATRICIOS",
+    "lat": -34.640485764940365,
+    "lon": -58.40713048599386,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6050001 ASI - Datacenter",
+    "name5g": "INDEPENDENCIA AV. 635 - SAN TELMO",
+    "lat": -34.6171068843465,
+    "lon": -58.374989026890546,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6070001 Lezama - SUM",
+    "name5g": "GARCIA, MARTIN AV. 346 - BOCA",
+    "lat": -34.62896525145,
+    "lon": -58.369838738089356,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6090001 Ente de la Ciudad - Call Center",
+    "name5g": "TABORDA, DIOGENES 116 - NUEVA POMPEYA",
+    "lat": -34.6399453354383,
+    "lon": -58.41257649670595,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6112ss01 Polo Walsh",
+    "name5g": "PERETTE CARLOS e ISLAS GALAPAGOS - RETIRO",
+    "lat": -34.582364877573504,
+    "lon": -58.377833925228536,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 35 - Portal",
+    "name5g": "CRUZ, OSVALDO 3665 - BARRACAS",
+    "lat": -34.656072355184946,
+    "lon": -58.400395566177295,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "615SS01 Escuela Talleres Alsina 963",
+    "name5g": "ALSINA, ADOLFO 963 - MONSERRAT",
+    "lat": -34.610510544050754,
+    "lon": -58.38006499902088,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6160101 Edificio La Prensa",
+    "name5g": "DE MAYO AV. 575 - MONSERRAT",
+    "lat": -34.60839849902866,
+    "lon": -58.37458412166918,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6200001 RC Patio Arroz",
+    "name5g": "URUGUAY AV. 753 - SAN NICOLAS",
+    "lat": -34.59988500637339,
+    "lon": -58.38654779090579,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6210001 ISC Recepcion PB",
+    "name5g": "ZUVIRIA 64 - PARQUE CHACABUCO",
+    "lat": -34.62861848553364,
+    "lon": -58.42730027850424,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6260001 Seguridad Vial",
+    "name5g": "ARAOZ DE LAMADRID, GREGORIO, GRAL. 1750 - BARRACAS",
+    "lat": -34.64270860325894,
+    "lon": -58.375651837760174,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6270001 Instituto del Trasplante - Rack",
+    "name5g": "LOS PATOS 2151 - PARQUE PATRICIOS",
+    "lat": -34.63804751686266,
+    "lon": -58.39205575965027,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6270001 Nave1",
+    "name5g": "LOS PATOS 2151 - PARQUE PATRICIOS",
+    "lat": -34.63804751686266,
+    "lon": -58.39205575965027,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6290002 SECHI Centro Soldati",
+    "name5g": "CORRALES 3500 - VILLA SOLDATI",
+    "lat": -34.666063282120454,
+    "lon": -58.444748840244976,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6310001 CuCC",
+    "name5g": "NEWBERY, JORGE AV. 4218 - CHACARITA",
+    "lat": -34.590204547888675,
+    "lon": -58.45208760883368,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6340001 Ente de Higiene Urbana",
+    "name5g": "VARELA AV. 555 - FLORES",
+    "lat": -34.63616131343214,
+    "lon": -58.46249144001301,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6340001 MAYEP - Planta de Asfalto EMUI",
+    "name5g": "CASTAÑARES AV. 2350 - FLORES",
+    "lat": -34.645178673910124,
+    "lon": -58.446597374668556,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6340101 EMUI - Oficina Abierta",
+    "name5g": "INDEPENDENCIA AV. 3273 - BALVANERA",
+    "lat": -34.62037833887547,
+    "lon": -58.41211030253532,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6390001 Guardia de Auxilio",
+    "name5g": "SAN JUAN AV. 984 - CONSTITUCION",
+    "lat": -34.62230827021029,
+    "lon": -58.37955090098342,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6400001 UGIS",
+    "name5g": "ESCALADA AV. 4200 - VILLA SOLDATI",
+    "lat": -34.67226516483627,
+    "lon": -58.45920891405914,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6410001 D. Gral. Licencias/Sector Licencias",
+    "name5g": "ROCA, CNEL. AV. 5252 - VILLA RIACHUELO",
+    "lat": -34.68483479107939,
+    "lon": -58.45518302057044,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6440002 Palacio de Gobierno - Recepcion Av. Rivadavia",
+    "name5g": "DE MAYO AV. 525 - MONSERRAT",
+    "lat": -34.60835493479505,
+    "lon": -58.3739000687859,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6470001 Edificio Cruz de Malta Ala A Calle Ruy Diaz",
+    "name5g": "GARCIA, MARTIN AV. 464 - BARRACAS",
+    "lat": -34.63024352994062,
+    "lon": -58.37112649186565,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6540001 PolicIa Metropolitana - Incorporaciones",
+    "name5g": "SANTIAGO DE COMPOSTELA AV. 3801 - PARQUE AVELLANEDA",
+    "lat": -34.65507636440126,
+    "lon": -58.46525793305864,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6540001 Precinto 12",
+    "name5g": "RAMALLO 4389 - SAAVEDRA",
+    "lat": -34.550912531386885,
+    "lon": -58.4910713021623,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6540501 Dir. Gral. Prevencion del Delito",
+    "name5g": "BOLIVAR 191 - MONSERRAT",
+    "lat": -34.61013337378738,
+    "lon": -58.37368503814038,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6630001 Sec. In y Tr Digital",
+    "name5g": "GOMEZ, JUAN CARLOS 268 - PARQUE PATRICIOS",
+    "lat": -34.637514422180814,
+    "lon": -58.390716415644704,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6660001 Senalamiento Luminoso CCT Machado",
+    "name5g": "MACHADO, ANTONIO 94 - CABALLITO",
+    "lat": -34.60442736093297,
+    "lon": -58.433046209198835,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6680001 Imprenta Ofi Rack",
+    "name5g": "VENTANA 3549 - NUEVA POMPEYA",
+    "lat": -34.64978140104709,
+    "lon": -58.4108809133008,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6700101 DGTratamiento Base Varela",
+    "name5g": "VARELA AV. 2653 - VILLA SOLDATI",
+    "lat": -34.654504367714345,
+    "lon": -58.440194826632336,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6770201 DGI y M Edificio - Oficina 207",
+    "name5g": "DE MAYO AV. 575 - MONSERRAT",
+    "lat": -34.60839849902866,
+    "lon": -58.37458412166918,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6780002 Centro Educativo - Comedor",
+    "name5g": "JANER, ANA MARIA 2750 - VILLA SOLDATI",
+    "lat": -34.65462148471576,
+    "lon": -58.44321526982725,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6800002 Procuracion General Of. Judiciales",
+    "name5g": "URUGUAY AV. 440 - SAN NICOLAS",
+    "lat": -34.60352007229438,
+    "lon": -58.38683547789206,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6830001 Agencia Gubernamental de Control",
+    "name5g": "PERON, JUAN DOMINGO, TTE. GENERAL 2941 - BALVANERA",
+    "lat": -34.60768300451858,
+    "lon": -58.40829673044471,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6840104 Talleres Guzman 20-90 - Oficinas tecnicas",
+    "name5g": "GUZMAN 20 - CHACARITA",
+    "lat": -34.59261193997153,
+    "lon": -58.44897604695586,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6850001 Edificio Casa Estrada",
+    "name5g": "BOLIVAR 466 - MONSERRAT",
+    "lat": -34.61329485141863,
+    "lon": -58.37306306083572,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6860001 Elefante Blanco - Planta baja SUM Pbuena",
+    "name5g": "PIEDRA BUENA AV. 3250 - VILLA LUGANO",
+    "lat": -34.67173087733994,
+    "lon": -58.493837289586494,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "686SS01 Elefante Blanco - S Suelo",
+    "name5g": "PIEDRA BUENA AV. 3250 - VILLA LUGANO",
+    "lat": -34.67173087733994,
+    "lon": -58.493837289586494,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6890001 Playa de Acarreo Quinquela Martin - Sala de espera",
+    "name5g": "HERRERA 1618 - BARRACAS",
+    "lat": -34.645420737180075,
+    "lon": -58.3755624096328,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6890001 Playa de Infractores Sarmiento",
+    "name5g": "SARMIENTO AV. 4381 - PALERMO",
+    "lat": -34.569344277249776,
+    "lon": -58.40950059880731,
+    "type": "Edificio de Gobierno",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "1710001 Reserva Ecológica",
+    "name5g": "ACHAVAL RODRIGUEZ, T., DR. AV. 1550 - PUERTO MADERO",
+    "lat": -34.616533037250704,
+    "lon": -58.355196352205176,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2560001 CIMs Margarita Malharro",
+    "name5g": "24 DE NOVIEMBRE 113 - BALVANERA",
+    "lat": -34.61205405538085,
+    "lon": -58.41186958693434,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2560002 CIM Elvira Rawson",
+    "name5g": "SALGUERO, JERONIMO 765 - ALMAGRO",
+    "lat": -34.6012869303795,
+    "lon": -58.419021733849696,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2560003 CIM Beiró (en Zonal 11)",
+    "name5g": "BEIRO, FRANCISCO AV. 5229 - VILLA DEVOTO",
+    "lat": -34.613177435862816,
+    "lon": -58.52415170514096,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2560004 CIM Arminda Aberastury",
+    "name5g": "YRIGOYEN, HIPOLITO 3202 - BALVANERA",
+    "lat": -34.612029761470026,
+    "lon": -58.41161389883915,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "3140001 Detectarpchacabuco",
+    "name5g": "PERON, EVA AV. 1410 - PARQUE CHACABUCO",
+    "lat": -34.634087223063844,
+    "lon": -58.44390463260082,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6010001 Planetario - Boleteria",
+    "name5g": "SARMIENTO AV. y ROLDAN, BELISARIO AV. - PALERMO",
+    "lat": -34.56967918836977,
+    "lon": -58.41169331098967,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6010003 Planetario - Torre Frontal Av Roldan",
+    "name5g": "SARMIENTO AV. y ROLDAN, BELISARIO AV. - PALERMO",
+    "lat": -34.56975787768428,
+    "lon": -58.411862024128034,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6010004 Planetario - Torre Trasera Av Casares",
+    "name5g": "SARMIENTO AV. y ROLDAN, BELISARIO AV. - PALERMO",
+    "lat": -34.569514597991606,
+    "lon": -58.41160228526336,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6010005 Planetario - Torre Der Av Sarmiento",
+    "name5g": "SARMIENTO AV. y ROLDAN, BELISARIO AV. - PALERMO",
+    "lat": -34.56969858225779,
+    "lon": -58.41151101688138,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6010006 Planetario - Torre Izq Av Roldan",
+    "name5g": "SARMIENTO AV. y ROLDAN, BELISARIO AV. - PALERMO",
+    "lat": -34.56963525881206,
+    "lon": -58.411869111516765,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6010207 Planetario - Galeria Auditorio Piso 2",
+    "name5g": "SARMIENTO AV. y ROLDAN, BELISARIO AV. - PALERMO",
+    "lat": -34.56967918836976,
+    "lon": -58.41169331098967,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6240001 Cementerio de la Chacarita - Peristilo",
+    "name5g": "GUZMAN AV. 680 - CHACARITA",
+    "lat": -34.58780131256751,
+    "lon": -58.45567931948078,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6240001 Cementerio de la Recoleta",
+    "name5g": "JUNIN 1760 - RECOLETA",
+    "lat": -34.58853855963424,
+    "lon": -58.39277976213048,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6240003 Cementerio de Flores",
+    "name5g": "BALBASTRO 2587 - FLORES",
+    "lat": -34.64556354076902,
+    "lon": -58.45149670789345,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6240003 Cementerio Recoleta - Portón Entrada Junin",
+    "name5g": "JUNIN 1760 - RECOLETA",
+    "lat": -34.58853855963424,
+    "lon": -58.39277976213048,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Avellaneda",
+    "name5g": "LACARRA AV. 1257 - PARQUE AVELLANEDA",
+    "lat": -34.64594424341933,
+    "lon": -58.474372750891234,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Colegiales",
+    "name5g": "FREIRE, RAMON, CAP. GRAL. 234 - COLEGIALES",
+    "lat": -34.57931194234816,
+    "lon": -58.445003384315314,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Costa Rica",
+    "name5g": "DE LOS CONSTITUYENTES AV. 3050 - AGRONOMIA",
+    "lat": -34.59167269191227,
+    "lon": -58.47700793136008,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Don Pepe",
+    "name5g": "HORNOS, GRAL. 1800 - BARRACAS",
+    "lat": -34.64661935188705,
+    "lon": -58.374176228609116,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Dorrego",
+    "name5g": "MONTE 6679 - MATADEROS",
+    "lat": -34.667711183826874,
+    "lon": -58.496316527397894,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Martín Fierro",
+    "name5g": "ORURO 1308 - SAN CRISTOBAL",
+    "lat": -34.62633324827651,
+    "lon": -58.40843571364535,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Onega",
+    "name5g": "MISTRAL, GABRIELA 3819 - VILLA DEVOTO",
+    "lat": -34.5944651825828,
+    "lon": -58.513730049958674,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Parque Chacabuco",
+    "name5g": "PERON, EVA AV. 1410 - PARQUE CHACABUCO",
+    "lat": -34.634087223063844,
+    "lon": -58.44390463260082,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Parque Sarmiento",
+    "name5g": "BALBIN, RICARDO, DR. AV. 4750 - SAAVEDRA",
+    "lat": -34.553320912850594,
+    "lon": -58.49830021870521,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Pereira",
+    "name5g": "CALIFORNIA 3001 - BARRACAS",
+    "lat": -34.649472991558405,
+    "lon": -58.38952052150268,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Pomar",
+    "name5g": "MERCEDES 1371 - FLORESTA",
+    "lat": -34.621791055070084,
+    "lon": -58.49173971331131,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Pque Patricios- Food Truck",
+    "name5g": "PEPIRI 135 - PARQUE PATRICIOS",
+    "lat": -34.6395677674098,
+    "lon": -58.408876210203026,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250001 Polideportivo Santojanni",
+    "name5g": "PATRON 6222 - LINIERS",
+    "lat": -34.64633643925274,
+    "lon": -58.51319858160349,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250002 Polideportivo Patricios Exterior",
+    "name5g": "PEPIRI 135 - PARQUE PATRICIOS",
+    "lat": -34.6395677674098,
+    "lon": -58.408876210203026,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6250101 Polideportivo Belgrano (Ex KDT)",
+    "name5g": "SALGUERO, JERONIMO 3450 - PALERMO",
+    "lat": -34.56972630615739,
+    "lon": -58.40188322835349,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6260002 Puerto Madero - Estacion Combis",
+    "name5g": "MADERO, EDUARDO AV. 401 - PUERTO MADERO",
+    "lat": -34.60278053025466,
+    "lon": -58.3679811496223,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "626sub01 Metrobus 9 Julio - Estto. Combis",
+    "name5g": "SARMIENTO y PELLEGRINI, CARLOS - SAN NICOLAS",
+    "lat": -34.60515545244974,
+    "lon": -58.38109744245222,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300001 CT Constitución (Lima 1740)",
+    "name5g": "LIMA 1740 - CONSTITUCION",
+    "lat": -34.628267889858186,
+    "lon": -58.38120463615197,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300001 CT Flores (Rivadavia 6902)",
+    "name5g": "RIVADAVIA AV. 6902 - FLORES",
+    "lat": -34.62899938737331,
+    "lon": -58.46324281794019,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300001 CT Liniers ( Rivadavia 11412)",
+    "name5g": "RIVADAVIA AV. 11412 - LINIERS",
+    "lat": -34.63924030828839,
+    "lon": -58.525242425971356,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300001 CT Once (AV Pueyrredon 103)",
+    "name5g": "PUEYRREDON AV. 103 - BALVANERA",
+    "lat": -34.60877441966529,
+    "lon": -58.4058209665025,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300001 CT Palermo (Santa Fe 4250)",
+    "name5g": "SANTA FE AV. 4250 - PALERMO",
+    "lat": -34.58071039450376,
+    "lon": -58.422067184681794,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300001 CT Retiro (Av. Dr. José María Ramos Mejía 1398)",
+    "name5g": "RAMOS MEJIA, JOSE MARIA, DR. AV. 1398 - RETIRO",
+    "lat": -34.59131274173011,
+    "lon": -58.3741856047611,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300002 CT Constitución (Brasil 1154)",
+    "name5g": "RODRIGUEZ, MARTIN 1179 - BOCA",
+    "lat": -34.63872447651419,
+    "lon": -58.35887309366945,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300002 CT Flores (Rivadavia 7060)",
+    "name5g": "RIVADAVIA AV. 7060 - FLORES",
+    "lat": -34.62947053285861,
+    "lon": -58.46487941058038,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300002 CT Liniers (Rivadavia 11502)",
+    "name5g": "RIVADAVIA AV. 11502 - LINIERS",
+    "lat": -34.63933001273015,
+    "lon": -58.526435740278856,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300002 CT Once (AV pueyrredon 3 )",
+    "name5g": "PUEYRREDON AV. 3 - BALVANERA",
+    "lat": -34.61005845773479,
+    "lon": -58.405756059700145,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300002 CT Palermo (AV Santa Fe -4364)",
+    "name5g": "SANTA FE AV. 4364 - PALERMO",
+    "lat": -34.58002293370984,
+    "lon": -58.423100562101574,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300002 CT Retiro (Av. Dr. José María Ramos Mejía 1398)",
+    "name5g": "MAIPU AV. 1200 - RETIRO",
+    "lat": -34.59437422989767,
+    "lon": -58.3768761344883,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300003 CT Constitución (Lima Este 1587)",
+    "name5g": "LIMA 1587 - CONSTITUCION",
+    "lat": -34.62679313086708,
+    "lon": -58.38245309912394,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300003 CT Flores (Rivadavia 7150)",
+    "name5g": "RIVADAVIA AV. 7150 - FLORES",
+    "lat": -34.62983349081679,
+    "lon": -58.46623368074368,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300003 CT Liniers (Liniers – Av. Rivadavia 11608)",
+    "name5g": "RIVADAVIA AV. 11608 - LINIERS",
+    "lat": -34.63943888111525,
+    "lon": -58.527781226746974,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300003 CT Once (AV Rivadavia  -2890 )",
+    "name5g": "RIVADAVIA AV. 2890 - BALVANERA",
+    "lat": -34.61040086584075,
+    "lon": -58.40743829758591,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300003 CT Palermo ( AV Santa Fe -4438)",
+    "name5g": "SANTA FE AV. 4438 - PALERMO",
+    "lat": -34.579558446590674,
+    "lon": -58.42382779624653,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300003 CT Retiro (Dr. José María Ramos Mejía 1430)",
+    "name5g": "RAMOS MEJIA, JOSE MARIA, DR. AV. 1430 - RETIRO",
+    "lat": -34.59070365660578,
+    "lon": -58.37406477449197,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300004 CT Constitución (Lima 1635)",
+    "name5g": "LIMA 1635 - CONSTITUCION",
+    "lat": -34.627210931442725,
+    "lon": -58.382451319466135,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300004 CT Flores (Rivadavia 7254)",
+    "name5g": "RIVADAVIA AV. 7254 - FLORES",
+    "lat": -34.63023821265845,
+    "lon": -58.46781673442463,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300004 CT Liniers (Flores – Rivadavia S/N Plaza GN. Pueyrredon)",
+    "name5g": "RIVADAVIA AV. 6951 - FLORES",
+    "lat": -34.628860499600094,
+    "lon": -58.463423519807336,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300004 CT Once Bartolome Mitre 2819 (Metrobus)",
+    "name5g": "MITRE, BARTOLOME 2831 - BALVANERA",
+    "lat": -34.608706802126285,
+    "lon": -58.40654405839453,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300004 CT Palermo ( AV Santa Fe -4456 )",
+    "name5g": "SANTA FE AV. 4456 - PALERMO",
+    "lat": -34.57943576508635,
+    "lon": -58.4240163878522,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300004 CT Retiro (Retiro, Av. Dr. José María Ramos Mejía 1358)",
+    "name5g": "RAMOS MEJIA, JOSE MARIA, DR. AV. 1358 - RETIRO",
+    "lat": -34.59183626389598,
+    "lon": -58.37459356693728,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300005 CT Constitución (Av. Brasil 1150)",
+    "name5g": "BRASIL 1150 - CONSTITUCION",
+    "lat": -34.627980943592895,
+    "lon": -58.38138127927775,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300005 CT Flores (Rivadavia 7358)",
+    "name5g": "RIVADAVIA AV. 7358 - FLORES",
+    "lat": -34.63056573540876,
+    "lon": -58.46909756431278,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300005 CT Liniers(Flores-Rivadavia S/N Plaza GNL. Pueyrredon)",
+    "name5g": "RIVADAVIA AV. 6951 - FLORES",
+    "lat": -34.628860499600094,
+    "lon": -58.463423519807336,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300005 CT Once (Bartolomé Mitre- 2906)",
+    "name5g": "MITRE, BARTOLOME 2906 - BALVANERA",
+    "lat": -34.60939493314631,
+    "lon": -58.40733142939021,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300005 CT Palermo (AV Santa fe -4470)",
+    "name5g": "SANTA FE AV. 4184 - PALERMO",
+    "lat": -34.581444862607384,
+    "lon": -58.42169789448557,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300005 CT Retiro (Maipu y Gilardo Gilardi 1266)",
+    "name5g": "DEL LIBERTADOR AV. y RAMOS MEJIA, JOSE MARIA, DR. AV. - RETIRO",
+    "lat": -34.59231743399499,
+    "lon": -58.374980336015895,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300006 CT Constitución (Martin Rodriguez 1129)",
+    "name5g": "RODRIGUEZ, MARTIN 1129 - BOCA",
+    "lat": -34.63802811216904,
+    "lon": -58.359327862798715,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300006 CT Flores (Rivadavia S/N Plaza General Pueyrredon)",
+    "name5g": "RIVADAVIA AV. 6951 - FLORES",
+    "lat": -34.628860499600094,
+    "lon": -58.463423519807336,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6300006 CT Palermo (AV Santa fe -4602)",
+    "name5g": "SANTA FE AV. 4602 - PALERMO",
+    "lat": -34.578922663442846,
+    "lon": -58.424853072001504,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6340001 Jardin Botanico - Sala Reuniones",
+    "name5g": "LAS HERAS GENERAL AV. 4010 - PALERMO",
+    "lat": -34.582139519827884,
+    "lon": -58.41634276253177,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6360001 Servicio Social Zonal 11",
+    "name5g": "BEIRO, FRANCISCO AV. 5229 - VILLA DEVOTO",
+    "lat": -34.613177435862816,
+    "lon": -58.52415170514096,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6360001 Servicio Social Zonal 14",
+    "name5g": "DIAZ, CNEL. AV. 2110 - PALERMO",
+    "lat": -34.587359876976436,
+    "lon": -58.409146671172735,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6360001 Servicio Social Zonal 15",
+    "name5g": "SEGUI, F. J., ALTE. 2151 - PATERNAL",
+    "lat": -34.601473916752575,
+    "lon": -58.462101125896496,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6360001 Servicio Social Zonal 2",
+    "name5g": "RODRIGUEZ PEÑA 780 - SAN NICOLAS",
+    "lat": -34.59984353231503,
+    "lon": -58.39174821887208,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6360001 Servicio Social Zonal 3",
+    "name5g": "SAN JUAN AV. 2353 - SAN CRISTOBAL",
+    "lat": -34.62315117907105,
+    "lon": -58.39863118712811,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6360001 Servicio Zonal 5",
+    "name5g": "COCHABAMBA 4048 - BOEDO",
+    "lat": -34.62781834318156,
+    "lon": -58.421786910944135,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6360101 Servicio Social Zonal 10",
+    "name5g": "SEGUI, F. J., ALTE. 2151 - PATERNAL",
+    "lat": -34.601473916752575,
+    "lon": -58.462101125896496,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6360101 Servicio Zonal 1",
+    "name5g": "PIEDRAS 1281 - CONSTITUCION",
+    "lat": -34.623208443684426,
+    "lon": -58.37734009289957,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6380001 Centro de Dia 19",
+    "name5g": "GARAY, JUAN DE AV. 765 - SAN TELMO",
+    "lat": -34.624755605989385,
+    "lon": -58.37640365361182,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6380001 Centro de Dia 27",
+    "name5g": "FALCON, RAMON L.,CNEL. 4778 - VILLA LURO",
+    "lat": -34.638256349926806,
+    "lon": -58.494452721409225,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6380001 Centro Día 22 - Posta Digital",
+    "name5g": "HERNANDARIAS 370 - BOCA",
+    "lat": -34.63219681413559,
+    "lon": -58.36872682337559,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6380001 Centro Dia 9",
+    "name5g": "PARAGUAY 5170 - PALERMO",
+    "lat": -34.57981278941927,
+    "lon": -58.43079037447096,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6380001 Des. Social - Centro día 24",
+    "name5g": "YRUPE 6702 - MATADEROS",
+    "lat": -34.66810149152827,
+    "lon": -58.49646820876522,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6380001 Hogar de Dia 8 y 18",
+    "name5g": "CONDARCO 5155 - VILLA PUEYRREDON",
+    "lat": -34.58106179362385,
+    "lon": -58.50312358040769,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6480001 Centro Verde Herrera - Galpón",
+    "name5g": "HERRERA 2124 - BARRACAS",
+    "lat": -34.65091075657135,
+    "lon": -58.373935296494444,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6480002 Centro Verde - Centro Reciclado",
+    "name5g": "HOLMBERG 4674 - SAAVEDRA",
+    "lat": -34.54951729497045,
+    "lon": -58.49154503317165,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6510001 Obelisco Pellegrini",
+    "name5g": "9 DE JULIO AV. y CORRIENTES AV. - SAN NICOLAS",
+    "lat": -34.6037141795834,
+    "lon": -58.381594920210404,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6510002 Obelisco Sur",
+    "name5g": "9 DE JULIO AV. y CORRIENTES AV. - SAN NICOLAS",
+    "lat": -34.60431519161596,
+    "lon": -58.381577025185436,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6510003 Obelisco Norte",
+    "name5g": "9 DE JULIO AV. y CORRIENTES AV. - SAN NICOLAS",
+    "lat": -34.602499,
+    "lon": -58.381734,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6510005 Obelisco - Lado Norte AP1",
+    "name5g": "9 DE JULIO AV. y CORRIENTES AV. - SAN NICOLAS",
+    "lat": -34.60314131057164,
+    "lon": -58.38090323544747,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6510006 Obelisco - Lado Sur AP2",
+    "name5g": "9 DE JULIO AV. y CORRIENTES AV. - SAN NICOLAS",
+    "lat": -34.604443493373324,
+    "lon": -58.38085003004116,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6520002 Reserva Ecologica - Exterior",
+    "name5g": "ACHAVAL RODRIGUEZ, T., DR. AV. 1550 - PUERTO MADERO",
+    "lat": -34.616827162203656,
+    "lon": -58.35647188258593,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6520002 Reserva Ecologica - Fauna/Vivero",
+    "name5g": "ACHAVAL RODRIGUEZ, T., DR. AV. 1550 - PUERTO MADERO",
+    "lat": -34.615642475885636,
+    "lon": -58.35149343756595,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6520004 Reserva Ecologica - Playa",
+    "name5g": "ACHAVAL RODRIGUEZ, T., DR. AV. 1550 - PUERTO MADERO",
+    "lat": -34.61538237692965,
+    "lon": -58.34030275016974,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6550002 Pque Ciudad -Interama - Plataforma Superior",
+    "name5g": "FERNANDEZ DE LA CRUZ, F., GRAL. AV. 4000 - VILLA SOLDATI",
+    "lat": -34.66902505119796,
+    "lon": -58.454103699876725,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6560001 CAF Mitre",
+    "name5g": "LARRAYA 4370 - VILLA LUGANO",
+    "lat": -34.678224606488605,
+    "lon": -58.46719752466366,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6560001 Centro de Primera Infancia Pulgarcito",
+    "name5g": "CRUZ, OSVALDO AV. 2101 - BARRACAS",
+    "lat": -34.65226832953178,
+    "lon": -58.37616691342258,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6560001 Puerto Pibes",
+    "name5g": "None - BELGRANO",
+    "lat": -34.55064353322797,
+    "lon": -58.43160566475029,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6640001 Polo Bandoneon",
+    "name5g": "SAENZ AV. 1480 - NUEVA POMPEYA",
+    "lat": -34.658351789416784,
+    "lon": -58.41612251153554,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Centro Trasbordo Retiro (TEBA)",
+    "name5g": "RAMOS MEJIA, JOSE MARIA, DR. AV. 1550 - RETIRO",
+    "lat": -34.58956152506519,
+    "lon": -58.37262868458472,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Estación Lugano (Comisaría 40)",
+    "name5g": "SOMELLERA 5850 - VILLA LUGANO",
+    "lat": -34.67744211277559,
+    "lon": -58.47744774829008,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6670001 Peatonales Av, Corrientes 1552 y Paraná",
+    "name5g": "CORRIENTES AV. 1552 - SAN NICOLAS",
+    "lat": -34.60433969277889,
+    "lon": -58.38864760877062,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6670002 Peatonales Av, Corrientes",
+    "name5g": "CORRIENTES AV. 1450 - SAN NICOLAS",
+    "lat": -34.604227638791826,
+    "lon": -58.387219850266554,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6670003 Peatonales Av, Corrientes y Rodriguez Peña",
+    "name5g": "CORRIENTES AV. y RODRIGUEZ PEÑA - SAN NICOLAS",
+    "lat": -34.604332472133365,
+    "lon": -58.3908262613043,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6670004 Peatonales Av, Corrientes y Montevideo",
+    "name5g": "CORRIENTES AV. y MONTEVIDEO - SAN NICOLAS",
+    "lat": -34.604217243478736,
+    "lon": -58.38939856458113,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6670005 Peatonales Av, Corrientes",
+    "name5g": "CORRIENTES AV. y URUGUAY - SAN NICOLAS",
+    "lat": -34.60399144563566,
+    "lon": -58.38652946710594,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6670006 Peatonales Av, Corrientes",
+    "name5g": "CORRIENTES AV. y URUGUAY - SAN NICOLAS",
+    "lat": -34.60399144563566,
+    "lon": -58.38652946710594,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6670007 Peatonales Av, Corrientes y Talcahuano",
+    "name5g": "CORRIENTES AV. y TALCAHUANO - SAN NICOLAS",
+    "lat": -34.60390992344351,
+    "lon": -58.385139904316596,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6670008 Peatonales Av, Corrientes",
+    "name5g": "CORRIENTES AV. y PARANA - SAN NICOLAS",
+    "lat": -34.60410146641022,
+    "lon": -58.38790861650946,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6720001 Autódromo",
+    "name5g": "ROCA, CNEL. AV. 6902 - VILLA RIACHUELO",
+    "lat": -34.695692367786975,
+    "lon": -58.46185182038674,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6750001 Feria de Once - La Rioja 70",
+    "name5g": "LA RIOJA 70 - BALVANERA",
+    "lat": -34.61109699506481,
+    "lon": -58.40861228505074,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6750001 Ferias de Once - Peron 2869",
+    "name5g": "PERON, JUAN DOMINGO, TTE. GENERAL 2869 - BALVANERA",
+    "lat": -34.60762678873412,
+    "lon": -58.407212944934294,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6750001 Mercado Bompland (Santa Fe)",
+    "name5g": "BONPLAND 1660 - PALERMO",
+    "lat": -34.5835482282941,
+    "lon": -58.43787325809819,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6750001 Mercado Juramento (Comisaria 51)",
+    "name5g": "JURAMENTO AV. 2527 - BELGRANO",
+    "lat": -34.562615932557456,
+    "lon": -58.45805172253016,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6750001 Mercado San Nicolás (Teatro San Martin)",
+    "name5g": "CORRIENTES AV. 1750 - SAN NICOLAS",
+    "lat": -34.604562143832695,
+    "lon": -58.39152727901811,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6820002 CIT Florida y Diagonal",
+    "name5g": "FLORIDA y SAENZ PEÑA, ROQUE, PRES. DIAGONAL NORTE AV. - SAN NICOLAS",
+    "lat": -34.607201174982976,
+    "lon": -58.375009760443405,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6880001 Ciudad Universitaria",
+    "name5g": "GUIRALDES, INT. 2759 - BELGRANO",
+    "lat": -34.54146828782964,
+    "lon": -58.44381195009701,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6900001 Paseo La Boca",
+    "name5g": "DON PEDRO DE MENDOZA AV. 1929 - BOCA",
+    "lat": -34.63973444912477,
+    "lon": -58.36184010716517,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6900002 Paseo La Boca",
+    "name5g": "DON PEDRO DE MENDOZA AV. 1929 - BOCA",
+    "lat": -34.63973444912477,
+    "lon": -58.36184010716517,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6900003 Paseo La Boca",
+    "name5g": "DON PEDRO DE MENDOZA AV. 1929 - BOCA",
+    "lat": -34.63973444912477,
+    "lon": -58.36184010716517,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6900004 Paseo La Boca",
+    "name5g": "DON PEDRO DE MENDOZA AV. 1929 - BOCA",
+    "lat": -34.63973444912477,
+    "lon": -58.36184010716517,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6900005 Paseo La Boca",
+    "name5g": "DON PEDRO DE MENDOZA AV. 1929 - BOCA",
+    "lat": -34.63973444912477,
+    "lon": -58.36184010716517,
+    "type": "Espacio Público",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2590001 CMB 12 - Paez 2283",
+    "name5g": "PAEZ 2283 - FLORES",
+    "lat": -34.61918791637905,
+    "lon": -58.46521208436695,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2590001 CMB 18 - Carlos Maria Ramirez 1445",
+    "name5g": "RAMIREZ, CARLOS M. 1445 - NUEVA POMPEYA",
+    "lat": -34.65262350092582,
+    "lon": -58.42285883484439,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2590001 CMB 25 - Martinez Castro 1375",
+    "name5g": "MARTINEZ CASTRO 1375 - PARQUE AVELLANEDA",
+    "lat": -34.64716477419179,
+    "lon": -58.46834745605066,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2590001 CMB 29 - Saavedra 205",
+    "name5g": "SAAVEDRA 205 - BALVANERA",
+    "lat": -34.612371140628944,
+    "lon": -58.40345591087281,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2590001 CMB 2 - Emilio Lamarca 1022",
+    "name5g": "LAMARCA, EMILIO 1022 - VILLA SANTA RITA",
+    "lat": -34.62226623543605,
+    "lon": -58.48294677162098,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2590001 CMB 30 - Arzobispo Espinosa 1211",
+    "name5g": "ARZOBISPO ESPINOSA 1211 - BARRACAS",
+    "lat": -34.633454350736734,
+    "lon": -58.370406093320675,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2590001 CMB 33 - Cramer 4354",
+    "name5g": "CRAMER 4354 - SAAVEDRA",
+    "lat": -34.54481417936484,
+    "lon": -58.47671280062088,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2590001 CMB 37 - Isabel la Catolica 1492",
+    "name5g": "ISABEL LA CATOLICA 1492 - BARRACAS",
+    "lat": -34.646256731204645,
+    "lon": -58.37170231177535,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2590001 CMB 6 - Estados Unidos 19",
+    "name5g": "ESTADOS UNIDOS 19 - SAN TELMO",
+    "lat": -34.61795167881713,
+    "lon": -58.36665000061277,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "2590001 CMB 7 - Martiniano Leguizamón 230",
+    "name5g": "LEGUIZAMON, MARTINIANO 230 - LINIERS",
+    "lat": -34.64174852452359,
+    "lon": -58.519165782083896,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "3150001 Pq Roca - Vacunatorio",
+    "name5g": "ROCA, CNEL. AV. 4200 - VILLA SOLDATI",
+    "lat": -34.67556865709815,
+    "lon": -58.44727147225164,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 DG Geriatria - Registro",
+    "name5g": "BELGRANO AV. 858 - MONSERRAT",
+    "lat": -34.613082171750584,
+    "lon": -58.378386704028806,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Alvarez -UFU",
+    "name5g": "ARANGUREN, JUAN F., DR. 2701 - FLORES",
+    "lat": -34.62417256172646,
+    "lon": -58.46951118953266,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Alvear",
+    "name5g": "WARNES AV. 2630 - PATERNAL",
+    "lat": -34.5972043008453,
+    "lon": -58.475038744128334,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Argerich - Guardia",
+    "name5g": "PI Y MARGALL 750 - BOCA",
+    "lat": -34.62790042696301,
+    "lon": -58.36594517844651,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Argerich - UFU",
+    "name5g": "PI Y MARGALL 750 - BOCA",
+    "lat": -34.62790042696301,
+    "lon": -58.36594517844651,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Durand - Turnos",
+    "name5g": "DIAZ VELEZ AV. 5044 - CABALLITO",
+    "lat": -34.608974016900206,
+    "lon": -58.43791074076711,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Elizalde - UFU",
+    "name5g": "MONTES DE OCA, MANUEL AV. 40 - BARRACAS",
+    "lat": -34.62905387374758,
+    "lon": -58.377264055061524,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Fernandez - Meson Guardia",
+    "name5g": "CERVIÑO AV. 3356 - PALERMO",
+    "lat": -34.58113958847259,
+    "lon": -58.40689910994037,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Ferrer - UFU",
+    "name5g": "FINOCHIETTO ENRIQUE DR. 849 - BARRACAS",
+    "lat": -34.63020931260188,
+    "lon": -58.37585290946595,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Grierson - UFU",
+    "name5g": "FERNANDEZ DE LA CRUZ, F., GRAL. AV. 4402 - VILLA SOLDATI",
+    "lat": -34.6718072273197,
+    "lon": -58.45665638433024,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Gutierrez - Pabellón G -1piso - Unidad 8",
+    "name5g": "SANCHEZ DE BUSTAMANTE 1330 - RECOLETA",
+    "lat": -34.59440666786851,
+    "lon": -58.41202103772945,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Gutierrez - UFU",
+    "name5g": "SANCHEZ DE BUSTAMANTE 1330 - RECOLETA",
+    "lat": -34.59440666786851,
+    "lon": -58.41202103772945,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Lugano/Grierson",
+    "name5g": "FERNANDEZ DE LA CRUZ, F., GRAL. AV. 4402 - VILLA SOLDATI",
+    "lat": -34.6718072273197,
+    "lon": -58.45665638433024,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Marie Curie",
+    "name5g": "PATRICIAS ARGENTINAS AV. 150 - CABALLITO",
+    "lat": -34.60705640118181,
+    "lon": -58.43309366972045,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Moyano",
+    "name5g": "BRANDSEN 2570 - BARRACAS",
+    "lat": -34.63936596804496,
+    "lon": -58.38444229534739,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Moyano-UFU",
+    "name5g": "BRANDSEN 2570 - BARRACAS",
+    "lat": -34.63938122163147,
+    "lon": -58.38482359313307,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Muñiz (CE)",
+    "name5g": "USPALLATA 2272 - PARQUE PATRICIOS",
+    "lat": -34.637527525847354,
+    "lon": -58.39373745692556,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Muñiz - UFU",
+    "name5g": "USPALLATA 2272 - PARQUE PATRICIOS",
+    "lat": -34.637527525847354,
+    "lon": -58.39373745692556,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Pasteur",
+    "name5g": "DIAZ VELEZ AV. 4821 - CABALLITO",
+    "lat": -34.60841375893934,
+    "lon": -58.434797152123096,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Penna - UFU",
+    "name5g": "ALMAFUERTE AV. 406 - PARQUE PATRICIOS",
+    "lat": -34.643214353996505,
+    "lon": -58.4130076195959,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Piñero - UFU",
+    "name5g": "VARELA AV. 1301 - FLORES",
+    "lat": -34.6442874428673,
+    "lon": -58.45377158009895,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Pirovano - UFU",
+    "name5g": "MONROE AV. 3555 - COGHLAN",
+    "lat": -34.565046397014385,
+    "lon": -58.47107936530074,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Quinquela Martin",
+    "name5g": "DON PEDRO DE MENDOZA AV. 1795 - BOCA",
+    "lat": -34.63879048104329,
+    "lon": -58.360202759688924,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Ramon Carrillo",
+    "name5g": "SANCHEZ DE BUSTAMANTE 2529 - RECOLETA",
+    "lat": -34.5842718423864,
+    "lon": -58.4023976736582,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Ramos Mejia - UFU",
+    "name5g": "URQUIZA, GRAL. 609 - BALVANERA",
+    "lat": -34.61766260640705,
+    "lon": -58.40961684939168,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Rehabilitacion Psicofisica",
+    "name5g": "ECHEVERRIA 955 - BELGRANO",
+    "lat": -34.55389896455995,
+    "lon": -58.440987166350375,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Santa Lucia - Entrada",
+    "name5g": "SAN JUAN AV. 2021 - SAN CRISTOBAL",
+    "lat": -34.62271259806497,
+    "lon": -58.39412249317852,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Santojanni",
+    "name5g": "PILAR 950 - LINIERS",
+    "lat": -34.649219482119086,
+    "lon": -58.51565839246372,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Santojanni - Guardia",
+    "name5g": "PILAR 950 - LINIERS",
+    "lat": -34.649219482119086,
+    "lon": -58.51565839246372,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Santojanni - UFU",
+    "name5g": "PILAR 950 - LINIERS",
+    "lat": -34.649219482119086,
+    "lon": -58.51565839246372,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Tornu - Enfermeria",
+    "name5g": "COMBATIENTES DE MALVINAS AV. 3002 - PARQUE CHAS",
+    "lat": -34.586568863053614,
+    "lon": -58.47168458401731,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Tornu -UFU",
+    "name5g": "COMBATIENTES DE MALVINAS AV. 3002 - PARQUE CHAS",
+    "lat": -34.586568863053614,
+    "lon": -58.47168458401731,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Velez Sarsfield",
+    "name5g": "CALDERON DE LA BARCA, PEDRO 1550 - MONTE CASTRO",
+    "lat": -34.62533371722063,
+    "lon": -58.507613314498045,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Velez Sarsfield - UFU",
+    "name5g": "CALDERON DE LA BARCA, PEDRO 1550 - MONTE CASTRO",
+    "lat": -34.62533371722063,
+    "lon": -58.507613314498045,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital V. Sarsfield - CE",
+    "name5g": "CALDERON DE LA BARCA, PEDRO 1550 - MONTE CASTRO",
+    "lat": -34.62533371722063,
+    "lon": -58.507613314498045,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Zubizarreta - CE",
+    "name5g": "NUEVA YORK 3952 - VILLA DEVOTO",
+    "lat": -34.59997815024135,
+    "lon": -58.511051995695055,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Zubizarreta - Exterior",
+    "name5g": "NUEVA YORK 3952 - VILLA DEVOTO",
+    "lat": -34.59997815024135,
+    "lon": -58.511051995695055,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Hospital Zubizarreta - UFU",
+    "name5g": "NUEVA YORK 3952 - VILLA DEVOTO",
+    "lat": -34.59997815024135,
+    "lon": -58.511051995695055,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Htal. Rehab. Manuel Rocca",
+    "name5g": "SEGUROLA AV. 1943 - MONTE CASTRO",
+    "lat": -34.618364840926965,
+    "lon": -58.50166035850852,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120001 Rehabilitacion Psiquiatrica - RRHH",
+    "name5g": "SUAREZ AV. 2215 - BARRACAS",
+    "lat": -34.641957316432965,
+    "lon": -58.381302251798495,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120002 Hospital Elizalde - Auditorio (Personal)",
+    "name5g": "MONTES DE OCA, MANUEL AV. 40 - BARRACAS",
+    "lat": -34.62905387374758,
+    "lon": -58.377264055061524,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120002 Hospital Muñiz - UFU",
+    "name5g": "USPALLATA 2272 - PARQUE PATRICIOS",
+    "lat": -34.637527525847354,
+    "lon": -58.39373745692556,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120002 Hospital Penna - CE",
+    "name5g": "ALMAFUERTE AV. 406 - PARQUE PATRICIOS",
+    "lat": -34.64308510608534,
+    "lon": -58.41257791211772,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120002 Hospital Ramos Mejia - Oftalmoligia Otorrino",
+    "name5g": "URQUIZA, GRAL. 609 - BALVANERA",
+    "lat": -34.61766260640705,
+    "lon": -58.40961684939168,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120002 Hospital Ramos Mejia - UFU",
+    "name5g": "URQUIZA, GRAL. 609 - BALVANERA",
+    "lat": -34.61766260640705,
+    "lon": -58.40961684939168,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120002 Hospital Sarda",
+    "name5g": "LUCA, ESTEBAN DE 2151 - PARQUE PATRICIOS",
+    "lat": -34.63460021976087,
+    "lon": -58.40287291399296,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120002 Hospital Udaondo - CE",
+    "name5g": "CASEROS AV. 2061 - PARQUE PATRICIOS",
+    "lat": -34.634177518651974,
+    "lon": -58.391429635213846,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120002 Salud Mental",
+    "name5g": "SAN LUIS 3235 - BALVANERA",
+    "lat": -34.59917716041835,
+    "lon": -58.41112509020613,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120002 Same-Monasterio-Contenedores",
+    "name5g": "MONASTERIO 480 - PARQUE PATRICIOS",
+    "lat": -34.6412464750698,
+    "lon": -58.39368783553238,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120004 Hospital Oft. Lagleyze",
+    "name5g": "JUSTO, JUAN B. AV. 4151 - VILLA GRAL. MITRE",
+    "lat": -34.60546002510189,
+    "lon": -58.46023058485413,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120004 Hospital Quemados - Informatica",
+    "name5g": "GOYENA, PEDRO AV. 369 - CABALLITO",
+    "lat": -34.62549227979102,
+    "lon": -58.432399964733186,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120004 Hospital Rivadavia - Pabellon del arca",
+    "name5g": "LAS HERAS GENERAL AV. 2670 - RECOLETA",
+    "lat": -34.5847690603227,
+    "lon": -58.40051614926939,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120005 Hospital Borda - Hall",
+    "name5g": "CARRILLO, RAMON, DR. 375 - BARRACAS",
+    "lat": -34.63654379537748,
+    "lon": -58.38210186775433,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120007 Hospital Pirovano - Guardia Telefonia",
+    "name5g": "MONROE AV. 3555 - COGHLAN",
+    "lat": -34.565046397014385,
+    "lon": -58.47107936530074,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120101 Hospital Rawson - Medicina Laboral",
+    "name5g": "ALCORTA, AMANCIO AV. 1502 - BARRACAS",
+    "lat": -34.63474012232834,
+    "lon": -58.384476464453165,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120102 Hospital Ferrer",
+    "name5g": "FINOCHIETTO ENRIQUE DR. 849 - BARRACAS",
+    "lat": -34.63020931260188,
+    "lon": -58.37585290946595,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120103 Hospital Piñero - Estar Maternidad",
+    "name5g": "VARELA AV. 1301 - FLORES",
+    "lat": -34.64406758560619,
+    "lon": -58.45427431083928,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120301 Hospital Alvarez - Guardia Extracciones/Laboratorio",
+    "name5g": "ARANGUREN, JUAN F., DR. 2701 - FLORES",
+    "lat": -34.62417256172646,
+    "lon": -58.46951118953266,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6120401 Hospital Tobar Garcia",
+    "name5g": "CARRILLO, RAMON, DR. 315 - BARRACAS",
+    "lat": -34.63560930978302,
+    "lon": -58.38235589888641,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 1",
+    "name5g": "VELEZ SARSFIELD AV. 1271 - BARRACAS",
+    "lat": -34.64926956876413,
+    "lon": -58.38938420252827,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 10 COI 4",
+    "name5g": "ALCORTA, AMANCIO AV. 1402 - BARRACAS",
+    "lat": -34.63351984254737,
+    "lon": -58.3835605025104,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 11",
+    "name5g": "AGUERO 940 - BALVANERA",
+    "lat": -34.59884513779452,
+    "lon": -58.41069286305601,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 12",
+    "name5g": "OLAZABAL AV. 3960 - VILLA URQUIZA",
+    "lat": -34.56990255842153,
+    "lon": -58.4741862751507,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 13",
+    "name5g": "DIRECTORIO AV. 4210 - PARQUE AVELLANEDA",
+    "lat": -34.644396442897154,
+    "lon": -58.48323312324207,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 16 - Vacunatorio",
+    "name5g": "CRUZ, OSVALDO AV. 2055 - BARRACAS",
+    "lat": -34.65187240488352,
+    "lon": -58.37504158115863,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 17",
+    "name5g": "EL SALVADOR 4037 - PALERMO",
+    "lat": -34.5925936115495,
+    "lon": -58.41988859021196,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 19",
+    "name5g": "CURAPALIGUE 1905 - FLORES",
+    "lat": -34.64290426087259,
+    "lon": -58.44248357378952,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 2",
+    "name5g": "TERRADA 5850 - VILLA PUEYRREDON",
+    "lat": -34.57663169989747,
+    "lon": -58.509431945236614,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 20",
+    "name5g": "JANER, ANA MARIA 2330 - FLORES",
+    "lat": -34.6498772440298,
+    "lon": -58.438162002402485,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 21",
+    "name5g": "GENDARMERIA NACIONAL AV. 526 - RETIRO",
+    "lat": -34.5844801755575,
+    "lon": -58.373083974779014,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 22",
+    "name5g": "FRAGATA PRES. SARMIENTO 2160 - PATERNAL",
+    "lat": -34.60078986219186,
+    "lon": -58.45921736529089,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 24 - Admision",
+    "name5g": "PASAJE L y MARTINEZ CASTRO - VILLA SOLDATI",
+    "lat": -34.658147256647595,
+    "lon": -58.45555714399291,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 25 Privado",
+    "name5g": "PALO SANTO y VICUÑA - RETIRO",
+    "lat": -34.58145509719382,
+    "lon": -58.3843663732627,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 26 - Sala de Espera",
+    "name5g": "GURRUCHAGA 1939 - PALERMO",
+    "lat": -34.587271641686115,
+    "lon": -58.42566799448985,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 27 - Hall",
+    "name5g": "ARIAS 3781 - SAAVEDRA",
+    "lat": -34.547639992081464,
+    "lon": -58.48682472719748,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 29",
+    "name5g": "DELLEPIANE, LUIS, TTE. GRAL. 6991 - VILLA LUGANO",
+    "lat": -34.68463840430693,
+    "lon": -58.48652209888197,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC  30",
+    "name5g": "ALCORTA, AMANCIO AV. 3100 - BARRACAS",
+    "lat": -34.64947005521266,
+    "lon": -58.40434568429949,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 31 Admision",
+    "name5g": "JANER, ANA MARIA y VEDIA, AGUSTIN DE - FLORES",
+    "lat": -34.64680594295018,
+    "lon": -58.4350911850568,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 32",
+    "name5g": "CHARRUA 2900 - NUEVA POMPEYA",
+    "lat": -34.654197791243,
+    "lon": -58.43099728659911,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 33 - Hall PB",
+    "name5g": "CORDOBA AV. 5741 - PALERMO",
+    "lat": -34.586357363818784,
+    "lon": -58.44168902429151,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 35",
+    "name5g": "ZAVALETA 1269 - BARRACAS",
+    "lat": -34.654073245354944,
+    "lon": -58.40025857478014,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 36 - Farmacia",
+    "name5g": "MERCEDES 1371 - FLORESTA",
+    "lat": -34.621791055070084,
+    "lon": -58.49173971331131,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 38 - Hall",
+    "name5g": "MEDRANO AV. 350 - ALMAGRO",
+    "lat": -34.60669280084963,
+    "lon": -58.42158084987208,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 3 - Admisión",
+    "name5g": "TERRADA 5850 - VILLA PUEYRREDON",
+    "lat": -34.57663169989747,
+    "lon": -58.509431945236614,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 40 - SUM",
+    "name5g": "BONORINO, ESTEBAN, CNEL. AV. 1729 - FLORES",
+    "lat": -34.64490442454583,
+    "lon": -58.445862611495556,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 41",
+    "name5g": "BRIN, MINISTRO 843 - BOCA",
+    "lat": -34.631298633280004,
+    "lon": -58.35801171905584,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 43",
+    "name5g": "FONROUGE 4323 - VILLA LUGANO",
+    "lat": -34.67731699632515,
+    "lon": -58.467368612927835,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 44",
+    "name5g": "SARAZA 4202 - VILLA LUGANO",
+    "lat": -34.66071652911916,
+    "lon": -58.467311282948124,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 45 - Hall",
+    "name5g": "COCHABAMBA 2622 - SAN CRISTOBAL",
+    "lat": -34.62543146037114,
+    "lon": -58.40208652688482,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 48 - Lobe",
+    "name5g": "FERNANDEZ DE LA CRUZ, F., GRAL. AV. 1753 - FLORES",
+    "lat": -34.649943982840206,
+    "lon": -58.43112844526416,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 4 - Admisión",
+    "name5g": "ALBERDI, JUAN BAUTISTA AV. 6300 - MATADEROS",
+    "lat": -34.6558864342693,
+    "lon": -58.50661121833042,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 6",
+    "name5g": "ACOSTA, MARIANO 3673 - VILLA SOLDATI",
+    "lat": -34.66662993206303,
+    "lon": -58.4414384530164,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 7 - Admisión",
+    "name5g": "2 DE ABRIL DE 1982 6850 - VILLA LUGANO",
+    "lat": -34.678635708633244,
+    "lon": -58.49157755663503,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 8 - Hall",
+    "name5g": "CRUZ, OSVALDO 3485 - BARRACAS",
+    "lat": -34.655958346513835,
+    "lon": -58.39734879944755,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140001 CeSAC 9 -Hall",
+    "name5g": "IRALA 1254 - BOCA",
+    "lat": -34.64010331588917,
+    "lon": -58.36591641276015,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140005 CeSAC 39",
+    "name5g": "24 DE NOVIEMBRE 1679 - PARQUE PATRICIOS",
+    "lat": -34.63092953874159,
+    "lon": -58.409994480104864,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140101 CeSAC 15",
+    "name5g": "HUMBERTO 1° 470 - SAN TELMO",
+    "lat": -34.620881778690446,
+    "lon": -58.3723757862658,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140101 CeSAC  18",
+    "name5g": "BATLLE Y ORDOÑEZ, JOSE P.T. 5080 - VILLA LUGANO",
+    "lat": -34.67376380373022,
+    "lon": -58.46788805732177,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140101 CeSAC 34",
+    "name5g": "ARTIGAS, JOSE GERVASIO, GRAL. 2262 - VILLA DEL PARQUE",
+    "lat": -34.60666690996688,
+    "lon": -58.47823555077292,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140101 CeSAC 5",
+    "name5g": "PIEDRA BUENA AV. 3140 - VILLA LUGANO",
+    "lat": -34.670430447497544,
+    "lon": -58.495095912018904,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6140201 CeSAC 10 - Fonoaudiología",
+    "name5g": "ALCORTA, AMANCIO AV. 1402 - BARRACAS",
+    "lat": -34.63351984254737,
+    "lon": -58.3835605025104,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "614 COI 1 - CeSAC 37",
+    "name5g": "CORRALES 6999 - VILLA RIACHUELO",
+    "lat": -34.69338382262749,
+    "lon": -58.475536646146395,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6350001 Same - Monasterio 480 Mantenimiento SUM",
+    "name5g": "MONASTERIO 480 - PARQUE PATRICIOS",
+    "lat": -34.6412464750698,
+    "lon": -58.39368783553238,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6350801 Same - Carlos Pellegrini DGADC",
+    "name5g": "PELLEGRINI, CARLOS 313 - SAN NICOLAS",
+    "lat": -34.60474734030368,
+    "lon": -58.38070164467125,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 19 - Virgilio 2502",
+    "name5g": "VIRGILIO 2502 - VILLA REAL",
+    "lat": -34.6182058736129,
+    "lon": -58.522312989400476,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 1 - Las Palmas 2479",
+    "name5g": "LAS PALMAS 2479 - NUEVA POMPEYA",
+    "lat": -34.645932813792065,
+    "lon": -58.42460910949284,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 23 - Tejedor 251",
+    "name5g": "TEJEDOR 251 - PARQUE CHACABUCO",
+    "lat": -34.62970379321557,
+    "lon": -58.42975683328135,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 24 - Brasil 2967",
+    "name5g": "BRASIL 2967 - PARQUE PATRICIOS",
+    "lat": -34.63333802799037,
+    "lon": -58.40560331089846,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 26 - Guayra 2193",
+    "name5g": "GUAYRA 2193 - NUÑEZ",
+    "lat": -34.55162504290625,
+    "lon": -58.46328690947585,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 27 - Antezana 340",
+    "name5g": "ANTEZANA 340 - VILLA CRESPO",
+    "lat": -34.60528603919519,
+    "lon": -58.4448887925324,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 28 - Echeandia 5567",
+    "name5g": "ECHEANDIA 5567 - VILLA LUGANO",
+    "lat": -34.66576920801155,
+    "lon": -58.48499964489607,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 32 - Calderon de la Barca 1198",
+    "name5g": "CALDERON DE LA BARCA, PEDRO 1198 - VELEZ SARSFIELD",
+    "lat": -34.62800313221283,
+    "lon": -58.504139432232726,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 35 - Salvador Maria del Carril 2956",
+    "name5g": "CARRIL, SALVADOR MARIA DEL AV. 2956 - AGRONOMIA",
+    "lat": -34.59128008101006,
+    "lon": -58.498773940985274,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 36 - Burela 1604",
+    "name5g": "BURELA 1604 - PARQUE CHAS",
+    "lat": -34.58532467337043,
+    "lon": -58.48610185596388,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 4 - Carabobo 801",
+    "name5g": "CARABOBO AV. 801 - FLORES",
+    "lat": -34.63557323231668,
+    "lon": -58.4526083263282,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 5 - Nogoya 4302",
+    "name5g": "NOGOYA 4302 - VILLA DEVOTO",
+    "lat": -34.61101236303578,
+    "lon": -58.50516583687553,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 8 - La Capital 1131",
+    "name5g": "LA CAPITAL 1131 - PARQUE CHACABUCO",
+    "lat": -34.64128689474842,
+    "lon": -58.43198407581963,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6370001 CMB 9 - Albarino 3512",
+    "name5g": "ALBARIÑO 3512 - VILLA LUGANO",
+    "lat": -34.669791681383884,
+    "lon": -58.47129499792061,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6550001 Parque Roca - Testeo",
+    "name5g": "ROCA, CNEL. AV. 4200 - VILLA SOLDATI",
+    "lat": -34.67556865709815,
+    "lon": -58.44727147225164,
+    "type": "Hospitales y Centros de Salud",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490101 Metrobus 9 de Julio - Carlos Calvo",
+    "name5g": "9 DE JULIO AV. y CALVO, CARLOS - CONSTITUCION",
+    "lat": -34.61975642223595,
+    "lon": -58.38084647360845,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490102 Metrobus 9 de Julio - EEUU",
+    "name5g": "9 DE JULIO AV. y ESTADOS UNIDOS - CONSTITUCION",
+    "lat": -34.61899448241464,
+    "lon": -58.38088757171352,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490201 Metrobus 9 de Julio - EEUU",
+    "name5g": "9 DE JULIO AV. y ESTADOS UNIDOS - CONSTITUCION",
+    "lat": -34.61900040594336,
+    "lon": -58.380829867736566,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490202 Metrobus 9 de Julio - Av. Independencia",
+    "name5g": "9 DE JULIO AV. e INDEPENDENCIA AV. - CONSTITUCION",
+    "lat": -34.61802260601106,
+    "lon": -58.380910168871694,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490301 Metrobus 9 de Julio - Av. Independencia",
+    "name5g": "9 DE JULIO AV. e INDEPENDENCIA AV. - CONSTITUCION",
+    "lat": -34.61802255728087,
+    "lon": -58.380838047113286,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490302 Metrobus 9 de Julio - Chile",
+    "name5g": "9 DE JULIO AV. y CHILE - MONSERRAT",
+    "lat": -34.61691361575738,
+    "lon": -58.3809689613469,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490401 Metrobus 9 de Julio - Chile",
+    "name5g": "9 DE JULIO AV. y CHILE - MONSERRAT",
+    "lat": -34.61691357193463,
+    "lon": -58.380904052627535,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490402 Metrobus 9 de Julio - Mexico",
+    "name5g": "9 DE JULIO AV. y MEXICO - MONSERRAT",
+    "lat": -34.615715172812855,
+    "lon": -58.38100620454141,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490501 Metrobus 9 de Julio - Mexico",
+    "name5g": "9 DE JULIO AV. y MEXICO - MONSERRAT",
+    "lat": -34.615715138747916,
+    "lon": -58.38095572070742,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490502 Metrobus 9 de Julio - Venezuela",
+    "name5g": "9 DE JULIO AV. y REPUBLICA BOLIVARIANA DE VENEZUELA - MONSERRAT",
+    "lat": -34.61461214461223,
+    "lon": -58.38106498816882,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490601 Metrobus 9 de Julio - Venezuela",
+    "name5g": "9 DE JULIO AV. y REPUBLICA BOLIVARIANA DE VENEZUELA - MONSERRAT",
+    "lat": -34.61461210570805,
+    "lon": -58.38100729312164,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490602 Metrobus 9 de Julio - Av. Belgrano",
+    "name5g": "9 DE JULIO AV. y BELGRANO AV. - MONSERRAT",
+    "lat": -34.61359256725742,
+    "lon": -58.38108762899019,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490701 Metrobus 9 de Julio - Moreno",
+    "name5g": "9 DE JULIO AV. y MORENO - MONSERRAT",
+    "lat": -34.61186847115337,
+    "lon": -58.38109749590172,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490702 Metrobus 9 de Julio - Adolfo Alsina",
+    "name5g": "9 DE JULIO AV. y ALSINA, ADOLFO - MONSERRAT",
+    "lat": -34.611094365263874,
+    "lon": -58.38123432329263,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490801 Metrobus 9 de Julio - Adolfo Alsina",
+    "name5g": "9 DE JULIO AV. y ALSINA, ADOLFO - MONSERRAT",
+    "lat": -34.611094331297274,
+    "lon": -58.38118384225556,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490802 Metrobus 9 de Julio - H. Irigoyen",
+    "name5g": "9 DE JULIO AV. y YRIGOYEN, HIPOLITO - MONSERRAT",
+    "lat": -34.61003901695143,
+    "lon": -58.38126420767632,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490901 Metrobus 9 de Julio - Av. Rivadavia",
+    "name5g": "9 DE JULIO AV. y RIVADAVIA AV. - MONSERRAT",
+    "lat": -34.60922218422214,
+    "lon": -58.381315491026434,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6490902 Metrobus 9 de Julio - B. Mitre",
+    "name5g": "9 DE JULIO AV. y MITRE, BARTOLOME - SAN NICOLAS",
+    "lat": -34.60764814852767,
+    "lon": -58.38142520741089,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491001 Metrobus 9 de Julio - B. Mitre",
+    "name5g": "9 DE JULIO AV. y MITRE, BARTOLOME - SAN NICOLAS",
+    "lat": -34.607648104957825,
+    "lon": -58.381360305901744,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491002 Metrobus 9 de Julio - Tte. Gral. J. D. Perón",
+    "name5g": "9 DE JULIO AV. y PERON, JUAN DOMINGO, TTE. GENERAL - SAN NICOLAS",
+    "lat": -34.606491451005084,
+    "lon": -58.38147682104555,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491101 Metrobus 9 de Julio - Tte. Gral. J. D. Perón",
+    "name5g": "9 DE JULIO AV. y PERON, JUAN DOMINGO, TTE. GENERAL - SAN NICOLAS",
+    "lat": -34.60649738451497,
+    "lon": -58.38143354812089,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491102 Metrobus 9 de Julio - Sarmiento",
+    "name5g": "9 DE JULIO AV. y SARMIENTO - SAN NICOLAS",
+    "lat": -34.60537648614729,
+    "lon": -58.38152118121975,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491201 Metrobus 9 de Julio - Lavalle",
+    "name5g": "9 DE JULIO AV. y LAVALLE - SAN NICOLAS",
+    "lat": -34.602549096638306,
+    "lon": -58.3816818166059,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491202 Metrobus 9 de Julio - Tucuman",
+    "name5g": "9 DE JULIO AV. y TUCUMAN - SAN NICOLAS",
+    "lat": -34.60172159612674,
+    "lon": -58.38174108706264,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491301 Metrobus 9 de Julio - Tucuman",
+    "name5g": "9 DE JULIO AV. y TUCUMAN - SAN NICOLAS",
+    "lat": -34.60172155755478,
+    "lon": -58.38168340093022,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491302 Metrobus 9 de Julio - Viamonte",
+    "name5g": "9 DE JULIO AV. y VIAMONTE - SAN NICOLAS",
+    "lat": -34.60060067256495,
+    "lon": -58.38179265753241,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491401 Metrobus 9 de Julio - Viamonte",
+    "name5g": "9 DE JULIO AV. y VIAMONTE - SAN NICOLAS",
+    "lat": -34.60060063401847,
+    "lon": -58.381734972174925,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491402 Metrobus 9 de Julio - Av. Cordoba",
+    "name5g": "9 DE JULIO AV. y CORDOBA AV. - SAN NICOLAS",
+    "lat": -34.59945590823645,
+    "lon": -58.381858671010754,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491501 Metrobus 9 de Julio - Av. Cordoba",
+    "name5g": "9 DE JULIO AV. y CORDOBA AV. - SAN NICOLAS",
+    "lat": -34.5994558649061,
+    "lon": -58.38179377587387,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491502 Metrobus 9 de Julio - Paraguay",
+    "name5g": "9 DE JULIO AV. y PARAGUAY - RETIRO",
+    "lat": -34.59822766807069,
+    "lon": -58.38192476405424,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491601 Metrobus 9 de Julio - Paraguay",
+    "name5g": "9 DE JULIO AV. y PARAGUAY - RETIRO",
+    "lat": -34.598227629588955,
+    "lon": -58.38186708033713,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491602 Metrobus 9 de Julio - Marcelo T. de Alvear",
+    "name5g": "9 DE JULIO AV. y ALVEAR, MARCELO T. DE - RETIRO",
+    "lat": -34.59702929795498,
+    "lon": -58.38207735039857,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491701 Metrobus 9 de Julio - Marcelo T. de Alvear",
+    "name5g": "9 DE JULIO AV. y ALVEAR, MARCELO T. DE - RETIRO",
+    "lat": -34.597023277789226,
+    "lon": -58.38199083187517,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6491702 Metrobus 9 de Julio - Av. Santa Fe",
+    "name5g": "9 DE JULIO AV. y SANTA FE AV. - RETIRO",
+    "lat": -34.59579508983257,
+    "lon": -58.382136233772314,
+    "type": "Metrobus",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6060001 Ecoparque",
+    "name5g": "SARMIENTO AV. 2601 - PALERMO",
+    "lat": -34.58096488563239,
+    "lon": -58.419972770323874,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Parque Alfredo Palacios (Comisaría 40)",
+    "name5g": "ACASSUSO 7551 - MATADEROS",
+    "lat": -34.65665565515663,
+    "lon": -58.52195757659235,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza 25 de Agosto (Htal. Durand)",
+    "name5g": "14 DE JULIO 1150 - VILLA ORTUZAR",
+    "lat": -34.58017882696543,
+    "lon": -58.46205828049506,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Alemania 1 (Comisaría 51)",
+    "name5g": "SCALABRINI ORTIZ, RAUL y DEL LIBERTADOR AV. - PALERMO",
+    "lat": -34.57700635205769,
+    "lon": -58.40827672550429,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Alemania 2 (Santa Fe)",
+    "name5g": "SCALABRINI ORTIZ, RAUL y DEL LIBERTADOR AV. - PALERMO",
+    "lat": -34.577836496658556,
+    "lon": -58.40862219656946,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Almagro (Htal. Durand)",
+    "name5g": "SALGUERO, JERONIMO 451 - ALMAGRO",
+    "lat": -34.60572567491475,
+    "lon": -58.419128363574615,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Amaya (Zuviría)",
+    "name5g": "CONSTITUCION 3670 - BOEDO",
+    "lat": -34.62786944207488,
+    "lon": -58.41657622646258,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Barrancas de Belgrano 1 (Comisaría 51)",
+    "name5g": "JURAMENTO AV. 1792 - BELGRANO",
+    "lat": -34.55888064954779,
+    "lon": -58.45093622112613,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Barrancas de Belgrano 2 (Comisaría 51)",
+    "name5g": "JURAMENTO AV. 1792 - BELGRANO",
+    "lat": -34.55888064954779,
+    "lon": -58.45093622112613,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Castelli (Comuna 12)",
+    "name5g": "JURAMENTO 3286 - BELGRANO",
+    "lat": -34.5671161350765,
+    "lon": -58.46493729266489,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Centenera y Cruz",
+    "name5g": "FERNANDEZ DE LA CRUZ, F., GRAL. AV. 1439 - NUEVA POMPEYA",
+    "lat": -34.64737423258603,
+    "lon": -58.42825602952853,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza de los 2 Congresos 1 (Teatro SM)",
+    "name5g": "RIVADAVIA AV. 1653 - MONSERRAT",
+    "lat": -34.60963843945979,
+    "lon": -58.38977896566326,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza de los 2 Congresos 2 (Teatro SM)",
+    "name5g": "RIVADAVIA AV. 1653 - MONSERRAT",
+    "lat": -34.60963843945979,
+    "lon": -58.38977896566326,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza de los Periodistas (Comisaría 40)",
+    "name5g": "NAZCA AV. 900 - FLORES",
+    "lat": -34.62147065135095,
+    "lon": -58.47299877699247,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Domingo Olivera (Comisaría 40)",
+    "name5g": "OLIVERA AV. 842 - PARQUE AVELLANEDA",
+    "lat": -34.64731225971974,
+    "lon": -58.48392806879562,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Gurruchaga (Santa Fe)",
+    "name5g": "GURRUCHAGA 1040 - VILLA CRESPO",
+    "lat": -34.592866245994415,
+    "lon": -58.43557755887088,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Hungría (Comuna 12)",
+    "name5g": "RAMALLO 4300 - SAAVEDRA",
+    "lat": -34.55058855086227,
+    "lon": -58.491028423653106,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Misericordia (Comisaría 40)",
+    "name5g": "DIRECTORIO AV. 2000 - FLORES",
+    "lat": -34.632579517859845,
+    "lon": -58.45581723067249,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza San Martín 1 (TEBA)",
+    "name5g": "DEL LIBERTADOR AV. 50 - RETIRO",
+    "lat": -34.594104710955214,
+    "lon": -58.375220860129424,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza San Martín 2 (TEBA)",
+    "name5g": "DEL LIBERTADOR AV. y SAN MARTIN - RETIRO",
+    "lat": -34.59427029709768,
+    "lon": -58.37463585461975,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plaza Vélez Sardsfield (Comisaría 40)",
+    "name5g": "AVELLANEDA AV. 3800 - FLORESTA",
+    "lat": -34.62981886240304,
+    "lon": -58.482713626260605,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Plazoleta Roca  y Soldado (Movistar)",
+    "name5g": "ROCA, CNEL. AV. 5761 - VILLA LUGANO",
+    "lat": -34.68839760331738,
+    "lon": -58.45999701690047,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Pque Avellaneda 1 (Comisaría 40)",
+    "name5g": "DIRECTORIO AV. y LACARRA - PARQUE AVELLANEDA",
+    "lat": -34.64218331004013,
+    "lon": -58.47985964872875,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Pque Avellaneda 2 (Comisaría 40)",
+    "name5g": "DIRECTORIO AV. y LACARRA - PARQUE AVELLANEDA",
+    "lat": -34.64364009781464,
+    "lon": -58.48148157042013,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Pque Avellaneda 3 (Comisaría 40)",
+    "name5g": "LACARRA AV. 1080 - PARQUE AVELLANEDA",
+    "lat": -34.644471944032716,
+    "lon": -58.47668005405426,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Pque Avellaneda 4 (Comisaría 40)",
+    "name5g": "DIRECTORIO AV. 4250 - PARQUE AVELLANEDA",
+    "lat": -34.64481925789664,
+    "lon": -58.4837219271356,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6430001 Pque Avellaneda 5 (Comisaría 40)",
+    "name5g": "LACARRA AV. 880 - PARQUE AVELLANEDA",
+    "lat": -34.642664836863446,
+    "lon": -58.47874339302954,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6530001 Plaza Roma",
+    "name5g": "ALEM, LEANDRO N. AV. 500 - SAN NICOLAS",
+    "lat": -34.60120148937781,
+    "lon": -58.36981914689362,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6530001 Plaza San Nicolás ( Teatro San Martín)",
+    "name5g": "CORRIENTES AV. 460 - SAN NICOLAS",
+    "lat": -34.60348053137349,
+    "lon": -58.37295856597394,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6530003 Plaza Houssay - Estación Saludable",
+    "name5g": "CORDOBA AV. 2100 - RECOLETA",
+    "lat": -34.59913332473331,
+    "lon": -58.39810962878272,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6530004 Plaza Houssay",
+    "name5g": "CORDOBA AV. 2100 - RECOLETA",
+    "lat": -34.59907329664643,
+    "lon": -58.39797892095527,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6550001 Anfiteatro Parque Centenario Ext1",
+    "name5g": "MARECHAL, LEOPOLDO 832 - CABALLITO",
+    "lat": -34.60582602552184,
+    "lon": -58.43678300881089,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6550001 Parque de la Estación",
+    "name5g": "PERON, JUAN DOMINGO, TTE. GENERAL 3326 - BALVANERA",
+    "lat": -34.60768558092662,
+    "lon": -58.41332195981853,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6550001 Parque de la Memoria",
+    "name5g": "OBLIGADO RAFAEL, AV.COSTANERA 6745 - BELGRANO",
+    "lat": -34.54660531643625,
+    "lon": -58.43073046374476,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6550001 Parque de los Niños",
+    "name5g": "CANTILO, INT. y PAZ, GRAL. AV. - NUÑEZ",
+    "lat": -34.529445045373514,
+    "lon": -58.456557860273094,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6550001 Parque Sarmiento",
+    "name5g": "BALBIN, RICARDO, DR. AV. 4750 - SAAVEDRA",
+    "lat": -34.553320912850594,
+    "lon": -58.49830021870521,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6550001 Pque. Gral. Belgrano (Ex KDT)",
+    "name5g": "SALGUERO, JERONIMO 3450 - PALERMO",
+    "lat": -34.56958243785032,
+    "lon": -58.40279083622339,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6550010 Parque Indoamericano - Escuelas Abiertas (Comisaría 40)",
+    "name5g": "Batlle Y Ordoñez, Jose P.T. y Escalada Av. - VILLA SOLDATI",
+    "lat": -34.667590628430325,
+    "lon": -58.46338398243103,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Chacabuco 1 (COMISARÍA 40)",
+    "name5g": "ASAMBLEA AV. 1250 - PARQUE CHACABUCO",
+    "lat": -34.63464488356084,
+    "lon": -58.442895424796475,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Chacabuco 2 (COMISARÍA 40)",
+    "name5g": "ASAMBLEA AV. 1250 - PARQUE CHACABUCO",
+    "lat": -34.63464488356084,
+    "lon": -58.442895424796475,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Chacabuco 3 (COMISARÍA 40)",
+    "name5g": "ASAMBLEA AV. 1250 - PARQUE CHACABUCO",
+    "lat": -34.63464488356084,
+    "lon": -58.442895424796475,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Chacabuco 4 (COMISARÍA 40)",
+    "name5g": "ASAMBLEA AV. 1250 - PARQUE CHACABUCO",
+    "lat": -34.63464488356084,
+    "lon": -58.442895424796475,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Chacabuco 5 (COMISARÍA 40)",
+    "name5g": "ASAMBLEA AV. 1250 - PARQUE CHACABUCO",
+    "lat": -34.63464488356084,
+    "lon": -58.442895424796475,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Chacabuco 6 (COMISARÍA 40)",
+    "name5g": "ASAMBLEA AV. 1250 - PARQUE CHACABUCO",
+    "lat": -34.63464488356084,
+    "lon": -58.442895424796475,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Chacabuco 7 (COMISARÍA 40)",
+    "name5g": "ASAMBLEA AV. 1250 - PARQUE CHACABUCO",
+    "lat": -34.63464488356084,
+    "lon": -58.442895424796475,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque de los Patricios 1 (Zuviria)",
+    "name5g": "FAVALORO, RENE DR. 3227 - PARQUE PATRICIOS",
+    "lat": -34.63852079868842,
+    "lon": -58.40617990440432,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque de los Patricios 2 (Zuviria)",
+    "name5g": "FAVALORO, RENE DR. 3227 - PARQUE PATRICIOS",
+    "lat": -34.63871688059476,
+    "lon": -58.407294379876895,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque de los Patricios 3 (Zuviria)",
+    "name5g": "FAVALORO, RENE DR. 3227 - PARQUE PATRICIOS",
+    "lat": -34.63881256782678,
+    "lon": -58.4080956643063,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque de los Patricios 4 (Zuviria)",
+    "name5g": "FAVALORO, RENE DR. 3227 - PARQUE PATRICIOS",
+    "lat": -34.63869342613158,
+    "lon": -58.41016570716922,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Rivadavia 1 (Htal. Durand)",
+    "name5g": "RIVADAVIA AV. 4850 - CABALLITO",
+    "lat": -34.61792382334236,
+    "lon": -58.43320693097163,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Rivadavia 2 (Htal. Durand)",
+    "name5g": "RIVADAVIA AV. 4850 - CABALLITO",
+    "lat": -34.61792382334236,
+    "lon": -58.43320693097163,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Rivadavia 3(Htal. Durand)",
+    "name5g": "RIVADAVIA AV. 4850 - CABALLITO",
+    "lat": -34.61792382334236,
+    "lon": -58.43320693097163,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Saavedra 1 (Comuna 12)",
+    "name5g": "GARCIA DEL RIO 3350 - SAAVEDRA",
+    "lat": -34.55067682329773,
+    "lon": -58.47963927236322,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Saavedra 2 (Comuna 12)",
+    "name5g": "GARCIA DEL RIO 3350 - SAAVEDRA",
+    "lat": -34.55067682329773,
+    "lon": -58.47963927236322,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Saavedra 3 (Comuna 12)",
+    "name5g": "GARCIA DEL RIO 3350 - SAAVEDRA",
+    "lat": -34.55067682329773,
+    "lon": -58.47963927236322,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Saavedra 4 (Comuna 12)",
+    "name5g": "GARCIA DEL RIO 3350 - SAAVEDRA",
+    "lat": -34.55067682329773,
+    "lon": -58.47963927236322,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Saavedra 5 (Comuna 12)",
+    "name5g": "GARCIA DEL RIO 3350 - SAAVEDRA",
+    "lat": -34.55067682329773,
+    "lon": -58.47963927236322,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Saavedra 6  (Comuna 12)",
+    "name5g": "GARCIA DEL RIO 3350 - SAAVEDRA",
+    "lat": -34.55067682329773,
+    "lon": -58.47963927236322,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Parque Saavedra 7 (Comuna 12)",
+    "name5g": "GARCIA DEL RIO 3350 - SAAVEDRA",
+    "lat": -34.55067682329773,
+    "lon": -58.47963927236322,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Plaza Alem (Comuna 12)",
+    "name5g": "ZAMUDIO 5600 - VILLA PUEYRREDON",
+    "lat": -34.576330391428776,
+    "lon": -58.5032104215945,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Plaza Benito Nazar (Htal. Durand)",
+    "name5g": "OLAYA y ANTEZANA - VILLA CRESPO",
+    "lat": -34.60485365129399,
+    "lon": -58.445362693825146,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Plaza Malvinas (ED. LIBERTADOR)",
+    "name5g": "CABOTO 350 - BOCA",
+    "lat": -34.626880486645945,
+    "lon": -58.36059634309685,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Plaza Mariano Acosta (COMISARÍA 40)",
+    "name5g": "ACOSTA, MARIANO y ALVAREZ, CRISOSTOMO - FLORES",
+    "lat": -34.64978268788745,
+    "lon": -58.462796306657125,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Plaza República del Paraguay (Teatro SM)",
+    "name5g": "BARRIENTOS 1550 - RECOLETA",
+    "lat": -34.589317238290384,
+    "lon": -58.398491890794034,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Plaza Solis (ED. Libertador)",
+    "name5g": "SUAREZ 137 - BOCA",
+    "lat": -34.63448860039701,
+    "lon": -58.35519508203568,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Plaza Sudamerica (COMISARÍA 40)",
+    "name5g": "PIEDRA BUENA AV. 4950 - VILLA RIACHUELO",
+    "lat": -34.68830457409238,
+    "lon": -58.47505106255492,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Plaza Vicente López (Teatro SM)",
+    "name5g": "PARANA 1250 - RECOLETA",
+    "lat": -34.5938059152167,
+    "lon": -58.38931735868473,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Rosedal de Palermo 1 (Santa Fe)",
+    "name5g": "IRAOLA AV. e ISABEL, INFANTA AV. - PALERMO",
+    "lat": -34.57076165381533,
+    "lon": -58.41725658134256,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Rosedal de Palermo 2 (Santa Fe)",
+    "name5g": "IRAOLA AV. e ISABEL, INFANTA AV. - PALERMO",
+    "lat": -34.57116036658123,
+    "lon": -58.41704842853234,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Rosedal de Palermo 3 (Santa Fe)",
+    "name5g": "IRAOLA AV. e ISABEL, INFANTA AV. - PALERMO",
+    "lat": -34.5716304836117,
+    "lon": -58.41682836747214,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Rosedal de Palermo 4 (Santa Fe)",
+    "name5g": "IRAOLA AV. e ISABEL, INFANTA AV. - PALERMO",
+    "lat": -34.57201769905943,
+    "lon": -58.41650056201313,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Rosedal de Palermo 5 (Santa Fe)",
+    "name5g": "IRAOLA AV. e ISABEL, INFANTA AV. - PALERMO",
+    "lat": -34.57228491563895,
+    "lon": -58.41619637469599,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Rosedal de Palermo 6 (Santa Fe)",
+    "name5g": "IRAOLA AV. e ISABEL, INFANTA AV. - PALERMO",
+    "lat": -34.57226996900961,
+    "lon": -58.41555279805281,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "6650001 Rosedal de Palermo 7 (Santa Fe)",
+    "name5g": "IRAOLA AV. e ISABEL, INFANTA AV. - PALERMO",
+    "lat": -34.57202175598783,
+    "lon": -58.41488130846668,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "Plaza de las Toscaneras (Comuna 10)",
+    "name5g": "VARELA, JOSE PEDRO y MOLIERE - VILLA REAL",
+    "lat": -34.61671544402658,
+    "lon": -58.525245290124396,
+    "type": "Parques y Plazas",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-Acoyte-LAP1",
+    "name5g": "RIVADAVIA AV. y ACOYTE AV. - CABALLITO",
+    "lat": -34.618279061088415,
+    "lon": -58.436429891264105,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-Alberti-LAP2",
+    "name5g": "RIVADAVIA AV. y ALBERTI - BALVANERA",
+    "lat": -34.609832692615186,
+    "lon": -58.40121044219302,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-Carabobo-LAP2",
+    "name5g": "RIVADAVIA AV. 6350 - FLORES",
+    "lat": -34.62666559534529,
+    "lon": -58.456710244551964,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-CastroBarros-LAP4",
+    "name5g": "RIVADAVIA AV. y CASTRO BARROS AV. - ALMAGRO",
+    "lat": -34.61176939995313,
+    "lon": -58.421817696572774,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-Congreso-LAP1",
+    "name5g": "RIVADAVIA AV. 1850 - BALVANERA",
+    "lat": -34.60922477063858,
+    "lon": -58.39267209700128,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-Lima-LAP1",
+    "name5g": "LIMA y DE MAYO AV. - MONSERRAT",
+    "lat": -34.60909884479505,
+    "lon": -58.38223611431691,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-Loria-LAP1",
+    "name5g": "RIVADAVIA AV. y SANCHEZ DE LORIA - ALMAGRO",
+    "lat": -34.610780851367856,
+    "lon": -58.415188020650966,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-Pasco-LAP1",
+    "name5g": "RIVADAVIA AV. y PASCO - BALVANERA",
+    "lat": -34.60964506657075,
+    "lon": -58.39843001835313,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-Peru-LAP2",
+    "name5g": "PERU y DE MAYO AV. - MONSERRAT",
+    "lat": -34.608558085581826,
+    "lon": -58.37427177943849,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-Piedras-LAP4",
+    "name5g": "DE MAYO AV. y PIEDRAS - MONSERRAT",
+    "lat": -34.60888074907816,
+    "lon": -58.379089000656826,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-PJunta-LAP1",
+    "name5g": "RIVADAVIA AV. y BARCO CENTENERA DEL - CABALLITO",
+    "lat": -34.6204042816142,
+    "lon": -58.441178772033304,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-PlazaMiserere-LAP1",
+    "name5g": "RIVADAVIA AV. 2829 - BALVANERA",
+    "lat": -34.60981638710716,
+    "lon": -58.40670979270381,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-Puan-LAP1",
+    "name5g": "RIVADAVIA AV. y PUAN - CABALLITO",
+    "lat": -34.623527302076795,
+    "lon": -58.448649455604766,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-PzaMayo-LAP1",
+    "name5g": "BALCARCE y YRIGOYEN, HIPOLITO AV. - MONSERRAT",
+    "lat": -34.60880929908101,
+    "lon": -58.37097268930713,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-RioDeJaneiro_LAP4",
+    "name5g": "RIVADAVIA AV. y RIO DE JANEIRO - ALMAGRO",
+    "lat": -34.615204740442486,
+    "lon": -58.42950199987936,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-SaenzPena-LAP4",
+    "name5g": "RIVADAVIA AV. y SAENZ PEÑA, LUIS, PRES. - MONSERRAT",
+    "lat": -34.60941163979187,
+    "lon": -58.38678071351403,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-SJFlores-LAP5",
+    "name5g": "RIVADAVIA AV. 6950 - FLORES",
+    "lat": -34.6290862073064,
+    "lon": -58.46354065222514,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "A-SPedrito-LAP2",
+    "name5g": "RIVADAVIA AV. 7450 - FLORES",
+    "lat": -34.630706060553244,
+    "lon": -58.46963950198974,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Alem-LAP1",
+    "name5g": "CORRIENTES AV. y ALEM, LEANDRO N. AV. - SAN NICOLAS",
+    "lat": -34.602988614265,
+    "lon": -58.36993412575745,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Callao-LAP2",
+    "name5g": "CALLAO AV. y CORRIENTES AV. - BALVANERA",
+    "lat": -34.60441873707667,
+    "lon": -58.39231755670998,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Dorrego-LAP1",
+    "name5g": "DORREGO AV. y CORRIENTES AV. - CHACARITA",
+    "lat": -34.59171790789488,
+    "lon": -58.44757417574105,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Echeverria-LAP1",
+    "name5g": "TRIUNVIRATO AV. 4250 - VILLA URQUIZA",
+    "lat": -34.577797613246325,
+    "lon": -58.481013277799505,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-FLacroze-LAP2",
+    "name5g": "LACROZE, FEDERICO AV. y CORRIENTES AV. - CHACARITA",
+    "lat": -34.58719774686522,
+    "lon": -58.45503008770754,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Florida-LAP1",
+    "name5g": "CORRIENTES AV. y FLORIDA - SAN NICOLAS",
+    "lat": -34.60329642125254,
+    "lon": -58.37507557490588,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Gardel-LAP1",
+    "name5g": "CORRIENTES AV. y AGUERO - BALVANERA",
+    "lat": -34.604078814375725,
+    "lon": -58.41176510373515,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-LosIncas-LAP1",
+    "name5g": "DE LOS INCAS AV. y TRIUNVIRATO AV. - VILLA ORTUZAR",
+    "lat": -34.58124896974299,
+    "lon": -58.47424086083073,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Malabia-LAP2",
+    "name5g": "MALABIA y CORRIENTES AV. - VILLA CRESPO",
+    "lat": -34.59896691493091,
+    "lon": -58.43977285844418,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Medrano-LAP1",
+    "name5g": "MEDRANO AV. y CORRIENTES AV. - ALMAGRO",
+    "lat": -34.60316426400566,
+    "lon": -58.42096459307869,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Pasteur-LAP1",
+    "name5g": "CORRIENTES AV. y PASTEUR - BALVANERA",
+    "lat": -34.6046421920164,
+    "lon": -58.399477274825834,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Pellegrini-LAP1",
+    "name5g": "CORRIENTES AV. y PELLEGRINI, CARLOS - SAN NICOLAS",
+    "lat": -34.60363626062851,
+    "lon": -58.38071866341277,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Pueyrredon-LAP2",
+    "name5g": "PUEYRREDON AV. y CORRIENTES AV. - BALVANERA",
+    "lat": -34.604580309822104,
+    "lon": -58.40540220862433,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Rosas-LAP1",
+    "name5g": "TRIUNVIRATO AV. y MONROE - VILLA URQUIZA",
+    "lat": -34.57431959769704,
+    "lon": -58.48638449311671,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Tronador-LAP5",
+    "name5g": "TRONADOR y TRIUNVIRATO AV. - VILLA ORTUZAR",
+    "lat": -34.584094639687954,
+    "lon": -58.46622755654511,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "b-Uruguay-LAP1",
+    "name5g": "CORRIENTES AV. y URUGUAY - SAN NICOLAS",
+    "lat": -34.604092730256646,
+    "lon": -58.38729966906586,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "C-Av_Mayo-LAP5",
+    "name5g": "DE MAYO AV. e IRIGOYEN, BERNARDO DE - MONSERRAT",
+    "lat": -34.608982347870736,
+    "lon": -58.38061450046985,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "C-Constitucion-LAP4",
+    "name5g": "BRASIL y LIMA - CONSTITUCION",
+    "lat": -34.627618063975376,
+    "lon": -58.38143804863667,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "C-Diagonal-LAP1",
+    "name5g": "SARMIENTO y SAENZ PEÑA, ROQUE, PRES. DIAGONAL NORTE AV. - SAN NICOLAS",
+    "lat": -34.60484286205876,
+    "lon": -58.379533837695575,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "C-Independencia-LAP2",
+    "name5g": "IRIGOYEN, BERNARDO DE 850 - CONSTITUCION",
+    "lat": -34.618124421551606,
+    "lon": -58.38017734615887,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "C-Lavalle-LAP2",
+    "name5g": "ESMERALDA 488 - SAN NICOLAS",
+    "lat": -34.60176910856247,
+    "lon": -58.37815972031555,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "C-Moreno-LAP3",
+    "name5g": "IRIGOYEN, BERNARDO DE 350 - MONSERRAT",
+    "lat": -34.61261622907383,
+    "lon": -58.38044823324497,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "C-Retiro-LAP2",
+    "name5g": "RAMOS MEJIA, JOSE MARIA, DR. AV. y GILARDI, GILARDO - RETIRO",
+    "lat": -34.59119321488053,
+    "lon": -58.374022403816305,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "C-San_Juan-LAP3",
+    "name5g": "SAN JUAN AV. e IRIGOYEN, BERNARDO DE - CONSTITUCION",
+    "lat": -34.62191546671289,
+    "lon": -58.37992489812447,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "C-San_Martin-LAP3",
+    "name5g": "SANTA FE AV. y MAIPU - RETIRO",
+    "lat": -34.595056741763685,
+    "lon": -58.377823050545196,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-9dJulio-LAP2",
+    "name5g": "SAENZ PEÑA, ROQUE, PRES. DIAGONAL NORTE AV. 938 - SAN NICOLAS",
+    "lat": -34.60424434385433,
+    "lon": -58.38057816074682,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Aguero-LAP2",
+    "name5g": "SANTA FE AV. y AGUERO - RECOLETA",
+    "lat": -34.59162740214711,
+    "lon": -58.40716410730708,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Bulnes-LAP2",
+    "name5g": "SANTA FE AV. y BULNES - PALERMO",
+    "lat": -34.588236764337054,
+    "lon": -58.411296538562,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Callao-LAP5",
+    "name5g": "CORDOBA AV. 1750 - RECOLETA",
+    "lat": -34.59963885960584,
+    "lon": -58.39312850254379,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Catedral-LAP1",
+    "name5g": "BOLIVAR y DE MAYO AV. - SAN NICOLAS",
+    "lat": -34.6078013639001,
+    "lon": -58.37395987850956,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Congreso-LAP6",
+    "name5g": "CABILDO AV. y CONGRESO AV. - BELGRANO",
+    "lat": -34.55564241497491,
+    "lon": -58.46237912641265,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-FacMedicina-LAP4",
+    "name5g": "CORDOBA AV. 2150 - BALVANERA",
+    "lat": -34.599756408708274,
+    "lon": -58.39792687400384,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-J.Hernandez-LAP2",
+    "name5g": "CABILDO AV. y HERNANDEZ, JOSE - COLEGIALES",
+    "lat": -34.56621559971073,
+    "lon": -58.45212667764975,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Juramento-LAP4",
+    "name5g": "JURAMENTO AV. y CABILDO AV. - BELGRANO",
+    "lat": -34.56230955488594,
+    "lon": -58.45649005303584,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-MinistroCarranza-LAP1",
+    "name5g": "SANTA FE AV. 5351 - PALERMO",
+    "lat": -34.575178433662686,
+    "lon": -58.43501526473834,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Olleros-LAP3",
+    "name5g": "CABILDO AV. y OLLEROS - PALERMO",
+    "lat": -34.57001254234761,
+    "lon": -58.44466950955934,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Palermo-LAP5",
+    "name5g": "SANTA FE AV. y JUSTO, JUAN B. AV. - PALERMO",
+    "lat": -34.578421972901005,
+    "lon": -58.42571354086813,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-PlazaItalia-LAP3",
+    "name5g": "SANTA FE AV. y THAMES - PALERMO",
+    "lat": -34.581411053512305,
+    "lon": -58.42119827878136,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Pueyrredon",
+    "name5g": "SANTA FE AV. y PUEYRREDON AV. - RECOLETA",
+    "lat": -34.59442518997953,
+    "lon": -58.402398310554936,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Scalabrini-LAP2",
+    "name5g": "SANTA FE AV. y SCALABRINI ORTIZ, RAUL - PALERMO",
+    "lat": -34.58515146771456,
+    "lon": -58.41595608230259,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "D-Tribunales-LAP3",
+    "name5g": "TUCUMAN y TALCAHUANO - SAN NICOLAS",
+    "lat": -34.601586388942174,
+    "lon": -58.38514600302586,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Av_La_Plata-LAP2",
+    "name5g": "SAN JUAN AV. y LA PLATA AV. - PARQUE CHACABUCO",
+    "lat": -34.62701431435793,
+    "lon": -58.4267907291058,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Belgrano-LAP3",
+    "name5g": "BELGRANO AV. y PIEDRAS - MONSERRAT",
+    "lat": -34.61284896033515,
+    "lon": -58.37758920360448,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Boedo-LAP4",
+    "name5g": "SAN JUAN AV. 3640 - BOEDO",
+    "lat": -34.62536493574887,
+    "lon": -58.41553501168498,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Bolivar-LAP1",
+    "name5g": "BOLIVAR y ROCA, JULIO A., PRESIDENTE DIAGONAL SUR AV. - MONSERRAT",
+    "lat": -34.60924142215441,
+    "lon": -58.37368829690774,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Catalinas-Lap1",
+    "name5g": "ALEM, LEANDRO N. AV. y BUTTY, ENRIQUE, ING. - RETIRO",
+    "lat": -34.596596091029745,
+    "lon": -58.371704579539134,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Correo-Lap4",
+    "name5g": "SARMIENTO y ALEM, LEANDRO N. AV. - SAN NICOLAS",
+    "lat": -34.60301302535039,
+    "lon": -58.370416756181186,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Emilio_Mitre_LAP5",
+    "name5g": "MITRE, EMILIO y PERON, EVA AV. - PARQUE CHACABUCO",
+    "lat": -34.63104067307457,
+    "lon": -58.4421717346201,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Entre_Rios-LAP1",
+    "name5g": "ENTRE RIOS AV. y SAN JUAN AV. - SAN CRISTOBAL",
+    "lat": -34.622718438900634,
+    "lon": -58.39151492466531,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-GeneralUrquiza-LAP3",
+    "name5g": "SAN JUAN AV. y PRUDAN, MANUEL SILVESTRE, TTE. - SAN CRISTOBAL",
+    "lat": -34.62465260251506,
+    "lon": -58.409393240283386,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Independencia-LAP3",
+    "name5g": "LIMA 850 - CONSTITUCION",
+    "lat": -34.617936227173786,
+    "lon": -58.381538621328296,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Jujuy-LAP2",
+    "name5g": "SAN JUAN AV. 2730 - SAN CRISTOBAL",
+    "lat": -34.623864514044406,
+    "lon": -58.4029393149266,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Medalla_Milagrosa-LAP2",
+    "name5g": "PERON, EVA AV. y PUMACAHUA - PARQUE CHACABUCO",
+    "lat": -34.636387938053765,
+    "lon": -58.450278904685426,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Pichincha-LAP5",
+    "name5g": "SAN JUAN AV. 2250 - SAN CRISTOBAL",
+    "lat": -34.623108656798266,
+    "lon": -58.39707106223338,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Plaza_De_Los_Virreyes-LAP1",
+    "name5g": "PERON, EVA AV. y LAFUENTE AV. - FLORES",
+    "lat": -34.64331080894085,
+    "lon": -58.46165188052673,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Retiro-Lap9",
+    "name5g": "DEL LIBERTADOR AV. 109 - RETIRO",
+    "lat": -34.59211375641818,
+    "lon": -58.375853940988264,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "E-Varela-LAP1",
+    "name5g": "VARELA AV. y RECUERO, CASIMIRO, TTE. CNEL. - FLORES",
+    "lat": -34.640136052820566,
+    "lon": -58.457892056040365,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-Caseros-LAP1",
+    "name5g": "CASEROS AV. y JUJUY AV. - PARQUE PATRICIOS",
+    "lat": -34.63574869190402,
+    "lon": -58.39893040405665,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-Cordoba-LAP3",
+    "name5g": "CORDOBA AV. y PUEYRREDON AV. - BALVANERA",
+    "lat": -34.59845449773642,
+    "lon": -58.403724379756866,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-Corrientes-LAP3",
+    "name5g": "CORRIENTES AV. y PUEYRREDON AV. - BALVANERA",
+    "lat": -34.60448945839986,
+    "lon": -58.40545309576945,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-Facultad-LAP1",
+    "name5g": "FIGUEROA ALCORTA, PRES. AV. y GONZALEZ, JULIO VICTOR - RECOLETA",
+    "lat": -34.58303601541507,
+    "lon": -58.391022355436334,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-Hospitales-LAP1",
+    "name5g": "LOS PATOS y ALMAFUERTE AV. - PARQUE PATRICIOS",
+    "lat": -34.64126739478944,
+    "lon": -58.41238736270169,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-Inclan-LAP6",
+    "name5g": "JUJUY AV. 1650 - PARQUE PATRICIOS",
+    "lat": -34.62937432465031,
+    "lon": -58.4009723342118,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-LasHeras-LAP3",
+    "name5g": "PUEYRREDON AV. y LAS HERAS GENERAL AV. - RECOLETA",
+    "lat": -34.58746075684796,
+    "lon": -58.39722204611406,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-Once-LAP3",
+    "name5g": "PUEYRREDON AV. y MITRE, BARTOLOME - BALVANERA",
+    "lat": -34.608934399896654,
+    "lon": -58.40603909181973,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-ParquePatricios-LAP1",
+    "name5g": "PATAGONES y MONTEAGUDO - PARQUE PATRICIOS",
+    "lat": -34.6384044727984,
+    "lon": -58.40579733597817,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-SantaFe-LAP3",
+    "name5g": "SANTA FE AV. y PUEYRREDON AV. - RECOLETA",
+    "lat": -34.59452486520369,
+    "lon": -58.402379143150554,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "H-Venezuela-LAP2",
+    "name5g": "JUJUY AV. 480 - BALVANERA",
+    "lat": -34.615241160289706,
+    "lon": -58.40473443716636,
+    "type": "Subte",
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "25 de Mayo y Av. España",
+    "name5g": null,
+    "lat": -31.53266746631973,
+    "lon": -68.53700633551072,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Museo de la Memoria Urbana",
+    "name5g": null,
+    "lat": -31.530779549229862,
+    "lon": -68.54289459683201,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Estación Córdoba",
+    "name5g": null,
+    "lat": -31.542006409949547,
+    "lon": -68.53656014158454,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Casa de Sarmiento",
+    "name5g": null,
+    "lat": -31.53469240196985,
+    "lon": -68.5289885446547,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Estadio Aldo Cantoni",
+    "name5g": null,
+    "lat": -31.53217317050085,
+    "lon": -68.544779914683765,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Parque de Mayo",
+    "name5g": null,
+    "lat": -31.533804961671702,
+    "lon": -68.54046521706003,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Paseo La Calle",
+    "name5g": "Parque Infantil",
+    "lat": -31.45999872627584,
+    "lon": -69.42197674776197,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza 25 de Mayo",
+    "name5g": null,
+    "lat": -31.537312793957415,
+    "lon": -68.52492192012309,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza Benita Molina",
+    "name5g": null,
+    "lat": -30.21360642437197,
+    "lon": -69.14141078894794,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza Desamparados",
+    "name5g": null,
+    "lat": -31.52689423058347,
+    "lon": -68.56668131185164,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza Italia",
+    "name5g": null,
+    "lat": -31.53480408261094,
+    "lon": -68.55071239694006,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza Jachal",
+    "name5g": null,
+    "lat": -31.570035850085713,
+    "lon": -68.54557817229329,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza Juan Jufré",
+    "name5g": null,
+    "lat": -31.523043241750766,
+    "lon": -68.52365895436148,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza Laprida",
+    "name5g": null,
+    "lat": -31.534886542861532,
+    "lon": -68.53117725823365,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza Pocito",
+    "name5g": null,
+    "lat": -31.65771483865212,
+    "lon": -68.57903393588947,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza Tamberías",
+    "name5g": "Tamberías",
+    "lat": -31.458583009178685,
+    "lon": -69.42161761771975,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza Trinidad",
+    "name5g": null,
+    "lat": -31.552271054511102,
+    "lon": -68.52231305893523,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plaza Patricias Sanjuaninas",
+    "name5g": "Villa Calingasta",
+    "lat": -31.334486710855955,
+    "lon": -69.42076665274128,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Plazoleta Zonda",
+    "name5g": "Zonda",
+    "lat": -31.55021085096289,
+    "lon": -68.73135374739827,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Punta Negra",
+    "name5g": "Dique",
+    "lat": -31.528611915910876,
+    "lon": -68.83653859521878,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Teatro del Bicentenario",
+    "name5g": "Teatro",
+    "lat": -31.53992031941098,
+    "lon": -68.53765066437447,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Aduana",
+    "name5g": "Aduana Iglesia",
+    "lat": -30.327863678119922,
+    "lon": -69.23616148310163,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Escuela Juan José Ignacio F. de Maradona",
+    "name5g": "Balde del Rosario",
+    "lat": -30.322065702979522,
+    "lon": -67.69672344031525,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Escuela República Argentina",
+    "name5g": "Bermejo",
+    "lat": -31.58909149570437,
+    "lon": -67.66056456803842,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Escuela Hilario Ascasubi",
+    "name5g": "Colanguil",
+    "lat": -30.031360311602132,
+    "lon": -69.29145323965592,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Escuela Paso de los Andes",
+    "name5g": "Malimán de Abajo",
+    "lat": -29.958907050680622,
+    "lon": -69.17908266735691,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Escuela Hipólito Buchardo",
+    "name5g": "Mogna",
+    "lat": -30.694225057626614,
+    "lon": -68.36135035889087,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Parque Ischigualasto",
+    "name5g": "Ischigualasto",
+    "lat": -30.163726724265448,
+    "lon": -67.84318042004018,
+    "type": "San Juan Innova",
+    "location": "San Juan"
+  },
+  {
+    "name": "Escuela Franklin Rawson",
+    "name5g": null,
+    "lat": -31.571911108613268,
+    "lon": -68.57524666314305,
+    "type": "San Juan Innova",
+    "location": "San Juan"
   },
   {
     "name": "Barcelona-Wifi (Pl. de Catalunya - Rda. Sant Pere)",
@@ -43045,5 +48093,170 @@
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": null,
     "location": "Madrid"
+  },
+  {
+    "name": "SQUARE MAURICE GARDETTE",
+    "MAC": null,
+    "name5g": "RUE LACHARRIERE 75011 PARIS France",
+    "MAC55": null,
+    "lat": 48.860935651866896,
+    "lon": 2.375660711152797,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "MAIRIE D'ARRONDISSEMENT 1er - BIBLIOTHEQUE LOUVRE",
+    "MAC": null,
+    "name5g": "4, PLACE DU LOUVRE 75001",
+    "MAC55": null,
+    "lat": 48.86002295247616,
+    "lon": 2.3410407169108445,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "SQUARE ORILLON JULES VERNES",
+    "MAC": null,
+    "name5g": "19 BIS, RUE DE L ORILLON 75011",
+    "MAC55": null,
+    "lat": 48.869952803427374,
+    "lon": 2.375422227302904,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "MAIRIE D'ARRONDISSEMENT 2e",
+    "MAC": null,
+    "name5g": "8, RUE DE LA BANQUE 75002",
+    "MAC55": null,
+    "lat": 48.866873545399294,
+    "lon": 2.3404607695946953,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "ACTIVITES ARTISANALES ET CREATION",
+    "MAC": null,
+    "name5g": "30, RUE DU FAUBOURG SAINT ANTOINE 75012",
+    "MAC55": null,
+    "lat": 48.85244222596271,
+    "lon": 2.3716670622952765,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "BIBLIOTHEQUE HELENE BERR - PICPUS 2",
+    "MAC": null,
+    "name5g": "70, RUE DE PICPUS 75012",
+    "MAC55": null,
+    "lat": 48.8425735811292,
+    "lon": 2.3974447340567213,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "CENTRE D'HEBERGEMENT MAURICE RAVEL",
+    "MAC": null,
+    "name5g": "6, AVENUE MAURICE RAVEL 75012",
+    "MAC55": null,
+    "lat": 48.84157285052319,
+    "lon": 2.4116867499595562,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "DSTI",
+    "MAC": null,
+    "name5g": "227, RUE DE BERCY 75012",
+    "MAC55": null,
+    "lat": 48.84647580623722,
+    "lon": 2.3697884027309386,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "MAIRIE D'ARRONDISSEMENT 5e",
+    "MAC": null,
+    "name5g": "21, PLACE DU PANTHEON 75005",
+    "MAC55": null,
+    "lat": 48.846215890141316,
+    "lon": 2.3445443824996133,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "MAIRIE D'ARRONDISSEMENT 6e",
+    "MAC": null,
+    "name5g": "78, RUE BONAPARTE 75006",
+    "MAC55": null,
+    "lat": 48.85059403629957,
+    "lon": 2.332593073917884,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "SQUARE PAUL LANGEVIN",
+    "MAC": null,
+    "name5g": "RUE DES ECOLES 75005",
+    "MAC55": null,
+    "lat": 48.848025946319055,
+    "lon": 2.350412775420885,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "JARDIN FLOTTANT",
+    "MAC": null,
+    "name5g": "Berges de Seine Rive Gauche Port du Gros Caillou",
+    "MAC55": null,
+    "lat": 48.8629187352488,
+    "lon": 2.30410803210179935,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "DISCOTHEQUE DES HALLES",
+    "MAC": null,
+    "name5g": "8, PORTE SAINT EUSTACHE 75001",
+    "MAC55": null,
+    "lat": 48.86279441418658,
+    "lon": 2.3453195272425456,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "BIBLIOTHEQUE FRANCOIS TRUFFAUT",
+    "MAC": null,
+    "name5g": "101, RUE BERGER 75001",
+    "MAC55": null,
+    "lat": 48.86267272454399,
+    "lon": 2.3440602603915637,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
+  },
+  {
+    "name": "MAISON DES ASSOCIATIONS DU 02",
+    "MAC": null,
+    "name5g": "23, RUE GRENETA 75002",
+    "MAC55": null,
+    "lat": 48.86516158262107,
+    "lon": 2.3510103892860568,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Francia"
   }
 ]
