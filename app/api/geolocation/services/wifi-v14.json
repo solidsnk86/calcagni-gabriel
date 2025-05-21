@@ -582,7 +582,9 @@
   },
   {
     "name": "GobSL-CO-10",
-    "name5g": "GobSL-CO-10",
+    "MAC": "7C 57 3C 6C F4 81",
+    "name5g": "WiFi3.0-CO-10",
+    "MAC55": "7C 57 3C 6C F4 90",
     "lat": -32.55293,
     "lon": -65.25184,
     "type": "2Ghz.",
