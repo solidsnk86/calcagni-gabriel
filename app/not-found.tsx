@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-export default function Page404() {
+export default function NotFound() {
   return (
     <div className="px-8 justify-center mx-auto mt-20 reflection-404">
       <header>
