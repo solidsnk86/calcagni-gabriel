@@ -42,7 +42,7 @@ export class SupabaseModel {
   public static async getLastVisits() {
     try {
       const response = await fetch(
-        'https://supabase-rest-api.vercel.app/supabase/optional/?from=profile_visits&select=city,province,country,flag,created_at&limit=1&order=created_at',
+        'https://supabase-rest-api.vercel.app/supabase/optional/?from=profile_visits&select=ip,city,province,country,flag,created_at&limit=1&order=created_at',
         {
           method: 'GET',
           mode: 'cors',

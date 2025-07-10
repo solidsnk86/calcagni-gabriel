@@ -10,6 +10,7 @@ import { Section_4 } from './main-section/Section-4';
 import { useCallback, useEffect, useState } from 'react';
 import { Section_5 } from './main-section/Section-5';
 import { SupabaseModel } from '@/app/models/SupabaseModel';
+import { showDialog } from '@/utils/dialog';
 
 export default function Main() {
   const mobile = useMatchMedia('(max-width: 700px)', true);
@@ -52,6 +53,17 @@ export default function Main() {
   useEffect(() => {
     fetchLastVisits();
   }, []);
+
+  if (lastVisit.ip === '188.192.167.115') {
+    showDialog({
+      content: (
+        <div className="p-5">
+          <h3>Hallo Toti! Wie geht es dir?</h3>
+          <p>Ich hoffe, du hast einen großartigen Tag!</p>
+        </div>
+      ),
+    });
+  }
 
   return (
     isClient && (
