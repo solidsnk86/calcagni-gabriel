@@ -18,14 +18,20 @@ export const Section_4 = ({ className }: { className?: string }) => {
   }
 
   const closeDialogWithAnimation = () => {
+    const controller = new AbortController();
     const dialog = document.querySelector('dialog');
     if (dialog) {
       dialog.style.animation = 'slideOutEffect 300ms ease-in-out';
 
-      dialog.addEventListener('animationend', () => {
-        dialog.close();
-        dialog.remove();
-      });
+      dialog.addEventListener(
+        'animationend',
+        () => {
+          dialog.close();
+          dialog.remove();
+          controller.abort();
+        },
+        { signal: controller.signal }
+      );
     }
   };
 
