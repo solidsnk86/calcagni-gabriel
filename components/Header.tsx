@@ -10,6 +10,7 @@ import { Section_1 } from '@/components/header-components/Section-1';
 import { useCallback, useEffect, useState } from 'react';
 import { GetLocation } from '@/utils/get-location';
 import { SupabaseModel } from '@/app/models/SupabaseModel';
+import { showDialog } from '@/utils/dialog';
 
 export default function Header() {
   const isClient = useIsClient();
@@ -24,6 +25,25 @@ export default function Header() {
 
     return () => clearTimeout(timer);
   }, [mobile]);
+
+  const checkIp = async () => {
+    const currentIP = await GetLocation.ip();
+    if (currentIP === '188.192.167.115') {
+      showDialog({
+        content: (
+          <div className="p-5">
+            <h3>Hallo Toti! Wie geht es dir?</h3>
+            <p>Ich hoffe, es geht Ihnen gut!</p>
+            <p>Kann ich etwas für Sie tun?</p>
+          </div>
+        ),
+      });
+    }
+  };
+
+  useEffect(() => {
+    checkIp();
+  }, []);
 
   const sendDataLocation = useCallback(async () => {
     const objectData = {
