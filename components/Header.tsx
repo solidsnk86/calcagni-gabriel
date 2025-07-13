@@ -10,7 +10,8 @@ import { Section_1 } from '@/components/header-components/Section-1';
 import { useCallback, useEffect, useState } from 'react';
 import { GetLocation } from '@/utils/get-location';
 import { SupabaseModel } from '@/app/models/SupabaseModel';
-import { showDialog } from '@/utils/dialog';
+import { closeDialog, showDialog } from '@/utils/dialog';
+import { X } from 'lucide-react';
 
 export default function Header() {
   const isClient = useIsClient();
@@ -32,9 +33,18 @@ export default function Header() {
       showDialog({
         content: (
           <div className="p-5">
-            <h3>Hallo Toti! Wie geht es dir?</h3>
-            <p>Ich hoffe, es geht Ihnen gut!</p>
-            <p>Kann ich etwas für Sie tun?</p>
+            <X
+              className="absolute top-2 right-2 hover:bg-zinc-700/50 rounded-md"
+              onClick={closeDialog}
+              aria-label="Cerrar Dialogo"
+            />
+            <h3 className="font-semibold mb-2">
+              Hallo Toti 👋! Wie geht es dir?
+            </h3>
+            <p>
+              Ich hoffe, es geht Ihnen gut! Kann ich etwas für Sie tun? Schick
+              mir eine WhatsApp..
+            </p>
           </div>
         ),
       });
