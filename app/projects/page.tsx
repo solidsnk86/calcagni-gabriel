@@ -24,23 +24,6 @@ export default function Works() {
     return () => clearTimeout(timer);
   }, [mobile]);
 
-  const mixItems = async () => {
-    const grid = document.querySelector('.grid');
-
-    function shuffleItems(items) {
-      return Array.from(items)
-        .map((value) => ({ value, sort: Math.random() }))
-        .sort((a, b) => a.sort - b.sort)
-        .map(({ value }) => value);
-    }
-
-    const shuffledItems = shuffleItems(grid.children);
-
-    await document.startViewTransition(() => {
-      grid.replaceChildren(...shuffledItems);
-    });
-  };
-
   return (
     isClient && (
       <AnimatedLayout>
@@ -70,11 +53,8 @@ export default function Works() {
                       href={proyect.url}
                       link={proyect.name}
                       repoName={proyect.repoName}
-                      linkName={`https://github.com/solidsnk86/${proyect.repoName}`}
-                      data-item={index}
-                      style={{ viewTransitionName: `item${index}` }}
                       techs={proyect.techs}
-                      className={`item item${index} relative group p-3 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl text-left border border-foreground/5 work-icon-hover grayscale hover:grayscale-0 transition-all duration-500`}
+                      className={`item relative group p-3 bg-zinc-900/50 hover:bg-btn-background-hover text-white rounded-xl text-left border border-foreground/5 work-icon-hover grayscale hover:grayscale-0 transition-all duration-500`}
                     >
                       <Image
                         src={proyect.image}

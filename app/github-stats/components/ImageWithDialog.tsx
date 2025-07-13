@@ -37,7 +37,7 @@ export const ImageWithDialog: React.FC<Partial<ImageWithDialogProps>> = ({
                 className="absolute top-2 right-2 dark:bg-zinc-800 hover:bg-zinc-700 cursor-pointer rounded-md"
                 onClick={closeDialog}
               />
-              <main className="pt-6">{children}</main>
+              <article className="pt-6">{children}</article>
               <div className="flex w-full gap-2 mt-2 overflow-x-auto">
                 {techs?.map((item) => (
                   <div className="grid grid-cols-[repeat(auto-fill,minmax(90px,1fr))]">
