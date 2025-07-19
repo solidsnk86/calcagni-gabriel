@@ -55,7 +55,7 @@ Características:
 - Renderización automática en la galería principal
 
 <div>
-<img src="public/profile-pic-section.png" width="100%" heigt="600" />
+<img src="https://raw.githubusercontent.com/solidsnk86/calcagni-gabriel/master/public/profile-pic-section.png" width="100%" heigt="600" />
 </div>
 
 ## Clonar y Usar este Proyecto
