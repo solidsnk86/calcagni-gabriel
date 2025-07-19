@@ -1,9 +1,4 @@
-<div align="center">
-
-| Portfolio Personal MGC |
-| ---------------------- |
-
-</div>
+# Portfolio Personal MGC
 
 Este es mi portafolio personal y está desarrollado con **Next.js**, **Supabase** y **TypeScript**. Aquí presento las principales características:
 
