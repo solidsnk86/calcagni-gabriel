@@ -54,6 +54,10 @@ export default function RootLayout({
   return (
     <html lang="es" className={GeistSans.className}>
       <meta name="theme-color" content="#A78BFA" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
+      />
       <body className="bg-background text-foreground">
         <main className="min-h-screen flex flex-col items-center">
           {children}
