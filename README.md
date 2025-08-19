@@ -104,8 +104,8 @@ pnpm run dev
    Asegúrate de configurar tus credenciales de Supabase en un archivo .env.local como se muestra a continuación:
 
 ```bash
-NEXT_PUBLIC_SUPABASE_URL=tu-supabase-url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=tu-supabase-anon-key
+SUPABASE_URL=tu-supabase-url
+SUPABASE_ANON_KEY=tu-supabase-anon-key
 ```
 
 5. Versión de Next.js

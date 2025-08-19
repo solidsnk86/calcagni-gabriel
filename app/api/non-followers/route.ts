@@ -4,7 +4,7 @@ import getGithubGraphql from '@/utils/get-github-graphql';
 
 export async function GET(req: NextRequest) {
   const user = req.nextUrl.searchParams.get('user');
-  const TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
+  const TOKEN = process.env.GITHUB_TOKEN;
 
   if (!user) {
     return Response.json(
