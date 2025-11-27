@@ -48260,5 +48260,192 @@
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": null,
     "location": "Francia"
+  },
+  {
+    "name": "Parque O'Higgins",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.459836714795635,
+    "lon": -70.65867796930951,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Quinta Normal",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.44269068223023, 
+    "lon": -70.67982075837284,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza Yungay",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.437014548049625, 
+    "lon": -70.67356833970874,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza Yungay",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.44015596995431, 
+    "lon": -70.66534215589294,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza Brasil",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.44015596995431, 
+    "lon": -70.66534215589294,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza Sor Teressa de Los Andes",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.43861681495932, 
+    "lon": -70.65828166842343,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza Manuel Rodríguez",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.45129979589906,
+    "lon": -70.6647052768847,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Parque Almagro",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.451978401467194,
+    "lon": -70.65341898143879,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Tarapacá esq. Paseo Bulnes",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.447597184342214,
+    "lon": -70.65307226230193,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza de la Constitución",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.441246328830346,
+    "lon": -70.65466819726082,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza de la Constitución",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.44038053641983,
+    "lon": -70.64728150747004,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza Mekis",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.44038053641983,
+    "lon": -70.64728150747004,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza Benjamín Vicuña Mackena",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.441516765664424,
+    "lon": -70.64521147274316,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "José Miguel de la Barra con Miguel Caro",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.4348555767637,
+    "lon": -70.64265861739024,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza Huemul",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.47453179601975,
+    "lon": -70.6513621050731,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza Hermanos Matte",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.475310991873116,
+    "lon": -70.6494646346838,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
+  },
+  {
+    "name": "Plaza Bogotá",
+    "MAC": null,
+    "name5g": null,
+    "MAC55": null,
+    "lat": -33.46699517263118,
+    "lon": -70.63420469281141,
+    "type": "Dual Band 2.4Ghz | 5Ghz",
+    "users": null,
+    "location": "Chile"
   }
 ]
