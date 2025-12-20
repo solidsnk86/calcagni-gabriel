@@ -20786,6 +20786,246 @@
     "location": "Córdoba"
   },
   {
+    "name": "Costanera Este",
+    "name5g": "GSF WiFi - Costanera Este",
+    "lat": -31.6385,
+    "lon": -60.6925,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "Costanera Oeste - Puente Colgante/Faro",
+    "name5g": "GSF WiFi - Costanera Oeste",
+    "lat": -31.6377,
+    "lon": -60.6970,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "Parque Locomotora",
+    "name5g": "GSF WiFi - Parque Locomotora",
+    "lat": -31.6258,
+    "lon": -60.6942,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "Monumento a Monzón",
+    "name5g": "GSF WiFi - Monumento a Monzón",
+    "lat": -31.6133,
+    "lon": -60.6865,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "La Rotonda",
+    "name5g": "GSF WiFi - La Rotonda Costanera",
+    "lat": -31.6050,
+    "lon": -60.6830,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "Parque Garay",
+    "name5g": "GSF WiFi - Parque Garay",
+    "lat": -31.6480,
+    "lon": -60.7250,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "Parque Sur - Anfiteatro/Skate",
+    "name5g": "GSF WiFi - Parque Sur",
+    "lat": -31.6620,
+    "lon": -60.7180,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "Parque Federal",
+    "name5g": "GSF WiFi - Parque Federal",
+    "lat": -31.6230,
+    "lon": -60.7060,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "La Redonda",
+    "name5g": "GSF WiFi - La Redonda",
+    "lat": -31.6185,
+    "lon": -60.7085,
+    "type": "Edificio Público/Cultural",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "El Molino Fábrica Cultural",
+    "name5g": "GSF WiFi - El Molino",
+    "lat": -31.6360,
+    "lon": -60.7030,
+    "type": "Edificio Público/Cultural",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "La Esquina Encendida",
+    "name5g": "GSF WiFi - La Esquina Encendida",
+    "lat": -31.5990,
+    "lon": -60.6995,
+    "type": "Edificio Público/Cultural",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "Plaza España",
+    "name5g": "GSF WiFi - Plaza España",
+    "lat": -31.6445,
+    "lon": -60.7105,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "Plaza Colón",
+    "name5g": "GSF WiFi - Plaza Colón",
+    "lat": -31.6440,
+    "lon": -60.7020,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "Plaza de las Banderas",
+    "name5g": "GSF WiFi - Plaza de las Banderas",
+    "lat": -31.6335,
+    "lon": -60.6860,
+    "type": "Espacio Público",
+    "location": "Santa Fe"
+  },
+  {
+    "name": "Parque de las Colectividades",
+    "name5g": "GSF WiFi - Parque de las Colectividades",
+    "lat": -32.9320,
+    "lon": -60.6480,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Parque de España",
+    "name5g": "GSF WiFi - Parque de España",
+    "lat": -32.9390,
+    "lon": -60.6380,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Centro de la Juventud/CEC",
+    "name5g": "GSF WiFi - CEC y Galpones",
+    "lat": -32.9430,
+    "lon": -60.6340,
+    "type": "Espacio Público/Cultural",
+    "location": "Rosario"
+  },
+  {
+    "name": "Parque Urquiza",
+    "name5g": "GSF WiFi - Parque Urquiza",
+    "lat": -32.9550,
+    "lon": -60.6300,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Parque Rodríguez",
+    "name5g": "GSF WiFi - Parque Rodríguez",
+    "lat": -32.9455,
+    "lon": -60.6650,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Parque de la Independencia",
+    "name5g": "GSF WiFi - Parque Independencia",
+    "lat": -32.9550,
+    "lon": -60.6550,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Parque Yrigoyen",
+    "name5g": "GSF WiFi - Parque Yrigoyen",
+    "lat": -32.9800,
+    "lon": -60.6350,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Parque Oeste",
+    "name5g": "GSF WiFi - Parque Oeste",
+    "lat": -32.9520,
+    "lon": -60.6900,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Parque Ottone",
+    "name5g": "GSF WiFi - Parque Ottone",
+    "lat": -32.9250,
+    "lon": -60.6950,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Parque Alem",
+    "name5g": "GSF WiFi - Parque Alem",
+    "lat": -32.9100,
+    "lon": -60.6750,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Parque Nacional a la Bandera",
+    "name5g": "GSF WiFi - Monumento a la Bandera",
+    "lat": -32.9475,
+    "lon": -60.6330,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Plaza Luzuriaga",
+    "name5g": "GSF WiFi - Plaza Luzuriaga",
+    "lat": -32.9200,
+    "lon": -60.6800,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Plaza Che Guevara",
+    "name5g": "GSF WiFi - Plaza Che Guevara",
+    "lat": -32.9650,
+    "lon": -60.6450,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Plaza República de la Sexta",
+    "name5g": "GSF WiFi - Plaza República de la Sexta",
+    "lat": -32.9620,
+    "lon": -60.6320,
+    "type": "Espacio Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Ciudad Universitaria (La Siberia)",
+    "name5g": "GSF WiFi - La Siberia UNR",
+    "lat": -32.9680,
+    "lon": -60.6250,
+    "type": "Educativo/Público",
+    "location": "Rosario"
+  },
+  {
+    "name": "Balneario La Florida",
+    "name5g": "GSF WiFi - La Florida",
+    "lat": -32.8950,
+    "lon": -60.6850,
+    "type": "Espacio Público/Playa",
+    "location": "Rosario"
+  },
+  {
     "name": "Dirección de Educación de la Municipalidad",
     "state": "Conectado",
     "type": "Buenos Aires 763",
