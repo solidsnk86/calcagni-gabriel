@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { footerRoutes } from './constants';
+import { useEffect, useState } from 'react';
 
 export const Footer = ({
   className,
@@ -10,7 +11,12 @@ export const Footer = ({
   className?: string;
   user?: boolean;
 }) => {
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <footer
@@ -30,7 +36,7 @@ export const Footer = ({
             key={index}
             href={link.link}
             className={`hover:opacity-60 transition-all duration-300 h-full ${
-              pathname === link.link
+              mounted && pathname === link.link
                 ? 'bg-violet-400/60 rounded-full px-2 py-1 md:py-0 md:px-0 md:bg-transparent md:text-violet-400 text-foreground'
                 : ''
             }`}

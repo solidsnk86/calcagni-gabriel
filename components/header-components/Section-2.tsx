@@ -1,6 +1,5 @@
 import React from 'react';
 import { Eye, Flag, Sparkles } from 'lucide-react';
-import Masonry from 'react-responsive-masonry';
 import { Loader } from '../Loader';
 
 export const Section_2 = ({
@@ -47,13 +46,13 @@ export const Section_2 = ({
   ];
 
   return (
-    <Masonry className="flex" gutter="0.8rem">
+    <div className={`grid grid-cols-3 gap-2 md:gap-3 ${className}`}>
       {sections.map((section, index) => {
         const SectionIcon = section.icon;
         return (
           <section
             key={index}
-            className={`flex items-center justify-center border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl overflow-hidden ${className}`}
+            className="flex items-center justify-center border border-foreground/5 bg-zinc-900/50 p-6 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col items-center text-center w-full">
               <h1 className="text-5xl font-bold text-white flex items-center">
@@ -75,6 +74,6 @@ export const Section_2 = ({
           </section>
         );
       })}
-    </Masonry>
+    </div>
   );
 };

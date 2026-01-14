@@ -96,7 +96,7 @@ export const Section_4 = ({ className }: { className?: string }) => {
             </p>
           )}
           <h3 className="text-white text-lg font-bold">Calcagni Gabriel</h3>
-          <p className="text-zinc-400 text-sm">Desarrollador Front End</p>
+          <p className="text-zinc-400 text-sm">Desarrollador Full Stack</p>
         </aside>
         <div
           className="absolute group right-6 top-6 px-2 py-2 bg-[#131315] hover:bg-btn-background-hover rounded-md hover:shadow-md"
