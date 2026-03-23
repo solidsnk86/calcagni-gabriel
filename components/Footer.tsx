@@ -20,13 +20,13 @@ export const Footer = ({
 
   return (
     <footer
-      className={`w-full p-8 justify-around text-center text-base text-zinc-400 flex ${className} items-center`}
+      className={`w-full px-8 justify-around text-center text-base text-zinc-400 flex ${className} items-center`}
     >
       <a
         href="https://github.com/solidsnk86"
         target="_blank"
         rel="noreferrer"
-        className="md:flex hover:brightness-150 transition-all duration-300"
+        className="md:flex hover:brightness-150 transition-all duration-300 md:ml-3"
       >
         SolidSnk86 &copy; 2024
       </a>
@@ -35,11 +35,10 @@ export const Footer = ({
           <Link
             key={index}
             href={link.link}
-            className={`hover:opacity-60 transition-all duration-300 h-full ${
-              mounted && pathname === link.link
-                ? 'bg-violet-400/60 rounded-full px-2 py-1 md:py-0 md:px-0 md:bg-transparent md:text-violet-400 text-foreground'
-                : ''
-            }`}
+            className={`hover:opacity-60 transition-all duration-300 h-full ${mounted && pathname === link.link
+              ? 'bg-violet-400/60 rounded-full px-2 py-1 md:py-0 md:px-0 md:bg-transparent md:text-violet-400 text-foreground'
+              : ''
+              }`}
           >
             {link.name}
           </Link>

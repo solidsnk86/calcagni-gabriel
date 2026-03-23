@@ -29,7 +29,7 @@ const LogoCard = ({ name }: { name: SVGElement | any }) => {
 
 export const OnlinePresence = () => {
   return (
-    <div className="flex flex-col flex-wrap items-center justify-center gap-2 mb-[27px]">
+    <div className="flex flex-col flex-wrap items-center justify-center gap-2 mb-[27px] mask-r-from-[80%] mask-l-from-[80%]">
       <Marquee reverse className="[--dutration:20s]" flex animateX>
         {logos.map((logo, index) => (
           <LogoCard key={index} {...logo} />

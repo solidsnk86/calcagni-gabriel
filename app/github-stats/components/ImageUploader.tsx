@@ -6,7 +6,6 @@ import { supabase } from '@/utils/supabase/client';
 import { Trash2 } from 'lucide-react';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 
 export default function ImageUpload({ userId }: { userId: string | number }) {
   const [media, setMedia] = useState<Array<any>>([]);
@@ -22,7 +21,7 @@ export default function ImageUpload({ userId }: { userId: string | number }) {
 
     const { data, error } = await supabase.storage
       .from('upload')
-      .upload(userId + '/' + uuidv4(), file);
+      .upload(userId + '/' + crypto.randomUUID(), file);
 
     if (data) {
       setLoading(false);

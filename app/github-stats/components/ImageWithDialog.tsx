@@ -40,7 +40,7 @@ export const ImageWithDialog: React.FC<Partial<ImageWithDialogProps>> = ({
               <article className="pt-6">{children}</article>
               <div className="flex w-full gap-2 mt-2 overflow-x-auto">
                 {techs?.map((item) => (
-                  <div className="grid grid-cols-[repeat(auto-fill,minmax(90px,1fr))]">
+                  <div key={item} className="grid grid-cols-[repeat(auto-fill,minmax(90px,1fr))]">
                     <small className="py-1 px-2 text-center bg-zinc-800 transition-colors line-clamp-1 text-white rounded-lg border border-zinc-700/50 ">
                       {item}
                     </small>

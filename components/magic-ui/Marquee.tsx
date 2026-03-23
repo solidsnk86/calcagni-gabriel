@@ -19,7 +19,7 @@ export const Marquee: React.FC<MarqueeProps> = ({
       className={cn("[--duration:40s] [--gap:1rem] transition-all", className)}
     >
       <article
-        className={cn("w-max items-stretch gap-[--gap]", {
+        className={cn("w-max items-stretch gap-4", {
           flex: flex,
           "[animation-direction:reverse]": reverse,
           "hover:[animation-play-state:paused]": pauseOnHover,

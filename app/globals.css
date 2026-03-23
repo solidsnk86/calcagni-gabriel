@@ -1,6 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme inline {
+  /* Colors */
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-btn-background: hsl(var(--btn-background));
+  --color-btn-background-hover: hsl(var(--btn-background-hover));
+
+  /* Animations */
+  --animate-ping: ping 3s cubic-bezier(0, 0, 0.2, 1) infinite;
+  --animate-marqueeX: marqueeX var(--duration) linear infinite;
+  --animate-marqueeY: marqueeY var(--duration) linear infinite;
+}
+
+/* Keyframes */
+@keyframes marqueeX {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - var(--gap)/2));
+  }
+}
+
+@keyframes marqueeY {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-50% - var(--gap)/2));
+  }
+}
 
 @layer base {
   :root {
@@ -9,6 +42,7 @@
     --btn-background-hover: 200 10% 12%;
     --foreground: 200 20% 96%;
     --card-background: 200 10% 12%;
+    --gap: 8px;
     view-transition-name: none;
   }
 
@@ -19,6 +53,7 @@
       --btn-background-hover: 200 10% 12%;
       --foreground: 200 20% 96%;
       --card-background: 200 10% 12%;
+      --gap: 8px;
     }
   }
 }
@@ -32,6 +67,7 @@
     opacity: 0;
     transform: scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
@@ -43,6 +79,7 @@
     opacity: 1;
     transform: scale(1);
   }
+
   to {
     opacity: 0;
     transform: scale(1.02);
@@ -202,12 +239,10 @@ body {
 
 .shadow-left {
   position: absolute;
-  background: linear-gradient(
-    to right,
-    rgba(12, 12, 12, 0.85),
-    rgba(12, 12, 12, 0.5),
-    transparent
-  );
+  background: linear-gradient(to right,
+      rgba(12, 12, 12, 0.85),
+      rgba(12, 12, 12, 0.5),
+      transparent);
   width: 25px;
   height: 100%;
   top: 0px;
@@ -217,12 +252,10 @@ body {
 
 .shadow-right {
   position: absolute;
-  background: linear-gradient(
-    to left,
-    rgba(12, 12, 12, 0.85),
-    rgba(12, 12, 12, 0.5),
-    transparent
-  );
+  background: linear-gradient(to left,
+      rgba(12, 12, 12, 0.85),
+      rgba(12, 12, 12, 0.5),
+      transparent);
   width: 25px;
   height: 100%;
   top: 0px;
@@ -236,12 +269,10 @@ body {
 
 .shadow-top {
   position: absolute;
-  background: linear-gradient(
-    to bottom,
-    rgba(12, 12, 12, 0.85),
-    rgba(12, 12, 12, 0.5),
-    transparent
-  );
+  background: linear-gradient(to bottom,
+      rgba(12, 12, 12, 0.85),
+      rgba(12, 12, 12, 0.5),
+      transparent);
   width: 100%;
   height: 25px;
   top: 0;
@@ -251,12 +282,10 @@ body {
 
 .shadow-bottom {
   position: absolute;
-  background: linear-gradient(
-    to top,
-    rgba(12, 12, 12, 0.85),
-    rgba(12, 12, 12, 0.5),
-    transparent
-  );
+  background: linear-gradient(to top,
+      rgba(12, 12, 12, 0.85),
+      rgba(12, 12, 12, 0.5),
+      transparent);
   width: 100%;
   height: 20px;
   bottom: 0;
@@ -343,12 +372,10 @@ body {
   position: absolute;
   z-index: -1;
   rotate: 0;
-  background: conic-gradient(
-    from var(--rotate),
-    transparent 0,
-    var(--fancy-color) 340deg,
-    white 360deg
-  );
+  background: conic-gradient(from var(--rotate),
+      transparent 0,
+      var(--fancy-color) 340deg,
+      white 360deg);
   inset: 0;
   animation: rotate var(--animation-duration) linear infinite both;
 }
@@ -369,6 +396,7 @@ body {
   filter: grayscale(80%);
   transition: all 0.3s;
 }
+
 .proyects-hover:hover {
   filter: grayscale(20%);
 }
@@ -388,6 +416,7 @@ body {
   backdrop-filter: blur(5px);
   text-shadow: 1px 2px 2px #222;
 }
+
 .b-404:hover {
   background-color: #9b9b9b20;
 }
@@ -405,8 +434,7 @@ body {
 }
 
 .reflection-404 {
-  -webkit-box-reflect: below -12px linear-gradient(transparent, #00000009, rgb(0
-          0 0 / 14%));
+  -webkit-box-reflect: below -12px linear-gradient(transparent, #00000009, rgb(0 0 0 / 14%));
 }
 
 /**
@@ -418,6 +446,7 @@ body {
   border-radius: 50%;
   animation: spinner 1s linear infinite;
 }
+
 @keyframes spinner {
   to {
     transform: rotate(360deg);
@@ -455,6 +484,7 @@ body {
   from {
     scale: 0.92;
   }
+
   to {
     scale: 1;
   }
@@ -478,15 +508,19 @@ body {
   0% {
     transform: translateY(0%);
   }
+
   25% {
     transform: translateY(5%);
   }
+
   50% {
     transform: translateY(10%);
   }
+
   75% {
     transform: translateY(5%);
   }
+
   100% {
     transform: translateY(0%);
   }
@@ -500,6 +534,7 @@ body {
 .item {
   view-transition-class: item;
 }
+
 ::view-transition-group(*.item) {
   animation-duration: 420ms;
   animation-timing-function: cubic-bezier(1, -0.62, 0.61, 1.37);
@@ -590,6 +625,10 @@ dialog::backdrop {
 }
 
 dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
   padding: 16px;
   border: none;
   outline: none;
@@ -616,6 +655,7 @@ dialog {
   from {
     transform: scale(0);
   }
+
   to {
     transform: scale(1);
   }
@@ -626,6 +666,7 @@ dialog {
     transform: translate(0);
     opacity: 1;
   }
+
   to {
     transform: translateY(500%);
     opacity: 0;
@@ -650,6 +691,6 @@ dialog {
 
 @layer base {
   * {
-    @apply border-foreground/20;
+    border-color: hsl(var(--foreground) / 0.2);
   }
 }

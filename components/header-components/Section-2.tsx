@@ -1,12 +1,13 @@
-import React from 'react';
 import { Eye, Flag, Sparkles } from 'lucide-react';
 import { Loader } from '../Loader';
 
 export const Section_2 = ({
   visits,
+  isLoading,
   className,
 }: {
-  visits: number | string | any;
+  visits: number;
+  isLoading: boolean;
   className?: string;
 }) => {
   const getExperienceYears = (currentDate: Date = new Date()): number => {
@@ -33,9 +34,9 @@ export const Section_2 = ({
     },
     {
       name: 'Visitas',
-      quantity: !visits
-        ? (visits = <Loader width={45} height={45} />)
-        : `${handleVisitsNumber(visits)}` || '0',
+      quantity: isLoading
+        ? <Loader width={45} height={45} />
+        : handleVisitsNumber(visits),
       icon: Eye,
     },
     {
@@ -56,9 +57,9 @@ export const Section_2 = ({
           >
             <div className="flex flex-col items-center text-center w-full">
               <h1 className="text-5xl font-bold text-white flex items-center">
-                {section.quantity as number}
+                {section.quantity}
                 {section.name !== 'Experiencia' &&
-                section.name !== 'Visitas' ? (
+                  section.name !== 'Visitas' ? (
                   <span className="text-violet-400 font-semibold text-3xl ml-1">
                     +
                   </span>

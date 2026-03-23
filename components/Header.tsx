@@ -6,41 +6,40 @@ import { Section_4 } from '@/components/header-components/Section-4';
 import { Section_3 } from '@/components/header-components/Section-3';
 import { Section_2 } from '@/components/header-components/Section-2';
 import { Section_1 } from '@/components/header-components/Section-1';
-import { useCallback, useEffect, useState } from 'react';
-import { GetLocation } from '@/utils/get-location';
+import { useCallback, useEffect } from 'react';
 import { SupabaseModel } from '@/app/models/SupabaseModel';
-import { closeDialog, showDialog } from '@/utils/dialog';
-import { X } from 'lucide-react';
+import { useLastVisit, useLocation } from '@/app/contexts/location-provider';
 
 export default function Header() {
   const isClient = useIsClient();
   const mobile = useMatchMedia('(max-width: 700px)', false);
-  const [visits, setVisits] = useState<number | string>();
+  const { data } = useLocation();
+  const { data: lastVisit, isLoading } = useLastVisit();
 
   const sendDataLocation = useCallback(async () => {
+    if (!data || !lastVisit) return;
+
     const objectData = {
-      ip: await GetLocation.ip(),
-      city: await GetLocation.city(),
-      country: await GetLocation.country(),
-      flag: await GetLocation.flag(),
+      ip: data.ip,
+      city: data.city.name,
+      country: data.country.name,
+      flag: data.country.emojiFlag,
     };
 
     try {
-      const { id: visitsData, ip: lastIp } =
-        await SupabaseModel.getProfileVisits();
+      const lastIp = lastVisit.ip;
 
       if (lastIp !== objectData.ip) {
-        await SupabaseModel.sendDataToSupabase({ data: objectData });
+        setTimeout(async () => await SupabaseModel.sendDataToSupabase({ data: objectData }), 400)
       }
 
-      setVisits(visitsData);
     } catch (error) {
       console.error('Error sending data location:', error);
     }
   }, []);
 
   useEffect(() => {
-    sendDataLocation();
+    sendDataLocation()
   }, []);
 
   if (!isClient) return null;
@@ -50,7 +49,7 @@ export default function Header() {
       {mobile ? (
         <div className="flex flex-col gap-2">
           <Section_4 />
-          <Section_2 visits={visits} />
+          <Section_2 visits={lastVisit?.id || 0} isLoading={isLoading} />
           <Section_3 />
           <Section_1 />
         </div>
@@ -63,7 +62,7 @@ export default function Header() {
           </div>
           {/* Columna Derecha */}
           <div className="flex flex-col gap-3 w-1/2">
-            <Section_2 visits={visits} />
+            <Section_2 visits={lastVisit?.id || 0} isLoading={isLoading} />
             <Section_4 className="flex-1" />
           </div>
         </div>

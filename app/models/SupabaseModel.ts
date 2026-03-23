@@ -1,31 +1,14 @@
 import {
   PartialReviewMarqueeProps,
-  SupabaseResponse,
 } from '../types/definitions';
 
 export class SupabaseModel {
-  public static async getProfileVisits() {
-    const response = await fetch(
-      'https://supabase-rest-api.vercel.app/supabase/optional/?from=profile_visits&select=id,ip&limit=1&order=id',
-      {
-        method: 'GET',
-        mode: 'cors',
-        headers: { 'Content-Type': 'application/json' },
-      }
-    );
-    if (!response.ok) console.error(response.statusText);
-    const visitData = await response.json();
-    const { id, ip } = visitData[0];
-    return { id, ip };
-  }
-
   public static async getComments() {
     try {
       const response = await fetch(
-        'https://supabase-rest-api.vercel.app/supabase/?from=comments&select=*',
+        '/api/all-comments',
         {
           method: 'GET',
-          mode: 'cors',
           headers: { 'Content-Type': 'application/json' },
         }
       );
@@ -39,35 +22,16 @@ export class SupabaseModel {
     }
   }
 
-  public static async getLastVisits() {
-    try {
-      const response = await fetch(
-        'https://supabase-rest-api.vercel.app/supabase/optional/?from=profile_visits&select=ip,city,province,country,flag,created_at&limit=1&order=created_at',
-        {
-          method: 'GET',
-          mode: 'cors',
-          headers: { 'Content-Type': 'application/json' },
-        }
-      );
-      if (!response.ok) throw new Error(response.statusText);
-      const visitsData = await response.json();
-      return visitsData[0];
-    } catch (error) {
-      console.error(error);
-    }
-  }
-
   public static async sendDataToSupabase({
-    data,
+    data
   }: {
     data: { ip: string; city: string; country: string; flag: string };
   }) {
     try {
       const response = await fetch(
-        'https://supabase-rest-api.vercel.app/supabase/?from=profile_visits',
+        '/api/visits/send-data',
         {
           method: 'POST',
-          mode: 'cors',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(data),
         }

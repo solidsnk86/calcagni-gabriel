@@ -40,7 +40,8 @@
     "app/api_example/components/Pre.jsx",
     "app/api_example/components/Pre.jsx",
     "app/api_example/components/Pre.jsx",
-    ".next/dev/types/**/*.ts"
+    ".next/dev/types/**/*.ts",
+    "tailwind.config.js"
   ],
   "exclude": [
     "node_modules"

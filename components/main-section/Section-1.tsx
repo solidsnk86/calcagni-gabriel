@@ -13,8 +13,6 @@ export const Section_1 = () => {
       </header>
       <aside className="w-[100%] relative">
         <ServicesMarquee />
-        <div className="shadow-left"></div>
-        <div className="shadow-right"></div>
       </aside>
     </section>
   );

@@ -23,8 +23,8 @@ const ProyectCard = ({ name, img }: { name: string; img: string }) => {
 
 export const ProyectsMarquee = () => {
   return (
-    <div className="flex flex-col flex-wrap items-center justify-center mb-[27px]">
-      <Marquee className="[--duration:30s]" flex animateX>
+    <div className="flex flex-col flex-wrap gap-3 items-center justify-center mb-[27px] mask-r-from-[80%] mask-l-from-[80%]">
+      <Marquee className="[--duration:30s]" flex animateX >
         {worksProyects.reverse().map((project) => (
           <ProyectCard
             key={project.name}
@@ -35,7 +35,7 @@ export const ProyectsMarquee = () => {
       </Marquee>
       <Link
         href="/projects"
-        className="py-3 px-4 rounded-md bg-violet-400/60 b-404 flex items-center text-center absolute -bottom-2 left-[34%] hover:bg-violet-400/50 hover:scale-105 transition-transform"
+        className="py-3 px-4 rounded-md bg-violet-400/60 b-404 flex items-center text-center absolute bottom-1 hover:bg-violet-400/50 hover:scale-105 transition-transform"
       >
         Ver Trabajos
       </Link>

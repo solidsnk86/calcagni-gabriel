@@ -13,10 +13,8 @@ export const Section_3 = ({ className }: { className?: string }) => {
         </p>
         <h3 className="text-white text-lg font-bold">Galería de Proyectos</h3>
       </header>
-      <aside className="w-[100%] relative">
+      <aside className="w-full relative">
         <ProyectsMarquee />
-        <div className="shadow-left"></div>
-        <div className="shadow-right"></div>
       </aside>
     </section>
   );

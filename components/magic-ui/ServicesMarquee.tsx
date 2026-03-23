@@ -15,7 +15,7 @@ const ServiceCard = ({ name, icon }: { name: string; icon: ReactNode }) => {
 
 export const ServicesMarquee = () => {
   return (
-    <div className="flex flex-col flex-wrap items-center justify-center gap-2 mb-[27px]">
+    <div className="flex flex-col flex-wrap items-center justify-center gap-2 mb-[27px] mask-r-from-[80%] mask-l-from-[80%]">
       <Marquee reverse className="[--duration:55s]" animateX flex>
         {services.map((service) => (
           <ServiceCard key={service.name} {...service} />

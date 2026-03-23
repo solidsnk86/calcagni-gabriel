@@ -9,21 +9,13 @@ import { Section_4 } from './main-section/Section-4';
 import { useCallback, useEffect, useState } from 'react';
 import { Section_5 } from './main-section/Section-5';
 import { SupabaseModel } from '@/app/models/SupabaseModel';
+import { useLastVisit } from '@/app/contexts/location-provider';
 
 export default function Main() {
   const mobile = useMatchMedia('(max-width: 700px)', true);
   const isClient = useIsClient();
   const [comments, setComments] = useState<any>([]);
-  const [lastVisit, setLastVisit] = useState<any>([]);
-
-  const fetchLastVisits = useCallback(async () => {
-    try {
-      const visitsData = await SupabaseModel.getLastVisits();
-      setLastVisit(visitsData);
-    } catch (error) {
-      console.error(error);
-    }
-  }, []);
+  const { data: lastVisit } = useLastVisit();
 
   const fetchComments = useCallback(async () => {
     try {
@@ -36,10 +28,6 @@ export default function Main() {
 
   useEffect(() => {
     fetchComments();
-  }, []);
-
-  useEffect(() => {
-    fetchLastVisits();
   }, []);
 
   return (
@@ -57,10 +45,10 @@ export default function Main() {
           <Section_4 className={mobile ? 'w-full' : 'w-[40%]'} />
         </div>
         <Section_5
-          city={lastVisit.city}
-          country={lastVisit.country}
-          flag={lastVisit.flag}
-          createdAt={lastVisit.created_at}
+          city={lastVisit?.city || "n/a"}
+          country={lastVisit?.country || "n/a"}
+          flag={lastVisit?.flag || "n/a"}
+          createdAt={lastVisit?.created_at || "n/a"}
           className={mobile ? 'mt-2' : 'mt-3'}
         />
       </>
