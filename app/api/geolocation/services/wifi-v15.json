@@ -4070,7 +4070,7 @@
     "lat": -33.305472,
     "lon": -66.34275,
     "type": "2Ghz.",
-    "users": 14,
+    "users": 20,
     "location": "San Luis"
   },
   {
@@ -4110,7 +4110,7 @@
     "lat": -33.305141,
     "lon": -66.333373,
     "type": "2Ghz.",
-    "users": 10,
+    "users": 12,
     "location": "San Luis"
   },
   {
@@ -4121,7 +4121,7 @@
     "lat": -33.308206,
     "lon": -66.336776,
     "type": "2Ghz.",
-    "users": 5,
+    "users": 12,
     "location": "San Luis"
   },
   {
@@ -4187,7 +4187,7 @@
     "lat": -33.298741,
     "lon": -66.336287,
     "type": "2Ghz.",
-    "users": 11,
+    "users": 20,
     "location": "San Luis"
   },
   {
@@ -4218,7 +4218,7 @@
     "lat": -33.290594,
     "lon": -66.30441,
     "type": "2Ghz.",
-    "users": 17,
+    "users": 16,
     "location": "San Luis"
   },
   {
@@ -4229,7 +4229,7 @@
     "lat": -33.29361,
     "lon": -66.31028,
     "type": "2Ghz.",
-    "users": 3,
+    "users": 8,
     "location": "San Luis"
   },
   {
@@ -4249,7 +4249,7 @@
     "lat": -33.288681,
     "lon": -66.297082,
     "type": "2Ghz.",
-    "users": 11,
+    "users": 16,
     "location": "San Luis"
   },
   {
@@ -4260,7 +4260,7 @@
     "lat": -33.28556,
     "lon": -66.290786,
     "type": "2Ghz.",
-    "users": 2,
+    "users": 3,
     "location": "San Luis"
   },
   {
@@ -4271,7 +4271,7 @@
     "lat": -33.286444,
     "lon": -66.305772,
     "type": "2Ghz.",
-    "users": 14,
+    "users": 18,
     "location": "San Luis"
   },
   {
@@ -4293,7 +4293,7 @@
     "lat": -33.288197,
     "lon": -66.290372,
     "type": "2Ghz.",
-    "users": 13,
+    "users": 17,
     "location": "San Luis"
   },
   {
@@ -4304,7 +4304,7 @@
     "lat": -33.31583,
     "lon": -66.33361,
     "type": "2Ghz.",
-    "users": 4,
+    "users": 15,
     "location": "San Luis"
   },
   {
@@ -4353,7 +4353,7 @@
     "lat": -33.282051,
     "lon": -66.322034,
     "type": "2Ghz.",
-    "users": 16,
+    "users": 18,
     "location": "San Luis"
   },
   {
@@ -4415,7 +4415,7 @@
     "lat": -33.290444,
     "lon": -66.356228,
     "type": "2Ghz.",
-    "users": 11,
+    "users": 21,
     "location": "San Luis"
   },
   {
@@ -4488,7 +4488,7 @@
     "lat": -33.280587,
     "lon": -66.307682,
     "type": "2Ghz.",
-    "users": 10,
+    "users": 14,
     "location": "San Luis"
   },
   {
@@ -4554,7 +4554,7 @@
     "lat": -33.304964,
     "lon": -66.315786,
     "type": "2Ghz.",
-    "users": 6,
+    "users": 9,
     "location": "San Luis"
   },
   {
@@ -4576,7 +4576,7 @@
     "lat": -33.299367,
     "lon": -66.300823,
     "type": "2Ghz.",
-    "users": 52,
+    "users": 59,
     "location": "San Luis"
   },
   {
@@ -4587,7 +4587,7 @@
     "lat": -33.31397,
     "lon": -66.30969,
     "type": "2Ghz.",
-    "users": 6,
+    "users": 9,
     "location": "San Luis"
   },
   {
@@ -4711,7 +4711,7 @@
     "lat": -33.27467,
     "lon": -66.340217,
     "type": "2Ghz.",
-    "users": 7,
+    "users": 12,
     "location": "San Luis"
   },
   {
@@ -4722,7 +4722,7 @@
     "lat": -33.250003,
     "lon": -66.338892,
     "type": "2Ghz.",
-    "users": 8,
+    "users": 7,
     "location": "San Luis"
   },
   {
@@ -4744,7 +4744,7 @@
     "lat": -33.271268,
     "lon": -66.341777,
     "type": "2Ghz.",
-    "users": 6,
+    "users": 7,
     "location": "San Luis"
   },
   {
@@ -4755,7 +4755,7 @@
     "lat": -33.29306,
     "lon": -66.3225,
     "type": "2Ghz.",
-    "users": 15,
+    "users": 18,
     "location": "San Luis"
   },
   {
@@ -4766,7 +4766,7 @@
     "lat": -33.290308,
     "lon": -66.322753,
     "type": "2Ghz.",
-    "users": 12,
+    "users": 16,
     "location": "San Luis"
   },
   {
@@ -4808,7 +4808,7 @@
     "lat": -33.313304,
     "lon": -66.343829,
     "type": "2Ghz.",
-    "users": 14,
+    "users": 19,
     "location": "San Luis"
   },
   {
@@ -4819,7 +4819,7 @@
     "lat": -33.312793,
     "lon": -66.33858,
     "type": "2Ghz.",
-    "users": 10,
+    "users": 12,
     "location": "San Luis"
   },
   {
@@ -4852,7 +4852,7 @@
     "lat": -33.30838,
     "lon": -66.371883,
     "type": "2Ghz.",
-    "users": 19,
+    "users": 26,
     "location": "San Luis"
   },
   {
@@ -4892,7 +4892,7 @@
     "lat": -33.28778,
     "lon": -66.33778,
     "type": "2Ghz.",
-    "users": 11,
+    "users": 13,
     "location": "San Luis"
   },
   {
@@ -4903,7 +4903,7 @@
     "lat": -33.282063,
     "lon": -66.340723,
     "type": "2Ghz.",
-    "users": 10,
+    "users": 13,
     "location": "San Luis"
   },
   {
@@ -4923,7 +4923,7 @@
     "lat": -33.289476,
     "lon": -66.342502,
     "type": "2Ghz.",
-    "users": 12,
+    "users": 22,
     "location": "San Luis"
   },
   {
@@ -4954,7 +4954,7 @@
     "lat": -33.271742,
     "lon": -66.310672,
     "type": "2Ghz.",
-    "users": 6,
+    "users": 14,
     "location": "San Luis"
   },
   {
@@ -4974,7 +4974,7 @@
     "lat": -33.268717,
     "lon": -66.320237,
     "type": "2Ghz.",
-    "users": 236,
+    "users": 19,
     "location": "San Luis"
   },
   {
@@ -4985,7 +4985,7 @@
     "lat": -33.26203,
     "lon": -66.302689,
     "type": "2Ghz.",
-    "users": 7,
+    "users": 12,
     "location": "San Luis"
   },
   {
@@ -5005,7 +5005,7 @@
     "lat": -33.264047,
     "lon": -66.306609,
     "type": "2Ghz.",
-    "users": 3,
+    "users": 5,
     "location": "San Luis"
   },
   {
@@ -5025,7 +5025,7 @@
     "lat": -33.307671,
     "lon": -66.333236,
     "type": "2Ghz.",
-    "users": 7,
+    "users": 11,
     "location": "San Luis"
   },
   {
@@ -5047,7 +5047,7 @@
     "lat": -33.27583,
     "lon": -66.32222,
     "type": "2Ghz.",
-    "users": 4,
+    "users": 7,
     "location": "San Luis"
   },
   {
@@ -5076,7 +5076,7 @@
     "lat": -33.31806,
     "lon": -66.31889,
     "type": "2Ghz.",
-    "users": 10,
+    "users": 7,
     "location": "San Luis"
   },
   {
@@ -5098,7 +5098,7 @@
     "lat": -33.322611,
     "lon": -66.311889,
     "type": "2Ghz.",
-    "users": 8,
+    "users": 9,
     "location": "San Luis"
   },
   {
@@ -5109,7 +5109,7 @@
     "lat": -33.32106,
     "lon": -66.30875,
     "type": "2Ghz.",
-    "users": 6,
+    "users": 8,
     "location": "San Luis"
   },
   {
@@ -5142,7 +5142,7 @@
     "lat": -33.279709,
     "lon": -66.317823,
     "type": "2Ghz.",
-    "users": 17,
+    "users": 19,
     "location": "San Luis"
   },
   {
@@ -5153,18 +5153,18 @@
     "lat": -33.283711,
     "lon": -66.316441,
     "type": "2Ghz.",
-    "users": 12,
+    "users": 15,
     "location": "San Luis"
   },
   {
-    "name": "GobSL-EMG-05",
+    "name": "GobSL-SL-155",
     "MAC": "00 18 25 17 69 10",
-    "name5g": "GobSL-EMG-05",
+    "name5g": "GobSL-SL-155",
     "MAC5g": null,
     "lat": -33.282088,
     "lon": -66.312537,
     "type": "2Ghz.",
-    "users": 15,
+    "users": 14,
     "location": "San Luis"
   },
   {
@@ -5184,7 +5184,7 @@
     "lat": -33.287119,
     "lon": -66.314251,
     "type": "2Ghz.",
-    "users": 13,
+    "users": 16,
     "location": "San Luis"
   },
   {
@@ -5217,7 +5217,7 @@
     "lat": -33.31711,
     "lon": -66.313373,
     "type": "2Ghz.",
-    "users": 5,
+    "users": 8,
     "location": "San Luis"
   },
   {
@@ -5319,7 +5319,7 @@
     "lat": -33.265134,
     "lon": -66.316161,
     "type": "2Ghz.",
-    "users": 3,
+    "users": 6,
     "location": "San Luis"
   },
   {
@@ -5330,7 +5330,7 @@
     "lat": -33.29794,
     "lon": -66.322873,
     "type": "2Ghz.",
-    "users": 6,
+    "users": 9,
     "location": "San Luis"
   },
   {
@@ -5350,7 +5350,7 @@
     "lat": -33.281667,
     "lon": -66.285014,
     "type": "2Ghz.",
-    "users": 6,
+    "users": 8,
     "location": "San Luis"
   },
   {
@@ -5372,7 +5372,7 @@
     "lat": -33.283296,
     "lon": -66.302717,
     "type": "2Ghz.",
-    "users": 18,
+    "users": 8,
     "location": "San Luis"
   },
   {
@@ -5383,7 +5383,7 @@
     "lat": -33.306058,
     "lon": -66.327272,
     "type": "2Ghz.",
-    "users": 17,
+    "users": 18,
     "location": "San Luis"
   },
   {
@@ -5425,7 +5425,7 @@
     "lat": -33.302603,
     "lon": -66.318547,
     "type": "2Ghz.",
-    "users": 13,
+    "users": 17,
     "location": "San Luis"
   },
   {
@@ -5562,7 +5562,7 @@
     "lat": -33.288069,
     "lon": -66.318312,
     "type": "2Ghz.",
-    "users": 11,
+    "users": 12,
     "location": "San Luis"
   },
   {
@@ -5584,7 +5584,7 @@
     "lat": -33.295688,
     "lon": -66.321948,
     "type": "2Ghz.",
-    "users": 5,
+    "users": 7,
     "location": "San Luis"
   },
   {
@@ -5617,7 +5617,7 @@
     "lat": -33.29611,
     "lon": -66.31333,
     "type": "2Ghz.",
-    "users": 7,
+    "users": 9,
     "location": "San Luis"
   },
   {
@@ -5628,7 +5628,7 @@
     "lat": -33.309499,
     "lon": -66.320684,
     "type": "2Ghz.",
-    "users": 0,
+    "users": 9,
     "location": "San Luis"
   },
   {
@@ -5639,7 +5639,7 @@
     "lat": -33.304455,
     "lon": -66.336625,
     "type": "2Ghz.",
-    "users": 2,
+    "users": 7,
     "location": "San Luis"
   },
   {
@@ -5712,7 +5712,7 @@
     "lat": -33.294936,
     "lon": -66.327453,
     "type": "2Ghz.",
-    "users": 8,
+    "users": 13,
     "location": "San Luis"
   },
   {
@@ -8186,7 +8186,7 @@
     "lat": -33.282208,
     "lon": -66.346804,
     "type": "2Ghz.",
-    "users": 11,
+    "users": 17,
     "location": "San Luis"
   },
   {
@@ -8197,7 +8197,7 @@
     "lat": -33.257881,
     "lon": -66.338769,
     "type": "2Ghz.",
-    "users": 8,
+    "users": 11,
     "location": "San Luis"
   },
   {
@@ -8208,7 +8208,7 @@
     "lat": -33.320698,
     "lon": -66.358898,
     "type": "2Ghz.",
-    "users": 17,
+    "users": 28,
     "location": "San Luis"
   },
   {
@@ -16021,7 +16021,7 @@
     "lat": -33.219397,
     "lon": -66.292542,
     "type": "2Ghz.",
-    "users": 15,
+    "users": 18,
     "location": "San Luis"
   },
   {
@@ -16275,7 +16275,7 @@
     "lat": -33.340472,
     "lon": -66.317811,
     "type": "2Ghz.",
-    "users": 19,
+    "users": 20,
     "location": "San Luis"
   },
   {
@@ -16319,7 +16319,7 @@
     "lat": -33.28315,
     "lon": -66.39893333,
     "type": "2Ghz.",
-    "users": 12,
+    "users": 0,
     "location": "San Luis"
   },
   {
@@ -16396,7 +16396,7 @@
     "lat": -33.283183,
     "lon": -66.369261,
     "type": "2Ghz.",
-    "users": 8,
+    "users": 14,
     "location": "San Luis"
   },
   {
@@ -16504,7 +16504,7 @@
     "lat": -33.309081,
     "lon": -66.376534,
     "type": "2Ghz.",
-    "users": 17,
+    "users": 42,
     "location": "San Luis"
   },
   {
@@ -17032,7 +17032,7 @@
     "lat": -33.29175,
     "lon": -66.356472,
     "type": "2Ghz.",
-    "users": 9,
+    "users": 25,
     "location": "San Luis"
   },
   {
@@ -18387,7 +18387,7 @@
     "lat": -33.297189,
     "lon": -66.34237,
     "type": "2Ghz.",
-    "users": 7,
+    "users": 8,
     "location": "San Luis"
   },
   {
@@ -19599,7 +19599,7 @@
     "lat": -33.347511,
     "lon": -66.376633,
     "type": "2Ghz.",
-    "users": 11,
+    "users": 10,
     "location": "San Luis"
   },
   {
@@ -19947,3614 +19947,6 @@
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": 2,
     "location": "Cortaderas"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "3C E8 6E CE 94 6A",
-    "name5g": "WiFi3.0-SL-13",
-    "MAC5g": null,
-    "lat": -33.26383402,
-    "lon": -66.31146906,
-    "type": "2Ghz.",
-    "users": 3,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-132",
-    "MAC": "C8 B5 AD C3 05 32",
-    "name5g": "GobSL-SL-132",
-    "MAC5g": null,
-    "lat": -33.299763,
-    "lon": -66.346383,
-    "type": "2Ghz.",
-    "users": 19,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-19",
-    "MAC": "F0 5C 19 C3 EB 14",
-    "name5g": "GobSL-SL-19",
-    "MAC5g": null,
-    "lat": -33.299414,
-    "lon": -66.347927,
-    "type": "2Ghz.",
-    "users": 13,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-48",
-    "MAC": "CC 88 C7 CE 99 9E",
-    "name5g": "GobSL-SL-48",
-    "MAC5g": null,
-    "lat": -33.298742,
-    "lon": -66.304321,
-    "type": "2Ghz.",
-    "users": 50,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-103",
-    "MAC": "CC 88 C7 CE 9B 4E",
-    "name5g": "GobSL-SL-103",
-    "MAC5g": null,
-    "lat": -33.284578,
-    "lon": -66.310594,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-114",
-    "MAC": "C8 B5 AD C3 07 34",
-    "name5g": "GobSL-SL-114",
-    "MAC5g": null,
-    "lat": -33.282913,
-    "lon": -66.298193,
-    "type": "2Ghz.",
-    "users": 32,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-44",
-    "MAC": "00 18 25 00 B6 40",
-    "name5g": " GobSL-SL-44",
-    "MAC5g": null,
-    "lat": -33.294407,
-    "lon": -66.297947,
-    "type": "2Ghz.",
-    "users": 5,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-88",
-    "MAC": "9C 8C D8 CC FE D4",
-    "name5g": "GobSL-SL-88",
-    "MAC5g": null,
-    "lat": -33.280552,
-    "lon": -66.332242,
-    "type": "2Ghz.",
-    "users": 33,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-78",
-    "MAC": "F0 5C 19 C3 EA E0",
-    "name5g": "GobSL-SL-78",
-    "MAC5g": null,
-    "lat": -33.313408,
-    "lon": -66.321488,
-    "type": "2Ghz.",
-    "users": 21,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-01",
-    "MAC": "CC 88 C7 CE 9A 4A",
-    "name5g": "GobSL-SL-01",
-    "MAC5g": null,
-    "lat": -33.3025,
-    "lon": -66.34556,
-    "type": "2Ghz.",
-    "users": 29,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-41",
-    "MAC": "9C 8C D8 CC F7 38",
-    "name5g": "GobSL-SL-41",
-    "MAC5g": null,
-    "lat": -33.28556,
-    "lon": -66.32389,
-    "type": "2Ghz.",
-    "users": 45,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-83",
-    "MAC": "7C 57 3C CE DF EC",
-    "name5g": "GobSL-SL-83",
-    "MAC5g": null,
-    "lat": -33.289016,
-    "lon": -66.328886,
-    "type": "2Ghz.",
-    "users": 43,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "9C 8C D8 CC F8 4E",
-    "name5g": "GobSL-SL-28",
-    "MAC5g": null,
-    "lat": -33.31232303,
-    "lon": -66.3519665,
-    "type": "2Ghz.",
-    "users": 15,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-107",
-    "MAC": "CC 88 C7 CE 9B EA",
-    "name5g": "GobSL-SL-107",
-    "MAC5g": null,
-    "lat": -33.286222,
-    "lon": -66.349789,
-    "type": "2Ghz.",
-    "users": 41,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "7C 57 3C CE D4 26",
-    "name5g": "GobSL-SL-120",
-    "MAC5g": null,
-    "lat": -33.291356,
-    "lon": -66.351124,
-    "type": "2Ghz.",
-    "users": 32,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-33",
-    "MAC": "F0 5C 19 C3 EB 52",
-    "name5g": "GobSL-SL-33",
-    "MAC5g": null,
-    "lat": -33.28889,
-    "lon": -66.35194,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-147",
-    "MAC": "9C 8C D8 CC F7 EC",
-    "name5g": "GobSL-SL-147",
-    "MAC5g": null,
-    "lat": -33.284387,
-    "lon": -66.35016,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-137",
-    "MAC": "9C 8C D8 CC FE 68",
-    "name5g": "GobSL-SL-137",
-    "MAC5g": null,
-    "lat": -33.288533,
-    "lon": -66.354521,
-    "type": "2Ghz.",
-    "users": 34,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-148",
-    "MAC": "6C C4 9F CF B0 C6",
-    "name5g": "GobSL-SL-148",
-    "MAC5g": null,
-    "lat": -33.287235,
-    "lon": -66.351948,
-    "type": "2Ghz.",
-    "users": 38,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "9C 8C D8 CC FF 10",
-    "name5g": "GobSL-SL-102",
-    "MAC5g": null,
-    "lat": -33.277656,
-    "lon": -66.310875,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-112",
-    "MAC": "CC 88 C7 CE 99 B6",
-    "name5g": "GobSL-SL-112",
-    "MAC5g": null,
-    "lat": -33.27178,
-    "lon": -66.3017,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-113",
-    "MAC": "9C 8C D8 CC F7 86",
-    "name5g": "GobSL-SL-113",
-    "MAC5g": null,
-    "lat": -33.276109,
-    "lon": -66.303912,
-    "type": "2Ghz.",
-    "users": 15,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-60",
-    "MAC": "7C 57 3C CE DB 6C",
-    "name5g": "GobSL-SL-60",
-    "MAC5g": null,
-    "lat": -33.273575,
-    "lon": -66.306372,
-    "type": "2Ghz.",
-    "users": 38,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-94",
-    "MAC": "9C 8C D8 CC F8 4A",
-    "name5g": "GobSL-SL-94",
-    "MAC5g": null,
-    "lat": -33.274467,
-    "lon": -66.298117,
-    "type": "2Ghz.",
-    "users": 15,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-105",
-    "MAC": "CC 88 C7 CE 9B 0C",
-    "name5g": "GobSL-SL-105",
-    "MAC5g": null,
-    "lat": -33.282475,
-    "lon": -66.336117,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-05",
-    "MAC": "F0 5C 19 C3 DB 26",
-    "name5g": "GobSL-SL-05",
-    "MAC5g": null,
-    "lat": -33.306279,
-    "lon": -66.337912,
-    "type": "2Ghz.",
-    "users": 36,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-133",
-    "MAC": "C8 B5 AD C3 05 8A",
-    "name5g": "GobSL-SL-133",
-    "MAC5g": null,
-    "lat": -33.30105,
-    "lon": -66.340933,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-17",
-    "MAC": "F0 5C 19 C3 EA D0",
-    "name5g": "GobSL-SL-17",
-    "MAC5g": null,
-    "lat": -33.30161,
-    "lon": -66.338582,
-    "type": "2Ghz.",
-    "users": 10,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-125",
-    "MAC": "CC 88 C7 CE 9C 0A",
-    "name5g": "GobSL-SL-125",
-    "MAC5g": null,
-    "lat": -33.319203,
-    "lon": -66.348182,
-    "type": "2Ghz.",
-    "users": 38,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-152",
-    "MAC": "9C 8C D8 CC F8 48",
-    "name5g": "GobSL-SL-152",
-    "MAC5g": null,
-    "lat": -33.316811,
-    "lon": -66.309183,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-161",
-    "MAC": "9C 8C D8 CC F6 5A",
-    "name5g": "GobSL-SL-161",
-    "MAC5g": null,
-    "lat": -33.33321,
-    "lon": -66.31315,
-    "type": "2Ghz.",
-    "users": 39,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-08",
-    "MAC": "C8 B5 AD C3 07 6E",
-    "name5g": "GobSL-SL-08",
-    "MAC5g": null,
-    "lat": -33.301184,
-    "lon": -66.327452,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "C8 B5 AD C3 07 F6",
-    "name5g": "GobSL-SL-119",
-    "MAC5g": null,
-    "lat": -33.26803,
-    "lon": -66.336208,
-    "type": "2Ghz.",
-    "users": 34,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-128",
-    "MAC": "6C C4 9F CF B0 58",
-    "name5g": "GobSL-SL-128",
-    "MAC5g": null,
-    "lat": -33.271298,
-    "lon": -66.326023,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-68",
-    "MAC": "48 2F 6B C0 A9 80",
-    "name5g": "GobSL-SL-68",
-    "MAC5g": null,
-    "lat": -33.271838,
-    "lon": -66.333883,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-69",
-    "MAC": "9C 8C D8 CC F7 E4",
-    "name5g": "GobSL-SL-69",
-    "MAC5g": null,
-    "lat": -33.272642,
-    "lon": -66.329028,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "7C 57 3C CE E1 A0",
-    "name5g": "GobSL-SL-80",
-    "MAC5g": null,
-    "lat": -33.286078,
-    "lon": -66.353749,
-    "type": "2Ghz.",
-    "users": 53,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "7C 57 3C CE E3 0C",
-    "name5g": "GobSL-SL-150",
-    "MAC5g": null,
-    "lat": -33.284189,
-    "lon": -66.343386,
-    "type": "2Ghz.",
-    "users": 47,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-140",
-    "MAC": "F0 5C 19 C3 DB 54",
-    "name5g": "GobSL-SL-140",
-    "MAC5g": null,
-    "lat": -33.267072,
-    "lon": -66.33908,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-53",
-    "MAC": "C8 B5 AD C3 08 3A",
-    "name5g": "GobSL-SL-53",
-    "MAC5g": null,
-    "lat": -33.274123,
-    "lon": -66.343934,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-121",
-    "MAC": "7C 57 3C CE D4 BC",
-    "name5g": "GobSL-SL-121",
-    "MAC5g": null,
-    "lat": -33.314453,
-    "lon": -66.353358,
-    "type": "2Ghz.",
-    "users": 44,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-26",
-    "MAC": "7C 57 3C CE D8 9C",
-    "name5g": "GobSL-SL-26",
-    "MAC5g": null,
-    "lat": -33.307509,
-    "lon": -66.363892,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "7C 57 3C CE D1 E4",
-    "name5g": "GobSL-SL-74",
-    "MAC5g": null,
-    "lat": -33.310817,
-    "lon": -66.386761,
-    "type": "2Ghz.",
-    "users": 48,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-75",
-    "MAC": "6C C4 9F CF B4 6A",
-    "name5g": "GobSL-SL-75",
-    "MAC5g": null,
-    "lat": -33.310935,
-    "lon": -66.395175,
-    "type": "2Ghz.",
-    "users": 48,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-95",
-    "MAC": "9C 8C D8 CC FD 6A",
-    "name5g": "GobSL-SL-95",
-    "MAC5g": null,
-    "lat": -33.31381,
-    "lon": -66.356345,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-156",
-    "MAC": "F0 5C 19 C3 EB B6",
-    "name5g": "GobSL-SL-156",
-    "MAC5g": null,
-    "lat": -33.306596,
-    "lon": -66.358287,
-    "type": "2Ghz.",
-    "users": 32,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-14",
-    "MAC": "CC 88 C7 CE 9B D2",
-    "name5g": "GobSL-SL-14",
-    "MAC5g": null,
-    "lat": -33.290779,
-    "lon": -66.335248,
-    "type": "2Ghz.",
-    "users": 49,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-96",
-    "MAC": "48 4A E9 C4 F0 42",
-    "name5g": "GobSL-SL-96",
-    "MAC5g": null,
-    "lat": -33.286553,
-    "lon": -66.344442,
-    "type": "2Ghz.",
-    "users": 47,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "7C 57 3C CE D0 D8",
-    "name5g": "GobSL-SL-36",
-    "MAC5g": null,
-    "lat": -33.282631,
-    "lon": -66.329033,
-    "type": "2Ghz.",
-    "users": 35,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-02",
-    "MAC": "C8 B5 AD C3 04 68",
-    "name5g": "GobSL-SL-02",
-    "MAC5g": null,
-    "lat": -33.300497,
-    "lon": -66.343334,
-    "type": "2Ghz.",
-    "users": 12,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-111",
-    "MAC": "9C 8C D8 CC F8 1A",
-    "name5g": "GobSL-SL-111",
-    "MAC5g": null,
-    "lat": -33.266164,
-    "lon": -66.310039,
-    "type": "2Ghz.",
-    "users": 14,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-39",
-    "MAC": "6C C4 9F CF B2 84",
-    "name5g": " GobSL-SL-39",
-    "MAC5g": null,
-    "lat": -33.26861,
-    "lon": -66.31611,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-45",
-    "MAC": "6C C4 9F CF B5 3C",
-    "name5g": " GobSL-SL-45",
-    "MAC5g": null,
-    "lat": -33.30611,
-    "lon": -66.34611,
-    "type": "2Ghz.",
-    "users": 32,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-52",
-    "MAC": "C8 B5 AD C3 05 A0",
-    "name5g": "GobSL-SL-52",
-    "MAC5g": null,
-    "lat": -33.29111,
-    "lon": -66.34744,
-    "type": "2Ghz.",
-    "users": 42,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-130",
-    "MAC": "C8 B5 AD C3 04 3E",
-    "name5g": "GobSL-SL-130",
-    "MAC5g": null,
-    "lat": -33.28117801,
-    "lon": -66.318824,
-    "type": "2Ghz.",
-    "users": 38,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-21",
-    "MAC": "48 2F 6B C0 A5 4A",
-    "name5g": " GobSL-SL-21",
-    "MAC5g": null,
-    "lat": -33.298321,
-    "lon": -66.339304,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "48 2F 6B C0 A6 A4",
-    "name5g": "GobSL-SL-37",
-    "MAC5g": null,
-    "lat": -33.327559,
-    "lon": -66.349241,
-    "type": "2Ghz.",
-    "users": 54,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-135",
-    "MAC": "6C C4 9F CF B5 0E",
-    "name5g": "GobSL-SL-135",
-    "MAC5g": null,
-    "lat": -33.321448,
-    "lon": -66.316587,
-    "type": "2Ghz.",
-    "users": 10,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-164",
-    "MAC": "6C C4 9F CF B4 82",
-    "name5g": "GobSL-SL-164",
-    "MAC5g": null,
-    "lat": -33.224322,
-    "lon": -66.291933,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-155",
-    "MAC": "3C E8 6E CE 95 80",
-    "name5g": " GobSL-SL-155",
-    "MAC5g": null,
-    "lat": -33.282088,
-    "lon": -66.312537,
-    "type": "2Ghz.",
-    "users": 16,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-146",
-    "MAC": "7C 57 3C CE E9 0A",
-    "name5g": "GobSL-SL-146",
-    "MAC5g": null,
-    "lat": -33.285172,
-    "lon": -66.318126,
-    "type": "2Ghz.",
-    "users": 35,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-20",
-    "MAC": "6C C4 9F CF B0 5E",
-    "name5g": "GobSL-SL-20",
-    "MAC5g": null,
-    "lat": -33.295811,
-    "lon": -66.348203,
-    "type": "2Ghz.",
-    "users": 26,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-40",
-    "MAC": "6C C4 9F CF B4 5C",
-    "name5g": "GobSL-SL-40",
-    "MAC5g": null,
-    "lat": -33.267038,
-    "lon": -66.306801,
-    "type": "2Ghz.",
-    "users": 15,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "48 2F 6B C0 A4 92",
-    "name5g": "GobSL-SL-04",
-    "MAC5g": null,
-    "lat": -33.31,
-    "lon": -66.34083,
-    "type": "2Ghz.",
-    "users": 41,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-51",
-    "MAC": "CC 88 C7 CE 9B 3E",
-    "name5g": "GobSL-SL-51",
-    "MAC5g": null,
-    "lat": -33.315642,
-    "lon": -66.341594,
-    "type": "2Ghz.",
-    "users": 38,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-50",
-    "MAC": "9C 8C D8 CC F5 D6",
-    "name5g": "GobSL-SL-50",
-    "MAC5g": null,
-    "lat": -33.279117,
-    "lon": -66.325085,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-62",
-    "MAC": "CC 88 C7 CE 9C 32",
-    "name5g": "GobSL-SL-62",
-    "MAC5g": null,
-    "lat": -33.269361,
-    "lon": -66.299169,
-    "type": "2Ghz.",
-    "users": 29,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-91",
-    "MAC": "9C 8C D8 CC F6 AA",
-    "name5g": "GobSL-SL-91",
-    "MAC5g": null,
-    "lat": -33.2649,
-    "lon": -66.299549,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-77",
-    "MAC": "C8 B5 AD C3 06 74",
-    "name5g": "GobSL-SL-77",
-    "MAC5g": null,
-    "lat": -33.313032,
-    "lon": -66.31819,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-93",
-    "MAC": "F0 5C 19 C3 EB 0A",
-    "name5g": "GobSL-SL-93",
-    "MAC5g": null,
-    "lat": -33.26185,
-    "lon": -66.309133,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-99",
-    "MAC": "CC 88 C7 CE 9B A8",
-    "name5g": "GobSL-SL-99",
-    "MAC5g": null,
-    "lat": -33.262344,
-    "lon": -66.314214,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-47",
-    "MAC": "F0 5C 19 C3 EB 40",
-    "name5g": "GobSL-SL-47",
-    "MAC5g": null,
-    "lat": -33.293034,
-    "lon": -66.314925,
-    "type": "2Ghz.",
-    "users": 32,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-63",
-    "MAC": "e4:55:a8:2e:3a:aa",
-    "name5g": "GobSL-SL-63",
-    "MAC5g": null,
-    "lat": -33.27953,
-    "lon": -66.298505,
-    "type": "2Ghz.",
-    "users": 0,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-101",
-    "MAC": "3C E8 6E CE 95 CA",
-    "name5g": " GobSL-SL-101",
-    "MAC5g": null,
-    "lat": -33.304719,
-    "lon": -66.322083,
-    "type": "2Ghz.",
-    "users": 9,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "7C 57 3C CE E1 EA",
-    "name5g": "GobSL-SL-108",
-    "MAC5g": null,
-    "lat": -33.309944,
-    "lon": -66.346272,
-    "type": "2Ghz.",
-    "users": 51,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-109",
-    "MAC": "7C 57 3C CE D0 0A",
-    "name5g": "GobSL-SL-109",
-    "MAC5g": null,
-    "lat": -33.315067,
-    "lon": -66.348572,
-    "type": "2Ghz.",
-    "users": 45,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-131",
-    "MAC": "48 2F 6B C0 A5 D0",
-    "name5g": "GobSL-SL-131",
-    "MAC5g": null,
-    "lat": -33.310702,
-    "lon": -66.331065,
-    "type": "2Ghz.",
-    "users": 34,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-42",
-    "MAC": "F0 5C 19 C3 DB C8",
-    "name5g": "GobSL-SL-42",
-    "MAC5g": null,
-    "lat": -33.301668,
-    "lon": -66.330811,
-    "type": "2Ghz.",
-    "users": 26,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-71",
-    "MAC": "CC 88 C7 CE 99 68",
-    "name5g": "GobSL-SL-71",
-    "MAC5g": null,
-    "lat": -33.301806,
-    "lon": -66.351644,
-    "type": "2Ghz.",
-    "users": 40,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "7C 57 3C CE E8 F4",
-    "name5g": "GobSL-SL-72",
-    "MAC5g": null,
-    "lat": -33.304481,
-    "lon": -66.354905,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-79",
-    "MAC": "CC 88 C7 CE 9A 3C",
-    "name5g": "GobSL-SL-79",
-    "MAC5g": null,
-    "lat": -33.32052,
-    "lon": -66.335963,
-    "type": "2Ghz.",
-    "users": 35,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-153",
-    "MAC": "6C C4 9F CF B3 36",
-    "name5g": "GobSL-SL-153",
-    "MAC5g": null,
-    "lat": -33.318592,
-    "lon": -66.333281,
-    "type": "2Ghz.",
-    "users": 40,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-154",
-    "MAC": "CC 88 C7 CE 9A F6",
-    "name5g": "GobSL-SL-154",
-    "MAC5g": null,
-    "lat": -33.271072,
-    "lon": -66.307802,
-    "type": "2Ghz.",
-    "users": 19,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-134",
-    "MAC": "7C 57 3C CE E9 56",
-    "name5g": "GobSL-SL-134",
-    "MAC5g": null,
-    "lat": -33.301026,
-    "lon": -66.321893,
-    "type": "2Ghz.",
-    "users": 41,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "7C 57 3C CE DC F6",
-    "name5g": "GobSL-SL-82",
-    "MAC5g": null,
-    "lat": -33.29975,
-    "lon": -66.316044,
-    "type": "2Ghz.",
-    "users": 44,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-106",
-    "MAC": "CC 88 C7 CE 9A D6",
-    "name5g": "GobSL-SL-106",
-    "MAC5g": null,
-    "lat": -33.297619,
-    "lon": -66.308714,
-    "type": "2Ghz.",
-    "users": 43,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-06",
-    "MAC": "F0 5C 19 C3 DB 38",
-    "name5g": "GobSL-SL-06",
-    "MAC5g": null,
-    "lat": -33.305643,
-    "lon": -66.335253,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "7C 57 3C CE D6 A6",
-    "name5g": "GobSL-SL-85",
-    "MAC5g": null,
-    "lat": -33.329081,
-    "lon": -66.353569,
-    "type": "2Ghz.",
-    "users": 44,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 EB 5C",
-    "name5g": "GobSL-SL-27",
-    "MAC5g": null,
-    "lat": -33.302462,
-    "lon": -66.336186,
-    "type": "2Ghz.",
-    "users": 4,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-24",
-    "MAC": "F0 5C 19 C3 DB B6",
-    "name5g": "GobSL-SL-24",
-    "MAC5g": null,
-    "lat": -33.299451,
-    "lon": -66.329534,
-    "type": "2Ghz.",
-    "users": 37,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-15",
-    "MAC": "9C 8C D8 CC F8 5C",
-    "name5g": "GobSL-SL-15",
-    "MAC5g": null,
-    "lat": -33.292899,
-    "lon": -66.33934,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-117",
-    "MAC": "9C 8C D8 CC F6 2C",
-    "name5g": "GobSL-SL-117",
-    "MAC5g": null,
-    "lat": -33.296811,
-    "lon": -66.331648,
-    "type": "2Ghz.",
-    "users": 34,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "7C 57 3C CE E7 30",
-    "name5g": "GobSL-SL-13",
-    "MAC5g": null,
-    "lat": -33.2925,
-    "lon": -66.33028,
-    "type": "2Ghz.",
-    "users": 32,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-54",
-    "MAC": "CC 88 C7 CE 99 AC",
-    "name5g": "GobSL-SL-54",
-    "MAC5g": null,
-    "lat": -33.295012,
-    "lon": -66.338241,
-    "type": "2Ghz.",
-    "users": 40,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-EMG-01",
-    "MAC": "6C C4 9F CF B5 5A",
-    "name5g": "GobSL-EMG-01",
-    "MAC5g": null,
-    "lat": -33.100428,
-    "lon": -66.36148,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-163",
-    "MAC": "48 2F 6B C0 A5 9C",
-    "name5g": "GobSL-SL-163",
-    "MAC5g": null,
-    "lat": -33.331641,
-    "lon": -66.34797,
-    "type": "2Ghz.",
-    "users": 33,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "7C 57 3C CE EA 38",
-    "name5g": "WiFi-3.0-SL-173",
-    "MAC5g": null,
-    "lat": -33.334925,
-    "lon": -66.322861,
-    "type": "2Ghz.",
-    "users": 46,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB 4E",
-    "name5g": "GobSL-SL-182",
-    "MAC5g": null,
-    "lat": -33.338703,
-    "lon": -66.334536,
-    "type": "2Ghz.",
-    "users": 15,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 E7 BC",
-    "name5g": "GobSL-SL-181",
-    "MAC5g": null,
-    "lat": -33.338167,
-    "lon": -66.332944,
-    "type": "2Ghz.",
-    "users": 14,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB DE",
-    "name5g": "GobSL-SL-180",
-    "MAC5g": null,
-    "lat": -33.336161,
-    "lon": -66.332603,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB 4A",
-    "name5g": "GobSL-SL-179",
-    "MAC5g": null,
-    "lat": -33.337853,
-    "lon": -66.330244,
-    "type": "2Ghz.",
-    "users": 16,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "B4 5D 50 C8 95 10",
-    "name5g": "GobSL-SL-177",
-    "MAC5g": null,
-    "lat": -33.336872,
-    "lon": -66.328544,
-    "type": "2Ghz.",
-    "users": 19,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB 8E",
-    "name5g": "GobSL-SL-176",
-    "MAC5g": null,
-    "lat": -33.334527,
-    "lon": -66.328966,
-    "type": "2Ghz.",
-    "users": 15,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 E7 7C",
-    "name5g": "GobSL-SL-185",
-    "MAC5g": null,
-    "lat": -33.337708,
-    "lon": -66.337794,
-    "type": "2Ghz.",
-    "users": 3,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EC A6",
-    "name5g": "GobSL-SL-186",
-    "MAC5g": null,
-    "lat": -33.339252,
-    "lon": -66.337758,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 05 18",
-    "name5g": "GobSL-SL-183",
-    "MAC5g": null,
-    "lat": -33.336947,
-    "lon": -66.335916,
-    "type": "2Ghz.",
-    "users": 15,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 ED A2",
-    "name5g": "GobSL-SL-174",
-    "MAC5g": null,
-    "lat": -33.33595,
-    "lon": -66.324625,
-    "type": "2Ghz.",
-    "users": 26,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB D0",
-    "name5g": "GobSL-SL-196",
-    "MAC5g": null,
-    "lat": -33.268305,
-    "lon": -66.347717,
-    "type": "2Ghz.",
-    "users": 21,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB BA",
-    "name5g": "GobSL-SL-192",
-    "MAC5g": null,
-    "lat": -33.263761,
-    "lon": -66.347609,
-    "type": "2Ghz.",
-    "users": 26,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-200",
-    "MAC": "F0 5C 19 C3 EB CC",
-    "name5g": "GobSL-SL-200",
-    "MAC5g": null,
-    "lat": -33.271879,
-    "lon": -66.347503,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB 54",
-    "name5g": "GobSL-SL-194",
-    "MAC5g": null,
-    "lat": -33.26637,
-    "lon": -66.347591,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB AE",
-    "name5g": "GobSL-SL-199",
-    "MAC5g": null,
-    "lat": -33.270293,
-    "lon": -66.347473,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB C8",
-    "name5g": "GobSL-SL-197",
-    "MAC5g": null,
-    "lat": -33.270334,
-    "lon": -66.345176,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB 84",
-    "name5g": "GobSL-SL-191",
-    "MAC5g": null,
-    "lat": -33.264266,
-    "lon": -66.345067,
-    "type": "2Ghz.",
-    "users": 9,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB 44",
-    "name5g": "GobSL-SL-193",
-    "MAC5g": null,
-    "lat": -33.266873,
-    "lon": -66.345226,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB 62",
-    "name5g": "GobSL-SL-198",
-    "MAC5g": null,
-    "lat": -33.271838,
-    "lon": -66.345199,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-145",
-    "MAC": "F0 5C 19 C3 EA C6",
-    "name5g": "GobSL-SL-145",
-    "MAC5g": null,
-    "lat": -33.305233,
-    "lon": -66.32695,
-    "type": "2Ghz.",
-    "users": 38,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-136",
-    "MAC": "F0 5C 19 C3 EA DE",
-    "name5g": "GobSL-SL-136",
-    "MAC5g": null,
-    "lat": -33.268033,
-    "lon": -66.305629,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-143",
-    "MAC": "84 D4 7E C8 54 DA",
-    "name5g": "GobSL-SL-143",
-    "MAC5g": null,
-    "lat": -33.268436,
-    "lon": -66.301313,
-    "type": "2Ghz.",
-    "users": 18,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "84 D4 7E C8 54 B4",
-    "name5g": "GobSL-SL-139",
-    "MAC5g": null,
-    "lat": -33.253983,
-    "lon": -66.338267,
-    "type": "2Ghz.",
-    "users": 19,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 E7 9E",
-    "name5g": "WiFi3.0-SL-12",
-    "MAC5g": null,
-    "lat": -33.27005,
-    "lon": -66.3143,
-    "type": "2Ghz.",
-    "users": 7,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 DB 3A",
-    "name5g": "WiFi3.0-SL-14",
-    "MAC5g": null,
-    "lat": -33.264983,
-    "lon": -66.313883,
-    "type": "2Ghz.",
-    "users": 19,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EC 04",
-    "name5g": "WiFi3.0-SL-15",
-    "MAC5g": null,
-    "lat": -33.267633,
-    "lon": -66.3111,
-    "type": "2Ghz.",
-    "users": 14,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 E7 6E",
-    "name5g": "WiFi3.0-SL-16",
-    "MAC5g": null,
-    "lat": -33.260667,
-    "lon": -66.312167,
-    "type": "2Ghz.",
-    "users": 15,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB 08",
-    "name5g": "WiFi3.0-SL-17",
-    "MAC5g": null,
-    "lat": -33.260233,
-    "lon": -66.31785,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EA E2",
-    "name5g": "WiFi3.0-SL-18",
-    "MAC5g": null,
-    "lat": -33.264467,
-    "lon": -66.303883,
-    "type": "2Ghz.",
-    "users": 12,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-04",
-    "MAC": "CC 88 C7 CE 9B 56",
-    "name5g": "WiFi3.0-SL-04",
-    "MAC5g": null,
-    "lat": -33.27301667,
-    "lon": -66.33723333,
-    "type": "2Ghz.",
-    "users": 46,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EA C2",
-    "name5g": "WiFi3.0-SL-05",
-    "MAC5g": null,
-    "lat": -33.269583,
-    "lon": -66.337017,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EC 12",
-    "name5g": "WiFi3.0-SL-06",
-    "MAC5g": null,
-    "lat": -33.268367,
-    "lon": -66.333167,
-    "type": "2Ghz.",
-    "users": 44,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "3C E8 6E CE 94 4C",
-    "name5g": "WiFi3.0-SL-07",
-    "MAC5g": null,
-    "lat": -33.271767,
-    "lon": -66.330733,
-    "type": "2Ghz.",
-    "users": 14,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 E7 98",
-    "name5g": "WiFi3.0-SL-09",
-    "MAC5g": null,
-    "lat": -33.271933,
-    "lon": -66.322517,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 E7 8C",
-    "name5g": "WiFi3.0-SL-10",
-    "MAC5g": null,
-    "lat": -33.273233,
-    "lon": -66.31945,
-    "type": "2Ghz.",
-    "users": 29,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EA E4",
-    "name5g": "WiFi3.0-SL-11",
-    "MAC5g": null,
-    "lat": -33.27551667,
-    "lon": -66.31818333,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EB 16",
-    "name5g": "WiFi3.0-SL-31",
-    "MAC5g": null,
-    "lat": -33.286717,
-    "lon": -66.298917,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EB C4",
-    "name5g": "WiFi3.0-SL-32",
-    "MAC5g": null,
-    "lat": -33.289183,
-    "lon": -66.303683,
-    "type": "2Ghz.",
-    "users": 31,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EC 0E",
-    "name5g": "WiFi3.0-SL-30",
-    "MAC5g": null,
-    "lat": -33.285258,
-    "lon": -66.303661,
-    "type": "2Ghz.",
-    "users": 40,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EA C4",
-    "name5g": "WiFi3.0-SL-19",
-    "MAC5g": null,
-    "lat": -33.262811,
-    "lon": -66.299486,
-    "type": "2Ghz.",
-    "users": 29,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EB 18",
-    "name5g": "WiFi3.0-SL-20",
-    "MAC5g": null,
-    "lat": -33.265543,
-    "lon": -66.297217,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EC 0A",
-    "name5g": "WiFi3.0-SL-21",
-    "MAC5g": null,
-    "lat": -33.272606,
-    "lon": -66.297947,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EB 0C",
-    "name5g": "WiFi3.0-SL-22",
-    "MAC5g": null,
-    "lat": -33.273617,
-    "lon": -66.302217,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EC 02",
-    "name5g": "WiFi3.0-SL-24",
-    "MAC5g": null,
-    "lat": -33.277869,
-    "lon": -66.296539,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 E7 82",
-    "name5g": "WiFi3.0-SL-25",
-    "MAC5g": null,
-    "lat": -33.280833,
-    "lon": -66.3014,
-    "type": "2Ghz.",
-    "users": 31,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EA CE",
-    "name5g": "WiFi3.0-SL-33",
-    "MAC5g": null,
-    "lat": -33.293169,
-    "lon": -66.304467,
-    "type": "2Ghz.",
-    "users": 33,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EB DA",
-    "name5g": "WiFi3.0-SL-26",
-    "MAC5g": null,
-    "lat": -33.280336,
-    "lon": -66.310192,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EB 3E",
-    "name5g": "WiFi3.0-SL-27",
-    "MAC5g": null,
-    "lat": -33.278667,
-    "lon": -66.3078,
-    "type": "2Ghz.",
-    "users": 35,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 E7 B6",
-    "name5g": "WiFi3.0-SL-28",
-    "MAC5g": null,
-    "lat": -33.28385,
-    "lon": -66.3074,
-    "type": "2Ghz.",
-    "users": 38,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 DB 6E",
-    "name5g": "WiFi3.0-SL-29",
-    "MAC5g": null,
-    "lat": -33.286767,
-    "lon": -66.308867,
-    "type": "2Ghz.",
-    "users": 26,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-37",
-    "MAC": "F0 5C 19 C3 EB 02",
-    "name5g": "WiFi3.0-SL-37",
-    "MAC5g": null,
-    "lat": -33.283964,
-    "lon": -66.325189,
-    "type": "2Ghz.",
-    "users": 36,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "9C 8C D8 CC FD AE",
-    "name5g": "WiFi3.0-SL-38",
-    "MAC5g": null,
-    "lat": -33.285667,
-    "lon": -66.320133,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB F2",
-    "name5g": " WiFi3.0-SL-40",
-    "MAC5g": null,
-    "lat": -33.28752787,
-    "lon": -66.31908376,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 E7 EC",
-    "name5g": "WiFi3.0-SL-46",
-    "MAC5g": null,
-    "lat": -33.29718415,
-    "lon": -66.32443007,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-42",
-    "MAC": "F0 5C 19 C3 EB FC",
-    "name5g": "WiFi3.0-SL-42",
-    "MAC5g": null,
-    "lat": -33.29021667,
-    "lon": -66.31638333,
-    "type": "2Ghz.",
-    "users": 40,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 EC 00",
-    "name5g": "WiFi3.0-SL-43",
-    "MAC5g": null,
-    "lat": -33.29216667,
-    "lon": -66.3177,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 EC 14",
-    "name5g": "WiFi3.0-SL-44",
-    "MAC5g": null,
-    "lat": -33.29425,
-    "lon": -66.31943333,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 EB F6",
-    "name5g": "WiFi3.0-SL-45",
-    "MAC5g": null,
-    "lat": -33.2934,
-    "lon": -66.3265,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 DB B2",
-    "name5g": "WiFi3.0-SL-57",
-    "MAC5g": null,
-    "lat": -33.292694,
-    "lon": -66.338006,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB B4",
-    "name5g": "WiFi3.0-SL-59",
-    "MAC5g": null,
-    "lat": -33.28655,
-    "lon": -66.33435,
-    "type": "2Ghz.",
-    "users": 31,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 EB F4",
-    "name5g": "WiFi3.0-SL-80",
-    "MAC5g": null,
-    "lat": -33.308867,
-    "lon": -66.357417,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 DB 3C",
-    "name5g": "WiFi3.0-SL-82",
-    "MAC5g": null,
-    "lat": -33.312483,
-    "lon": -66.358067,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-165",
-    "MAC": "7C 57 3C CE DF 1A",
-    "name5g": "GobSL-SL-165",
-    "MAC5g": null,
-    "lat": -33.23808611,
-    "lon": -66.344342,
-    "type": "2Ghz.",
-    "users": 37,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-41",
-    "MAC": "F0 5C 19 C3 EA EA",
-    "name5g": "WiFi3.0-SL-41",
-    "MAC5g": null,
-    "lat": -33.290217,
-    "lon": -66.319467,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB F8",
-    "name5g": "WiFi3.0-SL-61",
-    "MAC5g": null,
-    "lat": -33.2829,
-    "lon": -66.3329,
-    "type": "2Ghz.",
-    "users": 37,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 E7 90",
-    "name5g": "WiFi3.0-SL-83",
-    "MAC5g": null,
-    "lat": -33.315833,
-    "lon": -66.35795,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB BE",
-    "name5g": "WiFi3.0-SL-84",
-    "MAC5g": null,
-    "lat": -33.31891667,
-    "lon": -66.33625,
-    "type": "2Ghz.",
-    "users": 16,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB E8",
-    "name5g": "WiFi3.0-SL-03",
-    "MAC5g": null,
-    "lat": -33.273744,
-    "lon": -66.341547,
-    "type": "2Ghz.",
-    "users": 29,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 DB 60",
-    "name5g": "WiFi3.0-SL-96",
-    "MAC5g": null,
-    "lat": -33.306772,
-    "lon": -66.314242,
-    "type": "2Ghz.",
-    "users": 26,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB D2",
-    "name5g": "WiFi3.0-SL-97",
-    "MAC5g": null,
-    "lat": -33.309303,
-    "lon": -66.314469,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB C6",
-    "name5g": "WiFi3.0-SL-50",
-    "MAC5g": null,
-    "lat": -33.277333,
-    "lon": -66.340806,
-    "type": "2Ghz.",
-    "users": 44,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EC 08",
-    "name5g": "WiFi3.0-SL-99",
-    "MAC5g": null,
-    "lat": -33.315506,
-    "lon": -66.319058,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "7C 57 3C CE DD 9A",
-    "name5g": "WiFi3.0-SL-100",
-    "MAC5g": null,
-    "lat": -33.318167,
-    "lon": -66.32185,
-    "type": "2Ghz.",
-    "users": 49,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB 96",
-    "name5g": "WiFi3.0-SL-101",
-    "MAC5g": null,
-    "lat": -33.31915,
-    "lon": -66.3173,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB 46",
-    "name5g": "WiFi3.0-SL-102",
-    "MAC5g": null,
-    "lat": -33.32053333,
-    "lon": -66.3135,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB C2",
-    "name5g": "WiFi3.0-SL-103",
-    "MAC5g": null,
-    "lat": -33.318767,
-    "lon": -66.310881,
-    "type": "2Ghz.",
-    "users": 34,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 06 10",
-    "name5g": "WiFi3.0-SL-104",
-    "MAC5g": null,
-    "lat": -33.3163,
-    "lon": -66.31105,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 E7 62",
-    "name5g": "WiFi3.0-SL-105",
-    "MAC5g": null,
-    "lat": -33.315054,
-    "lon": -66.30807,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EA F8",
-    "name5g": " WiFi3.0-SL-106",
-    "MAC5g": null,
-    "lat": -33.31949992,
-    "lon": -66.307717,
-    "type": "2Ghz.",
-    "users": 26,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB 7A",
-    "name5g": "WiFi3.0-SL-107",
-    "MAC5g": null,
-    "lat": -33.322983,
-    "lon": -66.309533,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "48 2F 6B C0 A9 E6",
-    "name5g": "WiFi3.0-SL-120",
-    "MAC5g": null,
-    "lat": -33.317272,
-    "lon": -66.363378,
-    "type": "2Ghz.",
-    "users": 45,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 E7 80",
-    "name5g": "WiFi3.0-SL-23",
-    "MAC5g": null,
-    "lat": -33.276839,
-    "lon": -66.299428,
-    "type": "2Ghz.",
-    "users": 34,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 DB 76",
-    "name5g": "WiFi3.0-SL-48",
-    "MAC5g": null,
-    "lat": -33.30060693,
-    "lon": -66.32577605,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 EA EC",
-    "name5g": "WiFi3.0-SL-52",
-    "MAC5g": null,
-    "lat": -33.31187248,
-    "lon": -66.3349004,
-    "type": "2Ghz.",
-    "users": 34,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 EB 6E",
-    "name5g": "WiFi3.0-SL-53",
-    "MAC5g": null,
-    "lat": -33.309183,
-    "lon": -66.334367,
-    "type": "2Ghz.",
-    "users": 33,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "7C 57 3C CE D1 C4",
-    "name5g": " WiFi3.0-SL-55",
-    "MAC5g": null,
-    "lat": -33.302724,
-    "lon": -66.337349,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 DB 4E",
-    "name5g": "WiFi3.0-SL-60",
-    "MAC5g": null,
-    "lat": -33.2843,
-    "lon": -66.33213333,
-    "type": "2Ghz.",
-    "users": 34,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 DB 48",
-    "name5g": "WiFi3.0-SL-67",
-    "MAC5g": null,
-    "lat": -33.294033,
-    "lon": -66.354933,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "C8 B5 AD C3 04 6E",
-    "name5g": "WiFi3.0-SL-68",
-    "MAC5g": null,
-    "lat": -33.296167,
-    "lon": -66.351617,
-    "type": "2Ghz.",
-    "users": 31,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "9C 8C D8 CC F7 26",
-    "name5g": "WiFi3.0-SL-73",
-    "MAC5g": null,
-    "lat": -33.313644,
-    "lon": -66.341033,
-    "type": "2Ghz.",
-    "users": 21,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 DB 7A",
-    "name5g": "WiFi3.0-SL-74",
-    "MAC5g": null,
-    "lat": -33.31445,
-    "lon": -66.33551,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 EB E0",
-    "name5g": "WiFi3.0-SL-79",
-    "MAC5g": null,
-    "lat": -33.308483,
-    "lon": -66.369117,
-    "type": "2Ghz.",
-    "users": 33,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB 4C",
-    "name5g": "WiFi3.0-SL-121",
-    "MAC5g": null,
-    "lat": -33.313977,
-    "lon": -66.363267,
-    "type": "2Ghz.",
-    "users": 37,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EB 68",
-    "name5g": "WiFi3.0-SL-65",
-    "MAC5g": null,
-    "lat": -33.269517,
-    "lon": -66.302567,
-    "type": "2Ghz.",
-    "users": 18,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 EB A8",
-    "name5g": "WiFi3.0-SL-72",
-    "MAC5g": null,
-    "lat": -33.3081,
-    "lon": -66.34368333,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB 00",
-    "name5g": "WiFi3.0-SL-39",
-    "MAC5g": null,
-    "lat": -33.287883,
-    "lon": -66.32275,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 DB 44",
-    "name5g": "WiFi3.0-SL-51",
-    "MAC5g": null,
-    "lat": -33.308783,
-    "lon": -66.32913,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "6C C4 9F CF B0 44",
-    "name5g": "WFI3.0-SL-62",
-    "MAC5g": null,
-    "lat": -33.284067,
-    "lon": -66.339167,
-    "type": "2Ghz.",
-    "users": 50,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 E7 CE",
-    "name5g": "WiFi3.0-SL-63",
-    "MAC5g": null,
-    "lat": -33.292167,
-    "lon": -66.347767,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "C8 B5 AD C3 05 44",
-    "name5g": "WiFi3.0-SL-66",
-    "MAC5g": null,
-    "lat": -33.291383,
-    "lon": -66.352883,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "CC 88 C7 CE 99 FA",
-    "name5g": "WiFi3.0-SL-71",
-    "MAC5g": null,
-    "lat": -33.303806,
-    "lon": -66.352028,
-    "type": "2Ghz.",
-    "users": 37,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB DC",
-    "name5g": "WiFi3.0-SL-122",
-    "MAC5g": null,
-    "lat": -33.31086667,
-    "lon": -66.36338333,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "C8 B5 AD C3 07 98",
-    "name5g": "WiFi3.0-SL-85",
-    "MAC5g": null,
-    "lat": -33.286284,
-    "lon": -66.32832,
-    "type": "2Ghz.",
-    "users": 14,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 EB CE",
-    "name5g": "WiFi3.0-SL-81",
-    "MAC5g": null,
-    "lat": -33.31001667,
-    "lon": -66.35361667,
-    "type": "2Ghz.",
-    "users": 13,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB E4",
-    "name5g": "GobSL-SL-195",
-    "MAC5g": null,
-    "lat": -33.26885,
-    "lon": -66.345267,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-69",
-    "MAC": "F0 5C 19 C3 EB 82",
-    "name5g": "WiFi3.0-SL-69",
-    "MAC5g": null,
-    "lat": -33.295303,
-    "lon": -66.344347,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 EB 24",
-    "name5g": "WiFi3.0-SL-76",
-    "MAC5g": null,
-    "lat": -33.305867,
-    "lon": -66.4152,
-    "type": "2Ghz.",
-    "users": 18,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 ED 16",
-    "name5g": "WiFi3.0-SL-77",
-    "MAC5g": null,
-    "lat": -33.30873333,
-    "lon": -66.4043,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "C8 B5 AD C3 05 56",
-    "name5g": "WiFi3.0-SL-75",
-    "MAC5g": null,
-    "lat": -33.31605,
-    "lon": -66.346667,
-    "type": "2Ghz.",
-    "users": 38,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 EB 76",
-    "name5g": "WiFi3.0-VM-286",
-    "MAC5g": null,
-    "lat": -33.68213333,
-    "lon": -65.46531667,
-    "type": "2Ghz.",
-    "users": 12,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB 34",
-    "name5g": "WiFi3.0-SL-08",
-    "MAC5g": null,
-    "lat": -33.274067,
-    "lon": -66.32525,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EB 30",
-    "name5g": "WiFi3.0-SL-34",
-    "MAC5g": null,
-    "lat": -33.291167,
-    "lon": -66.295139,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EC B4",
-    "name5g": "WiFi3.0-SL-58",
-    "MAC5g": null,
-    "lat": -33.287933,
-    "lon": -66.339883,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "C8 B5 AD C3 05 3A",
-    "name5g": "WiFi3.0-SL-01",
-    "MAC5g": null,
-    "lat": -33.280933,
-    "lon": -66.328867,
-    "type": "2Ghz.",
-    "users": 38,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB 22",
-    "name5g": "WiFi3.0-SL-56",
-    "MAC5g": null,
-    "lat": -33.29475603,
-    "lon": -66.33436496,
-    "type": "2Ghz.",
-    "users": 35,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 ED B0",
-    "name5g": "WiFi3.0-SL-125",
-    "MAC5g": null,
-    "lat": -33.314333,
-    "lon": -66.338983,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EC A4",
-    "name5g": "WiFi3.0-SL-126",
-    "MAC5g": null,
-    "lat": -33.317467,
-    "lon": -66.315483,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EB 8C",
-    "name5g": "WiFi3.0-SL-127",
-    "MAC5g": null,
-    "lat": -33.31735,
-    "lon": -66.34946667,
-    "type": "2Ghz.",
-    "users": 29,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 EA B4",
-    "name5g": "WiFi3.0-SL-130",
-    "MAC5g": null,
-    "lat": -33.284083,
-    "lon": -66.346567,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 DB 14",
-    "name5g": "WiFi3.0-SL-132",
-    "MAC5g": null,
-    "lat": -33.27825,
-    "lon": -66.32955,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-133",
-    "MAC": "F0 5C 19 C3 EB 9C",
-    "name5g": "WiFi3.0-SL-133",
-    "MAC5g": null,
-    "lat": -33.29715,
-    "lon": -66.326733,
-    "type": "2Ghz.",
-    "users": 21,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB 20",
-    "name5g": "WiFi3.0-SL-135",
-    "MAC5g": null,
-    "lat": -33.271283,
-    "lon": -66.30455,
-    "type": "2Ghz.",
-    "users": 10,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 E7 B0",
-    "name5g": "WiFi3.0-SL-78",
-    "MAC5g": null,
-    "lat": -33.310067,
-    "lon": -66.379217,
-    "type": "2Ghz.",
-    "users": 18,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB A4",
-    "name5g": "WiFi3.0-SL-131",
-    "MAC5g": null,
-    "lat": -33.265883,
-    "lon": -66.336467,
-    "type": "2Ghz.",
-    "users": 34,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 EB 66",
-    "name5g": "WiFi3.0-SL-136",
-    "MAC5g": null,
-    "lat": -33.281833,
-    "lon": -66.343967,
-    "type": "2Ghz.",
-    "users": 16,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "6C C4 9F CF B6 DC",
-    "name5g": "WiFi3.0-SL-64",
-    "MAC5g": null,
-    "lat": -33.288086,
-    "lon": -66.351114,
-    "type": "2Ghz.",
-    "users": 45,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "48 2F 6B C0 A7 3E",
-    "name5g": "WiFi3.0-SL-137",
-    "MAC5g": null,
-    "lat": -33.294056,
-    "lon": -66.295944,
-    "type": "2Ghz.",
-    "users": 21,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "B4 5D 50 C8 91 C4",
-    "name5g": "GobSL-SL-97",
-    "MAC5g": null,
-    "lat": -33.308734,
-    "lon": -66.373712,
-    "type": "2Ghz.",
-    "users": 37,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 DB 88",
-    "name5g": "WiFi3.0-SL-98",
-    "MAC5g": null,
-    "lat": -33.310483,
-    "lon": -66.317017,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi 3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 DB 1E",
-    "name5g": "WiFi3.0-SL-134",
-    "MAC5g": null,
-    "lat": -33.262205,
-    "lon": -66.3055,
-    "type": "2Ghz.",
-    "users": 21,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EA B2",
-    "name5g": "GobSL-SL-171",
-    "MAC5g": null,
-    "lat": -33.331142,
-    "lon": -66.314375,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Oeste",
-    "MAC": "F0 5C 19 C3 DB 52",
-    "name5g": "WiFi3.0-SL-128",
-    "MAC5g": null,
-    "lat": -33.311783,
-    "lon": -66.348783,
-    "type": "2Ghz.",
-    "users": 6,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EC D0",
-    "name5g": "WiFi3.0-SL-124",
-    "MAC5g": null,
-    "lat": -33.29703,
-    "lon": -66.31575,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Centro",
-    "MAC": "F0 5C 19 C3 EB EE",
-    "name5g": "WiFi3.0-SL-47",
-    "MAC5g": null,
-    "lat": -33.299317,
-    "lon": -66.325567,
-    "type": "2Ghz.",
-    "users": 18,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 E7 AA",
-    "name5g": "WiFi3.0-SL-123",
-    "MAC5g": null,
-    "lat": -33.330479,
-    "lon": -66.346011,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 ED 12",
-    "name5g": " WiFi3.0-SL-211",
-    "MAC5g": null,
-    "lat": -33.326617,
-    "lon": -66.309883,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EA B8",
-    "name5g": "WiFi3.0-SL-213",
-    "MAC5g": null,
-    "lat": -33.326967,
-    "lon": -66.305283,
-    "type": "2Ghz.",
-    "users": 21,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 DA FE",
-    "name5g": "WiFi3.0-SL-216",
-    "MAC5g": null,
-    "lat": -33.329883,
-    "lon": -66.308317,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "F0 5C 19 C3 EB 72",
-    "name5g": "WiFi3.0-SL-35",
-    "MAC5g": null,
-    "lat": -33.298483,
-    "lon": -66.311483,
-    "type": "2Ghz.",
-    "users": 26,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 EB 2E",
-    "name5g": "WiFi3.0-SL-129",
-    "MAC5g": null,
-    "lat": -33.278539,
-    "lon": -66.342062,
-    "type": "2Ghz.",
-    "users": 31,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-170",
-    "MAC": "C8 B5 AD C3 07 5E",
-    "name5g": "WiFi3.0-SL-170",
-    "MAC5g": null,
-    "lat": -33.302614,
-    "lon": -66.346442,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-169",
-    "MAC": "C8 B5 AD C3 07 AC",
-    "name5g": "WiFi3.0-SL-169",
-    "MAC5g": null,
-    "lat": -33.289466,
-    "lon": -66.341635,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-210",
-    "MAC": "C8 B5 AD C3 07 D8",
-    "name5g": "WiFi3.0-SL-210",
-    "MAC5g": null,
-    "lat": -33.332889,
-    "lon": -66.325361,
-    "type": "2Ghz.",
-    "users": 16,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-218",
-    "MAC": "C8 B5 AD C3 07 F0",
-    "name5g": "WiFi3.0-SL-218",
-    "MAC5g": null,
-    "lat": -33.3333,
-    "lon": -66.316117,
-    "type": "2Ghz.",
-    "users": 29,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-219",
-    "MAC": "C8 B5 AD C3 08 36",
-    "name5g": "WiFi3.0-SL-219",
-    "MAC5g": null,
-    "lat": -33.331983,
-    "lon": -66.31735,
-    "type": "2Ghz.",
-    "users": 31,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 07 7A",
-    "name5g": "WiFi3.0-SL-203",
-    "MAC5g": null,
-    "lat": -33.335733,
-    "lon": -66.337933,
-    "type": "2Ghz.",
-    "users": 15,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 05 94",
-    "name5g": "WiFi3.0-SL-205",
-    "MAC5g": null,
-    "lat": -33.333139,
-    "lon": -66.332528,
-    "type": "2Ghz.",
-    "users": 6,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "F0 5C 19 C3 EA F0",
-    "name5g": "WiFi3.0-SL-209",
-    "MAC5g": null,
-    "lat": -33.331278,
-    "lon": -66.3245,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 07 82",
-    "name5g": "WiFi3.0-SL-207",
-    "MAC5g": null,
-    "lat": -33.331333,
-    "lon": -66.32875,
-    "type": "2Ghz.",
-    "users": 16,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 07 3E",
-    "name5g": "WiFi3.0-SL-204",
-    "MAC5g": null,
-    "lat": -33.333722,
-    "lon": -66.330806,
-    "type": "2Ghz.",
-    "users": 16,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 06 36",
-    "name5g": "WiFi3.0-SL-202",
-    "MAC5g": null,
-    "lat": -33.333833,
-    "lon": -66.33675,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "94 B4 0F CA C1 18",
-    "name5g": "WiFi3.0-SL-201",
-    "MAC5g": null,
-    "lat": -33.333281,
-    "lon": -66.338214,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 07 80",
-    "name5g": "WiFi3.0-SL-206",
-    "MAC5g": null,
-    "lat": -33.331058,
-    "lon": -66.3312,
-    "type": "2Ghz.",
-    "users": 9,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 06 42",
-    "name5g": "WiFi3.0-SL-212",
-    "MAC5g": null,
-    "lat": -33.326656,
-    "lon": -66.307794,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-226",
-    "MAC": "9C 8C D8 CC F8 0E",
-    "name5g": "WiFi3.0-SL-226",
-    "MAC5g": null,
-    "lat": -33.306256,
-    "lon": -66.349236,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-227",
-    "MAC": "9C 8C D8 CC F8 20",
-    "name5g": "WiFi3.0-SL-227",
-    "MAC5g": null,
-    "lat": -33.302583,
-    "lon": -66.349175,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "9C 8C D8 CC F7 20",
-    "name5g": "WiFi3.0-SL-233",
-    "MAC5g": null,
-    "lat": -33.258364,
-    "lon": -66.336353,
-    "type": "2Ghz.",
-    "users": 41,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "9C 8C D8 CC F6 98",
-    "name5g": "WiFi3.0-SL-234",
-    "MAC5g": null,
-    "lat": -33.257358,
-    "lon": -66.334019,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "C8 B5 AD C3 04 A4",
-    "name5g": "WiFi3.0-SL-235",
-    "MAC5g": null,
-    "lat": -33.252136,
-    "lon": -66.333358,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "9C 8C D8 CC F5 EA",
-    "name5g": "WiFi3.0-SL-236",
-    "MAC5g": null,
-    "lat": -33.251856,
-    "lon": -66.336969,
-    "type": "2Ghz.",
-    "users": 33,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "9C 8C D8 CC F8 98",
-    "name5g": "WiFi3.0-SL-237",
-    "MAC5g": null,
-    "lat": -33.248722,
-    "lon": -66.334306,
-    "type": "2Ghz.",
-    "users": 36,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-222",
-    "MAC": "9C 8C D8 CC F6 9C",
-    "name5g": "WiFi3.0-SL-222",
-    "MAC5g": null,
-    "lat": -33.28405,
-    "lon": -66.290058,
-    "type": "2Ghz.",
-    "users": 14,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-224",
-    "MAC": "9C 8C D8 CC F7 8C",
-    "name5g": "WiFi3.0-SL-224",
-    "MAC5g": null,
-    "lat": -33.284403,
-    "lon": -66.314642,
-    "type": "2Ghz.",
-    "users": 26,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "9C 8C D8 CC F6 A6",
-    "name5g": " WiFi3.0-SL-231",
-    "MAC5g": null,
-    "lat": -33.264694,
-    "lon": -66.325722,
-    "type": "2Ghz.",
-    "users": 35,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-232",
-    "MAC": "6C C4 9F CF B2 70",
-    "name5g": "WiFi3.0-SL-232",
-    "MAC5g": null,
-    "lat": -33.262556,
-    "lon": -66.328833,
-    "type": "2Ghz.",
-    "users": 31,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "9C 8C D8 CC F6 E8",
-    "name5g": "WiFi3.0-SL-221",
-    "MAC5g": null,
-    "lat": -33.266311,
-    "lon": -66.299528,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-225",
-    "MAC": "6C C4 9F CF B6 EE",
-    "name5g": "WiFi4.0-SL-225",
-    "MAC5g": null,
-    "lat": -33.314406,
-    "lon": -66.357909,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-167",
-    "MAC": "9C 8C D8 CC F7 A2",
-    "name5g": "WiFi3.0-SL-167",
-    "MAC5g": null,
-    "lat": -33.236525,
-    "lon": -66.350956,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-172",
-    "MAC": "6C C4 9F CF B3 D8",
-    "name5g": "WiFi3.0-SL-172",
-    "MAC5g": null,
-    "lat": -33.270289,
-    "lon": -66.343272,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Este",
-    "MAC": "9C 8C D8 CC F7 12",
-    "name5g": "WiFi3.0-SL-223",
-    "MAC5g": null,
-    "lat": -33.289708,
-    "lon": -66.306911,
-    "type": "2Ghz.",
-    "users": 43,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "9C 8C D8 CC F6 18",
-    "name5g": "WiFi3.0-SL-230",
-    "MAC5g": null,
-    "lat": -33.263331,
-    "lon": -66.316942,
-    "type": "2Ghz.",
-    "users": 25,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "F0 5C 19 C3 DB 06",
-    "name5g": "WiFi3.0-SL-228",
-    "MAC5g": null,
-    "lat": -33.265753,
-    "lon": -66.343972,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 07 FC",
-    "name5g": "WiFi3.0-SL-217",
-    "MAC5g": null,
-    "lat": -33.328089,
-    "lon": -66.31039,
-    "type": "2Ghz.",
-    "users": 19,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 05 22",
-    "name5g": "WiFi3.0-SL-214",
-    "MAC5g": null,
-    "lat": -33.3284,
-    "lon": -66.305833,
-    "type": "2Ghz.",
-    "users": 14,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 08 24",
-    "name5g": "WiFi3.0-SL-215",
-    "MAC5g": null,
-    "lat": -33.328367,
-    "lon": -66.307883,
-    "type": "2Ghz.",
-    "users": 8,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "9C 8C D8 CC F6 F6",
-    "name5g": "WiFi3.0-SL-229",
-    "MAC5g": null,
-    "lat": -33.269722,
-    "lon": -66.339056,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "C8 B5 AD C3 05 40",
-    "name5g": "WiFi3.0-SL-208",
-    "MAC5g": null,
-    "lat": -33.329919,
-    "lon": -66.326522,
-    "type": "2Ghz.",
-    "users": 19,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-184",
-    "MAC": "48 2F 6B C0 A8 00",
-    "name5g": "GobSL-SL-184",
-    "MAC5g": null,
-    "lat": -33.311131,
-    "lon": -66.388532,
-    "type": "2Ghz.",
-    "users": 66,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-239",
-    "MAC": "48 2F 6B C0 A5 06",
-    "name5g": "GobSL-SL-239",
-    "MAC5g": null,
-    "lat": -33.307033,
-    "lon": -66.382406,
-    "type": "2Ghz.",
-    "users": 50,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "7C 57 3C CE DF A8",
-    "name5g": "WiFi3.0-SL-189",
-    "MAC5g": null,
-    "lat": -33.335528,
-    "lon": -66.3465,
-    "type": "2Ghz.",
-    "users": 46,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Sur",
-    "MAC": "7C 57 3C CE E0 F0",
-    "name5g": "WiFi3.0-SL-190",
-    "MAC5g": null,
-    "lat": -33.340667,
-    "lon": -66.346222,
-    "type": "2Ghz.",
-    "users": 51,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "7C 57 3C CE E4 A6",
-    "name5g": "WiFi3.0-SL-242",
-    "MAC5g": null,
-    "lat": -33.264278,
-    "lon": -66.350306,
-    "type": "2Ghz.",
-    "users": 44,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-Norte",
-    "MAC": "7C 57 3C CE D2 92",
-    "name5g": "WiFi3.0-SL-241",
-    "MAC5g": null,
-    "lat": -33.266833,
-    "lon": -66.349833,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-240",
-    "MAC": "7C 57 3C CE DD 98",
-    "name5g": "WiFi3.0-SL-240",
-    "MAC5g": null,
-    "lat": -33.311361,
-    "lon": -66.356389,
-    "type": "2Ghz.",
-    "users": 47,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-220",
-    "MAC": "7C 57 3C CE E5 3C",
-    "name5g": "WiFi3.0-SL-220",
-    "MAC5g": null,
-    "lat": -33.287094,
-    "lon": -66.347803,
-    "type": "2Ghz.",
-    "users": 36,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-244",
-    "MAC": "CC 88 C7 CE 99 C8",
-    "name5g": "GobSL-SL-244",
-    "MAC5g": null,
-    "lat": -33.334374,
-    "lon": -66.353271,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-245",
-    "MAC": "B4 5D 50 C9 3A 06",
-    "name5g": "WiFi3.0-SL-245",
-    "MAC5g": null,
-    "lat": -33.316091,
-    "lon": -66.333449,
-    "type": "2Ghz.",
-    "users": 21,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-246",
-    "MAC": "B4 5D 50 C9 3A 6C",
-    "name5g": "WiFi3.0-SL-246",
-    "MAC5g": null,
-    "lat": -33.269,
-    "lon": -66.309472,
-    "type": "2Ghz.",
-    "users": 16,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-249",
-    "MAC": "CC 88 C7 CE 9C 00",
-    "name5g": "WiFi4.0-SL-249",
-    "MAC5g": null,
-    "lat": -33.307536,
-    "lon": -66.352228,
-    "type": "2Ghz.",
-    "users": 37,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-247",
-    "MAC": "CC 88 C7 CE 9B B2",
-    "name5g": "WiFi4.0-SL-247",
-    "MAC5g": null,
-    "lat": -33.298847,
-    "lon": -66.318214,
-    "type": "2Ghz.",
-    "users": 24,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-250",
-    "MAC": "CC 88 C7 CE 9A 96",
-    "name5g": "WiFi4.0-SL-250",
-    "MAC5g": null,
-    "lat": -33.269599,
-    "lon": -66.304523,
-    "type": "2Ghz.",
-    "users": 18,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-252",
-    "MAC": "B4 5D 50 C8 D5 16",
-    "name5g": "WiFi4.0-SL-252",
-    "MAC5g": null,
-    "lat": -33.272957,
-    "lon": -66.306587,
-    "type": "2Ghz.",
-    "users": 3,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-248",
-    "MAC": "CC 88 C7 CE 99 AE",
-    "name5g": "WiFi4.0-SL-248",
-    "MAC5g": null,
-    "lat": -33.289431,
-    "lon": -66.299403,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-255",
-    "MAC": "3C E8 6E CE 95 40",
-    "name5g": " GobSL-SL-255",
-    "MAC5g": null,
-    "lat": -33.3158947,
-    "lon": -66.3262719,
-    "type": "2Ghz.",
-    "users": 6,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi3.0-SL-EM-05",
-    "MAC": "48 4A E9 C4 ED 90",
-    "name5g": "GobSL-EM-05",
-    "MAC5g": null,
-    "lat": -33.094553,
-    "lon": -66.291786,
-    "type": "2Ghz.",
-    "users": 39,
-    "location": "San Luis"
-  },
-  {
-    "name": "GobSL-SL-257",
-    "MAC": "6C C4 9F CF B7 46",
-    "name5g": "GobSL-SL-257",
-    "MAC5g": null,
-    "lat": -33.33751,
-    "lon": -66.36216,
-    "type": "2Ghz.",
-    "users": 17,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-260",
-    "MAC": "6C C4 9F CF B6 AA",
-    "name5g": "WiFi4.0-SL-260",
-    "MAC5g": null,
-    "lat": -33.279367,
-    "lon": -66.33655,
-    "type": "2Ghz.",
-    "users": 30,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-261",
-    "MAC": "48 2F 6B C0 A6 32",
-    "name5g": "WiFi4.0-SL-261",
-    "MAC5g": null,
-    "lat": -33.280342,
-    "lon": -66.342372,
-    "type": "2Ghz.",
-    "users": 37,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-262",
-    "MAC": "6C C4 9F CF B5 4A",
-    "name5g": "WiFi4.0-SL-262",
-    "MAC5g": null,
-    "lat": -33.30079136,
-    "lon": -66.32386462,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-264",
-    "MAC": "6C C4 9F CF B3 FA",
-    "name5g": "WiFi4.0-SL-264",
-    "MAC5g": null,
-    "lat": -33.337833,
-    "lon": -66.346611,
-    "type": "2Ghz.",
-    "users": 29,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-265",
-    "MAC": "6C C4 9F CF B0 84",
-    "name5g": "WiFi4.0-SL-265",
-    "MAC5g": null,
-    "lat": -33.286139,
-    "lon": -66.326417,
-    "type": "2Ghz.",
-    "users": 35,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-188",
-    "MAC": "48 2F 6B C0 A7 74",
-    "name5g": "WiFi4.0-SL-188",
-    "MAC5g": null,
-    "lat": -33.311603,
-    "lon": -66.382772,
-    "type": "2Ghz.",
-    "users": 47,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-263",
-    "MAC": "48 2F 6B C0 A9 CE",
-    "name5g": "WiFi4.0-SL-263",
-    "MAC5g": null,
-    "lat": -33.283667,
-    "lon": -66.352686,
-    "type": "2Ghz.",
-    "users": 29,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-258",
-    "MAC": "6C C4 9F CF B0 2C",
-    "name5g": "WiFi4.0-SL-258",
-    "MAC5g": null,
-    "lat": -33.264992,
-    "lon": -66.329039,
-    "type": "2Ghz.",
-    "users": 43,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-268",
-    "MAC": "48 2F 6B C0 A8 0A",
-    "name5g": "WiFi4.0-SL-268",
-    "MAC5g": null,
-    "lat": -33.275072,
-    "lon": -66.329564,
-    "type": "2Ghz.",
-    "users": 40,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-272",
-    "MAC": "48 2F 6B C0 A5 E2",
-    "name5g": "WiFi4.0-SL-272",
-    "MAC5g": null,
-    "lat": -33.330419,
-    "lon": -66.338139,
-    "type": "2Ghz.",
-    "users": 14,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-271",
-    "MAC": "CC 88 C7 CF 34 AC",
-    "name5g": "WiFi4.0-SL-271",
-    "MAC5g": null,
-    "lat": -33.33185,
-    "lon": -66.338261,
-    "type": "2Ghz.",
-    "users": 15,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-270",
-    "MAC": "48 2F 6B C0 A7 F2",
-    "name5g": "WiFi4.0-SL-270",
-    "MAC5g": null,
-    "lat": -33.3308,
-    "lon": -66.339411,
-    "type": "2Ghz.",
-    "users": 22,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-269",
-    "MAC": "CC 88 C7 CF 33 BC",
-    "name5g": "WiFi4.0-SL-269",
-    "MAC5g": null,
-    "lat": -33.332239,
-    "lon": -66.339581,
-    "type": "2Ghz.",
-    "users": 10,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-279",
-    "MAC": "6C C4 9F CF B5 02",
-    "name5g": "WiFi4.0-SL-279",
-    "MAC5g": null,
-    "lat": -33.329056,
-    "lon": -66.331417,
-    "type": "2Ghz.",
-    "users": 12,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-280",
-    "MAC": "6C C4 9F CF B1 CC",
-    "name5g": "WiFi4.0-SL-280",
-    "MAC5g": null,
-    "lat": -33.329281,
-    "lon": -66.330411,
-    "type": "2Ghz.",
-    "users": 18,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-273",
-    "MAC": "CC 88 C7 CF 37 9C",
-    "name5g": "WiFi4.0-SL-273",
-    "MAC5g": null,
-    "lat": -33.330819,
-    "lon": -66.3374,
-    "type": "2Ghz.",
-    "users": 8,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-259",
-    "MAC": "48 2F 6B C0 A7 80",
-    "name5g": "WiFi4.0-SL-259",
-    "MAC5g": null,
-    "lat": -33.289778,
-    "lon": -66.345056,
-    "type": "2Ghz.",
-    "users": 41,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-274",
-    "MAC": "CC 88 C7 CF 33 F2",
-    "name5g": "WiFi4.0-SL-274",
-    "MAC5g": null,
-    "lat": -33.330431,
-    "lon": -66.335769,
-    "type": "2Ghz.",
-    "users": 19,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-277",
-    "MAC": "CC 88 C7 CF 31 52",
-    "name5g": "WiFi4.0-SL-277",
-    "MAC5g": null,
-    "lat": -33.329189,
-    "lon": -66.334231,
-    "type": "2Ghz.",
-    "users": 23,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-278",
-    "MAC": "CC 88 C7 CF 37 30",
-    "name5g": "WiFi4.0-SL-278",
-    "MAC5g": null,
-    "lat": -33.330119,
-    "lon": -66.333089,
-    "type": "2Ghz.",
-    "users": 28,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-276",
-    "MAC": "CC 88 C7 CF 34 4E",
-    "name5g": "WiFi4.0-SL-276",
-    "MAC5g": null,
-    "lat": -33.330561,
-    "lon": -66.334281,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-266",
-    "MAC": "48 2F 6B C0 A4 6E",
-    "name5g": "WiFi4.0-SL-266",
-    "MAC5g": null,
-    "lat": -33.252749,
-    "lon": -66.361038,
-    "type": "2Ghz.",
-    "users": 35,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-275",
-    "MAC": "6C C4 9F CF B5 E8",
-    "name5g": "WiFi4.0-SL-275",
-    "MAC5g": null,
-    "lat": -33.329581,
-    "lon": -66.335439,
-    "type": "2Ghz.",
-    "users": 27,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-281",
-    "MAC": "CC 88 C7 CF 32 66",
-    "name5g": "WiFi4.0-SL-281",
-    "MAC5g": null,
-    "lat": -33.3279,
-    "lon": -66.328219,
-    "type": "2Ghz.",
-    "users": 7,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-282",
-    "MAC": "CC 88 C7 CF 32 F4",
-    "name5g": "WiFi4.0-SL-282",
-    "MAC5g": null,
-    "lat": -33.326489,
-    "lon": -66.327381,
-    "type": "2Ghz.",
-    "users": 18,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-EMG-04",
-    "MAC": "6C C4 9F CF B5 18",
-    "name5g": "WiFi4.0-EMG-04",
-    "MAC5g": null,
-    "lat": -33.114194,
-    "lon": -66.357,
-    "type": "2Ghz.",
-    "users": 20,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-283",
-    "MAC": "6C C4 9F CF B1 54",
-    "name5g": "WiFi4.0-SL-283",
-    "MAC5g": null,
-    "lat": -33.327131,
-    "lon": -66.325761,
-    "type": "2Ghz.",
-    "users": 10,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-284",
-    "MAC": "3C E8 6E CE 94 96",
-    "name5g": "WiFi4.0-SL-284",
-    "MAC5g": null,
-    "lat": -33.256944,
-    "lon": -66.352131,
-    "type": "2Ghz.",
-    "users": 5,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-287 ",
-    "MAC": "3C E8 6E CE 93 9C",
-    "name5g": "WiFi4.0-SL-287",
-    "MAC5g": null,
-    "lat": -33.23625,
-    "lon": -66.354833,
-    "type": "2Ghz.",
-    "users": 4,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-285",
-    "MAC": "3C E8 6E CE 98 76",
-    "name5g": "WiFi4.0-SL-285",
-    "MAC5g": null,
-    "lat": -33.304442,
-    "lon": -66.377561,
-    "type": "2Ghz.",
-    "users": 62,
-    "location": "San Luis"
-  },
-  {
-    "name": " WiFi4.0-SL-291",
-    "MAC": "3c:e8:6e:ce:92:24",
-    "name5g": " WiFi4.0-SL-291",
-    "MAC5g": null,
-    "lat": -33.326556,
-    "lon": -66.332556,
-    "type": "2Ghz.",
-    "users": 45,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-293",
-    "MAC": "3C E8 6E CE 97 20",
-    "name5g": "WiFi4.0-SL-293",
-    "MAC5g": null,
-    "lat": -33.326556,
-    "lon": -66.336028,
-    "type": "2Ghz.",
-    "users": 10,
-    "location": "San Luis"
-  },
-  {
-    "name": " WiFi4.0-SL-292",
-    "MAC": "3C E8 6E CE 93 58",
-    "name5g": "WiFi4.0-SL-292",
-    "MAC5g": null,
-    "lat": -33.32475,
-    "lon": -66.330278,
-    "type": "2Ghz.",
-    "users": 18,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-288",
-    "MAC": "3C E8 6E CE 97 50",
-    "name5g": "WiFi4.0-SL-288",
-    "MAC5g": null,
-    "lat": -33.304572,
-    "lon": -66.423853,
-    "type": "2Ghz.",
-    "users": 11,
-    "location": "San Luis"
-  },
-  {
-    "name": "WiFi4.0-SL-286",
-    "MAC": "3C E8 6E CE 98 2A",
-    "name5g": "WiFi4.0-SL-286",
-    "MAC5g": null,
-    "lat": -33.303361,
-    "lon": -66.380139,
-    "type": "2Ghz.",
-    "users": 46,
-    "location": "San Luis"
   },
   {
     "id": "1",
@@ -52295,5 +48687,677 @@
     "type": "Dual Band 2.4Ghz | 5Ghz",
     "users": null,
     "location": "Chile"
+  },
+  {
+    "name": "Los Angeles Public Library - Central Library",
+    "name5g": "Central Library Wi-Fi",
+    "lat": 34.050536,
+    "lon": -118.255075,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Angeles Mesa Branch",
+    "name5g": "Angeles Mesa Branch Wi-Fi",
+    "lat": 34.000162,
+    "lon": -118.300892,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Arroyo Seco Regional Branch",
+    "name5g": "Arroyo Seco Branch Wi-Fi",
+    "lat": 34.114742,
+    "lon": -118.207803,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Ascot Branch",
+    "name5g": "Ascot Branch Wi-Fi",
+    "lat": 33.976871,
+    "lon": -118.2702,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Atwater Village Branch",
+    "name5g": "Atwater Village Branch Wi-Fi",
+    "lat": 34.098604,
+    "lon": -118.264152,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Cahuenga Branch",
+    "name5g": "Cahuenga Branch Wi-Fi",
+    "lat": 34.091407,
+    "lon": -118.314184,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Canoga Park Branch",
+    "name5g": "Canoga Park Branch Wi-Fi",
+    "lat": 34.196533,
+    "lon": -118.600576,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Chatsworth Branch",
+    "name5g": "Chatsworth Branch Wi-Fi",
+    "lat": 34.267613,
+    "lon": -118.572098,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Chinatown Branch",
+    "name5g": "Chinatown Branch Wi-Fi",
+    "lat": 34.063337,
+    "lon": -118.238745,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Cypress Park Branch",
+    "name5g": "Cypress Park Branch Wi-Fi",
+    "lat": 34.10116,
+    "lon": -118.210288,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Baldwin Hills Branch",
+    "name5g": "Baldwin Hills Branch Wi-Fi",
+    "lat": 34.031099,
+    "lon": -118.364238,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - San Pedro Regional Branch",
+    "name5g": "San Pedro Branch Wi-Fi",
+    "lat": 33.736069,
+    "lon": -118.295611,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Studio City Branch",
+    "name5g": "Studio City Branch Wi-Fi",
+    "lat": 34.137875,
+    "lon": -118.387761,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Sun Valley Branch",
+    "name5g": "Sun Valley Branch Wi-Fi",
+    "lat": 34.236028,
+    "lon": -118.383005,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Vernon - Leon H. Washington Jr. Branch",
+    "name5g": "Vernon Branch Wi-Fi",
+    "lat": 34.00008,
+    "lon": -118.262778,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Washington Irving Branch",
+    "name5g": "Washington Irving Branch Wi-Fi",
+    "lat": 34.016301,
+    "lon": -118.31182,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - Westwood Branch",
+    "name5g": "Westwood Branch Wi-Fi",
+    "lat": 34.059915,
+    "lon": -118.442227,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Los Angeles Public Library - West Valley Regional Branch",
+    "name5g": "West Valley Branch Wi-Fi",
+    "lat": 34.192376,
+    "lon": -118.586512,
+    "type": "Library Wi-Fi",
+    "location": "Los Angeles"
+  },
+  {
+    "name": "NYPL Main Branch",
+    "name5g": "5TH AVE & W 42ND ST - MIDTOWN",
+    "lat": 40.753182,
+    "lon": -73.982253,
+    "type": "Public Library Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "NYPL Harlem Branch",
+    "name5g": "W 124TH ST - HARLEM",
+    "lat": 40.807722,
+    "lon": -73.945396,
+    "type": "Public Library Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "NYPL Washington Heights Branch",
+    "name5g": "W 179TH ST - WASHINGTON HEIGHTS",
+    "lat": 40.847495,
+    "lon": -73.939247,
+    "type": "Public Library Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "Brooklyn Public Library Central",
+    "name5g": "GRAND ARMY PLAZA - BROOKLYN",
+    "lat": 40.672501,
+    "lon": -73.968056,
+    "type": "Public Library Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "Brooklyn Public Library Williamsburg",
+    "name5g": "DIVISION AVE - WILLIAMSBURG",
+    "lat": 40.708247,
+    "lon": -73.957145,
+    "type": "Public Library Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "Brooklyn Public Library Sunset Park",
+    "name5g": "4TH AVE - SUNSET PARK",
+    "lat": 40.645263,
+    "lon": -74.012141,
+    "type": "Public Library Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "Queens Library Flushing",
+    "name5g": "MAIN ST - FLUSHING",
+    "lat": 40.759529,
+    "lon": -73.830475,
+    "type": "Public Library Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "Queens Library Astoria",
+    "name5g": "ASTORIA BLVD - ASTORIA",
+    "lat": 40.771178,
+    "lon": -73.93041,
+    "type": "Public Library Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "LinkNYC Times Square",
+    "name5g": "BROADWAY & W 42ND ST",
+    "lat": 40.758896,
+    "lon": -73.98513,
+    "type": "LinkNYC Public Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "LinkNYC Union Square",
+    "name5g": "E 14TH ST & UNION SQ",
+    "lat": 40.735863,
+    "lon": -73.991084,
+    "type": "LinkNYC Public Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "LinkNYC Wall Street",
+    "name5g": "WALL ST - FINANCIAL DISTRICT",
+    "lat": 40.706001,
+    "lon": -74.008801,
+    "type": "LinkNYC Public Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "LinkNYC Downtown Brooklyn",
+    "name5g": "FLATBUSH AVE EXT",
+    "lat": 40.6926,
+    "lon": -73.98843,
+    "type": "LinkNYC Public Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "LinkNYC Bronx Hub",
+    "name5g": "GRAND CONCOURSE - BRONX",
+    "lat": 40.827004,
+    "lon": -73.922363,
+    "type": "LinkNYC Public Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "NYPL Staten Island St. George",
+    "name5g": "CENTRAL AVE - ST GEORGE",
+    "lat": 40.643748,
+    "lon": -74.073643,
+    "type": "Public Library Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "LinkNYC Coney Island",
+    "name5g": "SURF AVE - CONEY ISLAND",
+    "lat": 40.575545,
+    "lon": -73.970701,
+    "type": "LinkNYC Public Wi-Fi",
+    "location": "New York"
+  },
+  {
+    "name": "Zocalo CDMX",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.432608,
+    "lon": -99.133209,
+    "type": "Public Square Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Alameda Central",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.435219,
+    "lon": -99.141197,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Monumento a la Revolucion",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.436303,
+    "lon": -99.153262,
+    "type": "Public Plaza Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Palacio de Bellas Artes",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.435156,
+    "lon": -99.141996,
+    "type": "Cultural Center Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Chapultepec Primera Seccion",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.420517,
+    "lon": -99.181694,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Auditorio Nacional",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.425119,
+    "lon": -99.194786,
+    "type": "Public Venue Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Paseo de la Reforma Angel",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.427024,
+    "lon": -99.167665,
+    "type": "Public Avenue Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Glorieta de Insurgentes",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.423589,
+    "lon": -99.162373,
+    "type": "Metro Area Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Parque Mexico",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.411417,
+    "lon": -99.171211,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Parque Espana",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.412861,
+    "lon": -99.173973,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Coyoacan Jardin Hidalgo",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.350214,
+    "lon": -99.162146,
+    "type": "Public Square Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "UNAM Biblioteca Central",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.33255,
+    "lon": -99.188889,
+    "type": "University Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "CU Las Islas",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.332198,
+    "lon": -99.186052,
+    "type": "University Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Xochimilco Embarcadero Nuevo Nativitas",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.28505,
+    "lon": -99.103653,
+    "type": "Tourist Area Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Basilica de Guadalupe",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.48494,
+    "lon": -99.117704,
+    "type": "Religious Site Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Parque Bicentenario",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.459458,
+    "lon": -99.186918,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Tlatelolco Plaza de las Tres Culturas",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.452709,
+    "lon": -99.137271,
+    "type": "Historic Plaza Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Forum Buenavista",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.446915,
+    "lon": -99.152276,
+    "type": "Transit Hub Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Metrobus Insurgentes",
+    "name5g": "Free MB Sitwifi-Station",
+    "lat": 19.423451,
+    "lon": -99.162102,
+    "type": "Metrobus Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Metrobus Reforma",
+    "name5g": "Free MB Sitwifi-Station",
+    "lat": 19.436958,
+    "lon": -99.147846,
+    "type": "Metrobus Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Metrobus Buenavista",
+    "name5g": "Free MB Sitwifi-Station",
+    "lat": 19.445183,
+    "lon": -99.152959,
+    "type": "Metrobus Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Cablebus Indios Verdes",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.495335,
+    "lon": -99.119451,
+    "type": "Cablebus Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Cablebus Cuautepec",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.529522,
+    "lon": -99.111203,
+    "type": "Cablebus Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Cablebus Santa Marta",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.36091,
+    "lon": -98.994183,
+    "type": "Cablebus Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Cablebus Constitucion 1917",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.34677,
+    "lon": -99.063896,
+    "type": "Cablebus Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Aeropuerto Terminal 1",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.436303,
+    "lon": -99.072097,
+    "type": "Airport Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Aeropuerto Terminal 2",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.433611,
+    "lon": -99.088889,
+    "type": "Airport Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Pilares Tepito",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.44395,
+    "lon": -99.12354,
+    "type": "Community Center Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Pilares Iztapalapa",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.357847,
+    "lon": -99.072578,
+    "type": "Community Center Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Parque Tezozomoc",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.504849,
+    "lon": -99.201694,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Bosque de Aragon",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.451602,
+    "lon": -99.060157,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Santa Fe Parque La Mexicana",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.359783,
+    "lon": -99.272759,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Ciudad Deportiva Magdalena Mixhuca",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.404406,
+    "lon": -99.092684,
+    "type": "Sports Complex Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Autodromo Hermanos Rodriguez",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.404919,
+    "lon": -99.09001,
+    "type": "Sports Venue Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Parque Hundido",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.372321,
+    "lon": -99.181539,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Parque de los Venados",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.370662,
+    "lon": -99.162469,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Centro Nacional de las Artes",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.357996,
+    "lon": -99.142867,
+    "type": "Cultural Center Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Museo Soumaya",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.440536,
+    "lon": -99.204944,
+    "type": "Museum Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Plaza Garibaldi",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.442563,
+    "lon": -99.137431,
+    "type": "Public Plaza Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Mercado de San Juan",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.428825,
+    "lon": -99.142214,
+    "type": "Market Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "La Ciudadela",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.429319,
+    "lon": -99.150484,
+    "type": "Public Plaza Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Arena Ciudad de Mexico",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.496247,
+    "lon": -99.201591,
+    "type": "Arena Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Hospital General de Mexico",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.413652,
+    "lon": -99.152497,
+    "type": "Hospital Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Hospital Juarez de Mexico",
+    "name5g": "WiFi CFE Internet para Todos",
+    "lat": 19.487772,
+    "lon": -99.144699,
+    "type": "Hospital Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Metro Hidalgo",
+    "name5g": "METRO WIFI CDMX",
+    "lat": 19.437315,
+    "lon": -99.147163,
+    "type": "Metro Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Metro Pino Suarez",
+    "name5g": "METRO WIFI CDMX",
+    "lat": 19.425905,
+    "lon": -99.132882,
+    "type": "Metro Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Metro Universidad",
+    "name5g": "METRO WIFI CDMX",
+    "lat": 19.324896,
+    "lon": -99.174671,
+    "type": "Metro Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Metro Indios Verdes",
+    "name5g": "METRO WIFI CDMX",
+    "lat": 19.495373,
+    "lon": -99.119914,
+    "type": "Metro Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Metro Tasquena",
+    "name5g": "METRO WIFI CDMX",
+    "lat": 19.343136,
+    "lon": -99.139896,
+    "type": "Metro Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Parque Lindavista",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.489032,
+    "lon": -99.127951,
+    "type": "Public Park Wi-Fi",
+    "location": "Mexico"
+  },
+  {
+    "name": "Explanada Iztapalapa",
+    "name5g": "CDMX-Internet para Todos",
+    "lat": 19.357655,
+    "lon": -99.092453,
+    "type": "Government Plaza Wi-Fi",
+    "location": "Mexico"
   }
 ]
